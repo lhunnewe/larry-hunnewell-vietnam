@@ -99,6 +99,13 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Housekeeping questions (anytime)
 
+- [ ] **"Do you remember your service number?"** — Draft-era Army numbers usually started
+  "US". It goes straight onto the SF-180 records request (research/records-request/) and
+  makes the NPRC search sharper. *The number itself belongs on the form, never in this repo.*
+- [ ] **"What's your VA file number — and do you still have your DD-214 from the VA claim
+  paperwork?"** — His Agent Orange claim means the VA verified his service once already; a
+  DD-214 copy may be in a drawer, which would name the unit without waiting on St. Louis.
+  *Like the service number, these identifiers stay off the repo.*
 - [ ] "Are there more slide boxes or prints anywhere that we never scanned?"
 - [ ] "Who labeled the slides originally — you or the lab? Did any get flipped or mixed up?"
   (Two scans are confirmed mirror-flipped: VN-0072, VN-0075.)
