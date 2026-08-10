@@ -1,0 +1,54 @@
+name: Export recollections from Discussions
+
+on:
+  discussion_comment:
+    types: [created, edited, deleted]
+  discussion:
+    types: [deleted]
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  discussions: read
+  actions: write
+
+# Latest-wins is safe: every run is a full idempotent sweep.
+concurrency:
+  group: export-recollections
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Export recollections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/export-recollections.mjs
+
+      - name: Commit, push, and deploy if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$(git status --porcelain data/recollections)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/recollections
+            git commit -m "Archive recollections from Discussions"
+            git pull --rebase origin main
+            git push origin main
+            # Pushes made with GITHUB_TOKEN don't trigger on:push workflows,
+            # so dispatch the Pages deploy explicitly.
+            gh workflow run deploy.yml
+          else
+            echo "No changes."
+          fi
