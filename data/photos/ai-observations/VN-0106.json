@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0106",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Camp lane at midday: a young Vietnamese woman with EXTRAORDINARY KNEE-LENGTH HAIR, in a green blouse and black trousers, strides across the sandy lane in sandals, glancing toward the camera. Foreground left: an older U.S. soldier (garrison cap, 'U.S. ARMY' tape, watch) passes close to the lens; another soldier walks the lane behind; a woman in pink with a conical hat carries a white pail further back. Along the right: tin-roofed hooches with striped-wall panels and neat sandbag stacks; utility poles with lamp fixtures; hazy mountains at the lane's end.",
+  "visibleText": ["U.S. ARMY tape — legible; name tape not resolvable"],
+  "objects": ["camp hooches with sandbags", "utility lighting", "civilian staff and soldiers sharing the lane"],
+  "setting": "Daily life inside the camp — Vietnamese employees (laundry, mess, cleaning staff were commonly local women) among the troops. Mountain backdrop links to the VN-0096/VN-0104 coastal-camp chain.",
+  "people": { "count": 4, "notes": "The long-haired woman is a striking portrait subject; the older soldier's face is clear." },
+  "landmarkHypotheses": ["Same coastal camp as VN-0096/VN-0104 (Nha Trang hypothesis)."],
+  "geolocationHypothesis": { "hypothesis": "Coastal camp lane, Nha Trang region.", "reasoning": "Chain continuity.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0096", "VN-0104"],
+  "questionsForLarry": ["Who were the Vietnamese women who worked in camp? Do you remember the girl with the knee-length hair?"],
+  "qualityNotes": "Kodachrome slide, harsh sun, strong subjects; memorable human frame."
+}

@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0105",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "TOKYO, UENO-HIROKŌJI AVENUE from above (likely the park overlook): a broad boulevard swims with traffic — taxis, sedans, buses, kei-vans — between commercial blocks crowned with big Japanese signs: 協和銀行 / KYOWA BANK (twice), a ゴールデンストア ('Golden Store') banner ad with a child's face, 第一銀行 (Dai-Ichi Bank), and others receding into backlit haze; radio towers on the skyline; autumn street trees and crowds along the sidewalks below.",
+  "visibleText": [
+    "協和銀行 / KYOWA BANK — legible (bilingual)",
+    "ゴールデンストア banner — legible",
+    "第一銀行 — legible"
+  ],
+  "objects": ["boulevard traffic", "bank-crowned blocks", "radio towers", "autumn trees"],
+  "setting": "Fifth Japan frame — the Ueno commercial district in autumn haze; pairs with VN-0100's rail corridor.",
+  "people": { "count": 30, "notes": "Sidewalk crowds at distance." },
+  "landmarkHypotheses": ["Ueno-Hirokōji, Tokyo (bank signage + park vantage)."],
+  "geolocationHypothesis": { "hypothesis": "Ueno district, Tokyo, autumn.", "reasoning": "Signage and vantage.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0100", "VN-0095", "VN-0103", "Issue #9"],
+  "questionsForLarry": ["Where did you stay in Tokyo? PX runs, sukiyaki dinners — what do you remember spending your pay on?"],
+  "qualityNotes": "Kodachrome slide, backlit haze; signage crisp in foreground."
+}

@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0110",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The vast gravel plaza before the TOKYO IMPERIAL PALACE ramparts: pine-crowned stone walls run the full width, with a corner watchtower roof (Fushimi/Fujimi-yagura family) rising at far left and a sloping buttress mid-wall; small groups of visitors — families with children, men in dark suits — stroll the expanse; pigeons peck the gravel foreground; a Western-style building and lamppost at far right beyond the moat corner.",
+  "visibleText": [],
+  "objects": ["palace ramparts and pines", "corner watchtower", "gravel plaza, pigeons, strollers"],
+  "setting": "Kōkyo-mae plaza — companion to the Nijūbashi portrait (VN-0093): this is the photographer's-eye frame of the same visit; seventh Japan frame.",
+  "people": { "count": 12, "notes": "Visitors at distance." },
+  "landmarkHypotheses": ["Imperial Palace outer plaza, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Kōkyo-mae, Tokyo.", "reasoning": "Ramparts + towers.", "confidence": "high" },
+  "crossReferences": ["VN-0093", "VN-0095", "Issue #9"],
+  "questionsForLarry": ["What impressed you most about the palace grounds?"],
+  "qualityNotes": "Kodachrome slide, pale washed light; wide documentary frame."
+}

@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0111",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Soft-focus beachfront: a round/octagonal PAVILION with striped awnings and green lattice sides stands at the sand's edge; concrete benches dot the foreground beach; across the calm bay, a chain of hills and islands recedes; a young palm blurs the right edge. Overcast sea light.",
+  "visibleText": [],
+  "objects": ["beach pavilion with awnings", "concrete benches", "bay with island hills"],
+  "setting": "An established beachfront pavilion — consistent with the NHA TRANG shoreline chain (VN-0094 promenade, VN-0018/0021 beach), where such pavilions stood along the esplanade.",
+  "people": { "count": 1, "notes": "Single distant figure on sand." },
+  "landmarkHypotheses": ["Nha Trang esplanade pavilion (hypothesis)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang beachfront.", "reasoning": "Bay/island profile continuity.", "confidence": "medium" },
+  "crossReferences": ["VN-0094", "VN-0018", "VN-0021"],
+  "questionsForLarry": ["Do you remember this round pavilion on the beach?"],
+  "qualityNotes": "Kodachrome slide, soft focus, heavy dust."
+}

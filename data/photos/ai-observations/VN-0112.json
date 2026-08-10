@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0112",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "TOKYO, WADAKURA FOUNTAIN PARK — THE FRIEND'S PORTRAIT. The recurring dark-haired friend stands hands-in-pockets before the great fountain pool, its central jets and arcing sprays behind him; the palace's TATSUMI-YAGURA watchtower rises at upper right over the moat walls; Japanese couples and children admire the fountains around the hedged pool; a wire trash basket at lower left.",
+  "visibleText": [],
+  "objects": ["fountain pool with jets", "Tatsumi-yagura watchtower", "hedge borders"],
+  "setting": "Wadakura Fountain Park beside the Imperial Palace (built 1961) — the friend's formal portrait stop on the same palace visit as VN-0093 (where LARRY posed). The pair clearly traded camera duties: one frame each at each landmark. Eighth Japan frame.",
+  "people": { "count": 8, "notes": "The friend (identity = top research goal), Japanese visitors." },
+  "landmarkHypotheses": ["Wadakura Fountain Park, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace outer gardens, Tokyo.", "reasoning": "Fountain + turret.", "confidence": "high" },
+  "crossReferences": ["VN-0093 (Larry's turn)", "VN-0110", "Issue #9"],
+  "questionsForLarry": ["Here is your friend again at the Tokyo fountains - please, his name and where he was from?"],
+  "qualityNotes": "Kodachrome slide, sparkling fountain exposure; fine portrait of the friend."
+}

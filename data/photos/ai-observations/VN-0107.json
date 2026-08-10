@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0107",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "SAIGON FROM A ROOFTOP — the TAX DEPARTMENT STORE'S curved corner fills the right foreground, its rooftop spelling 'TAX' in giant letters with 'SONY' and '...RAMA WATCH' signs on the facade below. The tree-canopied boulevard (Nguyễn Huệ) runs away toward the hazy river past market stalls, parked cars, scooters, and a truck; an apartment block rises left with a distant cathedral-like dome at far left; tile roofs beyond the TAX.",
+  "visibleText": [
+    "'TAX' rooftop letters — legible (the landmark TAX department store)",
+    "'SONY' — legible",
+    "'...RAMA WATCH' (probably PANORAMA WATCH) — mostly legible"
+  ],
+  "objects": ["TAX store corner", "Nguyễn Huệ boulevard canopy", "market stalls, traffic"],
+  "setting": "Shot from a high balcony over the Nguyễn Huệ/Lê Lợi corner — plausibly the REX HOTEL (a U.S. billet, directly opposite the TAX). If so, Larry stood on one of the most storied rooftops of the American war. Downtown anchor set complete: City Hall, Opera House, fountain circle, Nguyễn Huệ plate, and now TAX/Rex.",
+  "people": { "count": 15, "notes": "Street level, small." },
+  "landmarkHypotheses": ["TAX store / Rex Hotel corner, central Saigon — conclusive for the TAX; vantage = Rex hypothesis."],
+  "geolocationHypothesis": { "hypothesis": "Nguyễn Huệ at Lê Lợi from the Rex Hotel roof area.", "reasoning": "Signage + geometry.", "confidence": "high for location; medium for vantage" },
+  "crossReferences": ["VN-0097", "VN-0081", "VN-0068", "VN-0102"],
+  "questionsForLarry": ["Were you up on the Rex? Did you ever stay or eat there?"],
+  "qualityNotes": "Kodachrome slide, hazy light; strong urban-geography frame."
+}

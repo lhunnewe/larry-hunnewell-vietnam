@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0103",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "TOKYO, UENO TŌSHŌ-GŪ SHRINE — the gilded karamon gate and green-tiled shrine building with black-and-gold gable carvings, unmistakable. Japanese visitors in dark suits and winter coats stream toward the camera between stone lantern rows and paper-lantern stands; a three-wheeled truck parks at left; votive boards and a posted white sign hang by the gate. Bare branches overhang.",
+  "visibleText": ["Posted signs and votive boards — Japanese, not resolvable"],
+  "objects": ["Tōshō-gū gilded gate and shrine", "stone lanterns", "three-wheel truck", "winter-dressed crowd"],
+  "setting": "Fourth Japan frame — Ueno Park's famous shrine, minutes from the Saigō statue (VN-0095). Cool-season crowd again (see the Japan-dating research note in VN-0095).",
+  "people": { "count": 15, "notes": "Japanese public." },
+  "landmarkHypotheses": ["Ueno Tōshō-gū, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Ueno Park, Tokyo.", "reasoning": "Unmistakable architecture.", "confidence": "high" },
+  "crossReferences": ["VN-0093", "VN-0095", "VN-0100", "Issue #9"],
+  "questionsForLarry": ["Did you visit the temples in Ueno? What did you think of Japan after months in Vietnam?"],
+  "qualityNotes": "Kodachrome slide, excellent color on gilding."
+}

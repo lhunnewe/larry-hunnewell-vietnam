@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0113",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Palace ramparts from below: the white FUSHIMI-YAGURA keep and its long connecting gallery ride the wooded scarp above massive dry-stone walls; pines lean from the grassy embankment in golden afternoon light; the iron railing and stone arch of the Nijūbashi bridge approach show at lower left.",
+  "visibleText": [],
+  "objects": ["Fushimi-yagura and gallery", "cyclopean stone walls", "pines, embankment", "bridge railing corner"],
+  "setting": "Ninth Japan frame — the scenic study of the palace works, companion to the posed frames.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Fushimi-yagura, Imperial Palace, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace, Tokyo.", "reasoning": "Architecture.", "confidence": "high" },
+  "crossReferences": ["VN-0093", "VN-0110", "VN-0112"],
+  "questionsForLarry": ["Did you and your friend take turns with the camera all day?"],
+  "qualityNotes": "Kodachrome slide, warm side-light, handsome composition."
+}

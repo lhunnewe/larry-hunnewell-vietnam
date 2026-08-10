@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0114",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Nijūbashi once more, now as pure street observation: a Japanese tour group in dark suits and dresses lines up for THEIR photo before the double-arched bridge and Fushimi-yagura; in the foreground an older man wears a white SURGICAL MASK under a grey cap (a sight that would have struck an American in 1965); a photographer in black crouches at left; the lamppost bisects the frame; families and pigeons along the moat rail at right.",
+  "visibleText": [],
+  "objects": ["Nijūbashi and watchtower", "tour group posing", "surgical mask, period fashions", "lamppost"],
+  "setting": "Tenth Japan frame — Larry photographing the Japanese photographing themselves; the collection's best people-watching frame from the trip.",
+  "people": { "count": 14, "notes": "Japanese visitors." },
+  "landmarkHypotheses": ["Nijūbashi plaza, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace plaza, Tokyo.", "reasoning": "Landmark.", "confidence": "high" },
+  "crossReferences": ["VN-0093", "VN-0110", "VN-0112", "VN-0113"],
+  "questionsForLarry": ["What surprised you most about the Japanese crowds?"],
+  "qualityNotes": "Kodachrome slide, good light; lively documentary frame."
+}

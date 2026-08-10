@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0109",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Second frame of the Ueno-Hirokōji panorama (with VN-0105), moments apart: pedestrians now cross the boulevard mid-frame between ranks of taxis and sedans; the Kyowa Bank corner, Golden Store banner, Dai-Ichi Bank sign, radio towers, and hazy depth of Tokyo repeat; sidewalk crowds thicker on the left; the striped kiosk and park trees at lower right.",
+  "visibleText": ["協和銀行 / KYOWA BANK, ゴールデンストア, 第一銀行 — legible (as VN-0105)"],
+  "objects": ["boulevard crosswalk, taxis", "bank signage", "park overlook foreground"],
+  "setting": "Same vantage as VN-0105 — Tokyo in autumn, sixth Japan frame.",
+  "people": { "count": 40, "notes": "Crosswalk group distinct." },
+  "landmarkHypotheses": ["Ueno-Hirokōji, Tokyo."],
+  "geolocationHypothesis": { "hypothesis": "Ueno district, Tokyo, autumn.", "reasoning": "Same scene as VN-0105.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0105", "VN-0100", "Issue #9"],
+  "questionsForLarry": ["Did you ride the trains around Tokyo or mostly walk?"],
+  "qualityNotes": "Kodachrome slide, backlit haze."
+}

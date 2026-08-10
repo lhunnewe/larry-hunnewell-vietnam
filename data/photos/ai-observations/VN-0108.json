@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0108",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Second construction-site frame (with VN-0104): through the barbed-wire fence, poured slab foundations with form stakes, lumber piles, and a rolled bundle of corrugated or mesh panels; beyond, the village's tile- and tin-roofed houses, palms, and a truss bridge section; and above it all a MASSIVE MOUNTAIN wearing a cloud cap, flanked by lesser ridges — the best mountain-profile frame of this camp chain, usable for matching against Nha Trang-area peaks (e.g. the Hòn Bà massif).",
+  "visibleText": [],
+  "objects": ["foundation slabs, formwork", "barbed wire", "village roofs, truss bridge element", "large cloud-capped mountain"],
+  "setting": "The expanding camp beside its village, beneath the big mountain — same site as VN-0104; the mountain silhouette is the geolocation payload.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Mountain profile matchable against Nha Trang hinterland peaks."],
+  "geolocationHypothesis": { "hypothesis": "Coastal camp below a major peak, Nha Trang region.", "reasoning": "Chain continuity + mountain scale.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0104", "VN-0096", "VN-0106"],
+  "questionsForLarry": ["What was the big mountain behind camp called — did you ever go up it?"],
+  "qualityNotes": "Kodachrome slide, heavy dust; mountain profile clear."
+}

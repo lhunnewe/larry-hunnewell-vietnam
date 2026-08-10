@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0104",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "BASE EXPANSION UNDERWAY: through a barbed-wire fence line with concrete posts, a construction field of poured foundations, form boards, and rebar-topped piers stretches toward a village edge — thatch and tin houses, tin roofs (red and grey), a conical-hatted worker carrying materials, another crouched at the forms, a mechanical digger or mixer at right. Green hills and mountains beyond under big clouds; a globe streetlamp on the near pole; sandbags stacked at lower right.",
+  "visibleText": [],
+  "objects": ["concrete foundations under construction", "barbed-wire fence", "village houses adjoining", "construction equipment, worker crews"],
+  "setting": "New camp construction beside an existing village — physical evidence of the 1964-65 American buildup. Mountain skyline suggests the Nha Trang coastal belt (chain with VN-0096/VN-0106).",
+  "people": { "count": 3, "notes": "Vietnamese construction workers." },
+  "landmarkHypotheses": ["Nha Trang-area camp expansion (hypothesis)."],
+  "geolocationHypothesis": { "hypothesis": "Coastal camp under expansion, Nha Trang region.", "reasoning": "Terrain continuity with adjacent frames.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0096", "VN-0106", "data/places/nha-trang.json"],
+  "questionsForLarry": ["Was the camp growing while you were there — new buildings going up around you?"],
+  "qualityNotes": "Kodachrome slide, good depth; buildup documentation value."
+}
