@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0119",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "STORM SURF: a wall of monsoon whitewater bursts across the whole frame as two boys in shorts brave the shallows; a young Vietnamese man in a dark shirt passes close to the camera, soft-focus, at left; the wet sand mirrors the foam; a distinctive PYRAMID-SHAPED ISLET and a companion rock break the horizon far offshore.",
+  "visibleText": [],
+  "objects": ["storm surf wall", "two boys bathing", "pyramid islet offshore"],
+  "setting": "The monsoon-season beach again (VN-0021 chain) — the offshore pyramid islet is a good matching feature for the NHA TRANG bay (its outlying rocks have distinctive profiles).",
+  "people": { "count": 3, "notes": "Local boys and passer-by." },
+  "landmarkHypotheses": ["Nha Trang bay islets (profile matchable)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang beach, monsoon season (roughly Oct-Dec 1964 window).", "reasoning": "Surf + islet profile + chain continuity; monsoon surf also hints at season.", "confidence": "medium" },
+  "crossReferences": ["VN-0021", "VN-0018", "VN-0094"],
+  "questionsForLarry": ["Do you remember the huge monsoon surf in your first months?"],
+  "qualityNotes": "Kodachrome slide, spray-hazed; dynamic frame."
+}

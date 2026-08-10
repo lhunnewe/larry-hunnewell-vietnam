@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0121",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "LARRY'S TURN AT THE FOUNTAINS — the companion frame to VN-0112: the fair-haired soldier (Larry, face-matched) stands hands-at-sides before the Wadakura fountain pool, white shirt with sleeves rolled, dark trousers, black camera-bag strap across his chest; the great central jet rockets up behind his head; Japanese couples and a crouching little boy admire the pool at right; the Tatsumi-yagura watchtower and moat pines behind.",
+  "visibleText": [],
+  "objects": ["fountain jets", "camera-bag strap", "Tatsumi-yagura"],
+  "setting": "Wadakura Fountain Park, Tokyo — the pair's matched portraits (VN-0112 = the friend, this = Larry) prove the two-man trip beyond doubt. Thirteenth Japan frame.",
+  "people": { "count": 8, "notes": "Larry (machine ID), Japanese visitors." },
+  "landmarkHypotheses": ["Wadakura Fountain Park, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace outer gardens, Tokyo.", "reasoning": "Landmark.", "confidence": "high" },
+  "crossReferences": ["VN-0112 (friend's matching portrait)", "VN-0093", "Issue #9"],
+  "questionsForLarry": ["Two portraits at the same fountain — you and your friend. Tell us about that day."],
+  "qualityNotes": "Kodachrome slide, backlit spray luminous; one of the best Larry portraits in the collection."
+}

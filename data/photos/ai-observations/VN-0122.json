@@ -1,0 +1,17 @@
+{
+  "photoId": "VN-0122",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Tokyo freight-yard panorama: strings of brown and black boxcars stand across the multi-track yard behind a web of catenary masts and wires; the commercial skyline behind carries a forest of rooftop signs — 平和相互銀行 (Heiwa Sōgō Bank, vertical tower sign), 住友銀行 (Sumitomo Bank), 常陽銀行 (Jōyō Bank), 日本生命 (Nippon Life), 郵便貯金 (postal savings), and a sake brand (力正宗); an autumn-gold ginkgo crown at lower right.",
+  "visibleText": [
+    "平和相互銀行, 住友銀行, 常陽銀行, 日本生命, 郵便貯金, 力正宗 — legible rooftop signage"
+  ],
+  "objects": ["freight boxcars, catenary gantries", "bank-signed skyline", "autumn ginkgo"],
+  "setting": "Fourteenth Japan frame — companion to VN-0100's rail corridor; Larry was clearly fascinated by the railways.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Central Tokyo yards (Yūrakuchō-Shimbashi corridor)."],
+  "geolocationHypothesis": { "hypothesis": "Central Tokyo, autumn.", "reasoning": "Signage.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0100", "VN-0105", "Issue #9"],
+  "questionsForLarry": ["Did you take the trains out of Tokyo anywhere — Kamakura, Yokohama?"],
+  "qualityNotes": "Kodachrome slide, clear; signage-rich."
+}

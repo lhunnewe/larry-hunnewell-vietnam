@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0116",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A DELTA-TOWN RIVERFRONT: along a broad esplanade, a black-hulled coastal ship lies at the quay, its bow name partially legible as 'ZIPPE...' (possibly ZIPPER); beside it an ornamental MUSHROOM-SHAPED TOPIARY tree marks a small riverside garden. Cyclists and a moped rider cross the open plaza; vendors with carts and a conical-hatted walker at right; across the river, red-roofed colonial buildings, palms, sampans, and a shop sign ('Sarid...?') on the far bank. Crane mast at far left.",
+  "visibleText": [
+    "Ship bow name 'ZIPPE...' — partially legible; SEARCHABLE (coastal shipping registries)",
+    "'Sarid...' sign far right — partial"
+  ],
+  "objects": ["coastal ship at quay", "mushroom topiary", "esplanade with cyclists, vendors", "colonial riverfront opposite"],
+  "setting": "A Mekong-delta or river town waterfront (Mỹ Tho / Cần Thơ class) on Larry's travels — the topiary and esplanade suggest a proud provincial promenade.",
+  "people": { "count": 15, "notes": "Street life." },
+  "landmarkHypotheses": ["Delta town riverfront — ship name + topiary matchable against period town photos."],
+  "geolocationHypothesis": { "hypothesis": "Mekong delta town esplanade.", "reasoning": "River scale, architecture.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0072", "VN-0077 (river-crossing set)"],
+  "questionsForLarry": ["Which river town is this — My Tho? What took you down to the delta?"],
+  "qualityNotes": "Kodachrome slide, bright; ship name is the research key."
+}

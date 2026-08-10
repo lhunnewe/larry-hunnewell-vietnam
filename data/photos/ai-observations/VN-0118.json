@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0118",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Second, closer frame of the SAIGŌ TAKAMORI statue in Ueno Park (with VN-0095): the bronze and his dog atop the inscribed plinth ringed by pigeons; the crowd mills below — a woman in a red suit at center, a uniformed schoolboy passing in the foreground, a little girl in a patterned cardigan at the rail, kiosk and bare ginkgos behind; warmer light and better color than the first frame.",
+  "visibleText": ["Plinth inscription — Japanese, not resolvable"],
+  "objects": ["Saigō statue with dog", "crowd, kiosk", "bare autumn trees"],
+  "setting": "Twelfth Japan frame — the pair walked Ueno thoroughly; the crowd portraits are excellent.",
+  "people": { "count": 20, "notes": "Japanese public." },
+  "landmarkHypotheses": ["Ueno Park, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Ueno Park, Tokyo, cool season.", "reasoning": "Statue + foliage.", "confidence": "high" },
+  "crossReferences": ["VN-0095", "VN-0103", "Issue #9"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, warm light, rich crowd detail."
+}

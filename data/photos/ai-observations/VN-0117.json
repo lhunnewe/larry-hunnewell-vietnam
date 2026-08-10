@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0117",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A C-123 PROVIDER transport roars LOW over the camp — twin engines, high tail, gear presumably down on approach — framed between the red-roofed barracks (left) and the mint-green buildings (right) of the now-familiar coastal camp; laundry lines wave below, utility poles crowd the mid-ground, vehicles half-hidden between buildings, and the big mountain broods under cloud beyond.",
+  "visibleText": [],
+  "objects": ["C-123 Provider on low approach", "camp barracks (red and green roofs)", "laundry, wire, poles", "mountain backdrop"],
+  "setting": "The camp lies under the approach path of an airfield taking C-123s — strengthening the NHA TRANG AIR BASE identification of this camp chain (VN-0096/0104/0106/0108): Larry's quarters were beside the runway.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Camp under the Nha Trang runway approach (hypothesis strengthened by aircraft)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang air base camp area.", "reasoning": "C-123 approach over camp + chain continuity.", "confidence": "medium" },
+  "crossReferences": ["VN-0096", "VN-0099 (Caribou at the same class of field)", "VN-0104", "VN-0106"],
+  "questionsForLarry": ["Did the transports come right over your hooch like this? Loud enough to stop conversation?"],
+  "qualityNotes": "Kodachrome slide, slight motion blur, aircraft sharp enough for type ID."
+}

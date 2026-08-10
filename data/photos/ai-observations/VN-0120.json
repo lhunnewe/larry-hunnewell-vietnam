@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0120",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE DEFINITIVE NGUYỄN HUỆ FRAME — SAIGON CITY HALL dead ahead. Down the boulevard's landscaped median, the wedding-cake HÔTEL DE VILLE (City Hall) fills the vista with its clock tower and statuary. Kiosk rows line both sides, signs legible: 'PHOTOCOPIE' (twice), 'BẠCH-LAN', 'MẪU-ĐƠN', 'HOA-HỒNG(?)', flower stalls. Vehicles with LEGIBLE PLATES: a tan Willys wagon 'NT.B 9800' center; a black sedan 'NBN 726'; a blue 4CV taxi 'NBB 357' right; a Citroën 2CV van 'HCC 493' left; an Army jeep mid-traffic; a 'DRINK [Royal Crown-style]' rooftop billboard at upper right. This frame CONFIRMS the earlier City Hall hypothesis (VN-0040) with certainty.",
+  "visibleText": [
+    "PHOTOCOPIE (x2), BẠCH-LAN, MẪU-ĐƠN, HOA-HỒNG(?) — kiosk signs legible",
+    "Plates: NT.B 9800 / NBN 726 / NBB 357 / HCC 493 — legible",
+    "DRINK [Royal Crown?] billboard — partial"
+  ],
+  "objects": ["City Hall façade and tower", "kiosk median", "period vehicles with plates", "Army jeep"],
+  "setting": "Nguyễn Huệ Boulevard toward City Hall, central Saigon — landmark-certain. The Saigon downtown set is now complete and internally consistent.",
+  "people": { "count": 6, "notes": "Distant pedestrians." },
+  "landmarkHypotheses": ["Saigon City Hall — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Nguyễn Huệ at City Hall, Saigon.", "reasoning": "Architecture, continuity.", "confidence": "high" },
+  "crossReferences": ["VN-0040 (hypothesis now confirmed)", "VN-0068", "VN-0097", "VN-0107"],
+  "questionsForLarry": ["What business brought you downtown — or was it just to see it?"],
+  "qualityNotes": "Kodachrome slide with edge light-leak stains; detail superb. Exhibition-grade street frame."
+}
