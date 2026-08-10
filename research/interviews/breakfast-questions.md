@@ -4,6 +4,10 @@ A prioritized interview guide distilled from the AI survey of all 157 photograph
 (`data/photos/ai-observations/`). Each entry names the photos to show him and says what the
 answer would unlock. Full per-photo question lists live in the observation records.
 
+> **Mobile version:** this guide is also a website page at `/interview/`
+> (src/pages/interview.astro) with tap-to-open photo links and checkboxes that persist on the
+> device — built for the breakfast table. Keep the two in sync when questions change.
+
 **How to use this**
 
 - One or two photos per breakfast. Show the actual picture (the website gallery on a tablet

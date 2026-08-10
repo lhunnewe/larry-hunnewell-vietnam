@@ -1,0 +1,274 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+
+// The breakfast interview guide, distilled from the AI survey
+// (research/interviews/breakfast-questions.md is the working copy).
+// Checkboxes persist in the browser's localStorage on whatever device
+// you use at the table.
+
+interface Question {
+  id: string;
+  q: string;
+  why?: string;
+  photos: string[];
+}
+
+const tiers: { title: string; intro?: string; questions: Question[] }[] = [
+  {
+    title: 'The big unlocks',
+    intro: 'One per breakfast. Each answer opens a research door.',
+    questions: [
+      {
+        id: 'is-this-you',
+        q: '“Is this you?” — the mountain photo with your name tape.',
+        why: 'Confirms Larry across the whole collection. The warmest opener.',
+        photos: ['vn-0028', 'vn-0029', 'vn-0022', 'vn-0015'],
+      },
+      {
+        id: 'the-friend',
+        q: '“Who is your friend? He’s in your photos everywhere — and he was WITH you in Japan.”',
+        why: 'The most valuable name in the archive — a likely living witness to the Stars and Stripes story.',
+        photos: ['vn-0022', 'vn-0093', 'vn-0112'],
+      },
+      {
+        id: 'unit-markings',
+        q: '“What was on your pocket patch — and what did your unit paint on its helicopters?”',
+        why: 'The unit question: “118th AOD” vs. the 118th Aviation Company “Thunderbirds.”',
+        photos: ['vn-0028', 'vn-0012', 'vn-0141'],
+      },
+      {
+        id: 'ops-van',
+        q: '“Where was this van — the company headquarters you call Thom Son Nuht? And who’s the man whose name starts with W-E?”',
+        why: 'The place question, plus a second unit-member name.',
+        photos: ['vn-0015', 'vn-0014'],
+      },
+      {
+        id: 'japan-cold',
+        q: '“Was it cold in Japan? The trees are bare and everyone’s in coats. Was that the trip when you saw the newspaper?”',
+        why: 'All 21 Tokyo frames read cool-season — his answer redirects the Stars and Stripes search.',
+        photos: ['vn-0093', 'vn-0095'],
+      },
+      {
+        id: 'roster-names',
+        q: '“Do you remember these names painted on the rocks — Rewerts, Garvey, Kirby, Captain Lynch, Dean, Willcut? Was Sergeant Lowry’s name up there?”',
+        why: 'The Sgt. Lowry search and the identity of the mountain site.',
+        photos: ['vn-0035', 'vn-0133'],
+      },
+      {
+        id: 'burning-base',
+        q: '“You photographed this fire twice from the air. What happened — was it the big Bien Hoa explosion in May ’65?”',
+        why: 'A dateable documented event, and possibly the unit’s home field.',
+        photos: ['vn-0074', 'vn-0078'],
+      },
+      {
+        id: 'home-base',
+        q: '“Which base was home — is this camp Nha Trang? Is T 123 where you slept?”',
+        why: 'Anchors half the collection’s geography in one answer.',
+        photos: ['vn-0136', 'vn-0117', 'vn-0017'],
+      },
+    ],
+  },
+  {
+    title: 'Quick confirmations',
+    intro: 'Fast yes/no questions over coffee.',
+    questions: [
+      { id: 'mountain-radio', q: '“Is this the top of Núi Bà Đen — and was that your radio room behind the RADIO door?”', photos: ['vn-0044', 'vn-0059'] },
+      { id: 'beach-nhatrang', q: '“Is this the beach at Nha Trang?”', photos: ['vn-0018', 'vn-0022', 'vn-0094'] },
+      { id: 'pool-where', q: '“Where was that pool — on base, or the big sporting club in Saigon?”', photos: ['vn-0004', 'vn-0075', 'vn-0083'] },
+      { id: 'town-tayninh', q: '“Is this the town under the mountain — Tây Ninh?”', photos: ['vn-0055'] },
+      { id: 'monument-town', q: '“Which town is this monument square in?”', photos: ['vn-0130'] },
+      { id: 'crash', q: '“Whose helicopter went down here? Did everyone get out?”', photos: ['vn-0148'] },
+      { id: 'saigon-trips', q: '“What took you into Saigon — duty or passes? Were you there for Tết ’65?”', photos: ['vn-0120', 'vn-0068'] },
+    ],
+  },
+  {
+    title: 'Stories & people',
+    intro: 'No research agenda — pure memoir gold. Let him wander.',
+    questions: [
+      { id: 'guitar', q: '“Who could actually play the guitar? What did you all sing?”', photos: ['vn-0003', 'vn-0007', 'vn-0008'] },
+      { id: 'mother-baby', q: '“The mother and baby by your batteries on the mountain — who were they?”', photos: ['vn-0145', 'vn-0156'] },
+      { id: 't122-family', q: '“The ladies next door at T 122 — laundry? cooking? What were their names?”', photos: ['vn-0155'] },
+      { id: 'mascots', q: '“The monkey — and the black gibbon. Names? Whose were they?”', photos: ['vn-0017', 'vn-0152'] },
+      { id: 'club-nights', q: '“How often did the shows come through the club? Anyone you can name in the crowd?”', photos: ['vn-0030', 'vn-0034'] },
+      { id: 'python', q: '“The day they caught the big python — did they eat it?”', photos: ['vn-0153'] },
+      { id: 'thompson', q: '“Was that your Thompson on your bunk? Did you ever have to use it?”', photos: ['vn-0082', 'vn-0084'] },
+      { id: 'red-ao-dai', q: '“Who is she? This one looks like it mattered.”', photos: ['vn-0154'] },
+      { id: 'camera-girl', q: '“She’s holding a camera — did she take any of these pictures?”', photos: ['vn-0151'] },
+      { id: 'more-slides', q: '“Are there more slide boxes or prints anywhere that we never scanned?”', photos: [] },
+    ],
+  },
+];
+---
+
+<BaseLayout title="Interview Guide">
+  <span class="eyebrow">For the breakfast table</span>
+  <h1>Questions for Dad</h1>
+  <p class="lede">
+    One or two of these over breakfast is plenty. Tap a photo to open it — then let him talk,
+    and put what he says, word for word, into the <strong>Memories</strong> box on that photo's
+    page. Never correct a memory; if it differs from the research, both get kept.
+  </p>
+  <p class="record">Checked boxes are remembered on this device.</p>
+
+  {tiers.map((tier) => (
+    <section>
+      <h2>{tier.title}</h2>
+      {tier.intro && <p class="tier-intro">{tier.intro}</p>}
+      <ul class="questions">
+        {tier.questions.map((item) => (
+          <li class="question">
+            <label class="q-row">
+              <input type="checkbox" class="q-check" data-id={item.id} />
+              <span class="q-text">{item.q}</span>
+            </label>
+            {item.why && <p class="q-why">{item.why}</p>}
+            {item.photos.length > 0 && (
+              <p class="q-photos">
+                {item.photos.map((p) => (
+                  <a class="photo-chip" href={withBase(`/photos/${p}/`)}>{p.toUpperCase()}</a>
+                ))}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  <section class="held">
+    <h2>Held for the right moment</h2>
+    <p>
+      One photograph — <strong>VN-0157</strong>, a wounded man aboard a helicopter — is not a
+      breakfast question. When Dad is ready, and only then: <em>“Do you remember this man and
+      this day?”</em> His answer also decides whether that photo is ever shown publicly. It is
+      deliberately not linked here; it lives in the archive.
+    </p>
+  </section>
+
+  <p class="record">
+    Working copy with full notes: <span class="record">research/interviews/breakfast-questions.md</span>
+    &middot; per-photo question lists: <span class="record">data/photos/ai-observations/</span>
+  </p>
+</BaseLayout>
+
+<script>
+  const boxes = document.querySelectorAll<HTMLInputElement>('.q-check');
+  boxes.forEach((box) => {
+    const key = `interview-${box.dataset.id}`;
+    box.checked = localStorage.getItem(key) === '1';
+    box.closest('.question')?.classList.toggle('done', box.checked);
+    box.addEventListener('change', () => {
+      localStorage.setItem(key, box.checked ? '1' : '0');
+      box.closest('.question')?.classList.toggle('done', box.checked);
+    });
+  });
+</script>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .tier-intro {
+    color: var(--ink-soft);
+    margin-top: -0.4rem;
+  }
+
+  .questions {
+    list-style: none;
+    padding: 0;
+    margin: 1.2rem 0 0;
+    max-width: var(--measure);
+  }
+
+  .question {
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .question.done {
+    opacity: 0.55;
+  }
+
+  .question.done .q-text {
+    text-decoration: line-through;
+    text-decoration-color: var(--khaki);
+  }
+
+  .q-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    cursor: pointer;
+  }
+
+  .q-check {
+    width: 1.6rem;
+    height: 1.6rem;
+    flex: none;
+    margin-top: 0.15rem;
+    accent-color: var(--olive);
+  }
+
+  .q-text {
+    font-size: 1.08rem;
+    line-height: 1.5;
+  }
+
+  .q-why {
+    margin: 0.5rem 0 0 2.5rem;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+
+  .q-photos {
+    margin: 0.7rem 0 0 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .photo-chip {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border: 1px solid var(--khaki);
+    background: var(--paper);
+    padding: 0.45em 0.8em;
+    color: var(--ink);
+  }
+
+  .photo-chip:hover,
+  .photo-chip:focus-visible {
+    border-color: var(--signal);
+    color: var(--signal);
+  }
+
+  .held {
+    border: 1px solid var(--khaki);
+    background: var(--paper-deep);
+    padding: 1.2rem 1.4rem;
+    max-width: var(--measure);
+    margin-top: 2.5rem;
+  }
+
+  .held h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  .held p {
+    margin: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .q-why,
+    .q-photos {
+      margin-left: 0;
+    }
+  }
+</style>
