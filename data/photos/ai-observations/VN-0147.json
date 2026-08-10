@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0147",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Villa-lane vignette: a schoolgirl in white áo dài rides a VELOSOLEX motorized bicycle away down the sunlit lane, satchel on the rear rack; a man in a fedora-style hat pedals a tall silver bicycle across the frame at right, sandals on the pedals; a decorative aqua GATE with woven-diamond pattern stands in the white fence between concrete pillars (small address plaque on the pillar, not resolvable); parked bicycles lean at left; palms overhang; the photographer shoots from shade past a doorpost.",
+  "visibleText": ["Gate address plaque — present, not resolvable"],
+  "objects": ["Velosolex moped", "tall roadster bicycle", "patterned gate, villa fence"],
+  "setting": "The white-fence villa lane (same fence family as VN-0144) — the Solex-riding schoolgirl is the quintessential 1960s Vietnam street image.",
+  "people": { "count": 2, "notes": "No identity claims." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Villa district lane (same street as VN-0144?).", "reasoning": "Fence continuity.", "confidence": "low" },
+  "crossReferences": ["VN-0144", "VN-0042"],
+  "questionsForLarry": ["Do you remember the girls riding Solexes to school in their white ao dai?"],
+  "qualityNotes": "Slide with mount vignette; warm light, charming composition."
+}

@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0152",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Close portrait of a shaggy BLACK PRIMATE — gibbon or young ape-like monkey, backlit so its face is in shadow — standing four-legged on a curved WHITE FIBERGLASS surface (aircraft cowling, water tank, or boat hull) with a pink canvas panel behind and a dark tubular object (pipe or barrel) entering at right; its long arms and hunched posture give it a comic, gorilla-in-miniature air.",
+  "visibleText": [],
+  "objects": ["black gibbon-type primate", "white curved fiberglass surface", "pink canvas backdrop"],
+  "setting": "Another unit pet — a second mascot distinct from VN-0017's macaque; the white surface may be an aircraft's cowl (mascots rode along). The family folder title (Native Vietnamese) groups people and creatures of the country alike.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Camp or flight-line pet moment.", "reasoning": "Surface type.", "confidence": "low" },
+  "crossReferences": ["VN-0017 (the macaque mascot)"],
+  "questionsForLarry": ["A second mascot — a black gibbon? What was its name and whose was it?"],
+  "qualityNotes": "Slide, backlit, soft face detail; charming."
+}

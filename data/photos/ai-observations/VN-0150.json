@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0150",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Late-day crowd study on the Imperial Palace plaza: two young men in dark suits and a woman in a tan coat walk away three abreast across the gravel, long shadows westward; knots of visitors dot the expanse toward the distant Sakurada-mon gatehouse and rampart tree line; a white-shirted figure with a bag strap (possibly the friend, back turned) enters the lower left corner; radio masts on the far skyline.",
+  "visibleText": [],
+  "objects": ["gravel plaza, walking trio", "Sakurada-mon in distance"],
+  "setting": "Twenty-first Japan frame — people-watching at golden hour; closes the Tokyo set.",
+  "people": { "count": 20, "notes": "Mostly Japanese public." },
+  "landmarkHypotheses": ["Kōkyo-mae plaza toward Sakurada-mon, Tokyo."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace plaza, Tokyo.", "reasoning": "Topography.", "confidence": "high" },
+  "crossReferences": ["VN-0110", "VN-0127", "VN-0128"],
+  "questionsForLarry": [],
+  "qualityNotes": "Slide, backlit haze; contemplative closing frame for the Tokyo album."
+}

@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0146",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Sidewalk vendor scene, soft-focus: a young Vietnamese boy minds a white-clothed table stacked with SUNGLASSES, WATCH BANDS, and trinkets under a shop awning; belts or straps hang from the wall rack at left. AT RIGHT, TWO AMERICANS in civilian clothes: one in a pale blue shirt studies the crowd, the second — closer, dark-haired — RAISES A CAMERA TO HIS EYE, photographing something across the street; a Vietnamese man in blue walks the tree-lined sidewalk behind; parked bicycle and street beyond.",
+  "visibleText": [],
+  "objects": ["vendor table of sunglasses/watch straps", "camera raised to eye", "tree-lined sidewalk"],
+  "setting": "The souvenir-strip sidewalk (Saigon downtown family). CAMERA MOMENT: one of the pair photographing while the other was photographed — if the camera-raiser is the friend, this may be the exact making of another frame in the collection.",
+  "people": { "count": 5, "notes": "The camera-raising man may be the recurring friend (or Larry — photographer roles swap); compare on review." },
+  "landmarkHypotheses": ["Saigon sidewalk vendor strip."],
+  "geolocationHypothesis": { "hypothesis": "Central Saigon sidewalk.", "reasoning": "Street furniture.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0065", "VN-0022", "VN-0112"],
+  "questionsForLarry": ["Who is taking a picture here — and of what? Did you buy sunglasses from these tables?"],
+  "qualityNotes": "Slide with mount vignette, soft focus; narrative value high."
+}

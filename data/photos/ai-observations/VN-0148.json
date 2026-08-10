@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0148",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "HELICOPTER CRASH SITE. A Vietnamese soldier — dark BERET, camouflage fatigues with a pocket patch (wing-type insignia hypothesis), wristwatch — stands squarely before the CRUMPLED, PARTLY BURNED WRECKAGE of a helicopter driven into a brushy hillside: buckled dark-green fuselage panels, a scorched engine/transmission mass at right, white-and-blue interior surfaces torn open at left, snapped saplings and a dead tree ringing the gouge. Cleared slope rises behind to green scrub.",
+  "visibleText": ["Pocket patch on the soldier — present (parachutist-wing style hypothesis), not resolvable"],
+  "objects": ["helicopter wreckage (burned, crumpled)", "beret-wearing LLDB/ARVN-style soldier", "impact-cleared hillside"],
+  "setting": "A crash site on a wooded slope — plausibly on or near the mountain (chain context), and plausibly a documented loss: helicopter crashes near Núi Bà Đen in 1964-65 appear in Army aviation loss records, making this frame potentially matchable to a specific incident and date (#10 adjacent research).",
+  "people": { "count": 1, "notes": "The beret suggests LLDB (Vietnamese SF) — possibly one of the summit cadre. No identity claim." },
+  "landmarkHypotheses": ["Slope of Núi Bà Đen (chain context; vegetation and grade consistent)."],
+  "geolocationHypothesis": { "hypothesis": "Crash site on the mountain's slope.", "reasoning": "Roll adjacency to summit frames; terrain.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0047", "VN-0149", "Issue #9/#10 (loss-record research)"],
+  "questionsForLarry": [
+    "Do you remember this crash — whose helicopter, and did everyone get out?",
+    "Is this on the Black Virgin Mountain? Did you help work the site or relay the report?"
+  ],
+  "qualityNotes": "Slide with mount vignette; wreck detail good. A significant incident frame — handle with care on the public site until context is known."
+}

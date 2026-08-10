@@ -1,0 +1,20 @@
+{
+  "photoId": "VN-0141",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "UNIT-MARKING LEAD. A UH-1B Huey rests on sandy ground, rotor tied down, 'UNITED STATES ARMY' on the tail boom; on its NOSE DOOR a small WHITE BIRD/EAGLE EMBLEM is painted, and a YELLOW SHIELD-SHAPED PLATE marks the pilot's door — unit insignia candidates both. Behind at left lie the STRIPPED HULKS of two CH-21 Shawnee fuselages (rotors and tails removed — a salvage corner); a maintenance hangar with a yellow crane stands right; hills far left; oil-drum and crate clutter along the field edge.",
+  "visibleText": [
+    "'UNITED STATES ARMY' on boom — legible",
+    "White bird/eagle nose emblem — MAGNIFICATION PRIORITY (unit insignia candidate — note the 118th's 'Thunderbirds' nickname, hypothesis only)",
+    "Yellow door shield — MAGNIFICATION PRIORITY",
+    "Tail serial — present, not resolved"
+  ],
+  "objects": ["UH-1B with nose art and door shield", "two derelict CH-21 fuselages", "hangar with crane"],
+  "setting": "An airfield's working-and-salvage edge — the CH-21 hulks date the scene to the type's 1964-65 phase-out, precisely Larry's tour; the nose emblem is one of the strongest unit-identification leads in the collection (#10).",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Sandy-soil airfield (Nha Trang candidate by ground character)."],
+  "geolocationHypothesis": { "hypothesis": "Coastal airfield maintenance area.", "reasoning": "Soil + hangar.", "confidence": "low-medium" },
+  "crossReferences": ["VN-0012 (tail emblem)", "VN-0140", "Issue #10"],
+  "questionsForLarry": ["What was painted on your unit's Huey noses — is this your outfit's bird?", "Do you remember the old flying bananas being scrapped?"],
+  "qualityNotes": "Slide with mount vignette; emblems small but sharp — magnify."
+}

@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0155",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Formal family portrait at the camp: two women and a small girl stand before a hooch whose gable is stenciled 'T 122' with a small plaque reading '34' by the door. LEFT: a younger woman with curled hair in a white polka-dot blouse. RIGHT: an older woman in a maroon blouse, composed and direct. FRONT: a little girl in a white dress printed with a garden scene, holding a small white toy or purse. Reed-blind walls behind, screen door with rope pull, guard tower and wires at left, another hooch and trailer beyond.",
+  "visibleText": [
+    "'T 122' — building number, fully legible (NEIGHBOR of Larry's T 123 hooch from VN-0017/VN-0019 — these are next-door families or staff)",
+    "'34' plaque — legible"
+  ],
+  "objects": ["hooch T 122 with number plaque", "guard tower", "Sunday-best clothing"],
+  "setting": "A posed, dignified portrait of (probably) camp staff or a soldier's local family at the T-building camp — they dressed up for it. The building number ties directly to Larry's own quarters row.",
+  "people": { "count": 3, "notes": "High-value identification targets for Larry — people he saw daily." },
+  "landmarkHypotheses": ["The T-building camp (VN-0017/VN-0019 chain)."],
+  "geolocationHypothesis": { "hypothesis": "Larry's home camp, building T 122.", "reasoning": "Number sequence adjacency.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0017", "VN-0019", "VN-0106"],
+  "questionsForLarry": ["Who are these ladies and the little girl from T 122 — the laundry family? Their names?"],
+  "qualityNotes": "Kodachrome slide, bright noon sun, excellent detail; a portrait made with evident mutual respect."
+}

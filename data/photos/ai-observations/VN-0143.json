@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0143",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A UH-1B HOVERS a few feet off a wide concrete apron, nose slightly down, a helmeted CREW MEMBER SEATED IN THE OPEN CARGO DOOR with legs out (door-gunner posture), 'UNITED STATES ARMY' legible on the boom. Beyond: a parked Huey with two ground crew talking beside it, a dark fuel tanker, an equipment trailer, drums, and at right another Huey ('ARMY' + star on boom) with rotor drooping; a fourth machine sits far left on the ramp horizon; traffic cones mid-field.",
+  "visibleText": [
+    "'UNITED STATES ARMY' / 'ARMY' + star — legible",
+    "Tail serials — present, not resolved; magnification candidates (#10)"
+  ],
+  "objects": ["hovering UH-1B with door crewman", "parked Hueys, fuel tanker, trailer", "concrete apron"],
+  "setting": "A busy Huey ramp in motion — big paved apron suggests a principal base (Tan Son Nhut/Bien Hoa class). Completes the Military Vehicles folder.",
+  "people": { "count": 4, "notes": "Aircrew and ground crew, not identifiable." },
+  "landmarkHypotheses": ["Major-base helicopter ramp."],
+  "geolocationHypothesis": { "hypothesis": "Principal airfield ramp, southern Vietnam.", "reasoning": "Pavement scale.", "confidence": "low" },
+  "crossReferences": ["VN-0140", "VN-0020", "Issue #10"],
+  "questionsForLarry": ["Was riding the open door ever your seat? What did it feel like at liftoff?"],
+  "qualityNotes": "Kodachrome slide, hazy bright; hovering aircraft sharp."
+}

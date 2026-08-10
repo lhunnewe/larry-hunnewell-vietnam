@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0156",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Companion frame to VN-0145, seconds apart and full of joy: the young mother — now laughing openly, earring catching light, watch on her wrist — lifts the bare-bottomed baby, who grips the open equipment-cabinet door's edge with a cloth in one fist and meets the camera with a wobbly, brave face. Around them at the summit equipment point: A BATTERY BANK — at least four large storage batteries on timber racks — plus a black storage box, poles, and the great boulder behind.",
+  "visibleText": ["Faint red marking on bench timber ('...4N') — not resolvable"],
+  "objects": ["battery bank on racks (radio-site power)", "open equipment cabinet door", "mother and baby"],
+  "setting": "The radio point's battery bank with the garrison family at home beside it — the summit's domestic-technical intimacy at its warmest. Larry (hypothesis: the photographer, shooting from his equipment position) clearly knew them well.",
+  "people": { "count": 2, "notes": "Same mother and baby as VN-0145." },
+  "landmarkHypotheses": ["Núi Bà Đen summit equipment point."],
+  "geolocationHypothesis": { "hypothesis": "Núi Bà Đen summit.", "reasoning": "Continuity with VN-0145/VN-0028/VN-0059.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0145", "VN-0059", "VN-0028", "VN-0037"],
+  "questionsForLarry": ["This mother and baby by your batteries — tell us about them. Did you ever learn what became of them?"],
+  "qualityNotes": "Slide with mount vignette; joyful, intimate, among the collection's best human frames."
+}

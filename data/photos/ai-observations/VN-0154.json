@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0154",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Soft-focus evening portrait under park palms: a young Vietnamese woman with full shoulder-length hair, in a RED high-collared áo dài bodice, stands among low palm crowns, one hand raised to a dark frond (or small bird?) at shoulder height, meeting the camera with a level, quiet gaze; sunlit park benches, a distant kiosk, and strollers blur behind her.",
+  "visibleText": [],
+  "objects": ["red áo dài bodice", "park palms, benches"],
+  "setting": "A deliberate portrait — someone Larry (or the friend) knew well enough to pose in a park; the composed intimacy sets it apart from the street candids. High-value identity question for Larry.",
+  "people": { "count": 1, "notes": "No identity claim; possibly the same young woman as VN-0151 or a friend from the camp/city." },
+  "landmarkHypotheses": ["City or beachfront park (Saigon/Nha Trang candidates)."],
+  "geolocationHypothesis": { "hypothesis": "Park setting, location indeterminate.", "reasoning": "No fixed features.", "confidence": "low" },
+  "crossReferences": ["VN-0151", "VN-0094"],
+  "questionsForLarry": ["Who is she? This one looks like it mattered."],
+  "qualityNotes": "Slide, soft focus (near-miss), warm dusk palette; emotionally resonant."
+}

@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0140",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "FLIGHT LINE WITH PURPLE SMOKE — one of the collection's signature aviation frames. On a pierced-steel-plank apron, a LINE OF UH-1 HUEYS stretches away (six or more, rotors tied or turning), with 'ARMY' and a white star legible on the nearest right-hand machine's boom; a fuel tanker truck works the far left; two men — one in white T-shirt, one in fatigues — stand by a parked Huey in the left foreground, watching as a thick cloud of VIOLET-PURPLE SMOKE billows across the middle of the field (smoke-grenade marking, drill, or ceremony); dark equipment box mid-field.",
+  "visibleText": [
+    "'ARMY' + star on near Huey boom — legible",
+    "Tail numbers on Hueys — present, MAGNIFICATION PRIORITY (serials = unit records, #10)"
+  ],
+  "objects": ["UH-1 Huey line on PSP", "purple smoke cloud", "fuel tanker", "ground crew"],
+  "setting": "An aviation company's working flight line during a smoke event — if tail serials resolve, they identify the company (118th question). The purple smoke makes it visually unforgettable.",
+  "people": { "count": 3, "notes": "Ground crew; not identifiable." },
+  "landmarkHypotheses": ["PSP apron — expeditionary field or overflow ramp (Bien Hoa/Tan Son Nhut class)."],
+  "geolocationHypothesis": { "hypothesis": "Army aviation flight line, southern Vietnam.", "reasoning": "Aircraft density.", "confidence": "low" },
+  "crossReferences": ["VN-0012", "VN-0020", "Issue #10"],
+  "questionsForLarry": ["What was the purple smoke — marking practice? Whose Hueys are these?"],
+  "qualityNotes": "Slide with mount vignette; color spectacular. Exhibition candidate."
+}

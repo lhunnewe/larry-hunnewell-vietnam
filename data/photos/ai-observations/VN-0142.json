@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0142",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "FLYING THE SURF LINE — from a crew seat: the pilot's white helmet with dangling mic cord fills the left foreground as the helicopter races low along a storm-whipped beach, breakers unrolling in ranks toward the dune line ahead; spray-white water blurs beneath; instrument shapes silhouette lower right.",
+  "visibleText": [],
+  "objects": ["pilot helmet", "surf ranks, dune coast"],
+  "setting": "Low passage along the coast — the kind of flying Larry rode daily; visually one of the collection's most kinetic frames.",
+  "people": { "count": 1, "notes": "Pilot." },
+  "landmarkHypotheses": ["Coastal run (Nha Trang-Cam Ranh corridor candidate)."],
+  "geolocationHypothesis": { "hypothesis": "Low-level coastal flight.", "reasoning": "No fix.", "confidence": "low" },
+  "crossReferences": ["VN-0016", "VN-0138", "VN-0029"],
+  "questionsForLarry": ["Did the pilots race the beach like this on purpose? Best flight you remember?"],
+  "qualityNotes": "Slide with mount vignette and light leak; motion energy high."
+}

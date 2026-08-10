@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0144",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Street portrait: an elderly woman strides along a sidewalk in a LAVENDER ÁO DÀI over black trousers, conical hat tied under her chin, arms folded into her sleeves, sandals mid-step — panned so she is sharp against a white concrete balustrade fence with palms and a blue-shuttered villa behind.",
+  "visibleText": [],
+  "objects": ["lavender áo dài, conical hat", "concrete balustrade fence, villa"],
+  "setting": "A dignified everyday portrait — the collection's finest study of traditional dress in motion; villa district street (Saigon or provincial).",
+  "people": { "count": 1, "notes": "No identity claim." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Villa-district sidewalk, southern Vietnam.", "reasoning": "Architecture.", "confidence": "low" },
+  "crossReferences": ["VN-0042", "VN-0050 (street-portrait set)"],
+  "questionsForLarry": ["Did you ask people before photographing them, or shoot from the hip?"],
+  "qualityNotes": "Slide with mount vignette; subject sharp, lovely color."
+}

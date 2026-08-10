@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0153",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "VILLAGE PYTHON SCENE, unposed and intense: on packed sand, men in black rural clothing handle an enormous RETICULATED PYTHON — easily four to five meters, its patterned coils looping across the frame. The man at left (conical pith-style hat, black shirt) grips the snake's bloodied head with a wooden stave through its jaws; a second man crouches at right steadying the body; bare feet and sandals of an audience ring the edges; camouflage-trousered legs at top left (a strike-force soldier watching); fresh blood stains the ground below the head.",
+  "visibleText": [],
+  "objects": ["reticulated python (very large)", "stave through jaws", "village crowd, camo-trousered observer"],
+  "setting": "A village event — a python caught (for food, skin, or bounty) and dispatched before a crowd; the camo trousers tie the scene to the CIDG-adjacent villages of the mountain area (hypothesis). PRESENTATION NOTE: blood is visible — flag for content consideration when publishing.",
+  "people": { "count": 8, "notes": "Villagers; no identity claims." },
+  "landmarkHypotheses": ["Village near the mountain/camp (chain context)."],
+  "geolocationHypothesis": { "hypothesis": "Village on Larry's routes, southern Vietnam.", "reasoning": "Roll context.", "confidence": "low" },
+  "crossReferences": ["VN-0010", "VN-0148 (camo-uniform population)"],
+  "questionsForLarry": ["Do you remember the day they caught the big python? Did they eat it?"],
+  "qualityNotes": "Kodachrome slide, sharp and vivid; remarkable ethnographic document."
+}

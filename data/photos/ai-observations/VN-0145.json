@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0145",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "AT THE SUMMIT EQUIPMENT POINT: seen from above, a young mother — white cloth wrapped over her hair — holds a bare-bottomed baby who stares up frankly at the camera; they stand beside the OPEN LATCHED DOOR OF A GREEN EQUIPMENT CABINET (military electronics case, latches and hinge rail clear); at right sit a STORAGE BATTERY with terminal posts and a coiled CABLE running across the dirt; boulder mass behind, timber shoring at right — the domestic and the technical side by side among the rocks.",
+  "visibleText": [],
+  "objects": ["open equipment-cabinet door", "storage battery, cable", "mother and baby", "boulders, timber shoring"],
+  "setting": "The summit site's equipment corner (the VN-0028 cabinet family) with the garrison's family life pressed right against it — the whole strange intimacy of the mountaintop in one frame. Likely photographed by Larry from the position above (his workplace?).",
+  "people": { "count": 2, "notes": "Possibly the family of VN-0037/VN-0038." },
+  "landmarkHypotheses": ["Núi Bà Đen summit equipment area."],
+  "geolocationHypothesis": { "hypothesis": "Núi Bà Đen summit.", "reasoning": "Boulders + equipment continuity with VN-0028/VN-0059.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0028", "VN-0059", "VN-0037", "VN-0038"],
+  "questionsForLarry": ["Was this taken from your radio position looking down? Who was this mother and baby?"],
+  "qualityNotes": "Slide with mount vignette; expressive and historically rich."
+}

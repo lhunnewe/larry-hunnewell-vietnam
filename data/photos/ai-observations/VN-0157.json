@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0157",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE GRAVEST FRAME IN THE COLLECTION — A WOUNDED MAN ABOARD A HELICOPTER. On the cabin floor of a helicopter (quilted soundproofing, web straps, door frame at right), a young man lies on his back with BOTH ARMS RAISED, hands and one wrist BLOODIED, a field dressing and green cloth wrapped around his right forearm; his face — dark-haired, conscious — shows behind his raised arm; a canteen-sized object rests on his chest. From the left edge, another man's bloodstained hand reaches in — steadying or treating him. Through the open door: the legs of a standing soldier and sunlit gravel. A rucksack lies against the cabin wall.",
+  "visibleText": [],
+  "objects": ["wounded man, field dressing, blood", "helicopter cabin interior, web straps", "attending hand"],
+  "setting": "A casualty evacuation or immediate-aftermath moment aboard a helicopter — the war itself, unposed, the collection's final archive number. RESEARCH NOTE (careful, speculative): whether Larry photographed this during his radio/flight duties, whether it connects to any incident in unit records, and how it relates to his memories, only he can say. PRESENTATION NOTE: graphic content (blood, injured man, possibly identifiable) — hold from public display until Larry and family decide; the man could conceivably be identified and located via records.",
+  "people": { "count": 3, "notes": "Wounded man (face partially visible), helper's hand, figure outside. IDENTIFICATION SENSITIVE." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Aboard a helicopter at a pickup point, location unknown.", "reasoning": "Interior only.", "confidence": "low" },
+  "crossReferences": ["VN-0148 (crash site)", "Issue #9 (period incidents)", "data/timeline/1965-08-japan-kia-report.json (context only — no claimed connection)"],
+  "questionsForLarry": [
+    "This is a hard one: do you remember this man and this day? What happened?",
+    "Were you the one helping, or the one with the camera — or both?",
+    "Should this photograph be shown on the site, kept private, or shown with his story if we can find him?"
+  ],
+  "qualityNotes": "Slide with mount vignette; unflinching documentary frame. Treat with the greatest care — this is the collection's testament that the year was a war."
+}

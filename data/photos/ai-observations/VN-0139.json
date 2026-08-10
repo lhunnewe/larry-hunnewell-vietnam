@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0139",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Low-level door view: through the aircraft window, green brush, marsh pools, and harvested paddies slide past at speed; silhouetted in the window's center, the upper half of an M16-FAMILY RIFLE stands muzzle-up (front sight and barrel profile clear); at right, the dark shape of the man holding it. The armed-passage motif again, at treetop height.",
+  "visibleText": [],
+  "objects": ["M16-family rifle silhouette", "low-level terrain: brush, pools, paddies"],
+  "setting": "Fast and low over the countryside — the classic posture of 1965 helicopter movement; pairs with VN-0071.",
+  "people": { "count": 1, "notes": "Rifle-holder silhouetted." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Low-level flight, southern Vietnam.", "reasoning": "No fix.", "confidence": "low" },
+  "crossReferences": ["VN-0071", "VN-0029"],
+  "questionsForLarry": ["How low did the pilots fly? Were you ever shot at in the air?"],
+  "qualityNotes": "Slide with mount vignette; motion-blurred ground, sharp silhouette."
+}

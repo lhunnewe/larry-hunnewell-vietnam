@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0151",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "CAMERA IN HER HANDS — a delightful role-reversal portrait: a young Vietnamese woman with short curled hair, in a pale embroidered blouse and dark skirt, stands laughing INSIDE the camp wire holding a small BLUE-GREY CAMERA with its strap looped on her wrist — apparently about to take (or having just taken) a picture herself. Behind her: the sandbagged emplacement ring, double barbed-wire fence, the NEW PREFAB BUILDINGS under construction (the VN-0104 site — men working on a roof at upper left), concrete slabs, the village's tin roofs, palms, and the mountain rim beyond.",
+  "visibleText": [],
+  "objects": ["small camera in her hands", "sandbag ring, wire fence", "prefab construction, village, mountains"],
+  "setting": "The coastal camp construction period (Nha Trang chain) — one of the camp's Vietnamese staff or a soldier's friend, trusted with the camera. If she took a frame, it may be IN this collection — a lovely research wrinkle.",
+  "people": { "count": 2, "notes": "The woman + a distant roof worker. Larry may remember her name." },
+  "landmarkHypotheses": ["Nha Trang camp construction area (VN-0104/VN-0108 site)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang camp, construction period.", "reasoning": "Structure match with VN-0104.", "confidence": "medium" },
+  "crossReferences": ["VN-0104", "VN-0106", "VN-0151"],
+  "questionsForLarry": ["Who is she — and whose camera is she holding? Did she take any of these pictures?"],
+  "qualityNotes": "Kodachrome slide, bright and sharp; one of the warmest portraits in the collection."
+}

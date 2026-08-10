@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0137",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Through a helicopter cabin window in flight (dark cabin frame and a companion's knee/hand at right): parched brown plains sweep to the horizon, field grids and tree lines below, TWO THIN SMOKE COLUMNS rising mid-distance — burning fields or strikes, indeterminate. Dry-season light.",
+  "visibleText": [],
+  "objects": ["helicopter window frame", "dry plains, smoke columns"],
+  "setting": "Dry-season flight over the plains — ambient smoke on the horizon was the war's constant backdrop. (Note: this and several Military Vehicles frames appear to be photographed from mounted slides — dark vignette borders.)",
+  "people": { "count": 1, "notes": "Companion partially visible." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Plains flight, dry season (roughly Dec-Apr).", "reasoning": "Terrain state.", "confidence": "low" },
+  "crossReferences": ["VN-0071", "VN-0139"],
+  "questionsForLarry": ["What did you think when you saw smoke on the horizon from the air?"],
+  "qualityNotes": "Slide with mount vignette; window dust visible."
+}

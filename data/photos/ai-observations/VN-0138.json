@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0138",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "COCKPIT IN FLIGHT — from behind the pilots of a large helicopter (CH-21-class greenhouse: braced windshield panels, twin wipers, center post): the left pilot's white helmet edges into frame beside the yellow 'EMERGENCY EXIT' stenciled frame member (matching VN-0016's cockpit); a chart/map board is clipped upright at the center console; through the glass, hazy plains and a smoke column far off. The photographer stands in the companionway — the radio operator's habitual perch.",
+  "visibleText": [
+    "'EMERGENCY EXIT' — stencil, legible (links this cockpit to VN-0016)",
+    "Chart board — map visible, not resolvable"
+  ],
+  "objects": ["CH-21-class cockpit framing", "pilot helmet", "chart board", "wipers"],
+  "setting": "Same aircraft family (possibly the same aircraft) as the VN-0016 pilot portrait and VN-0029 cabin portrait of Larry — together they document his crew-adjacent flying life.",
+  "people": { "count": 1, "notes": "Pilot partially visible." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "In flight over southern plains.", "reasoning": "No ground fix.", "confidence": "low" },
+  "crossReferences": ["VN-0016", "VN-0029"],
+  "questionsForLarry": ["Did you stand in the companionway like this to watch the pilots fly?"],
+  "qualityNotes": "Slide with mount vignette; cockpit detail good."
+}
