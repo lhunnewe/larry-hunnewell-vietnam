@@ -14,3 +14,7 @@ npm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Filled records-request forms contain SSN/DOB - never commit; keep only the blank form
+research/records-request/*.pdf
+!research/records-request/standard-form-180.pdf
