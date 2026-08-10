@@ -54,7 +54,9 @@ Each run:
    no pattern are skipped with a warning (not an error).
 3. For every comment or reply whose author login is a key in the author map, upsert
    `data/recollections/giscus-<term-slug>-c<databaseId>.json` (term slug lowercased,
-   `:` → `-`). Record fields:
+   `:` → `-`). **Records are matched by the `c<databaseId>` filename suffix alone**, so
+   if a discussion is ever retitled the record is renamed in place rather than
+   duplicated-and-marked-deleted. Record fields:
    - `person`: mapped person id
    - `recorded`: comment `createdAt` as `YYYY-MM-DD`
    - `text`: comment body **byte-for-byte** (markdown preserved, no trimming beyond
@@ -79,22 +81,29 @@ Each run:
 
 ### `.github/workflows/export-recollections.yml` (new)
 
-- `on:` `discussion_comment` (types: created, edited, deleted), `schedule` (nightly),
-  `workflow_dispatch`.
-- `permissions:` `contents: write`, `discussions: read`.
-- Steps: checkout, setup-node, run the script with the default `GITHUB_TOKEN`, then
-  commit `data/recollections/` and push **only if changed** (as `github-actions[bot]`,
-  message `Archive recollections from Discussions`).
-- The push to `main` triggers the existing Pages deploy, so an exported comment also
-  reaches the live site without further wiring. No loop risk: the exporter's push
-  contains no discussion events, and the deploy workflow doesn't write to the repo.
-- Concurrency group `export-recollections` (queued, not cancelled) so a burst of comment
-  events serializes instead of racing pushes.
+- `on:` `discussion_comment` (types: created, edited, deleted), `discussion`
+  (type: deleted, so whole-thread deletions don't wait for the nightly), `schedule`
+  (nightly, `0 9 * * *` UTC), `workflow_dispatch`.
+- `permissions:` `contents: write`, `discussions: read`, `actions: write`.
+- Steps: checkout, setup-node, run the script with the default `GITHUB_TOKEN`; if
+  anything changed, `git pull --rebase` (push-race protection), commit
+  `data/recollections/` as `github-actions[bot]` (`Archive recollections from
+  Discussions`), push, then **explicitly dispatch the deploy workflow**
+  (`gh workflow run deploy.yml`). The dispatch is required because pushes made with the
+  default `GITHUB_TOKEN` intentionally do not trigger `on: push` workflows — that same
+  suppression (plus deploy.yml never writing to the repo) is the loop protection.
+- Concurrency group `export-recollections`: GitHub keeps at most one pending run
+  (latest-wins). Fine here — every run is a full idempotent sweep, so the newest run
+  covers everything earlier ones would have.
+- Note: GitHub disables cron schedules after ~60 days of repo inactivity;
+  `workflow_dispatch` remains the manual safety valve.
 
 ## Error handling
 
 - API/network failure → nonzero exit, no files written, workflow shows red; next
   trigger (or the nightly) retries naturally. No partial state to repair.
+- Push rejected (main advanced mid-run despite the rebase) → red run, same self-healing:
+  the next trigger re-sweeps and re-commits.
 - Unknown discussion title → warn and skip (someone opened a manual thread; Announcement
   format makes this maintainers-only, so it's rare and deliberate).
 - Author not in map → count and skip silently (expected: most commenters are family or
