@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { withBase } from '../../lib/paths';
 ---
 
-<BaseLayout title="Online Resources">
+<BaseLayout title="Online resources">
   <span class="eyebrow">Research toolkit</span>
   <h1>Online resources</h1>
   <p class="lede">
@@ -35,7 +35,7 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://www.virtualwall.org/">The Virtual Wall</a></h3>
       <p>
         Memorial pages for every name on the Vietnam Veterans Memorial, browsable by unit of
-        assignment (built on the volunteer-researched Coffelt Database). Two uses here:
+        assignment (unit data derived from the volunteer-researched Coffelt Database). Two uses here:
         searching spelling variants of <a href={withBase('/people/sgt-lowry/')}>Sgt.
         Lowry</a> and <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a>, and
         browsing Special Forces losses in the Núi Bà Đen / Tây Ninh area. A miss is
@@ -53,45 +53,48 @@ import { withBase } from '../../lib/paths';
       </p>
     </li>
     <li>
-      <p class="record">Veterans association &middot; unit history</p>
-      <h3><a href="http://www.118ahc.org/">118th Assault Helicopter Company association</a></h3>
+      <p class="record">Veterans association &middot; unit history &middot; archived</p>
+      <h3><a href="https://web.archive.org/web/20191226004046/http://www.118ahc.org/">118th Assault Helicopter Company association (archived)</a></h3>
       <p>
-        The &ldquo;Thunderbirds&rdquo; association: unit history, member stories, photographs,
-        guestbook, and reunions, with a companion history page at the
-        <a href="https://www.145thcab.com/unit-htms/118ahc.htm">145th Combat Aviation
-        Battalion site</a>. Directly relevant to whether Larry's remembered
-        &ldquo;118th AOD&rdquo; connects to the 118th Aviation Company (Bien Hoa, 1963&ndash;65)
-        — and, if it does, the natural place to find men who served alongside him.
+        The &ldquo;Thunderbirds&rdquo; association site is gone — its old domain has been taken
+        over by an unrelated spam operator, so only the Internet Archive copy above should be
+        used. The archived site preserves unit history, member stories, and photographs, and a
+        companion history page at the <a href="https://www.145thcab.com/unit-htms/118ahc.htm">145th
+        Combat Aviation Battalion site</a> is still live. Directly relevant to whether Larry's
+        remembered &ldquo;118th AOD&rdquo; connects to the 118th Aviation Company
+        (Bien Hoa, 1963&ndash;65); for reaching men who served, the 145th CAB site and the VHPA
+        below are the live channels.
       </p>
     </li>
     <li>
       <p class="record">Veterans association &middot; outreach</p>
       <h3><a href="https://tsna.org/">Tan Son Nhut Association</a></h3>
       <p>
-        Association of veterans who served at Tân Sơn Nhứt, with guestbooks and bulletin
-        boards. If &ldquo;<a href={withBase('/places/thom-son-nuht/')}>Thom Son Nuht</a>&rdquo;
+        Association of veterans who served at Tân Sơn Nhứt — predominantly Air Force, though
+        the base hosted Army personnel too — with guestbooks and bulletin boards. If &ldquo;<a href={withBase('/places/thom-son-nuht/')}>Thom Son Nuht</a>&rdquo;
         is a phonetic memory of Tân Sơn Nhứt — the leading hypothesis — this is both a way to
         test it and a channel for finding men who were there in 1964&ndash;65.
       </p>
     </li>
     <li>
       <p class="record">Official histories &middot; free PDFs</p>
-      <h3><a href="https://www.history.army.mil/">U.S. Army Center of Military History</a></h3>
+      <h3><a href="https://history.army.mil/">U.S. Army Center of Military History</a></h3>
       <p>
-        Free official histories of the war, including the airmobility series that documents the
-        aviation order of battle — the 14th Aviation Battalion's move to Nha Trang in October
-        1964 and the 1st Cavalry Division's arrival through Nha Trang in August 1965, both of
-        which bear on <a href={withBase('/units/')}>the unit question</a>. The Air Force and
+        Free official histories of the war, including the airmobility volumes that trace the
+        aviation build-up — the 14th Aviation Battalion's move to Nha Trang in October
+        1964 and the 1st Cavalry Division's advance party staging through Nha Trang in August
+        1965, both of which bear on <a href={withBase('/units/')}>the unit question</a>. The Air Force and
         Marine Corps history offices likewise publish free PDFs of the volumes cited on the
         <a href={withBase('/sources/')}>Sources</a> page.
       </p>
     </li>
     <li>
       <p class="record">Government archive catalog</p>
-      <h3><a href="https://catalog.archives.gov">National Archives Catalog</a></h3>
+      <h3><a href="https://catalog.archives.gov/">National Archives Catalog</a></h3>
       <p>
-        Finding aids and a growing body of digitized series, including Record Group 472 (U.S.
-        Army in Vietnam). The place to scope what exists before requesting unit records — and
+        Finding aids and a growing body of digitized series, including Record Group 472
+        (Records of the U.S. Forces in Southeast Asia, 1950&ndash;1975 — MACV and all
+        services). The place to scope what exists before requesting unit records — and
         to learn box-level citations a researcher at College Park would pull.
       </p>
     </li>
@@ -99,9 +102,10 @@ import { withBase } from '../../lib/paths';
       <p class="record">Veterans association &middot; partially public</p>
       <h3><a href="https://www.vhpa.org/">Vietnam Helicopter Pilots Association</a></h3>
       <p>
-        Covers all helicopter-related units 1962&ndash;75, with a public photo collection and
-        unit incident pages; the member directory itself is member-oriented. Context for
-        Larry's helicopter-travel recollections and another outreach avenue.
+        A pilots' association spanning the Vietnam era, 1961&ndash;75, whose public value here
+        is its photo collection and helicopter-incident pages; the member directory itself is
+        member-oriented. Context for Larry's helicopter-travel recollections and another
+        outreach avenue.
       </p>
     </li>
   </ul>
@@ -109,7 +113,7 @@ import { withBase } from '../../lib/paths';
   <h2>Paid</h2>
   <ul class="resource-list">
     <li>
-      <p class="record">Newspaper archive &middot; day pass $4.95, monthly $7.95</p>
+      <p class="record">Newspaper archive &middot; day pass $4.95, monthly $7.95 (rates as of 2026)</p>
       <h3><a href="https://www.stripes.com/help/archives-faq/">Stars and Stripes historic archives</a></h3>
       <p>
         Every Pacific edition 1948&ndash;1999, digitized and keyword-searchable via
