@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0097",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The FOUNTAIN ROUNDABOUT of central Saigon from street level: the low basin fountain plays on its planted island before a great 1930s corner block with brown window awnings. Shop signs legible along the arcade: 'ALIMENTATION ... GÉNÉRALE', 'PARFUMS CARON' (script sign on the corner), 'LA PIPE CHACOM ... tabacs', plus Vietnamese signs ('...CHÂU', 'MAI KH...') and a no-parking disc. A black CITROËN TRACTION AVANT rolls through at right chased by a man in a bush hat on a Vespa; VW van, Renault taxis, cyclist, and scooter ranks around the circle; a dark vehicle nose intrudes at lower left.",
+  "visibleText": [
+    "'ALIMENTATION GÉNÉRALE' — legible",
+    "'[PARFUMS] CARON' — legible",
+    "'LA PIPE CHACOM ... tabacs' — legible",
+    "Vietnamese shop fragments '...CHÂU', 'MAI KH...' — partial"
+  ],
+  "objects": ["fountain roundabout", "1930s block with awnings", "Citroën Traction, Vespa, VW van", "French luxury-shop signage"],
+  "setting": "The Nguyễn Huệ/Lê Lợi fountain circle ('Bồn Kèn') — SAME ROUNDABOUT as VN-0081 from another angle (Bireley's corner visible there). French shop names anchor the block; with VN-0068's street plate, the Saigon downtown set is now firmly mapped.",
+  "people": { "count": 10, "notes": "Riders and pedestrians." },
+  "landmarkHypotheses": ["Nguyễn Huệ–Lê Lợi fountain roundabout, Saigon — high confidence via signage and continuity."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon fountain circle.",
+    "reasoning": "Signage + cross-frame continuity with VN-0081/VN-0068.",
+    "confidence": "high (machine reading)"
+  },
+  "crossReferences": ["VN-0081", "VN-0068", "VN-0040"],
+  "questionsForLarry": ["Do you remember the fountain circle downtown — the perfume and pipe shops under the awnings?"],
+  "qualityNotes": "Kodachrome slide, rich architectural detail; multiple legible French signs."
+}

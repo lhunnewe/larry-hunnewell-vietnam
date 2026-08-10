@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0100",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "TOKYO RAILSCAPE — from a pedestrian overpass beside elevated rail lines: a freight train of boxcars crosses the upper level while a green-and-cream STREETCAR swings through the intersection below among buses, sedans, and a canvas-backed kei-truck; crowds wait at the crossing under the girder bridge. Japanese signage everywhere: 住友銀行 (SUMITOMO BANK, twice), 常陽銀行 (JOYO BANK), 郵便 (post/mail), a yellow traffic-safety banner in Japanese, and rooftop ads. A GOLDEN GINKGO tree at right — AUTUMN foliage, reinforcing the cool-season reading of the Japan trip (see VN-0095).",
+  "visibleText": [
+    "住友銀行 (Sumitomo Bank) — legible ×2",
+    "常陽銀行 (Joyo Bank) — legible",
+    "郵便 (post) — legible",
+    "Yellow traffic-safety banner — partially legible Japanese"
+  ],
+  "objects": ["elevated freight rail, boxcars", "streetcar, buses, kei-truck", "bank signage, city blocks", "autumn ginkgo"],
+  "setting": "Central Tokyo rail corridor (Yūrakuchō/Shimbashi character) — the workaday Tokyo Larry saw beyond the tourist stops. Third Japan frame; autumn evidence again.",
+  "people": { "count": 20, "notes": "Street crowd." },
+  "landmarkHypotheses": ["Yūrakuchō-area rail crossing, Tokyo (bank signage & girder architecture)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Tokyo, autumn.",
+    "reasoning": "Signage, rolling stock, foliage.",
+    "confidence": "medium-high (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0093", "VN-0095", "Issue #9 (Japan trip dating)"],
+  "questionsForLarry": ["What did you make of Tokyo — the trains, the crowds, the neon?"],
+  "qualityNotes": "Kodachrome slide, dense detail; excellent period urban document."
+}

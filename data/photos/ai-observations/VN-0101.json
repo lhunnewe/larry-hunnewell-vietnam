@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0101",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Storm dusk over an airfield cantonment in silhouette: a CHECKERBOARD-PAINTED WATER TOWER (airfield marking) stands over a large flat multi-story building at left; along the darkening skyline run rows of barracks roofs, a second water tower at right, power poles, a spherical tank, and — notably — a picket line of ANTENNA MASTS (at least six lattice towers). Towering storm clouds glow above.",
+  "visibleText": [],
+  "objects": ["checkerboard water tower (airfield)", "large HQ-type building", "antenna mast row (signal site)", "barracks skyline, storm sky"],
+  "setting": "A major airfield installation with a substantial SIGNAL/communications antenna farm — the silhouette (checkered tower + building + mast row) is a strong candidate for matching against period photos of TAN SON NHUT and Bien Hoa (#11). If this is Tan Son Nhut, it is Larry's own skyline of the Company HQ hypothesis.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Tan Son Nhut cantonment silhouette (hypothesis; checkered tower + antenna farm matchable)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Tan Son Nhut area, dusk.",
+    "reasoning": "Airfield water-tower marking, antenna density, cantonment scale.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0067", "VN-0061 (perimeter/skyline set)", "data/places/thom-son-nuht.json", "Issue #11"],
+  "questionsForLarry": ["Do you recognize this skyline — the checkered water tower and the antenna row? Was that your base?"],
+  "qualityNotes": "Kodachrome slide, deep dusk exposure; silhouette geometry is the identification payload."
+}

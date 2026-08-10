@@ -1,0 +1,23 @@
+{
+  "photoId": "VN-0095",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "TOKYO, UENO PARK — the bronze STATUE OF SAIGŌ TAKAMORI (robed figure with his dog, pigeons on the plinth, inscription tablet) rises above a crowded plaza: Japanese visitors in suits, wool coats, and dresses; a little girl in a patterned dress; a kiosk with posted papers and a pagoda-roofed stand at right; BARE WINTER TREES and one evergreen behind; a modern slab building beyond. Warm low light.",
+  "visibleText": ["Inscription tablet on plinth — Japanese, not resolvable at distance"],
+  "objects": ["Saigō Takamori statue with dog", "kiosk, pagoda-roofed stand", "crowd in coats and suits", "bare deciduous trees"],
+  "setting": "Ueno Park, Tokyo — second conclusively-located Japan frame (with VN-0093). IMPORTANT RESEARCH TENSION, recorded without altering Larry's memory: BOTH Japan frames show COOL-SEASON evidence (bare trees, wool coats here; flannel shirts at the Palace) — hard to reconcile with an AUGUST visit. Possibilities to research: (a) the Japan trip occurred earlier in the tour (e.g., winter 1964-65 R&R) and the KIA-report sighting is remembered onto it; (b) there were two trips; (c) the KIA report itself dates differently than remembered. The Stars and Stripes search window (#9) should be widened accordingly. Larry's recollection of 'around August 1965' stands unchanged in the record.",
+  "people": { "count": 15, "notes": "Japanese public; Larry/friend not in frame (photographer's frame)." },
+  "landmarkHypotheses": ["Saigō Takamori statue, Ueno Park, Tokyo — conclusive."],
+  "geolocationHypothesis": {
+    "hypothesis": "Ueno Park, Tokyo, cool season.",
+    "reasoning": "Unmistakable statue; vegetation and clothing for season.",
+    "confidence": "high (location); season reading medium-high"
+  },
+  "crossReferences": ["VN-0093 (Imperial Palace)", "data/timeline/1965-08-japan-kia-report.json", "Issue #9"],
+  "questionsForLarry": [
+    "When exactly was the Japan trip — was it cold? (The trees are bare in your pictures.)",
+    "Did you go to Japan once or twice?",
+    "What else did you see in Tokyo — Ueno, the zoo, the PX?"
+  ],
+  "qualityNotes": "Kodachrome slide, warm light, crowd detail rich. Season evidence is the research payload."
+}

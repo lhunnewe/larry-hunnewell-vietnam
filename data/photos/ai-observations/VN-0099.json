@@ -1,0 +1,26 @@
+{
+  "photoId": "VN-0099",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Between two French-era stucco buildings (cream walls, big steel-framed window grids, tin roofs), a sandy lane floored with pierced-steel-plank (PSP) matting leads to a parked U.S. Army CV-2 CARIBOU transport — twin radial engines, high upswept tail, 'ARMY' legible on the boom — with a JEEP pulled up at its nose and a second aircraft's tail beyond. Dark green mountain ridges rise behind under an overcast sky; stacked crates and drums along the right building's porch.",
+  "visibleText": [
+    "'ARMY' on Caribou tail boom — legible",
+    "Small door plaque on far building — not resolvable",
+    "Serial on tail — present, MAGNIFICATION PRIORITY (aircraft serial = unit records)"
+  ],
+  "objects": ["CV-2 Caribou transport", "jeep", "PSP matting", "French-era compound buildings", "mountain backdrop"],
+  "setting": "A coastal airfield compound beneath mountains — strongly suggests NHA TRANG airfield (mountain profile + French buildings), where Larry spent his first months. Army Caribous flew the courier/logistics runs a radio operator would ride constantly.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Nha Trang airfield compound (hypothesis; building and ridge profile matchable)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Nha Trang air base area.",
+    "reasoning": "Terrain + architecture + Larry's first-months association.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["data/places/nha-trang.json", "VN-0096", "data/timeline/1964-09-nha-trang.json"],
+  "questionsForLarry": [
+    "Is this Nha Trang? Did you fly in and out on Caribous like this one?",
+    "What were these old French buildings used for?"
+  ],
+  "qualityNotes": "Kodachrome slide, overcast; tail serial may resolve under magnification."
+}

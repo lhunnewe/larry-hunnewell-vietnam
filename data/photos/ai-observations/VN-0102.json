@@ -1,0 +1,25 @@
+{
+  "photoId": "VN-0102",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "SAIGON, TỰ DO/LÊ LỢI AT THE OPERA HOUSE. Down the tree-lined street stands the white arched façade of the SAIGON OPERA HOUSE (serving in this era as the National Assembly). Foreground: a young Vietnamese man in white shirt cycles across the frame (motion-blurred); TAXIS everywhere — a Renault Dauphine with plate 'EB 5550' (legible), a 4CV marked 'TAXI-6104', a black Citroën Traction with plate fragment '2992 VN(?)', a red-and-cream sedan behind. Right: the S.E.I.C. corner building draped with NEWSPAPER BANNERS ('NHẬT BÁO ... Tự(?) ...', 'thái...', 'Phương Nam', and a red-lettered banner mentioning '...CỨU TRỢ ĐỒNG...' — relief/donations), a green news kiosk, scooter ranks, strolling pedestrians in white.",
+  "visibleText": [
+    "'EB 5550' Dauphine plate — legible",
+    "'TAXI-6104' — legible",
+    "'2992 VN(?)' Citroën plate — partial",
+    "'S.E.I.C.' building sign — legible",
+    "Newspaper banners incl. '...CỨU TRỢ ĐỒNG...' (relief donations — echoes the flood campaign of VN-0081) — partial"
+  ],
+  "objects": ["Opera House façade", "taxis (Dauphine, 4CV, Traction)", "newspaper banners, kiosk", "cyclist foreground"],
+  "setting": "The Opera House block of central Saigon — fourth firmly-anchored downtown location (with Nguyễn Huệ, the fountain circle, and City Hall). The relief-donation banner ties to the same winter 1964-65 window as VN-0081.",
+  "people": { "count": 12, "notes": "Cyclist prominent; street crowd." },
+  "landmarkHypotheses": ["Saigon Opera House (National Assembly), Tự Do/Lê Lợi corner — conclusive architectural ID."],
+  "geolocationHypothesis": {
+    "hypothesis": "Lê Lợi at the Opera House, central Saigon, winter 1964-65.",
+    "reasoning": "Landmark + banner content.",
+    "confidence": "high (machine reading)"
+  },
+  "crossReferences": ["VN-0081", "VN-0097", "VN-0068"],
+  "questionsForLarry": ["Did you see a show or ceremony at the old Opera House? What was on the newspapers' front pages you remember?"],
+  "qualityNotes": "Kodachrome slide, superb color; multiple legible plates and banners."
+}

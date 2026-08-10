@@ -1,0 +1,21 @@
+{
+  "photoId": "VN-0098",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Saigon River panorama from beneath a SCALLOPED AWNING (dark scalloped valance and angled poles framing the top — consistent with shooting from the MỸ CẢNH floating restaurant's deck, cross-reference VN-0079): a conical-hatted woman poles a covered sampan in the foreground while a second figure rows; four more covered sampans drift mid-river; across the water, a stilt-house shoreline runs to port cranes, warehouses, a moored freighter, and a water tower at right. On the far bank a large billboard ('BAN-NONG-CAM(?)' over 'EucutnoL(?)') appears MIRROR-AMBIGUOUS — possibly another flipped scan; add to the orientation-check list.",
+  "visibleText": [
+    "Billboard 'EucutnoL(?)' with upper line 'BAN-NONG-CAM(?)' — legibility fair but orientation suspect; flip-check via other frames of this bank"
+  ],
+  "objects": ["sampans with rowers", "scalloped awning (Mỹ Cảnh deck hypothesis)", "port cranes, freighter, water tower", "billboard"],
+  "setting": "Looking across the Saigon River from (probably) the Mỹ Cảnh's deck toward the Khánh Hội port bank — pairing with VN-0079's exterior view: Larry may have EATEN there, not just photographed it.",
+  "people": { "count": 2, "notes": "Sampan crew." },
+  "landmarkHypotheses": ["Saigon River at the Mỹ Cảnh mooring, looking toward Khánh Hội."],
+  "geolocationHypothesis": {
+    "hypothesis": "From the Mỹ Cảnh deck, Saigon River.",
+    "reasoning": "Awning match with VN-0079; port infrastructure opposite.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0079", "VN-0072", "VN-0077 (flip-check series)"],
+  "questionsForLarry": ["Did you eat on the My Canh? What did you order — and who came with you?"],
+  "qualityNotes": "Kodachrome slide, heavy dust; composition through the awning is evocative. Orientation check needed."
+}

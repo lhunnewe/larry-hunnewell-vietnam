@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0096",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Camp scene beneath a cloud-wreathed MOUNTAIN MASS: wooden barracks with red-painted corrugated roofs at left, a mint-green corrugated building at right, laundry (white sheets, dark fatigues) drying on wire lines in the foreground, coiled barbed wire along a rail fence, power poles, drums and lumber between buildings, and a military TRUCK (2.5-ton class, bumper plate partially legible '4B444?' / '484447') parked mid-frame. The dark mountain behind rises into heavy cumulus.",
+  "visibleText": ["Truck bumper/plate — partial ('4B444?' or '484447'); magnification candidate (unit bumper codes identify battalions)"],
+  "objects": ["barracks with red roofs", "military truck with bumper number", "laundry lines, barbed wire", "mountain backdrop"],
+  "setting": "A camp at the FOOT of a large mountain — candidates: the Tây Ninh base area below Núi Bà Đen, or a coastal camp below the Nha Trang hills. The truck bumper code, if resolved, could name the owning unit (#10).",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Camp below Núi Bà Đen (mountain profile comparison recommended) or Nha Trang hills."],
+  "geolocationHypothesis": {
+    "hypothesis": "Base camp at a mountain's foot — Tây Ninh or Nha Trang candidate.",
+    "reasoning": "Mountain mass scale and camp architecture.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0006 (mountain chain)", "VN-0017 (camp architecture)", "Issue #10 (bumper code)"],
+  "questionsForLarry": ["Is this the camp at the bottom of the mountain? Whose laundry line was that?"],
+  "qualityNotes": "Kodachrome slide, dramatic sky; bumper number is the research target."
+}
