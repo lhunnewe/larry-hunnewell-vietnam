@@ -1,0 +1,21 @@
+{
+  "photoId": "VN-0062",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A girl of perhaps ten, in light polka-dot pajama-style clothes and sandals, pedals a blue adult bicycle straight toward the camera down a dirt street, caught mid-pan with intent concentration on her face. Behind her, motion-blurred: a two-story building whose upper shopfront carries TWO COCA-COLA SIGNS (script logo legible, red on white) above green roller shutters; a masonry wall, trees, and a utility pole line the street.",
+  "visibleText": [
+    "Coca-Cola script logos (two signs) — legible"
+  ],
+  "objects": ["blue bicycle", "Coca-Cola shop signage", "green roller shutters, dirt street"],
+  "setting": "Town street — the Coca-Cola distribution reach marks a sizable town on supply routes; possibly the same garrison town as VN-0055/VN-0062.",
+  "people": { "count": 1, "notes": "The young cyclist — a charming portrait; no identity claim." },
+  "landmarkHypotheses": ["Same town family as VN-0055 (hypothesis)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Provincial town street on Larry's routes.",
+    "reasoning": "Roll adjacency to the town frames.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0055", "VN-0056"],
+  "questionsForLarry": ["Do you remember the kids racing bikes around town?"],
+  "qualityNotes": "Kodachrome slide, effective pan, subject sharp; delightful human frame."
+}

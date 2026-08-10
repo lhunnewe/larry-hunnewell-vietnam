@@ -1,0 +1,26 @@
+{
+  "photoId": "VN-0068",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "SAIGON CONFIRMED (machine-level) AND LIKELY TET-DATED. The kiosk median of a boulevard: beds and baskets of POTTED YELLOW CHRYSANTHEMUMS and red celosia — the signature flowers of the Tết market — fill the island around painted kiosks. A blue 'P' parking sign carries a smaller plate reading 'ĐẠI LỘ NGUYỄN-HUỆ' (Nguyễn Huệ Boulevard). Kiosk signs: '...ce-photo' with '21' pennants, 'Star-photo' (the same shop seen in VN-0065), a '17' pennant kiosk, partial 'BÁO...' (newspapers), and on the building behind, lettering including '...HUẾ' and 'BRITISH COU[NCIL]'. Shoppers stroll among the flowers; a boy runs across the empty roadway; VW and period sedans behind.",
+  "visibleText": [
+    "'ĐẠI LỘ NGUYỄN-HUỆ' — street-name plate under the P sign; DEFINITIVE LOCATION READING pending magnification",
+    "'Star-photo' — legible (same kiosk as VN-0065 — links the two frames)",
+    "'...ce-photo', '21', '17', 'BÁO...', 'BRITISH COU...' — partial signs"
+  ],
+  "objects": ["Tết flower stalls (yellow chrysanthemums, celosia)", "photo kiosks", "parking sign with street plate", "period cars"],
+  "setting": "Nguyễn Huệ Boulevard flower market, central Saigon — and the flowers say TẾT SEASON, i.e., LATE JANUARY–FEBRUARY 1965 (mid-tour). A date-and-place anchor for the city series (VN-0040/0042/0043/0050/0065).",
+  "people": { "count": 12, "notes": "Civilian shoppers." },
+  "landmarkHypotheses": ["Nguyễn Huệ Boulevard — near-definitive via street plate; verify by magnification."],
+  "geolocationHypothesis": {
+    "hypothesis": "Nguyễn Huệ Boulevard, Saigon, at Tết (probably February 1965).",
+    "reasoning": "Street-name plate + Tết flower market + kiosk continuity with VN-0065.",
+    "confidence": "high (machine reading; confirm by magnification)"
+  },
+  "crossReferences": ["VN-0040", "VN-0043", "VN-0065", "data/places/thom-son-nuht.json (Saigon-area presence)"],
+  "questionsForLarry": [
+    "Were you in Saigon for Tet 1965? Do you remember the flower market on Nguyen Hue?",
+    "Did you have film developed at these photo kiosks?"
+  ],
+  "qualityNotes": "Kodachrome slide, even light, rich color; the street plate is the key magnification target."
+}

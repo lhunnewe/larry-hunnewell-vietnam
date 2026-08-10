@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0060",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Jungle clearing with roughly eight camouflage-clad soldiers spread across the middle distance — some bent to work (clearing brush or searching), others moving with rifles at hand; one at right center carries his weapon high. Tall trees behind, cut and dried vegetation in the foreground. Same movement family as VN-0057/VN-0058.",
+  "visibleText": [],
+  "objects": ["CIDG-style camouflage, rifles", "cleared jungle ground"],
+  "setting": "The escort/work party on the wooded slope — clearing a trail or sweeping an area.",
+  "people": { "count": 8, "notes": "None identifiable at distance." },
+  "landmarkHypotheses": ["Núi Bà Đen slopes (sequence context)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Same wooded-slope operation as VN-0057/VN-0058.",
+    "reasoning": "Sequential roll position, same vegetation and uniforms.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0057", "VN-0058", "VN-0023"],
+  "questionsForLarry": ["What was the strike force doing here — clearing the trail, or sweeping?"],
+  "qualityNotes": "Kodachrome slide, even light, figures countable."
+}

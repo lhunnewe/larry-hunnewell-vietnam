@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0064",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Shot over a bridge railing (tan-painted steel rails and panels fill the foreground): a broad canal or river bends between banks matted with water hyacinth. Along the far bank stretches a long line of STILT HOUSES over the water — thatch and tin roofs, laundry, ladders down to the water — with palms and banana trees at left and a hazy town skyline far right. Calm water mirrors the sky.",
+  "visibleText": [],
+  "objects": ["bridge railing", "stilt-house waterfront", "water hyacinth", "palms"],
+  "setting": "Crossing a delta-country bridge — the kind of canal-bank stilt community common around Saigon and the upper delta; a travel frame on one of Larry's road movements.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Saigon-area or upper-delta canal crossing — the bridge railing pattern may be matchable."],
+  "geolocationHypothesis": {
+    "hypothesis": "Canal/river crossing on a road route in the greater Saigon region.",
+    "reasoning": "Terrain and housing type.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0046 (road-travel series)"],
+  "questionsForLarry": ["Do you remember crossing bridges like this — where were you headed?"],
+  "qualityNotes": "Kodachrome slide, clean exposure."
+}

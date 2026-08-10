@@ -1,0 +1,27 @@
+{
+  "photoId": "VN-0065",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "RICHLY SIGNED CITY STREET — CHILDREN PLAYING. From under a cinema-style awning (large orange-and-teal '22' numeral on its edge), a wide street opens where a cluster of children play a squatting game (leapfrog or đánh chuyền) in the roadway — eight or nine kids, one boy standing apart holding sandals. Along the median: planted kiosks with painted signs, legible ones including 'Star photo', 'PHOTO-BELL', a red-and-white triangular pennant logo, 'RỒNG-XANH', 'NGỌC-HÂN', 'HỢP-TÂN(?)', and a French line ('...SALON DES ARTS MENAGERS...'). Colonial buildings with shuttered balconies line the far side; adults stroll among the kiosks; period cars and scooters in the distance.",
+  "visibleText": [
+    "'Star photo' — legible",
+    "'PHOTO-BELL...' — legible",
+    "'RỒNG-XANH' ('green dragon') — legible",
+    "'NGỌC-HÂN' — legible",
+    "'HỢP-TÂN(?)' — partially legible",
+    "French text '...DES ARTS MENAGERS...' — partially legible",
+    "'22' on awning edge — legible (possible cinema/shop number)"
+  ],
+  "objects": ["kiosk row with painted signs", "cinema-style awning", "children's street game", "colonial architecture"],
+  "setting": "A boulevard kiosk strip — strongly suggests central SAIGON (the Nguyễn Huệ / Lê Lợi kiosk rows were famous). The named shops are researchable against period Saigon directories, which could pin the exact block.",
+  "people": { "count": 20, "notes": "Mostly children at play — one of the collection's warmest civic frames." },
+  "landmarkHypotheses": ["Nguyễn Huệ or Lê Lợi kiosk row, Saigon (name-sign research can settle it)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon kiosk boulevard.",
+    "reasoning": "Kiosk-median urbanism, sign density, architecture.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0040", "VN-0042", "VN-0050"],
+  "questionsForLarry": ["Do you remember the kiosk rows downtown? Did you buy anything from them — photos developed, souvenirs?"],
+  "qualityNotes": "Kodachrome slide, soft evening light; multiple signs legible — high research value."
+}

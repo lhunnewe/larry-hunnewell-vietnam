@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0067",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Sunbeams fan through a mackerel sky over an installation skyline seen across a wet road: a WATER TOWER on lattice legs, several floodlight/guard towers, a large flat modern building at left, rows of low barracks-type buildings, curved-arm streetlights, and heavy pole lines. Two cyclists and a walking figure use the road; dirt shoulder in foreground (shot from a vehicle or gate position).",
+  "visibleText": [],
+  "objects": ["water tower", "light/guard towers", "modern flat-roofed building", "streetlights, barracks rows"],
+  "setting": "The skyline of a substantial base at dawn or dusk — the water tower and building profile are matchable against period base photos (candidates: the T-building installation, Tan Son Nhut area compounds).",
+  "people": { "count": 3, "notes": "Silhouettes." },
+  "landmarkHypotheses": ["Base skyline with distinctive water tower — magnification and comparison recommended."],
+  "geolocationHypothesis": {
+    "hypothesis": "Perimeter road of Larry's home installation or a base he frequented.",
+    "reasoning": "Casual framing suggests routine ground.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0061 (same perimeter mood)", "VN-0017", "VN-0019"],
+  "questionsForLarry": ["Do you recognize the water tower — which base is this?"],
+  "qualityNotes": "Kodachrome slide, dramatic light; skyline detail recoverable."
+}

@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0070",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A long line of schoolchildren — twenty or more, mostly girls in pale pajama-style clothing, several in sun hats and conical hats, carrying satchels and book bags — queue along a dirt road at a gate with red-brick pillars, evidently leaving or entering school. Beside them: a cream Renault 4CV-type sedan; at right a Honda step-through moped leans on its stand; behind, a corrugated-and-lattice school building, bare trees, wire fence — and at far left in the background a small CHURCH with a cross on its steeple. A boy leans against the gate pillar watching.",
+  "visibleText": [],
+  "objects": ["schoolchildren with satchels", "Renault 4CV", "Honda moped", "brick gate pillars", "church with cross (background)"],
+  "setting": "A village or town school at day's end, church adjacent — a community on Larry's routes photographed with evident affection. The church could help identify the town (Catholic parishes are well recorded).",
+  "people": { "count": 25, "notes": "Children and a few adults; no identity claims." },
+  "landmarkHypotheses": ["Town with Catholic church near a base — candidates researchable via the church profile."],
+  "geolocationHypothesis": {
+    "hypothesis": "Town near Larry's installation or along his routes.",
+    "reasoning": "Roll adjacency to base/perimeter frames.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0055", "VN-0062", "VN-0066"],
+  "questionsForLarry": [
+    "Do you remember the school kids in their white uniforms?",
+    "Is that little church familiar — which town was this?"
+  ],
+  "qualityNotes": "Kodachrome slide, warm low sun, sharp; a lovely social frame."
+}

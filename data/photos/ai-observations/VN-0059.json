@@ -1,0 +1,30 @@
+{
+  "photoId": "VN-0059",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE RADIO ROOM — the single most literal piece of evidence for Larry's duty found in the survey. A heavily sandbagged equipment enclosure stands against a mortared-stone wall beneath a timber-framed upper structure: a dark green metal cabinet/shelter roofed with sandbags, and beside it a green DOOR STENCILED 'RADIO' in white, with a small viewing window. Cables and guy wires run in every direction — down the stone wall, across the passage, into the enclosure. At lower right sit storage batteries; a wooden ladder leans in the passage beyond; a giant boulder (with guy-wire anchors) fills the right side, with a white-wrapped equipment box on a stand above it.",
+  "visibleText": [
+    "'RADIO' — stenciled on the door, FULLY LEGIBLE."
+  ],
+  "objects": [
+    "door stenciled RADIO with window",
+    "sandbagged equipment shelter/cabinet",
+    "storage batteries, heavy cabling, guy anchors",
+    "mortared stone construction, timber framing above"
+  ],
+  "setting": "The communications room of the summit site — the physical workplace of radio personnel on the mountain. For Larry's story this is the anchor image: his remembered trade, his remembered mountain, and a door that literally says RADIO. (Machine hypothesis until Larry confirms he worked here.)",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Núi Bà Đen summit — the built-into-rock construction matches VN-0009/VN-0028/VN-0038."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit radio room.",
+    "reasoning": "Construction continuity with the entire site chain; relay antennas (VN-0051) and cable runs (VN-0028) terminate in exactly such a facility.",
+    "confidence": "medium-high (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0051", "VN-0028", "VN-0041", "data/people/larry-dennis-hunnewell.json", "Issue #10", "Issue #12"],
+  "questionsForLarry": [
+    "Is this YOUR radio room? Did you work behind that door?",
+    "What equipment was inside? What nets did you run?",
+    "How long were your stints on the mountain?"
+  ],
+  "qualityNotes": "Kodachrome slide, overcast light, sharp. Top-tier catalog and exhibition frame."
+}

@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0061",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Sunset silhouette of a base perimeter: a barbed-wire fence runs across the foreground beside a red-dirt road where a figure in a conical hat walks at right. Against a dramatic mackerel sky stand three lattice TOWERS (guard or floodlight towers), palm trees, masonry gate pillars, low buildings, a guard shack, and a web of power lines on tall poles. Several figures in light shirts walk inside the wire; a small vehicle is parked far right.",
+  "visibleText": [],
+  "objects": ["lattice towers (guard/light)", "barbed-wire fence, gate pillars, guard shack", "power poles and heavy wiring", "palms"],
+  "setting": "The edge of a significant installation at dusk — fenced, towered, and powered. Candidates include the compound Larry lived at (T-building camp) or a base he passed through; the tower profile may help match it.",
+  "people": { "count": 5, "notes": "Silhouettes only." },
+  "landmarkHypotheses": ["Perimeter of a major base — possibly the same installation as the T-numbered hooches (VN-0017/VN-0019)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Perimeter of Larry's home installation (unidentified).",
+    "reasoning": "Domestic framing of the shot suggests routine surroundings rather than travel.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0017", "VN-0019", "VN-0061"],
+  "questionsForLarry": [
+    "Is this the fence line of your base? What were the towers for?",
+    "Do you remember the sunsets there?"
+  ],
+  "qualityNotes": "Kodachrome slide, striking silhouette exposure; strong mood frame for the site."
+}

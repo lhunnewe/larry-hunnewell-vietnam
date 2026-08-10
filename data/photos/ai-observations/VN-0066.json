@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0066",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A green motorcycle-sidecar taxi in profile: the driver — pith helmet, sunglasses, sandals, tan clothes — sits high on the saddle while two passengers ride in the canopied yellow-and-green sidecar box ahead of him (a smiling man visible, another behind). The machine is a working improvisation: mismatched wheels, patched fenders, license plate on the sidecar nose (partially legible). Behind: a white fence and gate, villa with balcony, palms and heavy foliage; a woman in a white blouse and plaid skirt walks right carrying a basket; a boy passes the gate at left.",
+  "visibleText": [
+    "License plate on sidecar — partially visible, not resolvable",
+    "Rear plate 'N...' — fragment"
+  ],
+  "objects": ["motorcycle-sidecar taxi (xe lôi/lambro family)", "canopy, villa fence, baskets"],
+  "setting": "Everyday town transport — likely the same provincial-town visits as VN-0055/VN-0062.",
+  "people": { "count": 5, "notes": "Driver and passengers, pedestrians." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Provincial town street (same family as VN-0055).",
+    "reasoning": "Roll adjacency and town character.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0055", "VN-0062"],
+  "questionsForLarry": ["Did you ride these sidecar taxis? What did a ride cost?"],
+  "qualityNotes": "Kodachrome slide, dappled light, subject sharp; excellent transport documentation."
+}
