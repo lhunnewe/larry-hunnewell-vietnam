@@ -5,8 +5,8 @@
   "datePrecision": "exact",
   "category": "war-event",
   "description": "The United States began Operation Rolling Thunder, the sustained bombing campaign against North Vietnam that marked a major escalation of the war during Larry's tour. Larry also remembers controversy or stories about aircraft dumping or jettisoning bombs into the ocean rather than attacking intended targets — a recollection the project is researching against documented procedures, rules of engagement, and period rumor.",
-  "researchNotes": "The start date is well documented in official and secondary histories; a formal citation should still be added to the sources collection. The bomb-jettison recollection needs careful separation of documented emergency procedures, aborted missions, political restrictions, and contemporary rumor.",
+  "researchNotes": "The start date is cited to the official USAF history of the campaign. The bomb-jettison recollection needs careful separation of documented emergency procedures, aborted missions, political restrictions, and contemporary rumor.",
   "confidence": "confirmed",
   "relatedPeople": [],
-  "sources": []
+  "sources": ["usaf-gradual-failure"]
 }
