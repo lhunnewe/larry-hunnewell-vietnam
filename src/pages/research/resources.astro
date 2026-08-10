@@ -1,0 +1,175 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+---
+
+<BaseLayout title="Online Resources">
+  <span class="eyebrow">Research toolkit</span>
+  <h1>Online resources</h1>
+  <p class="lede">
+    Public resources on the web that can move the <a href={withBase('/research/')}>open
+    questions</a> forward, grouped by cost. The two most decisive record sets — Larry's
+    personnel file and unit morning reports — are <em>not</em> online anywhere; those come only
+    by written request to the National Personnel Records Center, and are tracked in the
+    project's research issues.
+  </p>
+
+  <h2>Free</h2>
+  <ul class="resource-list">
+    <li>
+      <p class="record">Digital archive &middot; Texas Tech University</p>
+      <h3><a href="https://www.vietnam.ttu.edu/virtualarchive/">Virtual Vietnam Archive</a></h3>
+      <p>
+        Roughly seven million pages of digitized documents, free to search and download: unit
+        records, after-action reports, period military maps, photographs, and oral histories.
+        The richest single place to look for candidate units in the
+        <a href={withBase('/units/')}>118th question</a>, for Nha Trang and
+        Núi Bà Đen in 1964&ndash;65, for period maps bearing on
+        <a href={withBase('/places/thom-son-nuht/')}>&ldquo;Thom Son Nuht,&rdquo;</a> and for
+        names like <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a> in
+        digitized paperwork.
+      </p>
+    </li>
+    <li>
+      <p class="record">Casualty memorial &middot; unit-indexed</p>
+      <h3><a href="https://www.virtualwall.org/">The Virtual Wall</a></h3>
+      <p>
+        Memorial pages for every name on the Vietnam Veterans Memorial, browsable by unit of
+        assignment (built on the volunteer-researched Coffelt Database). Two uses here:
+        searching spelling variants of <a href={withBase('/people/sgt-lowry/')}>Sgt.
+        Lowry</a> and <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a>, and
+        browsing Special Forces losses in the Núi Bà Đen / Tây Ninh area. A miss is
+        information too — it suggests the man survived the war, pointing research toward
+        association rosters instead.
+      </p>
+    </li>
+    <li>
+      <p class="record">Casualty memorial &middot; name search &middot; outreach</p>
+      <h3><a href="https://www.vvmf.org/Wall-of-Faces/">Wall of Faces</a></h3>
+      <p>
+        The Vietnam Veterans Memorial Fund's photo-and-remembrance page for each of the 58,000+
+        names. Complements the Virtual Wall for name searches, and posted remembrances
+        sometimes reach family members and unit-mates — a quiet outreach channel.
+      </p>
+    </li>
+    <li>
+      <p class="record">Veterans association &middot; unit history</p>
+      <h3><a href="http://www.118ahc.org/">118th Assault Helicopter Company association</a></h3>
+      <p>
+        The &ldquo;Thunderbirds&rdquo; association: unit history, member stories, photographs,
+        guestbook, and reunions, with a companion history page at the
+        <a href="https://www.145thcab.com/unit-htms/118ahc.htm">145th Combat Aviation
+        Battalion site</a>. Directly relevant to whether Larry's remembered
+        &ldquo;118th AOD&rdquo; connects to the 118th Aviation Company (Bien Hoa, 1963&ndash;65)
+        — and, if it does, the natural place to find men who served alongside him.
+      </p>
+    </li>
+    <li>
+      <p class="record">Veterans association &middot; outreach</p>
+      <h3><a href="https://tsna.org/">Tan Son Nhut Association</a></h3>
+      <p>
+        Association of veterans who served at Tân Sơn Nhứt, with guestbooks and bulletin
+        boards. If &ldquo;<a href={withBase('/places/thom-son-nuht/')}>Thom Son Nuht</a>&rdquo;
+        is a phonetic memory of Tân Sơn Nhứt — the leading hypothesis — this is both a way to
+        test it and a channel for finding men who were there in 1964&ndash;65.
+      </p>
+    </li>
+    <li>
+      <p class="record">Official histories &middot; free PDFs</p>
+      <h3><a href="https://www.history.army.mil/">U.S. Army Center of Military History</a></h3>
+      <p>
+        Free official histories of the war, including the airmobility series that documents the
+        aviation order of battle — the 14th Aviation Battalion's move to Nha Trang in October
+        1964 and the 1st Cavalry Division's arrival through Nha Trang in August 1965, both of
+        which bear on <a href={withBase('/units/')}>the unit question</a>. The Air Force and
+        Marine Corps history offices likewise publish free PDFs of the volumes cited on the
+        <a href={withBase('/sources/')}>Sources</a> page.
+      </p>
+    </li>
+    <li>
+      <p class="record">Government archive catalog</p>
+      <h3><a href="https://catalog.archives.gov">National Archives Catalog</a></h3>
+      <p>
+        Finding aids and a growing body of digitized series, including Record Group 472 (U.S.
+        Army in Vietnam). The place to scope what exists before requesting unit records — and
+        to learn box-level citations a researcher at College Park would pull.
+      </p>
+    </li>
+    <li>
+      <p class="record">Veterans association &middot; partially public</p>
+      <h3><a href="https://www.vhpa.org/">Vietnam Helicopter Pilots Association</a></h3>
+      <p>
+        Covers all helicopter-related units 1962&ndash;75, with a public photo collection and
+        unit incident pages; the member directory itself is member-oriented. Context for
+        Larry's helicopter-travel recollections and another outreach avenue.
+      </p>
+    </li>
+  </ul>
+
+  <h2>Paid</h2>
+  <ul class="resource-list">
+    <li>
+      <p class="record">Newspaper archive &middot; day pass $4.95, monthly $7.95</p>
+      <h3><a href="https://www.stripes.com/help/archives-faq/">Stars and Stripes historic archives</a></h3>
+      <p>
+        Every Pacific edition 1948&ndash;1999, digitized and keyword-searchable via
+        NewspaperArchive. The direct route to the erroneous killed-in-action report: search the
+        surname and near-misspellings across Pacific editions of roughly July&ndash;September
+        1965. A single day pass may be enough for a first pass.
+      </p>
+    </li>
+    <li>
+      <p class="record">Genealogy subscription</p>
+      <h3><a href="https://www.ancestry.com/search/collections/1139">Ancestry</a></h3>
+      <p>
+        Holds <em>Stars and Stripes</em> Pacific editions only through 1963 — too early for the
+        KIA report — plus general military collections. Worth a search mainly if the family
+        already has a subscription.
+      </p>
+    </li>
+    <li>
+      <p class="record">Military records subscription</p>
+      <h3><a href="https://www.fold3.com/">Fold3</a></h3>
+      <p>
+        Ancestry's military-records site, digitizing selected National Archives series.
+        Vietnam-era coverage is thinner than for the World Wars; check the free index for
+        relevant hits before paying.
+      </p>
+    </li>
+  </ul>
+
+  <h2>What is not online</h2>
+  <p>
+    Larry's Official Military Personnel File and DD-214 must be requested from the National
+    Personnel Records Center with his signature, and company morning reports — the top of this
+    project's <a href={withBase('/research/')}>source priorities</a> — exist only on microfilm
+    at the same records center. Both requests are tracked as research issues in the
+    repository. Everything on this page is a way to make progress while that mail is in
+    flight, and to know exactly what to ask for when it arrives.
+  </p>
+
+  <p><a href={withBase('/research/')}>&larr; Research</a></p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 2.5rem;
+    max-width: var(--measure);
+  }
+
+  .resource-list li {
+    border-bottom: 1px solid var(--line);
+    padding: 1.2rem 0;
+  }
+
+  .resource-list h3,
+  .resource-list p {
+    margin: 0 0 0.3rem;
+  }
+</style>
