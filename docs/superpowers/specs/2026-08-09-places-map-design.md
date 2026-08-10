@@ -46,10 +46,13 @@ Markup:
 
 - `<div id="places-map" hidden>` above the card grid (revealed by the map script; page
   is unchanged for no-JS visitors).
-- "Not yet on the map" panel after the map: one entry per unmapped place with name,
-  `EvidenceBadge`, a one-line reason (new optional schema-free approach: derive the
-  line as "Location not yet established" — the detail lives on the place page), link.
-  Rendered server-side, visible with or without JS.
+- "Not yet on the map" panel after the map: a short standing explanation ("nothing
+  gets coordinates until its identification is settled") plus one entry per unmapped
+  place — linked name and `EvidenceBadge`; the specifics of *why* each is unpinned
+  live on its place page. Rendered server-side, visible with or without JS. This panel
+  is how the issue's "Japan" bullet is satisfied: Japan (location within the country
+  unknown) and Thom Son Nuht (identification itself unsettled) differ in kind, but
+  both stay off the map for the same evidentiary reason.
 - The existing card grid stays untouched below.
 
 ### Map script (client `<script>` in `places/index.astro`)
@@ -64,23 +67,35 @@ Markup:
   friendliness), zoom control on.
 - Marker popup HTML: name (link to place page), confidence label, one-line summary,
   and a compact "N photographs · N events · N recollections · N people" line — only
-  non-zero counts shown.
+  non-zero counts shown. Text fields are HTML-escaped before interpolation into popup
+  markup (data is repo-controlled, but summaries contain quotes and future text should
+  never be able to break the popup).
+- The map container carries an explicit CSS height (Leaflet renders zero-tall
+  otherwise); the JSON block uses `type="application/json"` with
+  `set:html={JSON.stringify(...)}` so Astro leaves it inline and unprocessed.
 
 ### Place detail page (`src/pages/places/[id].astro`, edit)
 
-Two reverse-lookup sections, each rendered only when non-empty:
+Three reverse-lookup sections, each rendered only when non-empty:
 
 - **"Photographs at this place"** — thumbnail grid (`/images/photos/thumbs/`, linked
   to photo pages, `loading="lazy"`), from `photos.location === place.id`.
 - **"On the timeline"** — linked list of timeline events whose `relatedPlaces`
   include the place, sorted by `sortDate`, showing `displayDate` and title.
+- **"Recollections"** — records from the `recollections` collection whose
+  `relatedPlaces` include the place, rendered with the existing `Recollection`
+  component plus a provenance line. (Without this, the popup's recollection count
+  would point at a page where those records are unfindable — e.g. the KIA-report
+  recollection references japan today.)
 
-People and recollections already render on this page; no change there.
+People (`relatedPeople`, which includes Larry himself — the popup's "N people" count
+deliberately matches that list) and the place's own `larrysRecollection` field already
+render; no change there.
 
 ### Dependency
 
-`npm install leaflet` (+ `@types/leaflet` dev dependency for the typed client script).
-Pinned by the existing package-lock; no CDN, no other additions.
+`leaflet` (runtime) and `@types/leaflet` (dev). Verify presence in `package.json` /
+lockfile rather than assuming an install step; no CDN, no other additions.
 
 ## Error handling
 

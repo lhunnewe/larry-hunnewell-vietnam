@@ -7,6 +7,41 @@ import { withBase } from '../../lib/paths';
 const places = (await getCollection('places')).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
+const photos = await getCollection('photos');
+const timeline = await getCollection('timeline');
+const recollections = await getCollection('recollections');
+
+const EV_LABELS: Record<string, { label: string; color: string }> = {
+  confirmed: { label: 'Confirmed', color: 'var(--ev-confirmed)' },
+  'strongly-supported': { label: 'Strongly supported', color: 'var(--ev-strong)' },
+  plausible: { label: 'Plausible', color: 'var(--ev-plausible)' },
+  'unverified-recollection': { label: 'Unverified recollection', color: 'var(--ev-unverified)' },
+  contradicted: { label: 'Contradicted / unlikely', color: 'var(--ev-contradicted)' },
+};
+
+const countsFor = (placeId: string) => ({
+  photos: photos.filter((p) => p.data.location?.id === placeId).length,
+  events: timeline.filter((e) => e.data.relatedPlaces.some((r) => r.id === placeId)).length,
+  recollections: recollections.filter((r) => r.data.relatedPlaces.some((p) => p.id === placeId))
+    .length,
+  people: places.find((p) => p.id === placeId)?.data.relatedPeople.length ?? 0,
+});
+
+const mapped = places
+  .filter((p) => p.data.coordinates)
+  .map((p) => ({
+    id: p.id,
+    name: p.data.name,
+    lat: p.data.coordinates!.lat,
+    lng: p.data.coordinates!.lng,
+    confidenceLabel: EV_LABELS[p.data.confidence].label,
+    color: EV_LABELS[p.data.confidence].color,
+    summary: p.data.summary,
+    counts: countsFor(p.id),
+    url: withBase(`/places/${p.id}/`),
+  }));
+
+const unmapped = places.filter((p) => !p.data.coordinates);
 ---
 
 <BaseLayout title="Places">
@@ -19,6 +54,31 @@ const places = (await getCollection('places')).sort((a, b) =>
     far that research has gotten.
   </p>
 
+  {mapped.length > 0 && (
+    <>
+      <div id="places-map" hidden aria-label="Map of settled places"></div>
+      <script type="application/json" id="map-places" set:html={JSON.stringify(mapped)} />
+    </>
+  )}
+
+  {unmapped.length > 0 && (
+    <aside class="offmap" aria-label="Places not yet on the map">
+      <h2 class="record">Not yet on the map</h2>
+      <p>
+        These places are part of the story but are deliberately unpinned: nothing gets
+        coordinates until its identification is settled by evidence.
+      </p>
+      <ul>
+        {unmapped.map((place) => (
+          <li>
+            <a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a>
+            &nbsp;<EvidenceBadge level={place.data.confidence} />
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )}
+
   <ul class="card-grid">
     {places.map((place) => (
       <li class="card">
@@ -28,14 +88,150 @@ const places = (await getCollection('places')).sort((a, b) =>
       </li>
     ))}
   </ul>
-
-  <p class="record" style="margin-top:2.5rem">
-    An interactive map connecting places to photographs, people, and timeline events is planned.
-  </p>
 </BaseLayout>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  const mapEl = document.getElementById('places-map');
+  const dataEl = document.getElementById('map-places');
+
+  type MapPlace = {
+    id: string;
+    name: string;
+    lat: number;
+    lng: number;
+    confidenceLabel: string;
+    color: string;
+    summary: string;
+    counts: { photos: number; events: number; recollections: number; people: number };
+    url: string;
+  };
+
+  const esc = (s: string) =>
+    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  if (mapEl && dataEl) {
+    const places: MapPlace[] = JSON.parse(dataEl.textContent ?? '[]');
+    if (places.length > 0) {
+      mapEl.hidden = false;
+      const map = L.map(mapEl, { scrollWheelZoom: false });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
+
+      for (const place of places) {
+        const icon = L.divIcon({
+          className: 'map-pin',
+          html: `<span style="--pin:${place.color}"></span>`,
+          iconSize: [18, 18],
+          iconAnchor: [9, 9],
+          popupAnchor: [0, -12],
+        });
+        const counts = (
+          [
+            [place.counts.photos, 'photographs'],
+            [place.counts.events, 'timeline events'],
+            [place.counts.recollections, 'recollections'],
+            [place.counts.people, 'people'],
+          ] as const
+        )
+          .filter(([n]) => n > 0)
+          .map(([n, word]) => `${n} ${word}`)
+          .join(' &middot; ');
+        const popup = `
+          <p class="pin-name"><a href="${esc(place.url)}">${esc(place.name)}</a></p>
+          <p class="pin-ev">${esc(place.confidenceLabel)}</p>
+          <p class="pin-summary">${esc(place.summary)}</p>
+          ${counts ? `<p class="pin-counts">${counts}</p>` : ''}
+          <p class="pin-link"><a href="${esc(place.url)}">View place &rarr;</a></p>`;
+        L.marker([place.lat, place.lng], { icon, title: place.name, alt: place.name })
+          .bindPopup(popup, { maxWidth: 280 })
+          .addTo(map);
+      }
+
+      map.fitBounds(
+        L.latLngBounds(places.map((p) => [p.lat, p.lng])),
+        { padding: [48, 48], maxZoom: 9 }
+      );
+    }
+  }
+</script>
 
 <style>
   .lede {
     font-size: 1.15rem;
+  }
+
+  .offmap {
+    margin: 2rem 0 0;
+    padding: 1rem 1.3rem;
+    border: 1px dashed var(--khaki);
+    max-width: var(--measure);
+  }
+
+  .offmap h2 {
+    margin: 0 0 0.4rem;
+    font-size: 0.95rem;
+  }
+
+  .offmap p {
+    margin: 0 0 0.6rem;
+  }
+
+  .offmap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.6rem;
+  }
+</style>
+
+<style is:global>
+  /* Leaflet renders its own DOM; these rules must be global. */
+  #places-map {
+    height: min(28rem, 60vh);
+    margin-top: 2rem;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+  }
+
+  .map-pin span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--pin, var(--signal));
+    border: 2px solid var(--paper);
+    box-shadow: 0 0 0 1px var(--ink-soft);
+  }
+
+  .leaflet-popup-content {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  .leaflet-popup-content p {
+    margin: 0 0 0.45em;
+  }
+
+  .pin-name {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+
+  .pin-ev,
+  .pin-counts {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
   }
 </style>

@@ -13,6 +13,18 @@ export async function getStaticPaths() {
 
 const { place } = Astro.props;
 const d = place.data;
+
+const placePhotos = (await getCollection('photos'))
+  .filter((p) => p.data.location?.id === place.id)
+  .sort((a, b) => a.data.photoId.localeCompare(b.data.photoId));
+
+const placeEvents = (await getCollection('timeline'))
+  .filter((e) => e.data.relatedPlaces.some((r) => r.id === place.id))
+  .sort((a, b) => a.data.sortDate.localeCompare(b.data.sortDate));
+
+const placeRecollections = (await getCollection('recollections')).filter((r) =>
+  r.data.relatedPlaces.some((p) => p.id === place.id)
+);
 ---
 
 <BaseLayout title={d.name}>
@@ -52,6 +64,54 @@ const d = place.data;
     </>
   )}
 
+  {placePhotos.length > 0 && (
+    <>
+      <h2>Photographs at this place</h2>
+      <ul class="place-photos">
+        {placePhotos.map((photo) => (
+          <li>
+            <a href={withBase(`/photos/${photo.id}/`)}>
+              <img
+                src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
+                alt={photo.data.title}
+                width="320"
+                height="216"
+                loading="lazy"
+              />
+              <span class="record">{photo.data.photoId}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {placeRecollections.length > 0 && (
+    <>
+      <h2>Recollections</h2>
+      {placeRecollections.map((rec) => (
+        <>
+          <Recollection>{rec.data.text}</Recollection>
+          <p class="record provenance">{rec.data.provenance}</p>
+        </>
+      ))}
+    </>
+  )}
+
+  {placeEvents.length > 0 && (
+    <>
+      <h2>On the timeline</h2>
+      <ul>
+        {placeEvents.map((event) => (
+          <li>
+            <span class="record">{event.data.displayDate}</span> &mdash;{' '}
+            <a href={withBase('/timeline/')}>{event.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
   <p><a href={withBase('/places/')}>&larr; All places</a></p>
 
   <MemoryBox term={`place:${place.id}`} subject="place" />
@@ -60,5 +120,26 @@ const d = place.data;
 <style>
   .lede {
     font-size: 1.15rem;
+  }
+
+  .place-photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 1rem;
+  }
+
+  .place-photos img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+  }
+
+  .provenance {
+    margin: 0.3rem 0 1.4rem;
+    color: var(--ink-soft);
   }
 </style>
