@@ -59,5 +59,5 @@ records; `cataloged: false` records render honestly as "not yet cataloged."
 ## Not yet built
 
 Planned next, roughly in order: photo cataloging with Larry (titles, dates, places, verbatim
-recollections), interactive map, per-claim citation rendering from the `sources` collection,
+recollections), per-claim citation rendering from the `sources` collection,
 embedding settled metadata into original scans via exiftool driven from the JSON records.
