@@ -99,9 +99,11 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Housekeeping questions (anytime)
 
-- [ ] **"Do you remember your service number?"** — Draft-era Army numbers usually started
-  "US". It goes straight onto the SF-180 records request (research/records-request/) and
-  makes the NPRC search sharper. *The number itself belongs on the form, never in this repo.*
+- [ ] **"Do you remember your service number — did it have a 42 in it?"** — Draft-era Army
+  numbers were eight digits with a "US" prefix. Family memory says 42 mattered to him in
+  military things; use it as a prompt, not an answer. It goes straight onto the SF-180
+  records request (research/records-request/) and makes the NPRC search sharper. *The
+  number itself belongs on the form, never in this repo.*
 - [ ] **"What's your VA file number — and do you still have your DD-214 from the VA claim
   paperwork?"** — His Agent Orange claim means the VA verified his service once already; a
   DD-214 copy may be in a drawer, which would name the unit without waiting on St. Louis.
