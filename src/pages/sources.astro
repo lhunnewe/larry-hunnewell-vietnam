@@ -41,7 +41,7 @@ const TYPE_LABELS: Record<string, string> = {
   ) : (
     <ul class="source-list">
       {sources.map((source) => (
-        <li>
+        <li id={source.id} tabindex="-1">
           <p class="record">{TYPE_LABELS[source.data.type]}</p>
           <h3>{source.data.url ? <a href={source.data.url}>{source.data.title}</a> : source.data.title}</h3>
           <p>{source.data.citation}</p>
@@ -67,6 +67,20 @@ const TYPE_LABELS: Record<string, string> = {
   .source-list li {
     border-bottom: 1px solid var(--line);
     padding: 1.2rem 0;
+    scroll-margin-top: 1.5rem;
+  }
+
+  /* Highlight the entry a citation link landed on. */
+  .source-list li:target {
+    background: var(--paper-deep);
+    box-shadow: 0 0 0 0.6rem var(--paper-deep);
+    border-left: 3px solid var(--signal);
+    padding-left: 0.9rem;
+  }
+
+  .source-list li:focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 0.6rem;
   }
 
   .source-list h3,

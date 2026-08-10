@@ -5,8 +5,8 @@
   "datePrecision": "exact",
   "category": "war-event",
   "description": "The 9th Marine Expeditionary Brigade came ashore at Da Nang, the first U.S. ground combat units committed to Vietnam. American involvement expanded rapidly through the rest of Larry's tour.",
-  "researchNotes": "Well documented; formal citation to be added to the sources collection.",
+  "researchNotes": "Cited to the official USMC history volume covering the landing and buildup.",
   "confidence": "confirmed",
   "relatedPeople": [],
-  "sources": []
+  "sources": ["usmc-landing-buildup-1965"]
 }

@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import EvidenceBadge from '../components/EvidenceBadge.astro';
 import Recollection from '../components/Recollection.astro';
 import MemoryBox from '../components/MemoryBox.astro';
+import Citations from '../components/Citations.astro';
 import { withBase } from '../lib/paths';
 
 const CATEGORY_META: Record<string, { label: string; color: string }> = {
@@ -106,6 +107,7 @@ for (const e of entries) {
                 ))}
               </p>
             )}
+            <Citations sources={entry.event.data.sources} />
           </div>
         </li>
       ) : (
@@ -147,6 +149,7 @@ for (const e of entries) {
                 </a>
               </p>
             )}
+            <Citations sources={entry.photo.data.sources} />
             <p class="event-links record">
               <a href={withBase(`/photos/${entry.photo.id}/`)}>
                 View photograph {entry.photo.data.photoId} &rarr;

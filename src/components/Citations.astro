@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  /** Entries from a record's sources array: source ids or free-text citations. */
+  sources: string[];
+}
+
+const { sources = [] } = Astro.props;
+const byId =
+  sources.length > 0
+    ? new Map((await getCollection('sources')).map((s) => [s.id, s]))
+    : new Map();
+---
+
+{sources.length > 0 && (
+  <p class="cite-line record">
+    Sources:{' '}
+    {sources.map((ref, i) => {
+      const source = byId.get(ref);
+      return (
+        <>
+          {i > 0 && ' · '}
+          {source ? <a href={withBase(`/sources/#${ref}`)}>{source.data.title}</a> : ref}
+        </>
+      );
+    })}
+  </p>
+)}
+
+<style>
+  .cite-line {
+    margin: 0.6rem 0 0;
+    text-transform: none;
+  }
+</style>

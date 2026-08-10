@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
+import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
 
 export async function getStaticPaths() {
@@ -52,6 +53,8 @@ const placeRecollections = (await getCollection('recollections')).filter((r) =>
       <p>{d.researchNotes}</p>
     </>
   )}
+
+  <Citations sources={d.sources} />
 
   {d.relatedPeople.length > 0 && (
     <>
