@@ -35,6 +35,37 @@
   --wide: 68rem;
 }
 
+/* ------------------------------------------------------------------
+   Dark theme — the same field kit after dark: olive-black canvas,
+   map paper read under lamplight, the signal orange brightened so it
+   still flags. Every token above is re-pointed here; because the whole
+   site is built on these variables, the theme follows automatically.
+   Triggered by the visitor's OS setting via prefers-color-scheme.
+------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --paper: #1b1d16;
+    --paper-deep: #23261c;
+    --ink: #e8e3d2;
+    --ink-soft: #b0ac98;
+    --olive: #a2b478;
+    --khaki: #7c765d;
+    --line: #3b3e31;
+    --signal: #df6f3d;
+    --map-blue: #7ea3b4;
+
+    /* evidence classification — brightened to read on the dark chip */
+    --ev-confirmed: #6f9657;
+    --ev-strong: #88a967;
+    --ev-plausible: #c59c3e;
+    --ev-unverified: #9c9784;
+    --ev-contradicted: #c8674f;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
