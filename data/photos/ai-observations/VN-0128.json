@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0128",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A great roofed PALACE GATE (Sakurada-mon type): whitewashed gatehouse with dark tiled roof spanning between massive stone bastions, a small guard kiosk before it, a green car passing through the portal, visitors in suits and coats walking the broad drive; ropes of straw (winter tree-wrapping) bind the pine trunks along the moat edge — another cool-season marker; a modern green-roofed building (palace household agency area) beyond at right.",
+  "visibleText": [],
+  "objects": ["gatehouse and bastions", "guard kiosk", "straw-wrapped pines (winter practice)", "period car"],
+  "setting": "Seventeenth Japan frame; the straw winter-wrapping on the pines is one more independent cool-season indicator for the trip's dating question.",
+  "people": { "count": 10, "notes": "Visitors." },
+  "landmarkHypotheses": ["Sakurada-mon area, Imperial Palace, Tokyo."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace gate, Tokyo, cool season.", "reasoning": "Architecture + winter tree-wrapping.", "confidence": "high (location), medium-high (season)" },
+  "crossReferences": ["VN-0110", "VN-0127", "Issue #9 (dating)"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, even light."
+}

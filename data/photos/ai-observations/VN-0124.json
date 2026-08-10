@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0124",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Architectural portrait of the TATSUMI-YAGURA (Sakurada Nijū-yagura) — the Imperial Palace's corner keep — riding its massive sloped stone base above the moat: two tiers of white walls, dark tiled roofs with shachihoko finials, gun-slot windows; pine branches frame the upper left; palace outbuildings and trees behind.",
+  "visibleText": [],
+  "objects": ["Tatsumi-yagura keep", "cyclopean moat wall", "pines"],
+  "setting": "Fifteenth Japan frame — the finest architectural study of the trip.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Tatsumi-yagura, Imperial Palace, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace, Tokyo.", "reasoning": "Architecture.", "confidence": "high" },
+  "crossReferences": ["VN-0112", "VN-0121 (tower appears behind the fountain portraits)"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, excellent exposure; print-worthy."
+}

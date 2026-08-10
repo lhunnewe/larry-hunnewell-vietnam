@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0131",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The upper tiers of the KAN'EI-JI FIVE-STORY PAGODA in Ueno Park, shot steeply from below: three visible roof tiers with their bracket clusters and green-weathered eaves, crowned by the bronze sōrin spire with its stacked rings and finial; winter twigs at lower right; pale sky.",
+  "visibleText": [],
+  "objects": ["pagoda tiers and sōrin spire"],
+  "setting": "Nineteenth Japan frame.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Kan'ei-ji pagoda, Ueno — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Ueno Park, Tokyo.", "reasoning": "Architecture.", "confidence": "high" },
+  "crossReferences": ["VN-0103", "VN-0129"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, silhouette-ish exposure."
+}

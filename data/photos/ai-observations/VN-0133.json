@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0133",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "NEW ROSTER NAME. Close-up of the painted DRAGON on the summit boulder (the VN-0063 artwork, now in full color detail): a serpentine dragon in blue, red, and cream rides stylized cloud scrolls, finely painted. Upper left, in white block letters: 'SGT. WILLCUT' — AN AMERICAN NAME ON THE ROCK, fully legible (possibly WILLCUTT; edge cropped). Right edge: parts of further white letters ('D...', 'H...') from an adjacent inscription; another colorful painted fragment at top right corner. Shot at dusk or with flash falloff — the frame is a projected-slide-style close capture with dark vignette.",
+  "visibleText": [
+    "'SGT. WILLCUT[T?]' — legible. RESEARCH KEY: rare surname, searchable in unit rosters (with REWERTS, KALICKI, LEWELLING etc. from VN-0035 this builds a cross-checkable roster of the site's Americans).",
+    "Adjacent letters 'D.../H...' — cropped; the full rock face likely holds more names (magnify VN-0063/VN-0035 series)"
+  ],
+  "objects": ["painted dragon artwork", "white painted name"],
+  "setting": "The summit painted-rock complex — every close-up keeps yielding names; a systematic magnified transcription of all rock faces is now clearly warranted (#12, #10).",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Núi Bà Đen summit rock-art complex."],
+  "geolocationHypothesis": { "hypothesis": "Núi Bà Đen summit.", "reasoning": "Artwork continuity with VN-0063.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0063", "VN-0035", "VN-0049", "Issue #12"],
+  "questionsForLarry": ["Do you remember Sergeant Willcut? Was he Special Forces or signal?"],
+  "qualityNotes": "Kodachrome slide (appears re-photographed or heavily vignetted); name crisp."
+}

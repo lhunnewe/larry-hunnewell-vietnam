@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0135",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Under the palm-thatch fringe: the long empty beach at low light — an older American in fatigues walks the tide line, hands at his sides; a slighter figure stands further right; across the grey bay, a hilly headland carries scattered white buildings down to the water; monsoon overcast flattens sea and sky to silver.",
+  "visibleText": [],
+  "objects": ["fatigue-clad walker", "headland with buildings", "palm fringe"],
+  "setting": "The Nha Trang beach chain in monsoon light; the buildings on the headland (possibly the northern point with its institutions) are a matchable feature.",
+  "people": { "count": 2, "notes": "The older man may be the senior NCO of VN-0024 — hypothesis only." },
+  "landmarkHypotheses": ["Nha Trang bay, northern headland."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang beach.", "reasoning": "Chain continuity.", "confidence": "medium" },
+  "crossReferences": ["VN-0123", "VN-0125", "VN-0024"],
+  "questionsForLarry": ["Who's walking the beach here — the old sergeant?"],
+  "qualityNotes": "Kodachrome slide, muted palette, contemplative frame."
+}

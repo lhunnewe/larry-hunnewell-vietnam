@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0132",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The broad palace MOAT from a bridge: dark stone ramparts and pines at left, a white retaining wall and a small roofed guard structure at the far corner where the moat turns; beyond, the government-district skyline — office slabs, radio/communication masts with dish and sphere fittings, a chimney; boulevard with traffic and willows along the right embankment.",
+  "visibleText": [],
+  "objects": ["moat and ramparts", "guard structure", "government-district buildings, comm masts"],
+  "setting": "Twentieth Japan frame — the Sakurada moat reach; closes the palace circuit.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Sakurada-bori moat, Tokyo — conclusive area ID."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace moat, Tokyo.", "reasoning": "Topography.", "confidence": "high" },
+  "crossReferences": ["VN-0128", "VN-0110"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, breezy water texture."
+}

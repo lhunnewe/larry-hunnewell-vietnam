@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0127",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "LARRY ON THE PALACE PLAZA — third Tokyo portrait of him: white shirt with rolled sleeves, dark trousers, the black camera bag slung across his chest, hair blown, squinting into the low sun on the vast gravel expanse of Kōkyo-mae; behind, the full sweep of the palace ramparts with the keep at far left; pigeons dot the gravel; scattered visitors far off.",
+  "visibleText": [],
+  "objects": ["camera bag", "gravel plaza, ramparts, keep"],
+  "setting": "Companion to VN-0110 (the empty-plaza frame — evidently the friend's shot of the same stop) and to the matched fountain portraits. Sixteenth Japan frame.",
+  "people": { "count": 8, "notes": "Larry (machine ID) + distant strollers." },
+  "landmarkHypotheses": ["Kōkyo-mae plaza, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Imperial Palace plaza, Tokyo.", "reasoning": "Landmark.", "confidence": "high" },
+  "crossReferences": ["VN-0110", "VN-0121", "VN-0093", "Issue #9"],
+  "questionsForLarry": ["Whose camera bag is that on your shoulder — yours from the beach table picture?"],
+  "qualityNotes": "Kodachrome slide, low warm sun; fine portrait."
+}

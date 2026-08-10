@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0130",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A Vietnamese town square with a MODERN MONUMENT: a tall dark pylon-arch (two legs joined at the top, brutalist style) stands on a stepped plinth in a landscaped plaza with flagpoles, a low reviewing stand, willows, and a white-railed bridge approach at right; a boy cycles past on the wide empty street; a motorcyclist at far right; sand and rubble piled at a building corner in the left foreground.",
+  "visibleText": [],
+  "objects": ["monument pylon-arch", "reviewing stand, flagpoles", "white bridge railing", "street with cyclists"],
+  "setting": "A provincial capital's civic/memorial square — the monument's distinctive shape is matchable against period photos of province towns (candidates on Larry's routes: Tây Ninh, Mỹ Tho, Biên Hòa).",
+  "people": { "count": 2, "notes": "Cyclists." },
+  "landmarkHypotheses": ["Provincial memorial square — monument shape is the ID key."],
+  "geolocationHypothesis": { "hypothesis": "Province-capital plaza, southern Vietnam.", "reasoning": "Civic architecture.", "confidence": "low" },
+  "crossReferences": ["VN-0116", "VN-0055 (town series)"],
+  "questionsForLarry": ["Do you recognize this monument square — which town?"],
+  "qualityNotes": "Kodachrome slide, clean; monument profile clear."
+}

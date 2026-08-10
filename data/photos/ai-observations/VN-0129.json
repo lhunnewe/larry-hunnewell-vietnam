@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0129",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The lantern-lined approach to Ueno Tōshō-gū: ranks of moss-dark STONE LANTERNS recede on both sides of the flagstone path toward the shrine's copper-green roof; Sunday crowds flow past — a woman in a rust-orange coat with a small boy, businessmen with briefcases, a couple close to the camera at right; an information board mid-path; winter-bare cherries overhead.",
+  "visibleText": ["Information board — Japanese, not resolvable"],
+  "objects": ["stone lantern avenues", "shrine gate and roof", "Sunday crowd"],
+  "setting": "Eighteenth Japan frame — the approach to the shrine photographed in VN-0103.",
+  "people": { "count": 15, "notes": "Japanese public." },
+  "landmarkHypotheses": ["Ueno Tōshō-gū approach, Tokyo — conclusive."],
+  "geolocationHypothesis": { "hypothesis": "Ueno Park, Tokyo.", "reasoning": "Lantern avenue.", "confidence": "high" },
+  "crossReferences": ["VN-0103", "VN-0095", "Issue #9"],
+  "questionsForLarry": [],
+  "qualityNotes": "Kodachrome slide, soft winter light."
+}

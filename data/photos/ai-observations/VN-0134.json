@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0134",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A camp gate under brooding monsoon cloud: a lone guard stands in a small roofed gate shack beside a wire gate and fence line; tall radio masts rise left and center; across the middle distance, white TAIL FINS of several large transport aircraft (C-130-class) line an unseen runway among tents and sheds; a white-paneled array (solar still or panel stack?) at far right; dark mountain walls ring the valley.",
+  "visibleText": [],
+  "objects": ["gate shack with guard", "radio masts", "transport tail fins at airfield", "wire fencing, ringing mountains"],
+  "setting": "The camp's gate with the airfield right beyond — mountains-close-on-all-sides matches the NHA TRANG valley; the transport tails place the runway a stone's throw away (chain with VN-0117's low C-123).",
+  "people": { "count": 1, "notes": "Gate guard." },
+  "landmarkHypotheses": ["Nha Trang airfield-edge camp (chain)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang base gate.", "reasoning": "Terrain + airfield adjacency.", "confidence": "medium" },
+  "crossReferences": ["VN-0117", "VN-0096", "VN-0099"],
+  "questionsForLarry": ["Was this your gate? Did you pull gate guard duty?"],
+  "qualityNotes": "Kodachrome slide, storm light; moody and informative."
+}

@@ -1,0 +1,18 @@
+{
+  "photoId": "VN-0126",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "UNIT-MARKED VEHICLE PORTRAIT. A U.S. Army truck tractor (M52-class, 5-ton family) stands on gravel before a thatch-walled building: big white STAR on the door, HOOD NUMBER '5A9857' fully legible, and on the equipment box behind the cab a stenciled panel reading 'U.S. ARMY / 5A[9]857 / ...' with further lines including what appears to be 'MACV' and 'ASG(?)' plus a number '18400(?)' — REGISTRATION AND UNIT MARKINGS, partially resolvable. Spare tire, hose reels, and hydraulic lines behind the cab; sandy lot, shed, and palm-thatch structure beyond.",
+  "visibleText": [
+    "Hood number: 5A9857 — fully legible (vehicle registration; researchable)",
+    "Box stencil: U.S. ARMY / 5A9857 / [unit lines incl. possible MACV ... ASG ... 18400] — MAGNIFICATION PRIORITY (#10: a unit designator in plain paint)"
+  ],
+  "objects": ["M52-class truck tractor", "white star, registration stencils", "thatch building"],
+  "setting": "A vehicle of the local support establishment — the stenciled unit lines are among the most direct unit-identification evidence in the collection.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": { "hypothesis": "Camp motor area; location per adjacent frames.", "reasoning": "Roll position.", "confidence": "low" },
+  "crossReferences": ["VN-0096 (truck bumper)", "Issue #10"],
+  "questionsForLarry": ["Whose truck was this — your unit's, or the support group's?"],
+  "qualityNotes": "Kodachrome slide, close and sharp; stencil block is a top magnification target."
+}

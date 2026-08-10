@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0125",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "From the green-clothed table under the palms: a party of eight to ten VIETNAMESE SERVICEMEN IN KHAKI UNIFORMS AND BLUE CAPS strolls the beach in loose groups while a stocky American in striped trunks wades out of the surf at left; hills, a white seaside building cluster, and the curving bay behind.",
+  "visibleText": [],
+  "objects": ["uniformed Vietnamese servicemen (khaki + blue caps — air force cadet/officer style)", "green-clothed table", "surf, bay hills"],
+  "setting": "SIGNIFICANT FOR PLACE ID: Nha Trang was home to the VIETNAMESE AIR FORCE training center and academy — uniformed VNAF personnel promenading on this beach fits Nha Trang precisely, strengthening the whole beach-chain hypothesis.",
+  "people": { "count": 11, "notes": "VNAF-style uniforms; one American swimmer." },
+  "landmarkHypotheses": ["Nha Trang beach by the VNAF academy area."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang beachfront.", "reasoning": "VNAF presence + chain continuity.", "confidence": "medium-high" },
+  "crossReferences": ["VN-0123", "VN-0094", "VN-0018", "data/places/nha-trang.json"],
+  "questionsForLarry": ["Do you remember the Vietnamese air force cadets around Nha Trang in their blue caps?"],
+  "qualityNotes": "Kodachrome slide, hazy; uniform detail adequate."
+}

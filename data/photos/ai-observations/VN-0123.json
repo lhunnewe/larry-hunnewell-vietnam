@@ -1,0 +1,15 @@
+{
+  "photoId": "VN-0123",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The beach from the shaded refreshment tables: a green-clothed table stands on the sand in the foreground (the same green table cloths as the VN-0022 beach-lunch frame — very likely the SAME SPOT); beyond, the long pale beach curves toward hazy hills and a white building cluster at the headland; monsoon surf breaks; palm fronds canopy the top of the frame; a helmet or dark round object noses into the lower-left corner.",
+  "visibleText": [],
+  "objects": ["green-clothed concrete table", "curving beach, surf", "headland with white buildings", "palm canopy"],
+  "setting": "The recreation-area tables where Larry lunched in VN-0022 — linking the beach-outing frames into one place; Nha Trang chain.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Same beach garden as VN-0022/VN-0094 (Nha Trang esplanade)."],
+  "geolocationHypothesis": { "hypothesis": "Nha Trang beachfront tables.", "reasoning": "Furniture match with VN-0022.", "confidence": "medium" },
+  "crossReferences": ["VN-0022", "VN-0094", "VN-0111"],
+  "questionsForLarry": ["Same tables where you had the Cokes? Who ran the beach concession?"],
+  "qualityNotes": "Kodachrome slide, hazy; linking value high."
+}
