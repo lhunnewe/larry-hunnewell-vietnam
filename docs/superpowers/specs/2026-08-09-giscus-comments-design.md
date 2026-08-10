@@ -33,7 +33,7 @@ convert into `data/recollections/` records.
 
 | Step | Who | How |
 |------|-----|-----|
-| Enable Discussions on the repo | Claude | `gh api -X PATCH` (`has_discussions=true`) |
+| Enable Discussions on the repo | Claude | **Done** (`has_discussions=true`, verified live) |
 | Install the giscus app on the repo | Owner (browser-only) | github.com/apps/giscus → Install → select `larry-hunnewell-vietnam` |
 | Create discussion category **"Memories"**, format **Announcement** | Owner (browser-only) | Repo → Discussions → categories → New category |
 | Fetch `repoId` + `categoryId`, bake into site config | Claude | GraphQL query after the above |
@@ -64,8 +64,8 @@ Renders, in order:
 1. A large-type explainer block headed **"Share what you remember"**, written in plain
    language for Larry: type in the box below, press the button that says
    **Comment** — and the line "If it asks you to sign in, stop and call the family;
-   don't try to make an account." Type sizes match or exceed the site's existing
-   large-type styles.
+   don't try to make an account." Explainer body text at least 1.15× the site body
+   size; heading per the existing `h2` scale.
 2. The giscus `<script>` embed with:
    - `data-repo`, `data-repo-id`, `data-category`, `data-category-id` from `giscus.ts`
    - `data-mapping="specific"`, `data-term={term}`
@@ -73,6 +73,12 @@ Renders, in order:
      past history to find where to type)
    - `data-reactions-enabled="1"`, `data-theme="light"` (matches paper aesthetic),
      `data-lang="en"`, `data-strict="1"` (exact term matching), no lazy loading
+   - The script tag carries Astro's `is:inline` directive so it is emitted verbatim,
+     not bundled.
+   - Known limitation: the giscus iframe renders its own type at ~14px and cannot be
+     restyled without a custom theme. Accepted mitigation: browser zoom on Larry's
+     device. Revisit a custom giscus CSS theme if zoom proves insufficient for him —
+     legibility, not aesthetics, is the trigger.
 3. A `<noscript>` fallback: "Comments need JavaScript. Ask the family for help turning
    it on."
 
@@ -94,11 +100,13 @@ photo record — cataloged or not (uncataloged pages are where memories are most
 1. `npm run build` passes with the component on all 157 photo pages.
 2. After owner completes browser steps and IDs are baked in: post a test comment on one
    photo page, verify a discussion titled `VN-####` appears in the Memories category,
-   verify the comment renders on the page, then delete the test comment.
+   verify the comment renders on the page, then delete the test comment **and the
+   test discussion** (so issue #5's exporter never sees an empty artifact thread).
 3. Visual check of the explainer type sizes against the existing layout.
 
 ## Out of scope (tracked elsewhere)
 
 - Export of comments into `data/recollections/` — issue #5.
 - Embeds on places/people/timeline pages — later phase of issue #4.
-- Custom giscus CSS theme — revisit only if the built-in light theme clashes.
+- Custom giscus CSS theme — revisit if the built-in light theme clashes or its type
+  size proves illegible for Larry even with browser zoom.
