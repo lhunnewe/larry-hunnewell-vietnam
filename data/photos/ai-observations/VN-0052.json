@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0052",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Among the summit's boulders and deep sandbag walls, an older Vietnamese man in a green fatigue shirt stands mid-frame; behind him on higher ground a young woman in a blue cardigan and dark trousers looks out over the scene. Around them: canvas-and-burlap roofed shelters braced with poles and boards, a bundled tarp on the near boulder, plank walkways, and the pale plain-with-clouds backdrop far below.",
+  "visibleText": [],
+  "objects": ["sandbag-and-canvas shelters", "boulders, plank bracing", "civilian and military-mix clothing"],
+  "setting": "The garrison's domestic terrace — an older garrison member (or village elder) and a young woman of the summit community.",
+  "people": { "count": 2, "notes": "Older man, young woman — no identity claims; compare with the family group of VN-0037/VN-0038." },
+  "landmarkHypotheses": ["Núi Bà Đen summit living quarter (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit.",
+    "reasoning": "Construction and backdrop continuity.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0037", "VN-0038", "VN-0048"],
+  "questionsForLarry": [
+    "Do you remember the older man — was he one of the strike-force leaders?",
+    "How did the families get supplies up there?"
+  ],
+  "qualityNotes": "Kodachrome slide, bright haze background, subjects well exposed."
+}

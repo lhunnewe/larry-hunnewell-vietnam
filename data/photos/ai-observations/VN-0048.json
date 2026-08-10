@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0048",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A lane of the summit hamlet: corrugated-tin-roofed plank buildings wedged between boulders, joined by sheet-metal awnings. A woman in a white blouse and dark trousers carries a baby down the bare-rock path between them; laundry and household goods show in the passage beyond; a 55-gallon drum stands by the near building's door. Faint white painted lettering on the near building's wall (partially visible, not resolvable). Sandbags at lower right; guy wires overhead; bright haze beyond the roofline.",
+  "visibleText": ["White painted lettering on building wall — partially visible, not resolvable (magnification candidate)"],
+  "objects": ["plank-and-tin dwellings among boulders", "55-gallon drum", "laundry, household goods", "sandbags, guy wires"],
+  "setting": "The dependents' quarter of the summit site — a functioning hamlet built into the rocks, matching the family scenes of VN-0037/VN-0038.",
+  "people": { "count": 2, "notes": "Woman and baby — possibly the family from VN-0037." },
+  "landmarkHypotheses": ["Núi Bà Đen summit hamlet (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit living quarter.",
+    "reasoning": "Architecture-into-boulders continuity with the chain.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0037", "VN-0038", "VN-0039"],
+  "questionsForLarry": [
+    "How many buildings were up there? What was each one?",
+    "Did the families run any little shops or cooking for the garrison?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong contrast; building lettering may resolve with contrast work."
+}

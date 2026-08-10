@@ -1,0 +1,23 @@
+{
+  "photoId": "VN-0057",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A halt in the jungle, mixing uniforms and civilian clothes. LEFT: a tall, fair-haired young man stands in a dark sweater, khaki trousers, and desert boots, hand at his belt — POSSIBLY LARRY IN CIVILIAN CLOTHES (compare face/build with VN-0028; hypothesis only). Beside him, two people in light clothing crouch over something on the ground with a person in gray; RIGHT: several soldiers in duck-hunter camouflage move through the brush carrying rifles (one clearly visible at center-right aiming or carrying at the ready). Tall thin trees, vines, and a fallen log complete the scene — the group seems to be examining a find or resting on a trail walk.",
+  "visibleText": [],
+  "objects": ["duck-hunter camo uniforms with rifles", "civilian sweater/khakis/desert boots", "dense secondary jungle"],
+  "setting": "A mixed party on a jungle trail — possibly an escorted walk down/up the mountain, or an inspection of something found. The civilian-dressed Americans among armed CIDG suggest an informal excursion under guard.",
+  "people": { "count": 8, "notes": "Tall fair-haired man = possible Larry (hypothesis); others unidentified." },
+  "landmarkHypotheses": ["Núi Bà Đen slopes (sequence context with the summit rolls)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Wooded slope of Núi Bà Đen during an escorted movement.",
+    "reasoning": "Roll position, CIDG presence, terrain.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0023 (patrol frame)", "VN-0058 (same movement)", "VN-0028 (Larry's face reference)"],
+  "questionsForLarry": [
+    "Is this you in the sweater? Why civilian clothes in the jungle?",
+    "What was the group looking at on the ground?",
+    "Was this walking down the mountain?"
+  ],
+  "qualityNotes": "Kodachrome slide, dappled forest light, good depth; face of the sweater-wearing man is clear enough for Larry to confirm."
+}

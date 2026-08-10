@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0056",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A single-story villa-style building with corrugated roof, cream walls, green shuttered door and window frames, and a railed porch where a figure in white stands behind sliding glass. In the yard: a soldier in green uniform and dark beret(?) stands beside a parked white Vespa-type scooter, apparently talking with a small child; a dark sedan or jeep noses in at far left under a tree; a bicycle leans on a tree at right; scrubby dry grass and a plank walkway in the foreground, motion-blurred at the bottom edge (shot from a moving vehicle).",
+  "visibleText": [],
+  "objects": ["villa with green shutters", "Vespa scooter", "bicycle", "vehicle under tree"],
+  "setting": "A residential or administrative compound on a road Larry traveled — possibly a billet, district office, or advisor house. The beret on the soldier (if confirmed) could indicate ARVN or LLDB.",
+  "people": { "count": 3, "notes": "Soldier, child, figure on porch — none identifiable." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Roadside compound in a provincial town (same journey as VN-0055).",
+    "reasoning": "Sequential frame, matching light.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0055"],
+  "questionsForLarry": [
+    "Do you recognize this house — someone's headquarters or billet?",
+    "Whose scooter was that?"
+  ],
+  "qualityNotes": "Kodachrome slide, warm evening light, foreground motion blur."
+}

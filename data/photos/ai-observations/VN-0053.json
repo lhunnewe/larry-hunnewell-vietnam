@@ -1,0 +1,26 @@
+{
+  "photoId": "VN-0053",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A BROWNING M2 .50-CALIBER MACHINE GUN on its tripod dominates the right foreground, barrel pointed out over the rim of the position toward the plain thousands of feet below — a defensive emplacement with a commanding field of fire. Around it: burlap-covered sandbag parapets; below-left, a corrugated-roofed dugout shelter with web gear, a canteen cup, and equipment hung on its posts; barbed wire beyond the parapet; the plain's fields, tree lines, and roads fade into blue haze at the horizon.",
+  "visibleText": [],
+  "objects": [
+    "Browning M2 .50-caliber machine gun on tripod (charging handle and pistol grip visible)",
+    "sandbag parapet, dugout shelter with hung equipment",
+    "barbed wire, cleared slope"
+  ],
+  "setting": "A principal defensive position of the summit site, looking out over its immense field of observation — the frame that best conveys WHY this mountaintop mattered militarily.",
+  "people": { "count": 0, "notes": "Equipment visible but crew out of frame." },
+  "landmarkHypotheses": ["Núi Bà Đen summit perimeter (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit, perimeter MG position.",
+    "reasoning": "Elevation over plain, construction continuity.",
+    "confidence": "medium-high (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0036", "VN-0044", "VN-0047"],
+  "questionsForLarry": [
+    "Did you ever stand watch on a gun like this up there?",
+    "Was the site ever attacked while you were on the mountain?"
+  ],
+  "qualityNotes": "Kodachrome slide, bright; weapon detail crisp. Strong exhibition frame."
+}

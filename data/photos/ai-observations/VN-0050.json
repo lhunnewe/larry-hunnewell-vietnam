@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0050",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Panned street shot, city center: a woman in a LILAC ÁO DÀI and white trousers pedals a bicycle while a boy in a gray shirt rides side-saddle on the rear rack, looking straight at the camera. Behind them, slightly motion-blurred: a long rank of parked motor scooters (Vespa/Lambretta types, cream and blue), pedestrians in white shirts, another cyclist, a large pale colonial building with an arched upper window at left, and a modern multi-story block with balconies at right.",
+  "visibleText": [],
+  "objects": ["bicycle with passenger rack", "áo dài", "rows of parked scooters", "colonial and modern architecture"],
+  "setting": "Busy city street — the scooter ranks and building density again suggest Saigon (same outing family as VN-0040/VN-0042/VN-0043).",
+  "people": { "count": 8, "notes": "Civilians; the boy's direct gaze makes this one of the collection's best street portraits." },
+  "landmarkHypotheses": ["Central Saigon; the arched colonial building may be identifiable (possible opera house/city building profile)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon street.",
+    "reasoning": "Scooter density, architecture mix.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0040", "VN-0042", "VN-0043"],
+  "questionsForLarry": [
+    "These city pictures — one trip or many? What brought you into the city?",
+    "Were you shooting from the sidewalk or a vehicle?"
+  ],
+  "qualityNotes": "Kodachrome slide, effective pan; subjects sharp against blurred ground."
+}

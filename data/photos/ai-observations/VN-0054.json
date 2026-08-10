@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0054",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Close-up of rock art: a PHOENIX (phượng hoàng) painted on pockmarked granite in red, blue, teal, and yellow — sweeping tail plumes, striped wings, crested head — with a second colorful fragment just entering the frame at upper right and a sliver of blue sky at lower left. The pocked, lichen-flecked stone fills the rest of the frame.",
+  "visibleText": [],
+  "objects": ["painted phoenix on granite", "second painted fragment (edge)"],
+  "setting": "The summit's painted-rock gallery continues — this piece is devotional/artistic rather than roster graffiti, consistent with the mountain's shrine heritage (Núi Bà Đen is a sacred mountain; its boulders carried both religious art and garrison inscriptions).",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Núi Bà Đen boulder complex (rock-art chain with VN-0035/VN-0049)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit/shrine area.",
+    "reasoning": "Same granite character and painting tradition as the roster rocks.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0035", "VN-0049"],
+  "questionsForLarry": [
+    "Do you remember the painted phoenix? Who painted the rocks — the soldiers or the temple people?",
+    "Was the pagoda/shrine still active while you were there?"
+  ],
+  "qualityNotes": "Kodachrome slide, excellent color preservation; fine art-documentation frame."
+}

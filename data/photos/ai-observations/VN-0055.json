@@ -1,0 +1,26 @@
+{
+  "photoId": "VN-0055",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Main street of a provincial town, seen from the road. Foreground: two women in conical hats walk away from the camera — one in a red-brown blouse carrying a pink woven basket, one in light blue — with a small child in white alongside. Left: a strip of two-story shophouses with painted signs, legible ones including 'CHERRY' (red on white) and 'Mỹ-Dung'; market stalls and awnings; a man rides a moped toward the camera; pedestrians along the shopfronts. Right: a heavy military truck parked at the roadside; power poles down the street; a pale spire or arch far down the road's end. Wide, partly paved road with dirt shoulders.",
+  "visibleText": [
+    "'CHERRY' — shop/bar sign, legible (English-named bars typically served soldiers — suggests a garrison town)",
+    "'Mỹ-Dung' — shop sign, legible",
+    "Several other signs partially visible — magnification candidates"
+  ],
+  "objects": ["shophouse strip with signs", "military truck", "moped, market stalls", "conical hats, baskets"],
+  "setting": "A garrison-adjacent town strip — candidates include Tây Ninh (the town below Núi Bà Đen) or another base town on Larry's routes. The English bar name is the tell for a nearby installation.",
+  "people": { "count": 10, "notes": "Civilians; one possible soldier by the truck." },
+  "landmarkHypotheses": ["Tây Ninh town (proximity hypothesis via the mountain chain) — unverified; the distant spire could be a church or Cao Đài temple element worth magnifying."],
+  "geolocationHypothesis": {
+    "hypothesis": "Provincial town near a military installation — possibly Tây Ninh.",
+    "reasoning": "Sequence position among mountain-area rolls; GI-oriented signage.",
+    "confidence": "low (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0056 (same trip)", "data/places/nui-ba-den.json"],
+  "questionsForLarry": [
+    "Is this the town at the foot of the mountain — Tây Ninh?",
+    "Did you stop in towns like this often? What were the shops like?"
+  ],
+  "qualityNotes": "Kodachrome slide, bright; signage strip merits magnification."
+}

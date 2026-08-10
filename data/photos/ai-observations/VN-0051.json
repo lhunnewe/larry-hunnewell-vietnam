@@ -1,0 +1,27 @@
+{
+  "photoId": "VN-0051",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "DIRECT EVIDENCE OF THE RADIO-RELAY FUNCTION. A tall mast carrying a stacked array of YAGI DIRECTIONAL ANTENNAS (at least four multi-element beams at differing azimuths, with feedlines running down the mast) stands at the summit's edge; a man in a blue shirt crouches over sandbags at its base, working on something. The vast plain spreads out below in early or late light, patchworked with fields and haze. Foreground: the photographer shoots from a built position — a plank edge, canvas, and a metal object (chair or equipment) intrude at right/bottom.",
+  "visibleText": [],
+  "objects": [
+    "multi-bay yagi antenna array on mast with feedlines (VHF relay/retransmission configuration hypothesis)",
+    "sandbagged antenna base",
+    "plank-and-canvas structure at photographer's position"
+  ],
+  "setting": "The summit's communications heart: a directional antenna farm pointing off-mountain — exactly the equipment of a radio relay site. Combined with the cable-fed cabinet (VN-0028), the summit van (VN-0041), and Larry's radio-operator duty, this frame effectively documents WHY a radio operator was associated with the mountain (machine-level inference; Larry's confirmation still governs).",
+  "people": { "count": 1, "notes": "Man in blue shirt (uniform unclear) working at the antenna base." },
+  "landmarkHypotheses": ["Núi Bà Đen summit relay position (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit, antenna position at the rim.",
+    "reasoning": "Continuity with the chain; relay antennas belong on exactly such a summit.",
+    "confidence": "medium-high (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0028", "VN-0041", "Issue #10", "data/people/larry-dennis-hunnewell.json"],
+  "questionsForLarry": [
+    "Are these the relay antennas? What nets did they carry?",
+    "Was tending this equipment part of your job on the mountain?",
+    "Who is the man working at the base?"
+  ],
+  "qualityNotes": "Kodachrome slide, soft dawn/dusk light; antenna detail sharp against sky — technical identification of the array type is feasible under magnification."
+}

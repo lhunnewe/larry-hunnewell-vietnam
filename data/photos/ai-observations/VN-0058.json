@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0058",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Jungle movement, wider frame: at least four camouflage-clad soldiers spread through the middle distance among thin trees and undergrowth — one at left walking with rifle slung low, others half-hidden center and right. The foreground is a tangle of dead palm-like leaves and cut brush; the canopy closes overhead. Companion frame to VN-0057, likely moments apart on the same trail.",
+  "visibleText": [],
+  "objects": ["camouflaged soldiers with rifles", "secondary jungle, cut brush"],
+  "setting": "The escort or patrol element of the VN-0057 movement, seen strung out along the trail.",
+  "people": { "count": 4, "notes": "CIDG-style camouflage; none identifiable at distance." },
+  "landmarkHypotheses": ["Núi Bà Đen slopes (same movement as VN-0057)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Same trail as VN-0057.",
+    "reasoning": "Sequential frames, same vegetation and light.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0057", "VN-0023"],
+  "questionsForLarry": [
+    "How large was the escort when people moved on the mountain trails?",
+    "Did anything ever happen on one of these walks?"
+  ],
+  "qualityNotes": "Kodachrome slide, even forest light; figures small but countable."
+}
