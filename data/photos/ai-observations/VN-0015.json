@@ -1,0 +1,45 @@
+{
+  "photoId": "VN-0015",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE MOST SIGNIFICANT PHOTOGRAPH SURVEYED SO FAR — LIKELY LARRY HIMSELF AT WORK. A young soldier stands in the same pegboard-walled operations interior as VN-0014, pen in one hand and a wooden-backed eraser in the other, looking at the camera mid-task. His black name tape reads 'HUNNEW...' in white letters (remaining letters obscured by the board edge) — consistent with HUNNEWELL. A single-chevron rank insignia is visible on his sleeve. Behind him: a large whiteboard headed with columns (appears to read NAME/MARK and REMARKS) listing Vietnamese PLACE NAMES with UTM GRID COORDINATES in alphabetical order. To the right stand the quarter-hour scheduling racks from VN-0014 ('0000—0015', '0015—0030' visible).",
+  "visibleText": [
+    "NAME TAPE: 'HUNNEW...' — legible; consistent with HUNNEWELL. Machine reading, to be confirmed with Larry.",
+    "Place/grid board, legible entries (transcription attempt, some uncertain): AN HEP XS 701101; BOA LOC (BLOC?) ZT 080775; BOA TRAI YS 410610; BA RIA [grid unclear]; BEN CAT XT 740315; BEN KEO(?) XT 235435; BEN LUC XS 625775; BU JA MAP(?) YU 3...; BINH PHOUC XS...; CAI LAY; CAN DOUC; CAN GIUOC(?); CHON THANH(?); CU CHI; COURT...(?); DAU ...; DI L...; DINH ...; DO...; DUC...; GO...; H... — alphabetical location list with 100km-square grid letters XS/XT/YS/YU/ZT",
+    "Scheduling rack labels: 0000—0015, 0015—0030 — legible",
+    "Single chevron rank insignia on sleeve (Private E-2 or PFC-era variant)"
+  ],
+  "objects": [
+    "operations whiteboard: place names + UTM grids",
+    "quarter-hour scheduling racks (same as VN-0014)",
+    "pegboard van interior",
+    "pen and blackboard-style eraser in hand"
+  ],
+  "setting": "Aviation operations / flight-following interior, same facility as VN-0014. ANALYSIS OF THE PLACE LIST (hypothesis): the legible names — Ben Cat, Ben Luc, Cu Chi, Cai Lay, Can Duoc, Can Giuoc, Ba Ria, Binh Phuoc, Chon Thanh — cluster in III and northern IV Corps around Saigon, and the grid letters XS/XT/YS/ZT belong to that region. An ops board centered on the Saigon area is consistent with a facility at or near Saigon — supporting (not proving) the Tan Son Nhut hypothesis for the Company Headquarters Larry remembers as 'Thom Son Nuht'.",
+  "people": {
+    "count": 1,
+    "notes": "Name tape 'HUNNEW...' — very likely Larry Dennis Hunnewell himself, photographed at his duty position. Requires Larry's confirmation before the catalog record states it."
+  },
+  "landmarkHypotheses": [
+    "Facility located in the Saigon area (Tan Son Nhut candidate) — hypothesis from the geographic center of gravity of the place list."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Operations facility in the greater Saigon area, possibly Tan Son Nhut.",
+    "reasoning": "The board's place names and grid squares cluster around Saigon/III Corps; flight-following boards typically cover the unit's operating area centered on its station.",
+    "confidence": "medium (machine hypothesis — do not treat as identification)"
+  },
+  "crossReferences": [
+    "VN-0014 (same interior, same boards)",
+    "VN-0011 (candidate exterior of the van complex)",
+    "data/places/thom-son-nuht.json (Company HQ identification question)",
+    "Issue #11 (Thom Son Nuht)",
+    "Issue #10 (unit verification)"
+  ],
+  "questionsForLarry": [
+    "Is this you? (Name tape reads HUNNEW—.)",
+    "What was your job at this board — keeping the location grids current? Flight following?",
+    "Where was this van — was this the company headquarters at the place you call Thom Son Nuht?",
+    "Do you remember the places on the board — Ben Cat, Cu Chi, Ben Luc? Did you talk to aircraft going there?"
+  ],
+  "qualityNotes": "Kodachrome slide with strong yellow-green artificial-light cast and light fogging at right. The place/grid board is largely legible and merits full magnified transcription from the original scan; the name tape's remaining letters may resolve under contrast adjustment."
+}

@@ -1,0 +1,38 @@
+{
+  "photoId": "VN-0017",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A dark-haired soldier in white T-shirt and OD trousers (brass-buckle belt, wristwatch) stands grinning in front of a wooden hooch, holding the paw of a small MONKEY (pet macaque) perched beside him at left. The hooch gable is stenciled 'T 123' in white; its front is screened with large reed blinds tied with cord, door open at right. Left background: sandbag walls and a row of similar metal-roofed hooches with utility poles and wires — a sizable, orderly camp. A cardboard carton with a red logo sits under the hooch edge at lower right.",
+  "visibleText": [
+    "T 123 — building number stenciled on hooch gable, fully legible. CATALOG DATUM: numbered 'T-' buildings imply an installation with a formal building numbering scheme (large established base).",
+    "Red logo on carton lower right — possibly a soft-drink crate; not resolvable"
+  ],
+  "objects": [
+    "pet monkey (macaque type)",
+    "hooch with stenciled building number, reed blinds, screened front",
+    "sandbag walls, row of identical hooches, utility poles"
+  ],
+  "setting": "Established base camp with numbered buildings. The man resembles the dark-haired soldier of VN-0001/VN-0002 (and possibly VN-0004/VN-0005) — hypothesis only. Pet monkeys were common unit mascots.",
+  "people": {
+    "count": 1,
+    "notes": "Possibly the same man as in VN-0001/VN-0002 (hypothesis). Face clear for recognition."
+  },
+  "landmarkHypotheses": [
+    "Building number format 'T 123' may be matchable against installation building registers if records for candidate bases (e.g. Tan Son Nhut area compounds) survive."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Large established U.S. installation; unidentified. Same camp cluster as VN-0019 (same 'T 123' building visible).",
+    "reasoning": "Formal building numbering and uniform hooch rows indicate a major base.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "VN-0019 (same T 123 building)",
+    "VN-0001", "VN-0002 (possibly same man)"
+  ],
+  "questionsForLarry": [
+    "Who had the monkey — was it a unit mascot? What was its name?",
+    "Was T 123 your hooch? What base was this?",
+    "Is this the same man from the pictures inside the hooch?"
+  ],
+  "qualityNotes": "Kodachrome slide, hazy bright light, slight overexposure of sky; subject and building number crisp."
+}

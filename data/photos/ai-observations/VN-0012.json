@@ -1,0 +1,36 @@
+{
+  "photoId": "VN-0012",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "POTENTIALLY SIGNIFICANT FOR UNIT IDENTIFICATION. A crewman in white T-shirt, dark trousers, and cap — cigarette in mouth — stands on top of a helicopter fuselage working at the main rotor head, silhouetted against a bright cumulus sky. The rotor system shows two main blades with a stabilizer bar mounted across the rotor mast — the signature two-blade-plus-stabilizer-bar arrangement of Bell helicopters (UH-1 Iroquois family; H-13 has an open lattice tail, not present here — the broad fuselage spine and cowling are consistent with a UH-1). At the far left edge, the top of the vertical tail fin of an adjacent aircraft carries a PAINTED EMBLEM: a dark, angular bird-like figure on a light-colored fin.",
+  "visibleText": [
+    "Painted emblem on adjacent aircraft's tail fin — dark angular bird-form on light fin — TOP MAGNIFICATION PRIORITY: unit tail emblems identify aviation companies. NOTE (context, needs verification): the 118th Aviation Company carried the nickname 'Thunderbirds' — a thunderbird-style tail emblem would bear directly on Larry's remembered '118th' designation. Treat strictly as hypothesis until the emblem is resolved and matched against documented unit markings."
+  ],
+  "objects": [
+    "helicopter main rotor head with two blades and stabilizer bar (Bell/UH-1 family characteristics)",
+    "maintenance stance on upper fuselage/engine deck",
+    "adjacent aircraft tail fin with painted unit-style emblem",
+    "crewman: white T-shirt, cap, cigarette, dark trousers, boots"
+  ],
+  "setting": "Flight line or parking area, daytime, big weather building — maintenance being performed on the rotor head. Directly relevant to Larry's world: an aviation unit's working flight line.",
+  "people": {
+    "count": 1,
+    "notes": "Crew chief or mechanic (hypothesis from task). Silhouette limits recognition; posture and cigarette may still prompt Larry's memory."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "An Army aviation flight line in Vietnam; unidentified. If the tail emblem resolves to the 118th Aviation Company, their 1964-65 base was Bien Hoa — which would be a significant new location lead.",
+    "reasoning": "Aircraft type and maintenance activity fix the scene to an aviation unit; the emblem is the identifying key.",
+    "confidence": "low pending emblem resolution"
+  },
+  "crossReferences": [
+    "Issue #10 (verify the unit — the tail emblem is the strongest physical evidence lead yet)",
+    "data/recollections/2026-brief-118th-aod.json"
+  ],
+  "questionsForLarry": [
+    "Do you recognize the emblem on the tail fin at the left — what did your unit's helicopters have painted on the tail?",
+    "Who is the man on top of the helicopter?",
+    "Did you fly in these Hueys? Were you ever the one doing maintenance?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong backlight silhouetting the subject; the tail emblem at frame edge is small but appears high-contrast — good candidate for recovery by magnifying the original scan."
+}

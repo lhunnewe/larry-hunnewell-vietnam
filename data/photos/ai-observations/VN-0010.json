@@ -1,0 +1,39 @@
+{
+  "photoId": "VN-0010",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "POTENTIALLY SIGNIFICANT. Group photograph on a mountaintop. About a dozen Vietnamese soldiers in spotted 'duck hunter' camouflage uniforms and matching caps pose with one American in plain olive fatigues and utility cap at center (arm around a Vietnamese soldier's shoulder — the American is notably taller and heavier-set); a second American sits on rocks at the far right edge, partially out of frame. Two Vietnamese soldiers at left hold long rifles butt-down (appear to be M1 Garands or similar full-length rifles). One very young-looking soldier — possibly a boy — stands front center in an oversized uniform. Behind and far below the group: an immense hazy plain stretching to the horizon with glints that may be water or paddies. Rocky, dusty ground with low scrub; granite rocks at right.",
+  "visibleText": [],
+  "objects": [
+    "spotted 'duck hunter' pattern camouflage uniforms and caps (widely worn by CIDG strike forces and some ARVN units, 1963-65)",
+    "full-length rifles (M1 Garand type) held by two men",
+    "watch on one Vietnamese soldier's wrist",
+    "granite rocks, dusty summit ground, low scrub"
+  ],
+  "setting": "Summit or high shoulder of an isolated mountain — the plain visible far below in haze indicates great relative height over flat surrounding terrain, the signature geography of Núi Bà Đen rising ~900m from the Tây Ninh plain.",
+  "people": {
+    "count": 14,
+    "notes": "~12 Vietnamese in duck-hunter camo (consistent with a CIDG strike force, the irregulars whom U.S. Special Forces advised and who garrisoned mountain sites), including one apparent boy soldier; 2 Americans. No identity claims. The tall American at center is a strong candidate for a specific individual Larry may name."
+  },
+  "landmarkHypotheses": [
+    "Núi Bà Đen summit — HYPOTHESIS: isolated height over a flat hazy plain, granite, CIDG-style garrison, and clustering with VN-0006/VN-0009 in the same family sorting."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit area, Tây Ninh Province.",
+    "reasoning": "Flat plain far below on all visible sides fits an isolated monadnock; duck-hunter camo fits CIDG garrison; coheres with VN-0006 and VN-0009.",
+    "confidence": "medium (machine hypothesis — do not treat as identification)"
+  },
+  "crossReferences": [
+    "VN-0006 (green berets on sandbagged position)",
+    "VN-0009 (boulder complex with inscriptions)",
+    "data/places/nui-ba-den.json",
+    "Issue #12 (Sgt. Lowry/Lowery — is the tall American him?)"
+  ],
+  "questionsForLarry": [
+    "Is this the top of the Black Virgin Mountain?",
+    "Is the big American in the middle Sergeant Lowry/Lowery? Is the man sitting on the rocks you or someone you knew?",
+    "Who were the Vietnamese soldiers in the spotted uniforms — the strike force? Did you work with them?",
+    "There's a boy in uniform front and center — do you remember him?"
+  ],
+  "qualityNotes": "Kodachrome slide; minor emulsion scratches upper left and a small color artifact left edge. Faces are distinct enough for recognition by someone who knew them."
+}

@@ -1,0 +1,40 @@
+{
+  "photoId": "VN-0011",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Two U.S. soldiers pose on the steel steps and platform of a large dark-green riveted military van (semi-trailer-sized rigid shelter) with its door open behind them. A heavy power cable runs from a side connector port of the van toward the ground; a field generator set sits to the right. One soldier wears a baseball-style cap, the other a utility cap; both in OD fatigues with name tapes (not resolvable). Right background: stacked shipping containers, one bearing a large RED CROSS panel on white, plus a truck and scrap lumber. Utility pole with multiple wires overhead; grass and bare ground below.",
+  "visibleText": [
+    "Name tapes on both soldiers — present, not resolvable; magnification candidates",
+    "Rank insignia possibly visible on sleeves/collars — not resolvable",
+    "Red cross on white panel, right background container/shelter — clearly visible"
+  ],
+  "objects": [
+    "large riveted rigid van/shelter (communications, operations, or maintenance van type) with entry steps and open personnel door",
+    "external power cable and connector port",
+    "trailer- or skid-mounted field generator",
+    "shipping containers (CONEX type), one with red cross marking",
+    "utility pole and wireline"
+  ],
+  "setting": "Working area of an established installation: powered van complex, generator, container stacks, and a medical facility adjacent. HIGH RELEVANCE HYPOTHESIS: a powered van of this type is exactly the sort of facility a communications/operations section would run — this may be the radio or operations van where Larry worked as a radio operator.",
+  "people": {
+    "count": 2,
+    "notes": "Both American. Faces distinct enough for recognition. No identity claims."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Established U.S. base with fixed power and medical facilities; unidentified — candidates include Larry's company headquarters location.",
+    "reasoning": "Infrastructure density (power distribution, containers, medical marking) suggests a major installation rather than a field site.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "Larry's duty as radio operator (data/people/larry-dennis-hunnewell.json)",
+    "Issue #10 (unit identification — van markings may carry unit designators)"
+  ],
+  "questionsForLarry": [
+    "Is this the van you worked in — was this the radio room or operations?",
+    "What was inside this van? What equipment did you operate?",
+    "Who are the two men on the steps?",
+    "Where was this — the company headquarters?"
+  ],
+  "qualityNotes": "Kodachrome slide, backlit sky causing some flare; van surface reflective. Any stenciled unit markings on the van would be on panels currently in shadow — magnification and contrast work on the original scan may recover them."
+}

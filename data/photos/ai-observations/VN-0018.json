@@ -1,0 +1,37 @@
+{
+  "photoId": "VN-0018",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Beach scene under overcast sky. A smiling soldier in full fatigues (name tape present, not resolvable) walks up the sand toward the photographer carrying a CAMERA in both hands — evidence that multiple cameras were present among the group, relevant to who took which photos. At left, a young Vietnamese woman in a pale sleeveless blouse and blue capri pants walks barefoot at the surf line. A distant figure stands in the surf far right. Gentle waves, a broad curving beach, and a bay ringed by hilly headlands or islands fading into haze. A palm frond overhangs the top right corner. Faces of two other people intrude at the very bottom corners (partially out of frame).",
+  "visibleText": [
+    "Name tape and U.S. ARMY tape on the walking soldier — present, not resolvable; magnification candidates"
+  ],
+  "objects": [
+    "camera carried by the soldier (twin-lens or folding type, strap around neck)",
+    "palm frond",
+    "surf, curving sandy beach, offshore hills/islands"
+  ],
+  "setting": "Recreational beach visit. The bay geometry — long curved beach with substantial hilly islands or headlands offshore — is characteristic of NHA TRANG's shoreline, where Larry remembers spending his first two months; beach outings there were common for U.S. personnel.",
+  "people": {
+    "count": 4,
+    "notes": "One U.S. soldier (face clear), one Vietnamese woman, one distant swimmer, partial faces at frame bottom. No identity claims."
+  },
+  "landmarkHypotheses": [
+    "Nha Trang beach — HYPOTHESIS from bay/island profile; other coastal candidates (Vung Tau, Cam Ranh area) not excluded. The offshore island profile could be compared against period photos of Hon Tre island."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Nha Trang beach, south-central coast.",
+    "reasoning": "Bay shape with large offshore islands matches Nha Trang; Larry's first two months were spent there.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": [
+    "data/places/nha-trang.json",
+    "data/timeline/1964-09-nha-trang.json"
+  ],
+  "questionsForLarry": [
+    "Is this the beach at Nha Trang?",
+    "Who is the soldier with the camera? Whose camera took your slides — yours or a friend's?",
+    "Do you remember the young woman, or was she just passing?"
+  ],
+  "qualityNotes": "Kodachrome slide with heavy dust/specks (needs spotting in any restoration); scene detail otherwise good."
+}

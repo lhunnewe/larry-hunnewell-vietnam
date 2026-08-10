@@ -1,0 +1,38 @@
+{
+  "photoId": "VN-0016",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "In-flight photograph of a helicopter pilot, taken from inside the cockpit looking across at his position. He wears a flight helmet with dark visor down and boom microphone at his lips, smiling, mustache visible. Painted or taped lettering on the helmet's visor cover reads approximately 'ESTES' (partially resolvable — could be a surname). Yellow cockpit framing beside him is stenciled vertically 'EMERGENCY EXIT'. Through the windshield: bright sky, cumulus, a rotor blade, and a contrail or antenna line. The seat back beside him carries a bright orange-red panel (possibly armor cushion or marker panel). He wears an olive flight suit with pen in sleeve pocket.",
+  "visibleText": [
+    "EMERGENCY EXIT — stenciled on cockpit frame, legible",
+    "Helmet lettering approximately 'ESTES' — machine reading, uncertain; MAGNIFICATION PRIORITY (helmet names were personal — this may be a recoverable aircrew surname)"
+  ],
+  "objects": [
+    "flight helmet with visor and boom mic",
+    "yellow-painted cockpit structural frame",
+    "orange-red seat panel",
+    "flight suit with sleeve pen pocket",
+    "rotor blade visible against sky"
+  ],
+  "setting": "Airborne or engine-running aboard a helicopter — the photographer occupies a crew position beside or behind the pilot. Direct evidence of Larry's remembered constant helicopter travel; the photographer's access to the cockpit suggests crew or habitual-passenger status.",
+  "people": {
+    "count": 1,
+    "notes": "Pilot, possible surname ESTES (machine reading of helmet). No other identity claims."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "In flight over southern Vietnam; not determinable.",
+    "reasoning": "No ground reference visible.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "VN-0012 (flight line maintenance, same aviation world)",
+    "data/timeline/1964-1965-helicopter-travel.json"
+  ],
+  "questionsForLarry": [
+    "Do you remember a pilot named Estes — is that who this is?",
+    "Were you flying with them often? What aircraft is this?",
+    "Where would this flight have been going?"
+  ],
+  "qualityNotes": "Kodachrome slide, backlit with orange color shift at bottom (light leak or exposure). Helmet lettering is the key magnification target."
+}

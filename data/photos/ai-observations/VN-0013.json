@@ -1,0 +1,36 @@
+{
+  "photoId": "VN-0013",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A smiling young soldier in utility cap and fatigues crouches behind a low sandbag emplacement holding a Thompson submachine gun (drum-less, box magazine, sling fitted) angled across his chest — the pose reads as playful rather than tactical. Behind him: a large framed tent with screened sides and 'US' stenciled on the canvas roof slope, laundry visible hanging inside; a rough wooden-plank fence at left; a corrugated roof edge overhangs top left; a utility pole at right; a motorcycle parked in the right background. Grass and sandy soil.",
+  "visibleText": [
+    "US stencil on tent canvas — legible",
+    "Name tape on the soldier — present, not resolvable; magnification candidate"
+  ],
+  "objects": [
+    "Thompson submachine gun with sling",
+    "sandbag emplacement (low wall, partly grassed over)",
+    "framed screened tent with US stencil",
+    "wooden plank fence",
+    "motorcycle (right background)",
+    "utility pole"
+  ],
+  "setting": "Same camp architecture as the guitar-session photos (VN-0003/VN-0007/VN-0008): framed screened tents, sandbag walls, plank fencing. Possibly the same camp, different corner. The Thompson is period-typical for advisors and support troops in 1964-65 before M16 issue.",
+  "people": {
+    "count": 1,
+    "notes": "Young American soldier, grinning at the photographer. Face clear enough for recognition."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same or similar camp as VN-0003/VN-0007/VN-0008; unidentified.",
+    "reasoning": "Matching construction style and materials.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0003", "VN-0007", "VN-0008 (same camp style)"],
+  "questionsForLarry": [
+    "Who is this with the Thompson? Was the tommy gun his, or passed around for photos?",
+    "Whose motorcycle is that in the background?",
+    "Is this the same camp as the guitar pictures?"
+  ],
+  "qualityNotes": "Kodachrome slide, well exposed, good color."
+}

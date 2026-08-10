@@ -1,0 +1,42 @@
+{
+  "photoId": "VN-0014",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "HIGHLY SIGNIFICANT FOR LARRY'S DUTIES. Interior of an operations facility — pegboard (perforated panel) walls and ceiling identify a rigid van or shelter interior, lit by a fluorescent fixture and an adjustable spotlight. A soldier in fatigues leans on a plywood scheduling rack: hinged boards edged with metal strips labeled in stenciled numerals '0000—0015', '0015—0030', '0030—0045', '0045—0100', '0100', '0115' — quarter-hour TIME BLOCKS, the format of a flight-following or operations scheduling board. Behind him, a wall-mounted chart with ruled columns holds handwritten numbers (84, 74, 88, 37, 16, 40 visible). The soldier wears a 'U.S. ARMY' tape, a NAME TAPE beginning 'WE...' (first letters legible), a colorful pocket patch (shield-shaped, white/red/blue design with lettering that may end '...CONTROL'), a cord with whistle or key around the neck, wristwatch, and a ring; he holds a cigarette and looks down toward the boards.",
+  "visibleText": [
+    "Time-block labels on scheduling boards: 0000—0015, 0015—0030, 0030—0045, 0045—0100, 0100, 0115 — legible",
+    "Name tape beginning 'WE' — first letters legible, remainder hidden/blurred; MAGNIFICATION PRIORITY (a recoverable unit member surname)",
+    "Pocket patch with possible word ending '...CONTROL' — MAGNIFICATION PRIORITY (could be a flight operations/ATC unit patch identifying the organization)",
+    "Handwritten numbers on wall chart: 84, 74, 88, 37, 16, 40 — legible; column headers not resolvable"
+  ],
+  "objects": [
+    "quarter-hour scheduling rack (plywood, hinged panels, stenciled metal edge strips)",
+    "ruled wall status chart",
+    "pegboard van interior, fluorescent and spot lighting",
+    "fatigues with patches, whistle cord, cigarette"
+  ],
+  "setting": "Working interior of an aviation operations / flight-following facility — the strongest direct evidence yet of the environment Larry described: an Aviation Operations Detachment running schedules around the clock. Likely the interior of a van like the one in VN-0011.",
+  "people": {
+    "count": 1,
+    "notes": "Surname begins 'WE...'. Dark-haired; compare with the dark-haired man in VN-0001/VN-0002/VN-0004/VN-0005 (possible same person — hypothesis)."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Inside an operations van/shelter at Larry's duty station — possibly the remembered Company Headquarters ('Thom Son Nuht' / Tan Son Nhut hypothesis). Not determinable from image alone.",
+    "reasoning": "Fixed, powered, built-out operations facility implies the unit's main station.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "VN-0011 (exterior of a powered van)",
+    "VN-0015 (same interior, place-name grid board — near-certain same facility)",
+    "Issue #10 (unit identification — the pocket patch is a key lead)",
+    "data/recollections/2026-brief-118th-aod.json"
+  ],
+  "questionsForLarry": [
+    "Is this inside your operations van? What was the schedule board for — flight following?",
+    "Who is this man — his name starts with W-E?",
+    "What did the patch on his pocket say?",
+    "What were the shifts like — those quarter-hour blocks, what did they track?"
+  ],
+  "qualityNotes": "Kodachrome slide, mixed artificial light with green-blue cast. The name tape and pocket patch are prime magnification targets on the original scan."
+}

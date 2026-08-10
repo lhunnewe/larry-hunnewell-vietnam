@@ -1,0 +1,46 @@
+{
+  "photoId": "VN-0009",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "POTENTIALLY SIGNIFICANT. Among massive granite boulders, a U.S. soldier (crew cut, OD fatigues, 'U.S. ARMY' tape and a name tape, pocket badge) looks down at left while a smiling young Vietnamese man in an oversized field jacket stands hand-on-hip beside a doorway at right. The doorway is set into a mortared-stone wall built directly against the rock — a building fitted in among the boulders. Painted inscriptions in Vietnamese cover the rock face above and behind: red and white lettering in several lines, plus more red-painted text on the left boulder. Electrical wires run overhead into the structure. A framed panel (screen door or mirror?) leans in the passage.",
+  "visibleText": [
+    "Vietnamese painted inscriptions on upper rock face — multiple lines, red/white; partially resolvable, PRIORITY for magnification (could name the site, a unit, or a shrine dedication)",
+    "More red-painted Vietnamese text on left boulder — possibly including words resembling 'VĂN...' — not reliably resolvable",
+    "Possible characters and numerals high right (looks like '...61...') — not reliably resolvable",
+    "U.S. ARMY tape on the American's left chest — legible",
+    "Name tape on the American's right chest — present, NOT resolvable; magnification priority"
+  ],
+  "objects": [
+    "mortared stone wall and doorway built among granite boulders",
+    "overhead electrical wiring entering the structure",
+    "framed screen/panel leaning in passage",
+    "U.S. jungle fatigues with tapes and pocket badge",
+    "Vietnamese soldier or worker in field jacket, ring on left hand, watch"
+  ],
+  "setting": "A built-up site inside a boulder field — structures wedged among house-sized granite rocks with painted Vietnamese inscriptions. Consistent with the shrine-and-tunnel complex character of Núi Bà Đen, where buildings and religious inscriptions occupied the boulders and U.S./CIDG personnel occupied the summit.",
+  "people": {
+    "count": 2,
+    "notes": "One American soldier, one young Vietnamese man (uniformed or in surplus field jacket — possibly CIDG). No identity claims."
+  },
+  "landmarkHypotheses": [
+    "Núi Bà Đen boulder complex — HYPOTHESIS: giant granite boulders, masonry built into rock, Vietnamese religious/painted inscriptions, and electrical wiring match the known character of the mountain's shrine areas and summit installation."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen (Black Virgin Mountain), Tây Ninh Province — shrine or summit area.",
+    "reasoning": "Boulder morphology and built-in masonry; painted Vietnamese inscriptions on rock; continuity with VN-0006 and VN-0010 (same collection cluster, same terrain character).",
+    "confidence": "medium (machine hypothesis — do not treat as identification)"
+  },
+  "crossReferences": [
+    "VN-0006 (green berets, sandbagged elevated position)",
+    "VN-0010 (mountaintop group with camouflaged irregulars)",
+    "data/places/nui-ba-den.json",
+    "Issue #12 (Sgt. Lowry/Lowery)"
+  ],
+  "questionsForLarry": [
+    "Is this on the Black Virgin Mountain? What was this stone building?",
+    "Who is the American soldier — is it you?",
+    "Who is the young Vietnamese man — one of the strike force soldiers?",
+    "Do you remember the painted writing on the rocks — was there a temple or shrine up there?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong backlight from upper left; inscriptions partially washed out but likely partially recoverable under magnification/contrast adjustment of the original scan."
+}

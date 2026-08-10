@@ -1,0 +1,40 @@
+{
+  "photoId": "VN-0020",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Two field-grade-looking officers pose side by side in front of a UH-1 Iroquois (Huey) helicopter on a paved flight line while a crew member in white T-shirt climbs in at the open cargo door behind them. The Huey shows engine exhaust at left (tail toward camera-left), roof antenna mast, and a red placard with white lettering on the cowl side (not resolvable — likely a warning/data panel). LEFT OFFICER: older, stocky, utility cap with dark insignia, name tape and 'U.S. ARMY' tape, pocket badge — tapes present but not resolvable. RIGHT OFFICER: sunglasses, cap insignia (appears to be an eagle or field-grade device), aviator-style badge and ribbons? above the 'U.S. ARMY' tape, a name tape possibly beginning 'J', a colorful round patch (red/gold) on his left shoulder, ring and watch. In the hazy background: a busy flight line with parked aircraft (shapes suggest both helicopters and larger airframes) and vehicles.",
+  "visibleText": [
+    "Name tapes on both officers — present; right officer's may begin with 'J'; MAGNIFICATION PRIORITY (senior officers are highly identifiable in unit records — a resolved name could anchor the unit identification, and one remembered captain's name sounded like 'Guegler')",
+    "Red placard on helicopter cowl — white lettering, not resolvable",
+    "Round red/gold shoulder patch on right officer — MAGNIFICATION PRIORITY (unit patch identification)"
+  ],
+  "objects": [
+    "UH-1 Iroquois helicopter (rounded nose, cargo door, skids, roof antenna)",
+    "officer uniforms with badges, ribbons, shoulder patch",
+    "flight line with distant aircraft and vehicles, paved surface"
+  ],
+  "setting": "A major airfield flight line — paved surface and multiple aircraft types in the background. Consistent with a large base such as Tan Son Nhut or Bien Hoa (hypothesis only). The photographer had close access to visiting or unit officers.",
+  "people": {
+    "count": 3,
+    "notes": "Two officers (faces clear), one crewman from behind. Officer identities are the highest-value recognition targets in the batch — ask Larry, and magnify the tapes/patch."
+  },
+  "landmarkHypotheses": [
+    "Large paved airfield: Tan Son Nhut / Bien Hoa class facility (hypothesis)."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Major airfield in southern Vietnam, possibly the unit's home field.",
+    "reasoning": "Paved apron and mixed aircraft in background indicate a principal base, not a field strip.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "Issue #10 (unit identification via shoulder patch)",
+    "Issue #13 (Captain 'Guegler' — could either officer be him? spelling was a phonetic transcription)",
+    "VN-0012 (aviation unit flight line)"
+  ],
+  "questionsForLarry": [
+    "Who are these two officers? Was one of them your company commander — or the captain whose name sounded like 'Guegler'?",
+    "What field is this — where the unit kept its helicopters?",
+    "Did you fly with these officers?"
+  ],
+  "qualityNotes": "Kodachrome slide with heavy dust specking; faces and uniforms clear. Name tapes and the shoulder patch are strong magnification targets on the original scan."
+}

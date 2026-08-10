@@ -1,0 +1,32 @@
+{
+  "photoId": "VN-0019",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A young soldier in white T-shirt, OD utility cap and trousers — BAREFOOT — squats on gravelly ground holding an AR-15/M16-family rifle (triangular handguard, carry-handle upper, pronged flash suppressor) across his knee, smiling at the camera. Behind him at left is the same 'T 123' hooch from VN-0017 (stencil partially visible), reed blinds and open door; at right a tan-roofed framed tent with screened sides sits behind a low sandbag wall overgrown with grass; a tall utility pole stands mid-frame. Lumber scraps between the buildings.",
+  "visibleText": [
+    "T 123 stencil on gable, partially visible — links this frame to VN-0017"
+  ],
+  "objects": [
+    "AR-15 / early M16-family rifle (NOTE: in 1964-65 these were not yet general issue — presence with a support soldier is itself an interesting datum for unit equipment research; hypothesis, verify model by magnification)",
+    "hooch T 123, reed blinds",
+    "framed screened tent, sandbag wall, utility pole"
+  ],
+  "setting": "Same camp as VN-0017, casual off-duty snapshot (barefoot). The early AR-pattern rifle may help date the photo or characterize the unit's equipment access.",
+  "people": {
+    "count": 1,
+    "notes": "Young American, face clear for recognition. Possibly the same blond soldier as VN-0001/VN-0002 or VN-0013 — uncertain, compare when Larry reviews."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same installation as VN-0017 (building T 123).",
+    "reasoning": "Same structure visible.",
+    "confidence": "low (installation unidentified)"
+  },
+  "crossReferences": ["VN-0017 (same building)", "VN-0013 (similar casual armed pose)"],
+  "questionsForLarry": [
+    "Who is this? Is this the same hooch, T 123?",
+    "That's an early M16-type rifle — did your unit have them, or was it borrowed for the photo?",
+    "Why barefoot — just relaxing after a shower run?"
+  ],
+  "qualityNotes": "Kodachrome slide, warm evening light, good detail; rifle profile clear enough for type confirmation under magnification."
+}
