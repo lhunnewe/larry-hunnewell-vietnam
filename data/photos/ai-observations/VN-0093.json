@@ -1,0 +1,32 @@
+{
+  "photoId": "VN-0093",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "JAPAN — THE TRIP FROM THE KIA STORY, CONCLUSIVELY LOCATED. Two young American men pose on the gravel plaza before the NIJŪBASHI BRIDGE at the TOKYO IMPERIAL PALACE — the famous double-arched stone bridge over the moat, with the palace's white Fushimi-yagura watchtower on the wooded rise behind, lantern-topped balustrades, and Japanese visitors in dark suits and dresses around them. LEFT: the dark-haired recurring friend (VN-0001/0002/0017/0022 chain) in a white shirt, camera bag on a strap. RIGHT: LARRY (face-match to VN-0028) in a red-orange plaid flannel shirt and pale trousers, hands in pockets, grinning. A blue vinyl bag sits on the ground at left; a woman fishes or reaches at the moat rail behind them.",
+  "visibleText": ["Small white sign at moat rail — Japanese, not resolvable"],
+  "objects": ["Nijūbashi bridge and moat", "Fushimi-yagura watchtower", "plaid flannel and white shirts (cool-weather clothing)", "camera bag, travel bag"],
+  "setting": "Tokyo Imperial Palace plaza — the classic photo stop for every visitor to Tokyo. DIRECT DOCUMENTATION OF THE JAPAN TRIP Larry remembers (~August 1965), during which he saw himself reported killed in Stars and Stripes. That the recurring friend is with him is itself a finding: they traveled to Japan TOGETHER — he may be the story's missing witness. Note: flannel shirts read as cool-weather — worth asking whether the trip was as late as autumn or simply air-conditioned-season clothing.",
+  "people": {
+    "count": 8,
+    "notes": "Larry + the recurring friend (machine identification), Japanese passers-by. The friend's identity is now the single most valuable name to recover (#12-adjacent): he appears at the hooch, the beach, the pool, and in Tokyo."
+  },
+  "landmarkHypotheses": ["Nijūbashi, Tokyo Imperial Palace — conclusive landmark identification."],
+  "geolocationHypothesis": {
+    "hypothesis": "Tokyo, Japan — Imperial Palace outer garden.",
+    "reasoning": "Unmistakable landmark.",
+    "confidence": "high"
+  },
+  "crossReferences": [
+    "data/places/japan.json",
+    "data/timeline/1965-08-japan-kia-report.json (the KIA story window)",
+    "VN-0022", "VN-0028 (identity anchors)",
+    "Issue #9 (Stars and Stripes KIA report)"
+  ],
+  "questionsForLarry": [
+    "This is you and your friend at the Imperial Palace in Tokyo — WHO IS HE? You went to Japan together?",
+    "Was this the same trip when you saw yourself reported killed in Stars and Stripes?",
+    "How did you get to Japan — R&R, courier duty, medical? How long were you there?",
+    "Where else did you go in Tokyo?"
+  ],
+  "qualityNotes": "Kodachrome slide, well exposed; the single most important frame for Issue #9. Show it to Larry early."
+}

@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0094",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Beachfront promenade under wind-tossed palms: in the shade, a Vietnamese woman in sunglasses holds a small girl on her lap among a row of green deck chairs and benches; other loungers' bare feet stretch toward the light; a stone-edged promenade wall separates the shaded terrace from the bright sand, where beachgoers walk to the surf. The long beach curves away to a mountain headland with white buildings at its foot; big white rollers come ashore. A lamppost bracket juts at right; teal support frames among the palm trunks at left.",
+  "visibleText": [],
+  "objects": ["palm-shaded promenade, deck chairs", "stone promenade wall", "curving beach, mountain headland, surf"],
+  "setting": "An established beachfront promenade — the curving bay with mountains matches NHA TRANG's beachfront (hypothesis, consistent with the VN-0018/0021/0022 chain). Vietnamese families and Americans sharing the beach.",
+  "people": { "count": 8, "notes": "Woman and child prominent; loungers partially visible." },
+  "landmarkHypotheses": ["Nha Trang beachfront promenade (bay-and-headland profile)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Nha Trang beach promenade.",
+    "reasoning": "Coastal geometry and promenade construction.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0018", "VN-0021", "VN-0022", "data/places/nha-trang.json"],
+  "questionsForLarry": ["Is this the Nha Trang beachfront? Who is the woman with the little girl?"],
+  "qualityNotes": "Kodachrome slide, lovely shade-to-light composition; strong memoir frame for the Nha Trang chapter."
+}

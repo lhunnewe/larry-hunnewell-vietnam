@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0092",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE RIDE-ALONG FRAME — shot from the back seat of a car (taxi hypothesis): the Vietnamese driver's hand rests on the wheel, dashboard and mirror framing the windshield view of a bustling market-street: a woman in an ORANGE ÁO DÀI rides pillion on a motorbike ahead; a cyclo pedals mid-street; a woman in white áo dài and conical hat cycles at right past a teal wagon (plate partially visible) and a boy on a bicycle; an old truck comes on at left. Shop signs line both sides: fragments legible include 'ĐIỆN...', 'ĐỨC-HỢP', 'NHƠN-ÁI', 'TÂN-ĐỒNG(?)', a Vespa/Lambretta dealer sign, and Chinese characters on end boards.",
+  "visibleText": [
+    "'ĐỨC-HỢP', 'NHƠN-ÁI', 'Vespa Lambretta', 'ĐIỆN...' — partial shop signs",
+    "Wagon plate — partial"
+  ],
+  "objects": ["car interior with driver's hand", "áo dài riders, cyclo, bicycles, truck", "market shophouses with signs"],
+  "setting": "Moving through a market town by taxi — the literal point of view of Larry's road travel. Sign research can identify the town (Gia Định belt or route town).",
+  "people": { "count": 10, "notes": "Street crowd + driver." },
+  "landmarkHypotheses": ["Market town on a Saigon-area route — sign names researchable."],
+  "geolocationHypothesis": {
+    "hypothesis": "Road town near Saigon.",
+    "reasoning": "Signage and traffic mix.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0042 (similar in-car frame)", "VN-0055"],
+  "questionsForLarry": ["Where were you riding here? Did you use local taxis often?"],
+  "qualityNotes": "Kodachrome slide; evocative composition with driver's hand framing the street."
+}
