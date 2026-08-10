@@ -1,0 +1,34 @@
+{
+  "photoId": "VN-0002",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Same room and same two soldiers as VN-0001, moments apart. The blond man at left now leans forward holding a small white-and-blue item toward the camera — possibly a photograph, card, letter, or cigarette pack. The dark-haired man at right rests his chin on his hand, wristwatch and ring visible. A garrison-style cap and papers sit on the surface between them. Red-patterned matting or rug visible at floor level.",
+  "visibleText": [
+    "Small blue marking on the white item in the left man's hands — too small to read; may be a logo or handwriting. Worth magnifying from the original scan."
+  ],
+  "objects": [
+    "small white item with blue marking (photo? card? pack?)",
+    "garrison cap (dark, possibly with piping)",
+    "papers or envelopes",
+    "woven matting walls, wood frame",
+    "red patterned floor covering or bed spread",
+    "shelf with personal effects including what appears to be a green book or radio"
+  ],
+  "setting": "Same hooch interior as VN-0001, same session.",
+  "people": {
+    "count": 2,
+    "notes": "Same two men as VN-0001. The held-out item suggests they were showing something to the photographer — possibly a photo or news from home."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same location as VN-0001.",
+    "reasoning": "Identical room, furnishings, and clothing.",
+    "confidence": "low (location itself unidentified)"
+  },
+  "crossReferences": ["VN-0001 (same two men, same room, same session)"],
+  "questionsForLarry": [
+    "What is he holding up to the camera?",
+    "Do you remember what the occasion was — mail call, a card game, just passing time?"
+  ],
+  "qualityNotes": "Kodachrome slide, good color. Slightly warmer cast than VN-0001."
+}

@@ -1,0 +1,34 @@
+{
+  "photoId": "VN-0007",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Same session as VN-0003 and VN-0008: four men outside the matting-walled hooch. Clearer view of the soldier in fatigues at left: utility cap, rolled sleeves, a HOLSTERED PISTOL on his right hip with what appears to be a lanyard, and a name tape over his right chest pocket (white or light letters, not resolvable). The guitarist sits playing the decorated archtop guitar, head bowed. The man in the pale sport shirt leans on the guitarist's shoulder; the man in white T-shirt and dark slacks stands at right wearing sunglasses and a wristwatch. A beverage can sits by the chair leg. Behind: sandbag revetments, screened GP tents, utility pole, overhead wires.",
+  "visibleText": [
+    "Name tape on fatigue shirt, right chest — present, not resolvable at scan resolution; PRIORITY for magnification (could be a unit member's name)",
+    "Possible second tape ('U.S. ARMY') on left chest — not resolvable",
+    "Beverage can label — not resolvable"
+  ],
+  "objects": [
+    "holstered pistol (sidearm) with possible lanyard",
+    "decorated archtop guitar (light body, dark sunburst edges, ornate soundhole area)",
+    "folding chair, beverage can",
+    "sandbag revetment, screened tents, utility wiring"
+  ],
+  "setting": "Same off-duty gathering as VN-0003/VN-0008.",
+  "people": {
+    "count": 4,
+    "notes": "Same four men across the three frames. The armed man in fatigues may have been on duty (radio watch? guard?) while the others were off duty — hypothesis. A sidearm rather than a rifle can indicate duty NCO, courier, or aviation/technical personnel."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same camp as VN-0003/VN-0008; unidentified.",
+    "reasoning": "Identical structures and session.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0003 (same session)", "VN-0008 (same session)"],
+  "questionsForLarry": [
+    "The man in uniform with the pistol — who was he, and why was he armed that day?",
+    "What was the guitarist playing? Were there regular music nights?"
+  ],
+  "qualityNotes": "Kodachrome slide, good exposure. The name tape is the highest-value magnification target in this frame."
+}

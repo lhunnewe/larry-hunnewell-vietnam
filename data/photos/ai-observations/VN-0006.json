@@ -1,0 +1,44 @@
+{
+  "photoId": "VN-0006",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "POTENTIALLY SIGNIFICANT. Three men in olive-drab fatigues work over a large cream-colored cylindrical object mounted on a wooden A-frame cradle, lashed with rope, in a position ringed by burlap sandbags. Two of the men wear GREEN BERETS — one clearly showing a beret flash/crest — and the third wears a floppy bush hat. Below and beyond them: corrugated-tin-roofed shacks, a large rounded granite boulder at right, and beyond that a pale, hazy expanse far below the camera's elevation — consistent with looking down from considerable height onto a plain (or possibly water/sky). The cylinder bears a paper label or stencil, not resolvable. Wooden framing and a vertical post at left; green metal brackets secure the cylinder to the cradle.",
+  "visibleText": [
+    "Beret flash/crest on the center man's green beret — shape present, detail not resolvable; worth magnifying",
+    "Pocket patch or badge on center man's left chest — present, not resolvable",
+    "Paper label/stencil on the cylinder — present, not resolvable"
+  ],
+  "objects": [
+    "large cream cylinder (~2m+) on wooden A-frame cradle with rope lashings and green brackets — possibly a container, tank, searchlight housing, or equipment canister; identification uncertain",
+    "burlap sandbag walls (extensive, weathered)",
+    "corrugated tin roofing on rough wooden shacks",
+    "large rounded granite boulder",
+    "green berets (2), bush hat (1), OD fatigues, watch on one wrist"
+  ],
+  "setting": "Elevated, fortified position: sandbagged emplacement above tin-roofed structures, with terrain falling away steeply behind. The combination of green berets (Special Forces), heavy sandbagging, granite boulders, and a summit-like vantage strongly suggests a Special Forces mountaintop site.",
+  "people": {
+    "count": 3,
+    "notes": "Two men in green berets = U.S. Special Forces (hypothesis; berets clearly visible). In 1964-65 SF in Vietnam were detachments of 1st and 5th Special Forces Groups. No identity claims."
+  },
+  "landmarkHypotheses": [
+    "Núi Bà Đen (Black Virgin Mountain) summit — HYPOTHESIS: granite boulders, sandbagged positions, tin shacks, Special Forces presence, and a hazy plain far below all match the known character of the Núi Bà Đen summit site, and Larry specifically remembers a Special Forces Sergeant Lowry/Lowery stationed on top of that mountain."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Summit or upper slope of Núi Bà Đen, Tây Ninh Province.",
+    "reasoning": "Convergence of elevation, granite boulders, fortification style, Special Forces berets, and Larry's independent recollection of SF on Núi Bà Đen. Needs confirmation from Larry or documentary/photographic comparison of the summit site.",
+    "confidence": "medium (machine hypothesis — do not treat as identification)"
+  },
+  "crossReferences": [
+    "data/places/nui-ba-den.json (Larry's recollection of the mountain)",
+    "data/people/sgt-lowry.json (Special Forces sergeant remembered on the summit)",
+    "Issue #12 (identify Sgt. Lowry/Lowery)"
+  ],
+  "questionsForLarry": [
+    "Is this the top of Núi Bà Đen — the Black Virgin Mountain?",
+    "Is one of these men Sergeant Lowry/Lowery?",
+    "What is the big cylinder they're working on?",
+    "Were you up there when this was taken? How did you get up — helicopter?",
+    "What was on top of the mountain — what did the site do?"
+  ],
+  "qualityNotes": "Kodachrome slide with sprocket edge visible at right. Slight haze; foreground detail good. The beret flash, chest badge, and cylinder label are the highest-value targets for magnification from the original scan."
+}

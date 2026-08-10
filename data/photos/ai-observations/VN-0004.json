@@ -1,0 +1,38 @@
+{
+  "photoId": "VN-0004",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Poolside or patio scene in hard sunlight. A dark-haired young man stands at center in dark swim trunks, barefoot on patterned tile. To the right an older, tanned man in orange-red trunks and sunglasses reclines in an aluminum folding lawn chair reading a small book or pamphlet, a white towel over the chair back and an orange-webbed lounge chair beside him. A round green woven-wicker chair sits mid-frame. At left, a blue-grey paneled door carries a white 'FIRST AID' sign with a red cross and a 'PRIVATE KEEP OUT' sign; another small first-aid sign with a red cross and arrow is high on the white wall at right. The top of a head is just visible at the bottom-left corner — possibly a person in a pool below the camera position, suggesting this is a raised poolside deck.",
+  "visibleText": [
+    "FIRST AID (with red cross symbol) — sign on door, smaller word below possibly 'INSIDE'",
+    "PRIVATE / KEEP OUT / EMPLOYEES ONLY — sign on door",
+    "FIRST AID (with red cross and directional arrow) — small sign upper right"
+  ],
+  "objects": [
+    "aluminum folding lawn chairs with webbing",
+    "round green wicker/plastic-weave chair",
+    "white towel",
+    "small bottle on the deck (possibly suntan lotion)",
+    "paneled door, patterned ceramic tile flooring"
+  ],
+  "setting": "Recreation facility — swimming pool deck or bathhouse patio. English-language signage indicates an American or American-serving facility: possibly a military pool, USO, or hotel used by U.S. personnel. Off-duty leisure scene.",
+  "people": {
+    "count": 3,
+    "notes": "Standing man resembles the dark-haired man in VN-0001/VN-0002 (hypothesis only). The reading man appears older than typical junior enlisted — possibly an NCO or officer. Possible fourth person (top of head) at lower left."
+  },
+  "landmarkHypotheses": [
+    "American-style pool facilities existed in 1964-65 at several U.S. installations and hotels (e.g. in Saigon and Nha Trang). No feature in the frame settles which one this is."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "U.S. recreation facility in Vietnam, or possibly Japan (Larry was there ~Aug 1965); not determinable from image content.",
+    "reasoning": "English signage and Western furniture only narrow it to an American-serving facility.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0005 (same location, same session)"],
+  "questionsForLarry": [
+    "Where was this pool — on a base, at a hotel, in Japan?",
+    "Who is the man reading in the chair?",
+    "Was swimming something you got to do often, or was this a rare day off?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong midday contrast; signage clearly legible."
+}

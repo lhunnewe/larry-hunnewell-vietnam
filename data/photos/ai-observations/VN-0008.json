@@ -1,0 +1,35 @@
+{
+  "photoId": "VN-0008",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Third frame of the guitar session (with VN-0003, VN-0007), widest view. All four men look toward the camera; the man in sunglasses and white T-shirt now stands full-height at right. Gravel yard with wooden-pallet walkways; a small white-and-red object (possibly a cigarette pack or ration box) lies on a plank at lower left. The hooch's reed blinds, screen door, and diagonal wood bracing are clearly visible, as are the sandbag revetment and the large screened tent complex behind with tan canvas roofs and a green-painted lower wall.",
+  "visibleText": [
+    "Name tape on the fatigue-clad soldier — present, not resolvable",
+    "White/red object on plank lower left — possibly a cigarette pack; brand not resolvable"
+  ],
+  "objects": [
+    "decorated archtop guitar",
+    "holstered pistol on the uniformed man",
+    "wooden pallet walkways over gravel",
+    "screen-door hooch with reed blinds",
+    "sandbag revetment wall",
+    "large screened/framed tent structures with utility pole"
+  ],
+  "setting": "Same off-duty gathering; this frame gives the best overall view of the camp architecture — useful for matching against other photos of the same camp elsewhere in the collection.",
+  "people": {
+    "count": 4,
+    "notes": "Same four men as VN-0003/VN-0007."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same camp as VN-0003/VN-0007; unidentified.",
+    "reasoning": "Identical structures and session.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0003 (same session)", "VN-0007 (same session)"],
+  "questionsForLarry": [
+    "Looking at the whole camp — the tents, the walkways, the sandbags — which camp is this?",
+    "How long did you live in this kind of quarters?"
+  ],
+  "qualityNotes": "Kodachrome slide, sharp and well exposed; the best architectural reference frame of the three."
+}

@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0005",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Same pool deck as VN-0004, wider view of the door. Two young men in swim trunks (blue, black) pose arm-on-shoulder against the white wall beside the blue-grey door with its FIRST AID and PRIVATE KEEP OUT signs. At right the same older tanned man in red trunks and sunglasses reads a paperback in the aluminum lawn chair, towel on chair back, sunglasses pushed onto his head earlier or worn — a paperback book held up, cover partially visible but not readable. Green wicker chair in foreground; small bottle (suntan lotion) on deck near chair leg.",
+  "visibleText": [
+    "FIRST AID / (red cross) / INSIDE — door sign",
+    "PRIVATE / KEEP OUT / EMPLOYEES ONLY — door sign",
+    "Paperback book cover in reader's hands — dark cover with light text, not resolvable"
+  ],
+  "objects": [
+    "same furnishings as VN-0004: lawn chairs, green wicker chair, towel, lotion bottle",
+    "paneled door with porcelain knob",
+    "patterned tile deck"
+  ],
+  "setting": "Same recreation facility as VN-0004, same session.",
+  "people": {
+    "count": 3,
+    "notes": "The man in black trunks may be the same dark-haired man from VN-0001/VN-0002 and the standing man in VN-0004 (hypothesis). The man in blue trunks has a distinctive hairy chest and tattoo-free arms — not yet matched to other photos. Reading man same as VN-0004."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same facility as VN-0004.",
+    "reasoning": "Identical door, signage, furniture, and tile.",
+    "confidence": "low (facility itself unidentified)"
+  },
+  "crossReferences": ["VN-0004 (same location, same session)"],
+  "questionsForLarry": [
+    "Who are the two men by the door?",
+    "Do you remember the name of this pool or club?"
+  ],
+  "qualityNotes": "Kodachrome slide, sharp; the two door signs are fully legible."
+}

@@ -1,0 +1,40 @@
+{
+  "photoId": "VN-0003",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Four men outside a wooden-framed building with woven matting walls and rolled reed blinds, gathered around a seated guitarist. One man in olive-drab fatigues and utility cap leans against the doorway at left. The guitarist, seated on a folding chair in a white polo shirt and dark slacks, plays a light-colored archtop guitar with a decorated body. Two more men stand at right in off-duty civilian clothes (pale sport shirt and dark slacks; white T-shirt, white trousers, sunglasses). Behind them: a low sandbag revetment wall, a large olive-drab general-purpose tent with wooden framing and screened sides, utility pole and overhead wires, bright sunny sky. A can sits on the ground by the guitarist's chair.",
+  "visibleText": [
+    "Name tape on the fatigue shirt of the man at left — present but not resolvable at scan resolution; worth magnifying."
+  ],
+  "objects": [
+    "archtop acoustic/hollow-body guitar with decorative finish",
+    "folding metal chair",
+    "beverage can",
+    "sandbag revetment",
+    "GP-medium style tent with wood frame and screening",
+    "woven matting hooch with rolled reed blinds",
+    "utility pole and overhead wireline"
+  ],
+  "setting": "Off-duty gathering at an established U.S. base camp, bright daylight, dry ground. The mix of one man in fatigues and three in civilian clothes suggests a stand-down or off-duty period.",
+  "people": {
+    "count": 4,
+    "notes": "Same four men and setting as VN-0007 and VN-0008 (same session, different poses). The soldier in fatigues carries a holstered pistol (clearer in VN-0007)."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Established U.S. base camp with tent-and-hooch construction; specific location not determinable from image content.",
+    "reasoning": "Semi-permanent construction and utility wiring indicate a built-up installation rather than a field position.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "VN-0007 (same session)",
+    "VN-0008 (same session)"
+  ],
+  "questionsForLarry": [
+    "Who are these four men? Are you one of them?",
+    "Whose guitar was that, and who could actually play it?",
+    "What camp is this? Is this the company headquarters area or somewhere else?",
+    "Why is one man armed and in uniform while the others are in civvies — was he on duty?"
+  ],
+  "qualityNotes": "Kodachrome slide, well exposed, good detail. The name tape may be legible under magnification of the original scan."
+}

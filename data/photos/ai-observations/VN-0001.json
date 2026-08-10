@@ -1,0 +1,35 @@
+{
+  "photoId": "VN-0001",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Interior of living quarters (hooch). Two young soldiers in white T-shirts and olive-drab trousers sit facing the camera. Walls are woven bamboo/reed matting on a wooden frame; a canvas or netting layer slopes overhead at left (possibly an upper bunk or tent liner with mosquito netting). A wooden shelf along the back wall holds personal items. The man at left is slender and blond, seated on a bed or cot with white bedding, black boots on. The man at right is dark-haired, wearing a wristwatch and a ring, seated with hands clasped. Between them is a dark footlocker or case with what may be a shaving kit or camera bag on top and papers behind it.",
+  "visibleText": [],
+  "objects": [
+    "woven reed/bamboo matting walls on wood framing",
+    "cot or bed with white bedding",
+    "dark footlocker or trunk",
+    "small bag (possibly shaving kit or camera case)",
+    "shelf with bottles, cans, and personal effects",
+    "white cloth or towel hanging on wall peg",
+    "circular striped object on shelf (possibly a souvenir fan or hat)"
+  ],
+  "setting": "Off-duty, indoors, daytime or lamplight. Semi-permanent quarters: matting walls suggest a built-up hooch rather than a field tent, consistent with an established base camp.",
+  "people": {
+    "count": 2,
+    "notes": "Two young enlisted-age men, no visible rank or name tapes (T-shirts). Same two men appear in VN-0002, same sitting. A third person presumably took the photo unless it was self-timed."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "An established U.S. base camp in Vietnam; specific location not determinable from image content.",
+    "reasoning": "Woven-mat hooch construction was common at semi-permanent U.S. installations in Vietnam in 1964-65.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0002 (same two men, same room, same session)"],
+  "questionsForLarry": [
+    "Is one of these men you? If not, who took this picture?",
+    "Who are these two men — names, hometowns, jobs?",
+    "Where was this hooch — Nha Trang, the company headquarters, somewhere else?",
+    "Did you build or improve these quarters yourselves?"
+  ],
+  "qualityNotes": "Kodachrome slide scanned with mount and film sprocket edge visible at left. Good color and focus; slight underexposure at edges."
+}
