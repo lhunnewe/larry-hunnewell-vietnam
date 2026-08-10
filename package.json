@@ -1,0 +1,26 @@
+{
+  "name": "larry-hunnewell-vietnam",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "My Father in Vietnam — the Vietnam service of Larry Dennis Hunnewell, 1964-1965",
+  "scripts": {
+    "predev": "node scripts/build-photo-images.mjs",
+    "dev": "astro dev",
+    "photos:import": "node scripts/import-photos.mjs",
+    "photos:build": "node scripts/build-photo-images.mjs",
+    "prebuild": "node scripts/build-photo-images.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/courier-prime": "^5.2.5",
+    "@fontsource/oswald": "^5.2.5",
+    "@fontsource/source-serif-4": "^5.2.5",
+    "astro": "^5.7.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3"
+  }
+}

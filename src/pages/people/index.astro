@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import { withBase } from '../../lib/paths';
+
+const people = await getCollection('people');
+const larry = people.find((p) => p.id === 'larry-dennis-hunnewell');
+const others = people
+  .filter((p) => p.id !== 'larry-dennis-hunnewell')
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout title="People">
+  <span class="eyebrow">Who he served with</span>
+  <h1>People</h1>
+  <p class="lede">
+    Larry, and the people who appear in his memories. Names remembered only by sound — Lowry or
+    Lowery, a captain called something like &ldquo;Guegler&rdquo; — are preserved exactly as
+    given while research works to identify the real soldiers behind them.
+  </p>
+
+  {larry && (
+    <ul class="card-grid">
+      <li class="card featured">
+        <p class="record">The subject of this archive</p>
+        <h3><a href={withBase(`/people/${larry.id}/`)}>{larry.data.name}</a></h3>
+        <p>{larry.data.summary}</p>
+      </li>
+    </ul>
+  )}
+
+  <h2>Remembered names</h2>
+  <ul class="card-grid">
+    {others.map((person) => (
+      <li class="card">
+        <h3><a href={withBase(`/people/${person.id}/`)}>{person.data.name}</a></h3>
+        {person.data.role && <p class="record">{person.data.role}</p>}
+        <p>{person.data.summary}</p>
+        <p>
+          <EvidenceBadge level={person.data.confidence} />
+          {person.data.status === 'unresolved' && <span class="record"> &middot; identity unresolved</span>}
+        </p>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .featured {
+    border-color: var(--olive);
+    border-width: 2px;
+  }
+</style>

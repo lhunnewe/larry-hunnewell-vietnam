@@ -1,0 +1,172 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Recollection from '../components/Recollection.astro';
+import { withBase } from '../lib/paths';
+
+const areas = [
+  {
+    href: '/story/',
+    title: "Larry's Story",
+    text: 'From the draft and Fort Benning to a year in Vietnam, told from his own memories.',
+  },
+  {
+    href: '/timeline/',
+    title: 'Timeline',
+    text: 'September 1964 to September 1965 — his movements, his memories, and the war around him.',
+  },
+  {
+    href: '/photos/',
+    title: 'Photographs',
+    text: 'The 157 photographs he brought home, scanned and numbered, waiting for his memories of each one.',
+  },
+  {
+    href: '/places/',
+    title: 'Places',
+    text: 'Nha Trang, Núi Bà Đen, a company headquarters he remembers as "Thom Son Nuht," and Japan.',
+  },
+  {
+    href: '/people/',
+    title: 'People',
+    text: 'The people he served with — some identified, some still being searched for.',
+  },
+  {
+    href: '/research/',
+    title: 'Research',
+    text: 'How this archive separates memory from record, and the questions still open.',
+  },
+];
+---
+
+<BaseLayout title="My Father in Vietnam">
+  <section class="hero">
+    <div class="hero-text">
+      <span class="eyebrow">A son's record of his father's war</span>
+      <h1>My Father<br />in Vietnam</h1>
+      <p class="lede">
+        In September 1964, a young draftee named Larry Dennis Hunnewell arrived in Vietnam as a
+        radio operator. Over the next year he flew by helicopter across the country, worked from
+        places like Nha Trang and the Black Virgin Mountain — and once, in Japan, opened
+        <em>Stars and Stripes</em> to find himself reported killed in action.
+      </p>
+      <p>
+        Sixty years later, Larry is telling that story himself. This site records it two ways at
+        once: as he remembers it, in his own words, and as the surviving records can confirm it.
+        Where the two differ, both are kept. These pages will keep growing as he looks through
+        his photographs and remembers more.
+      </p>
+    </div>
+
+    <aside class="service-record" aria-label="Service record summary">
+      <p class="record-heading">Record of service — as remembered</p>
+      <dl>
+        <div><dt>Name</dt><dd>HUNNEWELL, LARRY DENNIS</dd></div>
+        <div><dt>Branch</dt><dd>U.S. ARMY (DRAFTED)</dd></div>
+        <div><dt>In country</dt><dd>SEP 1964 &ndash; SEP 1965 (APPROX)</dd></div>
+        <div><dt>Duty</dt><dd>RADIO OPERATOR</dd></div>
+        <div><dt>Unit</dt><dd>118TH AOD &mdash; AVN OPS DET*</dd></div>
+        <div><dt>Assoc</dt><dd>1ST CAVALRY*</dd></div>
+      </dl>
+      <p class="record-note">* as Larry remembers it &mdash; verification in progress</p>
+    </aside>
+  </section>
+
+  <Recollection>
+    He remembers his organization as the 118th AOD — Aviation Operations Detachment — a small
+    outfit of about 110 men: radio operators and pathfinders, some requiring special clearances.
+    His duties kept him in helicopters, traveling throughout Vietnam.
+  </Recollection>
+
+  <h2>Explore the archive</h2>
+  <ul class="card-grid">
+    {areas.map((area) => (
+      <li class="card">
+        <h3><a href={withBase(area.href)}>{area.title}</a></h3>
+        <p>{area.text}</p>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Memory and record</h2>
+  <p>
+    Larry's memories are primary-source evidence, and this project treats them that way — recorded
+    exactly as given, never rewritten to match a research finding. Every important claim on this
+    site carries an evidence classification, from <strong>confirmed</strong> down to
+    <strong>unverified family recollection</strong>. The <a href={withBase('/research/')}>research
+    pages</a> explain the method and track what is still unresolved.
+  </p>
+</BaseLayout>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(16rem, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+    margin-bottom: 1.5rem;
+  }
+
+  .lede {
+    font-size: 1.18rem;
+  }
+
+  .service-record {
+    border: 1px solid var(--khaki);
+    background: var(--paper-deep);
+    padding: 1.4rem 1.4rem 1.1rem;
+    font-family: var(--font-mono);
+    margin-top: 2.6rem;
+  }
+
+  .record-heading {
+    margin: 0 0 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--signal);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.6rem;
+  }
+
+  .service-record dl {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .service-record dl > div {
+    display: grid;
+    grid-template-columns: 6.2rem 1fr;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+  }
+
+  .service-record dt {
+    color: var(--khaki);
+    text-transform: uppercase;
+  }
+
+  .service-record dd {
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .record-note {
+    margin: 1rem 0 0;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 44rem) {
+    .hero {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .service-record {
+      margin-top: 1rem;
+    }
+  }
+</style>

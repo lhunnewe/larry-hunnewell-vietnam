@@ -1,0 +1,164 @@
+---
+import '@fontsource/oswald/500.css';
+import '@fontsource/oswald/600.css';
+import '@fontsource/source-serif-4/400.css';
+import '@fontsource/source-serif-4/400-italic.css';
+import '@fontsource/source-serif-4/600.css';
+import '@fontsource/courier-prime/400.css';
+import '@fontsource/courier-prime/700.css';
+import '../styles/global.css';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'The Vietnam service of Larry Dennis Hunnewell, 1964-1965. A family memoir and historical research archive.' } = Astro.props;
+
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/story/', label: "Larry's Story" },
+  { href: '/timeline/', label: 'Timeline' },
+  { href: '/photos/', label: 'Photographs' },
+  { href: '/places/', label: 'Places' },
+  { href: '/people/', label: 'People' },
+  { href: '/units/', label: 'Units' },
+  { href: '/research/', label: 'Research' },
+  { href: '/sources/', label: 'Sources' },
+];
+
+const currentPath = Astro.url.pathname;
+function isCurrent(href: string): boolean {
+  const full = withBase(href);
+  if (href === '/') return currentPath === full || currentPath === `${full}/` || currentPath === withBase('');
+  return currentPath.startsWith(full);
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title === 'My Father in Vietnam' ? title : `${title} — My Father in Vietnam`}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="masthead">
+        <a class="site-title" href={withBase('/')}>
+          <span class="site-name">My Father in Vietnam</span>
+          <span class="site-sub record">Larry Dennis Hunnewell &middot; U.S. Army &middot; Sep 1964 &ndash; Sep 1965</span>
+        </a>
+      </div>
+      <nav aria-label="Main">
+        <ul>
+          {nav.map((item) => (
+            <li>
+              <a href={withBase(item.href)} aria-current={isCurrent(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p class="record">
+        A family history project &middot; memories preserved as given &middot; claims classified by evidence
+      </p>
+      <p class="record">
+        <a href="https://github.com/lhunnewe/larry-hunnewell-vietnam">Research archive on GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .masthead {
+    max-width: var(--wide);
+    margin: 0 auto;
+    padding: 1.6rem 1.25rem 1.1rem;
+  }
+
+  .site-title {
+    text-decoration: none;
+    color: var(--ink);
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .site-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+
+  .site-title:hover .site-name {
+    color: var(--signal);
+  }
+
+  nav {
+    border-top: 1px solid var(--line);
+    background: var(--paper-deep);
+  }
+
+  nav ul {
+    max-width: var(--wide);
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.4rem;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 0.55rem 0;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 0.92rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--ink-soft);
+    border-bottom: 3px solid transparent;
+  }
+
+  nav a:hover {
+    color: var(--signal);
+  }
+
+  nav a[aria-current='page'] {
+    color: var(--ink);
+    border-bottom-color: var(--signal);
+  }
+
+  .site-footer {
+    border-top: 1px solid var(--line);
+    padding: 1.6rem 1.25rem 2.2rem;
+    max-width: var(--wide);
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .site-footer p {
+    margin: 0 0 0.4rem;
+    text-transform: none;
+    letter-spacing: 0.04em;
+  }
+</style>

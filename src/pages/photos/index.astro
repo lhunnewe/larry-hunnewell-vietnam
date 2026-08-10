@@ -1,0 +1,108 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+
+const photos = (await getCollection('photos')).sort((a, b) =>
+  a.data.photoId.localeCompare(b.data.photoId)
+);
+
+const cataloged = photos.filter((p) => p.data.cataloged).length;
+
+// Group by the family's own sorting of the prints (the folder structure
+// the scans arrived in, preserved as catalog information).
+const groups = new Map<string, typeof photos>();
+for (const photo of photos) {
+  const folder = photo.data.originalPath
+    ? photo.data.originalPath.split('/').slice(0, -1).join(' / ')
+    : 'Ungrouped';
+  if (!groups.has(folder)) groups.set(folder, []);
+  groups.get(folder)!.push(photo);
+}
+const sections = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<BaseLayout title="Photographs">
+  <span class="eyebrow">Primary evidence</span>
+  <h1>Photographs</h1>
+  <p class="lede">
+    Larry brought home 157 photographs from his year in Vietnam. The family sorted the prints
+    into the groups below, and each scan now has a permanent archive number
+    (<span class="record">VN-0001</span> through <span class="record">VN-0157</span>) that will
+    never change. Cataloging comes next: dates, places, names — and above all Larry's own
+    memories of each picture, recorded word for word as he shares them.
+  </p>
+  <p class="record">
+    {photos.length} photographs &middot; {cataloged} cataloged so far &middot; nothing about an
+    uncataloged photo is guessed
+  </p>
+
+  {sections.map(([folder, items]) => (
+    <section>
+      <h2>{folder}</h2>
+      <p class="record">{items.length} photograph{items.length === 1 ? '' : 's'} &middot; family sorting</p>
+      <ul class="photo-grid">
+        {items.map((photo) => (
+          <li>
+            <a href={withBase(`/photos/${photo.id}/`)}>
+              <img
+                src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
+                alt={photo.data.cataloged ? photo.data.title : `Photograph ${photo.data.photoId}, not yet cataloged`}
+                loading="lazy"
+                width="480"
+                height="324"
+              />
+              <span class="record photo-id">{photo.data.photoId}</span>
+              {photo.data.cataloged && <span class="photo-title">{photo.data.title}</span>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .photo-grid {
+    list-style: none;
+    padding: 0;
+    margin: 1.2rem 0 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  }
+
+  .photo-grid a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 0.5rem;
+  }
+
+  .photo-grid a:hover {
+    border-color: var(--signal);
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .photo-id {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--ink-soft);
+  }
+
+  .photo-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+</style>

@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import { withBase } from '../../lib/paths';
+
+const places = (await getCollection('places')).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name)
+);
+---
+
+<BaseLayout title="Places">
+  <span class="eyebrow">Where he was — and where he may have been</span>
+  <h1>Places</h1>
+  <p class="lede">
+    The places of Larry's year in Vietnam, from the ones settled on any map to the ones that so
+    far exist only in memory. Phonetic names are preserved exactly as Larry gives them; identifying
+    them against real geography is research, and each entry says how far that research has gotten.
+  </p>
+
+  <ul class="card-grid">
+    {places.map((place) => (
+      <li class="card">
+        <h3><a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a></h3>
+        <p>{place.data.summary}</p>
+        <p><EvidenceBadge level={place.data.confidence} /></p>
+      </li>
+    ))}
+  </ul>
+
+  <p class="record" style="margin-top:2.5rem">
+    An interactive map connecting places to photographs, people, and timeline events is planned.
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+</style>

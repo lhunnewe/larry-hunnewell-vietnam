@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout title="Research">
+  <span class="eyebrow">Method and open questions</span>
+  <h1>Research</h1>
+  <p class="lede">
+    This site is a memoir on top and an archive underneath. Larry's memories are primary-source
+    evidence — recorded exactly as given, never rewritten. Military and historical records are
+    gathered alongside them. When the two disagree, both are kept, side by side.
+  </p>
+
+  <h2>The evidence scale</h2>
+  <p>Every important claim carries one of five classifications:</p>
+  <dl class="scale">
+    <div>
+      <dt><EvidenceBadge level="confirmed" /></dt>
+      <dd>Established by contemporary documents or unambiguous records.</dd>
+    </div>
+    <div>
+      <dt><EvidenceBadge level="strongly-supported" /></dt>
+      <dd>Multiple independent lines of evidence point the same way.</dd>
+    </div>
+    <div>
+      <dt><EvidenceBadge level="plausible" /></dt>
+      <dd>Consistent with known facts; a working hypothesis, not a finding.</dd>
+    </div>
+    <div>
+      <dt><EvidenceBadge level="unverified-recollection" /></dt>
+      <dd>Larry's memory, preserved as given, not yet matched to records.</dd>
+    </div>
+    <div>
+      <dt><EvidenceBadge level="contradicted" /></dt>
+      <dd>Research disagrees with the memory. The memory is still preserved.</dd>
+    </div>
+  </dl>
+
+  <h2>The open questions</h2>
+  <ol class="questions">
+    <li>
+      <strong>The killed-in-action report.</strong> Around August 1965, in Japan, Larry saw
+      himself reported killed in <em>Stars and Stripes</em>. Find the original item, any
+      correction, casualty documentation, and the explanation — possibly a soldier with a similar
+      name.
+    </li>
+    <li>
+      <strong>The unit.</strong> Verify or correct the remembered designation
+      &ldquo;118th AOD,&rdquo; and explain the remembered 1st Cavalry association.
+      See <a href={withBase('/units/')}>Units</a>.
+    </li>
+    <li>
+      <strong>&ldquo;Thom Son Nuht.&rdquo;</strong> Identify the Company Headquarters location
+      Larry remembers phonetically. Leading hypothesis: Tân Sơn Nhứt.
+      See <a href={withBase('/places/thom-son-nuht/')}>the place entry</a>.
+    </li>
+    <li>
+      <strong>Sgt. Lowry / Lowery.</strong> Identify the Special Forces sergeant Larry remembers
+      on top of Núi Bà Đen. See <a href={withBase('/people/sgt-lowry/')}>his entry</a>.
+    </li>
+    <li>
+      <strong>Captain &ldquo;Guegler.&rdquo;</strong> Identify the captain, and establish whether
+      he connects to the KIA report. See <a href={withBase('/people/captain-guegler/')}>his entry</a>.
+    </li>
+    <li>
+      <strong>Bombs in the ocean.</strong> Research the remembered stories of aircraft jettisoning
+      bombs at sea, distinguishing documented procedure from rules of engagement, aborted
+      missions, political restriction, and period rumor.
+    </li>
+  </ol>
+
+  <h2>Source priorities</h2>
+  <p>
+    Primary and contemporary sources first: Army and National Archives records, morning reports,
+    operational and after-action reports, personnel records, contemporary <em>Stars and
+    Stripes</em> issues, period maps and photographs, official casualty databases, and oral
+    histories. Secondary histories inform context but do not override stronger contemporary
+    evidence. Citations accumulate in <a href={withBase('/sources/')}>Sources</a>, and working
+    notes live in the repository's <span class="record">research/</span> directory.
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .scale {
+    margin: 1.5rem 0;
+    max-width: var(--measure);
+  }
+
+  .scale > div {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .scale dd {
+    margin: 0;
+  }
+
+  .questions li {
+    margin-bottom: 0.9rem;
+  }
+
+  @media (max-width: 40rem) {
+    .scale > div {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+    }
+  }
+</style>

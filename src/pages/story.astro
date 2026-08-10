@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Recollection from '../components/Recollection.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout title="Larry's Story">
+  <span class="eyebrow">The memoir</span>
+  <h1>Larry's Story</h1>
+
+  <p class="lede">
+    What follows is Larry's year in Vietnam as he remembers it. Almost everything on this page is
+    classified <EvidenceBadge level="unverified-recollection" /> — not because it is doubted, but
+    because the project's work of matching memory to military records has only begun. As documents
+    surface, the <a href={withBase('/research/')}>research pages</a> will record what they show.
+  </p>
+
+  <h2>Drafted, and a choice at Fort Benning</h2>
+  <p>
+    Larry Dennis Hunnewell was drafted into the U.S. Army in 1964. At Fort Benning, Georgia, he
+    faced a fork in the road: an assignment to Turkey, or Vietnam. He volunteered for Vietnam.
+  </p>
+
+  <h2>First months: Nha Trang</h2>
+  <p>
+    His tour began around September 1964. He remembers spending roughly his first two months at
+    <a href={withBase('/places/nha-trang/')}>Nha Trang</a>, the coastal city in south-central
+    Vietnam that hosted a growing complex of American military facilities.
+  </p>
+
+  <h2>Radio operator with the 118th AOD</h2>
+  <Recollection>
+    He remembers his organization as the 118th AOD — Aviation Operations Detachment — a relatively
+    small organization of approximately 110 men, including radio operators and pathfinders. Some
+    personnel reportedly required special clearances.
+  </Recollection>
+  <p>
+    Larry served as a radio operator, and he recalls an association with the 1st Cavalry. His
+    duties involved substantial helicopter travel; he remembers moving throughout Vietnam. He
+    remembers his Company Headquarters at a place he renders as
+    <a href={withBase('/places/thom-son-nuht/')}>&ldquo;Thom Son Nuht&rdquo;</a> — possibly Tan
+    Son Nhut, the great air base beside Saigon, though that identification is still a hypothesis.
+    See <a href={withBase('/units/')}>Units</a> for what is being done to pin down the
+    organization itself.
+  </p>
+
+  <h2>The Black Virgin Mountain</h2>
+  <p>
+    Larry remembers being on or associated with
+    <a href={withBase('/places/nui-ba-den/')}>Núi Bà Đen</a>, the Black Virgin Mountain — the
+    lone peak rising near Tây Ninh. He may have called it something like &ldquo;Sun
+    Mountain.&rdquo; He remembers a Special Forces
+    <a href={withBase('/people/sgt-lowry/')}>Sergeant Lowry or Lowery</a> who operated from its
+    summit.
+  </p>
+
+  <h2>The war grows around him</h2>
+  <p>
+    Larry's tour spanned the year the American war changed character. In March 1965 Operation
+    Rolling Thunder began the sustained bombing of North Vietnam, and the first Marine combat
+    units waded ashore at Da Nang. Larry also remembers controversy or stories about aircraft
+    dumping bombs into the ocean rather than attacking their intended targets — a recollection the
+    project is researching carefully against documented procedures, rules of engagement, and
+    period rumor.
+  </p>
+
+  <h2>Japan, August 1965: reported killed in action</h2>
+  <Recollection>
+    Around August 1965, Larry was in Japan. He personally remembers seeing a notice or article in
+    <em>Stars and Stripes</em> saying he had been killed.
+  </Recollection>
+  <p>
+    He was, of course, alive to read it. How his name came to appear in a casualty report — a
+    clerical error, a mix-up with a similarly named soldier, something else — is the single most
+    important unresolved question in this archive. A captain whose name Larry remembers as
+    sounding like <a href={withBase('/people/captain-guegler/')}>&ldquo;Guegler&rdquo;</a> may be
+    connected to this period.
+  </p>
+
+  <h2>Home</h2>
+  <p>
+    Larry's Vietnam service ended around September 1965, a year after it began — the same month
+    the 1st Cavalry Division (Airmobile) was arriving in the highlands and the American war was
+    becoming something far larger than the one he had joined.
+  </p>
+  <p>
+    Sixty years on, Larry is going back through that year — looking at the
+    <a href={withBase('/photos/')}>157 photographs</a> he brought home and filling in what he
+    remembers. This page is the story so far, not the story finished.
+  </p>
+
+  <hr />
+  <p class="record">
+    Every memory above is preserved as given. Research findings are recorded separately and never
+    overwrite Larry's words. <a href={withBase('/research/')}>How the archive works &rarr;</a>
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+</style>

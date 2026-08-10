@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import Recollection from '../../components/Recollection.astro';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  const places = await getCollection('places');
+  return places.map((place) => ({ params: { id: place.id }, props: { place } }));
+}
+
+const { place } = Astro.props;
+const d = place.data;
+---
+
+<BaseLayout title={d.name}>
+  <span class="eyebrow">Place</span>
+  <h1>{d.name}</h1>
+  <p><EvidenceBadge level={d.confidence} /></p>
+
+  {d.alternateNames.length > 0 && (
+    <p class="record">Also: {d.alternateNames.join(' · ')}</p>
+  )}
+  {d.coordinates && (
+    <p class="record">
+      {Math.abs(d.coordinates.lat).toFixed(4)}&deg;{d.coordinates.lat >= 0 ? 'N' : 'S'}{' '}
+      {Math.abs(d.coordinates.lng).toFixed(4)}&deg;{d.coordinates.lng >= 0 ? 'E' : 'W'}
+    </p>
+  )}
+
+  <p class="lede">{d.summary}</p>
+
+  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+
+  {d.researchNotes && (
+    <>
+      <h2>Research notes</h2>
+      <p>{d.researchNotes}</p>
+    </>
+  )}
+
+  {d.relatedPeople.length > 0 && (
+    <>
+      <h2>Related people</h2>
+      <ul>
+        {d.relatedPeople.map((p) => (
+          <li><a href={withBase(`/people/${p.id}/`)}>{p.id}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <p><a href={withBase('/places/')}>&larr; All places</a></p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+</style>

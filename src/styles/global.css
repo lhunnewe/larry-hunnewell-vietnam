@@ -1,0 +1,251 @@
+/* ------------------------------------------------------------------
+   My Father in Vietnam — design tokens
+
+   Grounded in the material world of Larry's service, 1964-1965:
+   canvas and khaki, olive-drab ink, military map paper, and the
+   signal orange of VS-17 marker panels used to flag helicopter
+   landing zones. Two typographic voices carry the project's method:
+   Source Serif for memory (Larry's words, the memoir), Courier Prime
+   for the record (IDs, dates, evidence classifications).
+------------------------------------------------------------------- */
+
+:root {
+  --paper: #efebdd;
+  --paper-deep: #e5dfca;
+  --ink: #23261c;
+  --ink-soft: #4c4e40;
+  --olive: #4f5438;
+  --khaki: #8b8368;
+  --line: #ccc5ab;
+  --signal: #c04a1c;
+  --map-blue: #4e6e7e;
+
+  /* evidence classification */
+  --ev-confirmed: #3e5a31;
+  --ev-strong: #55703f;
+  --ev-plausible: #8a6c20;
+  --ev-unverified: #6b675a;
+  --ev-contradicted: #8c3a2b;
+
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'Courier Prime', 'Courier New', monospace;
+
+  --measure: 44rem;
+  --wide: 68rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--wide);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 0.6em;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 6vw, 3.4rem);
+}
+
+h2 {
+  font-size: clamp(1.35rem, 3.5vw, 1.8rem);
+  margin-top: 2.2em;
+}
+
+h3 {
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+}
+
+p,
+ul,
+ol {
+  max-width: var(--measure);
+}
+
+a {
+  color: var(--olive);
+  text-decoration: underline;
+  text-decoration-color: var(--khaki);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--signal);
+  text-decoration-color: var(--signal);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--signal);
+  outline-offset: 2px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 3rem 0;
+}
+
+/* --- the record voice: mono labels, IDs, dates, classifications --- */
+
+.record {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--signal);
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+/* --- memory voice --- */
+
+.recollection {
+  border-left: 3px solid var(--signal);
+  margin: 2rem 0;
+  padding: 0.35rem 0 0.35rem 1.4rem;
+  max-width: var(--measure);
+}
+
+.recollection blockquote {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.12rem;
+  color: var(--ink);
+}
+
+.recollection .attribution {
+  margin-top: 0.7rem;
+}
+
+/* --- evidence badges --- */
+
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+  padding: 0.18em 0.65em 0.14em;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.evidence::before {
+  content: '';
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  background: var(--ev-color, var(--ev-unverified));
+  flex: none;
+}
+
+/* --- cards and index grids --- */
+
+.card-grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  padding: 0;
+  margin: 2rem 0 0;
+  list-style: none;
+}
+
+.card {
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+  padding: 1.3rem 1.3rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.card a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: var(--signal);
+}
+
+/* --- empty states --- */
+
+.empty-state {
+  border: 1px dashed var(--khaki);
+  padding: 2rem 1.6rem;
+  max-width: var(--measure);
+  margin-top: 2rem;
+}
+
+.empty-state p {
+  margin: 0 0 0.6rem;
+}
+
+.empty-state p:last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

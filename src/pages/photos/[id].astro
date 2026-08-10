@@ -1,0 +1,135 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import Recollection from '../../components/Recollection.astro';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  const photos = (await getCollection('photos')).sort((a, b) =>
+    a.data.photoId.localeCompare(b.data.photoId)
+  );
+  return photos.map((photo, i) => ({
+    params: { id: photo.id },
+    props: {
+      photo,
+      prev: i > 0 ? photos[i - 1] : null,
+      next: i < photos.length - 1 ? photos[i + 1] : null,
+    },
+  }));
+}
+
+const { photo, prev, next } = Astro.props;
+const d = photo.data;
+const familyFolder = d.originalPath ? d.originalPath.split('/').slice(0, -1).join(' / ') : null;
+const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
+---
+
+<BaseLayout title={`${d.photoId} — ${heading}`}>
+  <span class="eyebrow">Photograph {d.photoId}</span>
+  <h1>{heading}</h1>
+
+  {d.originalPath && (
+    <img
+      src={withBase(`/images/photos/full/${d.photoId}.jpg`)}
+      alt={d.cataloged ? d.title : `Photograph ${d.photoId}, not yet cataloged`}
+      width="1600"
+      height="1081"
+    />
+  )}
+
+  <nav class="pager record" aria-label="Photograph navigation">
+    {prev ? <a href={withBase(`/photos/${prev.id}/`)}>&larr; {prev.data.photoId}</a> : <span></span>}
+    <a href={withBase('/photos/')}>All photographs</a>
+    {next ? <a href={withBase(`/photos/${next.id}/`)}>{next.data.photoId} &rarr;</a> : <span></span>}
+  </nav>
+
+  {!d.cataloged && (
+    <div class="empty-state">
+      <p><strong>Not yet cataloged.</strong></p>
+      <p>
+        This scan has its permanent archive number, but its date, place, and story haven't been
+        recorded yet. Nothing about it is guessed — the details will be filled in as Larry looks
+        through the photographs and shares what he remembers.
+      </p>
+    </div>
+  )}
+
+  <dl class="photo-record">
+    <div><dt class="record">Archive ID</dt><dd>{d.photoId}</dd></div>
+    {d.originalFilename && (
+      <div><dt class="record">Original scan</dt><dd>{d.originalFilename}</dd></div>
+    )}
+    {familyFolder && (
+      <div><dt class="record">Family sorting</dt><dd>{familyFolder}</dd></div>
+    )}
+    <div><dt class="record">Date</dt><dd>{d.approximateDate ?? 'Unknown'}</dd></div>
+    <div>
+      <dt class="record">Location</dt>
+      <dd>
+        {d.location ? <a href={withBase(`/places/${d.location.id}/`)}>{d.location.id}</a> : 'Unknown'}
+      </dd>
+    </div>
+    {d.units.length > 0 && <div><dt class="record">Units</dt><dd>{d.units.join(', ')}</dd></div>}
+    {d.people.length > 0 && (
+      <div>
+        <dt class="record">People</dt>
+        <dd>
+          {d.people.map((p, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={withBase(`/people/${p.id}/`)}>{p.id}</a>
+            </>
+          ))}
+        </dd>
+      </div>
+    )}
+    <div><dt class="record">Evidence</dt><dd><EvidenceBadge level={d.confidence} /></dd></div>
+  </dl>
+
+  {d.description && <p>{d.description}</p>}
+
+  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+
+  {d.researchNotes && (
+    <>
+      <h2>Research notes</h2>
+      <p>{d.researchNotes}</p>
+    </>
+  )}
+</BaseLayout>
+
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem 0 0.8rem;
+    border: 1px solid var(--line);
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .photo-record {
+    margin: 1.5rem 0;
+    border-top: 1px solid var(--line);
+    max-width: var(--measure);
+  }
+
+  .photo-record > div {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .photo-record dd {
+    margin: 0;
+  }
+</style>

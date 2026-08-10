@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import Recollection from '../components/Recollection.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout title="Units">
+  <span class="eyebrow">The organization question</span>
+  <h1>Units</h1>
+  <p class="lede">
+    What outfit was Larry actually in? His memory is specific — a designation, a size, a mix of
+    trades — and that specificity is the best starting evidence the project has. But remembered
+    terminology is not assumed to be exact, and no unit identification is treated as settled yet.
+  </p>
+
+  <h2>118th AOD — Aviation Operations Detachment <EvidenceBadge level="unverified-recollection" /></h2>
+  <Recollection>
+    He remembers his organization as the 118th AOD — Aviation Operations Detachment. He describes
+    the organization as relatively small, approximately 110 men, including radio operators and
+    pathfinders. Some personnel reportedly required special clearances.
+  </Recollection>
+  <p>
+    Research directions: the <strong>118th Aviation Company</strong> and units associated with it;
+    the structure and naming of <strong>Aviation Operations Detachments</strong> in Vietnam during
+    1964&ndash;1965; and where a detachment of radio operators and pathfinders of about that size
+    would have fit in Army aviation's order of battle. Morning reports and unit histories are the
+    most likely documents to settle the designation.
+  </p>
+
+  <h2>1st Cavalry association <EvidenceBadge level="unverified-recollection" /></h2>
+  <p>
+    Larry recalls being associated with the <strong>1st Cavalry</strong>. One open research
+    question: the 1st Cavalry Division (Airmobile) arrived in Vietnam around September 1965, at
+    the end of Larry's tour. The association he remembers may involve the division's advance
+    elements, a different organization carrying the cavalry designation, or a connection formed at
+    another point in his service. The memory is preserved as given while this is investigated.
+  </p>
+
+  <h2>What would settle it</h2>
+  <ul>
+    <li>Larry's personnel records (DD-214 and service file)</li>
+    <li>Morning reports for candidate units, 1964&ndash;1965</li>
+    <li>Unit histories and operational reports of Army aviation organizations in-country</li>
+    <li>Orders or photographs showing unit insignia or designations</li>
+  </ul>
+
+  <p>
+    Progress is tracked on the <a href={withBase('/research/')}>research pages</a>.
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  h2 :global(.evidence) {
+    vertical-align: middle;
+    margin-left: 0.5rem;
+  }
+</style>

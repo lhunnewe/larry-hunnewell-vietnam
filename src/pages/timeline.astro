@@ -1,0 +1,155 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import Recollection from '../components/Recollection.astro';
+import { withBase } from '../lib/paths';
+
+const events = (await getCollection('timeline')).sort((a, b) =>
+  a.data.sortDate.localeCompare(b.data.sortDate)
+);
+
+const CATEGORY_META: Record<string, { label: string; color: string }> = {
+  'larry-movement': { label: "Larry's movements", color: 'var(--olive)' },
+  'larry-recollection': { label: "Larry's recollections", color: 'var(--signal)' },
+  photo: { label: 'Photographs', color: 'var(--map-blue)' },
+  'unit-event': { label: 'Unit events', color: 'var(--ev-strong)' },
+  'war-event': { label: 'The war around him', color: 'var(--ink-soft)' },
+  'research-discovery': { label: 'Research discoveries', color: 'var(--ev-plausible)' },
+};
+
+const usedCategories = [...new Set(events.map((e) => e.data.category))];
+---
+
+<BaseLayout title="Timeline">
+  <span class="eyebrow">September 1964 &ndash; September 1965</span>
+  <h1>Timeline</h1>
+  <p class="lede">
+    One year, told in parallel tracks: where Larry went, what he remembers, and what the war was
+    doing around him. Dates from memory are marked approximate or unknown; nothing is sharpened
+    beyond what the evidence allows.
+  </p>
+
+  <ul class="legend record" aria-label="Timeline categories">
+    {usedCategories.map((cat) => (
+      <li><span class="swatch" style={`background:${CATEGORY_META[cat].color}`}></span>{CATEGORY_META[cat].label}</li>
+    ))}
+  </ul>
+
+  <ol class="timeline">
+    {events.map((event) => (
+      <li class="event" style={`--cat-color:${CATEGORY_META[event.data.category].color}`}>
+        <p class="event-date record">
+          {event.data.displayDate}
+          {event.data.datePrecision !== 'exact' && (
+            <span class="precision">&middot; {event.data.datePrecision}</span>
+          )}
+        </p>
+        <div class="event-body">
+          <h2>{event.data.title}</h2>
+          <p class="event-meta record">
+            {CATEGORY_META[event.data.category].label} &nbsp;
+            <EvidenceBadge level={event.data.confidence} />
+          </p>
+          <p>{event.data.description}</p>
+          {event.data.larrysRecollection && (
+            <Recollection>{event.data.larrysRecollection}</Recollection>
+          )}
+          {event.data.relatedPlaces.length > 0 && (
+            <p class="event-links record">
+              Places:{' '}
+              {event.data.relatedPlaces.map((place, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href={withBase(`/places/${place.id}/`)}>{place.id}</a>
+                </>
+              ))}
+            </p>
+          )}
+        </div>
+      </li>
+    ))}
+  </ol>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .legend {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.6rem;
+  }
+
+  .legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .swatch {
+    width: 0.7em;
+    height: 0.7em;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  .timeline {
+    list-style: none;
+    margin: 2.5rem 0 0;
+    padding: 0;
+    border-left: 2px solid var(--line);
+  }
+
+  .event {
+    position: relative;
+    padding: 0 0 2.8rem 1.8rem;
+  }
+
+  .event::before {
+    content: '';
+    position: absolute;
+    left: -0.48rem;
+    top: 0.35rem;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background: var(--cat-color);
+    border: 2px solid var(--paper);
+  }
+
+  .event h2 {
+    margin: 0.2rem 0 0.4rem;
+    font-size: 1.25rem;
+  }
+
+  .event-date {
+    margin: 0;
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .precision {
+    color: var(--khaki);
+    font-weight: 400;
+  }
+
+  .event-meta {
+    margin: 0 0 0.7rem;
+    text-transform: none;
+  }
+
+  .event-links {
+    margin: 0.6rem 0 0;
+    text-transform: none;
+  }
+
+  .event p {
+    margin-top: 0;
+  }
+</style>

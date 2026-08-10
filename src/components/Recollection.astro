@@ -1,0 +1,18 @@
+---
+/**
+ * A quoted memory, displayed in the memoir voice and visually distinct
+ * from research conclusions. Text passed in is shown as given, unedited.
+ */
+interface Props {
+  attribution?: string;
+}
+
+const { attribution = "Larry's recollection" } = Astro.props;
+---
+
+<figure class="recollection">
+  <blockquote>
+    <slot />
+  </blockquote>
+  <figcaption class="attribution record">{attribution}</figcaption>
+</figure>

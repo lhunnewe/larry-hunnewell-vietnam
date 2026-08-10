@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const sources = (await getCollection('sources')).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
+
+const TYPE_LABELS: Record<string, string> = {
+  'official-record': 'Official record',
+  'archival-document': 'Archival document',
+  newspaper: 'Newspaper',
+  map: 'Map',
+  photograph: 'Photograph',
+  'oral-history': 'Oral history',
+  'unit-history': 'Unit history',
+  'secondary-history': 'Secondary history',
+  database: 'Database',
+  other: 'Other',
+};
+---
+
+<BaseLayout title="Sources">
+  <span class="eyebrow">Documents &amp; citations</span>
+  <h1>Sources</h1>
+  <p class="lede">
+    Every important historical claim in this archive should eventually rest on a citation listed
+    here — morning reports, operational records, contemporary newspapers, maps, photographs, and
+    oral histories, in that spirit of priority.
+  </p>
+
+  {sources.length === 0 ? (
+    <div class="empty-state">
+      <p><strong>No formal citations have been cataloged yet.</strong></p>
+      <p>
+        The archive currently rests on Larry's recollections, which are classified as such
+        everywhere they appear. As records requests and archival research return documents, each
+        source will be entered here and linked from the claims it supports.
+      </p>
+    </div>
+  ) : (
+    <ul class="source-list">
+      {sources.map((source) => (
+        <li>
+          <p class="record">{TYPE_LABELS[source.data.type]}</p>
+          <h3>{source.data.url ? <a href={source.data.url}>{source.data.title}</a> : source.data.title}</h3>
+          <p>{source.data.citation}</p>
+          {source.data.notes && <p class="notes">{source.data.notes}</p>}
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .source-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    max-width: var(--measure);
+  }
+
+  .source-list li {
+    border-bottom: 1px solid var(--line);
+    padding: 1.2rem 0;
+  }
+
+  .source-list h3,
+  .source-list p {
+    margin: 0 0 0.3rem;
+  }
+
+  .notes {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+</style>

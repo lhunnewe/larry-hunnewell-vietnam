@@ -1,0 +1,16 @@
+# build output
+dist/
+# generated web copies of photos (originals live in data/photos/originals/)
+public/images/photos/
+# generated types
+.astro/
+# dependencies
+node_modules/
+# logs
+npm-debug.log*
+# environment
+.env
+.env.production
+# OS
+.DS_Store
+Thumbs.db

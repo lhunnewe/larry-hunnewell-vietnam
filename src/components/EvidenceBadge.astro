@@ -1,0 +1,26 @@
+---
+interface Props {
+  level:
+    | 'confirmed'
+    | 'strongly-supported'
+    | 'plausible'
+    | 'unverified-recollection'
+    | 'contradicted';
+}
+
+const { level } = Astro.props;
+
+const LABELS: Record<Props['level'], { label: string; color: string }> = {
+  confirmed: { label: 'Confirmed', color: 'var(--ev-confirmed)' },
+  'strongly-supported': { label: 'Strongly supported', color: 'var(--ev-strong)' },
+  plausible: { label: 'Plausible', color: 'var(--ev-plausible)' },
+  'unverified-recollection': { label: 'Unverified recollection', color: 'var(--ev-unverified)' },
+  contradicted: { label: 'Contradicted / unlikely', color: 'var(--ev-contradicted)' },
+};
+
+const { label, color } = LABELS[level];
+---
+
+<span class="evidence" style={`--ev-color: ${color}`} title={`Evidence classification: ${label}`}>
+  {label}
+</span>
