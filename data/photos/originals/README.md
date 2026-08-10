@@ -8,7 +8,9 @@ the project's primary photographic evidence.
 - Received from the family in a folder labeled **"1969 Vietnam War Photos"**. The "1969" was a
   labeling error: Larry's son labeled the folder years ago, and Larry confirmed directly
   (August 2026) that his service was 1964–1965. The original label is noted here as provenance;
-  it carries no date information about the photographs.
+  it carries no date information about the photographs. (The source folder on the family NAS
+  was renamed to "1964-1965 Vietnam War Photos" on 2026-08-10 to match the established dates —
+  now further confirmed by Larry's DD-214; the original label survives in this note.)
 - The subfolders are the **family's own sorting** of the prints (Group Photos with Unit;
   Landscape, Locations and villages; Military Vehicles; Native Vietnamese; and Vietnam Ladies
   nested under Group Photos). This sorting is preserved as catalog information and recorded in

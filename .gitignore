@@ -18,3 +18,7 @@ Thumbs.db
 # Filled records-request forms contain SSN/DOB - never commit; keep only the blank form
 research/records-request/*.pdf
 !research/records-request/standard-form-180.pdf
+
+# Private family archive: documents with identifying numbers (DD-214, VA paperwork, filled
+# forms, correspondence). Important, kept forever, never committed. See private/README.md.
+private/
