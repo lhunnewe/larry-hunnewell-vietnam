@@ -1,0 +1,27 @@
+{
+  "photoId": "VN-0081",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "DATE-ANCHORED CIVIC SCENE. A five-story modern corner block at a traffic circle carries rooftop billboards for BIRELEY'S orange drink ('HÃY UỐNG Bireley's' — 'Drink Bireley's' — twice, with bottle art). On the traffic island below stands a temporary DISPLAY WALL bearing rows of NATIONAL FLAGS and Vietnamese text reading (partially) 'TIỀN ỦNG HỘ / VẬT PHẨM CỨU TRỢ ĐỒNG BÀO NẠN LỤT MIỀN TRUNG' ('donations and relief goods for flood victims of Central Vietnam') and 'TIỀN TƯỞNG TRỢ CỦA CÁC NƯỚC BẠN' ('aid from friendly nations') — a public tally board for the CENTRAL VIETNAM FLOOD RELIEF campaign. A blue-and-cream Renault taxi (roof sign 'TAXI-6098') rounds the circle; a grey van is parked at the island; scooter ranks and shophouses line the far side.",
+  "visibleText": [
+    "'HÃY UỐNG Bireley's' rooftop billboards — legible",
+    "'...VẬT PHẨM CỨU TRỢ ĐỒNG BÀO NẠN LỤT MIỀN TRUNG' — flood-relief text, largely legible",
+    "'TIỀN TƯỞNG TRỢ CỦA CÁC NƯỚC BẠN' + flag rows — legible",
+    "'TAXI-6098' — legible"
+  ],
+  "objects": ["flood-relief donation display with national flags", "Bireley's billboards", "Renault taxi, scooter ranks"],
+  "setting": "Central Saigon traffic circle. DATING VALUE: the catastrophic CENTRAL VIETNAM FLOODS struck in NOVEMBER 1964; public relief campaigns ran through that winter — dating this frame to roughly DECEMBER 1964 – EARLY 1965, early-to-mid tour, and independently corroborating the season of the Saigon series.",
+  "people": { "count": 6, "notes": "Street figures." },
+  "landmarkHypotheses": ["Saigon traffic circle — possibly the Nguyễn Huệ/Lê Lợi (Bồn Kèn) area; building profile matchable."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon roundabout during the winter 1964-65 flood-relief campaign.",
+    "reasoning": "Signage content and campaign timing.",
+    "confidence": "medium-high for dating; medium for exact corner (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0068 (Tet dating)", "VN-0040", "data/timeline (candidate context event: Nov 1964 floods)"],
+  "questionsForLarry": [
+    "Do you remember the big floods in central Vietnam in late 1964 — did your unit fly relief missions?",
+    "Recognize this corner and the orange-drink signs?"
+  ],
+  "qualityNotes": "Kodachrome slide, crisp; the relief-display text is the dating payload."
+}

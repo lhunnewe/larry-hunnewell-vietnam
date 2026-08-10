@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0080",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A tide of parked two-wheelers — hundreds of bicycles, mopeds, and scooters racked side-by-side down a tree-lined sidewalk beside a monumental pale stone building (arched windows, buttress-like pillar in right foreground with a small plaque). At left on the street: two olive military trucks (M37-class and a larger stake-bed) with a uniformed figure walking between them; more traffic and low buildings down the block. Dappled morning light through big trees.",
+  "visibleText": ["Small plaque on pillar — not resolvable"],
+  "objects": ["massed bicycle/moped parking", "military trucks", "monumental stone building"],
+  "setting": "A major institution's frontage — school, cathedral precinct, or government building — with the bicycle parking of a big-city morning; U.S./ARVN logistics traffic passing.",
+  "people": { "count": 3, "notes": "Small figures." },
+  "landmarkHypotheses": ["Saigon institutional building — the pillar and window profile may be matchable (cathedral precinct or lycée candidates)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon institutional street.",
+    "reasoning": "Architecture and parking density.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0050 (scooter ranks)", "Saigon series"],
+  "questionsForLarry": ["Everyone rode two wheels — do you remember the bicycle crowds at rush hour?"],
+  "qualityNotes": "Kodachrome slide, slight motion softness; atmosphere strong."
+}

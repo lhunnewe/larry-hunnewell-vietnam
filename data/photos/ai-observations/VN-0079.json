@@ -1,0 +1,25 @@
+{
+  "photoId": "VN-0079",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "HISTORIC LANDMARK, FULLY IDENTIFIED BY SIGNAGE. The MỸ CẢNH FLOATING RESTAURANT moored on the Saigon River, photographed from the riverside promenade over an orange-and-green railing: a two-deck pontoon restaurant with awnings, rows of green chairs and tables on the open upper deck, lantern lampposts, and rooftop signs reading 'FLOATING MỸ-CẢNH RESTAURANT' and 'RESTAURANT MỸ-CẢNH FLOTTANT'. An RVN flag flies from the mast. Gangways run ashore at left; across the river, low buildings and trees line the far bank.",
+  "visibleText": [
+    "'FLOATING MỸ-CẢNH RESTAURANT' — fully legible",
+    "'RESTAURANT MỸ-CẢNH FLOTTANT' (French) — legible"
+  ],
+  "objects": ["floating restaurant, two decks, awnings", "RVN flag", "riverside railing and lamppost"],
+  "setting": "Saigon riverfront at the Mỹ Cảnh — a famous establishment. HISTORICAL NOTE (research context): the Mỹ Cảnh was the target of a major bombing on 25 JUNE 1965, one of the war's most notorious attacks on civilians and Americans, DURING Larry's tour. The restaurant appears intact here, suggesting the photo predates the attack (or shows it after repair — sequence suggests earlier). This frame connects Larry's Saigon visits to a documented event he would have heard about vividly.",
+  "people": { "count": 2, "notes": "Small figures at the gangway." },
+  "landmarkHypotheses": ["Mỹ Cảnh floating restaurant, Saigon River waterfront — identified by its own signage."],
+  "geolocationHypothesis": {
+    "hypothesis": "Bạch Đằng quay area, Saigon riverfront.",
+    "reasoning": "The restaurant's documented mooring.",
+    "confidence": "high (signage-identified)"
+  },
+  "crossReferences": ["VN-0040", "VN-0068 (Saigon series)", "data/timeline (candidate context event: My Canh bombing 25 Jun 1965)"],
+  "questionsForLarry": [
+    "Did you ever eat at the My Canh floating restaurant?",
+    "Do you remember when it was bombed in June 1965 — where were you when you heard?"
+  ],
+  "qualityNotes": "Kodachrome slide, excellent color and signage clarity; historically significant frame."
+}

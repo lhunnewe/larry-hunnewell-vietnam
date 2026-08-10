@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0073",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Looking down from a bridge or ferry rail (teal-painted rail at left): five or six boys swim in the river below, faces up toward the camera — one raises an object (tool or toy), others tread water in a loose ring. Beyond: a sampan under a riverside wall with graffiti, moored freighters and harbor craft in the distance at right, warehouses and trees along the far bank. The swimmers were likely diving for coins tossed by passengers — a common riverside scene.",
+  "visibleText": ["Whitewash graffiti on riverside wall — not resolvable"],
+  "objects": ["swimming boys", "sampan", "ocean-going freighters at anchor (background)", "harbor waterfront"],
+  "setting": "A working port river — the freighters suggest the SAIGON RIVER port reach; joyful street-level (water-level) life alongside it.",
+  "people": { "count": 6, "notes": "Local boys; no identity claims." },
+  "landmarkHypotheses": ["Saigon River port area (freighter anchorage)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Saigon River near the port, from a bridge or ferry.",
+    "reasoning": "Deep-draft shipping visible.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0072", "VN-0064"],
+  "questionsForLarry": ["Did you toss coins to the swimming kids like everyone did?"],
+  "qualityNotes": "Kodachrome slide, cool light, good detail."
+}

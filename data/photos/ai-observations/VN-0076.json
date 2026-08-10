@@ -1,0 +1,25 @@
+{
+  "photoId": "VN-0076",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A three-story colonial corner building in morning backlight, its rounded corner carrying stacked shop signs — a busy commercial intersection with a street market under big trees at left, cyclos, motorbikes, pedestrians, and a man in white shirt crossing the open foreground. Signs (reading CORRECTLY — this scan is not flipped): a large red 'VIETNAM' cosmetic ad with Vietnamese slogan ('Làm da mịn màng thơm...'), 'Radio NAM-THANH', 'KIM LUÂN' with CHINESE CHARACTERS, 'AN-LỢI-HIỆU' with Chinese characters, and others. The Chinese-Vietnamese bilingual signage suggests the CHỢ LỚN (Cholon) district. Orange light-leak flare lower right.",
+  "visibleText": [
+    "'VIETNAM' + Vietnamese cosmetic slogan — legible",
+    "'Radio NAM-THANH' — legible",
+    "'KIM LUÂN' + Chinese characters — legible",
+    "'AN-LỢI-HIỆU' + Chinese characters — legible",
+    "'THÁI-HUY(?)' and market signs left — partial"
+  ],
+  "objects": ["colonial corner building", "street market, cyclos, motorbikes", "bilingual Chinese-Vietnamese signage"],
+  "setting": "Commercial district morning — Cholon (Saigon's Chinese quarter) hypothesis from the bilingual signs; the named shops are researchable in period directories.",
+  "people": { "count": 15, "notes": "Street crowd." },
+  "landmarkHypotheses": ["Cholon intersection, Saigon — shop-name research can pin the corner."],
+  "geolocationHypothesis": {
+    "hypothesis": "Cholon district, Saigon.",
+    "reasoning": "Chinese-Vietnamese signage mix.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0040", "VN-0065", "VN-0068 (Saigon series)"],
+  "questionsForLarry": ["Did you get over to Cholon — the Chinese part of the city?"],
+  "qualityNotes": "Kodachrome slide with light leak lower right; signage crisp."
+}

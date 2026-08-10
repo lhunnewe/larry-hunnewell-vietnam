@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0078",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "SECOND FRAME OF THE BURNING-BASE EVENT (with VN-0074). Through an aircraft's cockpit/cabin window (pale green frame, yellow door edge, orange seat back and a blurred head/shoulder in the foreground): the same towering smoke column with flame at its base rises from the distant airfield, seen here from farther out across a broad RIVER S-BEND bordered by paddies, villages, and tree lines. The cloud deck above flattens the top of the column.",
+  "visibleText": [],
+  "objects": ["smoke column with flame (distant)", "river S-bend, paddies, villages", "aircraft window framing, seat back"],
+  "setting": "Approach or departure view of the VN-0074 fire — the river bend in the foreground is a strong GEOLOCATION KEY (a distinctive meander near the burning airfield; the Dong Nai river near Bien Hoa is a candidate to test).",
+  "people": { "count": 1, "notes": "Blurred fellow passenger." },
+  "landmarkHypotheses": [
+    "River meander + airfield alignment — compare against maps around Bien Hoa/Dong Nai to confirm or refute the Bien Hoa hypothesis from VN-0074."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Same event as VN-0074, viewed across a major river bend — Bien Hoa/Dong Nai candidate.",
+    "reasoning": "Sequential frames of one fire; river geometry is checkable.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0074 (same event, closer)", "Issue #10"],
+  "questionsForLarry": [
+    "You photographed this fire twice — what do you remember about that flight?",
+    "Was it the ammo dump? Did everyone aboard go quiet?"
+  ],
+  "qualityNotes": "Kodachrome slide, window reflections; the river bend geometry is the research payload."
+}

@@ -1,0 +1,23 @@
+{
+  "photoId": "VN-0077",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "The wide river again from the ferry rail: a boy stands poling a black sampan while another sits at the bow; three more boys swim alongside, one mid-frame kicking off the sampan's stern. Across the river the stilt-house shoreline carries a row of BILLBOARDS reading CORRECTLY — 'NATIONAL [PANASONIC]', 'BASTOS' (cigarette brand), a colorful third sign, and a partial '...Euro(?)' at right — CONFIRMING that this is the same crossing as VN-0072 and that VN-0072's scan is the mirrored one.",
+  "visibleText": [
+    "'NATIONAL' (with Panasonic line) — legible, correct orientation",
+    "'BASTOS' — legible",
+    "'...Euo/Euro(?)' — partial, right edge"
+  ],
+  "objects": ["sampan with boys", "swimmers", "billboard row, stilt-house shoreline"],
+  "setting": "Same ferry crossing as VN-0072/VN-0073 — a lively river moment. Orientation reference frame for the collection's flip-checking.",
+  "people": { "count": 5, "notes": "Local boys." },
+  "landmarkHypotheses": ["Billboard row is matchable to period photos of Saigon-area crossings."],
+  "geolocationHypothesis": {
+    "hypothesis": "Same major-river ferry crossing as VN-0072 (Saigon region).",
+    "reasoning": "Identical shoreline and billboards.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0072 (flipped duplicate view)", "VN-0073"],
+  "questionsForLarry": ["Which ferry crossing was this — where were you driving?"],
+  "qualityNotes": "Kodachrome slide, good exposure; serves as the orientation key for VN-0072."
+}

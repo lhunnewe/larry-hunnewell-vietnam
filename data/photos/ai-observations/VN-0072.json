@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0072",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "River crossing: a crowded wooden motor ferry — passengers in conical hats and sun helmets, at least one bicycle aboard, a thatch canopy amidships — flies the YELLOW-AND-RED-STRIPED Republic of Vietnam flag from a stern staff. Across the wide brown-blue river: a waterfront of stilt houses, palms, warehouses, a bridge at right, and a large white billboard whose lettering ('NATIONAL', with a smaller line beneath) appears MIRROR-REVERSED. ARCHIVAL NOTE: reversed billboard text indicates THIS SLIDE WAS LIKELY SCANNED FLIPPED (emulsion side); the whole collection should be checked frame-by-frame for orientation before final publication. Photographed through the railing/structure of a larger vessel or bridge (dark frame member at right).",
+  "visibleText": [
+    "'NATIONAL' billboard — legible but MIRROR-REVERSED (with probable 'PANASONIC' line beneath): key evidence the scan is horizontally flipped",
+    "Red sign fragment further right — not resolvable"
+  ],
+  "objects": ["motor ferry with passengers and RVN flag", "stilt-house waterfront, billboard, bridge"],
+  "setting": "A ferry crossing on a major river — plausibly the Saigon River or an upper-delta crossing on Larry's road routes.",
+  "people": { "count": 15, "notes": "Ferry passengers, none identifiable." },
+  "landmarkHypotheses": ["Billboard + bridge + waterfront may be matchable once the image is un-flipped."],
+  "geolocationHypothesis": {
+    "hypothesis": "Major river ferry crossing, Saigon region (image mirrored as scanned).",
+    "reasoning": "Advertising billboard implies a trafficked crossing near a city.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0064", "VN-0073 (same waterway family)"],
+  "questionsForLarry": ["Do you remember taking vehicle ferries — which crossings?"],
+  "qualityNotes": "Kodachrome slide; IMPORTANT: horizontal flip suspected — verify against text-bearing frames and correct the web derivative if confirmed (originals stay untouched; note the correction in the record)."
+}

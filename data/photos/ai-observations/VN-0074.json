@@ -1,0 +1,26 @@
+{
+  "photoId": "VN-0074",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "MAJOR EVENT PHOTOGRAPH — AERIAL OF A BURNING AIRBASE. From altitude, a towering column of dense black smoke rises thousands of feet from a point on an airfield complex, with ORANGE FLAME clearly visible at its base. Below: a long runway/taxiway system runs diagonally at left, surrounded by cantonment areas — rows of buildings, revetments, cleared red-earth construction ground — with roads, villages, and green paddies stretching away to a hazy horizon. A second, thinner smoke drift trails at upper left. Shot through an aircraft window/door in flight.",
+  "visibleText": [],
+  "objects": ["black smoke column with visible flame (large fuel/ordnance-class fire)", "runway and taxiway system", "base cantonment, revetments", "surrounding villages and paddies"],
+  "setting": "An actual incident on a major airbase, photographed from the air — this is potentially a DOCUMENTED HISTORICAL EVENT and one of the most researchable frames in the collection.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": [
+    "CANDIDATE EVENT (hypothesis, to be verified): the Bien Hoa Air Base disaster of 16 May 1965 — a mass ordnance/aircraft conflagration; Larry was in country and the 118th Aviation Company's home field was Bien Hoa, which would explain his presence overhead. Alternative candidates: fuel-dump fires at other fields, VC attacks on airbases (e.g. Bien Hoa Nov 1964). Runway layout comparison against period base diagrams should settle which field this is.",
+    "If the base resolves to Bien Hoa, this frame becomes a dated event photo AND independent evidence connecting Larry to the 118th's home station (#10)."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Bien Hoa Air Base during a major fire — possibly 16 May 1965.",
+    "reasoning": "Airfield scale, cantonment pattern, event magnitude, and Larry's aviation-unit association.",
+    "confidence": "medium (machine hypothesis — layout comparison and event records can confirm or refute)"
+  },
+  "crossReferences": ["Issue #10 (unit/home field)", "VN-0012 (possible unit tail emblem)", "data/timeline (candidate new event entry once verified)"],
+  "questionsForLarry": [
+    "Do you remember this fire? Were you flying over it — what had happened?",
+    "Was this Bien Hoa? Were you there when the base blew up in May 1965?",
+    "Did your unit lose aircraft or people that day?"
+  ],
+  "qualityNotes": "Kodachrome slide, remarkable clarity for an aerial; runway geometry is the key to identification. HIGH PRIORITY for research and for asking Larry."
+}

@@ -1,0 +1,25 @@
+{
+  "photoId": "VN-0075",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A grand swimming-pool complex: a long pool crowded with swimmers (complexions and haircuts suggest many Americans), a multi-platform DIVING TOWER with curved art-deco stairs at the far end, lifeguard chairs, floodlight masts, a high perimeter wall with netting above, and at right a two-story colonial building with arcaded lower gallery and balustraded balcony. Fence-mounted signs read (MIRROR-REVERSED): 'CẤM HÚT THUỐC / NO SMOKING / BEYOND THIS POINT' and 'NO FOOD OR DRINKS PERMITTED BEYOND THIS POINT' — this scan is FLIPPED horizontally (second confirmed case; see VN-0072).",
+  "visibleText": [
+    "'CẤM HÚT THUỐC / NO SMOKING (BEYOND THIS POINT)' — legible, mirror-reversed",
+    "'NO FOOD OR DRINKS PERMITTED BEYOND THIS POINT' — legible, mirror-reversed"
+  ],
+  "objects": ["long pool with diving tower", "lifeguard chairs, floodlights", "colonial clubhouse building", "bilingual signage"],
+  "setting": "A major established swimming facility — strongly resembles the CERCLE SPORTIF SAIGONNAIS in Saigon (famous colonial sporting club used by Americans), hypothesis. Possibly the same facility as the VN-0004/VN-0005 poolside portraits.",
+  "people": { "count": 40, "notes": "Crowd of swimmers and sunbathers." },
+  "landmarkHypotheses": ["Cercle Sportif Saigonnais pool, Saigon — architecture/diving-tower comparison against period photos recommended."],
+  "geolocationHypothesis": {
+    "hypothesis": "Cercle Sportif Saigonnais, Saigon (after un-flipping the image).",
+    "reasoning": "Diving tower design, clubhouse arcade, bilingual signage.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0004", "VN-0005 (poolside portraits — possibly same facility)", "VN-0072 (flipped-scan pattern)"],
+  "questionsForLarry": [
+    "Is this the big pool in Saigon — the sporting club? Who got you in?",
+    "Is this the same place as the poolside pictures of you and your friends?"
+  ],
+  "qualityNotes": "Kodachrome slide, bright; CONFIRMED FLIPPED — correct the web derivative after verification; originals untouched."
+}

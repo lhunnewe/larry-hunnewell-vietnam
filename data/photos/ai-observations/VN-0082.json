@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0082",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Weapon still-life in camp: a THOMPSON SUBMACHINE GUN (front pistol grip — M1928-pattern) stands propped muzzle-up against a dark wooden post on grass, sling hanging, box magazine inserted, its wooden stock planted by a sandbag revetment at left. Behind: a grey quonset-style hut with window, an open-sided shed with stacked lumber, a tipped drum, grass and worn paths — the domestic middle of the camp.",
+  "visibleText": [],
+  "objects": ["Thompson SMG (M1928-pattern, front pistol grip)", "sandbags, post", "quonset hut, work shed, drum"],
+  "setting": "A posed portrait OF the weapon itself — someone's assigned Thompson photographed like a comrade. Matches the Thompsons seen in VN-0013 and VN-0028; support troops carried these before M16 issue.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Same camp as the quonset/tent cluster frames (VN-0027 area)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Larry's home camp.",
+    "reasoning": "Structure continuity.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0013", "VN-0028"],
+  "questionsForLarry": [
+    "Was this YOUR Thompson? Did you name it?",
+    "Did you ever have to use it?"
+  ],
+  "qualityNotes": "Kodachrome slide, sharp; charming period 'portrait of a weapon' convention."
+}

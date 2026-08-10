@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0071",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Through a helicopter door/window in flight: dry harvested paddies divided by dike lines stretch to a tree line, with a small pale building (possibly a temple or church) mid-distance. Inside the frame edge, silhouetted, the muzzle half of an M16-family rifle (pronged flash suppressor, front sight) angles up beside a strap and a dark object — the passenger's weapon riding beside him.",
+  "visibleText": [],
+  "objects": ["M16-family rifle muzzle (silhouette)", "helicopter door/window frame", "paddy landscape with dike grid"],
+  "setting": "In-flight frame from Larry's constant helicopter travel — armed passage over the countryside; pairs with VN-0029's armed portrait.",
+  "people": { "count": 0, "notes": "Photographer implied." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Low-level flight over southern-Vietnam farmland; not determinable.",
+    "reasoning": "Generic paddy terrain.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0029", "VN-0016", "data/timeline/1964-1965-helicopter-travel.json"],
+  "questionsForLarry": ["Was a rifle standard kit on your flights? Whose is this?"],
+  "qualityNotes": "Kodachrome slide, backlit haze; documentary in-flight frame."
+}
