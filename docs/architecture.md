@@ -8,8 +8,13 @@
 - **GitHub Discussions + giscus** for Larry's comments: `MemoryBox.astro` on every photo,
   place, and person page plus the timeline, keyed to stable terms (`VN-####`, `place:<id>`,
   `person:<id>`, `timeline`) via `data-mapping="specific"` (strict) in the **Memories**
-  category; IDs live in `src/lib/giscus.ts`. A later export job will archive his comments
-  into `data/recollections/`
+  category; IDs live in `src/lib/giscus.ts`. A GitHub Action
+  (`.github/workflows/export-recollections.yml` running
+  `scripts/export-recollections.mjs`) archives comments by allowlisted authors
+  (`scripts/recollection-authors.json`, login→person map, empty until Larry's account
+  exists) into `data/recollections/` — verbatim, provenance recorded, deletions marked
+  but never removed — then dispatches the Pages deploy explicitly (GITHUB_TOKEN pushes
+  don't trigger `on: push`)
 
 ## Content model
 
@@ -54,6 +59,5 @@ records; `cataloged: false` records render honestly as "not yet cataloged."
 ## Not yet built
 
 Planned next, roughly in order: photo cataloging with Larry (titles, dates, places, verbatim
-recollections), interactive map, recollection export from Discussions, per-claim citation
-rendering from the `sources` collection, embedding settled metadata into original scans via
-exiftool driven from the JSON records.
+recollections), interactive map, per-claim citation rendering from the `sources` collection,
+embedding settled metadata into original scans via exiftool driven from the JSON records.
