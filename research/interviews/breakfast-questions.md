@@ -43,11 +43,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
   headquarters you remember? And who's the man whose name starts with W-E?"
   *Unlocks: the "Thom Son Nuht" identification (#11) plus a second unit-member name.*
 
-- [ ] **5. "Was it cold in Japan?"** — Show **VN-0093** and **VN-0095**. "The trees are bare
-  and everyone's in coats — do you remember what month that trip was? Did you go once or
-  twice? And was that the trip when you saw the newspaper?"
-  *Unlocks: the KIA-report dating (#9). All 21 Tokyo frames read cool-season, which sits oddly
-  with the remembered August — his answer redirects the whole Stars and Stripes search.*
+- [ ] **5. "How did you end up in Japan — and what was the medical unit?"** — Show **VN-0093**
+  and **VN-0095**. "Your discharge paper says your last assignment was an Army medical command
+  in Japan. What took you there — were you reassigned, or were you a patient? How long were
+  you there before they sent you home? And was that when you saw the newspaper?"
+  *Unlocks: the DD-214's biggest surprise. His last duty was under US Army Japan (Camp Zama
+  APO), so the cool-season Tokyo frames may be from months of being STATIONED there in fall
+  1965, not a short trip — which also fits seeing Stars and Stripes in Japan (#9). His answer
+  dates the whole Tokyo series and explains the route home (separated at Oakland 30 Nov 65).*
 
 - [ ] **6. "Do you remember these names?"** — Show **VN-0035** (the roster rock) zoomed in.
   Read them slowly: "Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
@@ -99,15 +102,16 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Housekeeping questions (anytime)
 
-- [ ] **"Do you remember your service number — did it have a 42 in it?"** — Draft-era Army
-  numbers were eight digits with a "US" prefix. Family memory says 42 mattered to him in
-  military things; use it as a prompt, not an answer. It goes straight onto the SF-180
-  records request (research/records-request/) and makes the NPRC search sharper. *The
-  number itself belongs on the form, never in this repo.*
-- [ ] **"What's your VA file number — and do you still have your DD-214 from the VA claim
-  paperwork?"** — His Agent Orange claim means the VA verified his service once already; a
-  DD-214 copy may be in a drawer, which would name the unit without waiting on St. Louis.
-  *Like the service number, these identifiers stay off the repo.*
+- [x] ~~"Do you remember your service number?"~~ — **Answered by the DD-214** (photo from
+  Mom, Aug 2026): the number is recorded in the private archive and goes straight onto the
+  SF-180. It contains **no 42** — so the family memory that "42 mattered to him" was about
+  something else. Gentle follow-up: **"What was the 42 we remember — a unit number, a
+  locker, a rifle rack, a jersey?"** *The number itself stays off the repo.*
+- [ ] **"What's your VA file number?"** — Still wanted for the VA records angle on the Agent
+  Orange claim. The DD-214 itself has now turned up (Mom photographed the family copy —
+  transcription in research/records-request/dd214-findings.md; it does NOT name the Vietnam
+  unit, only the last assignment in Japan). A Montana county recorder also holds a certified
+  copy if we ever need a cleaner one. *Identifiers stay off the repo.*
 - [ ] "Are there more slide boxes or prints anywhere that we never scanned?"
 - [ ] "Who labeled the slides originally — you or the lab? Did any get flipped or mixed up?"
   (Two scans are confirmed mirror-flipped: VN-0072, VN-0075.)

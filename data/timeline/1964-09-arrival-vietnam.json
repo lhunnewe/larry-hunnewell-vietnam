@@ -5,7 +5,8 @@
   "datePrecision": "approximate",
   "category": "larry-movement",
   "description": "Larry's Vietnam service began around September 1964. His port of entry and initial assignment have not yet been established from records.",
+  "researchNotes": "His DD-214 credits 1 year, 1 month, 18 days of foreign service ending with separation on November 30, 1965. If that overseas service was continuous (Vietnam, then the Japan assignment), it began about October 12, 1964 — a few weeks later than the remembered September. The recollection stands as given; the NPRC file or travel records should settle the exact arrival date.",
   "confidence": "unverified-recollection",
   "relatedPeople": ["larry-dennis-hunnewell"],
-  "sources": []
+  "sources": ["dd214-1965"]
 }
