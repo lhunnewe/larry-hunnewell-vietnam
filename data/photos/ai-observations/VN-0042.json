@@ -1,0 +1,32 @@
+{
+  "photoId": "VN-0042",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "City street scene caught from close range — a young woman in a flowing WHITE ÁO DÀI pedals her bicycle across the frame, hair in a chignon, motion-soft. Beyond her: a lattice tower carrying a TRAFFIC LIGHT (red showing), palm trees, colonial two-story buildings, and busy traffic — cyclists, a motorbike, and a teal Renault-type taxi with a large woven basket lashed to its trunk rack crossing a zebra-striped crosswalk. At right, a figure in khaki uniform and bush hat (possibly military police or soldier directing traffic — service not determinable) stands in the street; other pedestrians in white shirts and conical hats along the far curb.",
+  "visibleText": [
+    "Small round striped sign (barber-pole-like ball) mid-right — decorative/shop marker, not text",
+    "Blue street sign on pole left of tower — not resolvable"
+  ],
+  "objects": [
+    "white áo dài, bicycle",
+    "traffic light on lattice tower (a big-city fixture in 1964-65 Vietnam)",
+    "Renault-type taxi with goods basket",
+    "colonial architecture, palms, zebra crossing"
+  ],
+  "setting": "A major city with traffic signals — Saigon most likely (possibly the same outing as VN-0040). The áo dài cyclist is the collection's quintessential street image.",
+  "people": { "count": 8, "notes": "Civilians plus one uniformed figure; no identity claims." },
+  "landmarkHypotheses": [
+    "Saigon street with signalized intersection — the lattice signal tower design may be matchable to period Saigon intersections."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon (same trip as VN-0040, hypothesis).",
+    "reasoning": "Traffic signal infrastructure, taxi type, architecture.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0040"],
+  "questionsForLarry": [
+    "Do you remember the girls in white áo dài on their bicycles — what did the GIs make of them?",
+    "Were you in a taxi or truck when you took this?"
+  ],
+  "qualityNotes": "Kodachrome slide, subject motion blur with sharp background; evocative and exhibition-worthy."
+}

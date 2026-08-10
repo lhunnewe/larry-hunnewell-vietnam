@@ -1,0 +1,30 @@
+{
+  "photoId": "VN-0041",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "SIGNIFICANT FOR SITE LAYOUT — the summit compound at dusk, heavily backlit. In the right foreground stands the boxy body of a RIGID VAN/SHELTER with a window and antenna wires rising from it — powered/electronic equipment ON the summit. A barefoot figure in shorts stands beside stacked wooden crates (one stenciled, partially legible). Beyond, a path leads up through rocks toward the site's high point: a built-up structure on the boulders with scaffolding, a small hut perched on top, a FLAGPOLE with flag, and several silhouetted figures climbing or standing along the skyline. Sandbag field at left; barbed wire on the slope; the plain glints dimly far below at left through haze.",
+  "visibleText": [
+    "Stencil on crate — partially visible, not resolvable (magnification candidate)"
+  ],
+  "objects": [
+    "rigid van/shelter with window and antenna wiring (summit electronics/commo hypothesis)",
+    "stacked supply crates",
+    "observation structure on summit boulders with flagpole",
+    "sandbag field, barbed wire"
+  ],
+  "setting": "The best single view of the summit compound's working layout: supply point, shelter/van with antennas, and the crowning observation post. A commo van on the mountain matches Larry's radio-relay world and the cable-fed cabinet in VN-0028.",
+  "people": { "count": 5, "notes": "Silhouettes and one near figure — not identifiable." },
+  "landmarkHypotheses": ["Núi Bà Đen summit compound (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit, view toward the highest point of the installation.",
+    "reasoning": "Continuity with the whole chain; altitude haze; improvised summit architecture.",
+    "confidence": "medium-high (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0028 (cable-fed cabinet)", "VN-0035", "VN-0036", "Issue #12"],
+  "questionsForLarry": [
+    "Was there a radio relay or commo van on top of the mountain? Is that it on the right?",
+    "What flew from the flagpole — U.S. or Vietnamese colors?",
+    "What was the little hut built on the very top?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong backlight; silhouette detail only in upper half — shadow recovery on the original scan may reveal more."
+}

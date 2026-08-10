@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0045",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Dusk on the summit, heavily backlit and soft-focus. The painted OP rock and its neighboring boulders stand in silhouette against a glowing amber-to-blue sky; a utility pole and antenna wires cross the frame; the dirt path curves over the rock shoulder past a low dark object (crate or stove). White painted lettering on the boulder face is faintly visible but not resolvable. The plain glimmers faintly far below at right.",
+  "visibleText": [
+    "White painted lettering on boulder — faint, not resolvable (same complex as VN-0035/VN-0044)"
+  ],
+  "objects": ["silhouetted boulders and OP", "utility pole, antenna wires", "path"],
+  "setting": "Evening at the summit site — atmospheric rather than informational; pairs with VN-0044's daylight view of the same ground.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Núi Bà Đen summit (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit, same ground as VN-0044 at dusk.",
+    "reasoning": "Matching rock profiles and pole placement.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0044", "VN-0035"],
+  "questionsForLarry": [
+    "What were nights like on the mountain?",
+    "Was there generator power after dark — lights, radios?"
+  ],
+  "qualityNotes": "Kodachrome slide, deep underexposure in foreground; mood shot. Shadow recovery might sharpen the painted text."
+}

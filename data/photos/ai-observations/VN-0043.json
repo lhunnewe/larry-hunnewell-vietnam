@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0043",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "DATEABLE FESTIVAL SCENE. A cargo tricycle (cyclo) parked at a cobbled curb is stacked high with DOZENS OF PAINTED LION-DANCE HEADS (múa lân masks) — green, pink, red, and white papier-mâché faces with pom-pom eyes and streamer tails — a vendor's full load for festival season. The rider's bare legs and sandaled foot show behind the load. LICENSE PLATE FULLY LEGIBLE: 'C1086'. Behind: a VW Beetle passes; a cream French-colonial building with shutters stands across the road; at right a shop bears the sign 'ĐÔ-THÀNH' with smaller text below; a white picket traffic island and pedestrians in white shirts complete the streetscape.",
+  "visibleText": [
+    "License plate: C1086 — fully legible",
+    "'ĐÔ-THÀNH' shop sign (means 'Capital City') with smaller line beneath — partially resolvable",
+    "Building signage far right — not resolvable"
+  ],
+  "objects": [
+    "lion/dragon dance heads (festival masks) in quantity",
+    "cargo tricycle",
+    "VW Beetle, period sedans",
+    "French-colonial architecture, picket traffic island"
+  ],
+  "setting": "City street — Saigon hypothesis — during festival mask season. DATING VALUE: lion heads are sold for Mid-Autumn Festival (fell ~21 September in 1964, right at Larry's arrival) or Tết (early February 1965). Either date fits inside his tour and could anchor this roll's timeframe.",
+  "people": { "count": 4, "notes": "Vendor (partially hidden) and pedestrians." },
+  "landmarkHypotheses": [
+    "Saigon street near a colonial civic building; 'ĐÔ THÀNH' signage suggests the capital. The building profile may be matchable against period photos."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Central Saigon.",
+    "reasoning": "Architecture, signage language, traffic mix.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0040", "VN-0042 (same city outings)"],
+  "questionsForLarry": [
+    "Do you remember the lion masks for the festival — was this around when you first arrived (Mid-Autumn 1964) or at Tet?",
+    "Did you see a lion dance performed?"
+  ],
+  "qualityNotes": "Kodachrome slide, overcast light, excellent color on the masks; plate and signage crisp."
+}

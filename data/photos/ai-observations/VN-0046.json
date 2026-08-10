@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0046",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Countryside from a moving vehicle — the near ground streaks with motion blur. Broad, dry harvested rice paddies in pinkish stubble stretch to a tree line of palms and hardwoods; cart tracks curve across the fields toward a low thatched structure half-hidden in the trees; heavy cumulus overhead. No people or vehicles visible.",
+  "visibleText": [],
+  "objects": ["harvested paddy fields, cart tracks", "tree line with palms", "distant thatched building"],
+  "setting": "Overland travel — road (or rail) movement through agricultural country. One of what is likely a series of travel frames; collectively they may trace a route (e.g., Saigon toward Tây Ninh, or coastal roads) if landmark frames appear in sequence.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Rural southern Vietnam en route between duty locations; not determinable from this frame alone.",
+    "reasoning": "Paddy agriculture and palms are ubiquitous; needs neighboring frames for route context.",
+    "confidence": "low"
+  },
+  "crossReferences": ["Subsequent Landscape-folder travel frames (route reconstruction)"],
+  "questionsForLarry": [
+    "Did you travel by road much, or nearly always by helicopter?",
+    "Any convoy trips you remember — where to?"
+  ],
+  "qualityNotes": "Kodachrome slide, foreground motion blur, hazy exposure; documentary value mainly as part of a travel sequence."
+}

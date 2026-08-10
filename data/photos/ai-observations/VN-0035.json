@@ -1,0 +1,46 @@
+{
+  "photoId": "VN-0035",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE MOST EVIDENTIALLY VALUABLE PHOTOGRAPH IN THE SURVEY TO DATE — A PAINTED ROSTER ROCK. A massive boulder at a fortified summit position, its face covered in hand-painted panels of names and insignia, topped by a sandbagged bunker; barbed wire strung below, a steel ladder at right leading up behind the rock, guy wires crossing the sky. The panels include an American roster, Vietnamese rosters with unit numbers, a site-opening date, painted parachute wings, and a painted unit shield. This one photograph may identify the site, its opening date, and much of its garrison by name.",
+  "visibleText": [
+    "Header left: 'A5/122' (as written; possibly a team/site designation — read uncertain between A5/122 and A5/I22)",
+    "'SITE OPENED 22 JULY 6?' — final digit unclear (64 or 65). A dateable founding inscription.",
+    "AMERICAN ROSTER (transcription attempt, order as painted): REWERTS / GARVEY / MORGAN / HERNANDEZ-J / BLALOCK-A / MAYNARD / DEAN-DECEASED / MILN(?) / FLETCHER / LEWELLING / KALICKI / ST.GEORGE / HERNANDEZ-E / CAPT.LYNCH A/133(?) / SGT.KIRBY 1st SF",
+    "Far left rock: 'CAPT. LEVERETTE(?) / SGT. V...' — partially legible",
+    "'...CU' — fragment far left edge",
+    "VIETNAMESE PANELS (fragments): DD TRUONG 321 / HUYNH H. TRUC SON / TUONG NUI / NGOC CHOI SUNG / CHEPS ... 321 / DUONG V. LE / DUONG V. CO / PHAN TH. THAT DD 321 / CAO VAN THIET 321 / TRUNG SI NGUYEN VAN THAI / VO THANH T. HOA / HONG V. BA / LE V. THUONG / MA(?) NHI(?) UT / 'SON 5.8'",
+    "White-and-green painted shield upper right: 'T.T. NGUYEN VAN THAN / CHU(?) C33 DAC(?) / TRACH LLDB V... CAN' — 'LLDB' = Luc Luong Dac Biet, the VIETNAMESE SPECIAL FORCES — with a painted parachute emblem",
+    "Painted white jump-wings insignia mid-rock",
+    "Large faint diagonal older graffiti beneath ('...ONG...') — not resolvable"
+  ],
+  "objects": [
+    "roster rock with painted panels",
+    "sandbag bunker built on the boulder crest",
+    "barbed-wire entanglement",
+    "steel ladder, guy wires"
+  ],
+  "setting": "Summit strongpoint of a Special Forces / LLDB site — the painted rosters mix U.S. personnel (one marked 1st Special Forces; one CAPT; one entry marked DECEASED) with Vietnamese LLDB/CIDG personnel and repeated unit number 321. Almost certainly the Núi Bà Đen summit installation already hypothesized in VN-0006/VN-0009/VN-0010/VN-0028.",
+  "people": { "count": 0, "notes": "No people in frame; the rock itself is the roster." },
+  "landmarkHypotheses": [
+    "Núi Bà Đen summit site — the roster rock is the strongest anchor yet; the names are independently researchable (unusual surnames like REWERTS, KALICKI, LEWELLING, BLALOCK are highly searchable in SF records and casualty databases).",
+    "RESEARCH LEADS: match the American roster against 1st SFG/5th SFG team rosters for Nui Ba Den 1964-65; 'DEAN - DECEASED' may match a casualty record and date the inscription; 'SITE OPENED 22 JULY 6?' may match an official site-establishment record; note Larry remembers a SF Sergeant LOWRY/LOWERY — not visibly on this rock, but panels continue out of frame (see adjacent boulder right edge with more names)."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit, Tây Ninh Province.",
+    "reasoning": "Continuity with the whole mountain-site photo chain plus LLDB/SF roster content typical of that garrison.",
+    "confidence": "high as machine hypothesis — pending documentary confirmation and Larry's word"
+  },
+  "crossReferences": [
+    "VN-0006", "VN-0009", "VN-0010", "VN-0028 (site chain)",
+    "Issue #12 (Sgt. Lowry/Lowery — check full rock face under magnification for the name)",
+    "Issue #10 (site/unit context)"
+  ],
+  "questionsForLarry": [
+    "Do you remember this painted rock at the top of the mountain?",
+    "Do any of these names ring a bell — Rewerts, Garvey, Kirby, Captain Lynch, Captain Leverette?",
+    "Was Sergeant Lowry's name painted somewhere on these rocks?",
+    "Who was Dean, marked 'deceased'? Do you remember what happened?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong sun with readable paint on shaded faces. FULL-RESOLUTION MAGNIFIED TRANSCRIPTION OF EVERY PANEL IS THE #1 RESEARCH ACTION FROM THE SURVEY — including the adjacent boulder at right edge with additional painted names ('PHU(?)... T.T.J(?)...')."
+}

@@ -1,0 +1,28 @@
+{
+  "photoId": "VN-0039",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Summit domestic scene, third of the series. A woman in a pale blouse sits on a weathered boulder beside a sandbag-and-pole lean-to shelter, one arm draped along the rock; wooden crates, a square tin, a bucket, and helmet liners lie under the shelter's bamboo frame. The foreground is a rolling field of sandbags; low green scrub falls away at left toward a bright haze of cloud and plain far below. Wire crosses the sky overhead.",
+  "visibleText": [
+    "Stencils on crates under shelter — not resolvable"
+  ],
+  "objects": [
+    "sandbag field and lean-to shelter (same architecture as VN-0037)",
+    "crates, tins, helmet liners, bucket",
+    "boulder with weathering channels"
+  ],
+  "setting": "The summit living quarter again — likely the same family group as VN-0037/VN-0038.",
+  "people": { "count": 1, "notes": "Possibly the same woman as VN-0037. No identity claims." },
+  "landmarkHypotheses": ["Núi Bà Đen summit (site chain)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen summit living area.",
+    "reasoning": "Continuity of construction, altitude haze below.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0037", "VN-0038", "VN-0035"],
+  "questionsForLarry": [
+    "How many families lived on top? Where did they shelter when the site was attacked?",
+    "Do you remember visiting their part of the camp?"
+  ],
+  "qualityNotes": "Kodachrome slide, backlit haze; foreground detail good."
+}
