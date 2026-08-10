@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0033",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Close pass of the dancer — blue sequined costume, elaborate curled bouffant — sweeping past the camera, motion-blurred hand. Behind her the seated audience is in focus: a soldier with a CAMERA in his lap (white-lettered name tape partially visible, possibly starting with 'C' or 'G' — not reliably resolvable), a soldier with 'U.S. ARMY' tape and airborne-style badge, a PFC chevron nearby, and a man in a white shirt standing arms-crossed at the rear post. Film sprocket edge visible at left of scan.",
+  "visibleText": [
+    "U.S. ARMY tapes — legible on two soldiers",
+    "Name tape on the camera-holding soldier — partial, not reliably resolvable; magnification candidate",
+    "Possible badge (wings-type) above one pocket — not resolvable"
+  ],
+  "objects": [
+    "camera in audience member's lap",
+    "sequined costume",
+    "checkered tablecloth, folding chairs"
+  ],
+  "setting": "Same club night; frame taken from within the front row.",
+  "people": {
+    "count": 12,
+    "notes": "Several sharp audience faces for naming."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same club venue.",
+    "reasoning": "Continuity of room and costume.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0030", "VN-0031", "VN-0032", "VN-0034"],
+  "questionsForLarry": [
+    "Who had cameras that night besides you?",
+    "Any of these faces jump out — bunkmates, your radio section?"
+  ],
+  "qualityNotes": "Kodachrome slide, subject blur with sharp background; audience detail good."
+}

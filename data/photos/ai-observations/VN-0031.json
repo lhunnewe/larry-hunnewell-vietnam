@@ -1,0 +1,34 @@
+{
+  "photoId": "VN-0031",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Same club, packed and delighted. A dancer in a red sequined top and long slit pink skirt, long black hair, moves through the crowd; a soldier leans close in mock courtship while the room laughs. FRONT LEFT: a soldier crouches with a 35mm CAMERA fitted with a FLASH UNIT — a second photographer documenting the night (relevant to who shot which frames). Tables with checkered cloths hold beverage cans. At least a dozen audience faces are sharp: crew cuts, fatigues with tapes and chevrons (one PFC chevron visible), a few civilian shirts. The clarinetist plays at right; pink-shaded wall lamps and blue posts frame the room; woven mat ceiling above.",
+  "visibleText": [
+    "Name tapes on several soldiers — present; one or two may partially resolve under magnification",
+    "Beverage can labels on tables — not resolvable"
+  ],
+  "objects": [
+    "35mm camera with flash gun (in audience)",
+    "checkered tablecloths, beverage cans",
+    "sequined costume",
+    "clarinet, wall lamps"
+  ],
+  "setting": "Same club as VN-0030 — a lively unit entertainment night. Multiple cameras present in the unit strengthens the picture of an active amateur-photography culture around Larry.",
+  "people": {
+    "count": 20,
+    "notes": "Best audience-face frame of the folder — a strong sheet to show Larry for naming unit members."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same club venue as VN-0030.",
+    "reasoning": "Identical room details.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0030", "VN-0032", "VN-0033", "VN-0034"],
+  "questionsForLarry": [
+    "Point out everyone you can name in this crowd.",
+    "Who was the other camera man crouching at the left?",
+    "Were you in the audience this night — did you take this picture?"
+  ],
+  "qualityNotes": "Kodachrome slide, ambient light, remarkably sharp faces; high value for recognition."
+}

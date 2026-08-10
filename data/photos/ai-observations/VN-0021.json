@@ -1,0 +1,27 @@
+{
+  "photoId": "VN-0021",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Beach under heavy overcast with big churned surf. A stocky, dark-haired man in dark swim trunks walks up the sand toward the camera; behind him two slighter figures — possibly Vietnamese boys — wade at the break line. The water is sediment-brown near shore. Across the bay, a chain of dark hills or islands recedes into haze, including a small steep islet at far left. A sandal lies on the sand mid-frame.",
+  "visibleText": [],
+  "objects": ["surf, sediment-laden water", "sandal on sand", "hilly headlands/islands across bay"],
+  "setting": "Same beach outing family as VN-0018 (similar bay profile and light) — hypothesis. Rough monsoon-season surf.",
+  "people": {
+    "count": 3,
+    "notes": "The man walking out resembles the dark-haired soldier seen in VN-0001/VN-0002/VN-0017 (hypothesis). The two waders appear to be local boys."
+  },
+  "landmarkHypotheses": [
+    "Nha Trang bay (same hypothesis chain as VN-0018; island/headland profile should be compared against period Nha Trang panoramas)"
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Nha Trang beach (or same unidentified beach as VN-0018).",
+    "reasoning": "Consistent bay geometry between the two frames.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0018 (same beach hypothesis)", "VN-0022 (likely same outing, beachside tables)"],
+  "questionsForLarry": [
+    "Same day as the other beach pictures? Who went swimming?",
+    "Do you remember the local kids joining you in the surf?"
+  ],
+  "qualityNotes": "Kodachrome slide, heavy dust specks; muted overcast palette."
+}

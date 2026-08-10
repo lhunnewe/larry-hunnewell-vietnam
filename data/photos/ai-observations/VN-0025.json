@@ -1,0 +1,27 @@
+{
+  "photoId": "VN-0025",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Close, slightly motion-blurred snapshot of two grinning young soldiers in utility caps, faces filling the frame — a moment of pure high spirits. LEFT: dark-haired, round-faced, name tape just visible at the bottom edge (not resolvable). RIGHT: fair-haired, broad smile. A third soldier's cap and shoulder intrude at the right edge. Background: blurred palms, low hills, and pale sky — tropical coastal setting.",
+  "visibleText": [
+    "Name tape bottom left corner — present, not resolvable"
+  ],
+  "objects": ["utility caps, OD fatigues, white undershirts"],
+  "setting": "Casual, joyful moment outdoors — possibly the same coastal period as the beach photos. The right-hand man may be Larry (compare confirmed face in VN-0028/VN-0029) — hypothesis.",
+  "people": {
+    "count": 3,
+    "notes": "Left man may be the recurring dark-haired friend; right man may be Larry. Confirm against VN-0028."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Coastal location (Nha Trang chain, hypothesis).",
+    "reasoning": "Vegetation and light match the beach-outing frames.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0028 (Larry's confirmed face)", "VN-0022 (recurring friend)"],
+  "questionsForLarry": [
+    "Who's laughing with you here? What was so funny?",
+    "Was this the same day as the beach?"
+  ],
+  "qualityNotes": "Kodachrome slide, motion blur and dust; faces still recognizable."
+}

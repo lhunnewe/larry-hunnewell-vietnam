@@ -1,0 +1,34 @@
+{
+  "photoId": "VN-0029",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Close portrait of the blond soldier confirmed as HUNNEWELL in VN-0028 — LARRY — seated inside an aircraft, gripping an M16-family rifle (A-frame front sight and slotted handguard visible) upright beside him. He looks off past the camera with an intent, serious expression, lips parted; wind-tossed hair, no cap. He wears a faded OD fatigue shirt open at the collar over a white T-shirt. Behind him: aircraft interior framing — braced greenhouse-style window panels, a padded red-brown interior surface, tubular structure, and through the windscreen a pale sky and blurred instrument panel silhouettes — consistent with a larger transport helicopter or fixed-wing cabin (CH-21-class greenhouse framing, hypothesis) rather than a UH-1.",
+  "visibleText": [],
+  "objects": [
+    "M16-family rifle held muzzle-up",
+    "aircraft interior: braced window framing, padded panels, visible instrument silhouettes",
+    "faded fatigues, white T-shirt"
+  ],
+  "setting": "Aboard an aircraft — in flight or engines-running — armed and en route somewhere. Paired with Larry's memory of constant helicopter travel, this is the survey's most personal image of that life: young, armed, airborne, mid-tour. A companion frame to VN-0016 (pilot portrait) — possibly the same flight.",
+  "people": {
+    "count": 1,
+    "notes": "Larry Dennis Hunnewell (face-matched to the legible name tape in VN-0028; machine identification pending his confirmation)."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "In flight, southern Vietnam; aircraft type tentatively a larger transport (CH-21-class) rather than a Huey.",
+    "reasoning": "Greenhouse window bracing and cabin arrangement.",
+    "confidence": "low"
+  },
+  "crossReferences": [
+    "VN-0028 (identity anchor)",
+    "VN-0016 (pilot portrait, possibly same flight)",
+    "data/timeline/1964-1965-helicopter-travel.json"
+  ],
+  "questionsForLarry": [
+    "Where were you headed here? Do you remember this flight?",
+    "What aircraft is this — one of the old flying bananas, or something else?",
+    "Why the rifle that day — was that trip different from the usual runs?"
+  ],
+  "qualityNotes": "Kodachrome slide, exceptional portrait quality; one of the finest images in the collection for the website's visual identity (subject to Larry's approval)."
+}

@@ -1,0 +1,41 @@
+{
+  "photoId": "VN-0022",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "HIGHLY SIGNIFICANT — LIKELY THE CLEAREST PHOTOGRAPH OF LARRY IN THE BATCHES SURVEYED SO FAR. Under palm shade beside a sunlit beach, a young soldier sits cross-legged on a wooden chair at a table covered with a floral cloth, turning to grin at the camera mid-word. His fatigue jacket hangs open over a white T-shirt; the white-on-black name tape is PARTIALLY LEGIBLE, reading '...NNEWELL' (leading letters folded under the jacket edge) — consistent with HUNNEWELL. A single gold chevron shows on the sleeve. He holds sunglasses; black combat boots. Across the table sits a shirtless man in trunks (dark-haired, smiling — resembles the man in VN-0001/VN-0002/VN-0017/VN-0021). ON THE TABLE: two Coca-Cola contour bottles (one label legible), a compact camera (rangefinder or folding type) with strap, what appears to be a LIGHT METER in a tan leather case, a white cigarette pack, a small round tin, coins or medallions, and a bundled olive-drab poncho/field jacket pile. Concrete picnic tables with green cloths stand in the background at the sand's edge.",
+  "visibleText": [
+    "NAME TAPE: '...NNEWELL' — partially legible, consistent with HUNNEWELL; machine reading to be confirmed with Larry",
+    "Coca-Cola script on bottle — legible",
+    "Cigarette pack — white with markings, brand not resolvable"
+  ],
+  "objects": [
+    "compact camera with strap",
+    "light meter in leather case (photography kit — CATALOG RELEVANCE: supports Larry as the photographer of much of this collection)",
+    "two Coca-Cola bottles",
+    "floral tablecloth over table, concrete picnic tables behind",
+    "bundled poncho/field gear, sunglasses, boots"
+  ],
+  "setting": "Beachside refreshment area with fixed picnic tables — same outing family as VN-0018/VN-0021 (Nha Trang hypothesis). The camera and light meter on the table are strong evidence that the group carried personal photo equipment; Larry's slide collection likely came from this kit.",
+  "people": {
+    "count": 2,
+    "notes": "Seated soldier: name tape consistent with HUNNEWELL — very likely Larry himself, face clear and animated. Companion: recurring dark-haired soldier (hypothesis: same man across VN-0001/0002/0004/0005/0017/0021 — a close friend in the unit whose name Larry will know instantly)."
+  },
+  "landmarkHypotheses": ["Nha Trang beachfront (same chain as VN-0018/VN-0021)"],
+  "geolocationHypothesis": {
+    "hypothesis": "Beach recreation area, Nha Trang hypothesis.",
+    "reasoning": "Continuity with the other beach frames; fixed tables imply an established recreation spot.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": [
+    "VN-0015 (name tape HUNNEW... at the ops board)",
+    "VN-0018", "VN-0021 (same outing hypothesis)",
+    "VN-0001", "VN-0002 (recurring companion)"
+  ],
+  "questionsForLarry": [
+    "Is this you? What do you remember about this day at the beach?",
+    "Who is your friend across the table? He appears in many of your photos.",
+    "Was the camera on the table yours — is that the camera that took these slides?",
+    "Early in your tour at Nha Trang, or a later visit?"
+  ],
+  "qualityNotes": "Kodachrome slide, dappled shade with bright background; face detail excellent. The folded name tape may fully resolve under magnification."
+}

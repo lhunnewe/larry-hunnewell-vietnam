@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0032",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Same club: the dancer performs a floor routine on a pink cloth spread over the plywood floor, red fabric pooled at right, while the front row leans in — one soldier reaches toward her with a bill or note in hand. The seated man at upper left wears a SHOULDER SLEEVE INSIGNIA (patch) in red/gold tones on his left shoulder — one of the few clear SSI sightings in the survey and a MAGNIFICATION PRIORITY for unit identification. Another soldier holds a camera and flash in his lap; a blond head (back of head, foreground right) watches — possibly Larry. Gibson amplifier, drum kit, guitars, and a small tan amp complete the stage corner.",
+  "visibleText": [
+    "Shoulder patch (red/gold) on upper-left soldier — MAGNIFICATION PRIORITY: could resolve to a numbered command insignia and anchor the unit question",
+    "Name tapes on two soldiers — partially visible, not resolvable"
+  ],
+  "objects": [
+    "shoulder sleeve insignia (red/gold)",
+    "camera with flash in audience",
+    "Gibson amplifier, drums, guitars",
+    "pink/red performance cloths"
+  ],
+  "setting": "Same club night as VN-0030/VN-0031.",
+  "people": {
+    "count": 10,
+    "notes": "Front-row faces clear; the patch-wearing soldier is the key figure for research."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same club venue.",
+    "reasoning": "Identical staging and equipment.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0030", "VN-0031", "VN-0033", "VN-0034", "Issue #10 (SSI lead)"],
+  "questionsForLarry": [
+    "What patch did your unit wear on the shoulder over there? Is that it on the man at the left?",
+    "Do you remember this performance?"
+  ],
+  "qualityNotes": "Kodachrome slide, warm ambient light; the shoulder patch is small but high-contrast — good magnification candidate."
+}

@@ -1,0 +1,48 @@
+{
+  "photoId": "VN-0028",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "THE KEYSTONE PHOTOGRAPH OF THE SURVEY SO FAR. A blond U.S. soldier stands among granite boulders with his arm around the shoulders of a smiling young Vietnamese soldier who cradles a submachine gun (wooden stock, Thompson-type). The American's name tape is FULLY LEGIBLE: 'HUNNEWELL', with a 'U.S. AR[MY]' tape on the opposite chest and a large white shield-shaped patch with a dark emblem sewn or pinned at his left pocket. Behind them: sandbags stacked upper left, granite boulders bearing painted Vietnamese inscriptions in red (fragments visible: 'PHAT VAN THINH(?)', 'XY-H&N(?)', 'U-SON(?)', other lines not resolvable), and at right a dark metal equipment cabinet or shelter with heavy cables running down the rock face to it — powered equipment installed among the boulders.",
+  "visibleText": [
+    "NAME TAPE: 'HUNNEWELL' — FULLY LEGIBLE. This confirms (machine-level) that the blond soldier recurring throughout the collection is Larry himself. Awaiting Larry's confirmation as a formality.",
+    "U.S. AR[MY] tape — legible",
+    "White shield-shaped pocket patch with dark emblem — MAGNIFICATION PRIORITY (unit crest candidate — direct evidence for the unit question)",
+    "Painted Vietnamese inscriptions on boulders, red paint, several lines — partially resolvable; MAGNIFICATION PRIORITY (may name the site or shrine)"
+  ],
+  "objects": [
+    "Thompson-type submachine gun held by the Vietnamese soldier",
+    "pistol belt with holster on the American",
+    "sandbag emplacements among granite boulders",
+    "powered equipment cabinet with cable runs (radio/relay equipment hypothesis — directly relevant to a radio operator's presence on a mountaintop site)",
+    "painted rock inscriptions"
+  ],
+  "setting": "Same boulder-and-inscription site as VN-0009 (matching rock character, inscriptions, wiring) — the hypothesized NÚI BÀ ĐEN summit installation. The cable-fed equipment cabinet strengthens the radio/relay-site reading: a radio operator (Larry) photographed at a mountaintop commo site, beside a local irregular soldier.",
+  "people": {
+    "count": 2,
+    "notes": "American: name tape HUNNEWELL — Larry. Vietnamese soldier: closely resembles the young man in VN-0009 (same site, likely same person — hypothesis). Their easy familiarity suggests they knew each other; Larry may remember his name."
+  },
+  "landmarkHypotheses": [
+    "Núi Bà Đen summit/shrine area — strengthened by continuity with VN-0009 and the equipment installation."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Núi Bà Đen (Black Virgin Mountain) — summit installation area.",
+    "reasoning": "Boulder morphology, painted inscriptions, sandbags, and powered equipment match VN-0009/VN-0006; Larry's remembered association with the mountain now has photographic support pending his confirmation.",
+    "confidence": "medium-high as machine hypothesis — still requires Larry's confirmation and/or documentary comparison before promotion to the catalog"
+  },
+  "crossReferences": [
+    "VN-0009 (same site, same Vietnamese soldier hypothesis)",
+    "VN-0006 (green berets at the same class of site)",
+    "VN-0010 (CIDG group on the summit)",
+    "data/places/nui-ba-den.json",
+    "data/people/larry-dennis-hunnewell.json",
+    "Issue #10 (the pocket patch)", "Issue #12 (SF on the mountain)"
+  ],
+  "questionsForLarry": [
+    "This is you on the Black Virgin Mountain, isn't it? Tell us everything about this day.",
+    "Who is the young soldier under your arm? He seems like a friend.",
+    "What was the equipment in the metal cabinet behind you — was that your radio gear?",
+    "What was the white patch on your pocket? Was that the unit's crest?",
+    "Whose Thompson is he holding?"
+  ],
+  "qualityNotes": "Kodachrome slide, backlit but well exposed on subjects; name tape crisp. The pocket patch and rock inscriptions are the two highest-value magnification targets in the entire survey so far."
+}

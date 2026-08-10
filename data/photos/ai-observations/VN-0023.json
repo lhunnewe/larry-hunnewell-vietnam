@@ -1,0 +1,38 @@
+{
+  "photoId": "VN-0023",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "HIGHLY SIGNIFICANT — AN UNPOSED PATROL PHOTOGRAPH IN DENSE JUNGLE. Under a low canopy of vines and saplings, a young American soldier in DUCK-HUNTER CAMOUFLAGE shirt and utility cap crouches low, looking back over his shoulder directly into the lens, mouth open as if speaking. Close behind him crouches a Vietnamese soldier in a dark/black shirt; further back, partially obscured by foliage, stands another Vietnamese soldier in duck-hunter camouflage and floppy hat. At right foreground, the out-of-focus torso and clasped hands of a fourth man (camouflage, ring on finger, dark object slung) frames the shot. The photographer is IN the file with them — this is movement through brush, not a posed scene.",
+  "visibleText": [],
+  "objects": [
+    "duck-hunter camouflage uniforms (CIDG/irregular pattern, also worn by their American advisors)",
+    "dark/black field shirt on one Vietnamese soldier",
+    "dense secondary jungle, vines and saplings",
+    "possible slung weapon at right edge (blurred)"
+  ],
+  "setting": "On patrol or a movement in thick jungle with Vietnamese irregular troops. An American wearing the irregulars' own camouflage indicates advisor-style integration (Special Forces or attached personnel). CATALOG RELEVANCE: Larry's remembered world includes pathfinders and Special Forces around Núi Bà Đen; the photographer of this frame was physically on the patrol.",
+  "people": {
+    "count": 4,
+    "notes": "One American (face clear — compare with the blond soldier of VN-0001/VN-0019), two or three Vietnamese soldiers. No identity claims. Establishing WHO carried the camera on a patrol is itself a research question — if Larry took this, he accompanied patrols."
+  },
+  "landmarkHypotheses": [
+    "Jungle on or around Núi Bà Đen — pure hypothesis via the CIDG/SF association chain (VN-0006/VN-0009/VN-0010); no terrain feature visible to confirm."
+  ],
+  "geolocationHypothesis": {
+    "hypothesis": "Jungle patrol area associated with the CIDG/Special Forces photos in this collection — possibly Núi Bà Đen's slopes.",
+    "reasoning": "Same uniform population as the mountaintop group photo (VN-0010); dense hillside-type vegetation.",
+    "confidence": "low (machine hypothesis)"
+  },
+  "crossReferences": [
+    "VN-0010 (duck-hunter camo group)",
+    "VN-0006", "VN-0009 (SF/mountain chain)",
+    "Issue #12 (Sgt. Lowry/Lowery)"
+  ],
+  "questionsForLarry": [
+    "Were you on this patrol? Did you take this picture?",
+    "Who is the American in the camouflage looking back at the camera?",
+    "What was the patrol doing — and where? Was this on the Black Virgin Mountain?",
+    "Did you carry a radio on patrols like this?"
+  ],
+  "qualityNotes": "Kodachrome slide; foreground figure motion-blurred, central face sharp. Remarkable candid quality for the period."
+}

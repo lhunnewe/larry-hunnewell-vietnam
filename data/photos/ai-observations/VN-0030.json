@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0030",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Interior of a service club during a floor show. A dancer in a fringed light-blue two-piece costume with a tall dark bouffant stands center; a seated soldier at right reaches up, apparently handing or pinning something (a tip?) at her costume. Around the room: soldiers and civilians watch — some in fatigues, some in sport shirts with name badges. On the low stage at right, a musician in a striped shirt plays CLARINET and another man in glasses plays an upright piano; a drum kit stands between them. A Gibson-branded guitar amplifier sits mid-floor beside a guitar on a stand. Woven mat ceiling, white sheet backdrop, simple wooden posts — a built-up club room in a military installation.",
+  "visibleText": [
+    "'Gibson' logo on amplifier — legible",
+    "Name badges on several civilian-shirted men — present, not resolvable (band members? club staff?)"
+  ],
+  "objects": [
+    "Gibson guitar amplifier, electric guitar, drum kit, upright piano, clarinet",
+    "fringed dance costume",
+    "woven mat ceiling, sheet backdrop, folding chairs"
+  ],
+  "setting": "Enlisted/service club night with a live band — organized morale entertainment. The band (clarinet, piano, drums, guitar) and badged shirts suggest a professional touring act, possibly a Filipino or Vietnamese club band as was common on the circuit.",
+  "people": {
+    "count": 14,
+    "notes": "Audience of U.S. soldiers plus band. Faces clear on several audience members for Larry to name."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Club building at Larry's installation (same venue as VN-0031/VN-0033/VN-0034).",
+    "reasoning": "Same room details across the folder.",
+    "confidence": "low (venue unidentified)"
+  },
+  "crossReferences": ["VN-0031", "VN-0032", "VN-0033", "VN-0034 (same venue/night(s))"],
+  "questionsForLarry": [
+    "Where was this club — on your base? What was it called?",
+    "Who were the performers — a traveling band? How often did shows come through?",
+    "Do you recognize the men in the audience?"
+  ],
+  "qualityNotes": "Kodachrome slide, low light, warm cast; good detail for a handheld club shot."
+}

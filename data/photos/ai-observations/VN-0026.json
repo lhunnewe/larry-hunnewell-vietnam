@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0026",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A young soldier WEARING EYEGLASSES stands grinning in the doorway of a solid green-painted wooden building (board-and-batten walls, louvered gable vent above the door, white trim at the corner, a green half-door or shutter open at right). He holds an M16-family rifle (triangular handguard, front sight post, carry handle) across his chest. Single chevron and possibly ribbons or badge on his chest; name tape present but soft-focus. Gold-buckle belt.",
+  "visibleText": [
+    "Name tape — present, not resolvable (soft focus)",
+    "Possible small painted marking on door frame — not resolvable"
+  ],
+  "objects": [
+    "M16-family rifle",
+    "green board-and-batten building with louvered vent (more finished construction than the hooches — barracks/office grade)",
+    "eyeglasses"
+  ],
+  "setting": "Doorway of a permanent-style painted building — noticeably better construction than the tent camp, suggesting a main installation building (or possibly a different location entirely). Worth asking whether this is the company headquarters building.",
+  "people": {
+    "count": 1,
+    "notes": "IDENTITY QUESTION: this man closely resembles Larry's confirmed face (VN-0028) but wears glasses, which no other frame shows. Either Larry with his glasses on, or a similar-looking soldier. Flag for Larry to settle."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "A permanent building at a main installation — possibly the Company HQ location.",
+    "reasoning": "Painted, ventilated wooden construction contrasts with field-built hooches.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0028 (confirmed face comparison)", "data/places/thom-son-nuht.json"],
+  "questionsForLarry": [
+    "Is this you with your glasses on — or someone else?",
+    "What building was this — the orderly room, headquarters, your barracks?",
+    "Did you wear glasses over there?"
+  ],
+  "qualityNotes": "Kodachrome slide, subject slightly soft; building color and structure clear."
+}

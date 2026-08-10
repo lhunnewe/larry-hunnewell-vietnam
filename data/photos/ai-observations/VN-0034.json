@@ -1,0 +1,33 @@
+{
+  "photoId": "VN-0034",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A singer in a sparkling black sequined evening gown with a pearl necklace performs at a stand microphone, arms spread wide mid-song, smiling — the showpiece frame of the club folder. Behind her, a drummer in a blue floral shirt plays a pearl-finish kit; guitars, a cello or bass case, and two amplifiers (one Gibson-branded) crowd the small stage. The audience — soldiers in fatigues with visible tapes and chevrons, a few men in civilian shirts, one woman in a purple top at the rear — fills the room to the back wall. Two blond crew-cut heads in the foreground watch from the front row (one possibly Larry, back of head). Pink and blue wall lamps, woven ceiling, sheet backdrops.",
+  "visibleText": [
+    "Name tapes on front-row soldiers — present; at least one partially legible under magnification",
+    "'Gibson' on amplifier — legible"
+  ],
+  "objects": [
+    "stand microphone, drum kit, guitar amps, instrument cases",
+    "sequined gown, pearl necklace",
+    "club furnishings and lamps"
+  ],
+  "setting": "Same club, likely the headline act of the evening — a professional vocalist (Vietnamese or Filipina, hypothesis) with the house band.",
+  "people": {
+    "count": 18,
+    "notes": "Best overall view of the club audience; several recognizable faces."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same club venue as the rest of the folder.",
+    "reasoning": "Identical room, stage, and equipment.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0030", "VN-0031", "VN-0032", "VN-0033"],
+  "questionsForLarry": [
+    "Do you remember this singer? Was she famous on the circuit?",
+    "Is that you in the front row?",
+    "What songs did these bands play — American hits?"
+  ],
+  "qualityNotes": "Kodachrome slide, strong stage-light exposure; vivid color; one of the most atmospheric frames in the collection."
+}

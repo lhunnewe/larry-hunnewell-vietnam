@@ -1,0 +1,32 @@
+{
+  "photoId": "VN-0027",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A slim young man in white T-shirt and BLUE JEANS (civilian trousers — notable) stands squinting in bright sun on graded gravel ground beside a wooden hooch with rolled reed blinds. Behind him: a large olive GP tent with tarpaulin fly, sandbag walls; right background holds a rounded quonset-style shelter stenciled 'U S' and two dark container-like vans on the skyline with faint white stenciling ('US A...' not fully resolvable). Utility pole with crossarm and wires center-right; clear blue sky.",
+  "visibleText": [
+    "U S stencil on quonset-style shelter — legible",
+    "Faint stenciling on dark containers/vans on skyline — not resolvable; possible unit or depot markings"
+  ],
+  "objects": [
+    "blue jeans (civilian clothing in camp — off-duty)",
+    "GP tent, sandbag walls, quonset shelter, container vans",
+    "utility pole and wires"
+  ],
+  "setting": "Same established camp family as VN-0013/VN-0017/VN-0019 (matching construction and utilities). The dark vans on the skyline may be the operations van complex seen in VN-0011.",
+  "people": {
+    "count": 1,
+    "notes": "Fair-haired, slim — possibly Larry (compare VN-0028) or the other blond soldier; jeans suggest a very off-duty day. Flag for Larry."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same installation as the T-building camp cluster.",
+    "reasoning": "Construction continuity.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0011 (van complex)", "VN-0017", "VN-0019 (camp cluster)"],
+  "questionsForLarry": [
+    "Is this you in your jeans? Were civilian clothes allowed in camp?",
+    "Are those dark vans on the horizon the operations vans you worked in?"
+  ],
+  "qualityNotes": "Kodachrome slide, bright and sharp; skyline stencils are magnification candidates."
+}

@@ -1,0 +1,32 @@
+{
+  "photoId": "VN-0024",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Two shirtless soldiers in OD trousers pose hands-on-hips before a tall reed-mat fence panel framed in raw lumber, its matting stained green-white by water — likely a shower enclosure. LEFT: an older, powerfully built man, graying crew cut, weathered face, wristwatch — reads as a senior NCO in his 40s. RIGHT: a slight young blond soldier, pale-chested, squinting into the sun. Behind them: metal-roofed hooch gables, multiple utility poles with a web of wires, clear blue sky. Evening or morning low sun.",
+  "visibleText": [
+    "Faint stencil possibly present on far right roof gable ('T 1...'?) — not reliably resolvable"
+  ],
+  "objects": [
+    "water-stained reed matting panel in lumber frame (shower point hypothesis)",
+    "metal-roofed hooches",
+    "utility poles and extensive wiring"
+  ],
+  "setting": "Domestic corner of the established camp — probably fresh from the shower. The visible wiring density again marks a large, powered installation.",
+  "people": {
+    "count": 2,
+    "notes": "The older man is a strong candidate for a remembered senior NCO ('the old sergeant'); the young blond soldier resembles the man in VN-0001/VN-0019 (hypothesis). Faces clear for recognition."
+  },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Same installation as the T-numbered hooches (VN-0017/VN-0019).",
+    "reasoning": "Matching construction, roofing, and utilities.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0017", "VN-0019 (same camp)", "VN-0001 (blond soldier candidate)"],
+  "questionsForLarry": [
+    "Who is the older sergeant? He looks like someone who ran things.",
+    "Was that the shower behind you? What was the shower situation like?",
+    "Is the young man the same friend from the hooch pictures?"
+  ],
+  "qualityNotes": "Kodachrome slide, crisp low-angle light, excellent facial detail."
+}
