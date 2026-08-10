@@ -6,10 +6,6 @@ import Recollection from '../components/Recollection.astro';
 import MemoryBox from '../components/MemoryBox.astro';
 import { withBase } from '../lib/paths';
 
-const events = (await getCollection('timeline')).sort((a, b) =>
-  a.data.sortDate.localeCompare(b.data.sortDate)
-);
-
 const CATEGORY_META: Record<string, { label: string; color: string }> = {
   'larry-movement': { label: "Larry's movements", color: 'var(--olive)' },
   'larry-recollection': { label: "Larry's recollections", color: 'var(--signal)' },
@@ -19,7 +15,35 @@ const CATEGORY_META: Record<string, { label: string; color: string }> = {
   'research-discovery': { label: 'Research discoveries', color: 'var(--ev-plausible)' },
 };
 
-const usedCategories = [...new Set(events.map((e) => e.data.category))];
+const authored = (await getCollection('timeline')).map((event) => ({
+  kind: 'authored' as const,
+  sortDate: event.data.sortDate,
+  tiebreak: `0:${event.id}`,
+  event,
+}));
+
+// Photographs join the timeline once cataloging gives them a sortable date.
+const photoEvents = (await getCollection('photos'))
+  .filter((p) => p.data.cataloged && p.data.sortDate)
+  .map((photo) => ({
+    kind: 'photo' as const,
+    sortDate: photo.data.sortDate!,
+    tiebreak: `1:${photo.data.photoId}`,
+    photo,
+  }));
+
+const entries = [...authored, ...photoEvents].sort(
+  (a, b) => a.sortDate.localeCompare(b.sortDate) || a.tiebreak.localeCompare(b.tiebreak)
+);
+
+const usedCategories = [
+  ...new Set(entries.map((e) => (e.kind === 'photo' ? 'photo' : e.event.data.category))),
+];
+const categoryCounts = new Map<string, number>();
+for (const e of entries) {
+  const cat = e.kind === 'photo' ? 'photo' : e.event.data.category;
+  categoryCounts.set(cat, (categoryCounts.get(cat) ?? 0) + 1);
+}
 ---
 
 <BaseLayout title="Timeline">
@@ -37,43 +61,146 @@ const usedCategories = [...new Set(events.map((e) => e.data.category))];
     ))}
   </ul>
 
-  <ol class="timeline">
-    {events.map((event) => (
-      <li class="event" style={`--cat-color:${CATEGORY_META[event.data.category].color}`}>
-        <p class="event-date record">
-          {event.data.displayDate}
-          {event.data.datePrecision !== 'exact' && (
-            <span class="precision">&middot; {event.data.datePrecision}</span>
-          )}
-        </p>
-        <div class="event-body">
-          <h2>{event.data.title}</h2>
-          <p class="event-meta record">
-            {CATEGORY_META[event.data.category].label} &nbsp;
-            <EvidenceBadge level={event.data.confidence} />
-          </p>
-          <p>{event.data.description}</p>
-          {event.data.larrysRecollection && (
-            <Recollection>{event.data.larrysRecollection}</Recollection>
-          )}
-          {event.data.relatedPlaces.length > 0 && (
-            <p class="event-links record">
-              Places:{' '}
-              {event.data.relatedPlaces.map((place, i) => (
-                <>
-                  {i > 0 && ', '}
-                  <a href={withBase(`/places/${place.id}/`)}>{place.id}</a>
-                </>
-              ))}
-            </p>
-          )}
-        </div>
-      </li>
+  <div class="filters record" role="group" aria-label="Filter timeline by category" hidden>
+    <button type="button" data-all aria-pressed="true">All</button>
+    {usedCategories.map((cat) => (
+      <button type="button" data-category={cat} aria-pressed="false">
+        <span class="swatch" style={`background:${CATEGORY_META[cat].color}`}></span>
+        {CATEGORY_META[cat].label} ({categoryCounts.get(cat)})
+      </button>
     ))}
+  </div>
+
+  <ol class="timeline">
+    {entries.map((entry) =>
+      entry.kind === 'authored' ? (
+        <li
+          class="event"
+          data-category={entry.event.data.category}
+          style={`--cat-color:${CATEGORY_META[entry.event.data.category].color}`}
+        >
+          <p class="event-date record">
+            {entry.event.data.displayDate}
+            {entry.event.data.datePrecision !== 'exact' && (
+              <span class="precision">&middot; {entry.event.data.datePrecision}</span>
+            )}
+          </p>
+          <div class="event-body">
+            <h2>{entry.event.data.title}</h2>
+            <p class="event-meta record">
+              {CATEGORY_META[entry.event.data.category].label} &nbsp;
+              <EvidenceBadge level={entry.event.data.confidence} />
+            </p>
+            <p>{entry.event.data.description}</p>
+            {entry.event.data.larrysRecollection && (
+              <Recollection>{entry.event.data.larrysRecollection}</Recollection>
+            )}
+            {entry.event.data.relatedPlaces.length > 0 && (
+              <p class="event-links record">
+                Places:{' '}
+                {entry.event.data.relatedPlaces.map((place, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    <a href={withBase(`/places/${place.id}/`)}>{place.id}</a>
+                  </>
+                ))}
+              </p>
+            )}
+          </div>
+        </li>
+      ) : (
+        <li
+          class="event"
+          data-category="photo"
+          style={`--cat-color:${CATEGORY_META.photo.color}`}
+        >
+          <p class="event-date record">
+            {entry.photo.data.approximateDate ?? entry.photo.data.sortDate}
+            {entry.photo.data.datePrecision !== 'exact' && (
+              <span class="precision">&middot; {entry.photo.data.datePrecision}</span>
+            )}
+          </p>
+          <div class="event-body">
+            <h2>{entry.photo.data.title}</h2>
+            <p class="event-meta record">
+              {CATEGORY_META.photo.label} &nbsp;
+              <EvidenceBadge level={entry.photo.data.confidence} />
+            </p>
+            <a class="photo-link" href={withBase(`/photos/${entry.photo.id}/`)}>
+              <img
+                src={withBase(`/images/photos/thumbs/${entry.photo.data.photoId}.jpg`)}
+                alt={entry.photo.data.title}
+                width="320"
+                height="216"
+                loading="lazy"
+              />
+            </a>
+            {entry.photo.data.description && <p>{entry.photo.data.description}</p>}
+            {entry.photo.data.larrysRecollection && (
+              <Recollection>{entry.photo.data.larrysRecollection}</Recollection>
+            )}
+            {entry.photo.data.location && (
+              <p class="event-links record">
+                Places:{' '}
+                <a href={withBase(`/places/${entry.photo.data.location.id}/`)}>
+                  {entry.photo.data.location.id}
+                </a>
+              </p>
+            )}
+            <p class="event-links record">
+              <a href={withBase(`/photos/${entry.photo.id}/`)}>
+                View photograph {entry.photo.data.photoId} &rarr;
+              </a>
+            </p>
+          </div>
+        </li>
+      )
+    )}
   </ol>
 
   <MemoryBox term="timeline" subject="timeline" />
 </BaseLayout>
+
+<script>
+  // Category filter chips: server-rendered but hidden; shown only when JS runs,
+  // replacing the static legend. Multi-select; empty selection means "All".
+  const filters = document.querySelector<HTMLElement>('.filters');
+  const legend = document.querySelector<HTMLElement>('.legend');
+  if (filters && legend) {
+    filters.hidden = false;
+    legend.hidden = true;
+
+    const allChip = filters.querySelector<HTMLButtonElement>('button[data-all]')!;
+    const chips = [...filters.querySelectorAll<HTMLButtonElement>('button[data-category]')];
+    const events = [...document.querySelectorAll<HTMLElement>('.timeline .event')];
+    const active = new Set<string>();
+
+    const render = () => {
+      const showAll = active.size === 0;
+      allChip.setAttribute('aria-pressed', String(showAll));
+      for (const chip of chips) {
+        chip.setAttribute('aria-pressed', String(active.has(chip.dataset.category!)));
+      }
+      for (const event of events) {
+        event.hidden = !showAll && !active.has(event.dataset.category!);
+      }
+    };
+
+    allChip.addEventListener('click', () => {
+      active.clear();
+      render();
+    });
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        const cat = chip.dataset.category!;
+        if (active.has(cat)) active.delete(cat);
+        else active.add(cat);
+        render();
+      });
+    }
+    render();
+  }
+</script>
 
 <style>
   .lede {
@@ -93,6 +220,37 @@ const usedCategories = [...new Set(events.map((e) => e.data.category))];
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
+  }
+
+  .filters {
+    margin: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .filters button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font: inherit;
+    font-size: 0.92rem;
+    padding: 0.45em 0.9em;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 2em;
+    cursor: pointer;
+  }
+
+  .filters button[aria-pressed='true'] {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+
+  .filters button[aria-pressed='true'] .swatch {
+    outline: 2px solid var(--paper);
   }
 
   .swatch {
@@ -154,5 +312,13 @@ const usedCategories = [...new Set(events.map((e) => e.data.category))];
 
   .event p {
     margin-top: 0;
+  }
+
+  .photo-link img {
+    display: block;
+    max-width: min(20rem, 100%);
+    height: auto;
+    border: 1px solid var(--line);
+    margin: 0.3rem 0 0.7rem;
   }
 </style>

@@ -36,6 +36,11 @@ const photos = defineCollection({
     cataloged: z.boolean().default(false),
     title: z.string(),
     approximateDate: z.string().optional(),
+    /** Sortable date for timeline placement, set during cataloging. */
+    sortDate: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/)
+      .optional(),
     datePrecision: z.enum(['exact', 'approximate', 'unknown']).default('unknown'),
     location: reference('places').optional(),
     people: z.array(reference('people')).default([]),

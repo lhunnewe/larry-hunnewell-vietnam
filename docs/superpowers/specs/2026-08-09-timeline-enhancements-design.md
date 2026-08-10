@@ -40,9 +40,15 @@ sortDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 `cataloged && sortDate`, build an entry shaped like a timeline event:
 
 - `sortDate` from the photo; `displayDate` = `approximateDate ?? sortDate`
-- `datePrecision`, `confidence`, `title`, `description` from the photo record
-- category `photo` (already in `CATEGORY_META`)
-- link target `/photos/<id>/` and thumbnail `/images/photos/thumbs/<photoId>.jpg`
+- `datePrecision`, `confidence`, `title`, `description` (rendered only when present),
+  and `larrysRecollection` (rendered with the same `Recollection` component as
+  authored events) from the photo record
+- the photo's singular `location` reference renders as the "Places:" line
+- category `photo` (already in `CATEGORY_META`); `usedCategories` — and therefore the
+  legend and chips — is computed from the **merged** list, so "Photographs" appears
+  once photos qualify
+- link target `/photos/<id>/` and thumbnail `/images/photos/thumbs/<photoId>.jpg`,
+  both via the `withBase()` helper like every internal link on the page
 
 Merge with authored timeline events into one list sorted by `sortDate` (ties: authored
 events first, then photos by photoId). Render photo entries in the same `<li>`
@@ -55,10 +61,11 @@ written) are untouched — the merge only adds entries.
 
 ### Filter chips (inline `<script>` in `timeline.astro`)
 
-- On DOMContentLoaded, the script builds a chip row (`<button>` per category present,
-  from the categories actually on the page, plus "All") and inserts it after the lede,
-  hiding the static legend (the chips replace it — same swatches, plus per-category
-  counts).
+- The chip row (`<button>` per category present, plus "All") is **server-rendered but
+  `hidden`**; the script un-hides it and hides the static legend. Same swatches as the
+  legend, plus per-category counts (static totals — they do not change as filters
+  toggle). Server-rendering the chips keeps all markup in the template; JS only flips
+  visibility and state.
 - Multi-select toggles: clicking a category chip toggles it; events whose category is
   not in the active set get `hidden`. "All" (the default) clears the set and shows
   everything; activating any category deactivates "All" and vice versa when the last
