@@ -8,20 +8,21 @@
 import { giscus } from '../lib/giscus';
 
 interface Props {
-  /** Stable discussion key, e.g. a photo's archive ID like "VN-0042". */
+  /** Stable discussion key, e.g. a photo's archive ID like "VN-0042" or "place:nui-ba-den". */
   term: string;
+  /** What the page shows, used in the explainer sentence ("this photograph", "this place"). */
+  subject?: string;
 }
 
-const { term } = Astro.props;
+const { term, subject = 'photograph' } = Astro.props;
 ---
 
 <section class="memory-box" aria-label="Share what you remember">
   <h2>Share what you remember</h2>
   <p>
-    If this photograph brings something back, type it in the box below and press the
-    <strong>Comment</strong> button. Anything helps — who is in the picture, where it was
-    taken, what was going on, or the story around it. Your words will be saved with the
-    photograph.
+    If this {subject} brings something back, type it in the box below and press the
+    <strong>Comment</strong> button. Anything helps — who was there, where it was, what was
+    going on, or the story around it. Your words will be saved with this page.
   </p>
   <p class="signin-note">
     If it asks you to <strong>sign in</strong>, stop and call the family for help — there is

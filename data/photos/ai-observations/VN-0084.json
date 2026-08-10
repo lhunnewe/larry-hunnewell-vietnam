@@ -1,0 +1,25 @@
+{
+  "photoId": "VN-0084",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A soldier's kit laid out on his cot — an intimate still-life almost certainly of LARRY'S OWN corner of the hooch. On the neat cot (white pillow and sheet, OD blanket): an M1 HELMET at the pillow, a THOMPSON SMG laid across the bed with magazine in, a PISTOL BELT with holster and what appears to be a looped AMMUNITION BELT coiled beside it, a sheathed KNIFE with stacked-leather handle, and a single loose cartridge near the Thompson. Above, a rolled MOSQUITO NET slung under the upper bunk's frame; behind, a wooden wardrobe and an open shelf unit holding magazines (colorful covers), sandals/shower shoes, and folded linens; reed-matting wall with rolled blind at right; red patterned matting on the floor edge.",
+  "visibleText": ["Magazine covers on shelf — titles not resolvable"],
+  "objects": [
+    "Thompson SMG on cot", "M1 helmet", "pistol belt with holster", "looped ammo belt", "sheathed knife",
+    "mosquito net, wardrobe, shelf with magazines and shower shoes"
+  ],
+  "setting": "The hooch interior matching VN-0001/VN-0002 (same matting and shelving) — a deliberate 'this is my gear, this is my bed' portrait, the kind soldiers made to send home. Companion to VN-0082's Thompson still-life.",
+  "people": { "count": 0, "notes": "Owner implied — ask Larry if this is his bunk." },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Larry's quarters (hooch of VN-0001/VN-0002).",
+    "reasoning": "Interior continuity.",
+    "confidence": "medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0001", "VN-0002", "VN-0082", "VN-0017 (T 123 hooch question)"],
+  "questionsForLarry": [
+    "Is this your bunk and your gear? Walk us through every piece.",
+    "Did you sleep under the net every night? What were the magazines?"
+  ],
+  "qualityNotes": "Kodachrome slide, indoor light, sharp; a signature personal frame for the memoir."
+}

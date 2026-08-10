@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0085",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Saigon commercial street behind curbside market stalls: a long four-story colonial block with balustraded balconies and shuttered windows runs behind big tamarind trees. Legible signs: 'DOCTEUR PHẠM-BÁ-VIỄN' (a physician's shingle — a SEARCHABLE PERSONAL NAME), 'NAM-ĐẠI' with an address line that appears to read '70 ... LÊ LỢI 70' (LÊ LỢI street address — geolocation key), a partial hotel sign at left ('...EJO...EL' — possibly MAJESTIC HOTEL), and at right a red-lettered POLITICAL BANNER reading in part 'CHÚNG TÔI CẦN... LÀM HẬU THUẪN... ỦY QUYỀN...' (a civic/political slogan — a small window into the political turbulence of 1964-65). Curb: '55 Chevrolet two-tone, Ford Consul, Peugeot-type sedans, VW; market awnings and conical-hatted vendors below.",
+  "visibleText": [
+    "'DOCTEUR PHẠM-BÁ-VIỄN' — legible (searchable name)",
+    "'NAM-ĐẠI' + probable 'LÊ LỢI 70' address — mostly legible (street + number = geolocation key)",
+    "Political banner fragments 'CHÚNG TÔI CẦN...HẬU THUẪN...ỦY QUYỀN' — partial",
+    "'...EJO...EL' hotel sign — partial (Majestic candidate)"
+  ],
+  "objects": ["colonial commercial block", "market stalls", "period cars (US and European)", "political banner"],
+  "setting": "Lê Lợi street area, central Saigon (hypothesis via address sign). The doctor's name and street number make this frame precisely locatable via period directories.",
+  "people": { "count": 8, "notes": "Vendors and shoppers." },
+  "landmarkHypotheses": ["Lê Lợi boulevard block, central Saigon."],
+  "geolocationHypothesis": {
+    "hypothesis": "Lê Lợi street, Saigon (No. 70 block).",
+    "reasoning": "Address signage.",
+    "confidence": "medium-high (machine reading, verify by magnification)"
+  },
+  "crossReferences": ["VN-0065", "VN-0068 (Saigon series)"],
+  "questionsForLarry": ["Do you remember the big market streets — what did you buy in Saigon?"],
+  "qualityNotes": "Kodachrome slide, leafy shade; multiple legible signs — high research value."
+}

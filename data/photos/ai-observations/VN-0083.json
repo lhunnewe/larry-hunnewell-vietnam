@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0083",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Elevated view of the big pool (same facility as VN-0075, here in correct orientation): the multi-platform diving tower with curved staircases at the far end, swimmers and lane-rope floats in turquoise water, lifeguard chairs, a green-and-white umbrella, sunbathers along the left deck below a covered GRANDSTAND. Notably, the right wall is topped with outward-angled BARBED-WIRE fencing, and a guard-tower-like structure rises beyond it — SECURITY FEATURES suggesting this may be an on-base or militarily-secured facility rather than (or in addition to) a civilian club. Town rooftops and trees beyond.",
+  "visibleText": [],
+  "objects": ["diving tower", "grandstand", "barbed-wire-topped perimeter wall", "lifeguard chairs, umbrella"],
+  "setting": "The pool complex frequented by Larry's circle. Competing hypotheses: Cercle Sportif Saigonnais (civilian club used by Americans) vs. an on-base pool (the wire and tower argue for a secured compound). Comparison of the diving tower against period photos will settle it.",
+  "people": { "count": 30, "notes": "Swimmers and sunbathers, mostly American-looking." },
+  "landmarkHypotheses": ["Cercle Sportif Saigonnais OR a base pool (e.g. Tan Son Nhut area) — tower design is the key."],
+  "geolocationHypothesis": {
+    "hypothesis": "Same facility as VN-0075; identity unresolved between club and base pool.",
+    "reasoning": "Identical tower and deck furniture; added wire/tower detail complicates the club reading.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0075 (flipped twin)", "VN-0004", "VN-0005"],
+  "questionsForLarry": ["Where was this pool — on base or in the city? Who could use it?"],
+  "qualityNotes": "Kodachrome slide, bright, correct orientation; good comparison frame."
+}

@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0087",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A whitewashed homestead on sandy ground behind a light wire fence: main house with hipped tile-or-thatch roof and a rooftop frame structure (water tank stand or unfinished tower), attached shed with lumber and a small artillery-piece-like implement (or plow) beneath its awning, a freestanding white pillar (gate post or small monument), and a white bench at left. Scrub grass, dunes-like sand, two thin masts/poles right, big pale sky. Light flares at frame corners.",
+  "visibleText": [],
+  "objects": ["whitewashed house with roof frame", "shed with implement", "white pillar and bench", "wire fence, sandy ground"],
+  "setting": "A sandy-coastal compound — farmstead, beach-area house, or small station. The sand suggests the coast (Nha Trang / Cam Ranh belt) — hypothesis only.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": [],
+  "geolocationHypothesis": {
+    "hypothesis": "Coastal sandy area, possibly Nha Trang region.",
+    "reasoning": "Soil and vegetation character.",
+    "confidence": "low"
+  },
+  "crossReferences": ["VN-0018 (coastal series)"],
+  "questionsForLarry": ["Do you recognize this white house in the sand?"],
+  "qualityNotes": "Kodachrome slide with corner flares; scene simple but sharp."
+}

@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0086",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Hazy blue AERIAL over coastal lowlands: a maze of mangrove channels and swamp islands fills the foreground around a broad river mouth; a conical green hill rises mid-frame with a village, road, and flat rectangular pans (salt pans or fish ponds) at its base; across the wide water beyond, a chain of substantial hills forms a peninsula reaching the sea, all fading into marine haze.",
+  "visibleText": [],
+  "objects": ["mangrove channel maze", "conical hill with village", "salt pans/fish ponds", "hilly peninsula across bay"],
+  "setting": "Flight over a mangrove estuary toward a hilly coastal peninsula — geography strongly reminiscent of the RỪNG SÁT swamp with the VŨNG TÀU peninsula beyond (the Saigon–Vung Tau air corridor), hypothesis.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Rung Sat special zone with Vung Tau hills beyond — profile comparison against maps recommended."],
+  "geolocationHypothesis": {
+    "hypothesis": "Flight over the Rung Sat toward Vung Tau.",
+    "reasoning": "Mangrove maze + coastal hill chain geometry.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0071 (in-flight series)", "data/timeline/1964-1965-helicopter-travel.json"],
+  "questionsForLarry": ["Did you fly down to Vung Tau? What took you there?"],
+  "qualityNotes": "Kodachrome slide, heavy atmospheric haze and dust; geographic information still strong."
+}

@@ -1,0 +1,19 @@
+{
+  "photoId": "VN-0088",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "A decorated PONY CART (thổ mộ, the traditional Saigon-region horse taxi) trots past at close range: the small horse wears a red-and-black plumed headdress and brass-studded harness; the driver in a straw boater sits on the shaft with a boy passenger beside him, baskets slung on the canopy frame, a woman's pink-clad leg visible inside the covered cart. Behind on the road: a cyclo (pedicab) with a white-hatted passenger and a cyclist. Right side: a GUARD TOWER over a white industrial building behind barbed-wire fence, plus a road sign (side-road-left symbol) — a base perimeter. Utility lines overhead.",
+  "visibleText": ["Small yellow sign on fence — not resolvable"],
+  "objects": ["thổ mộ pony cart with plumed pony", "cyclo, bicycle", "guard tower, wire fence, road sign"],
+  "setting": "Civilian road life passing a military installation's fence — likely the same perimeter as VN-0061/VN-0067 (tower design matches). The thổ mộ marks this as the Saigon/Gia Định region where these carts were iconic.",
+  "people": { "count": 5, "notes": "Driver, boy, cart passenger, cyclo pair." },
+  "landmarkHypotheses": ["Perimeter road of Larry's installation (tower match with VN-0061)."],
+  "geolocationHypothesis": {
+    "hypothesis": "Road outside the home installation, Saigon region.",
+    "reasoning": "Tower continuity; thổ mộ distribution.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0061", "VN-0067", "VN-0066"],
+  "questionsForLarry": ["Do you remember the little horse taxis with the feathered ponies outside the gate?"],
+  "qualityNotes": "Kodachrome slide, subject motion, wonderful color; a signature street frame."
+}

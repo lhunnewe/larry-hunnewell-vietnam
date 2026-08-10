@@ -5,10 +5,11 @@
 - **Astro 5**, fully static output — no backend, no database
 - **GitHub Pages** hosting, deployed by **GitHub Actions** (`withastro/action`)
 - Self-hosted fonts via `@fontsource` packages (Oswald, Source Serif 4, Courier Prime)
-- **GitHub Discussions + giscus** for Larry's comments: `MemoryBox.astro` on every photo page,
-  keyed to the archive ID (`data-mapping="specific"`, strict) in the **Memories** category; IDs
-  live in `src/lib/giscus.ts`. A later export job will archive his comments into
-  `data/recollections/`
+- **GitHub Discussions + giscus** for Larry's comments: `MemoryBox.astro` on every photo,
+  place, and person page plus the timeline, keyed to stable terms (`VN-####`, `place:<id>`,
+  `person:<id>`, `timeline`) via `data-mapping="specific"` (strict) in the **Memories**
+  category; IDs live in `src/lib/giscus.ts`. A later export job will archive his comments
+  into `data/recollections/`
 
 ## Content model
 
@@ -53,6 +54,6 @@ records; `cataloged: false` records render honestly as "not yet cataloged."
 ## Not yet built
 
 Planned next, roughly in order: photo cataloging with Larry (titles, dates, places, verbatim
-recollections), interactive map, giscus on places/people/timeline pages, recollection export
-from Discussions, per-claim citation rendering from the `sources` collection, embedding settled
-metadata into original scans via exiftool driven from the JSON records.
+recollections), interactive map, recollection export from Discussions, per-claim citation
+rendering from the `sources` collection, embedding settled metadata into original scans via
+exiftool driven from the JSON records.

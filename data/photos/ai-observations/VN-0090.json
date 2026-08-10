@@ -1,0 +1,22 @@
+{
+  "photoId": "VN-0090",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Aerial over a coastal port, with the photographing helicopter's OWN EXPOSED ROTOR MAST AND CONTROL LINKAGES filling the left foreground (blurred) — the uncovered rotor head arrangement suggests a light observation type (H-13/OH-13 class bubble helicopter, hypothesis) rather than a Huey. Below: a freighter or LST lies at a T-pier with a road running to a shoreline highway; barge piers and small craft moorings at right; cleared lots, a dark pond, and scrub inland; across the water a rounded, forest-covered island/headland closes the bay.",
+  "visibleText": [],
+  "objects": ["helicopter rotor mast/linkages (light observation type hypothesis)", "ship at T-pier", "barge piers", "coastal highway, bay island"],
+  "setting": "Port call from the air — possibly Nha Trang or Cam Ranh area (island profile candidates) on one of Larry's flights. AIRCRAFT DATUM: if the rotor head is an H-13's, Larry flew in light observation helicopters as well as Hueys and transports — worth asking.",
+  "people": { "count": 0, "notes": "" },
+  "landmarkHypotheses": ["Nha Trang / Cam Ranh coastal port — island profile matchable."],
+  "geolocationHypothesis": {
+    "hypothesis": "South-central coastal port from a light helicopter.",
+    "reasoning": "Bay geometry and pier arrangement.",
+    "confidence": "low-medium (machine hypothesis)"
+  },
+  "crossReferences": ["VN-0086", "VN-0089", "data/timeline/1964-1965-helicopter-travel.json"],
+  "questionsForLarry": [
+    "What helicopter is this — one of the little bubble ones?",
+    "Which port is below — Nha Trang? What was the ship bringing?"
+  ],
+  "qualityNotes": "Kodachrome slide, foreground blur, good ground detail."
+}

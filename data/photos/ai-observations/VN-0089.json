@@ -1,0 +1,21 @@
+{
+  "photoId": "VN-0089",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Harbor view from aboard or beside a vessel (diagonal brace crossing the upper left): at a stone quay, a grey NAVAL PATROL CRAFT with hull marking 'TD.9' (legible) lies moored, mast with radar/lookout ring, awning frames, other small craft beyond and figures on the quay. Across the wide river/bay: a far shore of red-roofed warehouses, palms, and scattered buildings under a cumulus sky.",
+  "visibleText": [
+    "'TD.9' hull marking — legible. RESEARCH KEY: Vietnamese Navy small-craft hull codes are documented; TD-series identification could name the vessel and its station (river force / coastal group), pinning this harbor."
+  ],
+  "objects": ["naval patrol craft TD.9", "stone quay, small craft", "red-roofed warehouse shoreline"],
+  "setting": "A naval anchorage on a broad river or bay — Saigon Naval Shipyard reach or a coastal naval station (Nha Trang candidate). The hull number is the identifier.",
+  "people": { "count": 3, "notes": "Figures on quay." },
+  "landmarkHypotheses": ["Identify via TD.9 hull-code records (VNN river/coastal forces)."],
+  "geolocationHypothesis": {
+    "hypothesis": "VNN anchorage — Saigon River or Nha Trang.",
+    "reasoning": "Craft type and quay construction.",
+    "confidence": "low pending hull-code research"
+  },
+  "crossReferences": ["VN-0073 (port reach)", "VN-0090 (harbor aerial)"],
+  "questionsForLarry": ["Were you around the navy piers — was this Saigon or Nha Trang?"],
+  "qualityNotes": "Kodachrome slide, clean; hull number crisp."
+}

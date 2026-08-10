@@ -1,0 +1,24 @@
+{
+  "photoId": "VN-0091",
+  "surveyed": "2026-08-09",
+  "surveyedBy": "Claude (Fable 5) vision pass — machine-generated hypotheses, not catalog fact",
+  "description": "Saigon commercial frontage: a modernist white building carries the bilingual sign 'VIỆT-NAM XÍ-NGHIỆP CÔNG-TY / VIETNAM DEVELOPMENT CORP' with product boards 'VINYLON' and 'VINAFILM' and a colorful mural panel; at left a Chinese pharmacy sign (green cross + 藥房 characters). At the curb: a black CITROËN TRACTION AVANT (rear plate partially legible, possibly 'H80-...'), a teal Ford Anglia/Prefect wagon, a scooter between them, and a green kiosk with small posted notices; pedestrians in the shaded gateway.",
+  "visibleText": [
+    "'VIETNAM DEVELOPMENT CORP' + Vietnamese line — legible",
+    "'VINYLON', 'VINAFILM' — legible",
+    "Chinese pharmacy characters — legible as signage type",
+    "Citroën rear plate — partial ('H80-140'?)"
+  ],
+  "objects": ["Citroën Traction Avant", "Ford wagon", "bilingual corporate signage", "pharmacy sign, kiosk"],
+  "setting": "Saigon/Cholon commercial street — the named company is directory-searchable, and the Traction Avant is a beautiful period marker.",
+  "people": { "count": 6, "notes": "Pedestrians in shade." },
+  "landmarkHypotheses": ["Address recoverable via Vietnam Development Corp in period directories."],
+  "geolocationHypothesis": {
+    "hypothesis": "Saigon or Cholon commercial block.",
+    "reasoning": "Signage mix.",
+    "confidence": "medium (directory-checkable)"
+  },
+  "crossReferences": ["VN-0076", "VN-0085 (signed-street series)"],
+  "questionsForLarry": ["Any memory of these grand old French cars around Saigon?"],
+  "qualityNotes": "Kodachrome slide, deep shade contrast; signs crisp."
+}

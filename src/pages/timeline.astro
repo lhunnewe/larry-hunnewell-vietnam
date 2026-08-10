@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EvidenceBadge from '../components/EvidenceBadge.astro';
 import Recollection from '../components/Recollection.astro';
+import MemoryBox from '../components/MemoryBox.astro';
 import { withBase } from '../lib/paths';
 
 const events = (await getCollection('timeline')).sort((a, b) =>
@@ -70,6 +71,8 @@ const usedCategories = [...new Set(events.map((e) => e.data.category))];
       </li>
     ))}
   </ol>
+
+  <MemoryBox term="timeline" subject="timeline" />
 </BaseLayout>
 
 <style>
