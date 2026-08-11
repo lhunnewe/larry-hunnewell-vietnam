@@ -15,6 +15,9 @@ Published at <https://lhunnewe.github.io/larry-hunnewell-vietnam>.
   renamed or altered by hand
 - `public/images/photos/` — generated web copies (gitignored; rebuilt by `npm run photos:build`,
   which also runs automatically before `dev` and `build`)
+- `public/videos/` — cleaned web copies of the 8mm film footage (committed, unlike the photo
+  derivatives: the raw 2009 captures live only on the NAS, which the GitHub Actions build can't
+  reach; rebuilt by `node scripts/build-video-clips.mjs` with the NAS mounted)
 - `research/` — working research notes and the open-questions ledger
 - `docs/` — project documentation
 
@@ -25,7 +28,8 @@ Published at <https://lhunnewe.github.io/larry-hunnewell-vietnam>.
 2. Every important claim carries an evidence classification: confirmed, strongly supported,
    plausible, unverified recollection, or contradicted.
 3. Unknown information is represented as unknown, never guessed.
-4. Photograph IDs (`VN-0001`, …) and public filenames are permanent once assigned.
+4. Photograph IDs (`VN-0001`, …), film clip IDs (`VF-0001`, …), and public filenames are
+   permanent once assigned.
 
 ## Development
 

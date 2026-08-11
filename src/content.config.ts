@@ -56,6 +56,45 @@ const photos = defineCollection({
   }),
 });
 
+const videos = defineCollection({
+  loader: glob({ pattern: '*.json', base: './data/videos' }),
+  schema: z.object({
+    /** Permanent archival ID, e.g. VF-0001. Matches the filename. */
+    videoId: z.string().regex(/^VF-\d{4}$/),
+    /**
+     * The raw capture file this clip comes from, as named in the family
+     * archive on the NAS ("Dad's Vietnam Footage" folder). The captures are
+     * the 2009 projector-to-wall transfer, not the original 8mm film.
+     */
+    sourceFile: z.string(),
+    /** Segment of the source capture published here, in seconds. */
+    segment: z.object({ start: z.number(), end: z.number() }).optional(),
+    /**
+     * Crop of the projected image inside the camera frame, as an ffmpeg
+     * crop spec (w:h:x:y), measured per capture session.
+     */
+    crop: z.string().optional(),
+    /** Poster-frame moment in seconds into the clip; defaults to a third in. */
+    posterTime: z.number().optional(),
+    /** Whether this record has been through cataloging (title, date, place, memories). */
+    cataloged: z.boolean().default(false),
+    title: z.string(),
+    approximateDate: z.string().optional(),
+    datePrecision: z.enum(['exact', 'approximate', 'unknown']).default('unknown'),
+    location: reference('places').optional(),
+    people: z.array(reference('people')).default([]),
+    units: z.array(z.string()).default([]),
+    description: z.string().optional(),
+    /** Larry's own words about this footage. Never edited. */
+    larrysRecollection: z.string().optional(),
+    researchNotes: z.string().optional(),
+    confidence: confidence,
+    relatedPhotos: z.array(reference('photos')).default([]),
+    relatedVideos: z.array(reference('videos')).default([]),
+    sources: sourceRefs,
+  }),
+});
+
 const people = defineCollection({
   loader: glob({ pattern: '*.json', base: './data/people' }),
   schema: z.object({
@@ -163,4 +202,4 @@ const sources = defineCollection({
   }),
 });
 
-export const collections = { photos, people, places, timeline, recollections, sources };
+export const collections = { photos, videos, people, places, timeline, recollections, sources };

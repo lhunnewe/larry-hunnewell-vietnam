@@ -1,0 +1,153 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+
+const videos = (await getCollection('videos')).sort((a, b) =>
+  a.data.videoId.localeCompare(b.data.videoId)
+);
+const cataloged = videos.filter((v) => v.data.cataloged).length;
+---
+
+<BaseLayout
+  title="Film Footage"
+  description="Larry's 8mm movie film from Vietnam, 1964-1965, digitized and awaiting his memories."
+>
+  <span class="eyebrow">Moving pictures</span>
+  <h1>Film Footage</h1>
+  <p class="lede">
+    Besides his slides, Larry brought home 8mm movie film — about twenty-two minutes of it,
+    including scenes of Saigon. The reels were digitized at home in 2009 by projecting them on a
+    wall and re-filming the projection, and that transfer is what plays below, cleaned up as far
+    as software allows. Each clip has a permanent archive number and its own
+    <strong>Memories</strong> box for what Larry remembers of it.
+  </p>
+  <p class="record">
+    {videos.length} clip{videos.length === 1 ? '' : 's'} &middot; {cataloged} cataloged so far
+    &middot; nothing about an uncataloged clip is guessed
+  </p>
+
+  <aside class="family-note">
+    <p class="record note-heading">Note to the family — the film can look far better than this</p>
+    <p>
+      These web copies come from the 2009 wall transfer, and no software can put back what that
+      capture lost. If the original 8mm reels still exist, a professional
+      <strong>frame-by-frame scan</strong> would recover true colors, full sharpness, and steady
+      frames — far beyond anything recoverable from the wall capture. It costs roughly
+      <strong>$20&ndash;30 per 50-ft reel</strong> (this footage is about six reels) from mail-in
+      services like <a href="https://www.scancafe.com/">ScanCafe</a> or
+      <a href="https://legacybox.com/">LegacyBox</a>, or from a local camera shop. First step:
+      find out whether the reels survived.
+    </p>
+  </aside>
+
+  <ul class="video-grid">
+    {videos.map((video) => (
+      <li>
+        <a href={withBase(`/footage/${video.id}/`)}>
+          <span class="poster-wrap">
+            <img
+              src={withBase(`/videos/posters/${video.data.videoId}.jpg`)}
+              alt={video.data.cataloged ? video.data.title : `Film clip ${video.data.videoId}, not yet cataloged`}
+              loading="lazy"
+              width="528"
+              height="424"
+            />
+            <span class="play-mark" aria-hidden="true">&#9654;</span>
+          </span>
+          <span class="record video-id">{video.data.videoId}</span>
+          <span class="video-title">{video.data.title}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2>About this transfer</h2>
+  <p>
+    The digitization is itself part of the family story: LeRoy ran the reels through the family
+    projector, filmed the projected image from the wall with a MiniDV camcorder, and captured the
+    tape to a computer — the technology of 2009 doing its best by the technology of 1965. The raw
+    captures (one 22-minute transfer and five short test takes of the same scenes) are preserved
+    unaltered in the family archive on the NAS; the copies here are cropped to the projected
+    image, steadied, deflickered, and brightened from that source.
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .family-note {
+    border: 1px dashed var(--signal);
+    background: var(--paper-deep);
+    padding: 1.2rem 1.4rem;
+    max-width: var(--measure);
+    margin: 2rem 0;
+  }
+
+  .note-heading {
+    color: var(--signal);
+    margin: 0 0 0.6rem;
+  }
+
+  .family-note p {
+    margin: 0;
+  }
+
+  .video-grid {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  }
+
+  .video-grid a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 0.5rem;
+  }
+
+  .video-grid a:hover {
+    border-color: var(--signal);
+  }
+
+  .poster-wrap {
+    position: relative;
+    display: block;
+  }
+
+  .video-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .play-mark {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    opacity: 0.85;
+  }
+
+  .video-id {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--ink-soft);
+  }
+
+  .video-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+</style>

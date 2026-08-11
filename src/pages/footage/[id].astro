@@ -1,0 +1,155 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import Recollection from '../../components/Recollection.astro';
+import MemoryBox from '../../components/MemoryBox.astro';
+import Citations from '../../components/Citations.astro';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  const videos = (await getCollection('videos')).sort((a, b) =>
+    a.data.videoId.localeCompare(b.data.videoId)
+  );
+  return videos.map((video, i) => ({
+    params: { id: video.id },
+    props: {
+      video,
+      prev: i > 0 ? videos[i - 1] : null,
+      next: i < videos.length - 1 ? videos[i + 1] : null,
+    },
+  }));
+}
+
+const { video, prev, next } = Astro.props;
+const d = video.data;
+const heading = d.cataloged ? d.title : `Film clip ${d.videoId}`;
+
+function mmss(seconds: number): string {
+  const m = Math.floor(seconds / 60);
+  const s = Math.round(seconds % 60);
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
+---
+
+<BaseLayout title={`${d.videoId} — ${heading}`}>
+  <span class="eyebrow">Film clip {d.videoId}</span>
+  <h1>{heading}</h1>
+
+  <!-- The MP4s are cleaned web copies; the raw 2009 captures stay in the family archive. -->
+  <video
+    controls
+    preload="metadata"
+    playsinline
+    poster={withBase(`/videos/posters/${d.videoId}.jpg`)}
+  >
+    <source src={withBase(`/videos/${d.videoId}.mp4`)} type="video/mp4" />
+    The film player needs a newer browser. Ask the family for help with that.
+  </video>
+
+  <nav class="pager record" aria-label="Footage navigation">
+    {prev ? <a href={withBase(`/footage/${prev.id}/`)}>&larr; {prev.data.videoId}</a> : <span></span>}
+    <a href={withBase('/footage/')}>All footage</a>
+    {next ? <a href={withBase(`/footage/${next.id}/`)}>{next.data.videoId} &rarr;</a> : <span></span>}
+  </nav>
+
+  {!d.cataloged && (
+    <div class="empty-state">
+      <p><strong>Not yet cataloged.</strong></p>
+      <p>
+        This clip has its permanent archive number, but its date, place, and story haven't been
+        recorded yet. Nothing about it is guessed — the details will be filled in as Larry
+        watches the footage and shares what he remembers.
+      </p>
+    </div>
+  )}
+
+  <dl class="video-record">
+    <div><dt class="record">Archive ID</dt><dd>{d.videoId}</dd></div>
+    <div><dt class="record">Source capture</dt><dd>{d.sourceFile}</dd></div>
+    {d.segment && (
+      <div>
+        <dt class="record">Segment</dt>
+        <dd>
+          {mmss(d.segment.start)}&ndash;{mmss(d.segment.end)} of the capture &middot; {duration} long
+        </dd>
+      </div>
+    )}
+    <div><dt class="record">Date</dt><dd>{d.approximateDate ?? 'Unknown'}</dd></div>
+    <div>
+      <dt class="record">Location</dt>
+      <dd>
+        {d.location ? <a href={withBase(`/places/${d.location.id}/`)}>{d.location.id}</a> : 'Unknown'}
+      </dd>
+    </div>
+    {d.units.length > 0 && <div><dt class="record">Units</dt><dd>{d.units.join(', ')}</dd></div>}
+    {d.people.length > 0 && (
+      <div>
+        <dt class="record">People</dt>
+        <dd>
+          {d.people.map((p, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={withBase(`/people/${p.id}/`)}>{p.id}</a>
+            </>
+          ))}
+        </dd>
+      </div>
+    )}
+    <div><dt class="record">Evidence</dt><dd><EvidenceBadge level={d.confidence} /></dd></div>
+  </dl>
+
+  {d.description && <p>{d.description}</p>}
+
+  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+
+  {d.researchNotes && (
+    <>
+      <h2>Research notes</h2>
+      <p>{d.researchNotes}</p>
+    </>
+  )}
+
+  <Citations sources={d.sources} />
+
+  <MemoryBox term={d.videoId} subject="film clip" />
+</BaseLayout>
+
+<style>
+  video {
+    width: 100%;
+    max-width: 52rem;
+    height: auto;
+    display: block;
+    margin: 1.5rem 0 0.8rem;
+    border: 1px solid var(--line);
+    background: #000;
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    max-width: 52rem;
+  }
+
+  .video-record {
+    margin: 1.5rem 0;
+    border-top: 1px solid var(--line);
+    max-width: var(--measure);
+  }
+
+  .video-record > div {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .video-record dd {
+    margin: 0;
+  }
+</style>
