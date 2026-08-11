@@ -112,6 +112,10 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
     page. Never correct a memory; if it differs from the research, both get kept.
   </p>
   <p class="record">Checked boxes are remembered on this device.</p>
+  <p class="glossary-note">
+    Unfamiliar term in a question — a <em>van</em>, an <em>AOD</em>, a <em>hooch</em>? They're
+    Larry's words, explained in the <a href={withBase('/glossary/')}>glossary</a>.
+  </p>
 
   {tiers.map((tier) => (
     <section>

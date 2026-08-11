@@ -1,0 +1,285 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+
+// Military and period terms used across the archive — in Larry's questions,
+// the photo observations, and the research notes. Definitions are written
+// for family readers; the terms themselves are kept exactly as Larry and
+// the records use them.
+
+interface Term {
+  id: string;
+  term: string;
+  expansion?: string;
+  def: string;
+  photos?: string[];
+  link?: { href: string; label: string };
+}
+
+const sections: { title: string; terms: Term[] }[] = [
+  {
+    title: 'His job and his unit',
+    terms: [
+      {
+        id: 'aod',
+        term: '118th AOD',
+        expansion: 'Aviation Operations Detachment',
+        def: 'The unit Larry remembers serving with — a small outfit of about 110 men, radio operators and pathfinders, some requiring special clearances. Whether the remembered "118th AOD" was its own detachment, or connected to the 118th Aviation Company "Thunderbirds," is one of the archive\'s open research questions.',
+        link: { href: '/units/', label: 'Units' },
+      },
+      {
+        id: 'radio-teletype-operator',
+        term: 'Radio teletype operator',
+        def: 'The military specialty on Larry\'s discharge paper: sending and receiving message traffic over radio circuits, by voice and by teletype — a typewriter that transmits over the air. He trained for it in a 17-week Army Signal school course in 1964. It is the skill behind the RADIO door on Núi Bà Đen and the operations van.',
+        photos: ['vn-0059'],
+      },
+      {
+        id: 'van',
+        term: 'Van',
+        expansion: 'ops van · commo van',
+        def: 'Not a road vehicle. In the Army signal world a "van" is a rigid box-body shelter — truck-hauled or set on the ground with entry steps and its own generator — fitted out inside as a radio room or operations center. The scheduling racks and grid board photos are the inside of such a van; VN-0011 shows the outside of one, and VN-0041 a likely commo van on the mountain summit.',
+        photos: ['vn-0011', 'vn-0014', 'vn-0015', 'vn-0041'],
+      },
+      {
+        id: 'pathfinder',
+        term: 'Pathfinder',
+        def: 'A soldier put in ahead of the helicopters to mark landing zones and guide the aircraft coming in. Larry remembers pathfinders among the men of his detachment.',
+      },
+      {
+        id: 'flight-following',
+        term: 'Flight following',
+        def: 'Keeping continuous radio track of aircraft from takeoff to landing, so someone on the ground always knows where every helicopter is. The grid board and scheduling racks in the operations van appear to be exactly this work.',
+        photos: ['vn-0014', 'vn-0015'],
+      },
+    ],
+  },
+  {
+    title: 'Around the camps',
+    terms: [
+      {
+        id: 'hooch',
+        term: 'Hooch',
+        def: 'G.I. slang for the huts soldiers lived in — screened wooden barracks with tin or canvas roofs. The painted markings "T 122" and "T 123" in the photographs are building numbers on the hooches of Larry\'s camp.',
+        photos: ['vn-0017', 'vn-0117', 'vn-0155'],
+      },
+      {
+        id: 'c-123',
+        term: 'C-123 Provider',
+        def: 'A twin-engine military cargo plane, a workhorse for hauling troops and supplies between airfields — one passes low over the hooches in VN-0117.',
+        photos: ['vn-0117'],
+      },
+      {
+        id: 'thompson',
+        term: 'Thompson',
+        def: 'The Thompson submachine gun — the .45-caliber "Tommy gun" of Second World War fame, still in use in the early years of Vietnam. One lies on a bunk in the barracks photographs.',
+        photos: ['vn-0082', 'vn-0084'],
+      },
+      {
+        id: 'name-tape',
+        term: 'Name tape',
+        def: 'The cloth strip sewn above a uniform shirt pocket carrying the soldier\'s surname. The HUNNEWELL tape in VN-0028 is what anchors Larry\'s identity through the whole collection — and a partial "WE…" tape in the van photos may name a second man.',
+        photos: ['vn-0028', 'vn-0014'],
+      },
+      {
+        id: 'lldb',
+        term: 'LLDB',
+        expansion: 'Lực Lượng Đặc Biệt',
+        def: 'South Vietnam\'s own Special Forces. The painted shield on the roster rock at the mountain site carries the LLDB name and a parachute emblem, placing Vietnamese Special Forces alongside the Americans there.',
+        photos: ['vn-0035'],
+      },
+      {
+        id: 'stars-and-stripes',
+        term: 'Stars and Stripes',
+        def: 'The U.S. military\'s own daily newspaper, distributed to service members overseas. In Japan, Larry opened it and found himself reported killed in action — the story at the center of this archive.',
+        link: { href: '/story/', label: "Larry's Story" },
+      },
+      {
+        id: 'apo',
+        term: 'APO',
+        expansion: 'Army Post Office',
+        def: 'The military\'s overseas mail system — units abroad are addressed by APO number rather than city and country. Larry\'s last assignment is recorded against a Camp Zama, Japan APO.',
+      },
+    ],
+  },
+  {
+    title: 'Words from Vietnam',
+    terms: [
+      {
+        id: 'tet',
+        term: 'Tết',
+        def: 'The Vietnamese Lunar New Year — the country\'s biggest holiday, when the streets fill with flowers. Larry photographed a Tết flower market in Saigon, probably early 1965.',
+        photos: ['vn-0068'],
+      },
+      {
+        id: 'ao-dai',
+        term: 'Áo dài',
+        def: 'The traditional Vietnamese dress — a long, fitted tunic worn over trousers. The woman in the red áo dài is one of the archive\'s unanswered questions.',
+        photos: ['vn-0154'],
+      },
+    ],
+  },
+  {
+    title: 'The paper trail',
+    terms: [
+      {
+        id: 'dd-214',
+        term: 'DD-214',
+        def: 'The one-page separation document every soldier receives on leaving the service — dates, specialty, decorations, last assignment. The family\'s copy of Larry\'s surfaced in August 2026; it names his final assignment in Japan but, frustratingly, not his Vietnam unit.',
+        link: { href: '/research/', label: 'Research' },
+      },
+      {
+        id: 'service-number',
+        term: 'Service number',
+        def: 'Before Social Security numbers were used, every soldier had a service number — and its prefix told a story: "US" meant drafted, "RA" meant Regular Army volunteer. Larry\'s number is recorded in the private family archive, not on this site.',
+      },
+      {
+        id: 'sf-180',
+        term: 'SF-180',
+        expansion: 'Standard Form 180',
+        def: 'The request form used to ask the government for a veteran\'s military records — the family\'s next step toward documents that name Larry\'s Vietnam unit.',
+      },
+      {
+        id: 'nprc',
+        term: 'NPRC',
+        expansion: 'National Personnel Records Center',
+        def: 'The archive in St. Louis, Missouri that holds the service records of discharged veterans. It is where the SF-180 request goes.',
+      },
+      {
+        id: 'agent-orange',
+        term: 'Agent Orange',
+        def: 'The herbicide sprayed over Vietnam to strip jungle cover, later tied to illnesses in the veterans exposed to it. Larry\'s Agent Orange claim with the VA is one route to records of where he served.',
+      },
+      {
+        id: 'va-file',
+        term: 'VA file number',
+        def: 'The number on a veteran\'s claim file with the Department of Veterans Affairs. Larry\'s VA file from the Agent Orange claim may hold service details the family copies lack.',
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Glossary"
+  description="Military and period terms used in the archive, explained for family readers."
+>
+  <span class="eyebrow">The words explained</span>
+  <h1>Glossary</h1>
+  <p class="lede">
+    The questions and records in this archive keep Larry's own vocabulary — the words he and the
+    Army used in 1964. This page explains those terms for everyone else. A "van" here is not
+    what it is on the highway.
+  </p>
+
+  {sections.map((section) => (
+    <section>
+      <h2>{section.title}</h2>
+      <dl class="terms">
+        {section.terms.map((t) => (
+          <div class="term" id={t.id}>
+            <dt>
+              {t.term}
+              {t.expansion && <span class="record expansion">{t.expansion}</span>}
+            </dt>
+            <dd>
+              <p>{t.def}</p>
+              {(t.photos?.length || t.link) && (
+                <p class="q-photos">
+                  {t.photos?.map((p) => (
+                    <a class="photo-chip" href={withBase(`/photos/${p}/`)}>{p.toUpperCase()}</a>
+                  ))}
+                  {t.link && (
+                    <a class="photo-chip" href={withBase(t.link.href)}>{t.link.label} →</a>
+                  )}
+                </p>
+              )}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ))}
+
+  <p class="record footer-note">
+    Terms are defined as Larry's era used them &middot; the heavier per-photo jargon lives in
+    data/photos/ai-observations/
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .terms {
+    margin: 1.2rem 0 0;
+    max-width: var(--measure);
+  }
+
+  .term {
+    border-bottom: 1px solid var(--line);
+    padding: 1.1rem 0;
+    scroll-margin-top: 1.5rem;
+  }
+
+  /* Highlight the entry a link landed on. */
+  .term:target {
+    background: var(--paper-deep);
+    box-shadow: 0 0 0 0.6rem var(--paper-deep);
+    border-left: 3px solid var(--signal);
+    padding-left: 0.9rem;
+  }
+
+  .term dt {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.08rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .expansion {
+    text-transform: none;
+    letter-spacing: 0.05em;
+  }
+
+  .term dd {
+    margin: 0.5rem 0 0;
+  }
+
+  .term dd p {
+    margin: 0;
+  }
+
+  .q-photos {
+    margin-top: 0.7rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .photo-chip {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border: 1px solid var(--khaki);
+    background: var(--paper);
+    padding: 0.45em 0.8em;
+    color: var(--ink);
+  }
+
+  .photo-chip:hover,
+  .photo-chip:focus-visible {
+    border-color: var(--signal);
+    color: var(--signal);
+  }
+
+  .footer-note {
+    margin-top: 3rem;
+  }
+</style>
