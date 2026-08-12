@@ -12,17 +12,29 @@ interface Props {
   term: string;
   /** What the page shows, used in the explainer sentence ("this photograph", "this place"). */
   subject?: string;
+  /** Replaces the standard "If this X brings something back" explainer sentence. */
+  intro?: string;
 }
 
-const { term, subject = 'photograph' } = Astro.props;
+const { term, subject = 'photograph', intro } = Astro.props;
 ---
 
 <section class="memory-box" aria-label="Share what you remember">
   <h2>Share what you remember</h2>
+  {
+    intro ? (
+      <p>{intro}</p>
+    ) : (
+      <p>
+        If this {subject} brings something back, type it in the box below and press the
+        <strong>Comment</strong> button. Anything helps — who was there, where it was, what
+        was going on, or the story around it. Your words will be saved with this page.
+      </p>
+    )
+  }
   <p>
-    If this {subject} brings something back, type it in the box below and press the
-    <strong>Comment</strong> button. Anything helps — who was there, where it was, what was
-    going on, or the story around it. Your words will be saved with this page.
+    You don't have to type: tap in the box, then tap the <strong>microphone on the
+    keyboard</strong> and just talk — the words will appear as you speak.
   </p>
   <p class="signin-note">
     If it asks you to <strong>sign in</strong>, stop and call the family for help — there is

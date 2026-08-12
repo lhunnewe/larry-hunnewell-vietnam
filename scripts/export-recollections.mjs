@@ -124,11 +124,12 @@ async function fetchAllDiscussions() {
 /** Map a discussion title (the giscus term) to related-reference arrays, or null to skip. */
 function relatedRefsForTerm(term) {
   if (/^VN-\d{4}$/.test(term)) return { relatedPhotos: [term.toLowerCase()] };
+  if (/^VF-\d{4}$/.test(term)) return { relatedVideos: [term.toLowerCase()] };
   const place = term.match(/^place:(.+)$/);
   if (place) return { relatedPlaces: [place[1]] };
   const person = term.match(/^person:(.+)$/);
   if (person) return { relatedPeople: [person[1]] };
-  if (term === 'timeline') return {};
+  if (term === 'timeline' || term === 'stories') return {};
   return null;
 }
 
@@ -163,7 +164,7 @@ function buildRecord(comment, discussion, term, personId, existing) {
     fidelity: 'verbatim',
   };
   if (existing?.researchNotes) record.researchNotes = existing.researchNotes;
-  for (const key of ['relatedPhotos', 'relatedPlaces', 'relatedPeople']) {
+  for (const key of ['relatedPhotos', 'relatedVideos', 'relatedPlaces', 'relatedPeople']) {
     const merged = union(refs[key], existing?.[key]);
     if (merged.length > 0) record[key] = merged;
   }

@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+import MemoryBox from '../components/MemoryBox.astro';
+
+// The front door for stories that don't belong to any one photograph or
+// film clip. Posts land in the "stories" discussion; the recollection
+// exporter sweeps them into data/recollections/ like everything else.
+---
+
+<BaseLayout
+  title="Tell a Story"
+  description="A place for any story or memory from Larry's Army years — no photograph needed."
+>
+  <span class="eyebrow">For Dad</span>
+  <h1>Tell a story</h1>
+  <p class="lede">
+    Not every memory has a picture. If a story comes to mind — from basic training, from
+    Vietnam, from Japan, from the trip home, from anywhere in those years — it belongs here
+    just as much. Big or small, funny or hard, half-remembered is fine.
+  </p>
+  <p>
+    If the story <em>does</em> go with a picture or a piece of film, it's even better on that
+    page — find it in the <a href={withBase('/photos/')}>photographs</a> or the
+    <a href={withBase('/footage/')}>footage</a> and tell it there. Otherwise, this page is
+    the place.
+  </p>
+
+  <MemoryBox
+    term="stories"
+    intro="Tell the story in the box below and press the Comment button. Anything helps — when it was, who was there, what happened. Your words will be saved exactly as you give them."
+  />
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+</style>

@@ -174,6 +174,7 @@ const recollections = defineCollection({
     fidelity: z.enum(['verbatim', 'paraphrase']),
     researchNotes: z.string().optional(),
     relatedPhotos: z.array(reference('photos')).default([]),
+    relatedVideos: z.array(reference('videos')).default([]),
     relatedPlaces: z.array(reference('places')).default([]),
     relatedPeople: z.array(reference('people')).default([]),
   }),
