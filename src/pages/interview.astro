@@ -29,9 +29,9 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       },
       {
         id: 'the-friend',
-        q: '“Who is your friend? He’s in your photos everywhere — and he was WITH you in Japan.”',
-        why: 'The most valuable name in the archive — a likely living witness to the Stars and Stripes story.',
-        photos: ['vn-0022', 'vn-0093', 'vn-0112'],
+        q: '“Who is your friend — tell me a story about him. And is the man in Japan the same man, or someone different?”',
+        why: 'The Japan companion was the patient in the bed across from him — a hospital friend from back east whose name he’s lost. So the Vietnam friend is likely a different man: still unnamed, still the most valuable name in the archive.',
+        photos: ['vn-0022', 'vn-0112', 'vn-0093'],
       },
       {
         id: 'unit-markings',
@@ -47,8 +47,8 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       },
       {
         id: 'japan-medical',
-        q: '“Your discharge paper says your last assignment was an Army medical command in Japan. What took you there — were you reassigned, or were you a patient? Was that when you saw the newspaper?”',
-        why: 'The DD-214’s biggest surprise: last duty under US Army Japan. The cool-season Tokyo frames may be from being stationed there in fall 1965 — which also fits seeing Stars and Stripes in Japan.',
+        q: '“Which hospital were you in, in Japan — Camp Zama? Camp Drake? Did you see the Stars and Stripes piece in the hospital ward? Was the Ginza day a pass from the hospital?”',
+        why: 'The August 2026 call answered the old WHY: he was medevaced from Vietnam — likely hepatitis, plus malaria and infections — arriving about early September 1965. The hospital’s name dates the whole Tokyo series and sites the newspaper sighting.',
         photos: ['vn-0093', 'vn-0095'],
       },
       {
@@ -104,6 +104,8 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       { id: 'thompson', q: '“Was that your Thompson on your bunk? Did you ever have to use it?”', photos: ['vn-0082', 'vn-0084'] },
       { id: 'red-ao-dai', q: '“Who is she? This one looks like it mattered.”', photos: ['vn-0154'] },
       { id: 'camera-girl', q: '“She’s holding a camera — did she take any of these pictures?”', photos: ['vn-0151'] },
+      { id: 'basic-chapman', q: '“Where was basic training — and who was Sergeant Chapman?”', why: 'He named Chapman in the August 2026 call, seemingly from basic training. Kennedy was shot a month in — “where were you when you heard?” is the way in.', photos: [] },
+      { id: 'helicopter-suners', q: '“Tell me again about the helicopter and the explosion — the two with the bombs around them. What did you call them?”', why: 'From the August 2026 call: the word sounded like “su-ners” — if it was “sappers,” the story may match a documentable attack. Let him say the word; don’t supply it.', photos: [] },
       { id: 'what-was-42', q: '“What was the 42 we remember from your Army days — a unit number, a locker, a rifle rack?”', why: 'His DD-214 turned up (Mom’s photo) and the service number has no 42 in it — so the remembered 42 was something else.', photos: [] },
       { id: 'va-file-number', q: '“What’s your VA file number, from the Agent Orange claim paperwork?”', why: 'The DD-214 is found and transcribed, but it doesn’t name the Vietnam unit — the VA file and NPRC records still carry that.', photos: [] },
       { id: 'more-slides', q: '“Are there more slide boxes or prints anywhere that we never scanned?”', photos: [] },
@@ -161,6 +163,11 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       breakfast question. When Dad is ready, and only then: <em>“Do you remember this man and
       this day?”</em> His answer also decides whether that photo is ever shown publicly. It is
       deliberately not linked here; it lives in the archive.
+    </p>
+    <p>
+      Likewise the story he has told of <strong>almost being stabbed in a bathroom</strong> by
+      another military person. Don't press it — if he brings it up, capture who, where, when,
+      and what came of it in his own words.
     </p>
   </section>
 
@@ -281,6 +288,10 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
 
   .held p {
     margin: 0;
+  }
+
+  .held p + p {
+    margin-top: 0.8rem;
   }
 
   @media (max-width: 40rem) {

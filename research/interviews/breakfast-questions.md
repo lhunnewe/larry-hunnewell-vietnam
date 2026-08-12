@@ -26,11 +26,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
   *Unlocks: confirms his identity thread through the whole collection — everything else builds
   on this. Also the warmest possible opener.*
 
-- [ ] **2. "Who is your friend?"** — Show **VN-0022** (beach table), **VN-0093** (the two of
-  you in Tokyo), VN-0112 (him at the fountains). "He's everywhere in your photos — and he was
-  WITH you in Japan."
-  *Unlocks: the single most valuable name in the archive — a likely living witness to the
-  Stars and Stripes story, findable if named. May be the "WE..." name tape in VN-0014.*
+- [ ] **2. "Who is your friend — tell me a story about him."** — Show **VN-0022** (beach
+  table) and VN-0112 (the fountains) first; then **VN-0093** (Tokyo) side by side: "Is the
+  man in Japan the same man — or someone different?"
+  *Updated after the 2026-08-12 call: the Japan companion was the patient in the bed across
+  from him — a hospital friend from back east whose name he no longer remembers. So the
+  Vietnam friend is likely a DIFFERENT man — still unnamed, and still the most valuable name
+  in the archive: a findable witness if named. May be the "WE..." name tape in VN-0014. A
+  story about the beach person is the way in.*
 
 - [ ] **3. "What was on your pocket patch — and on the helicopters?"** — Show **VN-0028**
   (white shield pocket patch), **VN-0012** (bird emblem on tail fin), **VN-0141** (bird nose
@@ -43,14 +46,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
   headquarters you remember? And who's the man whose name starts with W-E?"
   *Unlocks: the "Thom Son Nuht" identification (#11) plus a second unit-member name.*
 
-- [ ] **5. "How did you end up in Japan — and what was the medical unit?"** — Show **VN-0093**
-  and **VN-0095**. "Your discharge paper says your last assignment was an Army medical command
-  in Japan. What took you there — were you reassigned, or were you a patient? How long were
-  you there before they sent you home? And was that when you saw the newspaper?"
-  *Unlocks: the DD-214's biggest surprise. His last duty was under US Army Japan (Camp Zama
-  APO), so the cool-season Tokyo frames may be from months of being STATIONED there in fall
-  1965, not a short trip — which also fits seeing Stars and Stripes in Japan (#9). His answer
-  dates the whole Tokyo series and explains the route home (separated at Oakland 30 Nov 65).*
+- [ ] **5. "Which hospital were you in, in Japan?"** — Show **VN-0093** and **VN-0095**.
+  "Was it Camp Zama? Camp Drake? How long were you in? Did you see the Stars and Stripes
+  piece in the hospital ward? Was the Ginza day — the Heidelberg restaurant — a pass from
+  the hospital? And how did they fly you out of Vietnam?"
+  *Updated after the 2026-08-12 call, which answered the old WHY question: he was medevaced
+  from Vietnam — likely hepatitis (white stool, cola-dark urine), plus malaria and
+  infections — arriving, as he remembers it, in early September 1965. The hospital's name
+  would unlock ward records, date the whole Tokyo series, and site the newspaper sighting.*
 
 - [ ] **6. "Do you remember these names?"** — Show **VN-0035** (the roster rock) zoomed in.
   Read them slowly: "Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
@@ -102,12 +105,23 @@ answer would unlock. Full per-photo question lists live in the observation recor
 - [ ] The Thompson — VN-0082, VN-0084: "Was that your gun on your bunk? Ever have to use it?"
 - [ ] The woman in the red áo dài — VN-0154: "Who is she? This one looks like it mattered."
 - [ ] The girl holding the camera — VN-0151: "Did she take any of these pictures?"
+- [ ] Basic training — "Where was basic training — and who was Sergeant Chapman?" (He named
+  Chapman in the 2026-08-12 call, seemingly from basic training. Kennedy was shot a month
+  in — "where were you when you heard?" is the way in.)
+- [ ] The helicopter and the explosion — "Tell me again about the helicopter and the
+  explosion — the two with the bombs around them. What did you call them?" (From the
+  2026-08-12 call: the word sounded like "su-ners" — if it was "sappers," the story may
+  match a documentable VC sapper attack. Let him say the word; don't supply it.)
 
 ## Hold for the right moment (not breakfast material)
 
 - **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:
   "Do you remember this man and this day?" His answer also decides whether the photo is ever
   shown publicly. Related: VN-0148 (the crash site).
+- **The bathroom knife story** — he has told, in past conversations, of almost being stabbed
+  in a bathroom by another military person (recorded 2026-08-12 from the son's memory;
+  `data/recollections/2026-brief-bathroom-knife.json`). Don't press it — if he brings it up,
+  capture who, where, when, and what came of it in his own words.
 
 ## Housekeeping questions (anytime)
 

@@ -1,11 +1,12 @@
 {
-  "title": "Leaves Vietnam",
-  "sortDate": "1965-09-15",
-  "displayDate": "About September 1965",
+  "title": "Leaves Vietnam — medical evacuation",
+  "sortDate": "1965-09-05",
+  "displayDate": "About early September 1965",
   "datePrecision": "approximate",
   "category": "larry-movement",
-  "description": "Larry's Vietnam service ended around September 1965, roughly a year after it began. His departure date and route home have not yet been established from records.",
-  "researchNotes": "The DD-214 shows he did not come straight home: his last duty assignment was an Army medical command in Japan (USARJ), and his foreign service ran until separation at Oakland on November 30, 1965. A departure from Vietnam around September 1965 followed by two-plus months in Japan fits both his recollection and the form. The exact Vietnam departure date should be in the NPRC personnel file.",
+  "description": "Larry's Vietnam service ended around early September 1965, roughly a year after it began — and by his own account it ended with a medical evacuation. Seriously ill with what was likely hepatitis, plus malaria and infections, he was flown out of Vietnam to an Army medical command in Japan rather than straight home. The exact departure date and the evacuation route have not yet been established from records.",
+  "larrysRecollection": "The sickness was the reason he went to Japan — he was medevaced from Vietnam.",
+  "researchNotes": "The DD-214 shows he did not come straight home: his last duty assignment was an Army medical command in Japan (USARJ), and his foreign service ran until separation at Oakland on November 30, 1965. In the 2026-08-12 phone call he confirmed the Japan move was a medical evacuation and placed his arrival in Japan in early September. The exact Vietnam departure date and the medevac chain (in-country hospital? evacuation flight?) should be in the NPRC personnel file.",
   "confidence": "unverified-recollection",
   "relatedPeople": ["larry-dennis-hunnewell"],
   "sources": ["dd214-1965"]
