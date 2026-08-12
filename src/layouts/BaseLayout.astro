@@ -12,9 +12,11 @@ import { withBase } from '../lib/paths';
 interface Props {
   title: string;
   description?: string;
+  /** Keep the page out of search engines (it stays reachable by direct URL). */
+  noindex?: boolean;
 }
 
-const { title, description = 'The Vietnam service of Larry Dennis Hunnewell, 1964-1965. A family memoir and historical research archive.' } = Astro.props;
+const { title, description = 'The Vietnam service of Larry Dennis Hunnewell, 1964-1965. A family memoir and historical research archive.', noindex = false } = Astro.props;
 
 const nav = [
   { href: '/', label: 'Home' },
@@ -43,6 +45,7 @@ function isCurrent(href: string): boolean {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <title>{title === 'My Father in Vietnam' ? title : `${title} — My Father in Vietnam`}</title>
   </head>
   <body>

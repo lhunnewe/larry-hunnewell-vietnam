@@ -6,6 +6,10 @@ import { withBase } from '../lib/paths';
 // (research/interviews/breakfast-questions.md is the working copy).
 // Checkboxes persist in the browser's localStorage on whatever device
 // you use at the table.
+//
+// Deliberately unlinked from the rest of the site and noindexed: several
+// questions are probes that only work if Larry doesn't read them first.
+// Reach it by direct URL / bookmark; never link it from a public page.
 
 interface Question {
   id: string;
@@ -114,7 +118,7 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
 ];
 ---
 
-<BaseLayout title="Interview Guide">
+<BaseLayout title="Interview Guide" noindex={true}>
   <span class="eyebrow">For the breakfast table</span>
   <h1>Questions for Dad</h1>
   <p class="lede">

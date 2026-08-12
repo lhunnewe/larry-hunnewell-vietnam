@@ -7,6 +7,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
 > **Mobile version:** this guide is also a website page at `/interview/`
 > (src/pages/interview.astro) with tap-to-open photo links and checkboxes that persist on the
 > device — built for the breakfast table. Keep the two in sync when questions change.
+>
+> **Keep it out of Larry's path:** the page is deliberately unlinked from the site (no nav,
+> no Research-page link, `noindex`) so he doesn't stumble onto the questions — several are
+> probes that only work if details aren't supplied. Reach it by direct URL / bookmark only,
+> and don't re-link it from any public page. Same goes for spoilers in `researchNotes`
+> fields that render on photo/footage/place/person pages he browses: keep "don't prime him"
+> hypotheses (Ketel's beer barrel, the two-friends split, "su-ners") in `research/` files,
+> not in rendered fields.
 
 **How to use this**
 
