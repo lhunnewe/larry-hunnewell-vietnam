@@ -26,9 +26,12 @@ Open questions:
    it was a **medical evacuation** — he was flown out of Vietnam seriously ill (likely
    hepatitis — he described pure-white stool and Coca-Cola-dark urine — plus malaria and
    infections), arriving ~early September 1965. The Tokyo photo series belongs to this
-   hospital period, with a fellow-patient friend. Still open: the hospital's name (Camp Zama's
-   Army hospital? Camp Drake's 249th General?), admission/discharge dates (NPRC), and the
-   friend's identity. See research/interviews/2026-08-12-call-notes.md and
+   hospital period, with a fellow-patient friend. *Research (2026-08-12,
+   research/places/japan-hospital-1965.md): the hospital was almost certainly the U.S. Army
+   Medical Center, Japan at Sagami-Ōno / Camp Zama — the only Army hospital in Japan taking
+   Vietnam evacuees before Dec 1965, with 462 malaria admissions Aug–Dec 1965.* Still open:
+   NPRC clinical-records confirmation (filed by hospital name), admission/discharge dates,
+   and the friend's identity. See research/interviews/2026-08-12-call-notes.md and
    research/records-request/dd214-findings.md.
 8. **Sgt. "Chapman"** — a sergeant Larry named in the 2026-08-12 call; believed separate from
    Lowry/Lowery, and the comment arose around basic training. Confirm who he was and where

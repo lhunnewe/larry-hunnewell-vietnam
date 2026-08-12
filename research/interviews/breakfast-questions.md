@@ -49,7 +49,10 @@ answer would unlock. Full per-photo question lists live in the observation recor
 - [ ] **5. "Which hospital were you in, in Japan?"** — Show **VN-0093** and **VN-0095**.
   "Was it Camp Zama? Camp Drake? How long were you in? Did you see the Stars and Stripes
   piece in the hospital ward? Was the Ginza day — the Heidelberg restaurant — a pass from
-  the hospital? And how did they fly you out of Vietnam?"
+  the hospital? What do you remember about that restaurant — the sign, the entrance, the
+  stairs? And how did they fly you out of Vietnam?" (Don't supply details about the
+  restaurant: if he spontaneously describes a giant beer-barrel doorway, that identifies
+  Ketel's — see research/places/ginza-heidelberg.md.)
   *Updated after the 2026-08-12 call, which answered the old WHY question: he was medevaced
   from Vietnam — likely hepatitis (white stool, cola-dark urine), plus malaria and
   infections — arriving, as he remembers it, in early September 1965. The hospital's name
