@@ -12,6 +12,8 @@ interface Question {
   q: string;
   why?: string;
   photos: string[];
+  /** Film clip IDs, linked to their /footage/ pages. */
+  clips?: string[];
 }
 
 const tiers: { title: string; intro?: string; questions: Question[] }[] = [
@@ -60,6 +62,13 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
         q: '“You photographed this fire twice from the air. What happened — was it the big Bien Hoa explosion in May ’65?”',
         why: 'A dateable documented event, and possibly the unit’s home field.',
         photos: ['vn-0074', 'vn-0078'],
+      },
+      {
+        id: 'watch-the-film',
+        q: '“Can we watch your movie film together?” — one chapter at a time, letting him narrate. “Where is this? Who’s holding the camera?”',
+        why: 'Narration for all 22 minutes of film. The boulevard in VF-0005 may be his Saigon. Follow-up: do the original 8mm reels still exist? If so, a professional re-scan becomes possible.',
+        photos: [],
+        clips: ['vf-0001', 'vf-0002', 'vf-0003', 'vf-0004', 'vf-0005'],
       },
       {
         id: 'home-base',
@@ -129,10 +138,13 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
               <span class="q-text">{item.q}</span>
             </label>
             {item.why && <p class="q-why">{item.why}</p>}
-            {item.photos.length > 0 && (
+            {(item.photos.length > 0 || (item.clips?.length ?? 0) > 0) && (
               <p class="q-photos">
                 {item.photos.map((p) => (
                   <a class="photo-chip" href={withBase(`/photos/${p}/`)}>{p.toUpperCase()}</a>
+                ))}
+                {item.clips?.map((c) => (
+                  <a class="photo-chip" href={withBase(`/footage/${c}/`)}>&#9654; {c.toUpperCase()}</a>
                 ))}
               </p>
             )}

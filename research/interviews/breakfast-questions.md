@@ -66,6 +66,15 @@ answer would unlock. Full per-photo question lists live in the observation recor
   you slept? How long did you live there vs. anywhere else?"
   *Unlocks: anchors half the collection's geography in one answer.*
 
+- [ ] **9. "Can we watch your movie film together?"** — Watch one chapter at a time on the
+  website (**VF-0001** through **VF-0005**, on the Footage page). Let him narrate; ask only
+  "Where is this? Who's holding the camera?" The tree-lined boulevard in **VF-0005** may be
+  his Saigon. Follow-ups: what camera did he carry, and **do the original 8mm reels still
+  exist somewhere?**
+  *Unlocks: narration for all 22 minutes of film — places, dates, the aircraft drop in
+  VF-0004 and the story of its dark stretch. And if the reels survived, the professional
+  re-scan becomes possible (see the note on the Footage page).*
+
 ## Tier 2 — Place confirmations (quick yes/no over coffee)
 
 - [ ] **The mountain** — VN-0044, VN-0059 (the RADIO door): "Is this the top of Núi Bà Đen?
