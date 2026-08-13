@@ -6,9 +6,10 @@
   "category": "larry-recollection",
   "description": "Larry remembers being on or associated with Núi Bà Đen, the isolated mountain near Tây Ninh, and remembers a Special Forces Sergeant Lowry or Lowery stationed on top. His 2026-08-13 comments define his role there: his initial orders were to stay on for search and rescue at the Special Forces camp, call sign Body Jab 42; his own search-and-rescue call sign was Tay Ninh. He photographed a rocket launcher being mounted on the summit (VN-0006, his guess June 1965). Exactly when his mountain duty began and how often he rotated up remain open research questions.",
   "larrysRecollection": "Larry remembers being on or associated with the mountain. He may have remembered or referred to it as something sounding like \"Sun Mountain.\" 2026-08-13: \"My initial orders were to stay on for search and rescue\" at the Special Forces camp, Body Jab 42; his call sign was Tay Ninh.",
-  "confidence": "unverified-recollection",
+  "researchNotes": "Upgraded to plausible 2026-08-13: the official Army history (Kelly, U.S. Army Special Forces 1961–1971) documents a CIDG camp at Núi Bà Đen itself in October 1964 with a half-size SF element (1 officer, 5 enlisted, ~175 strikers), and the SF radio-relay function for III Corps matches the duty Larry describes. His personal presence awaits documentary confirmation via NPRC.",
+  "confidence": "plausible",
   "relatedPlaces": ["nui-ba-den"],
   "relatedPeople": ["larry-dennis-hunnewell", "sgt-lowry"],
   "relatedPhotos": ["vn-0006"],
-  "sources": []
+  "sources": ["kelly-cidg-1973"]
 }
