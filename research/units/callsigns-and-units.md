@@ -42,9 +42,11 @@ both confirm them and identify the issuing unit. A hit on any one would be decis
   anything like Rosethorn.
 
 **Assessment:** almost certainly the 118th Aviation Company (AML) or a sister 145th Avn Bn
-unit; record as leading hypothesis, not fact. Next steps: manual visit to 118ahc.org
-(blocks automated access — may hold 1964–65 rosters that could contain Larry, Kahn, Ron
-Tototz); NPRC personnel file (in progress) should name the unit outright.
+unit; record as leading hypothesis, not fact. Next steps: the veteran association site is
+http://www.118ahc.us/ (the .org address is dead) — it has a dedicated 118th Aviation
+Company (AML) history page covering 25 June 1963 – 1 December 1965, platoon pages, and
+reunion/contact pages that may hold 1964–65 rosters or members who remember Larry, Kahn,
+or Ron Tototz; NPRC personnel file (in progress) should name the unit outright.
 
 ## The mountain garrison in Larry's window (corroboration)
 

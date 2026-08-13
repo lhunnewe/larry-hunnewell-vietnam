@@ -19,7 +19,8 @@ Open questions:
    *2026-08-13 sweep (research/units/callsigns-and-units.md): no unit designated "118th AOD"
    existed; the 118th Aviation Company (Airmobile Light) — "Thunderbirds"/"Bandits," Bien Hoa,
    III Corps, documented standby-alert missions in 1965 — is the leading hypothesis ("AML"
-   heard as "AOD"). Its veteran site 118ahc.org may hold 1964–65 rosters; visit manually.*
+   heard as "AOD"). Its veteran site is http://www.118ahc.us/ (corrected from an earlier
+   dead .org address) with a dedicated 118th Aviation Company (AML) 1963–65 history page.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from

@@ -111,5 +111,5 @@ survive outside archival signal annexes.
 3. **NPRC** — Larry's own records request (in progress) may fix his exact medevac date,
    which would pin the incident window to specific days and sharpen every archive query.
 4. If the unit is confirmed (118th Aviation Company is the leading candidate — see the
-   call-signs note), its association (118ahc.org, blocks automated access; visit manually)
-   may hold rosters and recollections covering mountain support missions.
+   call-signs note), its association (http://www.118ahc.us/) may hold rosters and
+   recollections covering mountain support missions, and living members who flew them.
