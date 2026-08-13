@@ -146,9 +146,9 @@ answer would unlock. Full per-photo question lists live in the observation recor
 - [x] ~~"Do you remember your service number?"~~ — **Answered by the DD-214** (photo from
   Mom, Aug 2026): the number is recorded in the private archive and goes straight onto the
   SF-180. It contains **no 42** — so the family memory that "42 mattered to him" was about
-  something else. **Likely answered 2026-08-13:** the Special Forces camp's call sign was
-  **Body Jab 42**. Confirm gently: **"Was Body Jab 42 the 42 we remember you talking
-  about?"** *The number itself stays off the repo.*
+  something else. **CONFIRMED 2026-08-13:** as the Body Jab 42 comment was being written,
+  Larry told his son directly that the camp call sign is why he uses that number — the
+  42 mystery is closed. *The service number itself stays off the repo.*
 - [ ] **"What's your VA file number?"** — Still wanted for the VA records angle on the Agent
   Orange claim. The DD-214 itself has now turned up (Mom photographed the family copy —
   transcription in research/records-request/dd214-findings.md; it does NOT name the Vietnam
