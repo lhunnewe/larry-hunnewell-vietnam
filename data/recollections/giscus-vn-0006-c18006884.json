@@ -5,6 +5,11 @@
   "text": "People:\nMiddle is Major Schwartzkoff\nRight: Australian Captain\nLeft: I think is captain Kennedy from Boston",
   "fidelity": "verbatim",
   "researchNotes": "Identifications now cataloged on the photo record (VN-0006); the Australian captain is unnamed. Spelling research: research/people/major-schwartzkoff.md.",
-  "relatedPhotos": ["vn-0006"],
-  "relatedPeople": ["major-schwartzkoff", "captain-kennedy"]
+  "relatedPhotos": [
+    "vn-0006"
+  ],
+  "relatedPeople": [
+    "major-schwartzkoff",
+    "captain-kennedy"
+  ]
 }
