@@ -102,10 +102,10 @@ survive outside archival signal annexes.
 
 ### Next steps (in order of promise)
 
-1. **Texas Tech Vietnam Center & Archive** — manual search or reference request
-   (vnca@ttu.edu, (806) 742-9010): MACV J-3 daily journals and 5th SF Group / B-32
-   detachment monthly operational summaries, Tây Ninh, July–September 1965. The single
-   most likely place a record of the day survives.
+1. **Texas Tech Vietnam Center & Archive** — reference request **SENT 2026-08-13**
+   (research/records-request/ttu-reference-request.md): MACV J-3 daily journals and 5th SF
+   Group / B-32 detachment monthly operational summaries, Tây Ninh, July–September 1965.
+   The single most likely place a record of the day survives. Awaiting reply.
 2. **NARA RG 472** — III Corps advisory and 5th SFG records; SOI/CEOI signal annexes could
    also confirm the call signs (and thereby the unit).
 3. **NPRC** — Larry's own records request (in progress) may fix his exact medevac date,

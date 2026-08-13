@@ -2,7 +2,7 @@
 
 **To:** vnca@ttu.edu
 **Phone alternative:** (806) 742-9010
-**Status:** drafted 2026-08-13, not yet sent
+**Status:** SENT 2026-08-13 (as drafted, by Larry's son) — awaiting reply; log the response here
 **Purpose:** find any record of the "450 civilians" day (research/events/450-civilians-nui-ba-den.md)
 and of Larry's unit/detachment at Núi Bà Đen, July–September 1965.
 
