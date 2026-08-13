@@ -102,7 +102,11 @@ const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
 
   <Citations sources={d.sources} />
 
-  <MemoryBox term={d.photoId} />
+  <MemoryBox
+    term={d.photoId}
+    image={d.originalPath ? withBase(`/images/photos/full/${d.photoId}.jpg`) : undefined}
+    imageAlt={d.cataloged ? d.title : `Photograph ${d.photoId}`}
+  />
 </BaseLayout>
 
 <style>

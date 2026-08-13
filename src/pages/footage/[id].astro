@@ -113,7 +113,12 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
 
   <Citations sources={d.sources} />
 
-  <MemoryBox term={d.videoId} subject="film clip" />
+  <MemoryBox
+    term={d.videoId}
+    subject="film clip"
+    image={withBase(`/videos/posters/${d.videoId}.jpg`)}
+    imageAlt={d.cataloged ? d.title : `Film clip ${d.videoId}`}
+  />
 </BaseLayout>
 
 <style>
