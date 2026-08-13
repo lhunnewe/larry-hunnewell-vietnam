@@ -4,7 +4,7 @@
   "provenance": "giscus comment by @kawaputt-rgb on the VN-0006 page; discussion #33; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/33#discussioncomment-18006884",
   "text": "People:\nMiddle is Major Schwartzkoff\nRight: Australian Captain\nLeft: I think is captain Kennedy from Boston",
   "fidelity": "verbatim",
-  "relatedPhotos": [
-    "vn-0006"
-  ]
+  "researchNotes": "Identifications now cataloged on the photo record (VN-0006); the Australian captain is unnamed. Spelling research: research/people/major-schwartzkoff.md.",
+  "relatedPhotos": ["vn-0006"],
+  "relatedPeople": ["major-schwartzkoff", "captain-kennedy"]
 }

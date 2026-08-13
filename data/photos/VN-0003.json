@@ -2,8 +2,14 @@
   "photoId": "VN-0003",
   "originalFilename": "1920236-R1-E011.jpg",
   "originalPath": "Group Photos with Unit/1920236-R1-E011.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Guitar session: Kahn, Ron Tototz, and friends",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["kahn", "ron-tototz"],
+  "description": "Four men gathered around a seated guitarist outside a wooden-framed building with woven matting walls and rolled reed blinds. Larry identifies Kahn, the company secretary, at right — he \"walked funny, stiff legged like he had polio\" — with Ron Tototz to Kahn's left.",
+  "larrysRecollection": "Right: Kahn, company secretary, walked funny, stiff legged like he had polio\nleft of Kahn is Ron Tototz",
+  "researchNotes": "Identifications are Larry's own (Memories comment, 2026-08-13; archived as data/recollections/giscus-vn-0003-c18006986.json). Both name spellings are phonetic. Part of the guitar-session series with VN-0007 and VN-0008.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0002", "vn-0007", "vn-0008"],
+  "sources": []
 }

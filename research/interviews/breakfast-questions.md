@@ -54,17 +54,16 @@ answer would unlock. Full per-photo question lists live in the observation recor
   headquarters you remember? And who's the man whose name starts with W-E?"
   *Unlocks: the "Thom Son Nuht" identification (#11) plus a second unit-member name.*
 
-- [ ] **5. "Which hospital were you in, in Japan?"** — Show **VN-0093** and **VN-0095**.
-  "Was it Camp Zama? Camp Drake? How long were you in? Did you see the Stars and Stripes
-  piece in the hospital ward? Was the Ginza day — the Heidelberg restaurant — a pass from
-  the hospital? What do you remember about that restaurant — the sign, the entrance, the
-  stairs? And how did they fly you out of Vietnam?" (Don't supply details about the
-  restaurant: if he spontaneously describes a giant beer-barrel doorway, that identifies
-  Ketel's — see research/places/ginza-heidelberg.md.)
-  *Updated after the 2026-08-12 call, which answered the old WHY question: he was medevaced
-  from Vietnam — likely hepatitis (white stool, cola-dark urine), plus malaria and
-  infections — arriving, as he remembers it, in early September 1965. The hospital's name
-  would unlock ward records, date the whole Tokyo series, and site the newspaper sighting.*
+- [x] **5. "Which hospital were you in, in Japan?"** — **ANSWERED 2026-08-13, unprompted:**
+  "I was at Camp Zama in Japan in Sugami Uro" [Sagami-Ōno] — he was told only that research
+  had a high-confidence name, not which one, and produced it himself. Follow-ups still
+  open, with **VN-0093** and **VN-0095** on the table: "How long were you in? Did you see
+  the Stars and Stripes piece in the hospital ward? Was the Ginza day — the Heidelberg
+  restaurant — a pass from the hospital? What do you remember about that restaurant — the
+  sign, the entrance, the stairs? And how did they fly you out of Vietnam?" (Don't supply
+  details about the restaurant: if he spontaneously describes a giant beer-barrel doorway,
+  that identifies Ketel's — see research/places/ginza-heidelberg.md.)
+  *The name unlocks the NPRC clinical-records request, filed by hospital.*
 
 - [ ] **6. "Do you remember these names?"** — Show **VN-0035** (the roster rock) zoomed in.
   Read them slowly: "Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
@@ -105,7 +104,13 @@ answer would unlock. Full per-photo question lists live in the observation recor
 ## Tier 3 — Stories and people (no research agenda — pure memoir gold)
 
 - [ ] The recurring dark-haired friend's whole circle: VN-0003/0007/0008 (guitar session) —
-  "Who could actually play? What did you sing?"
+  "Who could actually play? What did you sing?" *(2026-08-13: he named Kahn — the company
+  secretary who "walked funny" — and his bunk mate Ron Tototz in VN-0003. Follow-up: "Tell
+  me more about Ron — where in the States was he from? Who else is in these?")*
+- [ ] **The rocket launcher day** — VN-0006, which he says he took himself atop the
+  mountain, ~June 1965: "What happened when it fired? Did it hit the crossroad? Who was the
+  Australian captain? Tell me about Major Schwartzkoff — what was he like?" (Just listen on
+  the major — no name suggestions; see research/people/major-schwartzkoff.md.)
 - [ ] The mother and baby at the battery bank — VN-0145, VN-0156: "Who were they? Did you ever
   learn what became of them?"
 - [ ] The T 122 family portrait — VN-0155: "The ladies next door — laundry? cooking? names?"
@@ -129,18 +134,21 @@ answer would unlock. Full per-photo question lists live in the observation recor
 - **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:
   "Do you remember this man and this day?" His answer also decides whether the photo is ever
   shown publicly. Related: VN-0148 (the crash site).
-- **The bathroom knife story** — he has told, in past conversations, of almost being stabbed
-  in a bathroom by another military person (recorded 2026-08-12 from the son's memory;
-  `data/recollections/2026-brief-bathroom-knife.json`). Don't press it — if he brings it up,
-  capture who, where, when, and what came of it in his own words.
+- **The bathroom shooting story** — he opened the door himself (VN-0002 comment,
+  2026-08-13): "the shooting incident in the bathroom," with Ron Tototz present, ~Feb–Mar
+  1965, and he expects the shooter was court-martialed. Gentle follow-ups are now fair
+  game: "Who was the guy? What started it? What happened to him afterward?" (The earlier
+  family memory was of a knife — don't correct him either way; let the details come.
+  `data/recollections/2026-brief-bathroom-knife.json`.)
 
 ## Housekeeping questions (anytime)
 
 - [x] ~~"Do you remember your service number?"~~ — **Answered by the DD-214** (photo from
   Mom, Aug 2026): the number is recorded in the private archive and goes straight onto the
   SF-180. It contains **no 42** — so the family memory that "42 mattered to him" was about
-  something else. Gentle follow-up: **"What was the 42 we remember — a unit number, a
-  locker, a rifle rack, a jersey?"** *The number itself stays off the repo.*
+  something else. **Likely answered 2026-08-13:** the Special Forces camp's call sign was
+  **Body Jab 42**. Confirm gently: **"Was Body Jab 42 the 42 we remember you talking
+  about?"** *The number itself stays off the repo.*
 - [ ] **"What's your VA file number?"** — Still wanted for the VA records angle on the Agent
   Orange claim. The DD-214 itself has now turned up (Mom photographed the family copy —
   transcription in research/records-request/dd214-findings.md; it does NOT name the Vietnam
