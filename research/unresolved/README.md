@@ -20,7 +20,12 @@ Open questions:
    existed; the 118th Aviation Company (Airmobile Light) — "Thunderbirds"/"Bandits," Bien Hoa,
    III Corps, documented standby-alert missions in 1965 — is the leading hypothesis ("AML"
    heard as "AOD"). Its veteran site is http://www.118ahc.us/ (corrected from an earlier
-   dead .org address) with a dedicated 118th Aviation Company (AML) 1963–65 history page.*
+   dead .org address) with a dedicated 118th Aviation Company (AML) 1963–65 history page.
+   Full-site crawl 2026-08-13 (research/units/callsigns-and-units.md): Larry not on the
+   rosters (TDY/attached men often weren't), Núi Bà Đen never mentioned, and the 118th
+   lived at Bien Hoa — not Tân Sơn Nhứt where Larry places his HQ — so a Saigon-based
+   alternative (145th Avn Bn HQ, or the UTT/68th at Tan Son Nhut) needs equal weight.
+   Leads: company clerk Martin Lehotay (DROS '65), the 118th Facebook group, 145thcab.com.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from

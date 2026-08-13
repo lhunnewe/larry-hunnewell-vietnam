@@ -48,6 +48,45 @@ Company (AML) history page covering 25 June 1963 – 1 December 1965, platoon pa
 reunion/contact pages that may hold 1964–65 rosters or members who remember Larry, Kahn,
 or Ron Tototz; NPRC personnel file (in progress) should name the unit outright.
 
+## 118ahc.us site crawl — full-site search, 2026-08-13 (37 pages, all fetched)
+
+The association site (corrected URL http://www.118ahc.us/, webmaster Thomas Payne,
+ka5hzd@att.net — content stops ~2015, so the address may be stale; the active channel is
+the "118th AHC Thunderbird" Facebook group, facebook.com/groups/119640688162391). Every
+page was searched for our names, call signs, and places:
+
+- **Larry is not on the rosters** (Pilots.htm, Crewmembers.htm, Memorial, Leaders, all
+  Stories pages). Important caveat from the site itself: attached/TDY men were often not
+  fully rostered (the Shot Gun Platoon page documents 90-day TDY door gunners from the
+  25th ID, and many roster entries are bare "(TDY 64-65)" lines).
+- **Núi Bà Đen is never mentioned** anywhere on the site. **Rosethorn, Body Jab, and Tay
+  Ninh do not appear as call signs** — the 118th's documented 1964–65 call signs are
+  Thunderbirds (company), Scorpions/"Redbird" (1st plt), Choppers/"Bluebird" (2nd plt),
+  Bandits (gunships), "Rainbow 6" (CO). This is consistent with Rosethorn/Body Jab
+  belonging to Special Forces or province nets, not the 118th.
+- **Base friction:** the 118th lived at **Bien Hoa** for its whole existence — not Tân Sơn
+  Nhứt, where Larry places his headquarters. Either Larry served in a different
+  Saigon-based unit (145th Aviation Battalion HQ elements, or the UTT/68th at Tan Son
+  Nhut) that worked alongside the 118th, or "headquarters" in his story means a higher HQ
+  rather than his company. Next check: 145thcab.com for where the battalion HQ sat in
+  1964–65.
+- **Era texture strongly matches** Larry's account: routine all-night "flare and gun ship
+  standby" duty; the unit's first UH-1B mission was a night medevac *to Tây Ninh* (15 Sep
+  1963); the 1964 evacuation of Bo Tuc north of Tây Ninh; and the Battle of Đồng Xoài
+  (9–20 June 1965) — the standby fire team launched at 0100 to defend a Special Forces
+  camp, with "volunteer gunners consisting of clerks, cooks and anyone who wanted to go."
+  UH-1Ds replaced UH-1Bs about July–August 1965, in Larry's last months.
+- **Near-miss names to handle carefully (do NOT mention to Larry — let rosters and
+  records speak):** "Lowery, Roy J. (64-65)" was a 118th *pilot* (Vung Tau R&R photos,
+  1965) — likely a name coincidence with the *Special Forces sergeant* Lowry Larry
+  remembers, but the year overlap is notable. "Kohnen, William J. (65-66)" (enlisted
+  roster) is the closest match to secretary "Kahn." "Kennedy, Robert (Bob) (64-65)"
+  appears in the enlisted roster — right years, wrong rank for a captain. None of these
+  is an identification; all are leads for correspondence.
+- **Named person worth contacting:** Martin Lehotay, the 118th's company clerk, DROSed
+  1965 — if reachable via the association or Facebook group, he would know the orderly
+  room and attached personnel of exactly Larry's period.
+
 ## The mountain garrison in Larry's window (corroboration)
 
 - Official history (Kelly, *U.S. Army Special Forces 1961–1971*, CMH: status tables for
