@@ -1,7 +1,8 @@
 # 118th AHC Thunderbird Facebook group — outreach post (draft)
 
 **Where:** https://www.facebook.com/groups/119640688162391/ ("118th AHC Thunderbird")
-**Status:** drafted 2026-08-13, not yet posted
+**Status:** POSTED 2026-08-13 to the 118th AHC Thunderbird group — watching for replies;
+log responses below (names veterans offer go through the verify-before-showing-Larry filter)
 **Purpose:** find veterans who remember the Núi Bà Đen relay, the call signs, or Larry
 himself — and gracefully learn if he belonged to a sister unit instead (the group's
 members overlap with the 145th CAB community).
