@@ -2,8 +2,15 @@
   "photoId": "VN-0001",
   "originalFilename": "1920236-R1-E004.jpg",
   "originalPath": "Group Photos with Unit/1920236-R1-E004.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
-  "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "cataloged": true,
+  "title": "Larry and Ron Tototz in their quarters",
+  "approximateDate": "February–March 1965 (from Larry's dating of VN-0002)",
+  "sortDate": "1965-02-15",
+  "datePrecision": "approximate",
+  "people": ["larry-dennis-hunnewell", "ron-tototz"],
+  "description": "Larry (left) and his bunk mate Ron Tototz (right) inside their quarters — woven-matting walls, a shelf of personal items, a footlocker between them. Taken moments apart from VN-0002, in the same sitting.",
+  "researchNotes": "Identified by Larry's son (giscus comment, 2026-08-13, discussion #30): 'Left: Larry Hunnewell / Right: Ron Tototz' — confirming the pair matches VN-0002, where Larry identified the same two men himself ('Left is me / Right: Ron Tototz'). The date carries over from Larry's dating of VN-0002 ('been there at least 6 months, guessing Feb or March'). Family-member comments are deliberately not archived as recollections; this identification lives here in the catalog record instead.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0002", "vn-0003"],
+  "sources": []
 }
