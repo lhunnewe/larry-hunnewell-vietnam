@@ -34,6 +34,17 @@ Lucille Totosz, d. 2024, Worth IL. A **living Michael Totosz** has a public X/Tw
 account — outreach candidate per issue #23 (keep living-person details out of the repo;
 no addresses).
 
+**How to order the obituary from DMPL** (procedure confirmed 2026-08-16,
+dmpl.org/research/local-history-genealogy/premium-research-services): single obituary
+**$10** including research, printing, and postage; **call (515) 283-4152** and pay by
+credit card, or mail the Obituary Request Form (PDF on that page) with payment to DMPL,
+1000 Grand Ave, Des Moines, IA 50309, Attn: Reference Dept. Results within **10 business
+days**; payment in advance, non-refundable. Give them the exact citation we already
+have: *Ronald E. Totosz, obituary, Des Moines Register, August 18, 2004, Metro section,
+page 7, column 5* (died August 12, 2004). Free alternatives: in-person microfilm at the
+Central Library (printing cost only), the Register digital archive with a DMPL card, or
+newspapers.com.
+
 **Next steps:** (1) obtain the Aug 18, 2004 Register obituary text (DMPL copy service or
 newspapers.com); (2) if it confirms Vietnam service, update data/people/ron-tototz.json
 and decide with the family how/whether to tell Larry (the 2004 date will be news to him —
