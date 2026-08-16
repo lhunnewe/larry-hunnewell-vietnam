@@ -7,7 +7,11 @@
 
 The 2026-08-09 vision survey read the lettering on the pilot's helmet visor cover as
 approximately **"ESTES"** (uncertain machine reading, flagged for magnification). That does
-not match "Lewis." Possible reconciliations, none established:
+not match "Lewis." **Magnification pass 2026-08-15**
+(research/magnification/vn-0016-helmet-lettering.png): the lettering is partially occluded
+by the visor lift knob — "ES…"-like strokes left of the knob and a clear final "S"; the
+reading stays **consistent with ESTES but not conclusive**. Possible reconciliations, none
+established:
 
 1. The machine reading is wrong — five low-contrast letters on a curved visor cover; a
    magnified pass on the original scan should come first.

@@ -50,9 +50,10 @@ Open questions:
    *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
    officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
    described him (late 50s, long service, reputation as a great pilot), and fixed his role:
-   the man Larry called for the Rosethorn 007 helicopter. One tension: the vision survey
-   tentatively read that officer's name tape as possibly beginning 'J' — magnification of
-   the original scan should settle it.*
+   the man Larry called for the Rosethorn 007 helicopter. Magnification pass 2026-08-15:
+   the 'J' name-tape tension is resolved — that tape is the U.S. ARMY tape below aviator
+   wings; his own name tape is hidden. Further notes (not for rendered fields):
+   research/people/captain-guegler.md.*
 6. **Bombs jettisoned at sea** — separate documented procedure, ROE, aborted missions, political
    restriction, and rumor.
 7. **The Japan medical command** — **largely answered by Larry himself (call, 2026-08-12):**
