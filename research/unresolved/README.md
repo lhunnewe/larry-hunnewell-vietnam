@@ -152,7 +152,10 @@ Open questions:
     in the full 58,220-record DCAS file checked; no Nebraska serviceman and no medic
     drowned in-country during Larry's tour window. Near-misses and possible explanations
     (home-of-record mismatch, "medic" as gloss, date drift) in the research file; three
-    disambiguating questions added to the breakfast guide.*
+    disambiguating questions added to the breakfast guide. Browser follow-up same day:
+    the last location-plausible candidate (Sgt Gilbert Smith Jr., 101st) is ruled out —
+    Coffelt detail places his drowning in the Song Ba river near An Khe. Every in-window
+    drowning is now located; none at Nha Trang.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
@@ -160,12 +163,15 @@ Open questions:
     Totowicz) is likely faster than the court-martial and morning-report paths, which stay
     open. His obituary would also likely confirm service details and survivors to contact.
     *2026-08-16 first pass (issue #58, research/people/ron-tototz-search.md): VA National
-    Gravesite Locator queried programmatically for Ron/Ronald with surnames beginning
-    Tot-, Tut-, Tat-, Tok- — no Iowa burial matches; open-web obituary sweeps on a dozen
-    spelling variants also negative. Find a Grave, Legacy.com, and iowagravestones.org all
-    block non-browser clients — the next pass needs a browser session (or the Des Moines
-    Register archive via a library). New spelling candidate worth trying then: Tokarz
-    (TOH-karts). Negative so far ≠ dead end: he may rest in a private cemetery.*
+    Gravesite Locator and open-web sweeps negative; blocked sites noted.*
+    ***2026-08-16 second pass (browser session): HIGH-CONFIDENCE IDENTIFICATION — Ronald
+    E. Totosz, 10 Oct 1941 – 12 Aug 2004, Chapel Hill Gardens mausoleum, Des Moines (Find
+    a Grave 190642286), shared niche with wife Okhe Totosz (1940–2020). Only Ronald of
+    this rare surname anywhere; Des Moines; age fits a 1964 PFC. Discrepancy: died 2004,
+    not "about ten years ago." Confirmation step: his Des Moines Register obituary — Aug
+    18, 2004, Metro p. 7 col. 5 (DMPL newspaper index) — should carry Vietnam service and
+    survivors; DMPL sends copies for a fee. Do NOT raise the name spelling or the 2004
+    date with Larry until confirmed. Details: research/people/ron-tototz-search.md.*
 16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
     leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a

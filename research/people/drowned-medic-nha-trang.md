@@ -28,9 +28,12 @@ below so the search is not repeated; interview follow-ups added to the breakfast
      Forces, 13 Dec 1964 — but his detachment was A1-112 at **Gia Vực** (Quảng Ngãi), not
      Nha Trang; SP4 Norman Elliott Jr. (VA) 20 Feb 1965; SP4 Moon Wai Lock (WA) 28 Jun
      1965; PO3 Daryl Keen (CA, Navy) 16 Jul 1965; Sgt Gilbert Smith Jr. (FL), 101st Abn,
-     24 Aug 1965 — the 101st's 1st Bde was in the Cam Ranh/Nha Trang area from Jul 1965,
-     making Smith the only candidate with a plausible **location**, but he fails the
-     Nebraska and medic anchors and the record gives no MOS.
+     24 Aug 1965 — initially the only candidate with a plausible location (the 101st's
+     1st Bde was in the Cam Ranh/Nha Trang area from Jul 1965). **RULED OUT 2026-08-16
+     (browser session):** his Coffelt Database detail record (B Co, 2nd Bn, 327th Inf,
+     101st Abn; casualty codes C3-J-7) gives the event as "DROWNED WHILE SWIMMING IN SONG
+     BA RIVER 2 KM NORTH-NORTHWEST OF **AN KHE** 24AUG65" — Bình Định Province, not Nha
+     Trang. **Every drowning in Larry's window is now located; none was at Nha Trang.**
 
 ## Possible explanations (all open)
 

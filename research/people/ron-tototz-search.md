@@ -1,4 +1,49 @@
-# Ron Tototz — identity search record (2026-08-16, first pass)
+# Ron Tototz — identity search record (2026-08-16)
+
+## SECOND PASS (browser session, same day): HIGH-CONFIDENCE IDENTIFICATION
+
+**Ronald E. Totosz, born 10 Oct 1941, died 12 Aug 2004 (aged 62), interred Chapel Hill
+Gardens (mausoleum), Des Moines, Polk County, Iowa** — Find a Grave memorial
+**190642286** (findagrave.com/memorial/190642286/ronald-e-totosz, created 16 Jun 2018 by
+"Katie Lou"; niche photo added 11 Apr 2022). Shared niche with his wife **Okhe Totosz,
+1940–2020** (an unusual given name, possibly Korean). The niche holds a faded framed
+portrait (young man in suit — likely wedding photo) and a dog-themed frame (Sheltie).
+
+**Why high confidence:** "Totosz" was already one of the issue's predicted spellings for
+Larry's phonetic "Tototz"; the surname is vanishingly rare nationwide; this is the only
+Ronald of the name anywhere, he is **in Des Moines**, and born 1941 — a 23-year-old PFC
+in 1964–65, right beside Larry's age. **The one discrepancy:** he died in **2004**, not
+"about ten years ago" (~2016) as Larry said in 2026 — a 22-year gap, but time-since
+estimates are the least reliable part of recollection; every hard anchor (name, city,
+Polish, age) matches.
+
+**Documentary anchor found:** Des Moines Public Library newspaper index
+(engagedpatrons.org/database/DesMoinesNewspapers/) lists **"Totosz, Ronald E (Obituary),
+Des Moines Register, Aug 18, 2004, Metro section, p. 7, col. 5."** Also indexed: "Totosz,
+Irene (Obituary)," Register, Mar 30, 1983 (possibly his mother). **The obituary text is
+the confirmation step** — it should carry Army/Vietnam service and survivors. DMPL sends
+article copies for a fee (dmpl.org, "Newspaper, Magazine, and Other Indexes" page), or
+full text is in the Register digital archive/microfilm.
+
+**Family constellation (rare-surname sweep):** Norbert Stanley Totosz, 1935–2023,
+**Omaha, Nebraska** (echovita obituary: predeceased by wife Naomi, father John (Bernice),
+siblings John (Linda), Patricia La Desma, Carol; survived by siblings Thomas (Helen),
+Leona Cowtrill (Mike), Alfred — Ronald not named, so Ron may be a cousin branch or an
+omission); John F. Totosz, d. 2019, Issaquah WA (flintofts.com, Cloudflare-gated);
+Lucille Totosz, d. 2024, Worth IL. A **living Michael Totosz** has a public X/Twitter
+account — outreach candidate per issue #23 (keep living-person details out of the repo;
+no addresses).
+
+**Next steps:** (1) obtain the Aug 18, 2004 Register obituary text (DMPL copy service or
+newspapers.com); (2) if it confirms Vietnam service, update data/people/ron-tototz.json
+and decide with the family how/whether to tell Larry (the 2004 date will be news to him —
+handle gently, don't correct his "ten years ago" memory); (3) family outreach per #23
+with the VN-0022 beach photo. Note for interviewers: do NOT mention the 2004 date or the
+name spelling to Larry until the obituary confirms service.
+
+---
+
+## FIRST PASS (same day, pre-browser) — kept for the record
 
 Anchors (Larry, 2026-08-15): bunk mate, Polish, from **Des Moines, Iowa**, died "about ten
 years ago" (~2013–2019). "Tototz" is phonetic. Vietnam 1964–65, same unit as Larry,
