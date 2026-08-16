@@ -22,6 +22,37 @@ would unlock the most (see "blocked by resolution" below).
 | VN-0027 skyline stencils | CONEX shipping placards; unreadable. |
 | VN-0020 red cowl placard | Standard warning/data panel; lettering unreadable. |
 
+## Second pass — VN-0012 tail emblem vs. documented 1964–65 unit art (2026-08-16)
+
+Comparison work for issues #10/#20, from unit-history sources (no new image processing).
+Candidate readings for the silhouette (rounded head/body; straight horizontal bar; long
+tapering element sweeping up-right; zigzag descending element at lower left), ranked:
+
+1. **UTT/68th "Playboys" bunny — new leading candidate.** The UTT Helicopter Company
+   (→ 68th AHC Aug 1964, → 197th Mar 1965) flew UH-1Bs **from Tan Son Nhut** — Larry's
+   own field — and its 1st Platoon "Playboys" demonstrably painted the Playboy emblem on
+   their aircraft (pilot testimony via 145thcab.com/ochf.wordpress.com; the Easy Model kit
+   36910 depicts a "UH-1B, UTT, Tan Son Nhut 1964"). At 2–6 px the bunny head reads as a
+   rounded blob, the two ears merge into one long tapering spike up-right, and the bow tie
+   gives the straight horizontal bar. Weakness: nothing in the logo explains the zigzag at
+   lower left (unless it is a separate lightning flash or shadow).
+2. **Stylized thunderbird + lightning (the first-pass reading; 118th hypothesis).**
+   Explains the horizontal wing-bar, central body, and the zigzag — but not the long spike
+   up-right. New friction: the 118th's documented aircraft ID scheme was an alphanumeric
+   **"P" + two digits painted on the stabilizer** (118ahc.org via search index), and no
+   source found describes a thunderbird painted on 118th tail fins in 1964–65. Also the
+   118th lived at Bien Hoa; VN-0012's neighbor aircraft more likely belongs to a Tan Son
+   Nhut unit.
+3. **Insect (bee/hornet/wasp) profile** — body + horizontal wings + long stinger + jagged
+   legs fits the shape well, but no Saigon-area 1964–65 unit with insect tail art was
+   found (the 116th "Hornets" arrived later and went to Cu Chi). Parked for now.
+4. **Boar's head (120th "Razorbacks")** — the 120th was at Tan Son Nhut, but its
+   documented Razorbacks material begins 1966, and the shape match is weakest.
+
+Actionable next: find a period photo of a UTT/68th UH-1B tail (model-kit references,
+68thahc.com if it exists, TSNA photo pages) and compare directly; ask Larry the open
+flight-line question in the interview guide (do NOT describe any emblem to him).
+
 ## Blocked by resolution — the re-scan case
 
 VN-0014's patch lettering, VN-0009's inscriptions, and both VN-0020 name tapes would all

@@ -103,7 +103,12 @@ answer would unlock. Full per-photo question lists live in the observation recor
   name? What became of him?"
 - [x] **The beach** — **ANSWERED 2026-08-15**: Nha Trang, beach hut #3 or #4 (VN-0021,
   VN-0022). Follow-ups: "The medic from Nebraska who went out into the water — do you
-  remember his name, or when it happened? Were you there that day?"
+  remember his name, or when it happened? Were you there that day? Was he Army, or a Navy
+  man? Was it during your first weeks at Nha Trang in '64, or a later trip back?"
+  *(Why the extra questions: a full sweep of the official casualty file — issue #61,
+  2026-08-16 — found NO Nebraska serviceman and NO medic drowned in Vietnam during his
+  tour window. His answers decide which anchor to relax before re-searching. Don't read
+  him any of the near-miss names.)*
 - [x] **The pool** — **ANSWERED 2026-08-15** (VN-0004/VN-0005): "French Swimming pool in
   cholon, Chinese district of Saigon." Still open for VN-0075/VN-0083: same pool?
 - [ ] **The town** — VN-0055 ("CHERRY" bar sign): "Is this Tây Ninh, under the mountain?"
@@ -165,6 +170,11 @@ answer would unlock. Full per-photo question lists live in the observation recor
   you go on many patrols with Captain Kennedy?"
 - [ ] **PFC Zekeowski** — VN-0027: "How do you spell Zekeowski, best guess? What was his
   first name? What did he do?"
+- [ ] **The battalion and the flight line neighbors** — with VN-0012 and VN-0020 on the
+  table: "Do you remember which battalion your company belonged to? What other helicopter
+  outfits flew out of Tan Son Nhut — how were their aircraft marked?" (Open questions only —
+  do NOT name any unit or describe any emblem to him; the candidate readings live in
+  research/units/flight-following-1964-65.md and research/magnification/README.md.)
 
 ## Hold for the right moment (not breakfast material)
 

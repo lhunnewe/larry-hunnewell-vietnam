@@ -31,6 +31,18 @@ Open questions:
    the radio van (VN-0015), and from the mountain both FM nets ran to "Saigon center" with
    Larry "the only annex of it" (VN-0059). A Saigon-centered flight-following net again
    weights the Saigon-based candidates over Bien Hoa.*
+   *2026-08-16 deep dive (research/units/flight-following-1964-65.md, issue #57): "AOD"
+   turns out to be real period vocabulary — Army air traffic control began 1956 as the
+   "Army Aviation Operation Detachment (AAOD)," so the family's "Aviation Operations
+   Detachment" no longer needs the "AML misheard" resolution. The later 125th ATC Company
+   (HQ Tan Son Nhut, "flight following for all US Army Aviation," FM nets, mountain relay
+   sites) is the institutional successor of exactly Larry's described job — but did not
+   exist in-country in 1964–65, putting his net in the same pre-1966 documentation gap as
+   the Núi Bà Đen relay. "Saigon center" is assessed as the Army FM flight-following
+   center at Tan Son Nhut — NOT the USAF "Paris Control" GCI site (radar, UHF/VHF,
+   fixed-wing) — with HHC, 145th Aviation Battalion (HQ at Tan Son Nhut through Larry's
+   whole tour) the strongest institutional candidate. Decisive documents: 145th Avn Bn
+   ORLLs 1964–65 and HHC morning reports.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -135,15 +147,25 @@ Open questions:
     yet). Person records exist for all.
 14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
     Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
-    Strongly findable: non-hostile casualty records carry home state and cause of death —
-    search Nebraska + drowning + Nha Trang, window late 1964 through 1965. Recovering his
-    name would also help date the beach photo series.
+    *2026-08-16 (issue #61, research/people/drowned-medic-nha-trang.md): comprehensive
+    NEGATIVE against the official record — all 399 Nebraska casualties and every drowning
+    in the full 58,220-record DCAS file checked; no Nebraska serviceman and no medic
+    drowned in-country during Larry's tour window. Near-misses and possible explanations
+    (home-of-record mismatch, "medic" as gloss, date drift) in the research file; three
+    disambiguating questions added to the breakfast guide.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
     Vietnam veteran matching the 'Tototz' phonetic (candidates: Totos, Totosz, Totusz,
     Totowicz) is likely faster than the court-martial and morning-report paths, which stay
     open. His obituary would also likely confirm service details and survivors to contact.
+    *2026-08-16 first pass (issue #58, research/people/ron-tototz-search.md): VA National
+    Gravesite Locator queried programmatically for Ron/Ronald with surnames beginning
+    Tot-, Tut-, Tat-, Tok- — no Iowa burial matches; open-web obituary sweeps on a dozen
+    spelling variants also negative. Find a Grave, Legacy.com, and iowagravestones.org all
+    block non-browser clients — the next pass needs a browser session (or the Des Moines
+    Register archive via a library). New spelling candidate worth trying then: Tokarz
+    (TOH-karts). Negative so far ≠ dead end: he may rest in a private cemetery.*
 16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
     leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
