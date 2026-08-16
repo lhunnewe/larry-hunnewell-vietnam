@@ -20,6 +20,10 @@ trial, images cited below):
    Irene Totosz"), and **Irene Totosz** then appears in the DMPL index dying in Des
    Moines (Register obituary, Mar 30, 1983) — very likely Ron's mother.
 
+**Permanent clippings** saved on the family's newspapers.com account (2026-08-16;
+clippings stay publicly viewable after the trial ends): enlistment item clip 203981003;
+obituary p. 7 clip 203981098; obituary p. 25 clip 203981158.
+
 **Full obituary transcription** (*Des Moines Register*, Wed Aug 18, 2004 — runs
 identically on Metro p. 7 and obituaries p. 25; images 130714050 and 131380041; includes
 a portrait photo of Ron in later life, glasses and mustache):

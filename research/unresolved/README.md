@@ -12,6 +12,18 @@ Open questions:
    documentary-plausible; search window widened to ~Aug–Nov 1965 (separated 30 Nov 65). Call
    of 2026-08-12: he arrived in Japan ~early September as a medevac patient, so the likely
    window is Sept–Nov 1965 and he may have seen the paper in the hospital ward — ask.*
+   *2026-08-16 (newspapers.com pass, family trial): Pacific Stars and Stripes is NOT on
+   newspapers.com — the misreport itself needs NewspaperArchive.com or the Stars and
+   Stripes archive. Hometown-echo search run and NEGATIVE: no "Larry Hunnewell" /
+   "Larry D. Hunnewell" / Pfc-Pvt variants anywhere in California papers 1963–66, and the
+   LA Times 1965 is indexed there (so its silence is a real negative). Key gap found: the
+   Inglewood Daily News — the paper that would have carried an Inglewood soldier's
+   induction or a "reported dead, is alive" correction — is not digitized on
+   newspapers.com at all (microfilm at Inglewood Public Library / CA State Library is the
+   lead). Family-history strays worth keeping: "Hunnewell of Inglewood" items in the Inyo
+   Register / Owens Valley papers (Mar–Apr 1949) and the South Gate Press (Sep 1, 1957) —
+   possibly Larry's extended family; the Bishop/Owens Valley Hunnewell cluster may be
+   relatives. Larry's 1962–65 home: 8815 12th Avenue, Inglewood (family, 2026-08-16).*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
