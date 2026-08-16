@@ -3,5 +3,10 @@
   "recorded": "2026-08-15",
   "provenance": "giscus comment by @kawaputt-rgb on the stories page; discussion #32; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/32#discussioncomment-18033934",
   "text": "Ronnie Tototz passed away about ten years ago. \n---\nRosie, one of Vietnamese girls at the club who worked at the door.  She made it to America. Don't have pictures of her.",
-  "fidelity": "verbatim"
+  "fidelity": "verbatim",
+  "researchNotes": "Two research anchors in one comment: Ron Tototz died about ten years ago (~2013–2019) — with Des Moines, Iowa (VN-0025 comment) this makes an obituary search the leading path to his real surname — and Rosie, the club doorkeeper who made it to America, enters the archive (data/people/rosie.json). Which club, and how Larry knows she made it, are interview goals.",
+  "relatedPeople": [
+    "ron-tototz",
+    "rosie"
+  ]
 }
