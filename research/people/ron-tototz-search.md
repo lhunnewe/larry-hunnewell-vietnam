@@ -1,5 +1,54 @@
 # Ron Tototz — identity search record (2026-08-16)
 
+## THIRD PASS (newspapers.com, same day): IDENTIFICATION CONFIRMED — ARMY, DES MOINES
+
+Both remaining questions answered from the Register's own pages (newspapers.com, 5-day
+trial, images cited below):
+
+1. **Army service confirmed.** *Des Moines Register*, Fri **Nov 2, 1962**, p. 23, "In
+   Armed Forces" — twenty-five enlistments reported by the Des Moines recruiting
+   stations, ARMY list: "**Ronald E. Totosz, 21, of 1211 Merle Hay Road**" (Des Moines).
+   A standard 3-year RA enlistment Nov 1962 → Nov 1965 brackets Larry's Sep 1964 – Sep
+   1965 Vietnam tour exactly — and matches Larry's own separation (30 Nov 65) almost to
+   the month, consistent with same-cohort bunk mates. Image:
+   newspapers.com/image/129134885 (match term "Ronald Totosz").
+2. **"From Des Moines" confirmed.** All 15 "Ronald Totosz" newspaper hits nationwide are
+   Des Moines papers, 1959–2005 — he was in Des Moines by his teens (Register, Jun 4,
+   1959, p. 3, not yet read). The Chicago birth resolves via the family's move: a
+   Tribune death notice (Jul 19, 1964, p. 39, image 376257813) places the Totosz family
+   in Calumet City, Ill. ("William Swiatkowski... fond brother of Theodore, Fred, and
+   Irene Totosz"), and **Irene Totosz** then appears in the DMPL index dying in Des
+   Moines (Register obituary, Mar 30, 1983) — very likely Ron's mother.
+
+**Full obituary transcription** (*Des Moines Register*, Wed Aug 18, 2004 — runs
+identically on Metro p. 7 and obituaries p. 25; images 130714050 and 131380041; includes
+a portrait photo of Ron in later life, glasses and mustache):
+
+> RONALD E. TOTOSZ, Ankeny — Ronald E. Totosz, 62, died August 12, 2004 of a brain tumor
+> at Taylor House Hospice. Memorial services will be 11 a.m. Friday, August 20 at Iowa
+> Methodist Hospital Chapel, with burial at Merle Hay Mausoleum. Ronald was born October
+> 10, 1941 in Chicago, IL. He worked as a bio tech at Iowa Methodist Hospital for 25
+> years. He is survived by his wife, Okhe Totosz; daughter, Nina (Tony) Xiong of Austin,
+> TX; grandson, Anthony Xiong; brother, Frank (Judith) Totosz Jr. of Frankfort, IL; and
+> sisters, Alice Totosz of Des Moines and Virginia (Bernard) Janssen of Eddyville. He was
+> preceded in death by his parents. Memorial contributions may be made to Blank
+> Children's Hospital. — Merle Hay at Chapel Hill
+
+Notes: the obituary itself does not mention military service (common). He enlisted from
+1211 **Merle Hay Road** in 1962 and was interred on the same road 42 years later. Wife
+Okhe's name and daughter's married surname (Xiong) suggest an Asian-American family
+thread — no inference recorded beyond the names as printed. Survivors (as printed in the
+2004 public obituary) are the outreach path for issue #23 — likely living; keep contact
+details out of the repo. Not yet read (color for a future pass): Register Jun 4 1959
+p. 3; Des Moines Tribune Feb 9 1976 p. 9; Register Apr 11 1984 (×2), Apr 9 1993, May 27
+and Dec 2 2005.
+
+**Remaining softness:** nothing yet places him *in Vietnam or in Larry's unit* — that
+corroboration comes from NPRC morning reports once the unit settles (#57/#10), or from
+family photographs/letters if outreach succeeds. For archive purposes the identification
+is otherwise complete: unique name nationwide, Des Moines, Polish family, Army enlistee
+on Larry's exact timeline, died Des Moines 2004.
+
 ## SECOND PASS (browser session, same day): HIGH-CONFIDENCE IDENTIFICATION
 
 **Ronald E. Totosz, born 10 Oct 1941, died 12 Aug 2004 (aged 62), interred Chapel Hill

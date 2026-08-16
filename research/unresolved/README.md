@@ -164,14 +164,19 @@ Open questions:
     open. His obituary would also likely confirm service details and survivors to contact.
     *2026-08-16 first pass (issue #58, research/people/ron-tototz-search.md): VA National
     Gravesite Locator and open-web sweeps negative; blocked sites noted.*
-    ***2026-08-16 second pass (browser session): HIGH-CONFIDENCE IDENTIFICATION — Ronald
-    E. Totosz, 10 Oct 1941 – 12 Aug 2004, Chapel Hill Gardens mausoleum, Des Moines (Find
-    a Grave 190642286), shared niche with wife Okhe Totosz (1940–2020). Only Ronald of
-    this rare surname anywhere; Des Moines; age fits a 1964 PFC. Discrepancy: died 2004,
-    not "about ten years ago." Confirmation step: his Des Moines Register obituary — Aug
-    18, 2004, Metro p. 7 col. 5 (DMPL newspaper index) — should carry Vietnam service and
-    survivors; DMPL sends copies for a fee. Do NOT raise the name spelling or the 2004
-    date with Larry until confirmed. Details: research/people/ron-tototz-search.md.*
+    ***2026-08-16, CONFIRMED (three passes in one day — full record in
+    research/people/ron-tototz-search.md): Ronald E. Totosz, 10 Oct 1941 (Chicago) –
+    12 Aug 2004 (Des Moines), of Ankeny; interred Merle Hay mausoleum / Chapel Hill
+    Gardens, shared niche with wife Okhe Totosz (1940–2020); Find a Grave 190642286.
+    ARMY ENLISTMENT CONFIRMED: Des Moines Register, Nov 2, 1962, p. 23 — "Ronald E.
+    Totosz, 21, of 1211 Merle Hay Road" among the day's Army enlistments; a 3-year term
+    from Nov 1962 brackets Larry's tour exactly. Register obituary of Aug 18, 2004
+    transcribed (no service line; survivors listed — the #23 outreach path, incl. a
+    living Michael Totosz on X). "From Des Moines" verified: all 15 nationwide "Ronald
+    Totosz" newspaper hits are Des Moines papers, 1959–2005. One memory discrepancy
+    stands: he died 2004, not "about ten years ago" — the family judges this won't be
+    news to Larry. Last corroboration step (Vietnam/unit-level): NPRC morning reports
+    once the unit settles, or family materials via outreach.*
 16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
     leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
