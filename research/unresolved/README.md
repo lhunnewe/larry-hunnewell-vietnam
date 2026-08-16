@@ -26,10 +26,18 @@ Open questions:
    lived at Bien Hoa — not Tân Sơn Nhứt where Larry places his HQ — so a Saigon-based
    alternative (145th Avn Bn HQ, or the UTT/68th at Tan Son Nhut) needs equal weight.
    Leads: company clerk Martin Lehotay (DROS '65), the 118th Facebook group, 145thcab.com.*
+   *2026-08-15: Larry's own words firmed the job picture — "these two guys are flight
+   controllers. I was a flight controller also" (VN-0011), twelve-hour night shifts alone in
+   the radio van (VN-0015), and from the mountain both FM nets ran to "Saigon center" with
+   Larry "the only annex of it" (VN-0059). A Saigon-centered flight-following net again
+   weights the Saigon-based candidates over Bien Hoa.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
-   Núi Bà Đen — further supporting Tân Sơn Nhứt.*
+   Núi Bà Đen — further supporting Tân Sơn Nhứt.* *2026-08-15: the bathroom-shooting
+   account adds "Tah San hut headquarters company" (yet another phonetic rendering) and the
+   detail that AIR FORCE police responded — exactly what one would expect at Tân Sơn Nhứt,
+   a shared air base with USAF security police.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
@@ -39,6 +47,12 @@ Open questions:
    1 officer, 5 enlisted — in October 1964, so "the only one there from Special Forces that
    day" is entirely consistent with the documented garrison.*
 5. **Captain "Guegler"** — spelling, identity, and possible connection to the KIA report.
+   *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
+   officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
+   described him (late 50s, long service, reputation as a great pilot), and fixed his role:
+   the man Larry called for the Rosethorn 007 helicopter. One tension: the vision survey
+   tentatively read that officer's name tape as possibly beginning 'J' — magnification of
+   the original scan should settle it.*
 6. **Bombs jettisoned at sea** — separate documented procedure, ROE, aborted missions, political
    restriction, and rumor.
 7. **The Japan medical command** — **largely answered by Larry himself (call, 2026-08-12):**
@@ -58,11 +72,16 @@ Open questions:
    the final documentary step.*
 8. **Sgt. "Chapman"** — a sergeant Larry named in the 2026-08-12 call; believed separate from
    Lowry/Lowery, and the comment arose around basic training. Confirm who he was and where
-   basic training took place (`data/people/sgt-chapman.json`).
-9. **The two friends** — the man at the beach table (VN-0022) and the man in the Japan photos
-   (VN-0093, VN-0095) are now treated as **two different people**: a Vietnam friend and a
-   Japan hospital friend "from back east" (name not remembered). Confirm with Larry side by
-   side; get a story about the beach person.
+   basic training took place (`data/people/sgt-chapman.json`). *2026-08-15: substantially
+   revised — Larry identified Chapman in VN-0024, photographed beside him in Vietnam, "a
+   rank E7." The basic-training association now needs reconciling with Larry (knew him in
+   both places, or only in-country?).*
+9. **The two friends** — *half resolved 2026-08-15:* the man at the beach table (VN-0022)
+   is **Ron Tototz** — "Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang." The
+   Japan hospital friend (VN-0093, VN-0095), "from back east," remains unnamed. A NEW
+   unnamed friend took the beach man's place as the archive's most-wanted name: the man at
+   left in VN-0005 (Cholon pool), whom Larry "knew really well" and who is the guitarist of
+   the VN-0003/VN-0007/VN-0008 sessions.
 10. **The "450 civilians" day** (from the 2026-08-13 Tell a Story comments) — did an
     incident occur? Leads: the call signs as unit identifiers (Body Jab 42 = the SF camp;
     Rosethorn = his command's aviation call sign — either could also settle #2), strike and
@@ -84,10 +103,54 @@ Open questions:
     it would date the incident and recover the real surname of his bunk mate and witness
     **Ron Tototz** (spelling phonetic). Note: the earlier family memory was of a knife
     (data/recollections/2026-brief-bathroom-knife.json); discrepancy preserved.
+    *2026-08-15: the full account arrived (giscus-stories-c18035411.json; timeline entry
+    1965-02-bathroom-shooting.json) and multiplied the record paths: the victim was SHOT IN
+    THE CHEST in the shower (a wounding → hospital admission records); the gunman, drunk,
+    aimed at Larry before passing out; **Sgt. Weaver (E5)** responded; **Air Force police**
+    took Larry's statement (security-police blotters at Tân Sơn Nhứt are a second
+    documentary path); and Larry heard the sentence was 20 years hard labor, imprisoned in
+    Okinawa — consistent with period confinement practice, and with his 2026-08-13
+    court-martial expectation. Shooter was from a different company/unit; shooter reportedly
+    knew the victim; Larry did not know the man showering.*
 12. **New names from the photo comments (2026-08-13)** — Kahn (company secretary, VN-0003),
     Major "Schwartzkoff" (VN-0006 — hypotheses in research/people/major-schwartzkoff.md,
     not to be mentioned to Larry), the Australian captain (VN-0006, AATTV lead), and a
     tentative Captain Kennedy from Boston (VN-0006). Verify spellings and identities via
     unit rosters once the unit is settled. *Sweep note: the famous-name hypothesis for the
     major is now assessed unlikely (he is documented in II Corps from July 1965); no AATTV
-    posting to Tây Ninh in 1964–65 appears in the partial published rolls.*
+    posting to Tây Ninh in 1964–65 appears in the partial published rolls.* *2026-08-15:
+    Kennedy strengthened considerably — he took VN-0023 (Larry on patrol) with his Nikon F
+    and developed his film in Hawaii, placing him physically on patrol with Larry.*
+13. **New names from the 2026-08-15 session** — **Sgt. Weaver** (ex-Marine, VN-0014 — the
+    'WE...' name tape read by the survey now confirmed; bathroom-shooting witness),
+    **PFC Jones** (VN-0012 believed, VN-0020; one Jones or two? — the monkey may have
+    belonged to "Jones, the helicopter pilot"), **Mike Patrick** (VN-0010 — full name;
+    ranger, "special operations group for MACV," called a ghost/spook; MACV-SOG lead),
+    **Major Lewis** (VN-0016, pilot of Rosethorn 007 — identity notes in
+    research/people/major-lewis.md), **Parr** (VN-0025, PFC, Nha Trang with Larry),
+    **PFC "Zekeowski"** (VN-0027, phonetic Zee-Cow-Ski, from Newark NJ),
+    **PFC Stanton** (VN-0026 — explicitly a guess), **Rosie** (club doorkeeper who made it
+    to America), and **Sgt. "La Franceaous"** (phonetic Fran-Swas, no photos, no context
+    yet). Person records exist for all.
+14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
+    Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
+    Strongly findable: non-hostile casualty records carry home state and cause of death —
+    search Nebraska + drowning + Nha Trang, window late 1964 through 1965. Recovering his
+    name would also help date the beach photo series.
+15. **Ron Tototz's real identity** — now the archive's most promising person-search.
+    Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
+    **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
+    Vietnam veteran matching the 'Tototz' phonetic (candidates: Totos, Totosz, Totusz,
+    Totowicz) is likely faster than the court-martial and morning-report paths, which stay
+    open. His obituary would also likely confirm service details and survivors to contact.
+16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
+    leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
+    recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
+    rotating search antenna in the boulders — a documentable installation (USAF records)
+    that could date the photos and corroborate the site.
+17. **The Pathet Lao prisoner** (VN-0023 comments, 2026-08-15) — a prisoner captured on a
+    patrol Larry accompanied, described as Pathet Lao ("pasthic Lao"), turned over to the
+    CIA. A Laotian communist prisoner near Tây Ninh handed to the CIA would be remarkable
+    and potentially documented (CIDG/SF after-action reports, agency records). Also from
+    those comments: "70% of strikers were enemy" — matching documented CIDG infiltration
+    concerns at Núi Bà Đen-era camps.

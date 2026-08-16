@@ -14,6 +14,17 @@ The returned OMPF/DD-214 names his unit(s), which unlocks the morning-report
 requests tracked in #27. Completed drafts and returned documents land in this folder;
 anything citable becomes a record in `data/sources/`.
 
+**Status 2026-08-15 — ready to mail.** The draft was printed and Larry signed it, hand-filling
+SSN, date of birth, and place of birth. The same day, a clear scan of the DD-214 plus the 2015
+VA rating decision letter (private archive) supplied everything that was still "Unknown":
+service number, exact induction/separation dates, last duty station (MHD, USA Med Comd —
+Camp Zama), separation year for the DD-214 request, and the VA file number for item 9. A fully
+filled v2 of the form lives at `private/documents/records-requests/standard-form-180-DRAFT-v2.pdf`
+(gitignored — it contains SSN/DOB), and `private/notes/sf180-hand-copy-values.md` lists the
+exact values to hand-write onto the signed copy. **No new signature is needed** for
+hand-written additions to the already-signed form; only a reprinted form would need re-signing
+(NPRC requires an original ink signature). Findings from the clear scan: `dd214-findings.md`.
+
 **Add to the request — the hospital clinical records** (research of 2026-08-12,
 `research/places/japan-hospital-1965.md`): clinical (inpatient) records are filed at NPRC
 **by treating hospital**, separately from the personnel file, and were untouched by the 1973

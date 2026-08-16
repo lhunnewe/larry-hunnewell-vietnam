@@ -2,8 +2,15 @@
   "photoId": "VN-0004",
   "originalFilename": "1920236-R1-E022.jpg",
   "originalPath": "Group Photos with Unit/1920236-R1-E022.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Ron Tototz at the Cholon pool",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "cholon",
+  "people": ["ron-tototz"],
+  "description": "Ron Tototz stands in swim trunks on the patterned tile deck of the French swimming pool in Cholon, the Chinese district of Saigon. Behind him a door carries FIRST AID and PRIVATE KEEP OUT signs; an older, tanned man — \"just a person there,\" per Larry — reads in an aluminum lawn chair at right. Same visit as VN-0005.",
+  "larrysRecollection": "Ronnie Tototz standing at swimming pool in Cholon",
+  "researchNotes": "Identification relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0004-c18035138.json). The place — the French swimming pool in Cholon — comes from Larry's fuller comment on VN-0005, the companion frame. The standing man matches the recurring dark-haired soldier of VN-0001/VN-0002, consistent with the Ron identification in those frames.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0005", "vn-0001", "vn-0002"],
+  "sources": []
 }

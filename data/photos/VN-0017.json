@@ -2,8 +2,14 @@
   "photoId": "VN-0017",
   "originalFilename": "1920236-R3-E093.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E093.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Ron Tototz with Sarge the monkey at hooch T 123",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["ron-tototz"],
+  "description": "Ron Tototz grins in front of hooch T 123 — which Larry says has to be theirs — holding the paw of a small pet monkey named Sarge. Ron hated the monkey, which may have belonged to Jones, the helicopter pilot. The hooch gable is stenciled T 123; reed blinds screen its front, and rows of identical metal-roofed hooches run off behind.",
+  "larrysRecollection": "Ron Tototz, holding a monkey. He hated the monkey. The monkeys name was Sarge. The monkey may have belong to Jones, the helicopter pilot\n\nT 123 my father says has to be their hooch",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0017-c18035388.json and -c18035430.json). 'T 123 has to be their hooch' places Larry and Ron's quarters in a formally numbered building — a matchable datum if building registers for candidate bases (Tân Sơn Nhứt area compounds) survive; VN-0019 shows the same building. 'Jones, the helicopter pilot' vs the PFC Jones of VN-0012/VN-0020 may be one man loosely described or two different Joneses — kept open.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0019", "vn-0001", "vn-0002"],
+  "sources": []
 }

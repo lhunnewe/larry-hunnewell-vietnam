@@ -45,9 +45,12 @@ Patients evacuated from Vietnam were dropped from their combat unit and attached
 receiving facility's **medical holding detachment**, carried on the medical command's rolls
 until return to duty or separation. A last-duty line naming the medical command with the Camp
 Zama APO is exactly what a soldier separated *from patient status* would show — and it
-explains why the DD-214 never names his Vietnam unit. The illegible prefix before "USA MED
+explains why the DD-214 never names his Vietnam unit. ~~The illegible prefix before "USA MED
 COMD" is plausibly "PAT DET," "MED HOLD DET," or "HQ" — worth re-checking the photo of the
-form with these readings in mind.
+form with these readings in mind.~~ **Confirmed 2026-08-15:** a clear scan of the DD-214
+reads the prefix as "**MHD**" — Medical Holding Detachment. Larry separated from patient
+status; the inference above is now documentary
+(`research/records-request/dd214-findings.md`).
 
 ## The 1965 evacuation pipeline (for the timeline narrative)
 

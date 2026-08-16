@@ -2,8 +2,14 @@
   "photoId": "VN-0020",
   "originalFilename": "1920236-R3-E124.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E124.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Captain Guegler and PFC Jones at the Huey",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["captain-guegler", "pfc-jones"],
+  "description": "Two officers pose on a paved flight line before a UH-1 Huey while PFC Jones, in a white T-shirt, climbs in at the cargo door behind them. The officer at right, facing the camera in uniform, is the captain Larry has long remembered as \"Guegler\" — here he offered Gutler and Getler as other spellings — a man in his late fifties who had been in the military a long time and was always said to be a great pilot. The officer at left Larry can't name.",
+  "larrysRecollection": "Left: don’t remember name\n\nRight, white t-shirt is PFC Jones\n\nRight facing camera in uniform, looking at camera is Captain Gutler / Getler / Guegler\nHe was in his late 50s and was in the military a long time\n\nMy father always heard that the captain was a great pilot",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0020-c18035376.json and -c18035378.json). First photograph of Captain Guegler — previously only a remembered name (unresolved question #5). The 'great pilot' reputation and this flight-line setting fit the aviator-badged right officer the survey described. One tension to settle by magnification: the survey tentatively read the right officer's name tape as possibly beginning 'J', which sits uneasily with the Guegler/Gutler/Getler spellings. The left officer and the round red/gold shoulder patch remain identification targets.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0012", "vn-0016"],
+  "sources": []
 }

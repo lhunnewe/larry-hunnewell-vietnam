@@ -2,8 +2,16 @@
   "photoId": "VN-0010",
   "originalFilename": "1920236-R2-E058.jpg",
   "originalPath": "Group Photos with Unit/1920236-R2-E058.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Mike Patrick with the strike force in training",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": ["mike-patrick"],
+  "description": "Group photograph on the mountaintop: about a dozen Vietnamese soldiers in spotted duck-hunter camouflage — kids in training, Larry says — pose with Mike Patrick, the tall American at center with his arm around one of them. Larry thinks Patrick was a ranger with a special operations group for MACV — \"what you would call a ghost or a spook.\" The boy at bottom right holds an M1 Garand. A second American sits on the rocks at the far right edge. Far below, the Tây Ninh plain stretches to the horizon in haze.",
+  "larrysRecollection": "Mike Patrick is the guy in the center. My father thinks he was a ranger, special operations group for MACV. He was what you would call a ghost or a spook, my father says he doesn’t know why they called him this or referred to him of this.\n\nMy father said the kid in the bottom right held a m1 grande and these kids were in training",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0010-c18035161.json). Answers the survey's open question — the tall central American is Mike Patrick, not Sgt. Lowry. 'Special operations group for MACV' maps naturally onto MACV-SOG (activated January 1964), which would fit the 'ghost'/'spook' reputation; treat as a lead for rosters, not a settled unit assignment. The seated American at the right edge is unidentified — interview goal.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0006", "vn-0009"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

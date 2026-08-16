@@ -2,8 +2,14 @@
   "photoId": "VN-0029",
   "originalFilename": "1920236-R4-E156.jpg",
   "originalPath": "Group Photos with Unit/1920236-R4-E156.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry with an AR-15 aboard a helicopter",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["larry-dennis-hunnewell"],
+  "description": "Larry, wind-tossed and intent, sits inside a helicopter gripping an AR-15 upright beside him — the first time he had ever seen one, he says. The rifle belonged to someone else on the helicopter; he held it and put on an expression for the camera. His assumption is they were heading back to headquarters.",
+  "larrysRecollection": "Picture of my father.\nOn helicopter. First time seeing a ar-15.\nHolding an ar-15 is what it was called in those days. He held it and put on an expression.\nIt belonged to someone on the helicopter.\n\nAssumption is heading back to headquarters.",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0029-c18035474.json and -c18035478.json). Period detail rings true: in 1964–65 the AR-15 (as it was then called, per Larry) circulated with advisors and special-operations troops before general M16 issue — Larry's own weapon was a Thompson (VN-0013). The serious expression was posed. 'Heading back to headquarters' is Larry's stated assumption, not a memory.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0028", "vn-0016", "vn-0013"],
+  "sources": []
 }

@@ -2,8 +2,14 @@
   "photoId": "VN-0016",
   "originalFilename": "1920236-R3-E085.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E085.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Major Lewis flying Rosethorn 007",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["major-lewis"],
+  "description": "Major Lewis smiles from the pilot's seat in flight aboard Rosethorn 007, visor down, boom mic at his lips, EMERGENCY EXIT stenciled on the yellow cockpit frame beside him. Larry, photographing from a crew position, remembers marathon days aboard this aircraft — once taking off at 4 a.m., refueling at Qui Nhơn (where he bought his camera at the PX), and returning at 11 at night, rain clouds pouring down across the country.",
+  "larrysRecollection": "This is major Lewis. We are flying in Aircraft Rosethorn 007. \nOne time took off at 4am, refilled at Qui Nhon, and that where I bought my camera the PX - Post Xchange army store.\nWe flew back in about 11 pm at night. we were all over the country that day. There was rain clouds pouring down, you could rain cloud pouring down and then 15 miles miles away you see another one. ",
+  "researchNotes": "Larry's own identification (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0016-c18032603.json). First appearance of Major Lewis in the archive; identity research notes in research/people/major-lewis.md. The Qui Nhơn PX camera purchase connects to the Canon Dial 35 Larry says he bought (VN-0023 comment) — the likely source of much of this collection.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0012", "vn-0029"],
+  "sources": []
 }

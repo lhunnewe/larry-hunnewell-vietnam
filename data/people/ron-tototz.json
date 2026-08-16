@@ -1,12 +1,12 @@
 {
   "name": "Ron Tototz",
-  "aliases": ["Tototz (phonetic)"],
+  "aliases": ["Tototz (phonetic)", "Ronnie Tototz"],
   "role": "Larry's bunk mate",
   "status": "unresolved",
-  "summary": "Larry's bunk mate — \"he's Polish\" — identified by Larry in VN-0002 (right, chin on hand) and VN-0003 (left of Kahn). Ron was with Larry during the bathroom shooting incident, which Larry believes ended in a court martial for the shooter. His real surname is unknown; \"Tototz\" is a phonetic transcription of how Larry says it.",
-  "larrysRecollection": "Right: Ron Tototz. He's polish and was with me during the shooting incident in the bathroom. Ron was my bunk mate. The guy that shot would have been court martialed, there should be a record. (VN-0002 Memories comment, 2026-08-13)",
-  "researchNotes": "A findable witness if the real name can be recovered. Two document paths could yield the spelling: the court-martial record Larry expects to exist from the bathroom shooting (roughly February–March 1965 by his dating), and unit morning reports via NPRC once the unit is confirmed. Polish surname candidates to try in searches: Totos, Totosz, Totusz, Totowicz.",
+  "summary": "Larry's bunk mate and closest companion in the collection — \"he's Polish,\" from Des Moines, Iowa. He appears with Larry from the first weeks at Nha Trang (VN-0025, with Parr) through the Cholon pool outings (VN-0004, VN-0005), the beach at Nha Trang (VN-0021, VN-0022), their quarters (VN-0001, VN-0002, VN-0003), and hooch T 123 with Sarge the monkey, which he hated (VN-0017). Ron was with Larry during the bathroom shooting incident. Larry says Ron passed away about ten years ago (about 2016). His real surname is unknown; \"Tototz\" is a phonetic transcription of how Larry says it.",
+  "larrysRecollection": "Right: Ron Tototz. He's polish and was with me during the shooting incident in the bathroom. Ron was my bunk mate. (VN-0002 Memories comment, 2026-08-13.) Ron was from Des Moines, Iowa (VN-0025 comment, 2026-08-15). Ronnie Tototz passed away about ten years ago. (Tell a Story comment, 2026-08-15.)",
+  "researchNotes": "The 2026-08-15 session transformed the search picture. Two new anchors: hometown Des Moines, Iowa, and death about ten years before 2026 (~2013–2019 window). An Iowa obituary search for a Vietnam veteran with a Polish surname matching the 'Tototz' phonetic is now the most promising path to his real name — likely faster than the earlier document paths (the bathroom-shooting court-martial record, unit morning reports via NPRC), which remain open. Polish surname candidates to try: Totos, Totosz, Totusz, Totowicz.",
   "confidence": "unverified-recollection",
-  "relatedPlaces": [],
+  "relatedPlaces": ["nha-trang", "cholon"],
   "sources": []
 }

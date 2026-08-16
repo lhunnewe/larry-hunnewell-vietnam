@@ -2,8 +2,15 @@
   "photoId": "VN-0021",
   "originalFilename": "1920236-R3-E132.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E132.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Ron Tototz in the surf at Nha Trang",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nha-trang",
+  "people": ["ron-tototz"],
+  "description": "Ron Tototz walks up the sand out of heavy churned surf at Nha Trang beach, near beach hut #3 or #4 — the hut run by two girls selling soda pop, beer, and shrimp. Larry attaches a darker memory to this stretch of water: a medic from Nebraska went out into it and disappeared.",
+  "larrysRecollection": "Ron Tototz walking on beach.\nA medic died here that was from Nebraska, went out to the water and disappeared. Nha Trang beach hut #3 or #4 same location as the other picture on the beach hut. there were two girls running the beach hut that had soda pop, beer, shrimp",
+  "researchNotes": "Larry's own account (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0021-c18032383.json). The drowned medic is a strongly findable person: a Nebraska medic lost to drowning at Nha Trang should appear in casualty databases (unresolved question #14) — non-hostile deaths are recorded with home state and cause. Confirms the survey's Nha Trang hypothesis for this beach series.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0018", "vn-0022"],
+  "sources": []
 }

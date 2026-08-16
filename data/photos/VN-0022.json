@@ -2,8 +2,15 @@
   "photoId": "VN-0022",
   "originalFilename": "1920236-R3-E133.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E133.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry and Ron Tototz at the beach hut, Nha Trang",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nha-trang",
+  "people": ["larry-dennis-hunnewell", "ron-tototz"],
+  "description": "Larry, mid-grin in open fatigues over a white T-shirt, sits cross-legged at a cloth-covered table under the palms at beach hut #3 or #4, Nha Trang — Ron Tototz shirtless across from him. Coca-Cola bottles, a compact camera, and a light meter sit on the table. For 25 cents, Larry remembers, they could get three large, delicious shrimp.",
+  "larrysRecollection": "Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang. For 25 cents we could get 3 large shrimp. they were delicious",
+  "researchNotes": "Larry's own account (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0022-c18032356.json). Resolves half of unresolved question #9: the man at the beach table is Ron Tototz, so the beach friend and the Japan-hospital friend questions now stand separately. The name tape the survey read as '...NNEWELL' plus Larry's 'Ron Tototz and I' confirms both identities. The camera and light meter on the table support Larry as the collection's photographer (see the Canon Dial 35, VN-0023 comment; Qui Nhơn PX purchase, VN-0016 comment).",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0018", "vn-0021", "vn-0025"],
+  "sources": []
 }

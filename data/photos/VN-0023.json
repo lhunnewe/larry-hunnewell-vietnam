@@ -2,8 +2,14 @@
   "photoId": "VN-0023",
   "originalFilename": "1920236-R3-E134.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E134.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry on patrol with a captured prisoner",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["larry-dennis-hunnewell"],
+  "description": "Larry, in duck-hunter camouflage, crouches low in dense jungle looking back over his shoulder into the lens — an unposed frame taken by Captain Kennedy with his Nikon F. Close behind Larry crouches a prisoner the patrol had captured — a Pathet Lao, in Larry's telling, later turned over to the CIA. The blurred face further back is a \"striker\" — a strike-force irregular; 70% of the strikers, Larry says, were enemy.",
+  "larrysRecollection": "Picture of my father.\nPicture taken by Captain Kennedy with his Nikon F\nPerson next to my father is a prisoner they captured, who is a pasthic Lao that was turned over to the CIA.\n\nPerson face in the back that is blurred is a “striker “. 70% off strikers were enemy.\n\nCaptain Kennedy sent his pictures to Hawaii to develop and when he got them back, my father took a picture of his picture\n\nCanon Dial 35 is the camera my father purchased",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0023-c18035445.json, -c18035515.json, and -c18035521.json). Unusual provenance: a photograph of Captain Kennedy's print (developed in Hawaii) — which both explains any generational quality loss and firmly places Kennedy on patrol with Larry, strengthening the tentative VN-0006 identification. 'Pasthic Lao' is read as Pathet Lao; a Pathet Lao prisoner taken near Tây Ninh (far from Laos) and handed to the CIA would be a remarkable, potentially documentable event — treated as a lead. The '70% of strikers were enemy' assessment echoes documented CIDG infiltration concerns. Larry's own camera was a Canon Dial 35, bought at the Qui Nhơn PX (VN-0016 comment).",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0010", "vn-0006", "vn-0009"],
+  "sources": []
 }

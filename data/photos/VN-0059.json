@@ -2,8 +2,16 @@
   "photoId": "VN-0059",
   "originalFilename": "1920236-R1-E037.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E037.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry's radio area at the French fort, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "The sandbagged radio area at the French fort on Núi Bà Đen — a green door stenciled RADIO, heavy cabling, storage batteries, and a shelter roofed with sandbags against the mortared stone. This was Larry's own station: three radios — a single sideband set and two FM (\"fox mike\") sets. The walkway at the right corner is where Larry and the boy of VN-0009 were standing; this frame shows that scene from the other side.",
+  "larrysRecollection": "this is the backside of the photo where it shows me and the kid that was 10 or 12 and married. That right corner walkway is where we were standing. This is my radio area with 3 radios, single side band, fox mike x2\n\nboth of the fox mikes were on our own radio was saigon center and I was the only annex of it.",
+  "researchNotes": "Larry's own account (Memories comments, 2026-08-15; archived as data/recollections/giscus-vn-0059-c18032433.json and -c18032443.json), confirming the survey's strongest hypothesis: the RADIO door was literally his workplace. The net detail is operationally significant for the unit question — both FM sets were on his unit's own net to 'Saigon center,' and Larry 'was the only annex of it': a Saigon-centered radio net with a single mountain outstation supports the Tân Sơn Nhứt headquarters chain (unresolved questions #2 and #3).",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0009", "vn-0051", "vn-0028"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

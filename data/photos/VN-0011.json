@@ -2,8 +2,14 @@
   "photoId": "VN-0011",
   "originalFilename": "1920236-R2-E062.jpg",
   "originalPath": "Group Photos with Unit/1920236-R2-E062.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Flight controllers at the radio van",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": [],
+  "description": "Two soldiers — flight controllers, Larry says, the same job he held — pose on the steel steps of the big riveted van where Larry did his radio operations. A power cable runs from the van to a field generator; CONEX containers, one with a red cross panel, stand in the background.",
+  "larrysRecollection": "This is the Van that I did my radio ops in. these two guys are flight controllers. I was a flight controller also.",
+  "researchNotes": "Larry's own account (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0011-c18032554.json), confirming the survey's hypothesis that this is his operations van — the exterior of the interior seen in VN-0014/VN-0015. 'Flight controller' as Larry's own word for the job strengthens the aviation-operations picture of the unit (see the '...CONTROL' pocket patch in VN-0014). The two men are not yet named — interview goal; their name tapes are magnification targets.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0014", "vn-0015"],
+  "sources": []
 }
