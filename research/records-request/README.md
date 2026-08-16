@@ -25,6 +25,11 @@ exact values to hand-write onto the signed copy. **No new signature is needed** 
 hand-written additions to the already-signed form; only a reprinted form would need re-signing
 (NPRC requires an original ink signature). Findings from the clear scan: `dd214-findings.md`.
 
+**Update 2026-08-16 — reprint chosen instead.** A fully typed print copy,
+`private/documents/records-requests/standard-form-180-FOR-SIGNATURE-v3.pdf` (v2 plus the
+Section III recipient-name line), was generated for Larry to sign fresh in ink. Only the
+daytime phone (not on file), signature, and date remain blank for pen.
+
 **Add to the request — the hospital clinical records** (research of 2026-08-12,
 `research/places/japan-hospital-1965.md`): clinical (inpatient) records are filed at NPRC
 **by treating hospital**, separately from the personnel file, and were untouched by the 1973
