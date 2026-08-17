@@ -33,8 +33,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   soldier on the mountain). Then VN-0029, VN-0022, VN-0015.
   *Unlocks: confirms his identity thread through the whole collection — everything else builds
   on this. Also the warmest possible opener.*
-
-- [x] **2. "Who is your friend — tell me a story about him."** — **ANSWERED 2026-08-15:**
+- [X] **2. "Who is your friend — tell me a story about him."** — **ANSWERED 2026-08-15:**
   the beach-table man of VN-0022 is **Ron Tototz** ("Ron Tototz and I. This is at Beachhut
   #3 or 4 at Nha Trang") — and the "WE..." name tape in VN-0014 resolved separately as
   **Sgt. Weaver**. Ron's thread grew rich: from Des Moines, Iowa; passed away about ten
@@ -43,13 +42,11 @@ answer would unlock. Full per-photo question lists live in the observation recor
   VN-0003/VN-0007/VN-0008 — whom Larry "knew really well" but can't name.** Show VN-0005
   and the guitar photos together: "It'll come to you — who was the guitar player?" The
   Japan hospital friend (VN-0093) remains a separate unnamed man.
-
 - [ ] **3. "What was on your pocket patch — and on the helicopters?"** — Show **VN-0028**
   (white shield pocket patch), **VN-0012** (bird emblem on tail fin), **VN-0141** (bird nose
   art). "What did your unit paint on its aircraft? What did the patch say?"
   *Unlocks: the unit question (#10) — the remembered "118th AOD" vs. the 118th Aviation
   Company "Thunderbirds."*
-
 - [ ] **4. "Was the ops van at Thom Son Nuht?"** — Show **VN-0015** (him at the grid board)
   and **VN-0014** (the scheduling racks). "Where was this van? Is this the company
   headquarters you remember?"
@@ -58,8 +55,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   the van's exterior — "these two guys are flight controllers. I was a flight controller
   also." Still open: WHERE the van stood (the #3 unlock), the two men on the VN-0011 steps,
   and what Weaver's pocket patch said.*
-
-- [x] **5. "Which hospital were you in, in Japan?"** — **ANSWERED 2026-08-13, unprompted:**
+- [X] **5. "Which hospital were you in, in Japan?"** — **ANSWERED 2026-08-13, unprompted:**
   "I was at Camp Zama in Japan in Sugami Uro" [Sagami-Ōno] — he was told only that research
   had a high-confidence name, not which one, and produced it himself. Follow-ups still
   open, with **VN-0093** and **VN-0095** on the table: "How long were you in? Did you see
@@ -69,22 +65,18 @@ answer would unlock. Full per-photo question lists live in the observation recor
   details about the restaurant: if he spontaneously describes a giant beer-barrel doorway,
   that identifies Ketel's — see research/places/ginza-heidelberg.md.)
   *The name unlocks the NPRC clinical-records request, filed by hospital.*
-
 - [ ] **6. "Do you remember these names?"** — Show **VN-0035** (the roster rock) zoomed in.
   Read them slowly: "Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
   says deceased. Willcut (VN-0133). ...Was Sergeant Lowry's name painted up there too?"
   *Unlocks: the Sgt. Lowry search (#12), the site's identity, and possibly the Dean story.*
-
 - [ ] **7. "Was that Bien Hoa burning?"** — Show **VN-0074** and **VN-0078**. "You photographed
   this fire twice from the air. What happened? Was it the big Bien Hoa explosion in May '65?"
   *Unlocks: a dateable documented event AND possibly the unit's home field (#10).*
-
 - [ ] **8. "Which base was home?"** — Show **VN-0136** (camp panorama), **VN-0117** (C-123 over
   the hooches), **VN-0017** (T 123 hooch). "Where was this camp? How long did you live there
   vs. anywhere else?"
   *Partly answered 2026-08-15: "T 123 my father says has to be their hooch" — his and Ron's.
   The base's NAME is still the missing anchor for half the collection's geography.*
-
 - [ ] **9. "Can we watch your movie film together?"** — Watch one chapter at a time on the
   website (**VF-0001** through **VF-0005**, on the Footage page). Let him narrate; ask only
   "Where is this? Who's holding the camera?" The tree-lined boulevard in **VF-0005** may be
@@ -96,12 +88,12 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Tier 2 — Place confirmations (quick yes/no over coffee)
 
-- [x] **The mountain radio room** — **ANSWERED 2026-08-15** (VN-0059): "This is my radio
+- [X] **The mountain radio room** — **ANSWERED 2026-08-15** (VN-0059): "This is my radio
   area with 3 radios, single side band, fox mike x2... I was the only annex of it [Saigon
   center]." Still open with VN-0044: "How did you get up — helicopter? How long were your
   stints?" And the boy of VN-0009 — "the kid that was with you all the time — what was his
   name? What became of him?"
-- [x] **The beach** — **ANSWERED 2026-08-15**: Nha Trang, beach hut #3 or #4 (VN-0021,
+- [X] **The beach** — **ANSWERED 2026-08-15**: Nha Trang, beach hut #3 or #4 (VN-0021,
   VN-0022). Follow-ups: "The medic from Nebraska who went out into the water — do you
   remember his name, or when it happened? Were you there that day? Was he Army, or a Navy
   man? Was it during your first weeks at Nha Trang in '64, or a later trip back?"
@@ -109,7 +101,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   2026-08-16 — found NO Nebraska serviceman and NO medic drowned in Vietnam during his
   tour window. His answers decide which anchor to relax before re-searching. Don't read
   him any of the near-miss names.)*
-- [x] **The pool** — **ANSWERED 2026-08-15** (VN-0004/VN-0005): "French Swimming pool in
+- [X] **The pool** — **ANSWERED 2026-08-15** (VN-0004/VN-0005): "French Swimming pool in
   cholon, Chinese district of Saigon." Still open for VN-0075/VN-0083: same pool?
 - [ ] **The town** — VN-0055 ("CHERRY" bar sign): "Is this Tây Ninh, under the mountain?"
 - [ ] **The monument square** — VN-0130: "Which town is this?"
@@ -140,6 +132,12 @@ answer would unlock. Full per-photo question lists live in the observation recor
 - [ ] The Thompson — VN-0082, VN-0084: "Was that your gun on your bunk? Ever have to use it?"
 - [ ] The woman in the red áo dài — VN-0154: "Who is she? This one looks like it mattered."
 - [ ] The girl holding the camera — VN-0151: "Did she take any of these pictures?"
+- [ ] **The motorcycle days** — "Tell me about your motorcycle days in Inglewood — did you
+  ever crash?" *(Newspapers show two: South Gate Press Sep 1, 1957 — his motorcycle hit a
+  car at Firestone Blvd. at ~16 — and Daily Breeze Jul 10, 1959 — thrown to the pavement
+  at Crenshaw and 120th at 18, Daniel Freeman Hospital, feared fractures, listed "good."
+  Let him tell it before showing the clippings; the 1959 item prints "Larry B." so his
+  telling also confirms it's him. See research/people/hunnewell-family-newspapers.md.)*
 - [ ] Basic training — "Where was basic training?" (Kennedy was shot a month in — "where
   were you when you heard?" is the way in.) *Chapman update 2026-08-15: he's in VN-0024
   with Larry, in Vietnam, an E7 — so ask him to reconcile: "Did you know Sgt. Chapman from
@@ -170,6 +168,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   you go on many patrols with Captain Kennedy?"
 - [ ] **PFC Zekeowski** — VN-0027: "How do you spell Zekeowski, best guess? What was his
   first name? What did he do?"
+  - [ ] I asked him this question ewhern I input it into the comments on the page.
 - [ ] **The battalion and the flight line neighbors** — with VN-0012 and VN-0020 on the
   table: "Do you remember which battalion your company belonged to? What other helicopter
   outfits flew out of Tan Son Nhut — how were their aircraft marked?" (Open questions only —
@@ -192,7 +191,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Housekeeping questions (anytime)
 
-- [x] ~~"Do you remember your service number?"~~ — **Answered by the DD-214** (photo from
+- [X] ~~"Do you remember your service number?"~~ — **Answered by the DD-214** (photo from
   Mom, Aug 2026): the number is recorded in the private archive and goes straight onto the
   SF-180. It contains **no 42** — so the family memory that "42 mattered to him" was about
   something else. **CONFIRMED 2026-08-13:** as the Body Jab 42 comment was being written,
@@ -203,6 +202,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
   transcription in research/records-request/dd214-findings.md; it does NOT name the Vietnam
   unit, only the last assignment in Japan). A Montana county recorder also holds a certified
   copy if we ever need a cleaner one. *Identifiers stay off the repo.*
-- [ ] "Are there more slide boxes or prints anywhere that we never scanned?"
-- [ ] "Who labeled the slides originally — you or the lab? Did any get flipped or mixed up?"
-  (Two scans are confirmed mirror-flipped: VN-0072, VN-0075.)
+- [X] "What's your VA file number?" — **ANSWERED Aug 2026**: recorded in the private
+  archive (private/notes/), NOT here — identifiers stay off the public repo. *Note: the
+  number as recalled differs by one digit from the number on the Oct 2015 VA letter;
+  see the private notes for both. Use the letter's number on forms.*
+- [X] "Are there more slide boxes or prints anywhere that we never scanned?" —
+  **ANSWERED Aug 2026 (family)**: "I don't think so. I scanned everything my father gave
+  to me. The 8mm footage can be redone though" — a higher-quality re-scan of the film is
+  an open possibility.
+- [X] "Who labeled the slides originally — you or the lab? Did any get flipped or mixed
+  up?" (Two scans are confirmed mirror-flipped: VN-0072, VN-0075.) — **ANSWERED Aug 2026
+  (family)**: a friend who worked at Longs Drugs did the developing for free.
