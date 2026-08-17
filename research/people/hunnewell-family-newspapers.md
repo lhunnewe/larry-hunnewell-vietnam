@@ -120,6 +120,79 @@ Every "Larry Hunnewell" hit in California newspapers is Larry himself, 1951–19
   strongly-supported, confirm at breakfast — "tell me about your motorcycle days in
   Inglewood" is now a Tier 3 interview question.*
 
+## The Dirt Diggers Motorcycle Club (family testimony 2026-08-17; press negative)
+
+Leroy reports (2026-08-17): **Larry was an original 1950s member of the Dirt Diggers
+motorcycle club, and well known in it.** The Dirt Diggers M.C. was a storied Southern
+California off-road club — its "Scrambles" events appear in 1950s–60s papers (e.g.
+*Los Angeles Mirror*, Nov 9, 1957, p. 12: "SCRAMBLES Nov. 10 — Dirt Diggers M/C
+'Scrambles.' Small bikes 9 a.m. Big bikes 12 noon. Limed from Hwy. 101 & Vermont").
+Search results, 2026-08-17: **no digitized newspaper links Larry (or any Hunnewell) to
+the club or to race results** — "Dirt Diggers"+Hunnewell zero; Hunnewell+scrambles /
++Ascot / +"hare and hound" all false positives; Riverside and San Bernardino county
+papers (Perris/Prado race country) have no Hunnewell racing items. This is expected:
+1950s club racing was covered by trade papers (*Motorcyclist* magazine; *Cycle News*
+only began 1965), not the dailies on newspapers.com. **Leads for the club record:** the
+Dirt Diggers M.C.'s own history/alumni materials, AMA District 37 archives, and the
+Trailblazers M.C. hall-of-fame circle; and above all Larry himself — the motorcycle
+scrapes above (1957 at ~16, 1959 at 18) fit a young club rider's life. *Ask Larry: When
+did you join the Dirt Diggers? Did you race the scrambles and desert runs — and on what
+bike?*
+
+## Carl Wilbert Hunnewell, 21 — a second South Bay motorcyclist Hunnewell (found 2026-08-17)
+
+While hunting racing items, a sobering find: **Carl Wilbert Hunnewell, 21, of Long
+Beach**, was critically injured on **Aug 10, 1960** when Viola F. Pitman, 61, of
+Torrance ran a red light at **Carson St. and Avalon Blvd.** (north Wilmington) into his
+motorcycle's path, hurling him onto a stopped pickup (*News-Pilot*, San Pedro, Aug 11,
+1960, p. 1, image 605723338 — "severe head and chest injuries, a dislocated hip");
+**he died at Harbor General Hospital on Aug 16, 1960** (*Press-Telegram*, Aug 16, 1960,
+p. 10 — "Carl Wilbert Hunnewell, 21, died in Harbor General Hospital in Torrance today
+from injuries"; *Daily Breeze* Aug 16 p. 2 and Aug 18 p. 26 — the CHP filed against
+Pitman). A second young Hunnewell motorcyclist in the same South Bay corridor, one year
+older than Larry, killed the summer after Larry's own Crenshaw Blvd. crash. **Relation
+unknown — ask the family** (Larry would almost certainly remember whether Carl was a
+cousin or an unrelated namesake).
+
+## The Vietnam era in the national press (sweep 2026-08-17)
+
+The trial also yielded period context for Larry's service (none of it names him — the
+nationwide "Larry Hunnewell" / "Larry D. Hunnewell" search for 1960–1970 is a clean
+negative; see research/unresolved/README.md #1):
+
+- **Andrew Tully, "National Whirligig: Chopper Trip to a Mountain Top"** — *The Daily
+  Breeze*, Sun **Jan 24, 1965**, p. 4 (image 1094003881, **clip 204026502**; the column
+  ran in ~250 papers Jan 23–25, 1965). Datelined "**NUI BA DEN CAMP, BLACK VIRGIN
+  MOUNTAIN, Viet Nam**," a first-person Huey flight to the camp **during Larry's
+  service window**: "Nui Ba Den is an outpost in the purest sense of the word. It is a
+  mere three acres of boulders atop a 3,500-foot mountain... **A Special Forces unit of
+  Americans and Vietnamese owns the mountaintop. The Viet Cong own the slopes** and
+  much of the surrounding countryside. **There is only one way to reach Nui Ba Den and
+  that is by helicopter.**" Tully flew in a UH1B piloted by Capt. Ernest Strum of
+  Seattle, with Lt. Col. Warren Mahr of Santa Ana ("We're not flying in a direct line
+  to the mountain... in case we're hit and have to go down"), door gunners Pfc. Jim
+  McKeown (Camden, N.J.) and Pfc. Winton Nelson (Pelican Rapids, Minn.), and copilot
+  WO Bill Hensinger of Brooklyn; the landing pad was "a tiny space surrounded by
+  room-sized boulders." Every detail matches Larry's account of his mountain post.
+  *Ask Larry: a syndicated columnist visited the camp by Huey around mid-January 1965 —
+  do you remember reporters coming up the mountain?*
+- More "Nui Ba Den" press, all 1965 (zero in 1964): a second wave of columns Feb 10–17,
+  1965 (another first-person camp visit — "Recently I visited a Vietnamese Special
+  Forces [camp] at Nui Ba Den... The mountain... is used as an observation [post]"),
+  and Nov 10–11, 1965 syndicated pieces calling the mountain "a Viet Cong sanctuary"
+  with the camp "right on the top." 254 U.S. newspaper matches in 1965 in all.
+- **The 145th Aviation Battalion's Christmas party for Vietnamese orphans, Dec 1964** —
+  *Helena Independent-Record*, Dec 17, 1964, p. 16 (image 35807510, **clip 204026873**;
+  the Army-photo feature ran nationwide Dec 17–23, 1964, localized around hometown
+  soldiers): orphans flown in singing "Jingle Bells," paired with GI "Big Brothers,"
+  and "**seeing Santa Claus come in by helicopter** and having him give each of them
+  toys was the best of it" (project officer Lt. David M. Medaris; the men of the 145th
+  "were mainly responsible for its success," with personnel of all nearby units of the
+  U.S. Army Support Command under Maj. Gen. Delk M. Oden contributing). The 145th
+  (HQ Tan Son Nhut) is the leading candidate for Larry's parent unit (issue #57) —
+  **ask Larry whether his unit threw the orphans' Christmas party in December 1964**;
+  a "yes" would be a memory-level corroboration of the unit hypothesis.
+
 ## The Behrens line — Betty's parents (found 2026-08-17)
 
 - *The Daily Breeze*, **Jun 24, 1978**, p. 6 (image 1094639606, **clip 204018596**):
@@ -306,9 +379,58 @@ Treantos of Columbia Falls**. Memorial services... Saturday at the Little Brown 
 Bigfork. Private urn burial will be on family property." Same page: Bigfork Funeral Home
 notice pairing the two services at the Little Brown Church.
 
-Further coverage, cited but not clipped: Great Falls Tribune Oct 21 p. 37 and Oct 23
-p. 4; The Missoulian Oct 22 p. 1 and Oct 23 p. 8; Helena Independent-Record Oct 22 p. 2
-and Oct 24 p. 6; Daily Inter Lake follow-ups Oct 23 p. 5, Oct 24 p. 7, Oct 26 p. 5.
+**Follow-up sweep completed 2026-08-17 (third session)** — every Montana "Hunnewell"
+and "Treantos" item from Oct 20 – Dec 31, 1990 is now read; the substantive pieces are
+clipped:
+
+- *The Missoulian*, **Mon Oct 22, 1990, p. 1** (image 351089514, **clip 204025246**) —
+  "**Flathead accidents kill two, injure four**" by Maxene Renner, fully transcribed.
+  New details beyond the Inter Lake story: Summer's middle name (**Summer Beth
+  Treantos**); the vehicles (Mavis's **1980 Ford Fairlane** struck broadside by Bernard
+  Wemple's **1972 Ford pickup**); Highway Patrol Officer **Bob McGuire** said the
+  Treantos vehicle apparently ran the stop sign; Summer "was a **passenger in the
+  right-front seat**"; and the same night's hit-and-run that killed Mary Treloar (36,
+  Bigfork, struck on Montana 35 after a roll-over; companion David Lindell of Bigfork).
+- *The Daily Inter Lake*, **Tue Oct 23, 1990, p. 4** (image 1073853700, **clip
+  204025414**) — "**Reward posted in hit-run death**": $1,000 Crimestoppers reward in
+  the Treloar hit-and-run (light-green late-1970s four-wheel-drive Ford pickup, chrome
+  exhaust stacks, Flathead plates; Patrol Sgt. Dick Boettcher), ending: "**Holly
+  Hunnewell, 10, of Kalispell, injured in another accident at Helena Flats Saturday
+  night, remains in critical condition at Kalispell Regional Hospital.**"
+- *The Daily Inter Lake*, **Wed Oct 24, 1990, p. 7** (image 1073853817, **clip
+  204025604**) — Summer's **full obituary**, headline "Summer Treantos, 9": "She was
+  **born March 13, 1981, in Kalispell, the daughter of George and Leah Treantos. Her
+  mother preceded her in death.** Summer lived in the Bigfork area, except for a year in
+  Denver, Colo., and was currently in the **fourth grade at Bigfork Elementary School**.
+  Summer was active in the **Pioneer Club at the Little Brown Church**, and enjoyed
+  camping, hiking, and church outings. **She was a very cheerful girl, and had many
+  friends.** She is survived by her parents, George and Mavis Treantos of Bigfork; two
+  sisters, Annie Pladson of Grand Forks, N.D., and Robin Pladson of Minneapolis, Minn.;
+  grandparents Cynthia Treantos of Columbia Falls, Leo Treantos of Kissimmee, Fla.,
+  Lillian Foss of Grand Forks, and Mavis DeMars of Bigfork; two stepbrothers, David
+  DeShazer of the family home, and Tom DeShazer of Kalispell; one stepsister, Julie
+  DeShazer of Roseburg, Ore.; three aunts, five uncles... Memorial services will be
+  Saturday, Oct. 27, at 10 a.m. at the Little Brown Church in Bigfork, with the Rev.
+  Ernest Lambright officiating. Private urn burial will take place on family property.
+  The Bigfork Funeral Home is in charge of arrangements and cremation." *Handle gently:
+  the obituary shows Mavis was Summer's stepmother — her birth mother Leah had already
+  died — a fact the news coverage's "her mother" phrasing obscured.*
+- Cited, duplicates/briefs (not clipped): Inter Lake Oct 22 p. 6 (obituary page,
+  already clip 204018372) and Oct 23 p. 5 + Oct 26 p. 5 (funeral-notice lists);
+  Missoulian Oct 23 p. 8 (obituary); Great Falls Tribune Oct 22 p. 3 (news brief) and
+  Oct 23 p. 4 (obituary — the "trust fund" line above it belongs to Mary Treloar's
+  obituary: the **Luke Scott Treloar Trust Fund**, c/o Flathead Bank of Bigfork);
+  Montana Standard Oct 22 p. 5; Helena Independent-Record Oct 22 p. 2 (brief) and
+  Oct 24 p. 6 (State Deaths list). **No charge, citation, or arrest coverage appears
+  through Dec 31, 1990** — neither for the Treantos collision nor (in this window) the
+  Treloar hit-and-run.
+- Correction to the earlier lead list: the *Great Falls Tribune* Oct 21, 1990 p. 37
+  item is NOT accident coverage — it is the wedding of **Yvonne DeJean and Russell
+  Hunnewell** (Valley Community Church, Great Falls), with a parent listed from
+  **Lewistown** — unrelated to Larry's line but possibly connected to the open 1939
+  Lewistown "Geraldine Hunnewell" cluster. A "**Marcia Hunnewell**" also appears in an
+  Inter Lake Nov 4, 1990 p. 50 name list (election-related) — another Flathead
+  Hunnewell to ask the family about.
 
 ## Permanent clippings (family newspapers.com account)
 
@@ -346,6 +468,17 @@ and Oct 24 p. 6; Daily Inter Lake follow-ups Oct 23 p. 5, Oct 24 p. 7, Oct 26 p.
   Press, Sep 1, 1957
 - 204023462 — "Thrown Out" (1959 motorcycle crash, full column), Daily Breeze, Jul 10,
   1959
+
+2026-08-17, third session:
+- 204025246 — "Flathead accidents kill two, injure four" (full article), The
+  Missoulian, Oct 22, 1990
+- 204025414 — "Reward posted in hit-run death" (with Holly's condition update), Daily
+  Inter Lake, Oct 23, 1990
+- 204025604 — "Summer Treantos, 9" (full obituary), Daily Inter Lake, Oct 24, 1990
+- 204026502 — "Chopper Trip to a Mountain Top" (Andrew Tully at Nui Ba Den camp), Daily
+  Breeze, Jan 24, 1965
+- 204026873 — 145th Aviation Battalion Christmas party for Vietnamese orphans (photo +
+  article), Helena Independent-Record, Dec 17, 1964
 
 How the record is kept: the page images live on newspapers.com as these public clips
 (they remain viewable after the trial ends); the repo carries transcriptions and

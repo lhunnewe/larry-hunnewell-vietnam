@@ -24,6 +24,14 @@ Open questions:
    Register / Owens Valley papers (Mar–Apr 1949) and the South Gate Press (Sep 1, 1957) —
    possibly Larry's extended family; the Bishop/Owens Valley Hunnewell cluster may be
    relatives. Larry's 1962–65 home: 8815 12th Avenue, Inglewood (family, 2026-08-16).*
+   *2026-08-17 (third newspapers.com session): the hometown-echo negative is now
+   NATIONWIDE — "Larry Hunnewell" 1962–66 returns only the town of Hunnewell, Missouri
+   ("Larry X of Hunnewell") and a Maine namesake; "Larry D. Hunnewell" is zero in all
+   digitized U.S. papers 1960–1970. No enlistment, induction, casualty, or correction
+   item about Larry exists anywhere on newspapers.com. The Inglewood Daily News
+   microfilm and the Stars and Stripes archive remain the only untried print paths.
+   Also resolved: the 1949 Owens Valley lead is closed — a Big Pine "Ted Hunnewell"
+   family, and the visitor was from Englewood, N.J. (misread as Inglewood).*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
@@ -43,6 +51,16 @@ Open questions:
    the radio van (VN-0015), and from the mountain both FM nets ran to "Saigon center" with
    Larry "the only annex of it" (VN-0059). A Saigon-centered flight-following net again
    weights the Saigon-based candidates over Bien Hoa.*
+   *2026-08-17 (newspapers.com): two period press finds bear on this. (a) A nationally
+   syndicated Dec 1964 Army-photo feature documents the 145th Aviation Battalion's
+   Christmas party for Vietnamese orphans near Saigon ("Santa Claus come in by
+   helicopter"; clip 204026873) — if Larry was in the 145th's HHC he may have attended;
+   ask him. (b) Andrew Tully's syndicated column "Chopper Trip to a Mountain Top"
+   (Jan 23–25, 1965; clip 204026502, Daily Breeze version) is a first-person visit to
+   the Nui Ba Den camp during Larry's window — three acres of boulders, SF unit on top,
+   VC on the slopes, helicopter the only way in — matching Larry's testimony in every
+   particular. See research/people/hunnewell-family-newspapers.md, "The Vietnam era in
+   the national press."*
    *2026-08-16 deep dive (research/units/flight-following-1964-65.md, issue #57): "AOD"
    turns out to be real period vocabulary — Army air traffic control began 1956 as the
    "Army Aviation Operation Detachment (AAOD)," so the family's "Aviation Operations
