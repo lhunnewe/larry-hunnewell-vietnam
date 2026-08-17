@@ -34,7 +34,10 @@ cited so items can be re-opened directly. Living-relative details kept minimal.
   Walter Ingraham family (Seeley Lake); Robert Gress family (Olney); son **James
   Hunnewell and family (Whitefish)**; sister-in-law Bessie Barsby. *Relationship to
   Lester not established by this item — presumed Larry's grandfather's generation;
-  ask the family which twin (if either) was Lester's father.*
+  ask the family which twin (if either) was Lester's father.* *2026-08-17 fourth
+  session: Will is RULED OUT as Lester's father (see the clan section below); the
+  question is now "was Lester a son of Walter, of the unidentified third brother, or
+  of neither?"*
 - *The Daily Inter Lake*, **Jul 9, 1980**, p. 34 (image 1076386028): "The Crib Crowd"
   birth announcement, now transcribed in full (2026-08-17): "**Holly Marie Hunnewell** —
   Larry and Betty Hunnewell of **Bigfork and Missoula** are the parents of Holly Marie,
@@ -120,6 +123,80 @@ Every "Larry Hunnewell" hit in California newspapers is Larry himself, 1951–19
   strongly-supported, confirm at breakfast — "tell me about your motorcycle days in
   Inglewood" is now a Tier 3 interview question.*
 
+## The Montana Hunnewell clan mapped by obituaries (2026-08-17, fourth session)
+
+Working the obituary index resolved most of the Olney/Whitefish family — and one of the
+two standing "which twin" possibilities:
+
+- *The Billings Gazette*, **Wed Feb 7, 1945**, p. 5 (image 415244259, clip "Obituary
+  for Anna Margaret Hunnewell") — the twins' mother: "Funeral services for Mrs. **Anna
+  Margaret Hunnewell, 92**, who died Saturday at a local nursing home... Mrs. Hunnewell
+  was the widow of **George Thomas Hunnewell, who died at Chester in 1915**. She is
+  survived by **two daughters, three sons**, 13 grandchildren, and six
+  great-grandchildren. The body is being taken to **Chester** for services and burial."
+  So the line above the twins is **George Thomas Hunnewell (d. Chester, Mont., 1915) m.
+  Anna Margaret (~1853–1945)**, with THREE sons — the twins plus one more, so far
+  unidentified. Lester (b. ~1905–1915) is too young to be Anna's son; if he belongs to
+  this family he is one of the 13 grandchildren.
+- *The Daily Inter Lake*, **Mon Feb 7, 1983**, p. 2 (image 1076148424, clip "Obituary
+  for William Hunnewell") — twin #1: "**William F. 'Bill' Hunnewell, 98**, died at his
+  home in Olney Friday evening. He was born at Truly [as printed], to George and Anna
+  Hunnewell, Aug. 4, 1884. **He broke horses with Charlie Russell in the early 1900s.
+  At one time he owned many of Charlie Russell's sketches but they were lost in a
+  fire.** He worked for the railroad out of Great Falls and also rode in rodeos till
+  1930. He married Ida Barsby April 25, 1928, and they moved to Olney in 1936... He is
+  survived by his wife, Ida...; **one son, Jim Hunnewell, Whitefish; two daughters,
+  Bessie Ingraham and Elsie Gress both of Olney**; 15 grandchildren and 12
+  great-grandchildren; one sister, Grace Fitzpatrick, Billings..." — **Will's only son
+  was Jim, so Will was NOT Lester's father.**
+- Twin #2, **Walter Hunnewell** (Billings, 1962): no obituary found in digitized
+  Montana papers through 1985 — his death is an open item (an "Idella M. Hunnewell"
+  obituary, Billings Gazette Jan 5, 1999, may be his family). The third brother's name
+  is also still unknown. **Next tool is the census, not newsprint**: the 1900/1910
+  census of the Chester/Liberty County household would name all of George and Anna's
+  children, and the 1920/1930 census would show which household held Lester.
+- The Whitefish branch: *The Daily Inter Lake* / *Missoulian*, Apr 28–29, 1980 —
+  "**Jay Donald Hunnewell, 19**, of Whitefish, died Sunday morning in Havre" in a
+  one-car crash (he missed a curve on the east edge of Havre); "born April 12, 1961, in
+  Whitefish, the **son of William James and Marcia Hunnewell**"; a Northern Montana
+  College student; funeral by Elder Robert DePratu (LDS), burial Whitefish Cemetery;
+  survived by parents, a brother Gary, and a sister in Conrad. So the Whitefish line is
+  Will → Jim (m. **Marcia** — the name in the Nov 4, 1990 Kalispell list) → Jay
+  (d. 1980), Gary, and a sister. *If these are Larry's relatives, Jay's death happened
+  eight weeks before Holly's birth, while Larry and Betty lived in the Flathead — ask
+  the family whether they knew the Whitefish Hunnewells.*
+- **Lester himself never appears in Montana newsprint** ("Lester Hunnewell" in Montana
+  matches only the 1980 Crib Crowd item), and no California obituary for him is on
+  newspapers.com. His parentage will come from census/vital records, not papers.
+
+## The Lewistown Hunnewells — CLOSED as a separate family (2026-08-17)
+
+The 1939 "Geraldine Hunnewell" 4-H lead is resolved — an unrelated family with an
+astonishing name coincidence:
+
+- *Lewistown Daily News*, **Thu Oct 27, 1960**, p. 2 (image 953143136, clip "Obituary
+  for frank Hunnewell") — "**Frank Hunnewell Dies in Arizona**": "Frank Hunnewell, 75,
+  died in Mesa, Ariz., Oct. 23... **He was born March 15, 1885, in New York state, son
+  of the late William and Janet Hunnewell.** He was educated in New York and came to
+  Lewistown as a young man... married Maggie Mitchell Aug. 15, 1915, in Lewistown. He
+  homesteaded in Fergus County on Plum Creek... Survivors include two sons, Donald
+  Hunnewell, Lewistown; Archie Hunnewell, Danvers; four daughters, Mrs. Beryl Jones,
+  Buffalo; **Mrs. Geraldine Forsyth, West Covina, Calif.**; Mrs. Grace Bishop, and Mrs.
+  Norma Cripps, Lewistown; and 10 grandchildren."
+- *The Billings Gazette*, **Sun Jan 21, 1973**, p. 8 (image 415869093, clip "Obituary
+  for Archie R. Hunnewell") — Archie R. Hunnewell, 50, Danvers rancher, "born June 4,
+  1922, in Lewistown, a son of Mr. and Mrs. Frank Hunnewell"; his children include
+  **Russell** — the Russell Hunnewell whose 1990 Great Falls wedding surfaced in the
+  1990-sweep. Fergus County High School, Eagles, Masons; burial Lewistown City
+  Cemetery.
+- Conclusions: (1) the Lewistown Hunnewells descend from **William and Janet Hunnewell
+  of New York state** — a different line from George Thomas Hunnewell of Chester;
+  (2) the 4-H champion **Geraldine Hunnewell was Frank's daughter, later Mrs.
+  Geraldine Forsyth of West Covina, Calif.** — meaning TWO unrelated Geraldine
+  Hunnewells lived in greater Los Angeles at the same time (Larry's mother in
+  Inglewood, this one in West Covina). A caution flag for any future California
+  "Geraldine Hunnewell" hits.
+
 ## The Dirt Diggers Motorcycle Club (family testimony 2026-08-17; press negative)
 
 Leroy reports (2026-08-17): **Larry was an original 1950s member of the Dirt Diggers
@@ -150,9 +227,15 @@ motorcycle's path, hurling him onto a stopped pickup (*News-Pilot*, San Pedro, A
 p. 10 — "Carl Wilbert Hunnewell, 21, died in Harbor General Hospital in Torrance today
 from injuries"; *Daily Breeze* Aug 16 p. 2 and Aug 18 p. 26 — the CHP filed against
 Pitman). A second young Hunnewell motorcyclist in the same South Bay corridor, one year
-older than Larry, killed the summer after Larry's own Crenshaw Blvd. crash. **Relation
-unknown — ask the family** (Larry would almost certainly remember whether Carl was a
-cousin or an unrelated namesake).
+older than Larry, killed the summer after Larry's own Crenshaw Blvd. crash.
+*Fourth-session addition* — the funeral notice (*Independent*, Long Beach, **Aug 17,
+1960**, p. 21, image 719304133, clip "Obituary for Carl Wilber Hunnewell"):
+"HUNNEWELL — Carl Wilbert, 21, of 2135 Spaulding Ct., died Tuesday. Surviving are
+parents, **Mr. and Mrs. William L. Hunnewell**; brother, **Leroy**. Service Friday,
+11 a.m., Mottell's & Peek Mortuary." **Carl's brother was named Leroy Hunnewell** — the
+same name Larry later gave his own son. Relation still unknown, but the name echo makes
+this a priority ask-the-family question: *Who were William L., Carl, and Leroy
+Hunnewell of Long Beach — and was Leroy (b. 1982) named after anyone?*
 
 ## The Vietnam era in the national press (sweep 2026-08-17)
 
@@ -469,6 +552,17 @@ clipped:
 - 204023462 — "Thrown Out" (1959 motorcycle crash, full column), Daily Breeze, Jul 10,
   1959
 
+2026-08-17, fourth session:
+- "Obituary for Anna Margaret Hunnewell" — the twins' mother, widow of George Thomas
+  Hunnewell of Chester, Billings Gazette, Feb 7, 1945
+- "Obituary for William Hunnewell" — twin Will of Olney, 98 (Charlie Russell detail),
+  Daily Inter Lake, Feb 7, 1983
+- "Obituary for Archie R. Hunnewell" — Lewistown family, Billings Gazette, Jan 21, 1973
+- "Obituary for frank Hunnewell" — "Frank Hunnewell Dies in Arizona" (Lewistown
+  patriarch, b. New York 1885), Lewistown Daily News, Oct 27, 1960
+- "Obituary for Carl Wilber Hunnewell" — funeral notice naming brother Leroy,
+  Independent (Long Beach), Aug 17, 1960
+
 2026-08-17, third session:
 - 204025246 — "Flathead accidents kill two, injure four" (full article), The
   Missoulian, Oct 22, 1990
@@ -485,17 +579,17 @@ How the record is kept: the page images live on newspapers.com as these public c
 citations only — newspaper scans are licensed content and are not committed to the
 public repository.
 
-## Leads still open (after the 2026-08-17 second session)
+## Leads still open (after the 2026-08-17 fourth session)
 
-- The 1939–42 **Lewistown (Fergus County)** cluster: a *Geraldine Hunnewell*, 4-H grand
-  champion beef showman at the 1939 Fergus County Junior Fair (*Lewistown Evening
-  Telegram*, Aug 30, 1939, p. 2, image 953930113, and ~15 sister items). **Not Larry's
-  mother** (whose maiden name was Grosvenor) — possibly a paternal aunt/cousin, or an
-  unrelated family; a curious duplicate name either way. Ask the family.
-- Ron Totosz side color: *Register* Jun 4, 1959 p. 3 (Ron at 17); *Des Moines Tribune*
-  Feb 9, 1976 p. 9; *Register* Apr 11, 1984 (×2), Apr 9, 1993, May 27 / Dec 2, 2005.
-- The two remaining Toastmistress items (Southwest Wave Apr 3, 1960 p. 6; second Jan 5,
-  1961 p. 33 match) — unclipped.
+- **Which Hunnewell was Lester's father?** Will is ruled out; Walter's obituary is not
+  in digitized papers; the third brother of the twins is unnamed. Census records
+  (Chester/Liberty County 1900–1910; wherever Lester was 1920–1930) are the next step —
+  an Ancestry task, not a newspapers one. And ask Larry directly.
+- **Walter Hunnewell's death** (Billings; alive Aug 1962) and the **Idella M.
+  Hunnewell** obituary (Billings Gazette, Jan 5, 1999) — unread; may close the Walter
+  branch.
+- **William L. / Carl / Leroy Hunnewell of Long Beach** — relation to Lester's
+  household unknown; ask Larry (and note the Leroy name echo).
 - "Eloise Wickham" in *The Oregonian*, Jun 2, 1992, p. 8 — one Portland hit, unexamined
   (probably a different woman).
 - **Paul Hunnewell** of Bridgestone Tire Co., 2160 W. 190th St., Torrance (Breeze
@@ -505,6 +599,12 @@ public repository.
   other papers' birth columns (Press-Telegram, Southwest Wave successors) IF the
   family's 1974 address were known — ask the family where they lived when Larry W. was
   born, and Leroy's exact birthday, before spending more trial time.
+- Larry and Betty's **wedding announcement**: negative — "Betty Behrens" in California
+  1965–1976 returns only unrelated Bettys (Petaluma family; a 43-year-old in a 1965
+  license list). Ask the family where and when they married.
+- **Montana Dart Co.** press: complete — no items beyond the Jan 1986 AP feature and
+  the fall 1986 permit coverage ("Northwest Montana Dart Association" hits are an
+  unrelated dart league).
 - Resolved this session: Eloise Wickham (see the Williams/Sheppard section), the
   "Betty Hunnewell" Montana items (all 19 read), the Apr 12, 1951 Cub Scout items, the
   Sep 1, 1957 second match, and the 1949 Owens Valley lead (closed as unrelated —
