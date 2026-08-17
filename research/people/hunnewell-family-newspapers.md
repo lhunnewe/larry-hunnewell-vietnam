@@ -169,6 +169,39 @@ two standing "which twin" possibilities:
   matches only the 1980 Crib Crowd item), and no California obituary for him is on
   newspapers.com. His parentage will come from census/vital records, not papers.
 
+### Fifth-session additions: the CHESTER Hunnewells — the home-town record found
+
+- **Chester's own papers are digitized**: the *Chester Signal* (from 1905) and *The
+  Liberty County Times* — **858 "Hunnewell" matches, 1905–1963**, in George Thomas
+  Hunnewell's homestead town. Skimmed highlights: a "**Mitchell–Hunnewell**" wedding
+  headline (Chester Signal, Nov 19, 1908 — unread); "Local Men Purchase **Hunnewell
+  Building**" (Liberty County Times, Apr 15, 1948 — "purchased the **George
+  Hunne[well] building** north of the railroad tracks"); "Hunnewell Heads March of
+  Dimes" (1958); "R. E. Hunnewell New Commander VFW Post 3997" (1958). This archive
+  almost certainly contains the whole Chester family's story, including George
+  Thomas's 1915 death — a dedicated future pass.
+- The Chester line into the present: *Great Falls Tribune*, **Jan 2, 1999**, p. 8
+  (image 239849544) — obituary of **Idella Mary (Walden) Hunnewell, 78** (b. Jul 3,
+  1920, Great Falls; Chester High 1938; UM Missoula 1942; taught English at Fort Shaw,
+  Malta and Chester): "On **Dec. 22, 1945, she married Richard E. 'Bud' Hunnewell.
+  They lived and farmed at Chester**... The couple retired in 1986 and purchased a
+  home in Lakewood, Wash., continuing to spend the summer months in Chester...
+  **supporter of the Broken Mountain Genealogical Society in Chester**... Surviving
+  are two sons, **Dick Hunnewell of Tacoma, Wash., and Dave Hunnewell of Chester**;
+  four grandchildren and one great-granddaughter. Her husband has died." **Richard E.
+  "Bud" Hunnewell** was a WWII sergeant home from the **China-Burma-India theater**
+  (Liberty County Times, Jan 18, 1945), later American Legion post commander (1958)
+  and VFW Post 3997 commander; a **Camron Hunnewell of Chester** wrestled for the
+  high school in 1989–90. Bud's parentage (which of George Thomas's sons?) is the
+  open link — his obituary (1986–98, likely Liberty County Times or GF Tribune) and
+  the **Broken Mountain Genealogical Society** are the two best paths to the full
+  Chester tree, and possibly to Lester.
+- **Crucial negative: the exact phrase "Lester Hunnewell" appears NOWHERE in the
+  Chester papers** (75 loose matches are all "Lester Howey" + a separate Hunnewell in
+  homestead-witness lists). If Lester had grown up in Chester, six decades of the
+  home-town paper should show him. Either he grew up elsewhere, or the presumed link
+  from Larry to the George Thomas Hunnewell clan is wrong — the census will say.
+
 ## The Lewistown Hunnewells — CLOSED as a separate family (2026-08-17)
 
 The 1939 "Geraldine Hunnewell" 4-H lead is resolved — an unrelated family with an
@@ -361,7 +394,42 @@ this session:
   charter members "Dorothy Williams, Eloise Wickham..."), plus club/social items May 21
   1976, Jan 25 & Aug 15 1977, May 8 1981, May 11 1983 — 19 Montana matches in all,
   1973–1998. (The ~76 non-Montana "Eloise Wickham" hits are other women in NY/Iowa/etc.;
-  one Oregonian 1992 hit unexamined.)
+  the Oregonian Jun 2, 1992 hit was read in the fifth session — a "middle-aged"
+  Portland Republican quoted in a Perot campaign feature, a different person; closed.)
+
+### Fifth-session additions (2026-08-17): the Williams generation mapped
+
+- *The Daily Inter Lake*, **Fri Aug 10, 1962**, p. 8 (image 951204254, clip "Obituary
+  for Edra Gilbank") — obituary of Eloise's sister: "**Edra Vivian Gilbank**, former
+  [K]alispell resident, resident of Marysville [Wash.] for the past 20 years, died
+  Friday, Aug. 3 [1962]... She is survived by her widower, **John**; three daughters,
+  Mrs. Glen Poston and Jona Gilbank, Marysville, and Mrs. Blossom Baxter, Grass Valley,
+  Calif.; **her father, Alfred Williams Sr., Kalispell**; four sisters, **Mrs. Dave
+  Sheppard and Mrs. Jack Behrens, both of Kalispell**; and Mrs. Floyd Walthers and Mrs.
+  Margery Edwards, both of Marysville; one brother, **Alfred Williams Jr., Kalispell**...
+  Attending the funeral were Mr. Williams Sr., Mr. and Mrs. Sheppard, Mr. and Mrs. Jack
+  Behrens and Mr. and Mrs. Henry Behrens. **Mrs. Henry Behrens is the Sheppard's
+  daughter.**" This one item establishes: (1) **Alfred Williams Sr. was alive in
+  Kalispell in 1962**; (2) **Dave Sheppard was alive in Aug 1962** (so Eloise's Wickham
+  remarriage falls between ~1963 and Sep 1973); (3) "Mrs. Jack Behrens" is Eloise's
+  sister **Joy** (Joy Williams m. Jack Behrens → son Dan Behrens; later Mrs. Wetmore,
+  d. 1986) — so **aunt and niece (Joy Williams and Helen Sheppard) married the two
+  Behrens brothers (Jack and Henry)**, which is why Hank's 1978 obituary shows two
+  Behrens brothers in Kalispell. The Williams sisters now known: Eloise
+  (Sheppard/Wickham), Edra (Gilbank, d. 1962), Joy (Behrens/Wetmore, d. 1986), Margaret
+  (Walthers), Margery (Edwards); brother Alfred Jr.
+- **Eloise's Kalispell club career** is richly documented under "Eloise Sheppard" — 272
+  Flathead matches 1940–1972: she was president/head of the **Glacier Park Cootiette
+  Club** (Kalispell News, Mar 28, 1957, "Eloise Sheppard Head Of Cootiette Club";
+  Inter Lake Mar 27, 1957 — she co-hosted the national president's state visit) and
+  past president of the **World War I Auxiliary** (Inter Lake, Mar 25, 1962, p. 9 —
+  she installed the 1962 officers), matching her 1996 obituary's club list. A portrait
+  of her likely exists among these items (the 1957 News piece ran with photos) — a
+  future browse for the family.
+- *Hungry Horse News* (Columbia Falls), **Mar 8, 1957**, p. 5 — Births, Kalispell
+  General Hospital: "Mrs. **Henry Behrens**, Kalispell..." — a Behrens birth in March
+  1957, most plausibly **David** (the youngest of Helen's three). Unverified which
+  child; ask.
 
 ## Montana Dart Co. — Larry and Betty's 1980s business (found 2026-08-17)
 
@@ -552,6 +620,11 @@ clipped:
 - 204023462 — "Thrown Out" (1959 motorcycle crash, full column), Daily Breeze, Jul 10,
   1959
 
+2026-08-17, fifth session:
+- "Obituary for Edra Gilbank" — Edra Vivian (Williams) Gilbank, Eloise's sister, with
+  the Williams-generation survivor map and the Behrens-brothers funeral note, Daily
+  Inter Lake, Aug 10, 1962
+
 2026-08-17, fourth session:
 - "Obituary for Anna Margaret Hunnewell" — the twins' mother, widow of George Thomas
   Hunnewell of Chester, Billings Gazette, Feb 7, 1945
@@ -590,6 +663,19 @@ public repository.
   branch.
 - **William L. / Carl / Leroy Hunnewell of Long Beach** — relation to Lester's
   household unknown; ask Larry (and note the Leroy name echo).
+- **Geraldine Grosvenor before her marriage** (fifth session): two California items —
+  *L.A. Evening Citizen News* (Hollywood), **Feb 2, 1934**, p. 2: a junior-high honors
+  list (the Triolympian Society) including "Geraldine [Grosvenor]" — Larry's mother as
+  a Hollywood schoolgirl of ~13; and *Progress-Bulletin* (Pomona), **Jul 17, 1947**,
+  p. 7: a wedding-party mention of "Geraldine Grosvenor..., cousin of the bride."
+  *Caution: a Geraldine still under the maiden name in 1947 doesn't fit if Lester and
+  Geraldine married before Larry's 1940 birth — either a same-named cousin, or the
+  marriage came later than assumed. Flag, don't conclude; the marriage record is a
+  census/vital-records task.*
+- **Bud Hunnewell's obituary** (Chester line, d. 1986–98) and the **Broken Mountain
+  Genealogical Society** of Chester — the two best paths to the full Chester tree.
+- **A portrait of Eloise** likely exists among the 272 "Eloise Sheppard" club items
+  (1940–1972, esp. Kalispell News Mar 28, 1957) — a browse for the family.
 - "Eloise Wickham" in *The Oregonian*, Jun 2, 1992, p. 8 — one Portland hit, unexamined
   (probably a different woman).
 - **Paul Hunnewell** of Bridgestone Tire Co., 2160 W. 190th St., Torrance (Breeze
