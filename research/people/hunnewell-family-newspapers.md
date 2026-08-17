@@ -31,11 +31,22 @@ cited so items can be re-opened directly. Living-relative details kept minimal.
   Hunnewell and family (Whitefish)**; sister-in-law Bessie Barsby. *Relationship to
   Lester not established by this item — presumed Larry's grandfather's generation;
   ask the family which twin (if either) was Lester's father.*
-- *The Daily Inter Lake*, **Jul 9, 1980**, p. 34: birth announcement, a daughter born
-  June 30 to Larry and Betty Hunnewell of **Bigfork**, naming **Lester Hunnewell** among
-  the grandparents — this links Lester to Larry in print, places Larry in **Flathead
-  County in 1980**, and explains the Montana county recorder holding his certified
-  DD-214 (recorded in his county of residence).
+- *The Daily Inter Lake*, **Jul 9, 1980**, p. 34 (image 1076386028): "The Crib Crowd"
+  birth announcement — a daughter born June 30 in Kalispell to Larry and Betty Hunnewell
+  of **Bigfork and Missoula**. "Holly's paternal grandparents are **Lester Hunnewell of
+  Downey, Calif., and Geraldine Hunnewell of south[ern] California**" (listed at separate
+  addresses in 1980). "Great-grandmother **Eloise Wickham** lives in Kalispell" — a new
+  ancestor name, and the Kalispell anchor a generation further back. This links Lester
+  and Geraldine to Larry in print, places Larry in **Flathead County in 1980**, and
+  explains the Montana county recorder holding his certified DD-214 (recorded in his
+  county of residence).
+
+## Permanent clippings (family newspapers.com account, 2026-08-16)
+
+- 203998332 — Morningside Toastmistress installation, Southwest Wave, Jan 17, 1960
+- 203998364 — Hunnewell twins' 78th-birthday reunion, Daily Inter Lake, Aug 9, 1962
+- 203998399 — 1980 birth announcement with the grandparents line, Daily Inter Lake,
+  Jul 9, 1980
 
 ## Leads still unread (open before the trial ends)
 
