@@ -43,9 +43,38 @@ Notes: the obituary itself does not mention military service (common). He enlist
 Okhe's name and daughter's married surname (Xiong) suggest an Asian-American family
 thread — no inference recorded beyond the names as printed. Survivors (as printed in the
 2004 public obituary) are the outreach path for issue #23 — likely living; keep contact
-details out of the repo. Not yet read (color for a future pass): Register Jun 4 1959
-p. 3; Des Moines Tribune Feb 9 1976 p. 9; Register Apr 11 1984 (×2), Apr 9 1993, May 27
-and Dec 2 2005.
+details out of the repo.
+
+## FOURTH PASS (2026-08-17, second session): all remaining "Totosz" color items read
+
+Every previously-unread Iowa hit is now read; all are Ron or his family, and together
+they trace his whole Des Moines life:
+
+- *Des Moines Register*, **Thu Jun 4, 1959**, p. 3 (image 128194926) — graduation
+  roundup ("Diplomas at Saydel to 68" page): "**The Dowling graduates are:** ...David
+  Tibbetts, William Tiernan, Glenn Tobey, **Ronald Totosz**, Frank Trovato, James
+  Tursi..." — **Ron graduated from Dowling (Catholic) High School, Des Moines, June
+  1959**, age 17.
+- *Des Moines Tribune*, **Mon Feb 9, 1976**, p. 9 (image 324582169) — city property
+  valuations list: "**Frank Totosz, 1211 Merle Hay Road, 23,650**" and "**Ronald
+  Totosz, 2425 Glenbrook Drive, 31,760**." A **Frank Totosz** held the family's Merle
+  Hay Road address in 1976 (father or brother — new family name for the outreach file);
+  Ron's own 1976 address was 2425 Glenbrook Drive.
+- *Des Moines Register*, **Wed Apr 11, 1984**, pp. 77/86/103/116 (zone editions) — real
+  estate transfers, East Side Des Moines: "**Ronald Edward Totosz** to John F. W[?],
+  E. Grand Ave., $25,000" — middle name **Edward** in print, matching Ronald E.
+- *Des Moines Register*, **Fri Apr 9, 1993**, p. 59 (image 130400133) — transfers,
+  **Crocker Township**: "Sheldahl Development Corp. to Ronald E. Totosz, **3351 N.W.
+  87th Lane, $28,000**" — the lot near Ankeny that matches his "of Ankeny" residence at
+  death.
+- *Des Moines Register*, **May 27 / Jun 3 / Dec 2, 2005** (pp. 50/50/45) — estate-era
+  transfers after his Aug 2004 death: "Ronald E Totosz to Michelle F. and William
+  Trickey, 3351 N.W. 87th [Lane], **$255,000**" (the home); "Country Classic Homes
+  [LLC] to [O.?] Totosz, 731 S.E. Ponds[view?], $167,000" (likely Okhe's downsizing
+  purchase); "Ronald E Totosz to Ana L Plese[?], Grand Ave., $45,000."
+
+No newspapers.com item anywhere mentions his military service — the 1962 enlistment
+list remains the only service item in print, as expected.
 
 **Remaining softness:** nothing yet places him *in Vietnam or in Larry's unit* — that
 corroboration comes from NPRC morning reports once the unit settles (#57/#10), or from

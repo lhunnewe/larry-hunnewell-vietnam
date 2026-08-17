@@ -14,8 +14,12 @@ cited so items can be re-opened directly. Living-relative details kept minimal.
   pledge of allegiance led by Mrs. Hunnewell."
 - *The Southwest Wave*, **Jan 5, 1961**, p. 33 (image 732181264): Toastmistress meeting
   item — "**Mrs. Lester Hunnewell** will present the inspirational message."
-- Unread, same paper: Apr 3, 1960 (p. 6) and a second Jan 5, 1961 match (p. 33) —
-  "Lester Hunnewell" hits, likely the same club circle.
+- *The Southwest Wave*, **Apr 3, 1960**, p. 6: another meeting item — "...[in]spirational
+  will be give[n by Mrs.] **Lester Hunnewell**. Mrs. Smith will give the p[?]... the
+  pledge of allegian[ce] led by Mrs. Dora Law[?]." The "second Jan 5, 1961 match" turned
+  out to be the same item printed in a second zone edition (read 2026-08-17) — all four
+  Toastmistress hits are now accounted for; Geraldine repeatedly gave the club's
+  "inspirational message."
 - Context: Morningside is the Inglewood neighborhood; the Wave was the LA
   southside/Inglewood community weekly. So while Larry was in high school and then in
   Vietnam, his mother was a club officer whose meetings made the society page.
