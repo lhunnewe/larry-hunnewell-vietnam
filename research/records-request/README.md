@@ -30,6 +30,17 @@ hand-written additions to the already-signed form; only a reprinted form would n
 Section III recipient-name line), was generated for Larry to sign fresh in ink. Only the
 daytime phone (not on file), signature, and date remain blank for pen.
 
+**Status 2026-08-17 — MAILED.** The signed SF-180 was mailed by USPS **certified mail with
+return receipt** to the correct address (1 Archives Drive, St. Louis, MO 63138). One slip on
+the envelope: the name line was written "**Nevada** Personnel Records Center" instead of
+"National." Assessed as harmless — USPS routes by street address/ZIP, the NPRC mailroom
+opens everything delivered to the facility, and processing is driven by the SF-180 inside,
+not the envelope. **Do not re-mail** (duplicates create second case numbers and slow
+processing). Follow-ups: (1) watch the certified tracking until it shows Delivered, St.
+Louis 63138, and keep the receipt; (2) expect an NPRC acknowledgment letter with a request
+number within a few weeks; (3) if nothing arrives in ~4–6 weeks, check status via NPRC's
+online status form or 314-801-0800 with Larry's name and the mailing date.
+
 **Add to the request — the hospital clinical records** (research of 2026-08-12,
 `research/places/japan-hospital-1965.md`): clinical (inpatient) records are filed at NPRC
 **by treating hospital**, separately from the personnel file, and were untouched by the 1973
