@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "photos:import": "node scripts/import-photos.mjs",
     "photos:build": "node scripts/build-photo-images.mjs",
-    "prebuild": "node scripts/build-photo-images.mjs",
+    "validate": "node scripts/validate-archive.mjs",
+    "prebuild": "node scripts/validate-archive.mjs && node scripts/build-photo-images.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
