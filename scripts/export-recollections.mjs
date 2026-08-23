@@ -152,7 +152,7 @@ const union = (a = [], b = []) => [...new Set([...a, ...b])];
 function buildRecord(comment, discussion, term, personId, existing) {
   const refs = relatedRefsForTerm(term);
   let provenance =
-    `giscus comment by @${comment.author.login} on the ${term} page; ` +
+    `giscus comment posted from @${comment.author.login} on the ${term} page; ` +
     `discussion #${discussion.number}; ${comment.url}`;
   if (comment.lastEditedAt) provenance += `; edited ${isoDate(comment.lastEditedAt)}`;
 
@@ -161,7 +161,11 @@ function buildRecord(comment, discussion, term, personId, existing) {
     recorded: isoDate(comment.createdAt),
     provenance,
     text: comment.body,
-    fidelity: 'verbatim',
+    // Larry's son types these for him, so the default is 'transcribed', never
+    // 'verbatim'. A human reclassification — usually to 'paraphrase', when a
+    // comment reports what Larry said rather than quoting him — is preserved,
+    // the same way researchNotes is.
+    fidelity: existing?.fidelity ?? 'transcribed',
   };
   if (existing?.researchNotes) record.researchNotes = existing.researchNotes;
   for (const key of ['relatedPhotos', 'relatedVideos', 'relatedPlaces', 'relatedPeople']) {

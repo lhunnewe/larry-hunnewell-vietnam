@@ -8,6 +8,23 @@ the site.
 Read `README.md` for the project, `docs/architecture.md` for the stack, `research/README.md`
 for how research is filed. This file is the part that is easy to get wrong.
 
+## Who is speaking
+
+**Larry does not use a computer — his son types for him**, on both GitHub accounts. So
+`fidelity` on a recollection records *how the words reached the page*, never who owns the
+login:
+
+- `verbatim` — Larry typed it himself. Nothing is, yet; the state exists so the flag stays
+  honest if he ever does.
+- `transcribed` — Larry's words, typed by his son as he spoke them. Best-effort phonetic
+  spellings of names and places, checked with Larry, are still Larry's words.
+- `paraphrase` — his son's report of what Larry said, in his son's words. **Third-person
+  voice ("my father says…") means paraphrase, always**, whatever the source of the facts.
+
+Fidelity is not confidence. It says how faithfully words were captured; `confidence` rates
+whether what they say is true. A transcribed memory can be wrong, and often is — that is
+the archive working, not failing.
+
 ## The rules that do not bend
 
 1. **Never alter `larrysRecollection`, or a recollection record's `text`.** Not to fix grammar,
@@ -71,7 +88,7 @@ and provenance — not an edit to the old one.
 
 | You have | It goes in |
 |---|---|
-| Larry's words, verbatim | `larrysRecollection` on the record, or a `data/recollections/` record with `fidelity` and `provenance` |
+| Larry's words | `larrysRecollection` on the record, or a `data/recollections/` record with `fidelity` and `provenance` |
 | A paraphrase of what he said | a recollections record with `fidelity: "paraphrase"` — never in `larrysRecollection` |
 | Analysis, a hypothesis, a contradiction | `researchNotes` — but see rule 6 before writing it to a rendered field |
 | A working search, leads, transcriptions | `research/<area>/<slug>.md`, dated, with provenance |

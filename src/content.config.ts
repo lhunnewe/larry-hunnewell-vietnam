@@ -170,8 +170,22 @@ const recollections = defineCollection({
     provenance: z.string(),
     /** The recollection as given. Never silently altered. */
     text: z.string(),
-    /** Whether `text` is verbatim or a family paraphrase awaiting direct capture. */
-    fidelity: z.enum(['verbatim', 'paraphrase']),
+    /**
+     * How the words in `text` reached the page. Larry does not use a computer;
+     * his son types for him, on either account — so nothing here is `verbatim`
+     * unless Larry himself typed it.
+     *
+     * - `verbatim`    Larry wrote it himself.
+     * - `transcribed` Larry's words, typed by his son as he spoke them. Best-effort
+     *                 phonetic spellings of names and places, checked with Larry,
+     *                 are still Larry's words.
+     * - `paraphrase`  His son's report of what Larry said, in his son's words.
+     *                 Third-person voice is the giveaway.
+     *
+     * Fidelity is how faithfully the words were captured. It says nothing about
+     * whether they are accurate — that is what `confidence` rates, elsewhere.
+     */
+    fidelity: z.enum(['verbatim', 'transcribed', 'paraphrase']),
     researchNotes: z.string().optional(),
     relatedPhotos: z.array(reference('photos')).default([]),
     relatedVideos: z.array(reference('videos')).default([]),

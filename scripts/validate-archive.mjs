@@ -235,6 +235,27 @@ if (existsSync(OBSERVATIONS)) {
   }
 }
 
+// ------------------------------------------------------------ testimony voice
+// Fidelity records how the words reached the page. A third-person sentence is
+// the son's, whatever its source, so it cannot be Larry's own words — see the
+// `fidelity` comment in src/content.config.ts.
+const THIRD_PERSON =
+  /\b(my (father|dad)|father (says?|said|thinks?|didn't|was|does)|he (says|said|thinks) that|Larry (says|said|remembers))\b/i;
+
+for (const entry of db.recollections) {
+  const where = `recollections/${entry.file}`;
+  const d = entry.data;
+  if (typeof d.text !== 'string') continue;
+
+  const match = THIRD_PERSON.exec(d.text);
+  if (match && d.fidelity !== 'paraphrase') {
+    warn(where, `fidelity "${d.fidelity}" but the text is written in the third person ("${match[0]}") — that is the son's sentence, so it is a paraphrase`);
+  }
+  if (d.fidelity === 'verbatim') {
+    warn(where, 'fidelity "verbatim" means Larry typed it himself — use "transcribed" for his words typed by his son');
+  }
+}
+
 // --------------------------------------------------------- unreferenced records
 // A person or place nothing points at renders as an unconnected page.
 const inbound = new Set();
