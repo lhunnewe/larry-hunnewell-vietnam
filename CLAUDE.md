@@ -51,6 +51,22 @@ every fix is a judgment about evidence, so read them, don't silence them.
 
 Known open drift is listed at the bottom of this file.
 
+## What is enforced automatically
+
+Two hooks in `.claude/settings.json` back the rules above, so they don't depend on anyone
+remembering them:
+
+- **`guard-testimony.mjs`** (before every edit) blocks any change to an existing
+  `larrysRecollection`, a recollection's `text`, or a `photoId`/`videoId`. It simulates the
+  pending edit and compares only those fields, so it never blocks *adding* Larry's words to
+  a stub — that is cataloging. It fails open: if it cannot read or parse, the edit proceeds.
+- **`check-archive.mjs`** (after every edit to a record) runs the validator and reports
+  errors only. Warnings and notes stay for `npm run validate`, so the hook interrupts for
+  corruption and nothing else.
+
+If Larry himself revises something, that is a **new recollection record** with its own date
+and provenance — not an edit to the old one.
+
 ## Where things go
 
 | You have | It goes in |
