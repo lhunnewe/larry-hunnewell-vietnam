@@ -6,7 +6,7 @@ import Recollection from '../components/Recollection.astro';
 import MemoryBox from '../components/MemoryBox.astro';
 import Citations from '../components/Citations.astro';
 import { withBase } from '../lib/paths';
-import { attributionFor, fidelityOfCopiedText } from '../lib/testimony';
+import { attributionFor, attributionForCopiedText } from '../lib/testimony';
 
 const CATEGORY_META: Record<string, { label: string; color: string }> = {
   'larry-movement': { label: "Larry's movements", color: 'var(--olive)' },
@@ -98,7 +98,7 @@ for (const e of entries) {
             </p>
             <p>{entry.event.data.description}</p>
             {entry.event.data.larrysRecollection && (
-              <Recollection attribution={attributionFor(fidelityOfCopiedText(entry.event.data.larrysRecollection, allRecollections))}>
+              <Recollection attribution={attributionForCopiedText(entry.event.data.larrysRecollection, allRecollections)}>
                 {entry.event.data.larrysRecollection}
               </Recollection>
             )}
@@ -150,7 +150,7 @@ for (const e of entries) {
                 <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
               ))}
             {entry.photo.data.larrysRecollection && (
-              <Recollection attribution={attributionFor(fidelityOfCopiedText(entry.photo.data.larrysRecollection, allRecollections))}>
+              <Recollection attribution={attributionForCopiedText(entry.photo.data.larrysRecollection, allRecollections)}>
                 {entry.photo.data.larrysRecollection}
               </Recollection>
             )}

@@ -287,6 +287,28 @@ for (const entry of db.recollections) {
       `${copied} larrysRecollection field(s) duplicate a recollection record (${copiedParaphrase} of them a paraphrase) — render from the record instead, so fidelity travels with the words`
     );
   }
+
+  // A field meaning "Larry's own words" holding a third-person summary. The
+  // renderer now attributes these to the family (src/lib/testimony.ts), but the
+  // data is still a paraphrase in a field reserved for his words; the fix is a
+  // recollection record with its own fidelity and provenance.
+  const SOMEONE_ELSES_VOICE =
+    /\b(larry|my father|his son)\b|\bhe (remembers|recalls|recalled|describes|described|volunteered|personally remembers)\b|\bhis (duties|organization|recollection)\b/i;
+  const thirdPerson = [];
+  for (const collection of ['photos', 'videos', 'people', 'places', 'timeline']) {
+    for (const entry of db[collection]) {
+      const own = entry.data.larrysRecollection;
+      if (typeof own === 'string' && SOMEONE_ELSES_VOICE.test(own)) {
+        thirdPerson.push(`${collection}/${entry.file}`);
+      }
+    }
+  }
+  if (thirdPerson.length) {
+    note(
+      'data/',
+      `${thirdPerson.length} larrysRecollection field(s) are written in the third person, so they are somebody else's words: ${thirdPerson.slice(0, 4).join(', ')}${thirdPerson.length > 4 ? ', …' : ''} — move each to a recollection record marked paraphrase`
+    );
+  }
 }
 
 // --------------------------------------------------------- unreferenced records

@@ -6,7 +6,7 @@ import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
 import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
-import { attributionFor, fidelityOfCopiedText } from '../../lib/testimony';
+import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const videos = (await getCollection('videos')).sort((a, b) =>
@@ -111,7 +111,7 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
   {d.description && <p>{d.description}</p>}
 
   {d.larrysRecollection && (
-    <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
+    <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
       {d.larrysRecollection}
     </Recollection>
   )}
