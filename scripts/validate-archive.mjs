@@ -339,7 +339,18 @@ const GUIDE = join(ROOT, 'research', 'interviews', 'breakfast-questions.md');
 const PAGE = join(ROOT, 'src', 'pages', 'interview.astro');
 if (existsSync(GUIDE) && existsSync(PAGE)) {
   // The page writes ids lowercase ('vn-0003'), the guide uppercase (VN-0003).
-  const photoIds = (text) => new Set((text.match(/VN-\d{4}/gi) ?? []).map((s) => s.toUpperCase()));
+  // The guide also writes runs as ranges — "VN-0030–0034" — so expand those,
+  // or every id inside a range reads as missing.
+  const photoIds = (text) => {
+    const ids = new Set((text.match(/VN-\d{4}/gi) ?? []).map((s) => s.toUpperCase()));
+    for (const [, from, to] of text.matchAll(/VN-(\d{4})\s*[–—-]\s*(\d{4})/gi)) {
+      const start = Number(from);
+      const end = Number(to);
+      if (end < start || end - start > 200) continue; // not a range we understand
+      for (let n = start; n <= end; n++) ids.add(`VN-${String(n).padStart(4, '0')}`);
+    }
+    return ids;
+  };
   const inGuide = photoIds(readFileSync(GUIDE, 'utf8'));
   const inPage = photoIds(readFileSync(PAGE, 'utf8'));
   const only = (a, b) => [...a].filter((x) => !b.has(x)).sort();
