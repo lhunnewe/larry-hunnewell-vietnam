@@ -123,8 +123,22 @@ issue numbers. Record negatives in the body; they are the most re-readable part.
 
 ## Known drift
 
-Current `npm run validate` output that is real and unfixed:
+`npm run validate` currently reports **0 errors, 0 warnings, 1 note** — and that note is the
+benign one saying the working guide covers more photographs than the curated `/interview/`
+page, which is by design.
 
-- `src/pages/interview.astro` shows **VN-0034**, which the breakfast guide doesn't track.
-- `people/ron-tototz.json` cites four newspaper/Find-a-Grave items as free text; they should
-  become `data/sources/` records now that the identification is settled.
+What the validator cannot see, and what is actually behind:
+
+- **The summary surfaces are one harvest behind the records.** New testimony arrives in
+  `data/recollections/` from the giscus export and is read for *fidelity* but not always for
+  *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
+  `src/pages/research.astro` and the interview guide still list the question as open. After
+  any export, read the new records for what they answer, not only for who said them.
+- **The public research page lists six questions; the ledger holds seventeen.** Closing that
+  gap is authorship, not bookkeeping: several ledger questions cannot be published as written
+  without breaking rule 6.
+- **Not every ledger question has an issue, and not every issue has a ledger entry**, though
+  the rule above says both are required.
+
+Keep this section honest. It described drift that had already been fixed until an audit
+caught it, which is the same failure it exists to prevent.
