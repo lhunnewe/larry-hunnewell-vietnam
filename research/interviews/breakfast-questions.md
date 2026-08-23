@@ -29,10 +29,14 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 ## Tier 1 — The big unlocks (each answer opens a research door)
 
-- [ ] **1. "Is this you?"** — Show **VN-0028** (name tape HUNNEWELL, arm around a Vietnamese
-  soldier on the mountain). Then VN-0029, VN-0022, VN-0015.
-  *Unlocks: confirms his identity thread through the whole collection — everything else builds
-  on this. Also the warmest possible opener.*
+- [X] **1. "Is this you?"** — **ANSWERED 2026-08-17:** Larry confirmed in conversation with
+  his son that the man in **VN-0028** (name tape HUNNEWELL, arm around a Vietnamese soldier
+  on the mountain) is him. Combined with his earlier self-identifications in VN-0015 and
+  VN-0022 (2026-08-15), the identity thread through the whole collection is now anchored by
+  his own word, not just the machine reading of the name tape. Follow-ups still open, with
+  VN-0028 back on the table: "Who is the young soldier under your arm? What was the
+  equipment in the metal cabinet behind you? Whose Thompson is he holding?" — and the pocket
+  patch is question #3. VN-0029 still awaits its own look.
 - [X] **2. "Who is your friend — tell me a story about him."** — **ANSWERED 2026-08-15:**
   the beach-table man of VN-0022 is **Ron Tototz** ("Ron Tototz and I. This is at Beachhut
   #3 or 4 at Nha Trang") — and the "WE..." name tape in VN-0014 resolved separately as

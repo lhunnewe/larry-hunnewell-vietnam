@@ -2,8 +2,13 @@
   "photoId": "VN-0028",
   "originalFilename": "1920236-R4-E155.jpg",
   "originalPath": "Group Photos with Unit/1920236-R4-E155.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry with a young Vietnamese soldier on the mountain",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": ["larry-dennis-hunnewell"],
+  "description": "Larry stands among granite boulders with his arm around the shoulders of a smiling young Vietnamese soldier who cradles a Thompson-type submachine gun. Larry's name tape — HUNNEWELL — is fully legible, with a U.S. ARMY tape on the opposite chest and a white shield-shaped patch at his left pocket. Behind them, sandbags are stacked among boulders bearing painted Vietnamese inscriptions in red, and heavy cables run down the rock face to a dark equipment cabinet — powered equipment installed among the rocks.",
+  "researchNotes": "Larry confirmed in conversation with his son (2026-08-17) that this is him. The survey had read the HUNNEWELL name tape as machine-level identification; his own word now anchors the identity thread the rest of the collection builds on, alongside his 2026-08-15 self-identifications in VN-0015 and VN-0022. Still open from this frame: the young soldier's name (he closely resembles the young man of VN-0009, same site), the contents of the equipment cabinet (radio/relay hypothesis), the white shield pocket patch (a re-scan target), and the painted rock inscriptions. The setting matches VN-0009/VN-0006 — the hypothesized Núi Bà Đen summit installation — but the site name remains unconfirmed by Larry, so no location is set here yet.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0009", "vn-0006", "vn-0010", "vn-0029"],
+  "sources": []
 }
