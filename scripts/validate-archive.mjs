@@ -256,6 +256,39 @@ for (const entry of db.recollections) {
   }
 }
 
+// ------------------------------------------------------- duplicated testimony
+// Testimony copied onto the record it concerns arrives without the fidelity and
+// provenance that qualified it. Attribution is now recovered at render time
+// (src/lib/testimony.ts), but the copy can still drift from the original. The
+// durable fix is to render from the recollection and stop copying the text.
+{
+  const normalize = (s) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+  const said = db.recollections.map((e) => ({
+    text: normalize(e.data.text ?? ''),
+    fidelity: e.data.fidelity,
+  }));
+  let copied = 0;
+  let copiedParaphrase = 0;
+
+  for (const collection of ['photos', 'videos', 'people', 'places', 'timeline']) {
+    for (const entry of db[collection]) {
+      const own = normalize(entry.data.larrysRecollection ?? '');
+      if (own.length < 40) continue;
+      const hit = said.find((r) => r.text.includes(own) || (r.text.length >= 40 && own.includes(r.text)));
+      if (!hit) continue;
+      copied++;
+      if (hit.fidelity === 'paraphrase') copiedParaphrase++;
+    }
+  }
+
+  if (copied) {
+    note(
+      'data/',
+      `${copied} larrysRecollection field(s) duplicate a recollection record (${copiedParaphrase} of them a paraphrase) — render from the record instead, so fidelity travels with the words`
+    );
+  }
+}
+
 // --------------------------------------------------------- unreferenced records
 // A person or place nothing points at renders as an unconnected page.
 const inbound = new Set();

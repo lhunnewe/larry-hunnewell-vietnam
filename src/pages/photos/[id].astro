@@ -6,6 +6,7 @@ import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
 import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
+import { attributionFor, fidelityOfCopiedText } from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const photos = (await getCollection('photos')).sort((a, b) =>
@@ -23,6 +24,8 @@ export async function getStaticPaths() {
 
 const { photo, prev, next } = Astro.props;
 const d = photo.data;
+/** Every recollection, so copied testimony can be attributed by its true fidelity. */
+const allRecollections = await getCollection("recollections");
 const familyFolder = d.originalPath ? d.originalPath.split('/').slice(0, -1).join(' / ') : null;
 const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
 ---
@@ -91,7 +94,11 @@ const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
 
   {d.description && <p>{d.description}</p>}
 
-  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+  {d.larrysRecollection && (
+    <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
+      {d.larrysRecollection}
+    </Recollection>
+  )}
 
   {d.researchNotes && (
     <>

@@ -6,6 +6,7 @@ import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
 import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
+import { attributionFor, fidelityOfCopiedText } from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const videos = (await getCollection('videos')).sort((a, b) =>
@@ -23,6 +24,8 @@ export async function getStaticPaths() {
 
 const { video, prev, next } = Astro.props;
 const d = video.data;
+/** Every recollection, so copied testimony can be attributed by its true fidelity. */
+const allRecollections = await getCollection("recollections");
 const heading = d.cataloged ? d.title : `Film clip ${d.videoId}`;
 
 function mmss(seconds: number): string {
@@ -102,7 +105,11 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
 
   {d.description && <p>{d.description}</p>}
 
-  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+  {d.larrysRecollection && (
+    <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
+      {d.larrysRecollection}
+    </Recollection>
+  )}
 
   {d.researchNotes && (
     <>

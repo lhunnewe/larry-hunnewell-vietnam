@@ -6,6 +6,7 @@ import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
 import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
+import { attributionFor, fidelityOfCopiedText } from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const people = await getCollection('people');
@@ -14,6 +15,8 @@ export async function getStaticPaths() {
 
 const { person } = Astro.props;
 const d = person.data;
+/** Every recollection, so copied testimony can be attributed by its true fidelity. */
+const allRecollections = await getCollection("recollections");
 ---
 
 <BaseLayout title={d.name}>
@@ -28,7 +31,11 @@ const d = person.data;
 
   <p class="lede">{d.summary}</p>
 
-  {d.larrysRecollection && <Recollection>{d.larrysRecollection}</Recollection>}
+  {d.larrysRecollection && (
+    <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
+      {d.larrysRecollection}
+    </Recollection>
+  )}
 
   {d.researchNotes && (
     <>
