@@ -43,10 +43,8 @@ const SPOILER_TERMS = [
   // The Ginza restaurant probe — Ketel's signature feature (research/places/ginza-heidelberg.md)
   'beer barrel',
   "ketel",
-  // The helicopter/explosion story, and the sapper hypothesis behind it
-  'su-ner',
-  'sooner',
-  'sapper',
+  // (The helicopter/explosion probe is spent: Larry volunteered "sappers"
+  // unprompted on 2026-08-17, so those terms are no longer withheld.)
   'two-friends split',
   // The tail-emblem probe: he is shown VN-0012 and asked what his unit painted
   // on its aircraft, so no reading of the emblem may appear on a page he reads
@@ -74,7 +72,9 @@ const RENDERED_FIELDS = {
   people: ['name', 'role', 'summary', 'researchNotes'],
   places: ['name', 'summary', 'researchNotes'],
   timeline: ['title', 'description'],
-  recollections: [],
+  // Recollections render on the photo, person, place, footage and timeline
+  // pages now that testimony is shown from the record rather than a copy.
+  recollections: ['text'],
   sources: ['title', 'citation', 'notes'],
 };
 
