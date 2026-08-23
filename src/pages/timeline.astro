@@ -144,6 +144,11 @@ for (const e of entries) {
               />
             </a>
             {entry.photo.data.description && <p>{entry.photo.data.description}</p>}
+            {allRecollections
+              .filter((r) => (r.data.relatedPhotos ?? []).some((x) => x.id === entry.photo.id))
+              .map((rec) => (
+                <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+              ))}
             {entry.photo.data.larrysRecollection && (
               <Recollection attribution={attributionFor(fidelityOfCopiedText(entry.photo.data.larrysRecollection, allRecollections))}>
                 {entry.photo.data.larrysRecollection}

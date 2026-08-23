@@ -26,6 +26,11 @@ const { photo, prev, next } = Astro.props;
 const d = photo.data;
 /** Every recollection, so copied testimony can be attributed by its true fidelity. */
 const allRecollections = await getCollection("recollections");
+
+/** Testimony recorded about this photograph, with its own fidelity and provenance. */
+const photoRecollections = allRecollections.filter((r) =>
+  (r.data.relatedPhotos ?? []).some((x) => x.id === photo.id)
+);
 const familyFolder = d.originalPath ? d.originalPath.split('/').slice(0, -1).join(' / ') : null;
 const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
 ---
@@ -98,6 +103,17 @@ const heading = d.cataloged ? d.title : `Photograph ${d.photoId}`;
     <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
       {d.larrysRecollection}
     </Recollection>
+  )}
+
+  {photoRecollections.length > 0 && (
+    <>
+      {photoRecollections.map((rec) => (
+        <>
+          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+          <p class="record provenance">{rec.data.provenance}</p>
+        </>
+      ))}
+    </>
   )}
 
   {d.researchNotes && (

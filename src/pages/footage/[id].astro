@@ -26,6 +26,11 @@ const { video, prev, next } = Astro.props;
 const d = video.data;
 /** Every recollection, so copied testimony can be attributed by its true fidelity. */
 const allRecollections = await getCollection("recollections");
+
+/** Testimony recorded about this clip, with its own fidelity and provenance. */
+const videoRecollections = allRecollections.filter((r) =>
+  (r.data.relatedVideos ?? []).some((x) => x.id === video.id)
+);
 const heading = d.cataloged ? d.title : `Film clip ${d.videoId}`;
 
 function mmss(seconds: number): string {
@@ -109,6 +114,17 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
     <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
       {d.larrysRecollection}
     </Recollection>
+  )}
+
+  {videoRecollections.length > 0 && (
+    <>
+      {videoRecollections.map((rec) => (
+        <>
+          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+          <p class="record provenance">{rec.data.provenance}</p>
+        </>
+      ))}
+    </>
   )}
 
   {d.researchNotes && (

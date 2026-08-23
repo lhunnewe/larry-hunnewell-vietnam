@@ -17,6 +17,11 @@ const { person } = Astro.props;
 const d = person.data;
 /** Every recollection, so copied testimony can be attributed by its true fidelity. */
 const allRecollections = await getCollection("recollections");
+
+/** Testimony recorded about this person, with its own fidelity and provenance. */
+const personRecollections = allRecollections.filter((r) =>
+  (r.data.relatedPeople ?? []).some((x) => x.id === person.id)
+);
 ---
 
 <BaseLayout title={d.name}>
@@ -35,6 +40,17 @@ const allRecollections = await getCollection("recollections");
     <Recollection attribution={attributionFor(fidelityOfCopiedText(d.larrysRecollection, allRecollections))}>
       {d.larrysRecollection}
     </Recollection>
+  )}
+
+  {personRecollections.length > 0 && (
+    <>
+      {personRecollections.map((rec) => (
+        <>
+          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+          <p class="record provenance">{rec.data.provenance}</p>
+        </>
+      ))}
+    </>
   )}
 
   {d.researchNotes && (
