@@ -32,6 +32,16 @@ Open questions:
    microfilm and the Stars and Stripes archive remain the only untried print paths.
    Also resolved: the 1949 Owens Valley lead is closed — a Big Pine "Ted Hunnewell"
    family, and the visitor was from Englewood, N.J. (misread as Inglewood).*
+   *2026-08-23 (Memories): the sighting was NOT a chance encounter with a current paper.
+   Asked whether he saw it in the ward, Larry answered "Yes. Was told of it at Camp Zama and
+   then saw it or went looking for it." The item may therefore have been days or weeks old
+   when he read it, or a back issue kept on the ward — the search window should not assume
+   the edition circulating that week. Also: the Stars and Stripes archive is no longer an
+   untried path. A session on 2026-08-17 (research/events/kia-misreport-stars-stripes.md)
+   swept the whole archive for "hunnewell" and eleven OCR variants (all zero in 1964–66) and
+   read all 44 "inglewood" 1965 hits. It was PAUSED on cost with nine candidate casualty
+   lists still unread visually — keyword absence proves nothing here, so the sweep is a
+   documented partial negative with a named resume point, not a closed search.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
@@ -73,6 +83,18 @@ Open questions:
    fixed-wing) — with HHC, 145th Aviation Battalion (HQ at Tan Son Nhut through Larry's
    whole tour) the strongest institutional candidate. Decisive documents: 145th Avn Bn
    ORLLs 1964–65 and HHC morning reports.*
+   *2026-08-23 (Memories, both volunteered rather than asked): two new handles. (a) Larry
+   named the **125th air traffic controllers** as "moving in after his unit to take their
+   place" as his own service ended — said unprompted in the car on the way to the VA, so it
+   is his recall and not an echo of any candidate list. This contradicts this archive's
+   standing argument that the 125th was not in-country in 1964–65, and it matters more than
+   another candidate would: a named successor unit's records name what it replaced. (b) The
+   radio van "was over in the property of **18th aviation**. They were huge. They had
+   probably about 300 helicopters including sky cranes. It was before the first cav
+   aviation." The 18th appears nowhere else in this archive. Note that "on their property"
+   is a tenancy claim, not a chain of command — and "before the first cav aviation" would
+   explain the remembered 1st Cavalry association as sequence rather than assignment. Both
+   worked through in research/units/flight-following-1964-65.md.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -80,6 +102,11 @@ Open questions:
    account adds "Tah San hut headquarters company" (yet another phonetic rendering) and the
    detail that AIR FORCE police responded — exactly what one would expect at Tân Sơn Nhứt,
    a shared air base with USAF security police.*
+   *2026-08-23: a fourth independent rendering from Larry, given in answer to what base his
+   hooch T 123 stood on — "The base was **Thon Sohn Nuht**." The renderings now on record are
+   "Thom Son Nuht" (son's transcription), "Ton Son Nuht" (his own writing), "Tah San hut"
+   and "Thon Sohn Nuht". All are consistent with Tân Sơn Nhứt; none is documentary, so the
+   identification stays plausible and no coordinates are set.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
@@ -113,18 +140,40 @@ Open questions:
    which — writing "I was at Camp Zama in Japan in Sugami Uro" [Sagami-Ōno]. The
    identification is now independently confirmed by testimony; NPRC clinical records remain
    the final documentary step.*
+   *2026-08-23: three answers, one of them a new documentary lead. Duration: "close to 4
+   months" (a soft estimate — four months from an early-September arrival runs past the
+   30 November separation on the DD-214). Route: "Flew first to the **Philippines and spent
+   4 days at a navy base or navy hospital**. Then flown to camp Zama" — a stop nothing had
+   recorded, and worth naming on the NPRC clinical-records request alongside Camp Zama. And
+   the Ginza day was a pass from the hospital, which he had to obtain. The friend's identity
+   remains open.*
 8. **Sgt. "Chapman"** — a sergeant Larry named in the 2026-08-12 call; believed separate from
    Lowry/Lowery, and the comment arose around basic training. Confirm who he was and where
    basic training took place (`data/people/sgt-chapman.json`). *2026-08-15: substantially
    revised — Larry identified Chapman in VN-0024, photographed beside him in Vietnam, "a
    rank E7." The basic-training association now needs reconciling with Larry (knew him in
    both places, or only in-country?).*
+   *2026-08-23 — RESOLVED, and it narrows the search rather than closing it: "He did not
+   know Chapman in basic training. No one from basic training was in Vietnam with him." The
+   training association was a mis-link. Chapman is an in-country man only, an E7 in Larry's
+   company, so he should be findable in unit morning reports (issue #27) rather than on a
+   training roster. Basic training itself is now located: **Fort Ord**, Monterey Bay,
+   September 1963 to about January, then **Fort Gordon** for radio school — which settles the
+   Fort Gordon / Fort Benning question in favour of Gordon and leaves Fort Benning as the
+   separate place he volunteered for Vietnam. Note the tension with the DD-214: he says
+   September 1963, the form says induction 28 October 1963. Both stand.*
 9. **The two friends** — *half resolved 2026-08-15:* the man at the beach table (VN-0022)
    is **Ron Tototz** — "Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang." The
    Japan hospital friend (VN-0093, VN-0095), "from back east," remains unnamed. A NEW
    unnamed friend took the beach man's place as the archive's most-wanted name: the man at
    left in VN-0005 (Cholon pool), whom Larry "knew really well" and who is the guitarist of
    the VN-0003/VN-0007/VN-0008 sessions.
+   *2026-08-23 — NARROWED, not answered. Asked again about the guitarist, the name still did
+   not come: "Don't remember his name. Nice guy. **He was a Spec 5**. **He was in his Unit.
+   Might have been in the same barracks.**" So the most-wanted man is now an E-5 in Larry's
+   own unit, possibly the same barracks — which converts this from "ask him again" into a
+   morning-report search shape the archive did not have before. Worth deciding whether
+   another breakfast on it is a good use of a sitting.*
 10. **The "450 civilians" day** (from the 2026-08-13 Tell a Story comments) — did an
     incident occur? Leads: the call signs as unit identifiers (Body Jab 42 = the SF camp;
     Rosethorn = his command's aviation call sign — either could also settle #2), strike and
@@ -164,6 +213,13 @@ Open questions:
     posting to Tây Ninh in 1964–65 appears in the partial published rolls.* *2026-08-15:
     Kennedy strengthened considerably — he took VN-0023 (Larry on patrol) with his Nikon F
     and developed his film in Hawaii, placing him physically on patrol with Larry.*
+   *2026-08-23: **Kahn wrote the unit's morning reports.** That ties him directly to the
+   morning-reports request (issue #27) — if those reports are obtained, his name should
+   appear on them as the clerk who typed them, corroborating both the account and the unit.
+   Also from the same comment, and unattached to any record until now: Larry received **an
+   award from the Vietnamese government**, name not remembered. A foreign decoration appears
+   in DD-214 item 26 and in the OMPF, so it is a directly checkable item for the NPRC return
+   now in the mail (issue #19).*
 13. **New names from the 2026-08-15 session** — **Sgt. Weaver** (ex-Marine, VN-0014 — the
     'WE...' name tape read by the survey now confirmed; bathroom-shooting witness),
     **PFC Jones** (VN-0012 believed, VN-0020; one Jones or two? — the monkey may have
@@ -175,6 +231,12 @@ Open questions:
     **PFC Stanton** (VN-0026 — explicitly a guess), **Rosie** (club doorkeeper who made it
     to America), and **Sgt. "La Franceaous"** (phonetic Fran-Swas, no photos, no context
     yet). Person records exist for all.
+   *2026-08-23: Mike Patrick — Larry named the organisation himself, "He was above special
+   forces. **He was MAGSOG**", his own rendering of MACV-SOG, which the survey had only
+   inferred. Still his single testimony rather than a document, so the classification does
+   not move. Separately, the call-sign scheme is explained: "All of major Schwartzkoff or
+   special forces call signs were **boxing terms**" — which is why "Body Jab" appears in no
+   published source, and which predicts siblings worth searching for.*
 14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
     Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
     *2026-08-16 (issue #61, research/people/drowned-medic-nha-trang.md): comprehensive

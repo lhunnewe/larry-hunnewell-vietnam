@@ -20,10 +20,23 @@ answer would unlock. Full per-photo question lists live in the observation recor
 
 - One or two photos per breakfast. Show the actual picture (the website gallery on a tablet
   works well — and he can type or dictate right into the Memories box on the photo page).
-- Record his words **verbatim**, even the tangents — especially the tangents.
+- Record his words **exactly as he says them**, even the tangents — especially the tangents.
+  ("Verbatim" now has a narrow meaning in this archive: text Larry typed himself. What you
+  capture at the table is `transcribed`. See CLAUDE.md, "Who is speaking".)
 - Never correct him from the research. If his memory differs from a hypothesis below, his
   memory goes in the record as given, and the difference becomes a research note.
 - Check off questions as asked; add the date.
+- **He answers on his own schedule.** Some of the best material arrives days later and out of
+  nowhere — in the car, at the VA, mid-way through something else — with no reference to the
+  question that prompted it. He leaves details out and adds them back at random. Two
+  consequences: a question that got a thin answer is not closed, and anything he volunteers
+  away from the table is worth typing into the Memories box the same day, with a note of
+  where and how it came up. Provenance matters most for exactly these: an answer that
+  arrived unprompted is far stronger evidence than one given to a direct question, and only
+  the person who was there can say which it was.
+- **Record his own spelling of every name and place**, and ask him how he would spell it.
+  His rendering preserves how he heard it, which is itself evidence — the base name has now
+  come out four different ways, and the spread is data about the sound.
 
 ---
 
@@ -46,7 +59,13 @@ answer would unlock. Full per-photo question lists live in the observation recor
   VN-0003/VN-0007/VN-0008 — whom Larry "knew really well" but can't name.** Show VN-0005
   and the guitar photos together: "It'll come to you — who was the guitar player?" The
   Japan hospital friend (VN-0093) remains a separate unnamed man.
-- [ ] **3. "What was on your pocket patch — and on the helicopters?"** — Show **VN-0028**
+- [~] **3. "What was on your pocket patch — and on the helicopters?"** — **ASKED 2026-08-23,
+  PARTIAL NEGATIVE:** the helicopter half came back empty in his own words — "Doesn't recall
+  what was on the helicopter." He offered instead that he had an Army-issue watch, and that
+  he recalls **two M-60s on the helicopter door — actual machine guns**. So the tail-emblem
+  probe has been run once and returned nothing; the emblem readings stay withheld, but do not
+  expect a second asking to produce more. The pocket patch itself was not answered.
+  Original prompt: — Show **VN-0028**
   (white shield pocket patch), **VN-0012** (bird emblem on tail fin), **VN-0141** (bird nose
   art). "What did your unit paint on its aircraft? What did the patch say?"
   *Unlocks: the unit question (#10) — the remembered "118th AOD" vs. the 118th Aviation
@@ -57,7 +76,11 @@ answer would unlock. Full per-photo question lists live in the observation recor
   *Partly answered 2026-08-15: VN-0015 is Larry ("This is me inside the radio van starting
   the night 12-hour shift alone"), the W-E man is **Sgt. Weaver, ex-Marine**, and VN-0011 is
   the van's exterior — "these two guys are flight controllers. I was a flight controller
-  also." Still open: WHERE the van stood (the #3 unlock), the two men on the VN-0011 steps,
+  also." **WHERE THE VAN STOOD IS ANSWERED (2026-08-23):** "It was over in the property of
+  **18th aviation**. They were huge. They had probably about 300 helicopters including sky
+  cranes. **It was before the first cav aviation.**" A unit that appears nowhere else in the
+  archive — and a sequencing claim that would explain the remembered 1st Cavalry association
+  without his having served in it. Still open: the two men on the VN-0011 steps,
   and what Weaver's pocket patch said.*
 - [X] **5. "Which hospital were you in, in Japan?"** — **ANSWERED 2026-08-13, unprompted:**
   "I was at Camp Zama in Japan in Sugami Uro" [Sagami-Ōno] — he was told only that research
@@ -148,6 +171,9 @@ answer would unlock. Full per-photo question lists live in the observation recor
   training AND Vietnam, or just over there?"*
 - [ ] The helicopter and the explosion — "Tell me again about the helicopter and the
   explosion — the two with the bombs around them. What did you call them?" (From the
+  **ANSWERED 2026-08-23 — he said the word himself, unprompted: "They were called Sappers."
+  He added that there were sappers as young as ten.** The probe is spent and the term is no
+  longer withheld. Original note follows.
   2026-08-12 call: the word sounded like "su-ners" — if it was "sappers," the story may
   match a documentable VC sapper attack. Let him say the word; don't supply it.)
 
