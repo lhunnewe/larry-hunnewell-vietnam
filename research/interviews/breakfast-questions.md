@@ -34,9 +34,13 @@ answer would unlock. Full per-photo question lists live in the observation recor
   where and how it came up. Provenance matters most for exactly these: an answer that
   arrived unprompted is far stronger evidence than one given to a direct question, and only
   the person who was there can say which it was.
-- **Record his own spelling of every name and place**, and ask him how he would spell it.
-  His rendering preserves how he heard it, which is itself evidence — the base name has now
-  come out four different ways, and the spread is data about the sound.
+- **Ask him to spell names and places, and mark clearly when the spelling is his.** There are
+  three different things here and the archive has already confused two of them: whose words,
+  whose keystrokes, and whose spelling. You type, so the keystrokes are always yours — but a
+  spelling Larry chose letter by letter is evidence, and a spelling you supplied for a sound
+  is not. The base name looked like four independent renderings until it turned out only one
+  ("Ton Son Nuht", 2026-08-13) was his; the rest were transcription. Note which it is at the
+  time, because nobody can recover it later.
 
 ---
 
