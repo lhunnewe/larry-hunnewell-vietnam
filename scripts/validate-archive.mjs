@@ -39,7 +39,28 @@ const note = (where, msg) => notes.push({ where, msg });
  * first. See research/interviews/breakfast-questions.md ("don't prime him").
  * Add a term here when a new probe is written.
  */
-const SPOILER_TERMS = ['beer barrel', 'su-ner', 'sooner', 'two-friends split'];
+const SPOILER_TERMS = [
+  // The Ginza restaurant probe — Ketel's signature feature (research/places/ginza-heidelberg.md)
+  'beer barrel',
+  "ketel",
+  // The helicopter/explosion story, and the sapper hypothesis behind it
+  'su-ner',
+  'sooner',
+  'sapper',
+  'two-friends split',
+  // The tail-emblem probe: he is shown VN-0012 and asked what his unit painted
+  // on its aircraft, so no reading of the emblem may appear on a page he reads
+  // (research/magnification/README.md, breakfast question #3)
+  'thunderbird',
+  'lightning bolt',
+  '...control',
+  // The Australian captain — a lead to verify, not an established frame
+  'aattv',
+  'australian army training',
+  // The interview apparatus itself: he must not learn a numbered question list
+  // exists, or that he is being worked through one
+  'breakfast question',
+];
 
 /**
  * Fields that actually render on a page Larry may browse, per collection.
