@@ -189,6 +189,7 @@ const recollections = defineCollection({
     researchNotes: z.string().optional(),
     relatedPhotos: z.array(reference('photos')).default([]),
     relatedVideos: z.array(reference('videos')).default([]),
+    relatedTimeline: z.array(reference('timeline')).default([]),
     relatedPlaces: z.array(reference('places')).default([]),
     relatedPeople: z.array(reference('people')).default([]),
   }),

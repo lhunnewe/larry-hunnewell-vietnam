@@ -5,6 +5,13 @@
   "text": "Larry went to Japan because he was sick — with what he called \"sepititis\" [likely hepatitis], malaria, and infections — and had lost a great deal of weight. He described how sick he was: his stool was pure white and his urine looked like Coca-Cola. It was a medical evacuation from Vietnam. In Japan the weather was cold, going into winter; he placed his time there as starting in early September. The man in his Japan pictures was in the hospital bed across from him (or next to him), a fellow patient from someplace back east, and they hung out from that day. They explored Japan together for a day or so: they went to the Ginza strip, found a sign that said \"Heidelberg\" for a German restaurant that was downstairs, and went down and ate there. He does not remember the friend's name.",
   "fidelity": "paraphrase",
   "researchNotes": "The white stool and cola-dark urine he described are the classic presentation of hepatitis jaundice, common among U.S. troops in Vietnam — \"sepititis\" is read as his (or the note-taker's) rendering of hepatitis, though sepsis from the infections isn't ruled out. This account answers the DD-214 puzzle of the last duty assignment (USA MED COMD, APO SF 96343, USARJ): he was a patient, not reassigned. Hospital name unknown — candidates include the U.S. Army Hospital at Camp Zama (APO 96343) and the 249th General Hospital at Camp Drake; ask. Note the internal tension between \"early September\" and \"cold, going into winter\": Tokyo is warm in early September, but his foreign service ran to late November 1965, so arrival in early September with genuinely cold weather later in the stay covers both. The hospital-bed detail means the Japan photo companion may be a different man from the recurring friend in the Vietnam photos.",
-  "relatedPlaces": ["japan"],
-  "relatedPeople": ["larry-dennis-hunnewell"]
+  "relatedPlaces": [
+    "japan"
+  ],
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
+  ],
+  "relatedTimeline": [
+    "1965-fall-japan-medical-command"
+  ]
 }

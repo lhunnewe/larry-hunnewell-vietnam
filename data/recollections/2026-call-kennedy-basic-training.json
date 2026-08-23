@@ -5,5 +5,10 @@
   "text": "Larry was about a month into basic training when Kennedy was shot.",
   "fidelity": "paraphrase",
   "researchNotes": "Kennedy was assassinated November 22, 1963. Counted from Larry's induction on October 28, 1963 (DD-214, item 18), \"about a month into basic training\" is a match within days — his own unprompted memory independently corroborates the form's 1963 induction date over the old family estimate of 1964. The location of basic training is still unknown; ask.",
-  "relatedPeople": ["larry-dennis-hunnewell"]
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
+  ],
+  "relatedTimeline": [
+    "1963-11-22-kennedy-in-basic"
+  ]
 }

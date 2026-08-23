@@ -5,6 +5,14 @@
   "text": "Around August 1965, Larry was in Japan. He personally remembers seeing a notice or article in Stars and Stripes saying he had been killed.",
   "fidelity": "paraphrase",
   "researchNotes": "One of the most important stories in the project. Not treated as confirmed until the original Stars and Stripes item or Army documentation is located, but preserved exactly as given.",
-  "relatedPlaces": ["japan"],
-  "relatedPeople": ["larry-dennis-hunnewell", "captain-guegler"]
+  "relatedPlaces": [
+    "japan"
+  ],
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "captain-guegler"
+  ],
+  "relatedTimeline": [
+    "1965-08-japan-kia-report"
+  ]
 }

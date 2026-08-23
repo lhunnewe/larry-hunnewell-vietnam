@@ -102,6 +102,11 @@ for (const e of entries) {
                 {entry.event.data.larrysRecollection}
               </Recollection>
             )}
+            {allRecollections
+              .filter((r) => (r.data.relatedTimeline ?? []).some((x) => x.id === entry.event.id))
+              .map((rec) => (
+                <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+              ))}
             {entry.event.data.relatedPlaces.length > 0 && (
               <p class="event-links record">
                 Places:{' '}
