@@ -73,3 +73,54 @@ basement beer halls Pilsen and Munchen (Japanese-run, not named Heidelberg).
 - Negative results: EN/JA web, Google Books, and HathiTrust probes for
   "Heidelberg/ハイデルベルク + 銀座" returned only Heidelberg-Germany noise; the 1960s
   guidebooks on archive.org are digitized but access-restricted to automated calls.
+
+## 2026-08-23 — the probe ran, and it did not come back Ketel's
+
+Next-step 5 of this file was an interview probe: ask what he remembers about the place —
+the sign, the entrance, the stairs — **without supplying details**, on the theory that if he
+spontaneously described a giant **beer-barrel doorway**, that would be Ketel's signature.
+
+The probe was run. He was asked exactly that, and nothing was supplied
+(`data/recollections/giscus-stories-c18118868.json`):
+
+> "It was downstairs. It had a sign pointing downstairs, he said the sign was on a building,
+> it said **"hoffbraugh" or hoff-bra phonetically**. The stairs went down and went to the
+> right. It was all fixed up downstairs with German stuff. He said he thinks it was **ran by
+> Japanese**."
+
+**No barrel.** The single most distinctive feature of Ketel's frontage, and the thing the
+probe existed to elicit, did not appear in an answer that was otherwise rich in physical
+detail — the sign's position on the building, the direction the stairs turned, the decor,
+the management. A witness who recalls that the stairs turned right would be likely to recall
+a doorway shaped like a beer barrel.
+
+**Ketel's is now the weaker candidate, and the name has changed.** "Hoffbraugh" is a much
+better phonetic fit for **Hofbräu** than "Heidelberg" ever was, and Hofbräu is one of the
+most commonly borrowed German restaurant names worldwide. The memory the archive has been
+chasing as "Heidelberg" may always have been Hofbräu — the son's original transcription of
+what Larry said aloud, made before any of this research existed.
+
+Two details also cut against Ketel's specifically: Ketel's was German-founded and
+German-run, while Larry thinks the place was **Japanese-run**; and his sign was **on the
+building pointing downstairs**, not over a street-level frontage.
+
+**This supersedes the Ketel's hypothesis as the leading identification.** It is not
+disproof — he may simply not recall the barrel sixty years on — but the probe designed to
+test it has been spent, and it returned negative.
+
+**Next queries, in order:**
+
+1. **Hofbräu-named establishments in Ginza / Chūō-ku in the mid-1960s**, basement premises,
+   Japanese management. Try 「ホフブロイ」「ホーフブロイ」「ホフブロイハウス」+ 銀座 in the NDL
+   Next Digital Library and the 1965 Tokyo classified telephone directory (職業別電話帳).
+2. **Pacific Stars and Stripes restaurant advertising, Sept–Nov 1965** — now searchable for
+   "Hofbrau" as well as "Heidelberg", and the family already has access to that archive
+   (see research/events/kia-misreport-stars-stripes.md).
+3. Re-read the 1960s guidebooks on archive.org for "Hofbrau" rather than "Heidelberg".
+
+**Withheld terms retired.** "beer barrel" and "Ketel" were held out of rendered fields so
+this probe would stay honest. The probe has run; keeping them withheld now would flag the
+archive's own record of his answer as a leak. They are removed from SPOILER_TERMS in
+scripts/validate-archive.mjs. Note for the future: this is the second probe spent in two
+days, and both were retired only because someone noticed. A spent probe that stays on the
+withheld list quietly rots.

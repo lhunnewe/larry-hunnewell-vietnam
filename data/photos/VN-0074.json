@@ -2,8 +2,10 @@
   "photoId": "VN-0074",
   "originalFilename": "1920236-R2-E067.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E067.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "An airfield burning, photographed from the air",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "confidence": "unverified-recollection",
+  "researchNotes": "Identified by Larry 2026-08-23 (giscus-vn-0074-c18118935): \"This is a B-50 Canberra bomber on fire. Two of these got blown up in Bien Hoa.\" The aircraft he means is almost certainly the B-57 Canberra — the B-50 is a different aircraft that never served in Vietnam — and the event is almost certainly the Bien Hoa explosion of 16 May 1965, which destroyed a line of B-57s. His words stand as given; the type number is recorded as a soft detail. If the event is confirmed this becomes a dated frame and a fixed point for the unit question, since it places him at or near Bien Hoa. Description written from the scan before consulting the survey: the frame shows the fire from the air across a whole airfield, not an aircraft in close-up, so Larry is naming what he understood to be burning rather than what the photograph itself shows. The aerial vantage is itself evidence — he was airborne when he took it, consistent with the helicopter travel he describes.",
+  "description": "An aerial photograph looking down on a large airfield from considerable height. A single intense orange fireball burns at ground level near the centre-left, throwing a dense black smoke column straight up before it leans and spreads into a grey pall across the upper left of the frame. Below, a long pale runway and taxiway run diagonally across the field, with dispersal areas, regular blocks of buildings and tent lines, and roads cut through red-brown bare earth. A densely built settlement occupies the right of the frame, and low hills show faintly through haze on the horizon. The image is a colour slide, its mount visible around the edges."
 }

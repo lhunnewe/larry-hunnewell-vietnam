@@ -1,10 +1,13 @@
 {
   "name": "Kahn",
-  "aliases": ["Kahn (phonetic)", "Khan"],
+  "aliases": [
+    "Kahn (phonetic)",
+    "Khan"
+  ],
   "role": "Company secretary",
   "status": "unresolved",
   "summary": "The company secretary, identified by Larry at right in VN-0003. Larry remembers that he \"walked funny, stiff legged like he had polio.\"",
-  "researchNotes": "As company secretary he would appear throughout the unit's paperwork, making him a good anchor name for locating the unit's morning reports at NPRC once the unit itself is confirmed. The spelling is phonetic; Kahn, Khan, Conn, and Kohn are all candidates.",
+  "researchNotes": "As company secretary he would appear throughout the unit's paperwork, making him a good anchor name for locating the unit's morning reports at NPRC once the unit itself is confirmed. The spelling is phonetic; Kahn, Khan, Conn, and Kohn are all candidates. 2026-08-23 (giscus-stories-c18118728): \"Khan wrote the morning reports for the Unit.\" This makes Kahn directly relevant to the morning-reports request (issue #27): if those reports are obtained, his name should appear on them as the clerk who typed them, which would both corroborate this account and confirm the unit.",
   "confidence": "unverified-recollection",
   "relatedPlaces": [],
   "sources": []

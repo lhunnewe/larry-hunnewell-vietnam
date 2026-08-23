@@ -99,3 +99,64 @@ association remains unexplained under every candidate.
 - 145thcab.com history pages (145th CAB HQ at Tan Son Nhut, change of command 24 Jun 1965;
   Ralph Orlando flight log Dec 64–Nov 65: 118th operating from Bien Hoa, staging Tây Ninh)
 - afcatca.org/history/comm-role-in-southeast-asia/ (USAF comm units at TSN 1962+)
+
+## 2026-08-23 — Larry names the 125th himself, unprompted, and contradicts Finding 2
+
+**Provenance, which decides whether this counts at all:** Larry volunteered "125th" with no
+prompting. Per his son, he said it in the car on the way to the VA earlier the same day,
+unasked and out of nowhere, and it was typed into the Memories box afterwards
+(`data/recollections/giscus-stories-c18118728.json`). The interview rule for this topic —
+*do NOT name any unit to him* — was not broken. This is his own recall, not an echo of the
+candidate list in this file.
+
+**What he said:** "Another unit called the **125th air traffic controllers was moving in
+after his unit to take their place**. He only had [a few] days left before his ets."
+
+**What that does to Finding 2.** This file argued that the 125th's documented material is
+1968-and-later, that the company "was not yet operating in-country" in 1964–65, and that
+Larry's net was therefore the *pre-institutional* version of the mission — an argument the
+unresolved ledger repeats. Larry places the 125th arriving **as he was leaving**, i.e.
+around September 1965. Three ways to reconcile, none established:
+
+1. **The lineage date is about the company's formal constitution, not its presence.** An
+   advance party or a predecessor detachment could arrive well before the date a lineage
+   page records. This would leave the substance of Finding 2 intact while making its
+   "not yet in-country" phrasing wrong.
+2. **Larry has the number right and the date drifted.** He may be remembering a later
+   handover he heard about rather than witnessed.
+3. **He is retro-fitting a designation learned afterwards.** Possible for any veteran — but
+   weakened here by the unprompted, out-of-context way it surfaced, and by his tying it to a
+   specific personal fact (his own remaining service time) rather than to a narrative.
+
+**Why this matters more than the usual candidate:** a named successor unit is a documentary
+handle. If the 125th (or a predecessor) took over a flight-following mission near Saigon in
+late 1965, *its* records name what it replaced — which is Larry's outfit. That is a route to
+the unit question that does not depend on finding Larry in a roster.
+
+**Next query:** the 125th ATC company's lineage and honors certificate and any 1965–66 unit
+history, for an arrival or activation date and for what mission it assumed from whom.
+
+## 2026-08-23 — "the property of 18th aviation"
+
+Asked where the radio van stood, Larry answered: "It was over in **the property of 18th
+aviation**. They were huge. They had probably about **300 helicopters including sky
+cranes**. It was **before the first cav aviation**."
+(`data/recollections/giscus-stories-c18118818.json`)
+
+**The 18th has never appeared in this archive before** — every unit pass has weighed the
+118th, 145th, 120th, UTT/68th and 125th. Three readings:
+
+1. **A landlord, not a parent.** He says the van stood *on their property*, which is a
+   tenancy claim, not a chain of command. A large aviation organisation hosting a small
+   flight-following element fits everything else he has said about being attached rather
+   than assigned.
+2. **A mis-numbering of the 118th**, which he has said before and which sounds close.
+3. **A real 18th**, to be checked against period aviation organisations of that size.
+
+"Sky cranes" (CH-54 Tarhe) is a checkable detail with a documented in-country date, and
+"before the first cav aviation" is a sequencing claim that bears directly on the remembered
+1st Cavalry association in issue #10 — his outfit was there *first*, which would explain an
+association without requiring him to have served in the division.
+
+**Next query:** which aviation organisations near Saigon held ~300 airframes in 1964–65, and
+when CH-54s first appear in-country.

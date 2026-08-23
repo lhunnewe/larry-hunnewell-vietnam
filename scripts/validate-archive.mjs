@@ -40,11 +40,10 @@ const note = (where, msg) => notes.push({ where, msg });
  * Add a term here when a new probe is written.
  */
 const SPOILER_TERMS = [
-  // The Ginza restaurant probe — Ketel's signature feature (research/places/ginza-heidelberg.md)
-  'beer barrel',
-  "ketel",
+  // (The Ginza probe is spent too: asked in 2026-08-23 without prompting, Larry
+  // described a "hoffbraugh" sign and no beer barrel — see research/places/ginza-heidelberg.md.)
   // (The helicopter/explosion probe is spent: Larry volunteered "sappers"
-  // unprompted on 2026-08-17, so those terms are no longer withheld.)
+  // unprompted on 2026-08-23, so those terms are no longer withheld.)
   'two-friends split',
   // The tail-emblem probe: he is shown VN-0012 and asked what his unit painted
   // on its aircraft, so no reading of the emblem may appear on a page he reads

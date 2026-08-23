@@ -1,11 +1,19 @@
 {
   "name": "Cholon",
-  "alternateNames": ["Chợ Lớn"],
+  "alternateNames": [
+    "Chợ Lớn"
+  ],
   "vietnameseName": "Chợ Lớn",
-  "coordinates": { "lat": 10.7539, "lng": 106.6633 },
+  "coordinates": {
+    "lat": 10.7539,
+    "lng": 106.6633
+  },
   "summary": "The Chinese district of Saigon. Larry remembers off-duty visits to the French swimming pool there — the setting of the pool photographs VN-0004 and VN-0005, where he swam with Ron Tototz and a friend whose name he can no longer recall.",
-  "researchNotes": "The 'French swimming pool' most plausibly refers to the Cercle Sportif–style colonial pool facilities that survived into the American period; period Saigon guides and veteran accounts of Cholon recreation spots could identify the specific pool and corroborate the English FIRST AID signage visible in VN-0004/VN-0005.",
+  "researchNotes": "The 'French swimming pool' most plausibly refers to the Cercle Sportif–style colonial pool facilities that survived into the American period; period Saigon guides and veteran accounts of Cholon recreation spots could identify the specific pool and corroborate the English FIRST AID signage visible in VN-0004/VN-0005. 2026-08-23 (giscus-stories-c18118999): Larry places the swimming pool \"near Binh Choi, which is south of the airport near Cholon\" — a locating detail for the pool of VN-0004/VN-0005 that no previous account gave. \"Binh Choi\" is phonetic and not yet matched to a period place name; south of Tân Sơn Nhứt toward Chợ Lớn is the area implied.",
   "confidence": "unverified-recollection",
-  "relatedPeople": ["larry-dennis-hunnewell", "ron-tototz"],
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "ron-tototz"
+  ],
   "sources": []
 }

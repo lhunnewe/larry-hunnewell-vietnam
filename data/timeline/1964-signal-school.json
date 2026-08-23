@@ -5,8 +5,12 @@
   "datePrecision": "approximate",
   "category": "larry-movement",
   "description": "Larry completed a 17-week Army Signal school course in 1964 and served as a radio teletype operator — the military specialty listed on his DD-214. This is the skill behind the radio room on Núi Bà Đen and the operations-van photographs.",
-  "researchNotes": "DD-214 item 23a lists his specialty as radio teletype operator (MOS digits partly blurred in the family photo of the form, read as 054.20), and item 25 lists a Signal ('SIG') service school course of 17 weeks in 1964, 'RAD TT OPR'. The school location is not stated on the form; Fort Gordon and Fort Benning are candidates to check against his Fort Benning memory.",
+  "researchNotes": "DD-214 item 23a lists his specialty as radio teletype operator (MOS digits partly blurred in the family photo of the form, read as 054.20), and item 25 lists a Signal ('SIG') service school course of 17 weeks in 1964, 'RAD TT OPR'. The school location is not stated on the form; Fort Gordon and Fort Benning are candidates to check against his Fort Benning memory. Location established 2026-08-23 (giscus-vn-0024-c18119890): \"then to fort Gordon or Eisenhower now in Georgia for radio school. It's right outside of Augusta Georgia.\" That settles the Fort Gordon / Fort Benning question in favour of Fort Gordon — the Army Signal school — and leaves Fort Benning as the separate place he remembers volunteering for Vietnam.",
   "confidence": "confirmed",
-  "relatedPeople": ["larry-dennis-hunnewell"],
-  "sources": ["dd214-1965"]
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
+  ],
+  "sources": [
+    "dd214-1965"
+  ]
 }

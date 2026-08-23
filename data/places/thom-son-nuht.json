@@ -1,9 +1,15 @@
 {
   "name": "\"Ton Son Nuht\" (as Larry writes it)",
-  "alternateNames": ["Thom Son Nuht (earlier family transcription)", "Tân Sơn Nhứt (research hypothesis)", "Tan Son Nhut (research hypothesis)"],
+  "alternateNames": [
+    "Thom Son Nuht (earlier family transcription)",
+    "Tân Sơn Nhứt (research hypothesis)",
+    "Tan Son Nhut (research hypothesis)"
+  ],
   "summary": "The location Larry remembers as his Company Headquarters — the place he radioed from Núi Bà Đen on the day of the \"450 civilians\" accusation, and where a medic diagnosed his jaundice days before the medevac. In his own written comments (2026-08-13) Larry spells it \"Ton Son Nuht\"; the earlier spelling \"Thom Son Nuht\" was his son's transcription of the name as Larry says it aloud. The leading research hypothesis is Tân Sơn Nhứt (Tan Son Nhut), the major air base adjacent to Saigon; Larry's own spelling is an even closer phonetic match, but the identification still awaits unit records.",
-  "researchNotes": "Provenance upgraded 2026-08-13: the name is now attested in Larry's own writing (\"Ton Son Nuht\", twice, in his giscus comments), replacing the earlier secondhand transcription \"Thom Son Nuht.\" His spelling is a very close phonetic match for Tân Sơn Nhứt / Tan Son Nhut, which hosted extensive U.S. Army aviation activity in 1964-1965 — but the identification remains a hypothesis until unit records place his company headquarters there. Note from the unit research (research/units/callsigns-and-units.md): the 118th Aviation Company was based at Bien Hoa, so if his HQ was truly at Tân Sơn Nhứt, a Saigon-based unit (145th Avn Bn HQ elements, or the UTT/68th at Tan Son Nhut) deserves equal weight. No coordinates are recorded until the identification is settled.",
+  "researchNotes": "Provenance upgraded 2026-08-13: the name is now attested in Larry's own writing (\"Ton Son Nuht\", twice, in his giscus comments), replacing the earlier secondhand transcription \"Thom Son Nuht.\" His spelling is a very close phonetic match for Tân Sơn Nhứt / Tan Son Nhut, which hosted extensive U.S. Army aviation activity in 1964-1965 — but the identification remains a hypothesis until unit records place his company headquarters there. Note from the unit research (research/units/callsigns-and-units.md): the 118th Aviation Company was based at Bien Hoa, so if his HQ was truly at Tân Sơn Nhứt, a Saigon-based unit (145th Avn Bn HQ elements, or the UTT/68th at Tan Son Nhut) deserves equal weight. No coordinates are recorded until the identification is settled. 2026-08-23 (giscus-stories-c18118912): a fourth independent rendering from Larry — \"The base was Thon Sohn Nuht\" — given in answer to what base his hooch T 123 stood on. The four renderings now on record are \"Thom Son Nuht\" (son's transcription), \"Ton Son Nuht\" (his own writing), \"Tah San hut\" (2026-08-15) and \"Thon Sohn Nuht\". All are consistent with Tân Sơn Nhứt; none is documentary, so the identification stays plausible and no coordinates are set.",
   "confidence": "plausible",
-  "relatedPeople": ["larry-dennis-hunnewell"],
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
+  ],
   "sources": []
 }

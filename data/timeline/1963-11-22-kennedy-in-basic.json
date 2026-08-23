@@ -5,8 +5,12 @@
   "datePrecision": "exact",
   "category": "larry-recollection",
   "description": "Larry remembers being about a month into basic training when President Kennedy was shot. The assassination was November 22, 1963 — almost exactly a month after his October 28 induction. His own memory, offered unprompted in a 2026 phone call, independently corroborates the DD-214's 1963 induction date over the old family estimate of 1964.",
-  "researchNotes": "From the 2026-08-12 phone call (research/interviews/2026-08-12-call-notes.md). The location of basic training is still unknown — a question for a future conversation. A remembered national event is a strong anchor: everyone of his generation remembers where they were that day.",
+  "researchNotes": "From the 2026-08-12 phone call (research/interviews/2026-08-12-call-notes.md). The location of basic training is still unknown — a question for a future conversation. A remembered national event is a strong anchor: everyone of his generation remembers where they were that day. Location established 2026-08-23 (giscus-vn-0024-c18119890): basic training was at Fort Ord, Monterey Bay, California — \"Was there from September until probably January.\" Note the tension with the DD-214: Larry places the start in September 1963, while the form puts induction at 28 October 1963 (data/timeline/1963-10-28-inducted.json, confirmed). Both stand; a late-October induction fits \"about a month into basic\" when Kennedy was shot on 22 November, so the September may be the memory rounding backward.",
   "confidence": "strongly-supported",
-  "relatedPeople": ["larry-dennis-hunnewell"],
-  "sources": ["dd214-1965"]
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
+  ],
+  "sources": [
+    "dd214-1965"
+  ]
 }

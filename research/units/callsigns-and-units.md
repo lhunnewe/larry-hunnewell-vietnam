@@ -129,3 +129,18 @@ may be rare primary evidence of an otherwise unrecorded field improvisation.
   https://theaviationgeekclub.com/the-story-of-how-the-skyraider-became-known-as-sandy-and-the-a-1s-first-csar-missions/amp/
 - French Fort caption: https://www.flickr.com/photos/bobcatalpha/15985479655
 - Ground-fired rocket pods ("Slammer"): https://medium.com/war-is-boring/the-slammer-turned-aircraft-rockets-into-ground-based-artillery-cd1380807ad8
+
+## 2026-08-23 — the call signs were boxing terms
+
+Larry, unprompted (`data/recollections/giscus-stories-c18119622.json`): "**Body Jab 42** —
+all of major Schwartzkoff or special forces call signs were **boxing terms**."
+
+This is a structural rule rather than another data point, and it is the first explanation
+this file has for why "Body Jab" appears in no published call-sign source: it belonged to a
+local Special Forces scheme drawn from boxing vocabulary, not to a service-wide list. It
+also predicts its siblings — an element using "Body Jab" would plausibly have used other
+boxing terms (hook, uppercut, southpaw, counter, clinch) for related stations.
+
+**Next query:** search Special Forces detachment records and veteran accounts for boxing-term
+call signs in III Corps 1964–65, rather than for "Body Jab" alone. A hit on any sibling term
+would locate the scheme, and through it the detachment.
