@@ -204,6 +204,12 @@ Open questions:
     Okinawa — consistent with period confinement practice, and with his 2026-08-13
     court-martial expectation. Shooter was from a different company/unit; shooter reportedly
     knew the victim; Larry did not know the man showering.*
+    *2026-08-23: one payoff named above is already collected — the bunk mate’s real surname
+    was recovered by other means (Ronald E. Totosz, ledger #15, issue #58), so the
+    court-martial is no longer needed for that. Its remaining value is dating the incident,
+    naming the OTHER witnesses, and confirming Sgt. Weaver, who Larry says responded. Note
+    also that Larry now places the incident at the headquarters company rather than at a
+    named base, so a records request should not assume Tân Sơn Nhứt.*
 12. **New names from the photo comments (2026-08-13)** — Kahn (company secretary, VN-0003),
     Major "Schwartzkoff" (VN-0006 — hypotheses in research/people/major-schwartzkoff.md,
     not to be mentioned to Larry), the Australian captain (VN-0006, AATTV lead), and a
