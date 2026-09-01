@@ -2,7 +2,8 @@
 
 **To:** `vnca@ttu.edu` — reply on the existing thread ("Re: reference request — MACV/5th SF
 Group records, Núi Bà Đen"), so the archivist has the context already.
-**Status:** DRAFT, 2026-09-01 — ready for Larry's son to send. Log the reply in `README.md`.
+**Status:** **SENT 2026-09-01** by Larry's son, as drafted, as a reply on the original
+thread — awaiting reply. Log the response in `README.md`.
 **Tracked as:** issue #67.
 **Both asks were invited by their own reply**, so this is a response, not a new request.
 
