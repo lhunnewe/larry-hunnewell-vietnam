@@ -136,8 +136,14 @@ that Larry describes.
 The reply ends with participation invitations. Both are family decisions, not research
 tasks, and are recorded here rather than acted on:
 
-- **Oral History Project** — a recorded phone interview, with a question list sent in advance
-  to help prepare. Kelly Crager (`kelly.crager@ttu.edu`, 806-834-4834),
+- **Oral History Project** — **held at the family's decision, 2026-09-01.** The offer stands
+  open and there is no deadline on it; it is simply not the right time. Do not raise it with
+  Larry, and do not re-propose it here — if it comes back, it comes back from the family.
+  What it would involve, recorded so nobody has to look it up again: a recorded phone
+  interview by VNCA staff, with a question list sent in advance; audio (sometimes video),
+  transcribed; the transcript returned to him to correct names, places and dates and to add
+  comments; an Interview Agreement transferring copyright to the archive, which is what
+  allows public access; no cost mentioned. Kelly Crager (`kelly.crager@ttu.edu`, 806-834-4834),
   <https://www.vietnam.ttu.edu/oralhistory/participation/>. Larry is in his eighties and is
   the entire primary source for this archive. A VNCA oral history would put his account in a
   national-scale repository under his own name, permanently — and it would be **his own
@@ -182,7 +188,8 @@ vietnam.ttu.edu and supplied in the reply for this purpose.)
 - [x] Identify the L7014 sheet number for Núi Bà Đen — it is **6231-4** (2026-09-01,
       research/places/nui-ba-den-locations.md). The email asking for Pictomap **6231-4 N**
       and **6231-4 S**, and about the not-digitized UTT film `640VI4583`, is **issue #67**.
-- [ ] Family decision: a VNCA oral history with Larry.
+- [x] Family decision: a VNCA oral history with Larry — **HELD, 2026-09-01.** Not the
+      right time. Revisit only if the family raises it; do not put it to Larry.
 - [ ] Family decision: donating the photographs, film, and research as a collection.
 - [ ] Draft the NARA RG 472 request with unit/date/record-type precision, and ask "Ask the
       Archives" for the independent-researcher list.
