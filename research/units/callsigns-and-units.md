@@ -144,3 +144,134 @@ boxing terms (hook, uppercut, southpaw, counter, clinch) for related stations.
 **Next query:** search Special Forces detachment records and veteran accounts for boxing-term
 call signs in III Corps 1964–65, rather than for "Body Jab" alone. A hit on any sibling term
 would locate the scheme, and through it the detachment.
+
+## 2026-09-01 — "Body Jab" found in a period account. Larry was right.
+
+Searching the Texas Tech Virtual Vietnam Archive (`nui ba den`, 1965) turned up
+**"Memories from Members of UTT/68th Aviation Company"** — book excerpts by members of the
+Utility Tactical Transport (UTT) Helicopter Company / 68th Aviation Company, VNCA item
+`0690505003`, Richard (Dick) Detra Collection, 97 pp
+(`data/sources/utt-68th-memories`). In the chapter on the **Battle of Đồng Xoài, beginning
+the night of 9 June 1965**, the author — the company's operations officer, call sign
+"Saber 3" — writes:
+
+> "The Lieutenant manning the radio of the Special Forces camp had the call sign
+> **'55 Body Jab.'** It is a call sign that those present on that fateful day are unlikely
+> to ever forget… Fortunately, the enemy had not knocked out the radio antenna in the camp,
+> as they often did, so we were able to maintain communications with 55 Body Jab throughout
+> the entire battle."
+
+And later, on the rescue:
+
+> "The Lieutenant manning the radio (55 Body Jab) was one of the last survivors of the U.S.
+> Special Forces camp… For their actions on that fateful day, Lieutenant Williams (aka: 55
+> Body Jab) and CM3 Marvin Shields (a Navy Seabee)… were both awarded The Medal of Honor."
+
+The lieutenant is **1LT Charles Q. Williams**, Medal of Honor for Đồng Xoài; the pilot who
+landed inside the camp to pull him out was **Capt. Bill Fraker** (Distinguished Service
+Cross). The camp stood "on the site of an old French fort."
+
+### What this establishes
+
+1. **"Body Jab" was a genuine U.S. Special Forces camp radio call sign in III Corps in
+   1965.** This file said, on 2026-08-13, that it appeared "nowhere." That is now
+   **superseded**: it appears in a participant's account of one of the most heavily
+   documented battles of that year, three months before Larry's episode at the mountain and
+   in the same corps area. Confidence: **strongly-supported** for the call sign's existence
+   and period; the source is a veteran memoir, not a signal document.
+2. **It corroborates Larry's own structural rule.** On 2026-08-23 he volunteered,
+   unprompted, that "all of major Schwartzkoff or special forces call signs were **boxing
+   terms**" (`giscus-stories-c18119622`). An independent source, which he has never seen,
+   now shows a Special Forces camp radio operator in the same corps and year answering to a
+   boxing term. He was not misremembering the phrase, and he was right about the scheme.
+3. **The number attaches to the station, not to the words.** "55 Body Jab" and Larry's
+   "Body Jab 42" share the call word and differ in the digits — consistent with "Body Jab"
+   naming the net or the station type across III Corps Special Forces camps, with the
+   number designating which camp or which operator. **Hypothesis, not fact**: it would be
+   settled by an SOI/CEOI signal annex, which remains the decisive document.
+4. **What is still not found: "Rosethorn."** A full-text search of this memoir and the two
+   companion items (`0690504006`, Capt. Jack Johnson's personal narrative; the Operation
+   FITCHBURG intelligence annex `13680103003`) returns no "Rosethorn," no "Tay Ninh" as a
+   call sign, and no "Hunnewell." Recorded as a negative with its scope.
+
+### The unit question, moved as well
+
+The same memoir describes the UTT/68th's own area and job in 1964–65 in terms that match
+Larry's account closely: an area of operations "mostly north and west of Saigon and south
+and west of Saigon centered on the cities of Phuoc Vinh, **Tay Ninh**, My Tho and Can Tho.
+**We supported the Special Forces Units a great deal of the time**"; gun runs "around their
+little outposts all along the Cambodian border north of Tay Ninh"; the Second Platoon
+"working out of Tay Ninh covering a Special Forces Unit working through the jungle west of
+**Nui Ba Den Mountain**"; and night scrambles "reconning around the base of the mountain
+trying to help the SF's get untangled with the bad guys."
+
+This is the first period-adjacent source found that puts a named aviation unit over Núi Bà
+Đen supporting Special Forces, in Larry's window, from the Saigon side — which is where he
+puts his headquarters. It raises the UTT/68th from a bare alternative in this file to a
+candidate with evidence behind it.
+
+It does **not** knock out the 118th: the same Đồng Xoài chapter records that "elements of
+the ARVN 7th Regiment were air-lifted by the **118th Aviation Company** (under the command
+of Major Harvey Stewart)." Both units were flying Special Forces support in III Corps in
+June 1965. Larry's "118th" remains plausible; what is new is a second unit whose own
+veterans place it repeatedly at the mountain.
+
+### Next queries
+
+- Search VNCA for the other **boxing-term** call signs, and for `body jab` across all dates
+  — this hit was found incidentally, never by searching for it.
+- The **Jack Johnson Collection DVD** `640VI4583`, "UTT Helicopter Company Vietnam 1964 –
+  1965," is **NOT DIGITIZED**. Its description lists "downtown Saigon, Da Nang, **Nui Ba
+  Den, Tay Ninh**, Binh Gia, Vietnamese villages, **special forces compounds and camps**."
+  That is 1964–65 motion footage of the places in this archive, from a unit that flew there.
+  Request a digitization or viewing copy from VNCA.
+- The Đồng Xoài trail is worth one pass on its own: Williams's Medal of Honor citation and
+  the 5th SFG records for that battle may quote camp call signs in full, and a signal annex
+  naming "55 Body Jab" would name the scheme Larry described.
+
+## 2026-09-01 — the mountain radio station is documented, in MACV's own newspaper
+
+Searching `black virgin`, 1965, produced one item inside Larry's window: **The Observer**,
+the MACV Information Office's weekly paper for U.S. forces, Saigon, vol. IV no. 12, **24
+July 1965** (VNCA item `1521Newspaper249812`, Helen Roller Collection;
+`data/sources/macv-observer-1965-07-24`). Its front-page story covers the Viet Cong attack
+on the **Bu Dop** Special Forces camp, 85 miles north of Saigon, which began shortly after
+1 a.m. on **20 July 1965**. The camp's communications sergeant, **SSgt. Michael F.
+Carpenter**, is quoted directly:
+
+> "When it all started… **I contacted the Black Virgin Mountain radio station and shouted,
+> 'We're being hit! We're being hit!'**"
+
+### Why this matters more than anything else found today
+
+Until now, the radio relay on Núi Bà Đen existed in this archive only in Larry's own
+testimony. This is a contemporary, official U.S. military publication, dated inside his
+window, that:
+
+1. **Confirms a radio station was operating on the mountain in July 1965.**
+2. **Confirms what it was for** — a Special Forces camp under attack, a corps area away,
+   called the mountain first. That is precisely the job Larry describes: standing radio
+   watch, taking calls, relaying to Saigon, "the only annex of it" (VN-0059).
+3. Corroborates the shape of his whole account of the place, independent of him.
+
+It does **not** establish that Larry was the operator who took Carpenter's call. He places
+himself at the mountain across roughly July–September 1965, so it is possible and it is not
+provable from this document. **Recorded as a hypothesis, and deliberately withheld from
+him.**
+
+### The probe this creates
+
+Two questions were added to `research/interviews/breakfast-questions.md` and
+`src/pages/interview.astro` (kept in step, as required): ask him open whether a camp ever
+called him while it was being attacked, and what was said — **naming no camp, no date, and
+no phrase**. If "We're being hit" or Bu Dop comes back from him unprompted, that is as close
+to proof as this archive is likely to get that he was the man on the other end of that radio
+on 20 July 1965. Supplying any of it first destroys the test permanently.
+
+### Bearing on the "450 civilians" day
+
+Indirect but real: the accusation turns on Larry having relayed a helicopter's report from
+the mountain station. This document shows that station was a live node in the III Corps
+Special Forces net five weeks earlier, taking exactly that kind of traffic. It makes his
+account of the mechanism ordinary rather than exceptional. See
+`research/events/450-civilians-nui-ba-den.md`.

@@ -209,6 +209,22 @@ answer would unlock. Full per-photo question lists live in the observation recor
   do NOT name any unit or describe any emblem to him; the candidate readings live in
   research/units/flight-following-1964-65.md and research/magnification/README.md.)
 
+## New threads from the 2026-09-01 archive session
+
+- [ ] **A camp calling the mountain** — the sharpest probe this archive has, and it only
+  works if nothing is supplied first. Ask open: *"When you were on the radio up on the
+  mountain, did a camp ever call you while it was being attacked? What did they say, and
+  what did you do?"* Then, only if he offers nothing: *"Do you remember any of the camps
+  that called in?"* **Do not name a camp, a date, or a phrase.** The reason lives in
+  research/units/callsigns-and-units.md, 2026-09-01 — a period document confirms what the
+  mountain station was for, and a specific call it took, and he may be the man who took it.
+  Anything he volunteers unprompted is worth more than anything we could confirm for him.
+- [ ] **The other boxing terms** — he has already told us the Special Forces call signs in
+  his area were boxing terms, and that his camp was Body Jab 42. Ask open: *"Were there
+  other call signs on that net you remember — other boxing words? What number were you?"*
+  (Open only. A period source now shows the same call word in use at another camp with a
+  different number, which is exactly why his own numbers matter — see the research file.)
+
 ## Hold for the right moment (not breakfast material)
 
 - **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:

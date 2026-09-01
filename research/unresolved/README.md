@@ -95,6 +95,37 @@ Open questions:
    is a tenancy claim, not a chain of command — and "before the first cav aviation" would
    explain the remembered 1st Cavalry association as sequence rather than assignment. Both
    worked through in research/units/flight-following-1964-65.md.*
+   *2026-09-01 — the UTT/68th moves up from bare alternative to evidenced candidate. Its
+   own members' memoirs, found in the Texas Tech archive (sources/utt-68th-memories,
+   -johnson-narrative), describe an area of operations "centered on the cities of Phuoc
+   Vinh, **Tay Ninh**, My Tho and Can Tho," that "**We supported the Special Forces Units a
+   great deal of the time**," a platoon "working out of Tay Ninh covering a Special Forces
+   Unit working through the jungle **west of Nui Ba Den Mountain**," and night scrambles
+   "reconning around the base of the mountain." That is the first period-adjacent source
+   putting a named aviation unit over the mountain in Larry's window from the Saigon side,
+   which is where he puts his HQ. It does not knock out the 118th — the same chapter records
+   that "elements of the ARVN 7th Regiment were air-lifted by the **118th Aviation Company**
+   (under the command of Major Harvey Stewart)" at Đồng Xoài — so both were flying SF
+   support in III Corps in June 1965 and Larry's "118th" stays plausible. Untried and
+   promising: VNCA holds a **NOT DIGITIZED** DVD, "UTT Helicopter Company Vietnam 1964–1965"
+   (item 640VI4583, Jack Johnson Collection), whose description lists footage of "Nui Ba Den,
+   Tay Ninh… special forces compounds and camps." Motion film of these places, from a unit
+   that flew there, obtainable by asking VNCA for a copy.*
+   *2026-09-01 — **THE MOUNTAIN RADIO STATION IS DOCUMENTED.** Until today the relay on Núi
+   Bà Đen existed in this archive only in Larry's own testimony. **The Observer**, the MACV
+   Information Office's weekly for U.S. forces (Saigon, vol. IV no. 12, **24 July 1965**,
+   sources/macv-observer-1965-07-24), reports the VC attack on the **Bu Dop** Special Forces
+   camp of 20 July 1965 and quotes its communications sergeant, SSgt. Michael F. Carpenter:
+   "**I contacted the Black Virgin Mountain radio station and shouted, 'We're being hit!
+   We're being hit!'**" A contemporary official U.S. military publication, inside his window,
+   confirming both that the station existed and what it was for — a Special Forces camp a
+   corps area away called the mountain first. That is the job he describes. It does NOT
+   establish that Larry took that call; he places himself there across roughly July–September
+   1965, which makes it possible and unprovable from this document. Held back from him on
+   purpose: two open probes are now in the interview guide and /interview/ asking whether a
+   camp ever called him under attack, **naming no camp, no date and no phrase**. If "We're
+   being hit" or Bu Dop comes back unprompted, that is as close to proof as this archive is
+   likely to get. research/units/callsigns-and-units.md, 2026-09-01.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -282,6 +313,20 @@ Open questions:
    not move. Separately, the call-sign scheme is explained: "All of major Schwartzkoff or
    special forces call signs were **boxing terms**" — which is why "Body Jab" appears in no
    published source, and which predicts siblings worth searching for.*
+   *2026-09-01 — **"BODY JAB" IS FOUND, AND LARRY WAS RIGHT.** Searching the Texas Tech
+   archive for the mountain turned up "Memories from Members of UTT/68th Aviation Company"
+   (VNCA item 0690505003, sources/utt-68th-memories). In its chapter on the battle of Đồng
+   Xoài, 9 June 1965, the company's operations officer writes that "The Lieutenant manning
+   the radio of the Special Forces camp had the call sign **'55 Body Jab'**… we were able to
+   maintain communications with 55 Body Jab throughout the entire battle." The lieutenant is
+   1LT Charles Q. Williams, Medal of Honor. So the call word was real, in III Corps, three
+   months before Larry's episode — and Larry's unprompted rule that the Special Forces call
+   signs were boxing terms is corroborated by a source he has never seen. The number appears
+   to mark the station ("55" vs his "42"), which is a hypothesis an SOI annex would settle.
+   Still NOT found, and recorded as a scoped negative: "Rosethorn," "Tay Ninh" as a call
+   sign, and Larry's name, in full-text searches of that memoir, Capt. Jack Johnson's
+   narrative (0690504006), and the Operation FITCHBURG intelligence annex. Details:
+   research/units/callsigns-and-units.md, 2026-09-01.*
 14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
     Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
     *2026-08-16 (issue #61, research/people/drowned-medic-nha-trang.md): comprehensive
