@@ -138,6 +138,17 @@ Open questions:
    "Thom Son Nuht" (son's transcription), "Ton Son Nuht" (his own writing), "Tah San hut"
    and "Thon Sohn Nuht". All are consistent with Tân Sơn Nhứt; none is documentary, so the
    identification stays plausible and no coordinates are set.*
+   *2026-09-01 — the camp has a designation. A veteran-compiled index of American positions,
+   built from unit reports (sources/kindred-fsb-lz-index, VNCA item 25720204001), lists the
+   Núi Bà Đen Special Forces camp as **Detachment A-324** (with A-325A), **opened July 1964**,
+   grid **XT281582**, on 1:50,000 **map sheet 6231-4**, and describes the summit as a Special
+   Forces radio relay in that period. Until now this archive had only Kelly's "half A-team."
+   Every future request can name **Det A-324, 5th SFG, 1964–65** instead of describing the
+   camp. Also listed: one "Old French Fort north of Nui Ba Den" at XT281685 — a candidate for
+   Larry's fort, not an identification (about 10 km north of the summit, cited from a 1967
+   operation). ACTIONABLE: email VNCA for **Pictomap sheets 6231-4 N and 6231-4 S**, the
+   1:25,000 pictorial halves that are not online but are sent on request — the best chance of
+   naming the settlements around the mountain. research/places/nui-ba-den-locations.md.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
