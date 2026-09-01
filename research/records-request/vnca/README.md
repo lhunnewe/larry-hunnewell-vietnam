@@ -179,7 +179,9 @@ vietnam.ttu.edu and supplied in the reply for this purpose.)
 - [ ] Register for the Reading Room portal to reach copyright-blocked items.
 - [ ] Re-run the zero searches without a date span and with term variants.
 - [ ] Finding Aid sweep: Tây Ninh, Núi Bà Đen, 5th SFG, CIDG, 1965.
-- [ ] Identify the L7014 sheet number for Núi Bà Đen; email VNCA for the N/S Pictomap PDFs.
+- [x] Identify the L7014 sheet number for Núi Bà Đen — it is **6231-4** (2026-09-01,
+      research/places/nui-ba-den-locations.md). The email asking for Pictomap **6231-4 N**
+      and **6231-4 S**, and about the not-digitized UTT film `640VI4583`, is **issue #67**.
 - [ ] Family decision: a VNCA oral history with Larry.
 - [ ] Family decision: donating the photographs, film, and research as a collection.
 - [ ] Draft the NARA RG 472 request with unit/date/record-type precision, and ask "Ask the
