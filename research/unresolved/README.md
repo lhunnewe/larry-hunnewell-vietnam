@@ -149,6 +149,26 @@ Open questions:
    operation). ACTIONABLE: email VNCA for **Pictomap sheets 6231-4 N and 6231-4 S**, the
    1:25,000 pictorial halves that are not online but are sent on request — the best chance of
    naming the settlements around the mountain. research/places/nui-ba-den-locations.md.*
+   *2026-09-01, later — the sheet is free online and we have it, and A-324 is confirmed
+   twice more. Sheet **6231-4** (sources/map-l7014-6231-4-tay-ninh) is TÂY NINH, series
+   L7014, and shows the massif, the Điện Bà pagoda, the hamlets at the foot (Ấp Khe Dol,
+   Xóm Bãi Trại, Ấp Phước Hòa, Phú Khương) and **a bastioned fort symbol** on the road ten
+   kilometres north of the summit — the only fort drawn near the mountain. DISCIPLINE POINT,
+   written down because it nearly went the other way: the sheet marks three settlements
+   "(Destroyed)", including one north of the mountain, and the September 1965 USOM report
+   describes a village burned north of the mountain — but the credits read "29TH ENGR BN U S
+   ARMY **1970**, PHOTO REVISION, PRINTED 11-70". A 1970 revision cannot be evidence about
+   1965. An earlier edition of the same sheet is now worth asking VNCA for. Two further
+   documents confirm the detachment independently: sources/sf-camps-list-dickey gives
+   "A-324 Nui Ba Den, Tay Ninh, Jul64 – Oct 70", sources/sf-camps-list-andrade tables A-324
+   at Nui Ba Den with its grid. Both give **B-32 Tay Ninh from Mar65**, against Kelly's
+   January 1965 — a two-month discrepancy kept, not resolved. And sources/5th-sfg-orll-1967
+   shows what to ask NARA for: the 5th SFG operational report annexes tabulate every
+   detachment with commander, camp, grid and a per-camp code word, so the **1965** edition
+   is a named document that would carry Núi Bà Đen's commander and code word for Larry's
+   year. Noted so no one trips on it: that 1967 roster lists an A-325A under a **LT Lewis**
+   at Nui Ba Den — different rank, two years later, and **not** Larry's Major Lewis of
+   Rosethorn 007 on any evidence.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
