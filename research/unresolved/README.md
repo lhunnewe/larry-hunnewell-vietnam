@@ -207,6 +207,28 @@ Open questions:
     window. Also newly available: VNCA's 1:25,000 Pictomap sheets of the mountain, emailed
     on request by sheet number — the best chance of naming the settlements "down there."
     Tracked as issue #66.*
+    *2026-09-01 (same day) — FIRST PASS RUN, and it produced both a real negative and the
+    best period document yet (research/records-request/vnca/usom-provincial-reports-1965.md).
+    The 7 `civilian casualties` + `tay ninh` items resolve to the monthly **USOM provincial
+    representative reports** — the unclassified summaries filed by the resident American
+    civilian in each province. NEGATIVE: Tây Ninh's own sections for July, August, and
+    November 1965 report no civilian-casualty event of any kind, in a series that names them
+    elsewhere in the same months (US planes destroying a church, school, pagoda and temple in
+    a Kiến Hòa village on 16 Aug 1965 with civilians killed; 400- and 460-person protests
+    against artillery next door in Hậu Nghĩa; Vĩnh Long's death-claim backlog, "two thirds of
+    those deaths caused by friendly air or artillery"). Limits kept: unclassified monthly
+    summaries, one page a province, a rep living in Tây Ninh City, not on the mountain.
+    POSITIVE, and it reshapes the question: a follow-up search found the **Region III report
+    for month ending 30 September 1965** (sources/usom-provincial-reports-sep1965), whose Tây
+    Ninh rep writes that the month was "confined to air strikes and artillery barrages" and
+    that "**North of the mountain Nui Ba Den, an operation was launched to burn down a VC
+    village and escort the local population to sectors under our control... The next day,
+    however, they were gone — back to the burned-down village.**" An operation against a
+    village at the mountain, in the window, population **moved rather than killed**. Not
+    proof it is Larry's day; no dates attached. NEW RECORD TRAIL, named by the documents:
+    MIDCAP/MILCAP indemnification claims docketed by **Sector S-5** are where a friendly-fire
+    civilian death generated paper in 1965 — Tây Ninh Sector's S-5 files now go into the RG
+    472 request. Findings go to the family first; nothing written to a page Larry browses.*
 11. **The bathroom shooting court-martial** — Larry says the man who shot at him "would have
     been court martialed, there should be a record" (~Feb–Mar 1965 by his dating). Locating
     it would date the incident and recover the real surname of his bunk mate and witness

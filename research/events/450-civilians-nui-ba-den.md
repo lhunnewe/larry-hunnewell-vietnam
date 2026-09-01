@@ -153,16 +153,91 @@ available chance of naming the settlements below the camp — the ones the accus
 to — and of fixing the French fort on the back side of the mountain. One email, once we have
 the sheet number.
 
+---
+
+## Findings — first pass through the VNCA database, 2026-09-01
+
+The archivist's searches, run for ourselves the same day on the open portal. Full working
+log, with the repeatable query URLs: **research/records-request/vnca/usom-provincial-reports-1965.md**.
+Sources: `usom-provincial-reports-jul1965`, `-aug1965`, `-sep1965`.
+
+`civilian casualties` + `tay ninh`, 1965 → the archivist's 7 items, reproduced exactly.
+Four were irrelevant. Three were the monthly **USOM provincial representative reports** —
+the unclassified summaries filed by the resident American civilian in each province, one or
+two pages each, north to south, distributed to the Ambassador's office. A follow-up search
+found the fourth and most important, the **Region III report for the month ending 30
+September 1965**.
+
+### 1. The reporting channel was live, candid, and specific
+
+These reports name American mistakes. In the same months, in other provinces: US planes
+"mistakenly destroyed a Catholic Church and school, the Buddhist temple and the Cao-Dai
+Pagoda" in one Kiến Hòa village on 16 August 1965, "and a number of civilians were killed";
+Vĩnh Long's nightly artillery and daily air strikes with "their occasional tragic
+aftermath," its gun tubes condemned as inaccurate beyond a mile, and 200-plus unpaid
+indemnification claims of which "66 have been death claims and two thirds of those deaths
+were caused by friendly air or artillery"; a thousand-person protest against air strikes in
+Quảng Ngãi, two killed dispersing it. Next door in Hậu Nghĩa, civilians demonstrated against
+artillery fire on 15 and 26 July (400 people at Trưng Lập) and on 30 July ("an estimated 460
+women"), and a loudspeaker helicopter declared parts of Củ Chi district "free bombing zones."
+
+### 2. Tây Ninh, in that same channel, reports nothing of the kind — a real negative
+
+**July 1965:** a marked increase in VC activity, company-strength attacks on outposts, the
+change of province chief. **August 1965** — the month the timeline places the accusation:
+"no significant change in the security situation," and the Special Forces' pacification
+effort reaching further into former VC areas. **November 1965:** the province "never enjoyed
+a more secure period." No civilian-casualty event in any of them.
+
+This is the strongest documentary negative yet recorded against the literal figure of 450
+dead. Its limits, plainly: unclassified monthly summaries, one page a province; a classified
+or purely military-channel event need not appear; the rep lived in Tây Ninh City, not on the
+mountain; and no report is not no event.
+
+### 3. September 1965 puts an operation at the mountain — without the casualties
+
+The Region III report for the month ending 30 September 1965 is the closest contemporary
+civil account of Núi Bà Đen this project has found. Its Tây Ninh rep writes that the
+month's military activity "seemed to be confined to air strikes and artillery barrages,"
+and then: **"North of the mountain Nui Ba Den, an operation was launched to burn down a VC
+village and escort the local population to sectors under our control. This was done and the
+population resettled. The next day, however, they were gone — back to the burned-down
+village beyond the mountain."** Aircraft were defoliating large areas; he closes that "free
+bombing, massed artillery fire and defoliation" were "hardly likely to win over the
+population," marking it his personal opinion.
+
+It establishes an American-directed operation against a village at the mountain inside
+Larry's window, with the population **moved rather than killed** — and home again the next
+day. It does not establish that this was his day: the summary carries no dates, and the
+accusation as he tells it was about deaths. It changes the shape of the question rather than
+answering it — from "did a mass killing at the mountain go unrecorded?" to "what happened to
+the village north of the mountain, and is it the same event the sergeant shouted about?"
+
+**This is not an answer to give Larry.** It goes to the family first, as everything in this
+file does.
+
+### 4. A new record trail, named by the documents themselves
+
+Vĩnh Long's report names how a civilian death by friendly air or artillery generated paper
+in 1965: **MIDCAP/MILCAP indemnification claims, docketed by Sector S-5** and settled by a
+provincial committee. If civilians were killed near Núi Bà Đen, Tây Ninh Sector's S-5 docket
+is where a claim would sit. Added to the RG 472 request below.
+
 ### Next steps (in order of promise)
 
-1. **NARA RG 472** — III Corps advisory and 5th SFG records; SOI/CEOI signal annexes could
+1. **NARA RG 472** — III Corps advisory and 5th SFG records; **Tây Ninh Sector S-5 records
+   and MIDCAP indemnification claim files, 1965** (new, from the finding above); SOI/CEOI
+   signal annexes could
    also confirm the call signs (and thereby the unit). VNCA's advice, followed exactly: name
    unit, dates, and record types precisely, because NARA pulls and scans what you specify
    and does no research for you. Start with their "Ask the Archives," and ask for the list of
    independent researchers for hire — for a question this narrow, a paid onsite researcher
    may be the shortest path, and that is a family decision with a cost attached.
-2. **Work the VNCA database ourselves** — the seven civilian-casualty items first, then the
-   mountain and MACV/Tây Ninh lists, then a Finding Aid sweep of the undigitized 80%.
+2. **Work the VNCA database ourselves** — the seven civilian-casualty items are **done**
+   (2026-09-01, findings above). Remaining: the October 1965 provincial reports, the 14 + 15
+   `nui ba den` / `black virgin` items, the 59 `macv` + `tay ninh` items, the Rufus Phillips
+   Collection (2397) finding aid for the full monthly run, and a Finding Aid sweep of the
+   undigitized 80%.
 3. **Request the Pictomap sheets** for Núi Bà Đen once the L7014 sheet number is identified.
 4. **NPRC** — Larry's own records request (in progress) may fix his exact medevac date,
    which would pin the incident window to specific days and sharpen every archive query.
