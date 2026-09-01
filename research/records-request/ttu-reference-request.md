@@ -61,9 +61,11 @@ Sincerely,
 ---
 
 **Notes on the sent text:**
-- The letter says "He is 82." `CLAUDE.md` says 86. One of the two is wrong and this archive
-  does not hold his date of birth outside `private/`. Do not treat either number here as a
-  source; check the private file before repeating an age anywhere.
+- The letter says "He is 82." **That is wrong — Larry is 86** (family, 2026-09-01). The
+  error is left standing here because this file records what was actually sent; it misled
+  nobody, since VNCA's answer does not turn on his age. The same slip is in the 118th AHC
+  Facebook post of the same day (`../units/118ahc-facebook-post.md`), also already posted.
+  Do not copy the age forward from either: his date of birth lives only in `private/`.
 
 **Notes for us before sending:**
 - If the NPRC file arrives first with his exact medevac date, add it — it would narrow

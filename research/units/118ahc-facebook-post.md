@@ -37,6 +37,10 @@ for what you did.
 ---
 
 **Posting notes:**
+- **Correction, 2026-09-01:** the posted text says "he's 82." Larry is **86**. The post is
+  left as posted — this file records what went out — but any reply, follow-up, or new
+  outreach draft should say 86. The same slip went into the Texas Tech request of the same
+  day (`../records-request/ttu-reference-request.md`).
 - Facebook groups usually require joining first; expect a day or two for approval.
 - Deliberately NOT in the post: the "450 civilians" story. First contact should be warm
   and simple; if a veteran remembers the mountain, that conversation can happen privately.
