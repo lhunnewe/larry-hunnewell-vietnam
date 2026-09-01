@@ -275,3 +275,31 @@ the mountain station. This document shows that station was a live node in the II
 Special Forces net five weeks earlier, taking exactly that kind of traffic. It makes his
 account of the mechanism ordinary rather than exceptional. See
 `research/events/450-civilians-nui-ba-den.md`.
+
+## 2026-09-01 — the Bu Dop chain closes, from a second direction
+
+The order of battle read later the same day (`data/sources/radix-sf-order-of-battle`, Part 2)
+lists for the Bu Dop camp:
+
+> **NUGENT, RICHARD O, CPT — 03/??/65 – 07/20/65** — "Camp overrun."
+> OLIVAZ, JACINTO E, 1LT — 07/22/65 — fm XO/CO
+
+The MACV *Observer* of 24 July 1965 reported the attack on Bu Dop shortly after 1 a.m. on
+**20 July 1965**, named **Capt. Richard O. Nugent** among the wounded carried to safety, and
+quoted the camp's communications sergeant saying he "contacted the Black Virgin Mountain
+radio station." A compiled order of battle and MACV's own newspaper, written decades apart,
+agree on the date, the camp and its commander — and one of them says that camp called the
+mountain when it was hit.
+
+One discrepancy kept rather than smoothed: the order of battle says the camp was overrun;
+the *Observer*, contemporary and detailed, says the attempt failed and the defenders held.
+Neither is adjusted to fit the other.
+
+The same document also prints the mountain camp's own purpose — **"Nui Ba Den 324, Tay Ninh
+Province/Phu Khuong District, XT281582, MISSION: RADIO RELAY"** — and records that the site
+was established in July 1964 to "set up AN-19 radio relay site." The relay Larry describes
+manning is now documented in its mission statement, its origin, and its use.
+
+The probe stands unchanged: ask him cold whether a camp ever called him while it was being
+attacked. Roster names and identifications from this document are in
+`research/people/nui-ba-den-roster-names.md` and must not be supplied to him first.

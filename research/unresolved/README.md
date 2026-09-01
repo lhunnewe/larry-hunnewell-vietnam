@@ -181,6 +181,28 @@ Open questions:
    not** be read as its commander without the page image. Part 2 of the same work is still
    unread — Chrome blocks a second automatic download, so it needs one manual click while
    logged in.*
+   *2026-09-01, Part 2 read — **THE CAMP'S MISSION IS PRINTED, AND TWO ROCK NAMES ARE REAL
+   MEN.** The order of battle's camp entry reads "**Nui Ba Den 324, Tay Ninh Province/Phú
+   Khương District, XT281582, MISSION: RADIO RELAY**", with a note that a major of B-220 was
+   given the mission to "set up AN-19 radio relay site" — the relay Larry manned, documented
+   in its purpose and origin — and a **commander roster from July 1964**. Against the names
+   Larry photographed painted on the rocks (VN-0035, VN-0133): **GARVEY, JAMES E, 1LT
+   commanded the Núi Bà Đen detachment July–September 1964**, and **REWERTS, DAVID G, CPT**
+   commanded at Trảng Sụp, B-32's own base in Tây Ninh, June–November 1964 — both TDY from
+   the same parent team, A5/122. Two of six rock names are now documented officers in the
+   right province in the right year. Weaker: "Captain Lynch" (a Michael J. Lynch, but at Bu
+   Dop, not Tây Ninh); "Willcut" (CPT Roger E. Willcut was 5th SFG **Group Signal Officer**,
+   an attractive fit for a relay site's rocks, but dated 1966+). No match at all for Kirby or
+   Dean. **LOWRY/LOWERY: zero hits in either part** — a real but NARROW negative for #12,
+   because this work rosters officers and senior NCOs, not every enlisted man. Also in
+   Larry's window: a **1LT LEWIS commanded the camp from 20 April 1965** (NOT his Major Lewis
+   of Rosethorn 007 — different rank, not an aviator; recorded so the collision is not
+   re-discovered as a lead), and CPT Peter W. Van Dine is listed at Núi Bà Đen Apr–Oct 1965.
+   And the B-32 date discrepancy moves back toward Kelly: **MAJ Galen "Mike" Radke takes B-32
+   Tây Ninh in January 1965**. Full working: research/people/nui-ba-den-roster-names.md.
+   HANDLING: the names came off Larry's own photographs and are not secret from him, but
+   **who these men were must not reach him before he is asked cold** whether he remembers the
+   names — the interview question stays exactly as written.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
