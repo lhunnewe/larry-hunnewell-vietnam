@@ -100,16 +100,72 @@ name (Nov 1967 photo caption). "Body Jab," "Tay Ninh," and "Rosethorn" appear in
 call-sign source — consistent with monthly-rotated SOI voice call signs, which rarely
 survive outside archival signal annexes.
 
+---
+
+## Findings — Texas Tech VNCA reply, 2026-09-01
+
+The reference request sent 2026-08-13 was answered on 2026-09-01. Full log, including the
+search table and the follow-up checklist:
+**research/records-request/vnca/README.md**. What it establishes:
+
+### 1. TTU was the wrong door for the operational records
+
+VNCA collects **only by donation** and holds no government or military record series; in
+their words, "all preserved military and government records from the Vietnam era are at the
+U.S. National Archives and Records Administration (NARA II, College Park, Maryland)." They
+also have no medical unit records and "very few unit rosters or records at the smaller unit
+level." So the MACV J-3 journals, the 5th SFG / B-32 summaries, and any civilian-casualty
+investigation are a **NARA RG 472 request**, and RG 472 moves to the top of this list. What
+VNCA can still hold is the donated shadow of those records — a veteran's own copy, a
+compiler's research file, maps, photographs, oral histories — and that search is now ours to
+run, with their query terms as the starting point.
+
+### 2. Two negative results, scoped
+
+The archivist ran nine searches on the Virtual Vietnam Archive for us. Two returned nothing:
+
+- **`detachment b-32` OR `det b-32`, 1965 → 0 items.**
+- **`call signs` AND `tay ninh`, Jul–Sep 1965 → 0 items.** This independently matches the
+  call-signs note: "Body Jab," "Rosethorn," and "Tay Ninh" survive in no public source.
+
+**Scope:** these search *item records* — the ~20% of holdings that are digitized. The other
+80% is discoverable only through collection Finding Aids, which have not been swept. A zero
+here is "nothing digitized and described in these words," not "the archive holds nothing."
+VNCA uses no controlled vocabulary, so term and spacing variants (`B-32`, `B 32`,
+`Black Virgin Mountain`, `CIDG`, `SOI`, `CEOI`) and date-span-free repeats are all still
+untried, and items catalogued "No Date" never retrieve when a date span is set.
+
+### 3. Lists we now know exist and have not read
+
+Their counts, as of 2026-09-01: `nui ba den` 1965 → **14**; `black virgin` 1965 → **15**;
+`macv` + `tay ninh` Jul–Sep 1965 → **59**; **`civilian casualties` + `tay ninh` 1965 → 7**;
+`signal corps` + `tay ninh` 1965 → **30**. The seven civilian-casualty items are the
+highest-value list in the reply and the first thing to read. Register on the Reading Room
+mirror (readingroom.vietnam.ttu.edu) first — it unlocks the copyright-blocked digitized
+items the open portal withholds.
+
+### 4. A map path to the villages "down there"
+
+VNCA has the era **1:50,000 L7014** sheets online, and a nearly complete **1:25,000 Pictomap
+L8020** supplement series (~1968, two halves per sheet, N and S) that is **not online but
+emailed on request by sheet number**. A 1:25,000 pictorial sheet of Núi Bà Đen is the best
+available chance of naming the settlements below the camp — the ones the accusation refers
+to — and of fixing the French fort on the back side of the mountain. One email, once we have
+the sheet number.
+
 ### Next steps (in order of promise)
 
-1. **Texas Tech Vietnam Center & Archive** — reference request **SENT 2026-08-13**
-   (research/records-request/ttu-reference-request.md): MACV J-3 daily journals and 5th SF
-   Group / B-32 detachment monthly operational summaries, Tây Ninh, July–September 1965.
-   The single most likely place a record of the day survives. Awaiting reply.
-2. **NARA RG 472** — III Corps advisory and 5th SFG records; SOI/CEOI signal annexes could
-   also confirm the call signs (and thereby the unit).
-3. **NPRC** — Larry's own records request (in progress) may fix his exact medevac date,
+1. **NARA RG 472** — III Corps advisory and 5th SFG records; SOI/CEOI signal annexes could
+   also confirm the call signs (and thereby the unit). VNCA's advice, followed exactly: name
+   unit, dates, and record types precisely, because NARA pulls and scans what you specify
+   and does no research for you. Start with their "Ask the Archives," and ask for the list of
+   independent researchers for hire — for a question this narrow, a paid onsite researcher
+   may be the shortest path, and that is a family decision with a cost attached.
+2. **Work the VNCA database ourselves** — the seven civilian-casualty items first, then the
+   mountain and MACV/Tây Ninh lists, then a Finding Aid sweep of the undigitized 80%.
+3. **Request the Pictomap sheets** for Núi Bà Đen once the L7014 sheet number is identified.
+4. **NPRC** — Larry's own records request (in progress) may fix his exact medevac date,
    which would pin the incident window to specific days and sharpen every archive query.
-4. If the unit is confirmed (118th Aviation Company is the leading candidate — see the
+5. If the unit is confirmed (118th Aviation Company is the leading candidate — see the
    call-signs note), its association (http://www.118ahc.us/) may hold rosters and
    recollections covering mountain support missions, and living members who flew them.

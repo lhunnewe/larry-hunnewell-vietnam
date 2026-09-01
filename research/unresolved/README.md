@@ -190,6 +190,23 @@ Open questions:
     the May 1968 attack on US troops, not this. Next: Texas Tech archive reference request
     (MACV J-3 journals, B-32 summaries, Jul–Sep 1965), NARA RG 472, and the NPRC medevac
     date to pin the window.*
+    *2026-09-01 — TEXAS TECH REPLIED, and it was the wrong door for the records we wanted
+    (research/records-request/vnca/README.md). VNCA collects only by donation and holds no
+    government record series: "all preserved military and government records from the
+    Vietnam era are at NARA II, College Park." So the MACV/III Corps journals and the 5th
+    SFG / B-32 summaries are a **NARA RG 472 request**, which is now first in line, built to
+    their spec — exact unit, dates, record types, because NARA scans what you name and does
+    no research for you — with their standing offer of a list of independent researchers for
+    hire as the paid alternative. NEGATIVES, scoped: of nine searches the archivist ran on
+    the Virtual Vietnam Archive, `detachment b-32`/`det b-32` (1965) and `call signs` +
+    `tay ninh` (Jul–Sep 1965) both returned **0 items** — but these search only the ~20% of
+    holdings that is digitized, in an archive with no controlled vocabulary, so term
+    variants, date-span-free repeats, and a Finding Aid sweep of the other 80% remain
+    untried. POSITIVES, unread: 7 items for `civilian casualties` + `tay ninh` 1965, 14 for
+    `nui ba den` and 15 for `black virgin` in 1965, 59 for `macv` + `tay ninh` in the exact
+    window. Also newly available: VNCA's 1:25,000 Pictomap sheets of the mountain, emailed
+    on request by sheet number — the best chance of naming the settlements "down there."
+    Tracked as issue #66.*
 11. **The bathroom shooting court-martial** — Larry says the man who shot at him "would have
     been court martialed, there should be a record" (~Feb–Mar 1965 by his dating). Locating
     it would date the incident and recover the real surname of his bunk mate and witness

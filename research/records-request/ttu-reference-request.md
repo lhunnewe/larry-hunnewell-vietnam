@@ -2,7 +2,11 @@
 
 **To:** vnca@ttu.edu
 **Phone alternative:** (806) 742-9010
-**Status:** SENT 2026-08-13 (as drafted, by Larry's son) — awaiting reply; log the response here
+**Status:** SENT 2026-08-13 (as drafted, by Larry's son). **REPLIED 2026-09-01** — the
+reply, the searches VNCA ran, and what it changes are logged in `vnca/README.md`. Short
+version: VNCA holds only donated material, so the operational records asked for in items
+1–3 are at NARA II, not Lubbock; two of their searches (Det B-32, Tây Ninh call signs)
+returned zero items.
 **Purpose:** find any record of the "450 civilians" day (research/events/450-civilians-nui-ba-den.md)
 and of Larry's unit/detachment at Núi Bà Đen, July–September 1965.
 
@@ -55,6 +59,11 @@ Sincerely,
 [Phone if you wish]
 
 ---
+
+**Notes on the sent text:**
+- The letter says "He is 82." `CLAUDE.md` says 86. One of the two is wrong and this archive
+  does not hold his date of birth outside `private/`. Do not treat either number here as a
+  source; check the private file before repeating an age anywhere.
 
 **Notes for us before sending:**
 - If the NPRC file arrives first with his exact medevac date, add it — it would narrow
