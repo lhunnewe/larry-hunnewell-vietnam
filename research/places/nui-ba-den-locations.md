@@ -208,3 +208,38 @@ mistake it for a lead.
 - [ ] Ask VNCA whether an **earlier edition of sheet 6231-4** exists — a 1965-or-before
       printing would make the "(Destroyed)" question answerable. Add to the #67 thread.
 - [ ] Name the **5th SFG ORLL for 1965** in the NARA request, alongside Det A-324.
+
+### A fourth confirmation, from the copyright-restricted order of battle
+
+With the Reading Room session restored, the RADIX Press **U.S. Army Special Forces Order of
+Battle, Vietnam Theater (1957–1975)** (`data/sources/radix-sf-order-of-battle`, items
+4030205001–2, copyright-restricted and reachable only through the Reading Room portal) is
+readable. Its master camp table gives:
+
+> **Nui Ba Den  |  3  |  324  |  XT28105820  |  Tay Ninh  |  Closed**
+
+— camp, controlling C-detachment (**C-3**, III Corps), A-detachment number, grid, province,
+disposition. That is a fourth independent source for **A-324**, and its grid matches the
+"Listing is 28105820" variant in the position index.
+
+**New from this document:** the Xuân Lộc camp in Long Khánh, **Det A-353** at YT46100850,
+is recorded as **"Relocated to Nui Ba Den."** So more than one detachment number attaches to
+the mountain over time — A-324, A-325A, and A-353 — which is worth knowing before asking
+NARA for records under a single designation. The request should name **A-324 primarily, and
+A-325A and A-353 as alternates**.
+
+The same table sets out the rest of B-32's province in one place: Go Dau Ho (A-326), Trảng
+Sụp, Hiệp Hòa (A-350/351/352), Hồ Ngọc Tàu (A-363, "Consolidated to Trang Sup"), Nước Vàng
+(A-312), Minh Thanh (A-332).
+
+**A trap in this document, recorded so it is not sprung later.** A narrow right-hand column
+of personal names runs alongside the camp table, and in the scan's text layer it is clipped
+("EARLE, RICHAR", "MILLER, WILLIA", "MCCLURE, CHAI") and interleaved with the wrong rows —
+narrative fragments from a neighbouring list bleed into it. A name does appear adjacent to
+the Núi Bà Đen row. **It cannot be attributed to the camp** without looking at the page
+image, and it is not recorded here as a commander. Anyone tempted to read a name off that
+column should open the page picture first.
+
+**Still to read:** Part 2 of 3 (item 4030205002, 134 pp) would not download — Chrome blocks
+the second automatic download from an origin. One manual click on the PDF link while logged
+in to the Reading Room will retrieve it.

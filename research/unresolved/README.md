@@ -169,6 +169,18 @@ Open questions:
    year. Noted so no one trips on it: that 1967 roster lists an A-325A under a **LT Lewis**
    at Nui Ba Den — different rank, two years later, and **not** Larry's Major Lewis of
    Rosethorn 007 on any evidence.*
+   *2026-09-01, Reading Room session restored — a FOURTH confirmation, and a caution. The
+   copyright-restricted RADIX Press **Special Forces Order of Battle, Vietnam Theater**
+   (sources/radix-sf-order-of-battle) tabulates "**Nui Ba Den | 3 | 324 | XT28105820 | Tay
+   Ninh | Closed**" — camp, C-3 as controlling detachment, A-324, grid, province. New from
+   it: the Xuân Lộc camp, **Det A-353**, is recorded as "Relocated to Nui Ba Den", so more
+   than one designation attaches to the mountain over time (A-324, A-325A, A-353) and the
+   NARA request should name A-324 primarily with the other two as alternates. CAUTION
+   RECORDED: a narrow column of personal names runs beside that table and is clipped and
+   mis-aligned in the scan's text layer; a name sits next to the Núi Bà Đen row and **must
+   not** be read as its commander without the page image. Part 2 of the same work is still
+   unread — Chrome blocks a second automatic download, so it needs one manual click while
+   logged in.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
