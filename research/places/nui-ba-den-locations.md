@@ -49,12 +49,46 @@ the accusation was made. The index carries one documented French fort in the are
 > **LZ Paul** — XT281685, 11.4756 / 106.1706, sheet 6231-4 — "2/12th Inf 12Apr67. Op
 > Junction City. **Old French Fort north of Nui Ba Den.**"
 
-**Treat as a candidate, not an identification.** It sits about 10 km north of the summit
-grid, which is a long way from a camp Larry could walk to and be extracted from within an
-hour, and the citation is a 1967 operation rather than a 1964–65 record. French colonial
-works around the mountain were not unique — the Special Forces camp at Đồng Xoài was
-likewise built on "the site of an old French fort" (`../units/callsigns-and-units.md`). The
-useful next step is the Pictomap sheet, which should show fortification symbols directly.
+**Correction and expansion, same day.** The archive's reference desk pointed at a newer
+edition of this index than the one first read — **item 25720206001, September 2024, 553 pp**
+(the January 2023 edition, 25720204001, was read first; its Núi Bà Đen entries are
+identical). The newer edition shows that LZ Paul is not an isolated entry but one of a
+**whole cluster of positions on sheet 6231-4 all called "French Fort,"** occupied by many
+different units between 1966 and 1971:
+
+| Name as used | Grid | Cited from |
+|---|---|---|
+| FB French Fort | XT274686 | 2/25th ID, 10 Nov 66, Op Attleboro |
+| FB Saint Barbara — "aka **The French Fort**, FSB Bao Co" | XT275684 | 25th ID, 1st ACD, '68 |
+| FB French Fort | XT277686 | 11th ACR HQ, 22 Feb 67, Op Junction City |
+| **LZ Paul** — "**Old French Fort north of Nui Ba Den**" | XT281685 | 2/12th Inf, 12 Apr 67 |
+| FB French Fort | XT281684 | B/2/35th Arty, 21 Mar 67 |
+| Ps Plenitude — "Also **French Fort**, St Barbara" | XT289689 | 25th ID forward supply area |
+
+So there is **one prominent, real, repeatedly-used French fort north of the mountain**,
+around XT27–28/68–69, known to every American unit that passed through War Zone C. It is
+the only such landmark on the sheet.
+
+**Still a candidate, not an identification**, for two reasons that pull in opposite
+directions:
+
+- **For it:** it is a genuine named French fort, at the mountain, on the northern approaches
+  — the same side as the September 1965 village operation. Distance is no objection to
+  Larry's *extraction*: he was picked up by helicopter within about an hour, and 11 km is
+  nothing by air.
+- **Against it:** Larry's account has **Sgt. Lowry come running** from the fort to him about
+  thirty minutes after the relay. Eleven kilometres does not fit a man arriving on foot.
+  Either the fort in his memory is a different, smaller work close to the camp, or the
+  sequence involved a flight, or the distance in his memory has compressed.
+
+Note also that this index is built from **U.S. unit reports of 1966 and later**, so a small
+colonial ruin at the mountain's base, used by a half A-team in 1964–65 and never occupied by
+an American artillery battery, could be absent from it entirely. French works around the
+mountain were not unique in any case — the Special Forces camp at Đồng Xoài was likewise
+built on "the site of an old French fort" (`../units/callsigns-and-units.md`).
+
+The useful next step is unchanged and now sharper: the **Pictomap sheet**, which should show
+fortification symbols directly, at the base as well as to the north.
 
 ## Other named features worth keeping
 
