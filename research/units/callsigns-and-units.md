@@ -303,3 +303,29 @@ manning is now documented in its mission statement, its origin, and its use.
 The probe stands unchanged: ask him cold whether a camp ever called him while it was being
 attacked. Roster names and identifications from this document are in
 `research/people/nui-ba-den-roster-names.md` and must not be supplied to him first.
+
+## 2026-09-01 — Ron Totosz: searched and not found, with the scope stated
+
+Every document pulled from the Texas Tech archive today (fourteen text-extracted files: both
+parts of the Special Forces order of battle, the 5th SFG operational report, both UTT/68th
+memoirs, the USOM provincial reports for July, August, September and November 1965, the
+MACV *Observer*, the Operation FITCHBURG annex, the III DASC CHECO report, the two camp
+lists and the position index) was searched for **Totosz, Tototz, Totos, Totusz and
+Totowicz** — every spelling variant this archive has tried.
+
+**Zero hits, in any spelling, in any document.** The same sweep found no **Hunnewell**, no
+**Guegler**, no **Zekeowski** and no **Schwartzkoff**. Three apparent hits were checked and
+discarded: a "Gen. Kahn" in the 5th SFG report is the Vietnamese general Khánh, and the
+Weavers in the order of battle are Special Forces officers in I Corps in 1962–64, not
+Larry's Sgt. Weaver (an E-5 at Tân Sơn Nhứt in 1965).
+
+**Scope, so this negative is not over-read.** None of these documents is a personnel roster
+of the kind that would name a private or a specialist. The order of battle rosters
+*detachment commanders and team sergeants*; the operational reports name unit commanders;
+the provincial reports name American civilians and Vietnamese officials. Larry, Ron and the
+other men in these photographs are exactly the ranks such documents omit. **This is a
+negative about the wrong kind of document**, not evidence that these men were not there.
+
+The record types that would name them remain what they have always been: **morning reports**
+and the **unit personnel rosters** in NARA RG 472, plus Larry's own NPRC file. Ledger #15
+and issue #58 are unaffected by today's work.
