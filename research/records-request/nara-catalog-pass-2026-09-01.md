@@ -70,11 +70,30 @@ having regardless, and because one of them may show the same ground he photograp
   Reports, 1965–1968**, NAID 25778382 (RG 127, Marine Corps) — the wrong service for our
   camps, but proof that AAR series of exactly this period are catalogued at series level.
 
+## 4. Continued the same day — the detachment searches, and what they establish
+
+- **`"Detachment A-324"` → zero results.** Not a disappointment: the catalog describes RG 472
+  at **series and file-unit level**, not at detachment level. A search for a specific A-team
+  cannot succeed there however the records are held. **This is the finding that most
+  strengthens the letter**: our detachment questions are not answerable by catalog search,
+  which is precisely why they are worth putting to an archivist. It also means a nil return
+  here says nothing about whether the records exist.
+- **Boolean OR breaks the catalog.** A query of the form `"A-324" OR "Detachment B-32"`
+  returns an application error page ("Unexpected token '<'"), not zero results. Search one
+  phrase at a time. Recorded so the next session does not read an error as an absence.
+- **The dates are all wrong for us, in the films at least** — see
+  `../photos/nara-film-of-the-mountain.md`, where the four Núi Bà Đen films and their links
+  now live. The earliest is December 1967.
+- **One 1965 item found in the right province:** *Seabees in Vietnam, **Ben Soi, Tay Ninh
+  Province**, Vietnam*, NAID **102046499**, local ID **111-DD-109-65**. Bến Sỏi is Detachment
+  A-321, under the same B-32 that ran Núi Bà Đen, and the `-65` suffix dates it to Larry's
+  year. Not yet watched.
+
 ## Next in this pass
 
-- [ ] Watch the four online Núi Bà Đen films. Free, and one may show the camp.
-- [ ] Redo the 5th SFG search using the on-page Record Group facet for 472.
-- [ ] Search the catalog for `"Tay Ninh"` limited to RG 472 and 1965.
-- [ ] Search for Detachment **A-324**, **A-325**, **A-353** and **B-32** as literal strings.
+- [ ] Watch the four Núi Bà Đen films and the 1965 Bến Sỏi film; note what each shows.
+- [ ] Redo the 5th SFG search using the on-page Record Group facet for 472 (the URL
+      parameter does not work).
+- [ ] Search `Ben Soi`, `Trang Sup`, `Suoi Da` for more 1965-dated film of B-32's camps.
 - [ ] Only then send the letter, with whatever the catalog has already answered removed
       from it.
