@@ -7,28 +7,23 @@ links are easy to find again.
 A search for `"Nui Ba Den"` on <https://catalog.archives.gov> returns **199 records, 175
 available online**, of which **9 are moving images and 4 of those are viewable now**.
 
-## The four films, with links
+## The films, with links
 
-| # | Title | NAID | Link | Local ID | Date |
-|---|---|---|---|---|---|
-| 1 | Footage from Tay Ninh Province, Nui Ba Den Mountain (Black Lady Mountain) | 560662229 | <https://catalog.archives.gov/id/560662229> | 127-R-5528 | **Produced 12 December 1967** |
-| 2 | CopterLifted Post Exchange (PX) Brightens Life for U.S. Army Troops on South Vietnam Mountain Top, Nui Ba Den Mountain, Vietnam | 102044075 | <https://catalog.archives.gov/id/102044075> | 111-DD-125-69 | 1969 (from the local ID) |
-| 3 | GIs Sit Atop Viet Cong on Black Lady Mountain, South Vietnam | 102044806 | <https://catalog.archives.gov/id/102044806> | 111-DD-15-68 | 1968 (from the local ID) |
-| 4 | Computer Keeps Track of U.S. Army Troops in Roadless Jungles of South Vietnam | 102044054 | <https://catalog.archives.gov/id/102044054> | 111-DD-554-70 | 1970 (from the local ID) |
+**`In his year?`** answers the only question that decides whether a film can corroborate
+anything Larry says. He arrived in Vietnam about September 1964 and left by **medical
+evacuation in early September 1965**, so his year is 1964–65 and nothing outside it is
+evidence about his service.
 
-Film 1 is Marine Corps (RG 127, *Films of Marine Corps Activities*) and carries photographer
-credits — **F. C. Beeney** and **L. C. Della Puca**. Films 2–4 are Army (RG 111, *Filmed News
-Releases*), where the `-68`, `-69`, `-70` suffix in the local ID is the year.
+| # | Film | NAID | Local ID | Date | In his year? | Note |
+|---|---|---|---|---|---|---|
+| 1 | [Footage from Tay Ninh Province, Nui Ba Den Mountain (Black Lady Mountain)](https://catalog.archives.gov/id/560662229) | 560662229 | 127-R-5528 | **Produced 12 December 1967** | **No** — 2 years 3 months after he left | Marine Corps, RG 127, *Films of Marine Corps Activities*. Carries photographer credits: **F. C. Beeney**, **L. C. Della Puca**. The only one of the four with a stamped production date rather than an inferred one. |
+| 2 | [CopterLifted Post Exchange (PX) Brightens Life for U.S. Army Troops on South Vietnam Mountain Top, Nui Ba Den Mountain, Vietnam](https://catalog.archives.gov/id/102044075) | 102044075 | 111-DD-125-69 | 1969 (from the local ID) | **No** | Army, RG 111, *Filmed News Releases*. The subject is a post exchange flown to the summit by helicopter — the single clearest measure of how far the mountain had changed from the half A-team Larry knew. |
+| 3 | [GIs Sit Atop Viet Cong on Black Lady Mountain, South Vietnam](https://catalog.archives.gov/id/102044806) | 102044806 | 111-DD-15-68 | 1968 (from the local ID) | **No** | Army, RG 111. 1968 is the year the summit signal facility was overrun (13 May 1968, 19 U.S. killed) — a different mountain and a different war from his. |
+| 4 | [Computer Keeps Track of U.S. Army Troops in Roadless Jungles of South Vietnam](https://catalog.archives.gov/id/102044054) | 102044054 | 111-DD-554-70 | 1970 (from the local ID) | **No** | Army, RG 111. Núi Bà Đen appears in the description rather than being the subject. |
+| 5 | [Seabees in Vietnam, **Ben Soi, Tay Ninh Province**, Vietnam](https://catalog.archives.gov/id/102046499) | 102046499 | **111-DD-109-65** | **1965** (from the local ID) | **YES** | Not the mountain, but **Bến Sỏi is Detachment A-321, under the same B-32 that ran Núi Bà Đen** — his province, his year, the neighbouring camp of the same B-detachment. The most interesting item found in this pass. **Not yet watched.** |
 
-## One more, closer in time and place
-
-| Title | NAID | Link | Local ID |
-|---|---|---|---|
-| Seabees in Vietnam, **Ben Soi, Tay Ninh Province**, Vietnam | 102046499 | <https://catalog.archives.gov/id/102046499> | **111-DD-109-65** |
-
-The `-65` suffix points to **1965**, and Bến Sỏi is the Special Forces camp **A-321** in Tây
-Ninh province, under the same **B-32** that ran Núi Bà Đen. This is the closest thing found
-so far to film of Larry's province in Larry's year. It has not been watched.
+In the Army items (RG 111, *Filmed News Releases*) the `-65`, `-68`, `-69`, `-70` suffix in
+the local ID is the year, which is what dates rows 2–5.
 
 ## Are these his mountain?
 
@@ -47,6 +42,12 @@ substantial American signal installation with a post exchange flown in by helico
 is literally the subject of film 2. The mountain in these films is a place his mountain
 became after he left. **They cannot corroborate anything he says**, and nothing in them
 should be treated as showing his camp.
+
+**The exception is row 5**, and it is why that row exists. *Seabees in Vietnam, Bến Sỏi, Tây
+Ninh Province* is dated **1965** — his year — and Bến Sỏi is **Detachment A-321, under the
+same B-32 that ran Núi Bà Đen**. Not his mountain, but his province, his year, and the
+neighbouring camp of the same B-detachment. Nobody has watched it. It is the most
+interesting item this pass turned up.
 
 ## Should they be watched with him?
 
