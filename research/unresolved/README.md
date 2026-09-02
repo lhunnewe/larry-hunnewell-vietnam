@@ -126,6 +126,25 @@ Open questions:
    camp ever called him under attack, **naming no camp, no date and no phrase**. If "We're
    being hit" or Bu Dop comes back unprompted, that is as close to proof as this archive is
    likely to get. research/units/callsigns-and-units.md, 2026-09-01.*
+   *2026-09-02, Veterans History Project (issue #70, now closed; reading list #71): the unit
+   question gains its **best unwatched lead**. The **Harvey E. Stewart Collection** (98375,
+   Army Colonel, video online) is the only record found in any collection whose Vietnam
+   service block holds **both halves of this question at once** — unit given as *"Military
+   Assistance Command Vietnam (MACV); **118th Assault Helicopter Company**"*, campaign given
+   as *"**Dong Xoai**"*, the June 1965 attack Larry says he listened to on the radio. The
+   118th did fly in support of Đồng Xoài that month, so the pairing is coherent rather than
+   verbal coincidence. NOT ESTABLISHED, and the gap is wide: his **Vietnam dates are blank**
+   (only the Korea block is dated, across a 1951–1975 career), `battles_campaigns` is
+   donor-supplied free text rather than a records citation, and nothing whatever connects him
+   to Larry. Entered as a **lead, not a source**; no record in data/ cites it and none should
+   until the interview is watched. Also searched and negative: `UTT`, `"Utility Tactical
+   Transport"`, `"118th Aviation"`, `"145th Aviation"`, `"14th Aviation"` produce nothing
+   new, leaving **Clyde S. Gudermuth** (127743, 1964–67, 1st Platoon, 118th AHC, 145th Avn
+   Bn) still the only man in ~99,000 collections inside the 118th or the 145th during Larry's
+   window. And `"flight following"` — the phrase Larry uses for his own work — returns
+   **zero hits** across the entire Veterans History Project, which is a small independent
+   sign of how thinly this trade and period are recorded anywhere.
+   research/units/callsigns-and-units.md; research/people/vhp-sweep-2026-09-01.md.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -502,3 +521,40 @@ Open questions:
     no camp we care about. PARTIAL: `Tay Ninh` (142 hits), `Tan Son Nhut` (301) and `5th
     Special Forces` (323) were each read only to the first 100. And nobody Larry names has
     been searched for yet — that is a different query shape and the obvious next pass.*
+    *2026-09-02 — SWEEP FINISHED, and the honest verdict is that **the Veterans History
+    Project is now exhausted for this archive**. Every broad search was paged to the end
+    (`Tay Ninh` 142/142, `Tan Son Nhut` 301/301, `5th Special Forces` 323/323, `Nha Trang`
+    200/200) and every remaining query was run: the camps by name, Larry's B-detachment, the
+    unit question in its other spellings, the trade words, and the names.
+    ONE NEW LEAD OF REAL VALUE: **Harvey E. Stewart** (98375, Colonel, online video) is the
+    only record found anywhere holding **both halves of the unit question at once** — his
+    Vietnam service block gives the unit as *"Military Assistance Command Vietnam (MACV);
+    **118th Assault Helicopter Company**"* and the campaign as *"**Dong Xoai**"*, the battle
+    Larry says he listened to on the radio. NOT ESTABLISHED: his Vietnam dates are blank and
+    `battles_campaigns` is donor-supplied free text, so this is his own account of himself,
+    nothing more, until the interview is watched. Also new: **Florencio Berumen** (43703,
+    audio), commander of **Detachment A-331 at Lộc Ninh** — a sister A-camp under the same
+    C-3 — though his Vietnam years sit undated inside a 22-year career.
+    THE NEGATIVES, which are the more durable half. **The VHP holds no B-32 veteran from
+    Larry's year**: `"Detachment B-32"` returns exactly two men, Harold Raymond Winton and
+    Jim McElroy, and both their campaign lists put them in Vietnam in **1968–70**. **None of
+    the officers on the A-324 / B-32 commander roster** — Rewerts, Garvey, Olivaz, Krawczyk,
+    Badke, Sandlin, Jacinto, Chilton, Nugent — **deposited anything in the VHP** (searched by
+    surname across the whole collection, 2026-09-02). `"flight following"`, the phrase Larry
+    uses for his own work, returns **zero**; `"radio relay"` returns 26 and **not one is III
+    Corps in 1964–65**. `"Body Jab"` and `Rosethorn` return zero. `"Suoi Da"` returns zero.
+    Every spelling variant of the names he gives — Zekeowski, Tototz, Schwarzkopf, Kahn —
+    returns nothing in the window. Jesse James Hodges, who looked like a Đồng Xoài hit, is
+    eliminated by his own service note: **A-342, 1969–70**.
+    WHAT THAT ADDS UP TO: Larry's trade, in his place, in his year, is absent from the
+    largest oral-history collection in the United States — small independent support for
+    something already suspected, that the mountain relay in 1964–65 was a handful of men and
+    almost none of them recorded anything.
+    THREE METHOD FAULTS were found and fixed, all of which had been suppressing results
+    rather than inventing them: unquoted multi-word terms token-match (`Loc Ninh` was
+    returning Tay Ninh, 183 hits instead of 35); years were being scraped from
+    `war_or_conflict: "Vietnam War, 1961-1975"` and giving every veteran a 1961–75 span; and
+    records with no `dates_of_service` were being dropped silently. **The earlier passes'
+    "long career" exclusions should therefore be treated as soft.**
+    NOTHING FURTHER NEEDS SEARCHING. What remains is watching: every collection on the
+    reading list is online and free. research/people/vhp-sweep-2026-09-01.md, issue #71.*

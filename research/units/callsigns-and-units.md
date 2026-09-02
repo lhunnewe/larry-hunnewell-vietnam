@@ -329,3 +329,73 @@ negative about the wrong kind of document**, not evidence that these men were no
 The record types that would name them remain what they have always been: **morning reports**
 and the **unit personnel rosters** in NARA RG 472, plus Larry's own NPRC file. Ledger #15
 and issue #58 are unaffected by today's work.
+
+---
+
+## A veteran who lists both the 118th and Đồng Xoài — 2026-09-02
+
+Found in the closing pass of the Veterans History Project sweep
+(`../people/vhp-sweep-2026-09-01.md`, issue #70).
+
+**Harvey E. Stewart Collection**, Veterans History Project, American Folklife Center, Library
+of Congress — **AFC/2001/001/98375**, <https://www.loc.gov/item/afc2001001.98375/>. Army,
+**Colonel**, video oral history **online and free**.
+
+His Vietnam service block, quoted from the Library of Congress record:
+
+> `"battles_campaigns": "Dong Xoai"`
+> `"unit_of_service": "Military Assistance Command Vietnam (MACV); 118th Assault Helicopter Company"`
+> `"location_of_service": "Vietnam"` · `"highest_rank": "Colonel"`
+
+### Why this is worth a section of its own
+
+Two questions this archive has carried for a month sit in one record:
+
+1. **Larry's "118th AOD."** He has never been able to expand the abbreviation, and the
+   archive's two candidates have been the **118th Aviation / Assault Helicopter Company**
+   (under the 145th Aviation Battalion at Tân Sơn Nhứt) and the **UTT / 68th**.
+2. **Đồng Xoài, 9–10 June 1965** — the attack Larry says he listened to over the radio, with
+   a man on the other set dying of a stomach wound.
+
+**No other record found in any collection puts both in one veteran's file.**
+
+The pairing is also historically coherent rather than a coincidence of words: the 118th flew
+in support of Đồng Xoài in June 1965. So this is at least the right kind of man in the right
+kind of place.
+
+### What is not established, and it is a lot
+
+- **His Vietnam dates are blank.** Only the Korea block carries dates, and its 1951–1975 span
+  covers an entire career. He could have flown at Đồng Xoài in 1965 or have been anywhere
+  near it years later.
+- **`battles_campaigns` is donor-supplied free text**, entered by whoever catalogued the
+  interview. It is not a records citation and carries no evidentiary weight of its own.
+- **Nothing connects him to Larry.** Same unit designation is not the same man, the same
+  detachment, or the same year.
+
+**So the correct status is: an unwatched lead, and the best one the unit question has.** It
+is entered here as a lead, not as a source; no record in `data/` cites it and none should
+until somebody has watched the interview and heard what he actually says.
+
+### What to listen for
+
+- **When** he was in Vietnam, and in what job.
+- What the **118th** actually flew and who it supported — and whether it ever supported
+  Special Forces camps.
+- **Đồng Xoài in June 1965**: what he saw or heard, and **over what radio net**.
+- Any mention of **Tây Ninh**, **Núi Bà Đen**, or a relay on a mountain.
+- Whether the 118th ever detached men out to camps — the shape of Larry's own service.
+
+Tracked on the reading list, issue #71, at Tier 1.
+
+### And the negative that came with it
+
+The same pass searched every other spelling of the unit question — `UTT`, `"Utility Tactical
+Transport"`, `"118th Aviation"`, `"145th Aviation"`, `"14th Aviation"` — and **found nothing
+new**. **Clyde S. Gudermuth** (1964–67, 1st Platoon, 118th AHC, 145th Aviation Battalion,
+[127743](https://www.loc.gov/item/afc2001001.127743/)) remains the **only** man in the
+Veterans History Project inside the 118th or the 145th during Larry's window. That
+strengthens his place at the head of the reading list rather than weakening it.
+
+`"flight following"` — the phrase Larry uses for his own work — returns **zero hits** across
+roughly 99,000 collections.
