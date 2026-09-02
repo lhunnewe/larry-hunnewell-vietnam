@@ -15,8 +15,10 @@ now name a detachment, a grid, a mission, a commander roster and a set of call s
 
 1. **Search the National Archives Catalog** (catalog.archives.gov) for each item below.
    Part of RG 472 is digitised; anything already online costs nothing and should be taken
-   rather than ordered. Record what was found and what was not — a negative here sharpens
-   the letter.
+   rather than ordered. **A first pass was run on 2026-09-01 —
+   `nara-catalog-pass-2026-09-01.md` — and it corrected item 1 before the letter could be
+   sent.** The pass is not finished; the remaining searches are listed at the end of that
+   file.
 2. **Send this as a reference enquiry first, not an order.** Ask what exists, where it sits
    (entry and box), and what it would cost. Order only after they answer. NARA pulls and
    scans what you name and does no research; an order sent blind is how people spend $200 on
@@ -44,12 +46,15 @@ relay**, under **Detachment B-32 (Tây Ninh)** and **Company C / C-3, III Corps*
 detachment designations are associated with the same site and may be how records are filed:
 **A-325A** and **A-353**.
 
-**1. 5th Special Forces Group (Airborne), 1st Special Forces — Operational Reports /
-Lessons Learned, all reporting periods in calendar year 1965.** I have seen the report for
-the period ending 31 December 1967, whose annexes tabulate every detachment with its
-commander, camp, province, grid coordinate and code word, and which narrates operations from
-individual camps. The 1965 equivalents are the single documents most likely to answer my
-questions, and I would like these first if I can have only one thing.
+**1. Whichever series holds 5th Special Forces Group (Airborne), 1st Special Forces records
+for 1964–1965 — in particular monthly operational summaries or command reports.** I have read
+the group's Operational Report — Lessons Learned for the period ending 31 December 1967,
+whose annexes tabulate every detachment with its commander, camp, province, grid coordinate
+and code word, and which narrates operations from individual camps. That is exactly the shape
+of document I need, but for 1965. I understand from your catalog that the series *Department
+of the Army, Office of the Adjutant General, Operations Report-Lessons Learned* (NAID
+5719297, A1 900) begins in **1966**, so the 1965 equivalent must sit elsewhere. **Could you
+tell me which series to ask for?** This is the item I would choose if I could have only one.
 
 **2. Records of Detachment A-324 (alternatively A-325A or A-353), Núi Bà Đen, and of
 Detachment B-32, Tây Ninh Province, July 1964 – December 1965** — monthly operational
@@ -97,11 +102,13 @@ Sincerely,
 
 ## Notes before sending
 
-- **Do the catalog search first.** It is free and it may remove one or two items from the
-  list entirely.
-- **Item 1 is the one to protect.** If the reply offers only one thing, take the 1965 5th SFG
-  operational reports. They would carry the detachment's commander and code word for Larry's
-  year and are the most likely single source of a "Body Jab" confirmation.
+- **Do the rest of the catalog search first.** The 2026-09-01 pass is unfinished; its
+  remaining searches are listed in `nara-catalog-pass-2026-09-01.md`, and each one that
+  succeeds removes an item from this letter.
+- **Item 1 is the one to protect**, but it is now phrased as a question rather than an order,
+  because the catalog showed that the ORLL series begins in 1966 and the 1965 equivalent is
+  something else. Asking NARA which series holds 5th SFG 1964–65 records is a reference
+  question they can answer and we cannot.
 - **The $50 estimate threshold** is a suggestion. NARA's minimum order is $20 and copies run
   about $0.80 a page (`nara-costs.md`), so $50 is roughly the point at which a request stops
   being trivial. Adjust it to whatever the family is comfortable with.
