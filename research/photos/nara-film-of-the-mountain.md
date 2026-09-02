@@ -7,7 +7,8 @@ links are easy to find again.
 A search for `"Nui Ba Den"` on <https://catalog.archives.gov> returns **199 records, 175
 available online**, of which **9 are moving images and 4 carry a digitised object**.
 
-> **CORRECTION, 2026-09-01 — "available online" does not mean the film is watchable.**
+> **CORRECTION, 2026-09-01 — "available online" usually does not mean the film is watchable,
+> but for one of these it does.**
 > This file first said these were "viewable now" and "free to watch." **That was wrong.**
 > Checked on the catalog: for these items the digitised object is the **Department of
 > Defense release sheet — the paper shot list** — not the moving image. The copy status on
@@ -16,10 +17,16 @@ available online**, of which **9 are moving images and 4 carry a digitised objec
 > > Copy 1 · Preservation · **Film Reel** — National Archives at College Park, Motion
 > > Pictures, `mopix@nara.gov`, (301) 837-3540
 >
-> **The film itself is an undigitised preservation reel.** To see any of it you must either
-> view it on site at College Park or order a reproduction. Nobody can click and watch these.
-> The shot lists, however, are genuinely online, genuinely readable, and — as row 5 below
-> shows — genuinely informative.
+> **For rows 1, 3, 4 and 5 the film is an undigitised preservation reel** — view it on site
+> at College Park or order a reproduction. **Row 2 is the exception and is genuinely
+> watchable**: a 28 MB MP4 is served at
+> `https://catalog.archives.gov/medialz/mopix/111/DD/111-dd-125-69.mp4`, and the catalog page
+> plays it as "Reel 1 of 1". Checked by requesting the MP4 for all four RG 111 items: only
+> `111-dd-125-69` returns `video/mp4`; the others return the site's HTML error page. So the
+> honest position is **one of five is watchable now**, not none and not all.
+>
+> The shot lists are online for all of them, readable, and — as the transcriptions below show
+> — evidence in their own right.
 
 ## The films, with links
 
@@ -31,8 +38,8 @@ evidence about his service.
 | # | Film | NAID | Local ID | Date | In his year? | Note |
 |---|---|---|---|---|---|---|
 | 1 | [Footage from Tay Ninh Province, Nui Ba Den Mountain (Black Lady Mountain)](https://catalog.archives.gov/id/560662229) | 560662229 | 127-R-5528 | **Produced 12 December 1967** | **No** — 2 years 3 months after he left | Marine Corps, RG 127, *Films of Marine Corps Activities*. Carries photographer credits: **F. C. Beeney**, **L. C. Della Puca**. The only one of the four with a stamped production date rather than an inferred one. |
-| 2 | [CopterLifted Post Exchange (PX) Brightens Life for U.S. Army Troops on South Vietnam Mountain Top, Nui Ba Den Mountain, Vietnam](https://catalog.archives.gov/id/102044075) | 102044075 | 111-DD-125-69 | 1969 (from the local ID) | **No** | Army, RG 111, *Filmed News Releases*. The subject is a post exchange flown to the summit by helicopter — the single clearest measure of how far the mountain had changed from the half A-team Larry knew. |
-| 3 | [GIs Sit Atop Viet Cong on Black Lady Mountain, South Vietnam](https://catalog.archives.gov/id/102044806) | 102044806 | 111-DD-15-68 | 1968 (from the local ID) | **No** | Army, RG 111. 1968 is the year the summit signal facility was overrun (13 May 1968, 19 U.S. killed) — a different mountain and a different war from his. |
+| 2 | [CopterLifted Post Exchange (PX) Brightens Life for U.S. Army Troops on South Vietnam Mountain Top, Nui Ba Den Mountain, Vietnam](https://catalog.archives.gov/id/102044075) — **WATCHABLE**, [MP4](https://catalog.archives.gov/medialz/mopix/111/DD/111-dd-125-69.mp4) | 102044075 | 111-DD-125-69 | **Filmed 25 March 1969**, released 11 April 1969 | **No** | Army, RG 111, *Filmed News Releases*. The subject is a post exchange flown to the summit by helicopter — the single clearest measure of how far the mountain had changed from the half A-team Larry knew. |
+| 3 | [GIs Sit Atop Viet Cong on Black Lady Mountain, South Vietnam](https://catalog.archives.gov/id/102044806) | 102044806 | 111-DD-15-68 | Released **12 January 1968** | **No** | Filmed by the **U.S. Marine Corps** under MACV Office of Information. **Contains close-ups of the names painted on the summit boulders** — see the transcription below. The most important of the five for an open question, and the only one worth paying to see. |
 | 4 | [Computer Keeps Track of U.S. Army Troops in Roadless Jungles of South Vietnam](https://catalog.archives.gov/id/102044054) | 102044054 | 111-DD-554-70 | 1970 (from the local ID) | **No** | Army, RG 111. Núi Bà Đen appears in the description rather than being the subject. |
 | 5 | [Seabees in Vietnam, **Ben Soi, Tay Ninh Province**, Vietnam](https://catalog.archives.gov/id/102046499) | 102046499 | **111-DD-109-65** | **18 May 1965** (from the release sheet) | **YES** | Not the mountain, but **Bến Sỏi is Detachment A-321, under the same B-32 that ran Núi Bà Đen** — his province, his year, the neighbouring camp of the same B-detachment. Film is an undigitised reel; the **shot list is online and transcribed below**. 90 feet of 16mm colour, about 2½ minutes. |
 
@@ -72,6 +79,95 @@ It also establishes that **Army camera teams were filming B-32's camps in Larry'
 that their output went out through the Army Pictorial Center to the American networks. That
 matters for the CBC question (issue #69): a film crew at a Tây Ninh Special Forces camp in
 1965 was not unusual.
+
+## The other shot lists, read 2026-09-01
+
+### Row 3 — `111-DD-15-68`, released 12 January 1968
+
+> **IMMEDIATE RELEASE, January 12, 1968 · Footage 66' · Time 1:45 · Number V-15-68 · 16mm
+> color composite print**
+> **GI'S SIT ATOP VIET CONG ON BLACK LADY MOUNTAIN IN SOUTH VIETNAM**
+> (Official Department of Defense motion picture film by the U.S. Marine Corps under the
+> direction of the MACV Office of Information.)
+>
+> "Rising three thousand feet over the delta in the South Vietnam province of Tay Ninh, Nui Ba
+> Den Mountain, known to the GI's as 'Black Lady Mountain', offers a curious exercise in
+> not-so-peaceful coexistence. The top of the mountain is the highest point in the province,
+> and hence is militarily important. This peak has been held by units of the 25th Infantry
+> Division, U.S. Army. **It is used as a radio relay station and observation post.**
+>
+> "The men of the 25th are not alone on Black Lady Mountain. Farther down the slopes roam the
+> Viet Cong, so the men on top have to be supplied by helicopter… **Men who have held the
+> crest of this mountain have left their mark… names of men and units inscribed in the great
+> boulders near the top.** Bunkers, strategically located about 300 feet below the crest,
+> overlook the entire area."
+
+Its shot list runs: (a) LS mountain · (b) MS to CU shrine · (c) tilt up mountain · (d) CU fly
+by top mountain · (e) copter lands top mountain · (f) two men at roadway lookout · (g) CU pan
+man to valley · **(h) radio antennas** · (i–o) men filling and placing sandbags · (p) boulder
+with cross on top · (q) MS cross · **(r) CU painting on boulder** · **(s) quick CU's names on
+boulders — 7 feet** · (t) pullout radio antenna to shack · (u) CU boulder, copter nearby ·
+(v) chopper takes off · (w) fly by top mountain, buildings · (x) LS mountain through barbed
+wire. Released to NBC-TV, CBS-TV, ABC-TV, UPI-Newsfilm, Telenews and Fox Movietone.
+
+**This is the roster rocks.** A U.S. Marine Corps camera team filmed the summit boulders,
+close up, with a shot of someone **painting a name onto one** — the same practice that
+produced VN-0035 and VN-0133 in Larry's own collection. Seven feet of film, perhaps five
+seconds, of names on those rocks.
+
+Two cautions that keep it honest. It is **January 1968**, two years and four months after
+Larry left, so names may have been added, repainted or weathered away in between. And nothing
+says whose names are legible. But this is the only known moving footage of the object at the
+centre of an open question, and it makes the reel worth a quote from Motion Pictures
+Reference.
+
+### Row 2 — `111-DD-125-69`, filmed 25 March 1969, released 11 April 1969 — **the watchable one**
+
+> **Footage 56' · Time 1:35 · Number V-125-69 · Filmed: March 25, 1969**
+> **COPTER-LIFTED PX BRIGHTENS LIFE FOR U.S. ARMY TROOPS ON SOUTH VIETNAM MOUNTAINTOP**
+> (Official Department of Defense motion picture film by the U.S. Army under the direction of
+> the MACV Office of Information. **Photography by SP5 Wiggins and SP5 Price; sound by SP5
+> Clendenon.**)
+>
+> "An airlifted post exchange, dubbed **Operation Sky Shop**, leaves the U.S. base camp at Tay
+> Ninh… every two weeks for a flight to the top of Nui Ba Den mountain. Nui Ba Den, or 'Black
+> Virgin Mountain', looms cloud-shrouded and mysterious above the flat farmland of Tay Ninh.
+> Named for a Cambodian princess who scaled the mountain and took her life rather than marry
+> against her Buddhist vows, the rugged rockpile is home for about fifty U.S. Army troops. At
+> the summit, **3200 feet above sea level, these troops man a U.S. Army signal relay
+> facility.**"
+
+Shot list: PX sign · chopper off with PX container, flies over mountain · chopper places
+container on pad · soldiers move toward pad, PX unloaded · soldiers look over merchandise ·
+soldier buys film · soldiers examine tape recorder · soldiers examine food, stand in line.
+
+### Row 4 — `111-DD-554-70`
+
+**Not read.** The catalog viewer froze on this item. It is the lowest-value of the set — Núi
+Bà Đen appears in its description rather than being its subject — and the sheet can be picked
+up in a later pass.
+
+### Row 1 — the Marine Corps item, `127-R-5528`
+
+**Not read.** Its digitised object is a set of **11 catalogue cards** rather than a single
+release sheet, and no MP4 is served for it. Worth a pass of its own.
+
+## Two things the shot lists establish
+
+1. **The summit's function is stated twice, independently, in official DoD text.** January
+   1968: "It is used as a radio relay station and observation post." April 1969: "these
+   troops man a U.S. Army signal relay facility." Both are years after Larry, so neither
+   corroborates *his* service — but both confirm that the thing he says he was doing there is
+   what that summit was for, in the words of the Army's own public affairs office. Set beside
+   the order of battle's **"MISSION: RADIO RELAY"** for 1964, the relay is documented at the
+   beginning of the American period and twice more later.
+2. **Scale, for perspective on what he describes.** A half A-team — one officer, five enlisted
+   — and a radio relay in 1964–65. About **fifty U.S. Army troops** and a fortnightly airborne
+   post exchange by 1969. The same rock.
+
+A small human detail worth keeping: the 1969 release gives the summit as **3,200 feet**.
+Larry, asked why the radios were up there, said the mountain "went up 2900 square feet" — his
+own phrasing, preserved. He was reaching for the height, and he was close.
 
 ## What it would take to see the film
 
