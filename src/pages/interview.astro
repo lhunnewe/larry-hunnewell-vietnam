@@ -7,6 +7,12 @@ import { withBase } from '../lib/paths';
 // Checkboxes persist in the browser's localStorage on whatever device
 // you use at the table.
 //
+// Tiers are ordered by what the setting allows, not by when a question was
+// written: tier 1 needs no photograph and works on a phone call, tier 2
+// needs the picture in front of him. When a probe is answered, move it to
+// the `answered` list below the same day — this page has twice gone on
+// asking questions Larry had already answered.
+//
 // Deliberately unlinked from the rest of the site and noindexed: several
 // questions are probes that only work if Larry doesn't read them first.
 // Reach it by direct URL / bookmark; never link it from a public page.
@@ -22,67 +28,14 @@ interface Question {
 
 const tiers: { title: string; intro?: string; questions: Question[] }[] = [
   {
-    title: 'The big unlocks',
-    intro: 'One per breakfast. Each answer opens a research door.',
+    title: 'Ask cold, ask next',
+    intro:
+      'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Several decay if primed, and the first one blocks a search.',
     questions: [
-      {
-        id: 'is-this-you',
-        q: '“Who is the young soldier under your arm on the mountain? What was in the metal cabinet behind you — your radio gear? Whose Thompson is he holding?”',
-        why: 'ANSWERED 2026-08-17: “Is this you?” — yes. Larry confirmed in conversation that VN-0028 is him, anchoring the identity thread through the whole collection in his own word. The follow-ups above are what remain, plus VN-0029 which awaits its own look.',
-        photos: ['vn-0028', 'vn-0029'],
-      },
-      {
-        id: 'the-guitarist',
-        q: '“It’ll come to you — who was the guitar player? The man with you and Ron at the Cholon pool.”',
-        why: 'ANSWERED in part, 2026-08-15: the beach-table man is Ron Tototz. The new most-wanted name: the VN-0005 left man — someone he “knew really well” — who is also the guitarist of the VN-0003/0007/0008 sessions. One name resolves four photos. The Japan hospital friend (VN-0093) is still a separate unnamed man.',
-        photos: ['vn-0005', 'vn-0003', 'vn-0007', 'vn-0008', 'vn-0093'],
-      },
-      {
-        id: 'unit-markings',
-        q: '“What was on your pocket patch — and what did your unit paint on its helicopters?”',
-        why: 'The unit question: “118th AOD” vs. the 118th Aviation Company “Thunderbirds.”',
-        photos: ['vn-0028', 'vn-0012', 'vn-0141'],
-      },
-      {
-        id: 'ops-van',
-        q: '“Where did the radio van stand — the company headquarters you call Thom Son Nuht? And who are the two flight controllers on the steps?”',
-        why: 'ANSWERED 2026-08-23 — where the van stood: “It was over in the property of 18th aviation. They were huge. They had probably about 300 helicopters including sky cranes. It was before the first cav aviation.” A unit new to the archive, and a sequence that would explain the 1st Cavalry association without his having served in it. Still open: the two men on the steps.',
-        photos: ['vn-0015', 'vn-0014', 'vn-0011'],
-      },
-      {
-        id: 'japan-medical',
-        q: '“How long were you in the hospital at Camp Zama? Did you see the Stars and Stripes piece in the ward? Was the Ginza day a pass from the hospital? And what do you remember about that German restaurant — the sign, the entrance, the stairs?”',
-        why: 'ANSWERED in part, 2026-08-13, unprompted: “I was at Camp Zama in Japan in Sugami Uro” — he produced the name himself, told only that research had a candidate. The follow-ups above are what remain. On the restaurant, don’t supply details: a spontaneous “beer-barrel doorway” would identify Ketel’s.',
-        photos: ['vn-0093', 'vn-0095'],
-      },
-      {
-        id: 'roster-names',
-        q: '“Do you remember these names painted on the rocks — Rewerts, Garvey, Kirby, Captain Lynch, Dean, Willcut? Was Sergeant Lowry’s name up there?”',
-        why: 'The Sgt. Lowry search and the identity of the mountain site. Stricter since 2026-09-01: two of these names have been matched to real Special Forces officers in period records. Reading the names to him is fine — they came off his own photograph. Saying which two were identified, or who they were, or what they did, is not, until he has answered cold. See research/people/nui-ba-den-roster-names.md.',
-        photos: ['vn-0035', 'vn-0133'],
-      },
-      {
-        id: 'camp-called-the-mountain',
-        q: '“When you were on the radio up on the mountain, did a camp ever call you while it was being attacked? What did they say, and what did you do?”',
-        why: 'The sharpest probe in the guide, and it only works cold. A period document now confirms what the mountain radio station was for and records one specific call it took — so do NOT name a camp, a date, or a phrase, and let him say it first. See research/units/callsigns-and-units.md, 2026-09-01.',
-        photos: [],
-      },
-      {
-        id: 'who-ran-the-camp',
-        q: '“Who was in charge up at that camp? Was there an officer — do you remember his name, or his rank?”',
-        why: 'Ask this before anything else about the mountain, and supply nothing — not a rank, not an initial. Period records name the officer commanding there during his months. He has already used one surname elsewhere for a different man, so if that name comes back here, ask gently how he knows which one he means. See research/people/nui-ba-den-roster-names.md.',
-        photos: [],
-      },
-      {
-        id: 'what-the-camp-was-for',
-        q: '“What was that camp on the mountain actually there for? What was its job?”',
-        why: 'A period document states the site’s official mission in one phrase. If he names it unprompted, his testimony matches an official record with no help from us. Do not offer the phrase, and do not offer alternatives to choose from.',
-        photos: [],
-      },
       {
         id: 'gagne',
         q: '“You mentioned Gagne, and that he was Foreign Legion. Was he French himself, or was he from somewhere else? And where was he when he died?”',
-        why: 'From the 2026-09-01 call, where he gave the name and spelled it. Ask softly and in that order. PARTIALLY ANSWERED on that call — “the guy was french”, and “Legionaires couldn’t go home” — but that does not settle it: the Foreign Legion recruits foreigners by design, so a Legionnaire need not be a French national, and he may be reporting the unit rather than the passport. Nationality decides which casualty records could name him, and until it is answered plainly no search should be run, because looking in the wrong record set and finding nothing produces a false negative that can stand for years.',
+        why: 'Ask softly, and in that order. PARTIALLY ANSWERED 2026-09-01 — “the guy was french”, and “Legionaires couldn’t go home” — but that does not settle it: the Foreign Legion recruits foreigners by design, so a Legionnaire need not be a French national and he may be reporting the unit rather than the passport. “Legionnaires couldn’t go home” matches a real feature of the Legion and is a lead about who Gagne was, not a fact about him. Why it is first: nationality decides which casualty records could ever name him, and until he answers plainly no search is run — looking in the wrong record set and finding nothing produces a false negative that can stand for years.',
         photos: [],
       },
       {
@@ -94,14 +47,32 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       {
         id: 'cbc-crew-described',
         q: '“Tell me about the CBC people. How many were there? What gear did they have? Was there a reporter as well as a cameraman? Did they say where in Canada they were from? Where were you all when they filmed?”',
-        why: 'Ask this FIRST and show nothing. A candidate CBC film from the period has been found and is free to watch, so the order of operations now matters: a description given cold can be matched against a film, a description given after watching one cannot. See research/events/cbc-documentary-1964-65.md.',
+        why: 'Ask this FIRST and show nothing. A candidate CBC film from the period has been found and is free to watch, which is exactly why the order of operations matters: a description given cold can be matched against a film, a description given after watching one cannot. See research/events/cbc-documentary-1964-65.md.',
         photos: [],
       },
       {
         id: 'cbc-pictures',
         q: '“What do the CBC pictures show — where were you all, and what were they doing?”',
-        why: 'He says photographs of the CBC crew are among his own; the archive cannot find them and a machine search of all 157 scans for film crews found nothing. Ask him to describe the pictures rather than to hunt for them — a described frame can be matched against the survey even when the survey never labelled it as a film crew. See research/photos/scan-reconciliation-2026-09-01.md.',
+        why: 'He says photographs of the crew are among his own; the archive cannot find them, and a machine search of all 157 scans for film crews found nothing. Ask him to describe the pictures rather than to hunt for them — a described frame can be matched against the survey even when the survey never labelled it as a film crew. See research/photos/scan-reconciliation-2026-09-01.md.',
         photos: [],
+      },
+      {
+        id: 'japan-medical',
+        q: '“How long were you in the hospital at Camp Zama? Did you see the Stars and Stripes piece in the ward? And how did they fly you out of Vietnam?”',
+        why: 'This is the archive’s oldest open question — the KIA misreport. He reached Japan around early September 1965 as a medevac patient and separated 30 November, so the window is roughly Sept–Nov 1965 and the ward is where he would have seen the paper. Pacific Stars and Stripes is NOT on newspapers.com and the hometown-echo search is a confirmed negative, so his own memory of the ward is a better lead right now than the paper is. The hospital itself is ANSWERED (2026-08-13, unprompted): “I was at Camp Zama in Japan in Sugami Uro.”',
+        photos: ['vn-0093', 'vn-0095'],
+      },
+      {
+        id: 'kennedy-always-in-charge',
+        q: '“Was there ever another officer up there besides Captain Kennedy? Did whoever was in charge change while you were there?”',
+        why: 'He named Captain Kennedy cold on 2026-09-01; period records name a different officer as detachment commander in the same window. Ask open and do NOT offer the other name — if he produces it himself that is corroboration, if we hand it to him it is worth nothing. See research/people/nui-ba-den-roster-names.md.',
+        photos: [],
+      },
+      {
+        id: 'roster-names',
+        q: '“Do you remember these names painted on the rocks — Rewerts, Garvey, Kirby, Captain Lynch, Dean, Willcut? Was Sergeant Lowry’s name up there?”',
+        why: 'Reads fine aloud, so the photo is optional. The Sgt. Lowry search and the identity of the mountain site. Stricter since 2026-09-01: two of these names have been matched to real Special Forces officers serving in Tây Ninh in 1964. Reading the names to him is fine — they came off his own photograph. Saying which two were identified, or who they were, or what they did, is not, until he has answered cold. See research/people/nui-ba-den-roster-names.md.',
+        photos: ['vn-0035', 'vn-0133'],
       },
       {
         id: 'missing-photographs',
@@ -110,35 +81,65 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
         photos: [],
       },
       {
-        id: 'kennedy-always-in-charge',
-        q: '“Was there ever another officer up there besides Captain Kennedy? Did whoever was in charge change while you were there?”',
-        why: 'He named Captain Kennedy as running the camp most of the time; period records name a different officer as detachment commander in the same window. Ask open and do NOT offer the other name.',
-        photos: [],
+        id: 'mountain-radio',
+        q: '“How did you get up the mountain — helicopter? How long were your stints? And the kid who was with you all the time — what was his name?”',
+        why: 'The radio room itself is ANSWERED (2026-08-15): “This is my radio area with 3 radios, single side band, fox mike x2… I was the only annex of it.” The boy of VN-0009 — about 12, shot in the leg, married at 10 — is still unnamed.',
+        photos: ['vn-0044', 'vn-0059', 'vn-0009'],
+      },
+    ],
+  },
+  {
+    title: 'Needs the photograph',
+    intro: 'For the table, with a tablet. Show the actual picture and let him talk.',
+    questions: [
+      {
+        id: 'the-guitarist',
+        q: '“It’ll come to you — who was the guitar player? The man with you and Ron at the Cholon pool.”',
+        why: 'The most valuable unnamed man in the archive. The VN-0005 left man — someone he “knew really well” — is also the guitarist of the VN-0003/0007/0008 sessions, so one name resolves four photographs at once. The beach-table man is ANSWERED (2026-08-15): Ron Tototz. The Japan hospital friend of VN-0093 is a separate unnamed man — don’t merge them.',
+        photos: ['vn-0005', 'vn-0003', 'vn-0007', 'vn-0008', 'vn-0093'],
       },
       {
-        id: 'other-boxing-terms',
-        q: '“Were there other call signs on that net you remember — other boxing words? And what number were you?”',
-        why: 'He told us unprompted that the Special Forces call signs were boxing terms, and that the camp was Body Jab 42. A period source now shows the same call word at another camp with a different number, which is why his own numbers matter. Ask open; supply nothing.',
-        photos: [],
+        id: 'home-base',
+        q: '“Where was this camp? What was the name of the base where your hooch T 123 stood? How long did you live there versus anywhere else?”',
+        why: 'Partly answered 2026-08-15: “T 123 my father says has to be their hooch” — his and Ron’s. The base’s NAME is still the missing anchor for half the collection’s geography.',
+        photos: ['vn-0136', 'vn-0117', 'vn-0017'],
+      },
+      {
+        id: 'unit-markings',
+        q: '“What was on your pocket patch?”',
+        why: 'Ask about the patch only. The helicopter half of this question is SPENT — asked 2026-08-23 and negative in his own words: “Doesn’t recall what was on the helicopter.” He offered instead an Army-issue watch and two M-60s on the helicopter door. The emblem readings stay withheld, but don’t expect a second asking to produce more. The patch still bears on the unit question: “118th AOD” vs. the 118th Aviation Company “Thunderbirds.”',
+        photos: ['vn-0028'],
+      },
+      {
+        id: 'is-this-you',
+        q: '“Who is the young soldier under your arm on the mountain? What was in the metal cabinet behind you — your radio gear? Whose Thompson is he holding?”',
+        why: 'ANSWERED 2026-08-17: “Is this you?” — yes. Larry confirmed VN-0028 is him, anchoring the identity thread through the whole collection in his own word. The follow-ups above are what remain, plus VN-0029, which awaits its own look.',
+        photos: ['vn-0028', 'vn-0029'],
+      },
+      {
+        id: 'ops-van',
+        q: '“Who are the two flight controllers on the steps? And what did Weaver’s pocket patch say?”',
+        why: 'Where the van stood is ANSWERED 2026-08-23: “It was over in the property of 18th aviation. They were huge. They had probably about 300 helicopters including sky cranes. It was before the first cav aviation.” A unit new to the archive, and a sequence that would explain the 1st Cavalry association without his having served in it. The two men on the steps are what remain.',
+        photos: ['vn-0011', 'vn-0015', 'vn-0014'],
       },
       {
         id: 'burning-base',
-        q: '“You photographed this fire twice from the air. What happened — was it the big Bien Hoa explosion in May ’65?”',
-        why: 'A dateable documented event, and possibly the unit’s home field.',
+        q: '“You photographed this fire twice from the air. What happened here?”',
+        why: 'Ask the open half first and let him date it himself before offering the May ’65 Bien Hoa explosion. A dateable documented event, and possibly the unit’s home field.',
         photos: ['vn-0074', 'vn-0078'],
       },
       {
         id: 'watch-the-film',
         q: '“Can we watch your movie film together?” — one chapter at a time, letting him narrate. “Where is this? Who’s holding the camera?”',
-        why: 'Narration for all 22 minutes of film. The boulevard in VF-0005 may be his Saigon. Follow-up: do the original 8mm reels still exist? If so, a professional re-scan becomes possible.',
+        why: 'Narration for all 22 minutes of film. The boulevard in VF-0005 may be his Saigon. Follow-ups: what camera did he carry, and do the original 8mm reels still exist? If so, a professional re-scan becomes possible.',
         photos: [],
         clips: ['vf-0001', 'vf-0002', 'vf-0003', 'vf-0004', 'vf-0005'],
       },
       {
-        id: 'home-base',
-        q: '“What was the name of the base where your hooch T 123 stood?”',
-        why: 'Partly answered 2026-08-15: “T 123 my father says has to be their hooch” — his and Ron’s. The base’s NAME is still the missing anchor for half the collection’s geography.',
-        photos: ['vn-0136', 'vn-0117', 'vn-0017'],
+        id: 'ginza-day',
+        q: '“Was the Ginza day a pass from the hospital? What do you remember about that German restaurant — the sign, the entrance, the stairs?”',
+        why: 'Don’t supply details. If he spontaneously describes a giant beer-barrel doorway, that identifies Ketel’s — see research/places/ginza-heidelberg.md.',
+        photos: ['vn-0095'],
       },
     ],
   },
@@ -146,44 +147,77 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
     title: 'Quick confirmations',
     intro: 'Fast yes/no questions over coffee.',
     questions: [
-      { id: 'mountain-radio', q: '“How did you get up the mountain — helicopter? How long were your stints? And the kid who was with you all the time — what was his name?”', why: 'The radio room is ANSWERED (2026-08-15): “This is my radio area with 3 radios.” The boy of VN-0009 — 12, shot in the leg, married at 10 — is unnamed.', photos: ['vn-0044', 'vn-0059', 'vn-0009'] },
-      { id: 'beach-medic', q: '“The medic from Nebraska who went out into the water — do you remember his name, or when it happened? Was he Army, or a Navy man? Was it during your first weeks at Nha Trang in ’64, or a later trip back?”', why: 'The beach is ANSWERED (2026-08-15): Nha Trang, beach hut #3 or #4. A full casualty-file sweep (issue #61, 2026-08-16) found no Nebraska serviceman and no medic drowned in-country during his tour — his answers decide which detail to relax before re-searching. Don’t read him any names.', photos: ['vn-0021', 'vn-0022'] },
-      { id: 'pool-where', q: '“Are these at the same pool — the French pool in Cholon?”', why: 'VN-0004/VN-0005 are ANSWERED (2026-08-15): the French swimming pool, Cholon. Still open whether the other pool frames match.', photos: ['vn-0075', 'vn-0083'] },
       { id: 'town-tayninh', q: '“Is this the town under the mountain — Tây Ninh?”', photos: ['vn-0055'] },
       { id: 'monument-town', q: '“Which town is this monument square in?”', photos: ['vn-0130'] },
       { id: 'crash', q: '“Whose helicopter went down here? Did everyone get out?”', photos: ['vn-0148'] },
       { id: 'saigon-trips', q: '“What took you into Saigon — duty or passes? Were you there for Tết ’65?”', photos: ['vn-0120', 'vn-0068'] },
+      { id: 'pool-where', q: '“Are these at the same pool — the French pool in Cholon?”', why: 'VN-0004/VN-0005 are ANSWERED (2026-08-15): “French Swimming pool in cholon, Chinese district of Saigon.” Still open whether the other pool frames match.', photos: ['vn-0075', 'vn-0083'] },
+      { id: 'beach-medic', q: '“The medic from Nebraska who went out into the water — do you remember his name, or when it happened? Was he Army, or a Navy man? Was it during your first weeks at Nha Trang in ’64, or a later trip back?”', why: 'The beach is ANSWERED (2026-08-15): Nha Trang, beach hut #3 or #4. A full casualty-file sweep (issue #61, 2026-08-16) found no Nebraska serviceman and no medic drowned in-country during his tour — his answers decide which detail to relax before re-searching. Don’t read him any of the near-miss names.', photos: ['vn-0021', 'vn-0022'] },
     ],
   },
   {
     title: 'Stories & people',
     intro: 'No research agenda — pure memoir gold. Let him wander.',
     questions: [
-      { id: 'guitar', q: '“Who could actually play the guitar? What did you all sing?”', why: 'He named Kahn and Ron Tototz in VN-0003 (2026-08-13); Ron was from Des Moines, Iowa, and passed away about ten years ago (2026-08-15). The guitarist himself is the VN-0005 left man — see the Tier 1 question.', photos: ['vn-0003', 'vn-0007', 'vn-0008'] },
+      { id: 'guitar', q: '“Who could actually play the guitar? What did you all sing?”', why: 'He named Kahn and Ron Tototz in VN-0003 (2026-08-13); Ron was from Des Moines, Iowa, and passed away about ten years ago (2026-08-15). The guitarist himself is the tier-2 question above.', photos: ['vn-0003', 'vn-0007', 'vn-0008'] },
       { id: 'rocket-launcher-day', q: '“The rocket launcher you photographed on the mountain — what happened when it fired? Did it hit the crossroad? Who was the Australian captain? And tell me about Major Schwartzkoff — what was he like?”', why: 'From his 2026-08-13 comments on VN-0006, which he took himself, ~June 1965. Just listen on the major — no name suggestions.', photos: ['vn-0006'] },
-      { id: 'mother-baby', q: '“The mother and baby by your batteries on the mountain — who were they?”', photos: ['vn-0145', 'vn-0156'] },
-      { id: 't122-family', q: '“The ladies next door at T 122 — laundry? cooking? What were their names?”', photos: ['vn-0155'] },
-      { id: 'mascots', q: '“Was there one Jones or two — the PFC on the helicopter, and the pilot who owned Sarge the monkey? And the black gibbon — whose was he?”', why: 'The monkey is ANSWERED (2026-08-15): Sarge, whom Ron hated, maybe belonging to “Jones, the helicopter pilot.” A PFC Jones also appears in VN-0012/VN-0020.', photos: ['vn-0017', 'vn-0012', 'vn-0020', 'vn-0152'] },
-      { id: 'club-nights', q: '“How often did the shows come through the club? Anyone you can name in the crowd?”', photos: ['vn-0030', 'vn-0034'] },
-      { id: 'python', q: '“The day they caught the big python — who caught it, and where were you?”', why: 'ANSWERED (2026-09-01): they did eat it, and it tasted delicious. Still open, and worth a minute: who caught it and where. VN-0153 is uncataloged with no date, so anything he says about the day is the only thing that will ever date it.', photos: ['vn-0153'] },
-      { id: 'thompson', q: '“Was that your Thompson on your bunk? Did you ever have to use it?”', photos: ['vn-0082', 'vn-0084'] },
-      { id: 'red-ao-dai', q: '“Who is she? This one looks like it mattered.”', photos: ['vn-0154'] },
-      { id: 'camera-girl', q: '“She’s holding a camera — did she take any of these pictures?”', photos: ['vn-0151'] },
-      { id: 'motorcycle-days', q: '“Tell me about your motorcycle days in Inglewood — did you ever crash?”', why: 'Newspapers show two crashes: South Gate Press Sep 1, 1957 (Firestone Blvd., at ~16) and Daily Breeze Jul 10, 1959 (thrown to the pavement at Crenshaw and 120th at 18, Daniel Freeman Hospital). Let him tell it before showing the clippings — the 1959 item prints “Larry B.”, so his telling also confirms it’s him. See research/people/hunnewell-family-newspapers.md.', photos: [] },
-      { id: 'basic-chapman', q: '“Where was basic training? And did you know Sgt. Chapman from training too, or just over there?”', why: 'Chapman turned out to be in VN-0024 with Larry in Vietnam, an E7 (2026-08-15) — the earlier basic-training association needs reconciling. Kennedy was shot a month into basic — “where were you when you heard?” is the way in.', photos: ['vn-0024'] },
+      { id: 'patrol-prisoner', q: '“Tell me about that patrol — how was the prisoner captured? How did you all know he was Pathet Lao? Did you go on many patrols with Captain Kennedy?”', why: 'From VN-0023 (2026-08-15), the photo Kennedy took of him. For a day when he’s in the mood for the heavier stories.', photos: ['vn-0023'] },
       { id: 'mike-patrick', q: '“How did you know Mike Patrick? What was he like? And who’s the other American on the rocks at the edge?”', why: 'Named 2026-08-15 in VN-0010 — ranger, MACV special operations, “a ghost or a spook.” Ask open; let him tell it.', photos: ['vn-0010'] },
       { id: 'parr', q: '“Parr, from the Nha Trang days — what was his first name? Where was he from? Did you stay in touch?”', photos: ['vn-0025'] },
       { id: 'rosie-club', q: '“Which club did Rosie work the door at — where was it? And how do you know she made it to America?”', why: 'Named 2026-08-15. Could be a whole story.', photos: [] },
       { id: 'la-franceaous', q: '“Sergeant La Franceaous — where did you know him from? What did he do?”', photos: [] },
       { id: 'guegler-more', q: '“The officer on the left next to Captain Guegler — it may come back to you. And what was Guegler’s first name?”', photos: ['vn-0020'] },
       { id: 'rosethorn-crew', q: '“Besides Major Lewis and Captain Guegler, do you remember other pilots or crew on Rosethorn 007?”', photos: ['vn-0016'] },
-      { id: 'patrol-prisoner', q: '“Tell me about that patrol — how was the prisoner captured? Did you go on many patrols with Captain Kennedy?”', why: 'From VN-0023 (2026-08-15), the photo Kennedy took of him. For a day when he’s in the mood for the heavier stories.', photos: ['vn-0023'] },
       { id: 'zekeowski', q: '“Zekeowski from Newark — what was his first name? What did he do? Best guess at the spelling?”', photos: ['vn-0027'] },
       { id: 'battalion-flightline', q: '“Do you remember which battalion your company belonged to? What other helicopter outfits flew out of Tan Son Nhut — how were their aircraft marked?”', why: 'Open questions only — don’t name any unit or describe any emblem to him. Candidate readings live in research/ files (flight-following-1964-65, magnification notes).', photos: ['vn-0012', 'vn-0020'] },
-      { id: 'helicopter-suners', q: '“Tell me again about the helicopter and the explosion — the two with the bombs around them. What did you call them?”', why: 'From the August 2026 call: the word sounded like “su-ners” — if it was “sappers,” the story may match a documentable attack. Let him say the word; don’t supply it.', photos: [] },
-      { id: 'va-file-number', q: '“What’s your VA file number, from the Agent Orange claim paperwork?”', why: 'ANSWERED Aug 2026 — recorded in the private archive (identifiers stay off the site). The recalled number differs by one digit from the Oct 2015 VA letter; the letter’s number goes on forms.', photos: [] },
-      { id: 'more-slides', q: '“Are there more slide boxes or prints anywhere that we never scanned?”', why: 'ANSWERED Aug 2026 (family): everything Larry handed over is scanned; the 8mm footage could be re-scanned at higher quality someday.', photos: [] },
+      { id: 'python', q: '“The day they caught the big python — who caught it, and where were you?”', why: 'ANSWERED (2026-09-01): they did eat it, and it tasted delicious. Still open, and worth a minute: who caught it and where. VN-0153 is uncataloged with no date, so anything he says about the day is the only thing that will ever date it.', photos: ['vn-0153'] },
+      { id: 'basic-chapman', q: '“Where was basic training? And did you know Sgt. Chapman from training too, or just over there?”', why: 'Chapman turned out to be in VN-0024 with Larry in Vietnam, an E7 (2026-08-15) — the earlier basic-training association needs reconciling. Kennedy was shot a month into basic — “where were you when you heard?” is the way in.', photos: ['vn-0024'] },
+      { id: 'motorcycle-days', q: '“Tell me about your motorcycle days in Inglewood — did you ever crash?”', why: 'Newspapers show two crashes: South Gate Press Sep 1, 1957 (Firestone Blvd., at ~16) and Daily Breeze Jul 10, 1959 (thrown to the pavement at Crenshaw and 120th at 18, Daniel Freeman Hospital). Let him tell it before showing the clippings — the 1959 item prints “Larry B.”, so his telling also confirms it’s him. See research/people/hunnewell-family-newspapers.md.', photos: [] },
+      { id: 'mother-baby', q: '“The mother and baby by your batteries on the mountain — who were they? Did you ever learn what became of them?”', photos: ['vn-0145', 'vn-0156'] },
+      { id: 't122-family', q: '“The ladies next door at T 122 — laundry? cooking? What were their names?”', photos: ['vn-0155'] },
+      { id: 'mascots', q: '“Was there one Jones or two — the PFC on the helicopter, and the pilot who owned Sarge the monkey? And the black gibbon — whose was he?”', why: 'The monkey is ANSWERED (2026-08-15): Sarge, whom Ron hated, maybe belonging to “Jones, the helicopter pilot.” A PFC Jones also appears in VN-0012/VN-0020.', photos: ['vn-0017', 'vn-0012', 'vn-0020', 'vn-0152'] },
+      { id: 'club-nights', q: '“How often did the shows come through the club? Anyone you can name in the crowd?”', photos: ['vn-0030', 'vn-0034'] },
+      { id: 'thompson', q: '“Was that your Thompson on your bunk? Did you ever have to use it?”', photos: ['vn-0082', 'vn-0084'] },
+      { id: 'red-ao-dai', q: '“Who is she? This one looks like it mattered.”', photos: ['vn-0154'] },
+      { id: 'camera-girl', q: '“She’s holding a camera — did she take any of these pictures?”', photos: ['vn-0151'] },
     ],
+  },
+];
+
+// Spent probes. Kept visible so nobody asks them again, and so the reasoning
+// survives. Full record: research/interviews/breakfast-questions.md.
+const answered: { q: string; a: string }[] = [
+  {
+    q: 'What was the camp on the mountain for?',
+    a: 'Cold, 2026-09-01: “The best place to have readios because it was high… could transmit 25 miles but with being on the mouttain and on the curvature of the Earth allow the signal to connect.” He named the mission and explained the physics himself. The order of battle, read hours earlier and never shown to him, prints the site’s official mission as “MISSION: RADIO RELAY.” The strongest corroboration of Larry’s account the archive has produced.',
+  },
+  {
+    q: 'Did a camp ever call you while it was being attacked?',
+    a: 'Spent 2026-09-01 by his volunteering it against a different question: the Đồng Xoài attack, ~16 defenders, “about 4000 enemy all at once at 4am,” the man on the other radio “dying from shot in the stomach,” and “Gagne was with me and died.” Tensions held open, not reconciled: a period memoir has that camp’s radio officer rescued alive, and the published battle opened on the night of 9 June 1965 against his 4 a.m.',
+  },
+  {
+    q: 'Who ran the camp?',
+    a: 'Cold, 2026-09-01: “Special Forces ran the camp. Captain Kennedy was in Charge of the camp most of the time. But I really worked for 1st Cavalry.” Upgrades Captain Kennedy from tentatively identified to, in Larry’s words, the man in charge. The 1st Cavalry line still sits against the division’s arrival in country around September 1965.',
+  },
+  {
+    q: 'What was the camp called?',
+    a: 'Cold, 2026-09-01: “They called the camp The Mountain. The guys in my Unit in Saigon called it the mountain.” Also confirms in passing that the Saigon end of the net was his own unit.',
+  },
+  {
+    q: 'Were there other boxing call signs on that net?',
+    a: 'Cold, 2026-09-01: “Body Jab 42, Right Cross, Upper Cut, Might have been a Body Jab 41, 43, Major Schartkoff was in charge of them.” This archive had predicted the siblings in writing on 2026-08-23 and Uppercut was on that list. Format difference recorded and not corrected: a period memoir gives “55 Body Jab”, number first. Residual, low priority: does he know which camps were 41 and 43?',
+  },
+  {
+    q: 'What did you call the men with the bombs around them?',
+    a: 'Answered 2026-08-23, and he said the word himself, unprompted: “They were called Sappers.” He added that there were sappers as young as ten. The probe is spent and the term is no longer withheld.',
+  },
+  {
+    q: 'Your service number, and your VA file number.',
+    a: 'Both answered Aug 2026 and recorded in the private archive — identifiers stay off the site. Two notes: the service number contains no 42, and on 2026-08-13 Larry said directly that the camp call sign is why he uses that number, which closes the “42” mystery. The recalled VA number differs by one digit from the Oct 2015 VA letter; the letter’s number goes on forms.',
+  },
+  {
+    q: 'Are there more slide boxes or prints we never scanned? Who developed them?',
+    a: 'Answered Aug 2026 (family): “I don’t think so. I scanned everything my father gave to me. The 8mm footage can be redone though.” A friend who worked at Longs Drugs did the developing for free. Note this is about what was scanned — whether photographs exist that were never handed over is a live tier-1 question.',
   },
 ];
 ---
@@ -201,6 +235,17 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
     Unfamiliar term in a question — a <em>van</em>, an <em>AOD</em>, a <em>hooch</em>? They're
     Larry's words, explained in the <a href={withBase('/glossary/')}>glossary</a>.
   </p>
+
+  <section class="ten-minutes">
+    <h2>If you only get ten minutes on the phone</h2>
+    <ol>
+      <li><strong>Gagne</strong> — was he French himself, and where did he die? <em>(blocks a search)</em></li>
+      <li><strong>Đồng Xoài</strong> — the mountain, or the Saigon van?</li>
+      <li><strong>The CBC crew</strong> — described cold, before anyone shows him a film.</li>
+      <li><strong>Camp Zama</strong> — did he see the Stars and Stripes piece in the ward?</li>
+      <li><strong>Was Kennedy always the one in charge?</strong> <em>(don't offer the other name)</em></li>
+    </ol>
+  </section>
 
   {tiers.map((tier) => (
     <section>
@@ -248,6 +293,22 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
     </p>
   </section>
 
+  <section class="answered">
+    <h2>Already answered — don't ask again</h2>
+    <p class="tier-intro">
+      Spent probes, kept visible so nobody re-asks them and so the reasoning survives. The
+      follow-ups they created are live questions in the tiers above.
+    </p>
+    <dl>
+      {answered.map((item) => (
+        <div class="answered-item">
+          <dt>{item.q}</dt>
+          <dd>{item.a}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
   <p class="record">
     Working copy with full notes: <span class="record">research/interviews/breakfast-questions.md</span>
     &middot; per-photo question lists: <span class="record">data/photos/ai-observations/</span>
@@ -275,6 +336,28 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
   .tier-intro {
     color: var(--ink-soft);
     margin-top: -0.4rem;
+  }
+
+  .ten-minutes {
+    border: 2px solid var(--olive);
+    background: var(--paper-deep);
+    padding: 1.2rem 1.4rem;
+    max-width: var(--measure);
+    margin: 2rem 0 2.5rem;
+  }
+
+  .ten-minutes h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  .ten-minutes ol {
+    margin: 0;
+    padding-left: 1.3rem;
+  }
+
+  .ten-minutes li + li {
+    margin-top: 0.4rem;
   }
 
   .questions {
@@ -369,6 +452,35 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
 
   .held p + p {
     margin-top: 0.8rem;
+  }
+
+  .answered {
+    max-width: var(--measure);
+    margin-top: 2.5rem;
+  }
+
+  .answered h2 {
+    font-size: 1.1rem;
+  }
+
+  .answered dl {
+    margin: 1.2rem 0 0;
+  }
+
+  .answered-item {
+    border-left: 3px solid var(--khaki);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .answered dt {
+    font-weight: 600;
+  }
+
+  .answered dd {
+    margin: 0.3rem 0 0;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
   }
 
   @media (max-width: 40rem) {
