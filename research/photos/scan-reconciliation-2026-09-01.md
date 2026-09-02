@@ -75,3 +75,75 @@ photographs are among the material that was never scanned.**
       family to run it.
 - [ ] If a second batch is found, it extends the `VN-####` sequence from VN-0158. **Existing
       IDs never move.**
+
+---
+
+## The NAS reconciliation — done the same day, and it closes
+
+The family NAS was reachable from the working machine, so the comparison the section above
+called for was run directly against
+`W:\Shared Photos\1964-1965 Vietnam War Photos` (`\192.168.50.174\homes\LeRoy\Photos`).
+
+### The four photo folders hold exactly 157 JPEGs
+
+| Folder | JPEGs |
+|---|---|
+| Group Photos with Unit | 29 |
+| Group Photos with Unit\Vietnam Ladies | 5 |
+| Landscape, Locations and villages | 102 |
+| Military Vehicles | 7 |
+| Native Vietnamese | 14 |
+| **Total** | **157** |
+
+### And they are the same 157, by name
+
+A filename-level comparison against `data/photos/originals/`:
+
+- NAS photo JPEGs: **157**
+- Repository scans: **157**
+- On the NAS but not in the repository: **0**
+- In the repository but not on the NAS: **0**
+
+Not merely equal counts — **identical sets**. With Google Photos also holding 157 in its
+album, three independent stores agree exactly.
+
+### Where the other files went
+
+The folder tree holds 168 files in total, which is where a count of "165 in the four Vietnam
+folders" comes from — the extra files are not photographs:
+
+| What | Count | Where |
+|---|---|---|
+| The 157 photographs | 157 | the four photo folders |
+| 8mm footage: the 2009 master capture, 4.54 GB | 1 | `Dad's Vietnam Footage` |
+| 8mm footage: 30-second vertical export clips | 5 | `Dad's Vietnam Footage` |
+| Private documents (a DD-214 PNG, two PDFs, a README) | 5 | `Private Archive` |
+
+The `Private Archive` files are personal documents and were **not opened** — only their
+names were listed. They are correctly outside this repository.
+
+### The footage is accounted for too
+
+The five small AVIs are all exactly 116,077,366 bytes but have **different MD5 hashes**, so
+they are five *distinct* 30-second clips rather than copies of one — same size because they
+share an encode. Their timestamps are all 10 November 2023, and their names ("-1 Vertical 30
+sec clip", "Vertical 30 sec clip Copy") mark them as derived exports, not source material.
+
+The archive's five video records `VF-0001`–`VF-0005` are chapters of the 2009 master, defined
+by segment and crop, and they run **0 to 1320.22 seconds** — the master's full twenty-two
+minutes, end to end, with no interior gap. There is no footage on the NAS that the archive
+does not account for.
+
+## Conclusion
+
+**Nothing is missing digitally, anywhere we can see.** The repository, the NAS and Google
+Photos hold the same 157 images; the footage is complete; the only other files are private
+documents that belong outside the repo.
+
+**Which sharpens Larry's statement rather than contradicting it.** If photographs are
+missing, they are **physical** — prints or slides that never reached the scanning lab in
+2019, and that are not on the NAS in any form. The place to look is the house, not a disk:
+another album, a box, an envelope, a folder that was never handed over, or pictures given
+away over sixty years. That question is in the interview guide, and only Larry can answer it.
+
+The CBC photographs he remembers fall on the same side of that line.
