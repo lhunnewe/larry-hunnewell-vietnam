@@ -3,9 +3,13 @@
   "aliases": [],
   "role": "U.S. Army captain",
   "status": "unresolved",
-  "summary": "First named tentatively — \"I think\" — at left in VN-0006, atop Núi Bà Đen: \"captain Kennedy from Boston.\" The 2026-08-15 session added a firm, personal detail: Kennedy carried a Nikon F, took the jungle-patrol photograph of Larry with the captured prisoner (VN-0023), sent his film to Hawaii for developing, and let Larry photograph the returned print — which is how VN-0023 entered Larry's collection.",
-  "researchNotes": "The VN-0023 attribution is stated without hedge and places Kennedy physically on patrol with Larry near the Special Forces camp — a stronger footing than the earlier 'I think' for VN-0006, though the two Kennedys have not been formally confirmed as the same man. A Boston captain around the Núi Bà Đen camp in 1965 becomes searchable once the unit context firms up; the Hawaii film-developing detail suggests personal connections or prior posting there.",
+  "summary": "First named tentatively — \"I think\" — at left in VN-0006, atop Núi Bà Đen: \"captain Kennedy from Boston.\" The 2026-08-15 session added a firm, personal detail: Kennedy carried a Nikon F, took the jungle-patrol photograph of Larry with the captured prisoner (VN-0023), sent his film to Hawaii for developing, and let Larry photograph the returned print — which is how VN-0023 entered Larry's collection. On 2026-09-01, asked cold who was in charge at the camp — with no name, rank or initial supplied — Larry answered: \"Special Forces ran the camp. Captain Kennedy was in Charge of the camp most of the time.\"",
+  "researchNotes": "The VN-0023 attribution is stated without hedge and places Kennedy physically on patrol with Larry near the Special Forces camp — a stronger footing than the earlier 'I think' for VN-0006, though the two Kennedys have not been formally confirmed as the same man. A Boston captain around the Núi Bà Đen camp in 1965 becomes searchable once the unit context firms up; the Hawaii film-developing detail suggests personal connections or prior posting there. Upgraded 2026-09-01 (data/recollections/2026-09-01-phone-who-ran-the-camp.json): he is no longer a captain seen around the camp but, in Larry's words, the man in charge of it most of the time. Held against that: a period order of battle lists a different officer as the detachment commander of record during the same months (research/people/nui-ba-den-roster-names.md). The difference is left standing rather than reconciled — a commander of record and the man experienced as running the place need not be the same, and rotations through this site were constant. The classification does not move on testimony alone.",
   "confidence": "unverified-recollection",
-  "relatedPlaces": ["nui-ba-den"],
-  "sources": []
+  "relatedPlaces": [
+    "nui-ba-den"
+  ],
+  "sources": [
+    "radix-sf-order-of-battle"
+  ]
 }

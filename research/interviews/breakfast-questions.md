@@ -242,6 +242,41 @@ answer would unlock. Full per-photo question lists live in the observation recor
   (Open only. A period source now shows the same call word in use at another camp with a
   different number, which is exactly why his own numbers matter — see the research file.)
 
+## From the 2026-09-01 phone answers — the follow-ups they created
+
+All four probes were answered cold on 2026-09-01
+(`2026-09-01-phone-answers.md`). These are the questions his answers opened.
+
+- [ ] **Gagne** — the most important, and the gentlest. He gave the name and spelled it,
+  checked more than once, and said Gagne "was with me and died, he was a french foreign
+  Legionair." What is still unknown is **when and where** Gagne died, and **whether he was a
+  U.S. soldier who had served in the Legion earlier, or a French or Vietnamese national
+  serving alongside**. Ask softly and in that order: *"You mentioned Gagne. Can you tell me
+  about him? Was he American? Where was he when he died?"* The nationality decides which
+  casualty records could name him, and until it is answered no search should be run — looking
+  in the wrong record set and finding nothing would produce a false negative that could stand
+  for years.
+- [ ] **Where were you sitting?** — his Đồng Xoài answer runs the mountain and the radio
+  together without saying which set he was at. Ask plainly: *"When Dong Xoai was hit and you
+  were on the radio — were you up on the mountain, or down at the radio van in Saigon?"* No
+  other detail supplied.
+- [ ] **The CBC pictures** — he says there are photographs of the CBC crew among his
+  own. The archive cannot find them, and a machine search of all 157 scans for film crews
+  found nothing (`research/photos/scan-reconciliation-2026-09-01.md`). Ask him to **describe
+  the pictures** rather than to find them: *"What do the CBC pictures show — where were you
+  all, and what were they doing?"* A described frame can be matched against the survey even
+  when the survey never labelled it as a film crew.
+- [ ] **The missing photographs** — he says photographs are missing, and the scan
+  reconciliation shows the archive holds every frame the lab was given, unbroken from E001 to
+  E157. So anything missing was never scanned. Ask: *"Were there other pictures that didn't
+  go in with the rest — another album, a box, a folder somewhere? Did you ever give any
+  away?"*
+- [ ] **Was Kennedy always the one in charge?** — he named Captain Kennedy as running the
+  camp most of the time; period records name a different officer as detachment commander in
+  the same window. Ask open, and **do not offer the other name**: *"Was there ever another
+  officer up there besides Captain Kennedy? Did whoever was in charge change while you were
+  there?"*
+
 ## Hold for the right moment (not breakfast material)
 
 - **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:

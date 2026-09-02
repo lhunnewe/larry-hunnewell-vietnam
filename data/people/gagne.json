@@ -1,0 +1,13 @@
+{
+  "name": "Gagne",
+  "aliases": [],
+  "role": "With Larry at the radio; Larry says a former French Foreign Legionnaire",
+  "status": "unresolved",
+  "summary": "Named by Larry for the first time on 2026-09-01, in a telephone answer about why the radio site stood on the mountain. Describing an attack on the Special Forces camp at Đồng Xoài, he said the man on the other radio was \"dying from shot in the stomach,\" and then: \"Gagne was with me and died, he was a french foreign Legionair.\" The spelling is Larry's own, given on the telephone and checked with him more than once. His words are held in data/recollections/2026-09-01-phone-why-the-mountain.json, where the fidelity travels with them.",
+  "researchNotes": "Entirely new to the archive; no prior mention in any record, comment or photograph caption. What is not yet known is when and where he died — the answer runs the Đồng Xoài attack and Larry's own position together without separating them — nor whether he was a U.S. soldier who had previously served in the French Foreign Legion (not unusual among men of that generation), or a French or Vietnamese national serving alongside American forces. That distinction decides which record sets could name him: a U.S. Army death would appear in the DCAS casualty file and on the Virtual Wall, while a foreign national would not. Both questions are in the interview guide, to be asked gently. Until they are answered no casualty search should be run on the name, because searching the wrong universe of records and finding nothing would produce a false negative.",
+  "confidence": "unverified-recollection",
+  "relatedPlaces": [
+    "nui-ba-den"
+  ],
+  "sources": []
+}
