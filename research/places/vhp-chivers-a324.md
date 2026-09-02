@@ -148,3 +148,57 @@ readings stay open**; the archive does not need to settle it to use the picture.
 - [ ] Watch the three-part oral history — still unwatched, and the captions suggest he may
       talk about air delivery to the camps.
 - [ ] Read **Presnall** (5th SFG air delivery) alongside it.
+
+---
+
+## The photograph itself, retrieved 2026-09-01
+
+Downloaded by hand from the Library of Congress item page after the automated attempts were
+rate-limited and then refused. Held at
+`research/reference-images/loc-vhp-chivers-nui-ba-den-1965-12-25.png` — **research use only,
+not part of Larry's collection, not published**; see that folder's README.
+
+### What it shows
+
+An oblique aerial view looking down onto the summit position, with the flat plain of Tây
+Ninh stretching away hazily far below and behind — the mountain's isolation is the first
+thing the picture communicates.
+
+On the summit itself:
+
+- **Half a dozen small structures**, several with corrugated-sheet roofs, one larger and
+  darker at the right, scattered rather than laid out.
+- **Massive rounded boulders** everywhere, some as large as the buildings, with the camp
+  fitted into the spaces between them.
+- **A pale square panel** on cleared ground with a figure standing in the middle of it, and
+  a line of men gathered at its left edge — a drop-zone marker.
+- **A collapsed parachute canopy** on the ground beside it.
+- **A column of smoke** rising just above the panel — a smoke grenade, the standard way to
+  show an aircrew the wind and the aiming point.
+
+The caption said "during air-drop." The picture shows the drop: the marker panel, the smoke,
+the canopy down, the men walking out to the bundle.
+
+### Set beside Larry's own photograph of the same summit
+
+**VN-0006** — his photograph of a rocket launcher being mounted on the mountain, taken by him
+around June 1965 — shows, from ground level: **corrugated-iron roofs on weathered plank
+huts**, **sandbag revetments**, **a large domed boulder** behind the men, the **flat plain
+visible past the edge** of the position, and **two men in green berets**.
+
+Every one of those elements is in the aerial: the sheet roofs, the boulders, the small
+scattered footprint, the plain far below. **Two photographs of the same place, taken by two
+men who never met, roughly six months apart** — one from inside the camp, one from an
+aircraft above it.
+
+**What is not claimed.** No individual building is matched between the two. The resolution,
+the angle and the six-month gap make that a judgement nobody should make from these images
+alone. What the comparison supports is narrower and still worth having: **the camp Larry
+describes and photographed is the camp a stranger photographed from the air**, and the two
+agree in character — a handful of tin-roofed huts and sandbag positions wedged among enormous
+boulders on an isolated peak.
+
+### And a caution that survives
+
+The boulders are plainly visible, but **no painted names are legible at this resolution**.
+The roster-rock question is still safe to ask, and still single-use.
