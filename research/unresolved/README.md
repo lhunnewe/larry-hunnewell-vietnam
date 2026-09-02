@@ -483,3 +483,22 @@ Open questions:
     THE OPENING: the VHP holds ~99,000 collections, is free, and is searchable by name, unit
     and keyword. A veteran of Núi Bà Đen, A-324, B-32 or the 5th SFG in Tây Ninh may have
     deposited photographs, letters or a recorded interview there. research/places/vhp-chivers-a324.md.*
+    *2026-09-01, same day — FIRST SWEEP RUN (research/people/vhp-sweep-2026-09-01.md). Method
+    that made it possible: the LOC website rate-limits and returns 503s within a few page
+    loads, but the **JSON API does not**, and every result carries a full `service_history`
+    block, so service dates can be filtered client-side without opening a single item page.
+    THE MOUNTAIN SEARCHES ARE COMPLETE: of the 12 collections mentioning Núi Bà Đen or Black
+    Virgin Mountain, **only one Special Forces veteran's service spans Larry's year** —
+    Chivers — and **ten of the twelve begin in 1966 or later**. That distribution is itself a
+    finding and matches everything else learned today: the mountain became a crowded American
+    place only after he left. FOUR COLLECTIONS WORTH READING, in his window and his world:
+    **Donald G. Massey** (104910, 1964–65, **Headquarters, 5th Special Forces** — the best
+    match in the sweep), Chivers (06049), **Stanley Norman Cooper** (57939, 1964–66, **69th
+    Signal Battalion at Tân Sơn Nhứt**) and **Robert W. Lehrfeld** (33959, 593rd Signal Co,
+    same battalion and base) — the last two bearing on the "Saigon center" question, #57.
+    ONE COLLISION TO CHECK, NOT ASSERTED: the RADIX order of battle lists a "FITZGIBBON,
+    DANIEL H CPT" and the VHP holds a Daniel H. Fitzgibbon, Captain, 5th SFG, 1960–69, with
+    two collections — same name, rank and group, but the roster entry is dated 1968 and names
+    no camp we care about. PARTIAL: `Tay Ninh` (142 hits), `Tan Son Nhut` (301) and `5th
+    Special Forces` (323) were each read only to the first 100. And nobody Larry names has
+    been searched for yet — that is a different query shape and the obvious next pass.*
