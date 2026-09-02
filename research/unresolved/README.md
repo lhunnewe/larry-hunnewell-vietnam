@@ -435,3 +435,33 @@ Open questions:
     and potentially documented (CIDG/SF after-action reports, agency records). Also from
     those comments: "70% of strikers were enemy" — matching documented CIDG infiltration
     concerns at Núi Bà Đen-era camps.
+18. **Gagne** (2026-09-01 phone call, issue #68) — a man Larry named for the first time
+    sixty-one years on, while answering a question about radio physics: "Gagne was with me
+    and died, he was a french foreign Legionair." The spelling is his own, given on the
+    telephone and checked with him more than once. He appears nowhere else in this archive.
+    Record: data/people/gagne.json; his words:
+    data/recollections/2026-09-01-phone-why-the-mountain.json.
+    *DELIBERATELY NOT SEARCHED. Two things must come from Larry first: when and where Gagne
+    died, and whether he was a U.S. soldier who had served in the Legion earlier or a French
+    or Vietnamese national serving alongside. That second answer decides which records could
+    name him at all — a U.S. death appears in DCAS and on the Virtual Wall, a foreign
+    national in neither. Searching the wrong universe and finding nothing would hand the
+    archive a false negative that could stand for years, which is the failure #61 took such
+    care to avoid. Both questions are in the interview guide, worded gently. This is a man he
+    watched die; whatever comes back goes to the family first.*
+19. **The CBC documentary** (2026-09-01 phone call, issue #69) — Larry says a Canadian
+    Broadcasting Corporation crew filmed on site for about two weeks, that they asked him
+    questions on camera, that they all ate together, and that photographs of the crew are
+    among his own — possibly around Christmas 1964, his least certain element. Filed as
+    paraphrase (data/recollections/2026-09-01-phone-cbc-crew.json) because the answer slips
+    into the third person.
+    *2026-09-01: the photograph claim does not hold against the archive as it stands. All 157
+    scans were searched through the vision survey for movie cameras, tripods, booms, press
+    and Western civilians in non-military dress; every apparent hit resolved to something
+    else. Set against the same day's scan reconciliation — the lab numbered every file
+    continuously E001–E157 with no gaps, so nothing was lost between lab and repo
+    (research/photos/scan-reconciliation-2026-09-01.md) — the simplest reading fitting both
+    facts is that the CBC photographs are among material that was never scanned. Larry
+    independently says photographs are missing. The traceable half is the film itself: CBC
+    output of that period is catalogued, and a documentary would be findable in a way almost
+    nothing else in this archive is.*
