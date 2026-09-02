@@ -151,3 +151,45 @@ thread, and one that could end in footage of Larry at twenty-one.
 5. **Captain Kennedy vs 1LT Lewis** — worth one gentle follow-up: was there ever an officer at
    the camp besides Kennedy, and did the man in charge change while he was there? Ask without
    offering the name Lewis.
+
+---
+
+## Two further answers from the same call, reported 2026-09-02
+
+Larry's son reported these afterwards by annotating the interview guide. **Third-person
+voice, so both are `paraphrase`** — his son's report of what Larry said, in his son's words.
+Recorded as `data/recollections/2026-09-01-phone-gagne-french.json` and
+`data/recollections/2026-09-01-phone-the-python.json`.
+
+### On Gagne
+
+> "He mentioned on the call the guy was french. He also mentioned that Legionaires couldn't
+> go home."
+
+**This narrows the Gagne question without closing it, and the distinction matters enough to
+write down.** The French Foreign Legion recruits foreigners by design — a Legionnaire could
+be German, Spanish, Algerian or American and still be a Legionnaire. So *"the guy was french"*
+may be reporting **the unit rather than the passport**, and nationality is still the open
+variable that decides which casualty records could ever name him.
+
+**#68 therefore stays closed to searching.** The rule has not changed: run a search against
+the wrong universe of records, find nothing, and the false negative can stand for years. The
+family has offered to ask him directly, and the interview guide and `/interview/` now carry
+the sharpened question: *"You mentioned Gagne, and that he was Foreign Legion. Was he French
+himself, or was he from somewhere else? And where was he when he died?"*
+
+The second half is the more interesting half. **"Legionnaires couldn't go home"** matches a
+real and documented feature of the Legion — enlistment under an assumed identity, and men
+with reasons not to return to their own countries. It is not a detail a person invents by
+accident. It is a lead about **who Gagne was**, not a fact about him.
+
+### On the python — VN-0153
+
+> "My father said they did and it tasted delicious."
+
+Answers the standing question on VN-0153 (*"Did they eat it?"*). Small, and worth having: it
+is the first thing anyone has established about that photograph, which is otherwise
+uncataloged with an unknown date.
+
+**The follow-up now in the guide is the one that could date it:** *"Who caught it, and where
+were you?"* Nothing else will.

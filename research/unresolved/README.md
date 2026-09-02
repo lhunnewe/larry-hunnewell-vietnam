@@ -468,6 +468,21 @@ Open questions:
     archive a false negative that could stand for years, which is the failure #61 took such
     care to avoid. Both questions are in the interview guide, worded gently. This is a man he
     watched die; whatever comes back goes to the family first.*
+    *2026-09-02, PARTIALLY ANSWERED and still closed to searching. Reported from the same
+    2026-09-01 call: "He mentioned on the call the guy was french. He also mentioned that
+    Legionaires couldn't go home" (paraphrase,
+    data/recollections/2026-09-01-phone-gagne-french.json). THIS DOES NOT SETTLE
+    NATIONALITY, and the reason is the whole point: the French Foreign Legion recruits
+    foreigners by design, so a Legionnaire could be German, Spanish, Algerian or American and
+    still be a Legionnaire — "french" may be reporting the unit rather than the passport. The
+    hold therefore stands exactly as written above. The family has offered to ask him
+    directly, and the sharpened question is now in the guide and on /interview/: "You
+    mentioned Gagne, and that he was Foreign Legion. Was he French himself, or was he from
+    somewhere else? And where was he when he died?" WORTH NOTING SEPARATELY: "Legionnaires
+    couldn't go home" matches a real and documented feature of the Legion — enlistment under
+    an assumed identity, and men with reasons not to return to their own countries. It is not
+    a detail invented by accident, and it is a lead about who Gagne was rather than a fact
+    about him.*
 19. **The CBC documentary** (2026-09-01 phone call, issue #69) — Larry says a Canadian
     Broadcasting Corporation crew filmed on site for about two weeks, that they asked him
     questions on camera, that they all ate together, and that photographs of the crew are

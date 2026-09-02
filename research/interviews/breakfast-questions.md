@@ -63,6 +63,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   VN-0003/VN-0007/VN-0008 — whom Larry "knew really well" but can't name.** Show VN-0005
   and the guitar photos together: "It'll come to you — who was the guitar player?" The
   Japan hospital friend (VN-0093) remains a separate unnamed man.
+
 - [~] **3. "What was on your pocket patch — and on the helicopters?"** — **ASKED 2026-08-23,
   PARTIAL NEGATIVE:** the helicopter half came back empty in his own words — "Doesn't recall
   what was on the helicopter." He offered instead that he had an Army-issue watch, and that
@@ -74,6 +75,7 @@ answer would unlock. Full per-photo question lists live in the observation recor
   art). "What did your unit paint on its aircraft? What did the patch say?"
   *Unlocks: the unit question (#10) — the remembered "118th AOD" vs. the 118th Aviation
   Company "Thunderbirds."*
+
 - [ ] **4. "Was the ops van at Thom Son Nuht?"** — Show **VN-0015** (him at the grid board)
   and **VN-0014** (the scheduling racks). "Where was this van? Is this the company
   headquarters you remember?"
@@ -166,7 +168,11 @@ answer would unlock. Full per-photo question lists live in the observation recor
   (VN-0012, VN-0020) and the helicopter-pilot Jones with the monkey?"
 - [ ] The club nights — VN-0030–0034: "How often did shows come through? Anyone you can name
   in the crowd?"
-- [ ] The python — VN-0153: "Did they eat it?"
+- [~] The python — VN-0153: **ANSWERED 2026-09-01** — *"My father said they did and it
+  tasted delicious."* (paraphrase; `data/recollections/2026-09-01-phone-the-python.json`)
+  Still open, and worth a minute: **"Who caught it, and where were you?"** VN-0153 is
+  uncataloged with no date, so anything he says about the day is the only thing that will
+  ever date it.
 - [ ] The Thompson — VN-0082, VN-0084: "Was that your gun on your bunk? Ever have to use it?"
 - [ ] The woman in the red áo dài — VN-0154: "Who is she? This one looks like it mattered."
 - [ ] The girl holding the camera — VN-0151: "Did she take any of these pictures?"
@@ -251,11 +257,22 @@ All four probes were answered cold on 2026-09-01
   checked more than once, and said Gagne "was with me and died, he was a french foreign
   Legionair." What is still unknown is **when and where** Gagne died, and **whether he was a
   U.S. soldier who had served in the Legion earlier, or a French or Vietnamese national
-  serving alongside**. Ask softly and in that order: *"You mentioned Gagne. Can you tell me
-  about him? Was he American? Where was he when he died?"* The nationality decides which
-  casualty records could name him, and until it is answered no search should be run — looking
-  in the wrong record set and finding nothing would produce a false negative that could stand
-  for years.
+  serving alongside**. Ask softly and in that order: *"You mentioned Gagne, and that he was
+  Foreign Legion. Was he French himself, or was he from somewhere else? And where was he when
+  he died?"* The nationality decides which casualty records could name him, and until it is
+  answered no search should be run — looking in the wrong record set and finding nothing would
+  produce a false negative that could stand for years.
+  - [~] **PARTIALLY ANSWERED on the same call** — *"He mentioned on the call the guy was
+    french. He also mentioned that Legionaires couldn't go home."* (paraphrase;
+    `data/recollections/2026-09-01-phone-gagne-french.json`)
+    **This does not close the question, and the reason matters: the French Foreign Legion
+    recruits foreigners by design.** A Legionnaire could be German, Spanish, Algerian or
+    American and still be a Legionnaire, so "french" may be reporting the unit rather than
+    the passport. The second half — *Legionnaires couldn't go home* — matches a real feature
+    of the Legion (service under an assumed identity, men with reasons not to return) and is
+    not something invented by accident; treat it as a lead about who Gagne was, not a fact.
+    **Still ask the sharpened question above. #68 stays closed to searching until he answers
+    it plainly.**
 - [ ] **Where were you sitting?** — his Đồng Xoài answer runs the mountain and the radio
   together without saying which set he was at. Ask plainly: *"When Dong Xoai was hit and you
   were on the radio — were you up on the mountain, or down at the radio van in Saigon?"* No
