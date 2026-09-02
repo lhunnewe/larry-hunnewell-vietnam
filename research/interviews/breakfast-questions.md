@@ -260,6 +260,12 @@ All four probes were answered cold on 2026-09-01
   together without saying which set he was at. Ask plainly: *"When Dong Xoai was hit and you
   were on the radio — were you up on the mountain, or down at the radio van in Saigon?"* No
   other detail supplied.
+- [ ] **The CBC crew, described before anything is shown** — a candidate film has been found
+  and is free to watch (`research/events/cbc-documentary-1964-65.md`), which makes the order
+  of operations matter. Ask first, show nothing: *"Tell me about the CBC people. How many
+  were there? What gear did they have? Was there a reporter as well as a cameraman? Did they
+  say where in Canada they were from? Where were you all when they filmed?"* A description
+  given cold can be matched against a film. A description given after watching one cannot.
 - [ ] **The CBC pictures** — he says there are photographs of the CBC crew among his
   own. The archive cannot find them, and a machine search of all 157 scans for film crews
   found nothing (`research/photos/scan-reconciliation-2026-09-01.md`). Ask him to **describe
