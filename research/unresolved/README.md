@@ -465,3 +465,21 @@ Open questions:
     independently says photographs are missing. The traceable half is the film itself: CBC
     output of that period is catalogued, and a documentary would be findable in a way almost
     nothing else in this archive is.*
+20. **The Veterans History Project** (2026-09-01, issue #70) — an avenue this archive has
+    never searched, found by accident while checking whether a 1968 Núi Bà Đen film had
+    escaped into commercial newsfilm libraries. The **Terona Chivers Collection**
+    (AFC/2001/001/6049, Library of Congress) belongs to a 5th Special Forces Group sergeant
+    who served 1962–69, and one of his photographs is catalogued: *"Aerial view of Nui Ba Den
+    (Black Lady) Mountain **A-324** during air-drop. [December 25, 1965]."*
+    *Why it matters: everything this archive knows about A-324 comes from compilations
+    written decades later by researchers reading records. This is a man who was there using
+    the designation himself, as the name of the place — the first evidence that A-324 was
+    what people on the ground called it and not merely a filing convention. The date is three
+    and a half months after Larry was medevaced: same detachment, same mountain, same year,
+    and the closest photograph in time and place to Larry's own found in anyone else's hands.
+    NOT claimed: any connection between Chivers and Larry, and his stomach wound is NOT the
+    man Larry describes dying on the radio at Đồng Xoài — different men, different events,
+    and Chivers survived. Recorded so a later session does not collide them.
+    THE OPENING: the VHP holds ~99,000 collections, is free, and is searchable by name, unit
+    and keyword. A veteran of Núi Bà Đen, A-324, B-32 or the 5th SFG in Tây Ninh may have
+    deposited photographs, letters or a recorded interview there. research/places/vhp-chivers-a324.md.*

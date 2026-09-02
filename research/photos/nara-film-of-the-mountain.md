@@ -169,6 +169,26 @@ A small human detail worth keeping: the 1969 release gives the summit as **3,200
 Larry, asked why the radios were up there, said the mountain "went up 2900 square feet" — his
 own phrasing, preserved. He was reaching for the height, and he was close.
 
+## Is the boulder film watchable? No — and here is the route
+
+Checked directly: `https://catalog.archives.gov/medialz/mopix/111/DD/111-dd-15-68.mp4`
+returns the site's HTML error page, not video. **Row 3 has no digitised film.** Only row 2
+does. To see the boulders you would have to:
+
+1. **View it on site**, free — National Archives at College Park, Motion Pictures Reference,
+   `mopix@nara.gov`, (301) 837-3540 / 3622. Call first; the catalog page itself warns the
+   archived copy status "may not represent the current availability."
+2. **Order a reproduction**, price unpublished — NARA's schedule has no per-foot film rate,
+   only a $17.25 per-item handling charge, so Motion Pictures Reference must quote it. Ask
+   in the same email as (1).
+3. **Try the commercial newsfilm archives.** The release sheet says the 66-foot print went to
+   **NBC-TV, CBS-TV, ABC-TV, UPI-Newsfilm, Telenews and Fox Movietone**, with a master to
+   Deluxe Laboratories, and that it was "available commercially to non-pool members." A film
+   distributed that widely in 1968 may survive in a stock-footage library, which would be
+   cheaper and faster than a NARA order. Searched once on 2026-09-01 without success; the
+   search terms to try are the release number **V-15-68** and the title phrase "Black Lady
+   Mountain."
+
 ## What it would take to see the film
 
 - **On site**, free: National Archives at College Park, Motion Pictures Reference,
