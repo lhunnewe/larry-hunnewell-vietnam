@@ -5,7 +5,21 @@ Found in the free catalog pass of 2026-09-01
 links are easy to find again.
 
 A search for `"Nui Ba Den"` on <https://catalog.archives.gov> returns **199 records, 175
-available online**, of which **9 are moving images and 4 of those are viewable now**.
+available online**, of which **9 are moving images and 4 carry a digitised object**.
+
+> **CORRECTION, 2026-09-01 — "available online" does not mean the film is watchable.**
+> This file first said these were "viewable now" and "free to watch." **That was wrong.**
+> Checked on the catalog: for these items the digitised object is the **Department of
+> Defense release sheet — the paper shot list** — not the moving image. The copy status on
+> the item pages reads:
+>
+> > Copy 1 · Preservation · **Film Reel** — National Archives at College Park, Motion
+> > Pictures, `mopix@nara.gov`, (301) 837-3540
+>
+> **The film itself is an undigitised preservation reel.** To see any of it you must either
+> view it on site at College Park or order a reproduction. Nobody can click and watch these.
+> The shot lists, however, are genuinely online, genuinely readable, and — as row 5 below
+> shows — genuinely informative.
 
 ## The films, with links
 
@@ -20,10 +34,60 @@ evidence about his service.
 | 2 | [CopterLifted Post Exchange (PX) Brightens Life for U.S. Army Troops on South Vietnam Mountain Top, Nui Ba Den Mountain, Vietnam](https://catalog.archives.gov/id/102044075) | 102044075 | 111-DD-125-69 | 1969 (from the local ID) | **No** | Army, RG 111, *Filmed News Releases*. The subject is a post exchange flown to the summit by helicopter — the single clearest measure of how far the mountain had changed from the half A-team Larry knew. |
 | 3 | [GIs Sit Atop Viet Cong on Black Lady Mountain, South Vietnam](https://catalog.archives.gov/id/102044806) | 102044806 | 111-DD-15-68 | 1968 (from the local ID) | **No** | Army, RG 111. 1968 is the year the summit signal facility was overrun (13 May 1968, 19 U.S. killed) — a different mountain and a different war from his. |
 | 4 | [Computer Keeps Track of U.S. Army Troops in Roadless Jungles of South Vietnam](https://catalog.archives.gov/id/102044054) | 102044054 | 111-DD-554-70 | 1970 (from the local ID) | **No** | Army, RG 111. Núi Bà Đen appears in the description rather than being the subject. |
-| 5 | [Seabees in Vietnam, **Ben Soi, Tay Ninh Province**, Vietnam](https://catalog.archives.gov/id/102046499) | 102046499 | **111-DD-109-65** | **1965** (from the local ID) | **YES** | Not the mountain, but **Bến Sỏi is Detachment A-321, under the same B-32 that ran Núi Bà Đen** — his province, his year, the neighbouring camp of the same B-detachment. The most interesting item found in this pass. **Not yet watched.** |
+| 5 | [Seabees in Vietnam, **Ben Soi, Tay Ninh Province**, Vietnam](https://catalog.archives.gov/id/102046499) | 102046499 | **111-DD-109-65** | **18 May 1965** (from the release sheet) | **YES** | Not the mountain, but **Bến Sỏi is Detachment A-321, under the same B-32 that ran Núi Bà Đen** — his province, his year, the neighbouring camp of the same B-detachment. Film is an undigitised reel; the **shot list is online and transcribed below**. 90 feet of 16mm colour, about 2½ minutes. |
 
 In the Army items (RG 111, *Filmed News Releases*) the `-65`, `-68`, `-69`, `-70` suffix in
 the local ID is the year, which is what dates rows 2–5.
+
+## What the shot list for row 5 actually says
+
+The digitised object on NAID 102046499 is a **Department of Defense, Office of News Services,
+Audio-Visual Division — Radio-TV-Newsfilm Branch** release sheet. Transcribed from the scan:
+
+> **Release No. 109-65 · Footage: 90' 16mm · May 18, 1965**
+> **SEABEES IN VIETNAM** (Official Army footage released by Department of Defense)
+>
+> "Ben Soi, Tay Ninh Province, near the Cambodian border of South Vietnam is the location of
+> an operational base of the Vietnamese forces. The base is about half the size of a football
+> field, but is being enlarged to twice its present size by **Seabees Technical Assistance
+> Team 1104**. The Seabees are being sponsored by **U.S. Army Special Forces who are advisors
+> to the Vietnamese forces.**"
+>
+> Sequences show: (a) Ben Soi Base, Tay Ninh Province; (b) Seabee operating bulldozer;
+> (c) Vietnamese guard on duty; (d) road grader in operation; (e) Seabee operating grader;
+> (f) hosing down road from water truck; (g) welding frames; (h) carrying pipes;
+> (i) wetting down concrete.
+>
+> Note to editors: 90' 16mm colour master handed out to **ABC-TV** for servicing TV and
+> theatrical pool members; colour master to be forwarded to the **Army Pictorial Center**,
+> Long Island City, New York, within 72 hours.
+
+**This is dated evidence in its own right, without the film.** It puts a documented
+American film crew at a **Detachment A-321 camp in Tây Ninh province on 18 May 1965** — under
+the same B-32 that ran Núi Bà Đen, four months before Larry was evacuated — and it names the
+Seabee unit (Technical Assistance Team 1104) and the Special Forces sponsorship. Ninety feet
+of 16mm is roughly two and a half minutes of film.
+
+It also establishes that **Army camera teams were filming B-32's camps in Larry's year**, and
+that their output went out through the Army Pictorial Center to the American networks. That
+matters for the CBC question (issue #69): a film crew at a Tây Ninh Special Forces camp in
+1965 was not unusual.
+
+## What it would take to see the film
+
+- **On site**, free: National Archives at College Park, Motion Pictures Reference,
+  `mopix@nara.gov`, (301) 837-3540 / 3622. Contact them before travelling — the catalog page
+  itself warns that the archived copy status "may not represent the current availability."
+- **By order**: NARA's published fee schedule does **not** list per-foot digitisation prices
+  for motion picture film. The only motion-picture line is a **$17.25 per item** handling
+  charge (Washington, DC). Film reproduction has to be quoted by Motion Pictures Reference
+  directly, so **ask for a written quote before committing** — the same rule already applied
+  to the Texas Tech film and to any NARA order over about $50 (`../records-request/nara-costs.md`).
+
+**Order of operations:** read the shot lists first — they are free and they say what is on
+each reel. Only pay to see a reel whose shot list shows something worth paying for. On this
+evidence, row 5's two and a half minutes of Seabees grading a road is interesting context,
+not a revelation, and would not be the first thing to spend money on.
 
 ## Are these his mountain?
 
@@ -71,8 +135,13 @@ it:
 
 ## Next
 
-- [ ] Watch all four, plus the 1965 Bến Sỏi Seabees film, and note what each actually shows.
-- [ ] Check whether the summit rocks with painted names appear in any of them **before**
-      the rock question is asked.
-- [ ] Search the same catalog series for `Ben Soi`, `Trang Sup` and `Suoi Da` — the other
-      B-32 camps — for more 1965-dated film.
+- [ ] **Read the other four shot lists.** They are online, free, and the row 5 sheet shows how
+      much a shot list carries on its own — date, unit, sponsorship, and a shot-by-shot
+      description. Do this before considering any order.
+- [ ] Search the *Filmed News Releases* series (RG 111) for other **1965** releases from Tây
+      Ninh province: `Ben Soi`, `Trang Sup`, `Suoi Da`, `Tay Ninh`. The release numbering
+      (`109-65`) suggests a numbered series worth walking.
+- [ ] Only then decide whether any reel is worth a quote from Motion Pictures Reference.
+- [ ] The screening caution below still stands, and now applies to shot lists too: if a shot
+      list describes painted names on the summit rocks, **ask Larry the rock question before
+      showing it to him**.
