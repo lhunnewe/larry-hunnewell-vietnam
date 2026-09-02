@@ -100,6 +100,13 @@ answer would unlock. Full per-photo question lists live in the observation recor
   Read them slowly: "Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
   says deceased. Willcut (VN-0133). ...Was Sergeant Lowry's name painted up there too?"
   *Unlocks: the Sgt. Lowry search (#12), the site's identity, and possibly the Dean story.*
+  **Upgraded 2026-09-01 — and now stricter.** Two of these names have been matched to real
+  Special Forces officers serving in Tây Ninh in 1964, in period records
+  (research/people/nui-ba-den-roster-names.md). **Do not say which two, or who they were, or
+  what they did, until he has answered cold.** The names came off his own photograph so
+  reading them to him is fine — telling him that one of them ran the place is not. If he
+  volunteers a rank, a job or a story against a name, that is independent corroboration; if
+  we supply it first, it is worthless.
 - [ ] **7. "Was that Bien Hoa burning?"** — Show **VN-0074** and **VN-0078**. "You photographed
   this fire twice from the air. What happened? Was it the big Bien Hoa explosion in May '65?"
   *Unlocks: a dateable documented event AND possibly the unit's home field (#10).*
@@ -219,6 +226,16 @@ answer would unlock. Full per-photo question lists live in the observation recor
   research/units/callsigns-and-units.md, 2026-09-01 — a period document confirms what the
   mountain station was for, and a specific call it took, and he may be the man who took it.
   Anything he volunteers unprompted is worth more than anything we could confirm for him.
+- [ ] **Who ran the camp** — ask before anything else about the mountain, and ask it plain:
+  *"Who was in charge up at that camp? Was there an officer? Do you remember his name, or
+  his rank?"* Period records name the officer commanding there during his months
+  (research/people/nui-ba-den-roster-names.md). **Supply nothing** — not a rank, not an
+  initial. Note he has already used one surname elsewhere for a different man, so if that
+  same name comes back here, ask him gently how he is sure which one he means.
+- [ ] **What the camp was for** — *"What was that camp on the mountain actually there for?
+  What was its job?"* A period document states the site's official mission in one phrase.
+  If he names it unprompted, that is his testimony matching an official record without any
+  help from us. Do not offer the phrase, and do not offer alternatives to choose from.
 - [ ] **The other boxing terms** — he has already told us the Special Forces call signs in
   his area were boxing terms, and that his camp was Body Jab 42. Ask open: *"Were there
   other call signs on that net you remember — other boxing words? What number were you?"*
