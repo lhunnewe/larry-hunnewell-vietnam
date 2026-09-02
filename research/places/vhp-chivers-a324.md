@@ -70,3 +70,81 @@ That is a free research avenue as large as the Texas Tech one, opened by acciden
 - [ ] Consider, and only as a family decision, whether to approach Chivers. He is a living
       private individual; VHP does not publish contact details, and nothing about him goes
       into this repository beyond what the Library of Congress already publishes.
+
+---
+
+## All eleven captions, read 2026-09-01 (supplied by Larry's son from the LOC item page)
+
+1. Charlie Company, 3rd Battalion, 506th Airborne Infantry, 101st Airborne Division.
+   Vietnam. **[October 2, 1967]**
+2. Terona Chivers, grenadier for 1st Squad, 3rd Platoon **[January 1968]**
+3. Terona Chivers, grenadier for 1st Squad, 3rd Platoon **[January 1968]**
+4. Sgt. Daniel McLaughlin and Specialist 5 Terona Chivers **affix USO stickers to a load** of …
+5. **Aerial view of Nui Ba Den (Black Lady) Mountain A-324 during air-drop. [December 25, 1965]**
+6. Terona Chivers and a member of the **Mobile Strike Force** nicknamed "Pop No. 2."
+7. [L to R] Mobile Strike Force troop members "Reader Man," Terona Chivers, and a man …
+8. **"Two Gun Charlie," Rigger and Warehouseman Extraordinaire**, he walked around with two .45's.
+9. [L to R] "Reader Man," who was always reading as he wanted to come to …
+10. Chê'n or "Pop No. 1" had lived in Hanoi during the French occupation. He worked …
+11. Terona Chivers about to jump the "Banana Chopper" **at the Ft. Lee, Virginia drop zone**.
+
+## What they establish, and what they deflate
+
+**First, the honest correction.** This file and issue #71 ranked Chivers as the collection
+with the **highest certainty of payoff**. That was right in kind and wrong in scale: **only
+one of the eleven photographs touches Núi Bà Đen.** The rest are October 1967 to January 1968
+with the 101st Airborne, plus Mobile Strike Force and rigger portraits. It is one
+photograph, not a trove, and the reading priority should move accordingly — see below.
+
+**Second, that one photograph is more informative than its caption alone.** Read the others
+together and Chivers' job comes into focus:
+
+- "Rigger and Warehouseman Extraordinaire"
+- "affix USO stickers to **a load**"
+- "about to jump the 'Banana Chopper' at the **Ft. Lee, Virginia** drop zone"
+- and the mountain photograph itself, taken **"during air-drop"**
+
+**Fort Lee is the Army Quartermaster School — the home of aerial delivery and parachute
+rigging.** Chivers was in the **air-delivery** world, which is also why the Library of
+Congress lists him under both the 101st Airborne and the **5th Special Forces Group**: 5th
+Group had its own air delivery detachments, rigging and dropping supplies to camps that could
+not be reached any other way.
+
+So the photograph is almost certainly taken **from the aircraft, during a supply drop onto
+the mountain, on Christmas Day 1965.**
+
+### Why that matters for Larry
+
+It independently documents **how the summit was supplied in his year** — by air-drop — and
+dates one drop precisely. Larry's own account of the mountain describes a place reachable
+only by air; every later source agrees (the 1969 newsfilm release describes a post exchange
+flown up beneath a Chinook). This is the same fact, three months after he left, photographed.
+
+It also connects to a name already in the sweep: **Charles Laughlin Presnall**
+([88547](https://www.loc.gov/item/afc2001001.88547/)) — 109th Air Delivery Company, 383rd Air
+Delivery Detachment, **5th Special Forces Group**, 1962–82. The same world, and now worth
+reading.
+
+### The rock question is safe
+
+**No caption mentions boulders, painted names, or the summit rocks.** The caution attached to
+this collection — that showing it to Larry might spoil the single-use roster-rock probe — does
+**not** apply to the photographs. That question remains askable.
+
+### One tension, recorded and not resolved
+
+Every other Vietnam photograph here is **1967–68** with the 101st Airborne, but the mountain
+photograph is dated **December 1965**. His service spans 1962–69, so two tours are entirely
+possible and the 5th Special Forces Group listing supports an earlier one. The alternative is
+that the 1965 date is the donor's later attribution rather than a contemporary note. **Both
+readings stay open**; the archive does not need to settle it to use the picture.
+
+## Still to do
+
+- [ ] **Download the photograph itself** (item page → the fifth image → Download → JPEG). The
+      Library of Congress rate-limited and then 403'd the automated attempts, so this needs a
+      human click. An aerial view of Núi Bà Đen from December 1965 is worth having in the
+      research folder, cited to the Library of Congress rather than copied into `data/`.
+- [ ] Watch the three-part oral history — still unwatched, and the captions suggest he may
+      talk about air delivery to the camps.
+- [ ] Read **Presnall** (5th SFG air delivery) alongside it.
