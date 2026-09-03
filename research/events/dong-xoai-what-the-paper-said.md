@@ -62,7 +62,7 @@ this archive believes Larry was attached to or worked for.
 | **When** | "4am in the morning" | "a **pre-dawn** assault Thursday" |
 | **How many attackers** | "about 4000" | "an estimated 1,500 to 2,000" |
 | **How many defenders** | "about 16 people, special forces team" | Seabees, Special Forces and government troops |
-| **Air support** | "no aircraft up to help… everything was grounded" | two helicopters **shot down**; the relief force flown in and "torn apart by heavy enemy fire" |
+| **Air support** | "no aircraft up to help… everything was grounded" | missions flown "almost continuously", but **"low cloud ceiling hampered the air attacks"**; two helicopters shot down; an entire heliborne relief force **"wiped out before it could reach survivors"** |
 
 ### The timing is right, and it is remarkable that it is
 
@@ -77,24 +77,42 @@ Four thousand against fifteen hundred to two thousand. Not a wild invention — 
 of magnitude, and the sort of figure that swells a little every time a story is told. It is
 recorded as a difference. **His words are not edited.**
 
-### The air support is where his account and the record part
+### The air support — and here a correction, made the same day
 
-This is the one that matters, and it repays reading slowly.
+**This section said something different when it was first written, and it was wrong.** It was
+written from the front page alone, and concluded that Larry's weather explanation was
+contradicted — that he attributed to weather what the paper attributed to enemy fire. Reading the
+continuation on page 13 of the same issue shows that was too harsh.
 
-He says nothing could fly. The paper says aircraft flew, two were shot down with eight men
-aboard missing, and a relief force went in by helicopter and was destroyed trying.
+What page 13 actually says:
 
-**But notice what he got right inside the thing he got wrong.** What he remembers is that
-**help did not get through** — and it did not. Men went in and were killed doing it. What is
-wrong is not the outcome. It is the **reason** he gives for the outcome: he remembers weather,
-the record says enemy fire.
+> Air support missions were flown almost continuously against the Viet Cong forces, but a U.S.
+> spokesman said **low cloud ceiling hampered the air attacks.**
 
-That is one of the most ordinary things memory does. The outcome is what you live through and
-keep. The explanation is assembled afterwards, out of whatever makes sense of it, and then it
-hardens and gets told alongside the part you actually witnessed, in the same voice, with the
-same confidence.
+> The sources said an **entire government heliborne relief force sent to Dong Xoai Thursday
+> morning was wiped out before it could reach survivors** holed up at the compound.
 
----
+So the record contains **both** things: aircraft flew, and **weather hampered them**. Larry's
+
+> There was no aircraft up to help the guys at Dong Xoai at all, everything was grounded
+
+is an **overstatement** — missions were flown almost continuously, and two helicopters were shot
+down doing it. But the element he reaches for is **in the contemporary record**, reported by a
+U.S. spokesman on the day. A low cloud ceiling over Đồng Xoài is not something he invented
+afterwards to explain a failure.
+
+And the failure itself he has exactly right. **An entire heliborne relief force was wiped out
+before it reached the compound.** Men went to help and did not get there. That is what he
+remembers, and it is what happened.
+
+**What remains a genuine difference** is smaller than it looked this morning: he says nothing
+could fly; the paper says things flew but the weather was against them and the enemy fire was
+murderous. That is a difference of degree — the kind of hardening a story takes on across sixty
+years — rather than a wrong explanation bolted onto a right outcome.
+
+*(The one causal claim he makes that the record does not support is the further step:
+"That's why the Vietcong attacked because they knew none of the helicopters could fly." Nothing
+in the reporting speaks to VC intent, and that is an inference of his, not an observation.)*
 
 ## Why this makes his testimony more useful, not less
 
@@ -110,8 +128,10 @@ be leaned on:
   said it.
 - **Counts and scales: inflated.** Four thousand for two thousand. Expect roughly double, and
   never build on his figures alone.
-- **Causes and explanations: reconstructions.** Not lies, not confusion — the ordinary human
-  work of making a remembered event make sense. **They must never be treated as things he saw.**
+- **Causes and explanations: mixed, and worth checking rather than discounting.** His weather
+  explanation turned out to be *in the record* once the continuation page was read. What was not
+  in the record was the further step he takes from it — that the enemy attacked *because* of the
+  weather. **Check them; do not assume they are wrong, and do not assume they are observations.**
 
 ### Where that applies right now
 

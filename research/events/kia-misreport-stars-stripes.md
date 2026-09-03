@@ -730,3 +730,47 @@ His account stands as given; the differences live here.
 - Vietnamese rangers who stormed the compound lost **30 killed and 15 wounded**.
 - **Two helicopters shot down with eight Americans missing** — worth noting beside issue #89,
   though that wreck is on Núi Bà Đen, not at Đồng Xoài.
+
+## 12 June p.13, the continuation — WHICH CORRECTS THIS MORNING'S CONCLUSION
+
+The front page was read first and the conclusion drawn from it — that Larry's weather
+explanation was contradicted — **was wrong, and is withdrawn.** The continuation on p.13 of the
+same issue says:
+
+> Air support missions were flown almost continuously against the Viet Cong forces, but a U.S.
+> spokesman said **low cloud ceiling hampered the air attacks.**
+
+> The sources said an **entire government heliborne relief force sent to Dong Xoai Thursday
+> morning was wiped out before it could reach survivors** holed up at the compound.
+
+**The weather is in the contemporary record**, attributed to a U.S. spokesman on the day. Larry's
+"everything was grounded" is an overstatement — missions flew almost continuously — but he did
+not invent the element. And the outcome he reports, that help did not reach the camp, is exactly
+what happened: an entire heliborne relief force was destroyed before it got there.
+
+**What survives as a genuine difference is only the further step**: *"That's why the Vietcong
+attacked because they knew none of the helicopters could fly."* Nothing in the reporting speaks
+to VC intent. That is his inference.
+
+**Method lesson, and it is the expensive kind.** A conclusion about a man's memory was drawn
+from a front page and published to a family-facing document within the hour; the continuation
+page overturned the harsher half of it. **Read the continuation before drawing the conclusion.**
+`dong-xoai-what-the-paper-said.md` has been corrected in place, with the correction shown rather
+than quietly folded in.
+
+Also on p.13, and unrelated: the government forces were **"outnumbered about five-to-one"** when
+the attack opened, and three Americans were wounded in daylight attempts to retake the town — an
+Air Force B-57 pilot, a helicopter pilot, and an American with the ground relief troops.
+
+### A dated Saigon explosion, for issue #91
+
+Same page, separate item: **"3 Dead, 12 Hurt In Saigon Blast"** — SAIGON (AP). Three killed and
+about a dozen wounded **Thursday 10 June 1965** by an explosion at **a busy Saigon traffic
+circle**, from a mine-like device believed intended for a nearby police precinct station. One of
+the dead was a policeman, the wounded were also policemen, and the other two dead were an elderly
+couple.
+
+**Probably not Larry's night** — he describes a bar beside the Palace, a man with a throat wound,
+and American casualties, where this is a traffic circle with Vietnamese police and civilian dead.
+**Logged as a dated Saigon explosion inside his tour**, because the list of those is what #91
+needs and this is one more entry on it.
