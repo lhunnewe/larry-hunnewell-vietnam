@@ -386,3 +386,66 @@ Three consequences, and the third is the one to keep:
    instance of these releases being wrong about a man's fate.** The machinery Larry says put his
    name in the KIA list demonstrably made exactly this class of error, repeatedly, in the exact
    months he was reading the paper. That conclusion no longer depends on finding his name.
+
+## The known unread queue is now CLEARED — and the window has moved
+
+### Nov 19 — finished, NEGATIVE
+
+"DOD Names Dead, Missing", p.4. The August session had read four names and lost the rest to a
+cut-off. Complete now: **killed** — S/Sgt Lawrence Covoy (Los Angeles), SP4 Allie W. Campbell,
+PFC Rafael Santiago-Cruz, Capt Paul T. McClellan; **dead of wounds** — SP4 Ralph A. Copeland,
+PFC Floyd D. Simmons; **1st Lt Richard L. Gandy**, Clovis N.M., who *"was previously listed as
+missing"*; Capt William N. Miller, non-hostile; and five missing (Jenkins, McCleary, Moore,
+Adams, Dusing), hometowns withheld. **No Hunnewell.** The one Los Angeles man is Covoy, not him.
+
+### Nov 24 — STRUCK, and it changes the search
+
+"85 in Day" is a **totals story, not a name list** — the largest single-day toll to that point.
+With it, **every known unread list is now resolved.**
+
+But it states the paper's own rule, which nobody here had:
+
+> **identifications usually run three to five days behind the event, to permit notification of kin**
+
+### The target window, re-derived from Larry's own chain
+
+Working his medevac backwards from an early-September arrival at Camp Zama — minus 4–5 days at
+Subic Bay, minus about 3 in Cholon, minus a day for the jaundice diagnosis — puts **his last day
+on the mountain about 25–27 August 1965.** Identification 3–5 days later, printed in Tokyo a day
+or two after that, lands the item on **30 August – 3 September 1965.**
+
+**That is earlier than any window this archive has used.** The August table began at Sep 2, and
+Sep 2 is read and negative. **Aug 30, Aug 31 and Sep 3 have never been examined.**
+
+It also fits his own account better than the old mid-September window: he says he saw the paper
+within three or four days of reaching Camp Zama, and separately that he "was told of it… and
+then saw it or went looking for it," which allows a back issue.
+
+### Checked and negative in the new window
+
+- **Sep 1, p.4** — US domestic news (Watts aftermath, desegregation, the Beatles). No list.
+- **Sep 1, p.17** — the page an exact-date search pointed to. Pacific/Asia news: Taiwan typhoon,
+  Manila, Chen's funeral rites. **No casualty list.**
+
+### Method note that will save the next session real time
+
+**Page 4 is the war-news page in November but NOT in early September.** In Sept–Oct the paper
+ran multiple zoned sections and the Vietnam page moves (Sep 2 → p32, Sep 10 → p19, Sep 1 → p17).
+**Do not guess the page.** Run an exact-date search (`?ndt=ed&py=1965&pm=M&pd=D`) on a war-news
+term and read `/page-N/` out of the result's href, as was done for Sep 1 and Sep 24.
+
+### Also noted, and possibly important
+
+Pacific S&S announced on **1 Sept 1965** a free **"Three-Star Edition"** for troops in Vietnam
+and elements of the Seventh Fleet. **That is a different edition from the one digitised here.**
+If casualty content differed between editions, an item Larry saw may not be in this archive at
+all. Worth a question to the family about which paper he remembers, and worth remembering
+before any negative here is called final.
+
+### Still to do
+
+- [ ] **Aug 30, Aug 31, Sep 3** — the re-derived window, page located by exact-date search first.
+- [ ] The Oct 12–13 target (from the European item of Tue 12 Oct).
+- [ ] The rest of the Sep 12 – Oct 24 gap.
+- [ ] **Dec 1965 – Feb 1966 for a correction** — promoted, no longer the long shot: these lists
+      demonstrably revised themselves (Knowlton, Macklin, Gandy all moved between columns).
