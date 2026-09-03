@@ -138,3 +138,96 @@ visually. That is what the table above tracks.
   1964–65 (issues #57/#10), "Totosz" (#58).
 - No repo data/ changes; research-only. Unresolved README item 1 not yet updated
   (do that when the sweep concludes). Issue #9 not yet commented.
+
+---
+
+# Resume plan, written 2026-09-03 — read this before spending subscription time
+
+**Access is the constraint.** The NewspaperArchive Stars and Stripes subscription may lapse
+within the month, so this session is ordered by *what is only possible with access*, not by what
+is most interesting. Everything on the AAD/Coffelt side (#61, #10) is free and can wait; none of
+this can.
+
+## A finding from 2026-09-03 that re-orders the queue
+
+Cross-checking the **Sep 10, 1965 list already read** against the VHPA/DIA loss record for
+118 AML UH-1B **62-02046** (shot down near Ben Cat, 2 Sept 1965) produces an exact four-for-four
+match:
+
+| S&S, Sep 10 1965 p.19 | VHPA/DIA crew, 2 Sep 1965 |
+|---|---|
+| WO Dale L. Tooloose (Overland, Mo.) | P WO1 TOOLOOSE DALE LEROY |
+| 2d Lt. Douglas L. Foley (Ridgeway, Va.) | P 2LT FOLEY DOUGLAS LEE |
+| PFC George A. Zelinko (Chicago) | CE PFC ZELINKO GEORGE ALLEN |
+| Cpl. David E. Gill (St. Louis) | G CPL GILL DAVID EUGENE |
+
+**Two things follow, and both matter.**
+
+**1. Lag calibration: 8 days.** The event was 2 September; the names printed 10 September. So
+for any event, look **roughly 7–10 days later** in Pacific S&S. Larry's last day on the mountain
+was at the very end of August 1965, and he says he saw his name within three or four days of
+reaching Camp Zama. **That points at 5–20 September** — and the only two lists read in that
+span are Sep 2 and Sep 10. **The Sep 12 – Oct 1 gap is therefore the highest-value unread
+territory in this whole search, ahead of the November items.** The old resume list had it second.
+
+**2. The DoD releases demonstrably contained category errors.** S&S prints these four as
+**"Non-hostile Army dead."** The DIA loss record has the aircraft **shot down by 12.7mm
+automatic weapons fire in a combat incident**, burned and destroyed. The wire item is simply
+wrong about how four men died, eight days after it happened. **A release process that
+miscategorises can also misname** — which is the first evidence from inside this source that the
+error Larry describes is the kind of error this machinery actually made. Worth citing in the
+issue whatever else the sweep finds.
+
+*(A second, independent instance is already in the log above: Lt (jg) Porter A. Halyburton,
+printed among the dead on Oct 25, was alive and a POW.)*
+
+## Order of work
+
+**FIRST — the Sep 12 to Oct 1 gap.** Roughly 4–5 DoD release items are unfound here and the lag
+calibration puts Larry's window squarely inside it. Browse the war-news page of each issue
+rather than relying on keyword probes: **keyword absence proves nothing** in this archive, as
+the Ia Drang calibration in the log above established. Find the items, then read them visually.
+
+**SECOND — the nine known lists, all page 4 except Nov 13 (p.19).** imageIDs already extracted,
+so no hunting is needed:
+
+| Date 1965 | Page | imageID |
+|---|---|---|
+| Oct 29 | 4 | 133215043 |
+| Nov 4 | 4 | 133215173 |
+| Nov 5 | 4 | 133215192 |
+| Nov 12 | 4 | 133215338 |
+| Nov 13 | 19 | 141724611 |
+| Nov 15 | 4 | 133215410 |
+| Nov 19 | 4 | 133215485 *(partially read — finish it)* |
+| Nov 20 | 4 | 133215505 |
+| Nov 24 | 4 | 133215593 |
+
+**THIRD — the secondary sweeps, which are cheap and only possible with access.** Do these even
+if the primary search fails, because each one closes or advances a different open question:
+
+- `"Nui Ba Den"` 1964–65 — ledger #10/#21, and nothing in this archive has ever searched period
+  press for the mountain.
+- `"118th Aviation"` and `"145th Aviation"` 1964–65 — issue #10. **Now known to be productive**:
+  the 118th's casualties did reach these pages.
+- `Totosz` — issue #58.
+- **`Gagne`** — issue #68. New since the last session and not in the old resume list.
+
+**FOURTH, only if time remains —** extend to Dec 1965 – Feb 1966 for a correction item. Larry
+went to the chaplain to say he was alive; whether that produced a printed correction is unknown
+and always was the longest shot here.
+
+## Method reminders (full detail in "Method notes" above)
+
+- Visit the viewer page first so the jp2 caches, then load the IIP crop URL **as an injected
+  `<img>` inside the viewer page**. Direct navigation to the fcgi URL triggers a Cloudflare
+  human-check — **leave that to Leroy, do not click it.**
+- Date-range URLs fail silently across a year boundary; split at Dec 31.
+- Read every list **visually**. Agate-type name columns OCR badly and keyword search will lie to
+  you.
+
+## What to record
+
+Whatever happens, the outcome is a result. Update ledger #1, comment issue #9, and mark each
+list read in the table above with its date — so that if access does lapse, the next person knows
+exactly which pages were seen and which were not.
