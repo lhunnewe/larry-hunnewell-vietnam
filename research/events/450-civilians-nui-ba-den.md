@@ -435,3 +435,56 @@ within about a week of Larry leaving the mountain, and stayed that way. Appendix
 That strengthens the reading already reached from the press: **the mass grave Larry heard about
 after the war has a plausible origin in the bombing that began just after he left**, and none in
 anything that happened while he was there. Two separate things, joined later in the telling.
+
+## CIA's own words on burial mounds — 2026-09-03, and this is the most relevant thing found
+
+Reading further into the parent document (**Annex D, "Assessment of the Air Effort in Vietnam and
+Laos", CIA-RDP78S02149R000100060003-1**, published 3 December 1965) produced a passage that bears
+directly on the mass-grave story, and which nobody here had seen:
+
+> …review of post-strike photography covering certain areas struck shows **large numbers of new
+> burial mounds close to impact areas.** Based on information to date, the only conclusion which
+> could be reached is that there has been no significantly large number of casualties directly
+> attributed to the B-52 missions as a whole, **granting that perhaps hundreds have been killed.**
+
+And on why nobody could count them:
+
+> As in normal ground operations in SVN, a meaningful casualty count necessitates denying the
+> Viet Cong the opportunity to dispose of their dead, a situation not easily attained…
+
+### Why this matters to Larry's question
+
+The archive has never had an explanation for the thing Larry heard **after the war** — that 450
+people were buried at the mountain's base. It has never fitted the day he was accused, and three
+independent record sets are silent on any mass-casualty event in Tây Ninh during his tour.
+
+**Here is a documented mechanism, in the assessing agency's own words:**
+
+1. **Arc Light strikes produced visible mass burials.** Not rumour — post-strike aerial
+   photography showed "large numbers of new burial mounds close to impact areas."
+2. **The dead were never counted**, by design and by circumstance. CIA could say only that
+   "perhaps hundreds" had been killed across the whole programme.
+3. **The country north-west of Saigon, including Tây Ninh, became sustained Arc Light territory
+   from 2 September 1965** — about a week after Larry left the mountain — and 54 percent of all
+   Arc Light missions to 15 November struck within fifty miles of Saigon.
+
+So a story of mass graves at the foot of Núi Bà Đen is **exactly what that bombing would be
+expected to generate**, and the bombing began just after he was gone.
+
+**None of this proves the story he heard refers to Arc Light**, and it must not be written up as
+though it does. What it does is remove the last reason to treat the mass grave and the accusation
+as one event. They can now be held apart with a documented reason: the grave has a plausible
+cause that postdates him, and the accusation has a documented origin in Sgt Lowery's words an
+hour after Larry radioed a report of **enemy troops digging in**.
+
+### Scope of the CIA search, for the record
+
+- **Tab A, "ARC LIGHT Strikes by Area Grouping"** (the per-mission target areas referenced in
+  Appendix IV) is **not separately digitised in CREST**. Only two documents contain the phrase and
+  neither is the table. **The grid-square assignments already extracted from Appendix IV are as
+  precise as this source goes** — which is enough, since XT is empty across Larry's window.
+- **`"Nui Ba Den"` in CREST returns 19 documents**, and they are overwhelmingly **1975** — the
+  Developments in Indochina series, Presidential Daily Briefs of January and March 1975, Weekly
+  Summaries — covering the fall of the mountain at the war's end, not 1965. Two are worth a later
+  look for period content: a **Central Intelligence Bulletin** and **"The Military Situation in
+  South Vietnam"**. Unread; low priority.
