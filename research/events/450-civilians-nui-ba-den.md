@@ -370,3 +370,68 @@ later.** Nothing found since has contradicted that reading, and a good deal now 
 **The mass grave he heard about after the war remains a separate thread** — and the late-1965
 Arc Light strikes northeast of Tây Ninh City (the 33rd of the war on 27 Sept, the 35th on
 2 Oct) are a better candidate origin for it than anything that happened while he was there.
+
+## The Arc Light check, run 2026-09-03 — THE RULE-OUT HOLDS, and is now much sharper
+
+The 29 Sept 1965 press item named the B-52 raid as **"the 33rd strike of the war"**, which made
+it identifiable rather than approximate. That was used to test this archive's own 2026-08-13
+conclusion. **Access note: the CIA reading room blocks curl and WebFetch — everything returns
+the FOIA landing page — and needs a real browser. The old `/readingroom/docs/*.pdf` paths are
+dead; search the reading room and open the `/readingroom/document/...` page, which carries the
+full OCR'd text.**
+
+### Mission 33 identified
+
+From the **Mission Summary, TAB B** (CIA-RDP78S02149R000100060006-8), which lists all 74 missions
+by number, nickname and date:
+
+> **33 FAR STAR 26 Sep** *(Saigon time; the Figure 1 strike map dates it 27 Sep)*
+
+The newspaper's "33rd strike of the war," reported on the Monday, **matches the mission list
+exactly.** The press item is sound and the numbering is real.
+
+### And the answer for Larry's window
+
+**Appendix IV** (CIA-RDP78S02149R000100060013-0) gives every mission a **UTM grid square**. Tây
+Ninh Province — and Núi Bà Đen — lie in **grid square XT**; Figure 2 is a detail map of XT naming
+Phu Khuong, Chau Thanh, Cu Chi and Duc Hue.
+
+The missions flown during Larry's last days on the mountain were **not in XT at all**:
+
+| Mission | Date | Grid square |
+|---|---|---|
+| GEAR TRAIN I | 23 Aug | **BS** (Quảng Ngãi region) |
+| **HOSE REEL I** | **26 Aug** | **YT** |
+| **HOSE REEL II** | **27 Aug** | **YT** |
+| GEAR TRAIN II | 28 Aug | **BS** |
+| HOSE REEL III | 28 Aug | YT |
+| GEAR TRAIN III / HOSE REEL IV | 31 Aug | BS / YT |
+
+**And in grid square XT itself there was no Arc Light strike between CAR PARK II on 21 July and
+THIRD BASE on 2 September 1965.** Larry's last day — about 25–27 August — falls squarely inside
+that seven-week gap.
+
+> **The 2026-08-13 rule-out is confirmed, and by a tighter argument than the one originally
+> given.** It no longer rests on reading a map for absence; it rests on a grid-square assignment
+> for every mission in the period, and the Tây Ninh square is empty across his entire window.
+
+### One correction to our own source record
+
+The note on `data/sources/cia-arclight-1965` said *"the strikes near Tây Ninh (CAT PAW I–VI, FINE
+SAND) came 28 October–14 November 1965."* **That list is incomplete.** XT strikes resumed on
+**2 September** (THIRD BASE) and ran heavily through the autumn — RIGHT GUARD, FAST MAIL, LONG
+ROPE, NEW SONG I and II, FAR STAR, OIL WELL, STRONG POINT I and II, HIGH TIDE I and II, MATCH TIP
+I and II, WHITE STONE, OVAL TRACK, then FINE SAND, BIG BEN, FAST RACE and CAT PAW.
+
+**The conclusion is unaffected — every one of those is after Larry had gone** — but the record
+should not have implied Tây Ninh was quiet until late October. Corrected in the source note.
+
+### What it adds to the question
+
+The country north-west of Saigon **became sustained Arc Light territory from 2 September 1965**,
+within about a week of Larry leaving the mountain, and stayed that way. Appendix IV notes that
+**54 percent of all Arc Light missions** to 15 November struck within fifty miles of Saigon.
+
+That strengthens the reading already reached from the press: **the mass grave Larry heard about
+after the war has a plausible origin in the bombing that began just after he left**, and none in
+anything that happened while he was there. Two separate things, joined later in the telling.
