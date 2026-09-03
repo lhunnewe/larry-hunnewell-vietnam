@@ -30,60 +30,36 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
   {
     title: 'Ask cold, ask next',
     intro:
-      'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Two of them are blocking searches that will not start until he answers.',
+      'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Eight probes were retired from this tier on 2026-09-03, when he answered them all in one call — including the Camp Zama date. What is left is what he did not answer, plus five new questions his answers created.',
     questions: [
       {
-        id: 'zama-arrival-date',
-        q: '“Do you remember roughly when you got to the hospital in Japan? What month? Anything that fixes it — the weather, what was going on, how long before you saw the list, anything at all.”',
-        why: 'ASK THIS ONE FIRST. Everything the archive believes about where to look for the KIA misreport rests on one unverified sentence — that he reached Japan “early September 1965”. His DD-214 gives no Vietnam dates at all, and the timeline record carries confidence unverified-recollection. Pacific Stars and Stripes printed casualty identifications three to five days behind the event, by its own account, so a firm arrival date worked back through the medevac chain he gave on 2026-09-02 — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — collapses the search window from a fortnight of issues to two or three. He will probably not remember a date, and that is fine: take anything adjacent. How long he was there, whether it was hot or cold, what was happening in the ward, how many days between arriving and seeing the list, whether he was there for a holiday. Any of it narrows the window. Do NOT supply him “early September” — that is the very thing being tested.',
+        id: 'zama-which-paper',
+        q: '“The paper you saw your name in at Camp Zama — was that Stars and Stripes, or was it something the hospital put out? Do you remember the top of the front page, what it said? How big was it — could you fold it in your hand, or was it a full-size newspaper?”',
+        why: 'ASK THIS ONE FIRST, and ask it before 17 September, when the newspaper subscription lapses. On 2026-09-03 he described the paper for the first time: a free paper of about six pages, with the dead on the front page, right-hand side. That does not fit the paper this archive has spent weeks searching — the digitised Pacific Stars and Stripes runs 24 to 37 pages and prints its casualty lists on inside pages, never page one. So it may be something else entirely: a Camp Zama post or hospital bulletin, or an edition carried back on a medevac flight. If it was not Stars and Stripes, every negative recorded so far rules out a paper he never held. Ask it completely cold: do NOT name Stars and Stripes first, do not name any edition, and do not tell him what page the lists were on. Let him describe it.',
         photos: [],
       },
       {
-        id: 'interpreter-name',
-        q: '“The man standing by the burnt helicopter — the interpreter. What did you all call him? Was that his name, or his rank? Where was he from?”',
-        why: 'He gave the archive a wholly new person on 2026-09-02 — nine languages, a warrior monk, and the only man he has ever described as assigned to protect him. There is a reading of the name that would change every search term, and it is deliberately not written here or on any page he browses (research/people/trung-xi-nhat-nham.md). Ask cold: if he separates it himself that is independent confirmation, and if we supply it first his agreement proves nothing. Nothing gets searched until he answers — the same discipline that protected the Gagne question.',
-        photos: ['vn-0148'],
-      },
-      {
-        id: 'gagne-after',
-        q: '“You said Gagne was still alive when they flew you out. Did you ever hear what happened to him after that? Did you ever try to find him?”',
-        why: 'On 2026-09-01 he said Gagne died; on 2026-09-02, asked directly, he said Gagne did not die and was alive when Larry was medevaced out. Both records stand — don’t raise the difference with him, and don’t ask him to choose. All he can know is what happened up to the day he left, so this asks only about after. Gagne is now placed: he ran the Special Forces armory and signed Larry’s Thompson out of it.',
+        id: 'subic-russian',
+        q: '“You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who’d got sick in Cambodia. What else do you remember about him? How many days were you in that room? Was he still there when you left?”',
+        why: 'New to the archive on 2026-09-03, and the most checkable thing in the whole call. A Russian civilian archaeologist invalided out of northern Cambodia into a US naval hospital in 1965 is unusual enough to leave a trace, and it is the kind of specific detail that tends to be true. “How many days” is the real prize — it is an independent route to the medevac timing, coming at the chain from the Philippines end rather than the Japan end.',
         photos: [],
       },
       {
-        id: 'kennedy-always-in-charge',
-        q: '“Was there ever another officer up there besides Captain Kennedy? Did whoever was in charge change while you were there?”',
-        why: 'He named Captain Kennedy cold on 2026-09-01; period records name a different officer as detachment commander in the same window. Ask open and do NOT offer the other name — if he produces it himself that is corroboration, if we hand it to him it is worth nothing. Still unasked.',
+        id: 'days-until-flown-out',
+        q: '“That last week on the mountain, with all the campfires — how long after that were you flown out? Days? Weeks?”',
+        why: 'A second, independent route to the date, asked from the other direction. He gave 3 September 1965 for Camp Zama, which matches the archive’s own medevac derivation — but he offered it as “may have been” and said he was in and out of consciousness. An elapsed-time answer would corroborate or break it without ever asking him for a date again. Do NOT mention the Ia Drang valley: he anchored that week to it himself, and it does not fit his own dating. Reconciling that is our job, not his.',
         photos: [],
       },
       {
-        id: 'zama-chaplain',
-        q: '“You went straight to the chaplain when you saw your name. Do you remember his name, or what he did about it? And how long were you at Camp Zama altogether?”',
-        why: 'The archive’s oldest question, and it just changed shape. He now says he saw his name on a KIA LIST within three or four days of arriving, and went to the hospital chaplain. A list is not a news story — which is why a month of keyword newspaper searching returned nothing. A chaplain’s office is also a place that keeps paper, and neither the chaplain nor the length of his stay is recorded anywhere yet.',
+        id: 'chaplain-book',
+        q: '“You said the chaplain wrote it down in a book. What sort of book was it — a ledger, a notebook, a form? Did he write it while you were standing there? Did he tell you what he was going to do about it?”',
+        why: 'The only paper trail this archive has ever had for the misreport, and he volunteered it without being asked. A chaplain writing it down in September 1965 is a contemporaneous written record of Larry reporting himself alive while listed dead. Army chaplains kept activity logs and journals, and those are a records series — knowing whether it was a bound ledger or a loose form tells us which series to request, and whether anything was forwarded up. The chaplain’s name itself is gone; he was asked on 2026-09-03 and does not have it.',
         photos: ['vn-0093', 'vn-0095'],
       },
       {
-        id: 'zama-paper-and-date',
-        q: '“What newspaper did you read in the hospital at Camp Zama? Did they hand it out, or did you have to buy it?” Then: “Do you remember the date you got to Camp Zama — or anything that fixes it?”',
-        why: 'Two questions that could collapse a fortnight of searching into two or three issues. On the paper: Pacific Stars and Stripes launched a FREE edition for troops in Vietnam and the Seventh Fleet on 1 September 1965 — a different edition from the one digitised in the archive being searched. If that is the paper he saw, every negative from that archive may be beside the point. Do NOT name that edition to him; let him describe the paper, and if he says it was free or handed out, that is the answer. On the date: the paper’s own rule was that casualty identifications ran three to five days behind the event, so working back from his Camp Zama arrival through the medevac chain he gave — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — dates the item.',
-        photos: [],
-      },
-      {
-        id: 'tudo-bombing',
-        q: '“The night of the explosion by the Palace — roughly when was that, early in your tour or late? Was it the Papallon, or a different bar? What did people say afterwards about who did it?”',
-        why: 'Saigon bar bombings of 1964–65 were reported in the press and are individually dateable — one of the very few things in this archive findable in newspapers rather than military records. He was in the street giving first aid, tying off a man’s throat with his own t-shirt, so anything that fixes the date fixes him on a documented day.',
-        photos: ['vn-0120'],
-      },
-      {
-        id: 'date-burnt-helicopter',
-        q: '“The helicopter that burned on the mountain — did you see it come down, or was it already there when you got there?” Then: “Was that before or after the Canadian film people came? Before or after the day with the rocket launcher?”',
-        why: 'The order matters, and it changed on 2026-09-03. A full sweep of the VHPA loss data across his whole tour came back negative — no helicopter lost at Núi Bà Đen or anywhere in Tây Ninh province — and it exposed an assumption nobody had checked. He never said he was there when it happened, and not knowing whose aircraft it was is a strange thing not to know about a crash at your own small camp. What he photographed is a wreck, and wrecks persist: if it was already there when he arrived, the search window is years wider and “7 guys dead, burnt for 3 hours” is what he was told rather than what he saw. Don’t put any of that to him — just ask whether he saw it.',
-        photos: ['vn-0148'],
-      },
-      {
-        id: 'spell-zukowski',
-        q: '“Zukowski — the one who went to the pool with you and Ron. Spell that for me the way you’d spell it. What was his first name?”',
-        why: 'He rendered it Zukowski on 2026-09-02 and Zekeowski earlier. Both are his son’s transcriptions of a sound, so the difference is noise rather than a change of mind — which is exactly why one spelling from Larry himself would be worth more than both put together.',
+        id: 'campfires-nights',
+        q: '“You said that week the whole thing was lit up with campfires toward Cambodia. How many nights was it like that before the day everything happened? Did anyone come up to look — did you tell anyone besides the radio?”',
+        why: 'He gave this unprompted on 2026-09-03: fifteen fires on a normal night, hundreds that week. It is the first context the archive has ever had for “450 enemy digging in” — a described build-up rather than a bare number. A night count would date that build-up, which is exactly what a records request for night surveillance imagery would need in order to name a target window. Do NOT suggest a number of nights to him.',
         photos: [],
       },
       {
@@ -200,6 +176,42 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
 // Spent probes. Kept visible so nobody asks them again, and so the reasoning
 // survives. Full record: research/interviews/breakfast-questions.md.
 const answered: { q: string; a: string }[] = [
+  {
+    q: 'What date did you get to Camp Zama?',
+    a: '2026-09-03, and it is the answer to the archive’s most-wanted fact: “He says Camp Zama may have been 9/3/1965. He said he was kind of in and out of it.” Held loosely — “may have been”, and in and out of consciousness is how dates blur — but it independently matches the archive’s own derivation, which had worked the medevac chain backwards from “early September” to a last day on the mountain of 25–27 August. He added something nobody asked for: at Subic Bay he shared a room with a Russian archaeologist invalided out of northern Cambodia, and “We played cards together.”',
+  },
+  {
+    q: 'What paper did you read at Camp Zama?',
+    a: '2026-09-03: “They were a free news paper, like 6 pages. I think the first page on the right side was 40 guys killed.” This reversed a conclusion the archive had reached the same morning. The digitised Pacific Stars and Stripes runs 24 to 37 pages with casualty lists on inside pages, so a six-page paper with the dead on page one is a different publication — and the question is back at the head of the tier above, rephrased.',
+  },
+  {
+    q: 'The interpreter — his name, or his rank?',
+    a: '2026-09-03, asked cold, and the probe did not fire — which is itself a clean result. He did not separate a rank from the name and said he does not know Vietnamese ranks: “He seemed more of a buddhist than a soldier. Phonetically he says something like Trang-Zee-Nee-Yot-Na-Yong.” Not the independent confirmation the question was built to produce, and it must not be written up as one. What it gives is a second phonetic rendering, a year on from the first, that maps onto the same sounds.',
+  },
+  {
+    q: 'Gagne — what became of him after you were flown out?',
+    a: '2026-09-03: “I have no idea. He could still be alive for all I know.” No hint that he ever heard of a death — consistent with his 2026-09-02 correction, and not with the 2026-09-01 account. All three stand.',
+  },
+  {
+    q: 'Was Kennedy always the one in charge?',
+    a: '2026-09-03, asked with the other name deliberately withheld — and he supplied it himself: “Kennedy pretty much ran the camp. When he was gone, Lowry ran the camp. Kennedy wasn’t there that last week when all the shit happened.” The most productive answer in the call. He went on, unprompted, to the campfires: fifteen on a normal night looking west into Cambodia, “hundreds and hundreds” that week, “and we had Mohawk airplane flying this everynight with infared.”',
+  },
+  {
+    q: 'The chaplain at Camp Zama — his name?',
+    a: '2026-09-03: “I don’t know the Chaplains name. He wrote it down in a book.” The name is lost; the second sentence is the find, and the follow-up is live in the tier above.',
+  },
+  {
+    q: 'The bar on Tu Do street — when was the explosion?',
+    a: '2026-09-03, and it dates an event the archive could not place: “About in the middle of the tour. The US Embassy is what was blown up… I was about a block away, I think I was at the Papillon and it rocked the building when it went off.” Note he spells the bar Papillon here and Papallon on 2026-09-02 — both are his.',
+  },
+  {
+    q: 'The burnt helicopter — did you see it happen?',
+    a: '2026-09-03, asked plainly, and he confirmed what the archive had reasoned but could not test: “It was already there when I got to Vietnam. After the CBC people. After the rocket launch.” So the wreck predates him, the search window moves back years, and “7 guys dead, burnt for 3 hours” is what he was told rather than what he saw.',
+  },
+  {
+    q: 'Spell Zukowski.',
+    a: '2026-09-03: “Zukowski. I don’t know the first name. No one went by first name in the military.” The spelling now carries his own authority — the third in the archive after “Ton Son Nuht” and “Geutler”. The second sentence explains why so many of the men here are surnames only.',
+  },
   {
     q: 'Gagne — was he French, and where did he die?',
     a: '2026-09-02, and it reverses the premise: “No - he did not die. He was still alive when I got medivac out.” On 2026-09-01 he had said Gagne died. Both records stand and neither is corrected. French “pretty sure,” immediately widened to “He could have been born in Germany or Belgium, I don’t know.” And he is placed at last: Gagne ran the Special Forces armory and signed out the Thompson in VN-0082 for him.',

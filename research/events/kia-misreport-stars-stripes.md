@@ -487,7 +487,12 @@ family ever pins his Camp Zama arrival date, the window tightens to two or three
       make every negative here beside the point.
 
 
-## THE EDITION QUESTION IS ESSENTIALLY RESOLVED — and it favours the search
+## THE EDITION QUESTION — declared resolved on 2026-09-03, and REOPENED the same day
+
+> **Read the correction at the end of this section before relying on anything in it.**
+> The conclusion below was reached from a paraphrase and was overtaken within hours by
+> Larry's own description of the paper. It is left standing, wrong, because the reasoning
+> is the useful part.
 
 **2026-09-03.** Larry's son, asked which paper he read at Camp Zama, reports that **Larry
 described a stack of the paper lying about free and accessible, which most soldiers could just
@@ -512,6 +517,77 @@ own words, and no one has yet asked him to describe the masthead. The remaining 
 tier-1 question — **what date he reached Camp Zama** — is untouched and is now the single most
 valuable thing he could tell us, because it would collapse the search window to two or three
 issues.*
+
+### THE CORRECTION — 2026-09-03, later the same day
+
+**Larry was asked directly what the paper looked like, and his answer does not fit the Five-Star
+Edition.** In his own words, typed as he spoke them
+(`data/recollections/2026-09-03-phone-the-newspaper.json`):
+
+> **They were a free news paper, like 6 pages. I think the first page on the right side was 40
+> guys killed.**
+
+Set that against the issues actually read in this file:
+
+| | What Larry describes | The Five-Star Edition, as read here |
+|---|---|---|
+| **Length** | "like 6 pages" | **24–37 pages** (12 June 1965 runs to 24; 24 Sept to 32) |
+| **Where the casualties are** | **page one, right-hand side** | **inside pages** — p32, p19, p13, p4 in the four issues read |
+| **Cost** | free | free stacks are ordinary for the regular edition, so this discriminates nothing |
+
+**A six-page paper carrying a casualty item on page one is not the paper this archive has been
+searching.** The reasoning above was not foolish — the geography of the Three-Star announcement
+really does exclude a man in Japan — but it rested on "free", which turns out to carry no
+information, and it was built on a paraphrase rather than on his description.
+
+**What he may have been reading instead**, in rough order of likelihood:
+
+1. **A Camp Zama post or hospital bulletin.** Large Army hospitals published short local sheets,
+   and a six-page free paper handed round a ward fits that better than any theatre edition. It
+   would also explain a casualty column on page one: a local sheet has no wire budget to fill a
+   front page with.
+2. **The Three-Star Edition**, if copies were flown back to Japan with medevac traffic or reached
+   patients evacuated *from* Vietnam — which is precisely what Larry was. The geography argument
+   above excludes him from the *intended distribution*, not from the *aircraft*.
+3. **A condensed or airlift edition** of Pacific S&S.
+4. **His page count is simply wrong at sixty-one years' distance** — the least interesting
+   possibility and not the least likely. Note though that "first page on the right side" is a
+   *spatial* memory, not a numeric one, and those tend to survive better.
+
+**What this does and does not do to the work in this file.** It does **not** make the negatives
+worthless — they are real, careful, and they are negatives **against the Five-Star Edition**. What
+it does is **re-scope every one of them**: they now rule out a paper Larry may never have held.
+Say so when citing them.
+
+**WHAT TO DO BEFORE THE SUBSCRIPTION LAPSES ON 2026-09-17**, in this order:
+
+- [ ] **Establish what the NewspaperArchive portal actually holds.** If Pacific S&S is there in
+      one edition only, the remaining sweeps are worth materially less than they looked this
+      morning, and that changes how the last fortnight of access should be spent.
+- [ ] **Spend it on 3–7 September 1965 first.** That window is now anchored from two independent
+      directions (below) and is the highest-value thing left, whatever the edition turns out to be.
+- [ ] Only then the Sept 12 – Oct 24 gap and the Dec 65 – Feb 66 correction sweep.
+- [ ] **Ask Larry, next call: was it Stars and Stripes at all, or something the hospital put out?**
+      Ask it cold — do not offer him the options above, and do not describe the Five-Star to him.
+
+### AND THE WINDOW IS NOW ANCHORED — 2026-09-03
+
+The other half of the tier-1 question, called "the single most valuable thing he could tell us"
+immediately above, **was answered in the same call**
+(`data/recollections/2026-09-03-phone-camp-zama-date.json`):
+
+> **He says Camp Zama may have been 9/3/1965.**
+
+Hold it loosely — "may have been", and he adds that he was "kind of in and out of it", which is
+the condition under which dates blur. But **it agrees with this file's own derivation.** Working
+the medevac chain backwards from "early September" had already put his last day on the mountain at
+about 25–27 August 1965; **from 3 September the same chain gives 25–26 August.** Two independent
+routes, one fortnight.
+
+**So the list to look for was published 3–7 September 1965** — arrival plus his "in the first 3-4
+days". And the paper's own 3-to-5-day identification lag puts the *reported event* in **late
+August**, which is exactly where his last day on the mountain falls. That is as tight as this
+search has ever been, and it is where the remaining subscription should go.
 
 ---
 

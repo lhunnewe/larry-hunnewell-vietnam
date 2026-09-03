@@ -74,6 +74,41 @@ Open questions:
    **4–5 days at Subic Bay in the Philippines**; then **Camp Zama**. He was "in and out of
    consciousness" and "didn't know I was reported KIA at this time." Jaundice, not a wound, is
    what took him out of Vietnam — which bears on the NPRC clinical-records request (#7).*
+   *2026-09-03 phone call — **THE DATE, AND A REVERSAL ON THE EDITION.** Asked the question
+   the guide had been reordered to put first, Larry answered: "**He says Camp Zama may have
+   been 9/3/1965.**" (`data/recollections/2026-09-03-phone-camp-zama-date.json`.) Held
+   loosely — "may have been", and he adds he was "kind of in and out of it" — but **it agrees
+   with the archive's own derivation**, which had worked the medevac chain backwards from
+   "early September" to a last day on the mountain of about 25–27 August. From 3 September
+   the chain gives **~25–26 August 1965**. Two independent routes to the same fortnight.
+   **The list to look for is therefore published 3–7 September 1965** (arrival + "the first
+   3-4 days", with the paper's own 3-to-5-day identification lag putting the *event* in late
+   August, which is exactly where his own last day falls).
+   *2026-09-03 — **AND THE PAPER MAY NOT BE THE ONE BEING SEARCHED. This corrects a
+   conclusion reached earlier the same day.** Asked what the paper looked like, he said:
+   "**They were a free news paper, like 6 pages. I think the first page on the right side was
+   40 guys killed.**" (`data/recollections/2026-09-03-phone-the-newspaper.json`.) The free-
+   stack detail was what this archive had used to argue he read the **Five-Star Edition** —
+   the Far East edition digitised in the NewspaperArchive holding every sweep has been run
+   against. But the Five-Star runs **24–37 pages** and prints casualty lists on **inside**
+   pages: p32, p19, p13, p4 in the issues actually read. **A six-page free paper with a
+   casualty item on page one, right-hand side, is a different publication.** Candidates: the
+   **Three-Star Edition**, a **Camp Zama post or hospital bulletin**, or a condensed/airlift
+   edition. His page count may equally be wrong at sixty-one years. **This does not
+   invalidate the negatives already recorded — it re-scopes them**: they are negatives
+   against the Five-Star Edition, which he may never have held. **Before spending more of the
+   subscription (ends 2026-09-17), establish what editions the NewspaperArchive portal
+   actually holds.** If it holds only the Five-Star, the remaining sweeps are worth less than
+   they looked this morning and the 3–7 September window is the only part still worth buying.
+   *2026-09-03 — **the chaplain wrote it down.** Asked his name: "I don't know the Chaplains
+   name. **He wrote it down in a book.**" (`data/recollections/2026-09-03-phone-the-
+   chaplain.json`.) The name is lost; the second sentence is the find. That is a
+   **contemporaneous written record** of Larry reporting himself alive while listed dead,
+   made at Camp Zama in September 1965. Army chaplains kept activity logs and journals, and
+   those are a records series rather than personal papers. Thin — retention of unit chaplain
+   logs is poor and a hospital chaplain's office may leave nothing — but it is **the first
+   indication that the misreport generated any paper at all beyond the casualty list
+   itself**, and it is a records request nobody has made.
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
@@ -312,6 +347,15 @@ Open questions:
    off duty at a bar called **the Papallon on Tu Do street** in Saigon, which he describes as
    the Special Forces hangout. He also describes him as an alcoholic, and says Gagne did not
    get on with him. Remaining avenues unchanged: SFA rolls, NARA 5th SFG / B-32 rosters.*
+   *2026-09-03 phone call — **Lowry corroborated from a second direction, and
+   independently.** Asked open who else ran the camp, with no name supplied: "Kennedy pretty
+   much ran the camp. **When he was gone, Lowry ran the camp. Kennedy wasn't there that last
+   week when all the shit happened.**" (`data/recollections/2026-09-03-phone-kennedy-and-
+   lowry.json`.) This was given without reference to the 450 day, and it independently
+   supports the load-bearing claim of #1 and #10 — that "all the officers were gone", which
+   is why Lowry was the only man on the other Special Forces radio. Note it also **narrows
+   the identification target**: not merely a sergeant at the camp, but the NCO acting in
+   command in the captain's absence in late August 1965.
 5. **Captain "Guegler"** — spelling, identity, and possible connection to the KIA report.
    *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
    officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
@@ -461,6 +505,30 @@ Open questions:
     with the USOM Sept 1965 finding above: an operation north of the mountain that **moved** a
     village rather than killing it. Findings go to the family first; nothing written to a page
     Larry browses.*
+   *2026-09-03 phone call — **the campfires, and a candidate for the aircraft.** Unprompted,
+   in the same answer that placed Lowry in command: "At night, normally looking into Cambodia
+   to the West you might see 15 camp fires going, **that week there must have been a hundreds
+   and hundreds like the whole thing was lit up at night with camp fires.** I figured they
+   were all enemy fires on the Ho Chi Men trail... **We had Mohawk airplane flying this
+   everynight with infared.** He could have been taking pictures with the infared."
+   (`data/recollections/2026-09-03-phone-kennedy-and-lowry.json`.)
+   *Two things follow. **First, this is the context nothing else has supplied** — the archive
+   has had "450 enemy digging in" as a bare figure with no surrounding observation. Fifteen
+   fires on a normal night against hundreds that week is a described build-up, and it is the
+   kind of thing a man on a mountain with binoculars actually could see. **Second, it
+   supplies a better candidate for the detecting aircraft than the archive had.** On
+   2026-09-02 he said a helicopter spotted them and that **he never heard it** — which fits a
+   fixed-wing aircraft at altitude at night far better than a helicopter, and he raises the
+   OV-1 Mohawk himself. **The Mohawk is real and is the right airframe**: the OV-1B/OV-1C
+   flew night surveillance in-country in 1965 with SLAR and infrared imaging, and 1st
+   Aviation Company (Surveillance) aircraft worked III Corps. **A SEARCHABLE CONSEQUENCE:**
+   Mohawk infrared missions produced **imagery and imagery-interpretation reports**, which
+   are a records series in RG 472 — a nightly IR run over the Cambodian border west of Núi Bà
+   Đen in late August 1965 would have generated paper naming what it saw. Add to the RG 472
+   request (#27, #66). **A TENSION, recorded and not reconciled:** he anchors all of this
+   "right before the battle of the I Drang Valley", and **Ia Drang was 14–18 November 1965**,
+   by which time his own Camp Zama date puts him in Japan for over two months. His spellings
+   are preserved.
 11. **The bathroom shooting court-martial** — Larry says the man who shot at him "would have
     been court martialed, there should be a record" (~Feb–Mar 1965 by his dating). Locating
     it would date the incident and recover the real surname of his bunk mate and witness
@@ -803,6 +871,23 @@ Open questions:
     put to him is no longer only when — it is whether he saw it happen at all.** In the guide,
     tier 1 #6. Next: VNAF/CIDG losses via the RG 472 request (#27, #66), and the Army Aviation
     Safety Center accident files, named as a source in every VHPA record read.*
+    *2026-09-03, ASKED AND ANSWERED — **and he confirms the reversal above in his own
+    words.** Asked plainly whether he saw it come down or whether it was already there:
+    "**It was already there when I got to Vietnam.** After the CBC people. After the rocket
+    launch." (`data/recollections/2026-09-03-phone-burnt-helicopter.json`.) So the reasoning
+    recorded above the same morning — that the wreck predates him, because he never claims
+    to have seen it fall and does not know whose aircraft it was — **is confirmed by the
+    witness.** Consequences, all of them narrowing: **(a)** the search window moves to
+    **before September 1964**, and can run back as far as the mountain was fought over;
+    **(b)** "7 guys dead" and "burnt for 3 hours" are **hearsay he was told on arrival**,
+    not observation, and should carry no more weight than that; **(c)** the VHPA negative
+    already recorded covers 1957 onward, since panel 01E was parsed in full, so the US Army
+    side of the earlier window is **already swept and already negative** — which pushes the
+    remaining probability onto **VNAF, USAF, CIA/Air America, or French-war** airframes,
+    none of which appear in VHPA at all. Next: Air America and VNAF loss listings, then the
+    Army Aviation Safety Center files. **The second and third sentences answer a different
+    question** — they date the PHOTOGRAPH relative to the CBC visit and the rocket launch,
+    and do not bear on when the aircraft crashed.*
 22. **"Trung Xi Nhat Nham"** (VN-0148, 2026-09-02, issue #90) — the man standing at that wreck, and the
     only person Larry has ever described as assigned to protect him: "He was an interpreter and
     could speak 9 languages. He was a warrior monk." New to the archive. Records:
@@ -811,6 +896,20 @@ Open questions:
     name that would change every search term is filed in the research note, **and Larry has not
     been asked yet.** Ask him cold first — the question is in the guide — then search. The
     reading is kept out of every rendered field under rule 6.*
+    *2026-09-03, ASKED COLD — **and the probe did not fire, which is itself the result.** He
+    was asked for the rank and the name with the reading in `research/people/trung-xi-nhat-
+    nham.md` deliberately withheld. He **did not separate a rank from the name**, and said
+    he does not know Vietnamese ranks: "Rank of interpreter is unknown... He seemed more of
+    a buddhist than a soldier. Phonetically he says something like **Trang-Zee-Nee-Yot-Na-
+    Yong**." (`data/recollections/2026-09-03-phone-the-interpreter.json`.) **So this is not
+    the independent confirmation the cold question was designed to produce, and must not be
+    written up as one.** What it is, is a **second independent phonetic rendering**, given a
+    year of distance from the first: "Trang-Zee-Nee-Yot" against "Trung Xi Nhat", and both
+    map onto Vietnamese **Trung sĩ nhất**, sergeant first class. The reading is better
+    supported than it was and still unconfirmed by him. **The search may now proceed** — it
+    was held only pending this question — but on a rank-plus-name hypothesis, not a fact.
+    "More of a buddhist than a soldier" is consistent with the warrior-monk description and
+    worth carrying into any Cao Đài or Buddhist-community enquiry.*
 23. **The Saigon street bombing** (VN-0120, 2026-09-02, issue #91) — Larry describes an explosion at a bar
     near the Palace: "there was an explosion so I ran and someone had there throat bleeding so I
     took off my t-shirt and wrapped it around real tight. I don't know if he lived or died.
@@ -823,6 +922,23 @@ Open questions:
     french," and that it was the Special Forces hangout where he would meet Sgt. Lowry (#4).
     Also settled in the same comment, and closing a Tier 3 question: **he was on the mountain
     for Tết, not in Saigon** — "When tet happened when I was there I was up in the mountain."*
+    *2026-09-03, ASKED AND LARGELY ANSWERED — **it was the US Embassy.** "About in the
+    middle of the tour. **The US Embassy is what was blown up** or their offices. Pretty
+    sure it was the Embassy. I heard it was the Vietcong who did it. **I was about a block
+    away, I think I was at the Papillon** and it rocked the building when it went off."
+    (`data/recollections/2026-09-03-phone-tu-do-explosion.json`.) That identifies a dated
+    event: the **Viet Cong car bombing of the US Embassy on Hàm Nghi Boulevard, Saigon, 30
+    March 1965** — about 22 killed, some 180 wounded. It is "about in the middle of the
+    tour" exactly as he says, for a tour running Sept 1964 – Aug 1965. **This question moves
+    from unsearched to a specific date with a named event**, and the follow-up work changes
+    shape: not "find a bar bombing" but **read the 30 March 1965 coverage and the street-
+    level accounts**, where a man giving first aid to a throat wound in the street may
+    appear. TWO CAUTIONS, both kept open. **(a)** On 2026-09-02 he placed the VN-0120
+    building as **the Palace with a bar to its right**; the Embassy stood on Hàm Nghi, not
+    beside the Palace. Both accounts are his; neither is corrected. **(b)** He renders the
+    bar **"Papillon"** here — correct French for butterfly, as he himself glossed it —
+    against **"Papallon"** on 2026-09-02. Both spellings are his and both should be carried
+    as search terms.*
 24. **Captain Kennedy** (issue #92) — the officer Larry names as running the camp, and the man
     he credits with taking VN-0023. Record: `data/people/captain-kennedy.json`.
     *2026-09-01, cold: "Special Forces ran the camp. Captain Kennedy was in Charge of the camp

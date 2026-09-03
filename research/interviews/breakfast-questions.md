@@ -1,3 +1,4 @@
+
 # Breakfast questions for Larry
 
 A prioritized interview guide, distilled from the AI survey of all 157 photographs
@@ -21,13 +22,13 @@ lists live in the observation records.
 
 The order is by *what the setting allows*, not by when the question was written.
 
-| Tier | What it is | When to use it |
-|---|---|---|
+| Tier        | What it is                             | When to use it                                                                           |
+| ----------- | -------------------------------------- | ---------------------------------------------------------------------------------------- |
 | **1** | Live cold probes, no photograph needed | **A phone call.** Ask these first; several decay if primed, and two block searches |
-| **2** | Needs the picture in front of him | The table, with a tablet |
-| **3** | Quick confirmations | Fast yes/no over coffee |
-| **4** | Stories and people | No research agenda — let him wander |
-| Hold | Heavy material | Only when he's ready |
+| **2** | Needs the picture in front of him      | The table, with a tablet                                                                 |
+| **3** | Quick confirmations                    | Fast yes/no over coffee                                                                  |
+| **4** | Stories and people                     | No research agenda — let him wander                                                     |
+| Hold        | Heavy material                         | Only when he's ready                                                                     |
 
 **How to use this**
 
@@ -65,11 +66,12 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **What date did you get to Camp Zama?** — *anything that fixes it. This is the one.*
-2. **The interpreter at the burnt helicopter** — what did you all call him? *(blocks a search)*
-3. **Gagne** — what became of him after you were flown out?
-4. **Was Kennedy always the one in charge?** *(don't offer the other name)*
-5. **The bar on Tu Do street** — roughly when was the explosion?
+1. **What newspaper was it, exactly?** — *the 2026-09-03 answer reopened this. Highest value,
+   and the subscription ends 17 September.*
+2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
+3. **How long after that last week did you leave Vietnam?** *(a second route to the date)*
+4. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
+5. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
 
 ---
 
@@ -77,129 +79,89 @@ The order is by *what the setting allows*, not by when the question was written.
 
 Every question here works on a telephone call. They are ordered by what the answer unlocks.
 
-- [ ] **ASK THIS ONE FIRST — what date did you get to Camp Zama?** *(ledger #1, issue #9 —
-  promoted to the head of the guide 2026-09-03 at the family's request, and it deserves the spot)*
-  *"Do you remember roughly when you got to the hospital in Japan? What month? Anything that
-  fixes it — the weather, what was going on, how long before you saw the list, anything at all."*
+**Eight probes were retired from this tier on 2026-09-03** — he answered them all in one call,
+including the Camp Zama date. His answers are in "Answered — the record" below, in his words.
+What remains here is what he did not answer, plus **five new questions his answers created.**
 
-  **Why this is the single most valuable thing he can tell us.** Everything the archive believes
-  about *where* to look for the KIA misreport rests on one unverified sentence — that he reached
-  Japan "early September 1965". His DD-214 gives **no Vietnam dates at all**, and the timeline
-  record carries confidence `unverified-recollection`.
+- [ ] **ASK THIS ONE FIRST — what newspaper was it, exactly?** *(ledger #1, issue #9 — NEW
+  2026-09-03, and it replaces the Camp Zama date at the head of this tier because that one is
+  now answered)*
+  *"The paper you saw your name in at Camp Zama — was that Stars and Stripes, or was it
+  something the hospital put out? Do you remember the top of the front page, what it said?
+  How big was it — could you fold it in your hand, or was it a full-size newspaper?"*
 
-  Pacific Stars and Stripes printed casualty identifications **three to five days behind the
-  event** — the paper says so itself. Work a firm arrival date back through the medevac chain he
-  gave on 2026-09-02 — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — and the
-  search window collapses **from a fortnight of issues to two or three.**
+  **Why this is now the most valuable thing he can tell us, and why it is urgent.** He said on
+  2026-09-03: *"They were a free news paper, like 6 pages. I think the first page on the right
+  side was 40 guys killed."* **That does not fit the paper this archive has spent weeks
+  searching.** The digitised Pacific Stars and Stripes is the Five-Star Edition — 24 to 37 pages,
+  with casualty lists on inside pages, never page one. A six-page paper with the dead on the
+  front is something else: possibly a Camp Zama post or hospital bulletin, possibly the
+  Three-Star Edition carried back on a medevac flight.
 
-  **He will probably not remember a date, and that is fine — take anything adjacent.** How long
-  he was there. Whether it was hot or cold. What was happening in the ward. How many days between
-  arriving and seeing the list. Whether he was there for a holiday. Any of it narrows the window.
+  If it was not Stars and Stripes, **every negative recorded so far rules out a paper he never
+  held**, and the remaining subscription time should be spent differently. The subscription
+  **ends 2026-09-17**, so this answer is worth more this week than next.
 
-  *Do not supply him "early September" — that is the very thing being tested.*
+  **Ask it completely cold.** *Do not name Stars and Stripes first, do not name the Three-Star
+  Edition, and do not tell him what page the lists were on.* Let him describe it. If he says
+  "Stars and Stripes" unprompted, that is worth something; if we say it first, his agreement is
+  worth nothing.
 
-- [ ] **1. The interpreter — his name, or his rank?** *(ledger #22 — blocks a search)*
-  *"The man standing by the burnt helicopter — the interpreter. What did you all call him?
-  Was that his name, or his rank? Where was he from?"*
-  He gave the archive a wholly new person on 2026-09-02 — nine languages, a warrior monk, and
-  the only man he has ever described as assigned to protect him. **There is a reading of the
-  name that would change every search term, and it is deliberately not written here or on any
-  page he browses** (`research/people/trung-xi-nhat-nham.md`). Ask cold; if he separates it
-  himself that is independent confirmation, and if we supply it first his agreement proves
-  nothing. **Nothing is searched until he answers** — the same discipline that protected the
-  Gagne question.
+- [ ] **1. The Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*
+  *"You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who'd
+  got sick in Cambodia. What else do you remember about him? How many days were you in that
+  room? Was he still there when you left?"*
+  New to the archive, and **the most checkable thing in the whole call.** A Soviet or Russian
+  civilian archaeologist invalided out of northern Cambodia into a US naval hospital in 1965 is
+  an unusual enough event to leave a trace, and it is the kind of specific detail that tends to
+  be true. **"How many days" is the real prize** — it is an independent route to the medevac
+  timing, coming at the chain from the Philippines end rather than the Japan end.
 
-- [ ] **2. Gagne — what became of him?** *(ledger #18)*
-  *"You said Gagne was still alive when they flew you out. Did you ever hear what happened to
-  him after that? Did you ever try to find him?"*
-  On 2026-09-01 he said Gagne died; on 2026-09-02, asked directly, he said Gagne did not die.
-  **Both stand; don't raise the difference with him and don't ask him to choose.** What he
-  knows is that Gagne was alive on the day he left — so this asks only about after.
+- [ ] **2. How long after that last week did you leave Vietnam?** *(ledger #1 — NEW 2026-09-03)*
+  *"That last week on the mountain, with all the campfires — how long after that were you flown
+  out? Days? Weeks?"*
+  **A second, independent route to the date**, asked from the other direction. He gave 3
+  September 1965 for Camp Zama, which the archive's own medevac derivation matches — but he
+  offered it as "may have been" and said he was in and out of consciousness. An elapsed-time
+  answer would corroborate or break it without ever asking him for a date again.
+  **Do not mention the Ia Drang valley.** He anchored that week to it himself, and Ia Drang was
+  in November — two months after he says he was already in Japan. Asking about it would only
+  invite him to reconcile the two, which is our job, not his.
 
-- [ ] **3. Was Kennedy always the one in charge?**
-  *"Was there ever another officer up there besides Captain Kennedy? Did whoever was in
-  charge change while you were there?"*
-  **Do not offer the other name.** He named Captain Kennedy cold on 2026-09-01; period
-  records name a different officer as detachment commander in the same window
-  (`research/people/nui-ba-den-roster-names.md`). Still unasked.
+- [ ] **3. The chaplain's book.** *(ledger #1, issue #9 — NEW 2026-09-03; **VN-0093**,
+  **VN-0095** if you have a screen — the unnamed hospital friend in VN-0093 is a separate
+  standing question)*
+  *"You said the chaplain wrote it down in a book. What sort of book was it — a ledger, a
+  notebook, a form? Did he write it while you were standing there? Did he tell you what he was
+  going to do about it?"*
+  **The only paper trail we have ever had.** He volunteered this without being asked for it.
+  Army chaplains kept activity logs and journals, and those are a records series; knowing
+  whether it was a bound ledger or a loose form tells us which series to request, and whether
+  anything was forwarded up. Everything else about the misreport is memory.
 
-- [ ] **4. The chaplain at Camp Zama.** *(ledger #1 — **VN-0093**, **VN-0095** if you have a
-  screen; the unnamed hospital friend in VN-0093 is a separate standing question)*
-  *"You went straight to the chaplain when you saw your name. Do you remember his name, or
-  what he did about it? And how long were you at Camp Zama altogether?"*
-  He has now said he saw his name **on a KIA list** within three or four days of arriving and
-  went to the hospital chaplain. A chaplain's office is a place that keeps paper, and neither
-  the chaplain nor the length of his stay is recorded anywhere yet.
+- [ ] **4. The campfires — how many nights?** *(ledger #10, issue #66 — NEW 2026-09-03)*
+  *"You said that week the whole thing was lit up with campfires toward Cambodia. How many
+  nights was it like that before the day everything happened? Did anyone come up to look —
+  did you tell anyone besides the radio?"*
+  He gave this unprompted: fifteen fires on a normal night, hundreds that week. It is the first
+  context the archive has ever had for "450 enemy digging in", and **a night count would date
+  the build-up** — which is exactly what a Mohawk infrared imagery request to NARA would need in
+  order to name a target window. *Do not suggest a number of nights to him.*
 
-- [~] **4b. What paper did you read at Camp Zama — and what date did you get there?**
-  **THE PAPER HALF IS ESSENTIALLY ANSWERED (2026-09-03, paraphrase):** his son reports Larry
-  described *a stack of the paper lying about free and accessible, which most soldiers could
-  just pick up.* That resolves the worry rather than confirming it — the free Three-Star Edition
-  went to troops **in Vietnam and the Seventh Fleet**, and Larry was in **Japan**; the digitised
-  edition is the **Five-Star**, the Far East one, whose masthead is on the front pages being
-  read. So the archive being searched is the right paper. **The DATE half is untouched and is
-  now the single most valuable thing he could give us** — and it has accordingly been promoted to
-  the head of this tier as "ASK THIS ONE FIRST". Ask it there, not here.
-  *(ledger #1, issue #9 — added 2026-09-03, and between them these two could collapse a
-  fortnight of searching into two or three issues)*
-  *"What newspaper did you read in the hospital at Camp Zama? Did they hand it out, or did you
-  have to buy it?"* Then: *"Do you remember the date you got to Camp Zama — or what the weather
-  was like, or anything that fixes it?"*
-  **Why both matter, and why they are asked open.**
-  On the paper: Pacific Stars and Stripes launched a **free edition for troops in Vietnam and
-  the Seventh Fleet on 1 September 1965** — a different edition from the one digitised in the
-  archive being searched. If that is the paper he saw, **every negative from that archive may be
-  beside the point.** *Do not name that edition to him.* Let him describe the paper; if he says
-  it was free or handed out, that is the answer.
-  On the date: the paper's own rule was that casualty identifications ran **three to five days
-  behind the event**. Working back from his arrival at Camp Zama through the medevac chain he
-  gave — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — dates the item. **A firm
-  arrival date narrows the search from a fortnight of issues to two or three.**
-
-- [ ] **5. The bar on Tu Do street, and the explosion.** *(ledger #23)*
-  *"The night of the explosion by the Palace — roughly when was that, early in your tour or
-  late? Was it the Papallon, or a different bar? What did people say afterwards about who
-  did it?"*
-  Saigon bar bombings of 1964–65 were reported in the press and are individually dateable —
-  one of the very few things in this archive findable in newspapers rather than military
-  records. He was in the street giving first aid, so anything that fixes the date fixes him
-  in place on a documented day.
-
-- [ ] **6. The burnt helicopter — did you see it happen?** *(ledger #21, issue #89 — the
-  question changed on 2026-09-03)*
-  **Ask this first, and ask it plainly:** *"The helicopter that burned on the mountain — did
-  you see it come down, or was it already there when you got there?"*
-  Then, only after: *"Was that before or after the Canadian film people came? Before or after
-  the day with the rocket launcher?"*
-  **Why the order changed.** A full sweep of the VHPA loss data for his whole tour came back
-  negative — no helicopter lost at Núi Bà Đen or anywhere in Tây Ninh province — and it turned
-  up the assumption nobody had checked. He never said he was there when it happened, and not
-  knowing whose aircraft it was is a strange thing not to know about a crash at your own small
-  camp. **What he photographed is a wreck, and wrecks persist.** If it was already there when
-  he arrived, the search window is years wider and the "7 guys dead, burnt for 3 hours" is what
-  he was told rather than what he saw. Don't put any of that to him — just ask whether he saw
-  it. *(Full sweep and its limits: `research/events/nui-ba-den-helicopter-wreck.md`.)*
-
-- [ ] **7. Spell Zukowski.** *(ledger #12)*
-  *"Zukowski — the one who went to the pool with you and Ron. Spell that for me the way you'd
-  spell it. What was his first name?"*
-  He rendered it **Zukowski** on 2026-09-02 and **Zekeowski** earlier. Both are your
-  transcriptions of a sound, so the difference is noise, not a change of mind — which is
-  exactly why one spelling from him would be worth more than both.
-
-- [ ] **8. The missing photographs.**
+- [ ] **5. The missing photographs.**
   *"Were there other pictures that didn't go in with the rest — another album, a box, a
   folder somewhere? Did you ever give any away?"*
   Still open, and **not** answered by finding the CBC frame. The scan reconciliation shows the
   archive holds every frame the lab was given, E001–E157 unbroken, so anything missing was
   never scanned. Only he knows where to look.
 
-- [ ] **9. The medic — one more pass.** *(ledger #14)*
+- [ ] **6. The medic — one more pass.** *(ledger #14, issue #61)*
   *"The medic who drowned at Nha Trang — you said Kansas or Nebraska. If you had to pick one,
   which feels right? Do you remember anything about him at all — where he trained, what
   people called him?"*
   His "Kanas or Nebraska" loosened the anchor the whole 399-casualty sweep was built on.
   Kansas has never been swept. Don't read him any of the near-miss names.
+
 
 ---
 
@@ -211,7 +173,6 @@ Every question here works on a telephone call. They are ordered by what the answ
   **He got closer on 2026-09-02 without getting there:** "Ron Tototz, Zukowski and that guy
   who played the guitar would go here." So the guitarist is a fourth man in that pool group,
   named alongside two men we can name. **One name still resolves four photographs at once.**
-
 - [ ] **Which base was home?** — Show **VN-0136** (camp panorama), **VN-0117** (C-123 over
   the hooches), **VN-0017** (T 123 hooch). *"Where was this camp? How long did you live here
   vs. anywhere else?"*
@@ -219,39 +180,31 @@ Every question here works on a telephone call. They are ordered by what the answ
   fixed points to place it against, all from 2026-09-02: the EM Club was "right across from my
   hooch," VN-0082 was taken "right next to my hooch," and his unit's armory is the building in
   that frame with the EM Club just off the right edge.
-
 - [ ] **The pocket patch.** — Show **VN-0028**: *"What did the patch say?"*
   *The helicopter half of this question is spent — see the Answered record. Ask only about
   the patch. Unlocks the unit question (ledger #2): the remembered "118th AOD" against the
   118th Aviation Company "Thunderbirds."*
-
 - [ ] **VN-0028's other people and things.** — *"Who is the young soldier under your arm?
   What was the equipment in the metal cabinet behind you? Whose Thompson is he holding?"*
   *(Note: the Thompson in **VN-0082/VN-0084** is answered and is Larry's own — Gagne signed it
   out of the Special Forces armory for him. The one in VN-0028 is a different question.)*
-
 - [ ] **VN-0029 — whose helicopter was it?** — *"You said this wasn't Rosethorn 007. Do you
   remember whose it was, or where you were going?"*
   *Partly answered 2026-09-02: "I was in someone else helicopter in this photo. I don't think
   it was Rosethorn 007."*
-
 - [ ] **The ops van's neighbours.** — Show **VN-0011**: *"Who are the two flight controllers
   on the steps?"* And with **VN-0014** on the table: *"What did Weaver's pocket patch say?"*
-
 - [ ] **Was that Bien Hoa burning?** — Show **VN-0074** and **VN-0078**. *"You photographed
   this fire twice from the air. What happened?"*
   *Ask the open half first and let him date it himself before offering the May '65 explosion.*
-
 - [ ] **Can we watch your movie film together?** — One chapter at a time on the website
   (**VF-0001**–**VF-0005**, Footage page). Let him narrate; ask only *"Where is this? Who's
   holding the camera?"* Follow-ups: what camera did he carry, and **do the original 8mm reels
   still exist?**
-
 - [ ] **The Ginza day.** — Show **VN-0095**: *"Was the Ginza day a pass from the hospital?
   What do you remember about that restaurant — the sign, the entrance, the stairs?"*
   **Don't supply details.** If he spontaneously describes a giant beer-barrel doorway, that
   identifies Ketel's — see `research/places/ginza-heidelberg.md`.
-
 - [ ] **The CBC film, now that he has described the crew.** — The order of operations has
   finally flipped: he described the crew cold on 2026-09-02, so **a candidate film can now be
   shown to him without spoiling anything** (`research/events/cbc-documentary-1964-65.md`).
@@ -340,6 +293,93 @@ Every question here works on a telephone call. They are ordered by what the answ
 
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
+
+### The telephone call of 2026-09-03 — eight probes, all of them answered
+
+Larry's son worked the tier-1 list down the telephone and typed the answers as he spoke.
+Records: `data/recollections/2026-09-03-phone-*.json`. **This call answered the archive's
+most-wanted fact and reversed one of its conclusions in the same ten minutes.**
+
+- [X] **What date did you get to Camp Zama?** — the question this guide had been reordered
+  that morning to ask first.
+  > He says Camp Zama may have been 9/3/1965. He said he was kind of in and out of it. He
+  > remembers being conscious in Subic Bay and in a room with some Russian Archaoligist who had
+  > gotten sick somewhere in the Northern part of cambodia and they had gotten out of there and
+  > into Subic Bay Naval Hospital. We played cards together.
+
+  **It matches the archive's own derivation.** The medevac chain had already been worked
+  backwards from "early September" to a last day on the mountain of ~25–27 August; from 3
+  September it gives 25–26 August. Two independent routes, one fortnight. **Follow-ups
+  promoted to tier 1: the Russian at Subic Bay, and how long after that last week he left.**
+
+- [X] **What paper did you read at Camp Zama?**
+  > They were a free news paper, like 6 pages. I think the first page on the right side was 40
+  > guys killed.
+
+  **This reversed a conclusion reached the same morning.** The guide had recorded the paper
+  question as "essentially answered" — that a free stack at Camp Zama pointed to the Five-Star
+  Edition, the one being searched. It does not: the Five-Star runs 24–37 pages with casualty
+  lists on inside pages. **Re-promoted to the head of tier 1, and it is now the most urgent
+  question in the guide** because the subscription ends 17 September.
+
+- [X] **The interpreter — his name, or his rank?**
+  > Rank of interpreter is unknown. He doesn't know Vietnamese ranks. He seemed more of a
+  > buddhist than a soldier. Phonetically he says something like Trang-Zee-Nee-Yot-Na-Yong
+
+  **The probe did not fire, and that is a clean result.** He did not separate a rank from the
+  name, so this is *not* the independent confirmation the cold question was built to produce —
+  it must not be written up as one. What it gives is a second phonetic rendering that maps onto
+  the same reading. The search may now proceed on a hypothesis. (Issue #90.)
+
+- [X] **Gagne — what became of him?**
+  > I have no idea. He could still be alive for all I know.
+
+- [X] **Was Kennedy always the one in charge?** — asked with the other name deliberately
+  withheld, and he supplied it himself.
+  > Kennedy pretty much ran the camp. When he was gone, Lowry ran the camp. Kennedy wasn't
+  > there that last week when all the shit happened. At night, normally looking into Cambodia
+  > to the West you might see 15 camp fires going, that week there must have been a hundreds
+  > and hundreds like the whole thing was lit up at night with camp fires. I figured they were
+  > all enemy fires on the Ho Chi Men trail. This was right before the battle of the I Drang
+  > Valley. We had Mohawk airplane flying this everynight with infared. He could have been
+  > taking pictures with the infared.
+
+  **The single most productive answer in the call.** It corroborates "all the officers were
+  gone" from a second direction, it supplies the first context the archive has had for the 450,
+  and it names an aircraft type that generated records. **Follow-up promoted to tier 1: how
+  many nights.** *(One tension, not to be put to him: he anchors the week to Ia Drang, which
+  was November — after he says he was already in Japan.)*
+
+- [X] **The chaplain at Camp Zama.**
+  > I don't know the Chaplains name. He wrote it down in a book.
+
+  The name is lost; **the second sentence is the find** — a contemporaneous written record of
+  him reporting himself alive while listed dead. **Follow-up promoted to tier 1: what sort of
+  book.**
+
+- [X] **The bar on Tu Do street, and the explosion.**
+  > About in the middle of the tour. The US Embassy is what was blown up or their offices.
+  > Pretty sure it was the Embassy. I heard it was the Vietcong who did it. I was about a block
+  > away, I think I was at the Papillon and it rocked the building when it went off.
+
+  **Dates an event the archive could not place**: the VC car bombing of the US Embassy on Hàm
+  Nghi Boulevard, 30 March 1965 — squarely "in the middle of the tour", as he says. (Issue #91.)
+  Note he spells the bar **Papillon** here and **Papallon** on 2026-09-02; both are his.
+
+- [X] **The burnt helicopter — did you see it happen?** — the question that had changed shape
+  that morning, asked plainly.
+  > It was already there when I got to Vietnam. After the CBC people. After the rocket launch.
+
+  **He confirms what the archive had reasoned and could not test.** The wreck predates him: the
+  search window moves to before September 1964, and "7 guys dead, burnt for 3 hours" is what he
+  was told, not what he saw. (Issue #89.)
+
+- [X] **Spell Zukowski.**
+  > Zukowski. I don't know the first name. No one went by first name in the military.
+
+  **ZUKOWSKI** now carries his own authority — the third such spelling in the archive after
+  "Ton Son Nuht" and "Geutler". "Zekeowski" was a transcription of the sound and is superseded
+  for searching. The second sentence explains why so many men here are surnames only.
 
 ### The Memories harvest of 2026-09-02 — twenty-six answers in one sitting
 
@@ -448,9 +488,11 @@ All four asked **cold**, nothing from that day's document research supplied firs
 - [X] **"Is this you?"** — **2026-08-17:** VN-0028 confirmed as him.
 - [X] **"Who is your friend?"** — **2026-08-15:** **Ron Tototz**, from Des Moines, Iowa; died
   about ten years ago. The "WE…" name tape in VN-0014 is **Sgt. Weaver**.
+
 - [~] **The helicopter markings** — **ASKED 2026-08-23, NEGATIVE:** *"Doesn't recall what was
   on the helicopter."* He offered instead an Army-issue watch and **two M-60s on the door**.
   *The pocket patch half was never answered — Tier 2. Don't expect a second asking to help.*
+
 - [X] **Where the ops van stood** — **2026-08-23:** *"It was over in the property of **18th
   aviation**… **It was before the first cav aviation.**"* A unit that appears nowhere else in
   the archive, and a sequencing claim that would explain the remembered 1st Cavalry
