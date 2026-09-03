@@ -110,7 +110,14 @@ Every question here works on a telephone call. They are ordered by what the answ
   went to the hospital chaplain. A chaplain's office is a place that keeps paper, and neither
   the chaplain nor the length of his stay is recorded anywhere yet.
 
-- [ ] **4b. What paper did you read at Camp Zama — and what date did you get there?**
+- [~] **4b. What paper did you read at Camp Zama — and what date did you get there?**
+  **THE PAPER HALF IS ESSENTIALLY ANSWERED (2026-09-03, paraphrase):** his son reports Larry
+  described *a stack of the paper lying about free and accessible, which most soldiers could
+  just pick up.* That resolves the worry rather than confirming it — the free Three-Star Edition
+  went to troops **in Vietnam and the Seventh Fleet**, and Larry was in **Japan**; the digitised
+  edition is the **Five-Star**, the Far East one, whose masthead is on the front pages being
+  read. So the archive being searched is the right paper. **The DATE half is untouched and is
+  now the single most valuable thing he could give us.**
   *(ledger #1, issue #9 — added 2026-09-03, and between them these two could collapse a
   fortnight of searching into two or three issues)*
   *"What newspaper did you read in the hospital at Camp Zama? Did they hand it out, or did you

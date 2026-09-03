@@ -460,7 +460,7 @@ zoned issues, not exhaustive ones.
 |---|---|---|---|
 | **30 Aug 1965** (32pp) | `defense department killed` → **0 results** | p28 (Vietnam war page — Mekong battle, 1,200 Marines landing), p13 (battle continuation), p32 (listings/radio-TV) | **No name list.** Only enemy/friendly totals. |
 | **31 Aug 1965** (30pp) | `defense department killed names` → **0 results** | p13 (Natchez, house fire, F-105 pilot missing) | **No name list.** *p4 and p6 carry Vietnam content and were NOT viewed.* |
-| **3 Sep 1965** (33pp) | — | p32 (tropical storm, Marine shooters, booby-trap feature); **p28** (war-news continuation — Ben Cat, a week-long search for a Navy pilot downed 26 Aug — plus a Florida airport fire and Schweitzer; *page rendered only partially*) | **No name list on either.** *p21 and p31 still NOT viewed — p21 was blocked by a Cloudflare check.* |
+| **3 Sep 1965** (33pp) | — | **ALL FOUR Vietnam pages read**: p21 (Far East regional — Misawa, typhoons, a Camp Zama Red Cross item, "Dawson Convinced Brother Is Dead"), p28 (war-news continuation, Ben Cat and a Navy pilot search; rendered partially), p31 and p32 (the same zoned content — tropical storm, Marine shooters, booby-trap feature) | **No name list on any. SOLID NEGATIVE.** |
 
 **Honest reading.** Aug 30 and Aug 31 are reasonably solid: the exact-date term search returned
 zero *and* the main Vietnam war page was read on each. Sep 3 is the weakest of the three — one
@@ -485,3 +485,30 @@ family ever pins his Camp Zama arrival date, the window tightens to two or three
 - [ ] **Dec 1965 – Feb 1966 for a correction** — still promoted.
 - [ ] **Ask the family which paper he read.** The Three-Star Edition question (above) could
       make every negative here beside the point.
+
+
+## THE EDITION QUESTION IS ESSENTIALLY RESOLVED — and it favours the search
+
+**2026-09-03.** Larry's son, asked which paper he read at Camp Zama, reports that **Larry
+described a stack of the paper lying about free and accessible, which most soldiers could just
+pick up.** That sounded at first like it might point at the free Three-Star Edition and
+invalidate this whole archive. It does not — the geography settles it:
+
+- **The Three-Star Edition was announced (1 Sept 1965) for "troops in the Republic of Vietnam
+  and certain elements of the Seventh Fleet."** Larry was at **Camp Zama, in Japan**, under
+  USARJ. He was not in either group.
+- **The digitised Pacific Stars and Stripes is the FIVE-STAR EDITION** — the masthead on the
+  24 Sept 1965 front page read here says so explicitly, "AN AUTHORIZED PUBLICATION OF THE ARMED
+  FORCES IN THE FAR EAST — FIVE-STAR EDITION". That is the Far East/Japan edition.
+- Free copies stacked in a military hospital ward are entirely ordinary for the regular edition;
+  "free" identifies a distribution arrangement, not a different paper.
+
+**Conclusion: the paper Larry read at Camp Zama was almost certainly the Five-Star edition, which
+is the edition digitised here.** Every negative recorded in this file is therefore against the
+right paper, and they are worth more than they were an hour ago.
+
+*Held loosely, as it should be: this is his son's paraphrase of what Larry conveyed, not Larry's
+own words, and no one has yet asked him to describe the masthead. The remaining half of the
+tier-1 question — **what date he reached Camp Zama** — is untouched and is now the single most
+valuable thing he could tell us, because it would collapse the search window to two or three
+issues.*
