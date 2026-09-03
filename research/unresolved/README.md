@@ -319,7 +319,7 @@ Open questions:
    recorded, and worth naming on the NPRC clinical-records request alongside Camp Zama. And
    the Ginza day was a pass from the hospital, which he had to obtain. The friend's identity
    remains open.*
-8. **Sgt. "Chapman"** — a sergeant Larry named in the 2026-08-12 call; believed separate from
+8. **Sgt. "Chapman"** (issue #95) — a sergeant Larry named in the 2026-08-12 call; believed separate from
    Lowry/Lowery, and the comment arose around basic training. Confirm who he was and where
    basic training took place (`data/people/sgt-chapman.json`). *2026-08-15: substantially
    revised — Larry identified Chapman in VN-0024, photographed beside him in Vietnam, "a
@@ -443,7 +443,7 @@ Open questions:
     naming the OTHER witnesses, and confirming Sgt. Weaver, who Larry says responded. Note
     also that Larry now places the incident at the headquarters company rather than at a
     named base, so a records request should not assume Tân Sơn Nhứt.*
-12. **New names from the photo comments (2026-08-13)** — Kahn (company secretary, VN-0003),
+12. **New names from the photo comments (2026-08-13, issue #96)** — Kahn (company secretary, VN-0003),
     Major "Schwartzkoff" (VN-0006 — hypotheses in research/people/major-schwartzkoff.md,
     not to be mentioned to Larry), the Australian captain (VN-0006, AATTV lead), and a
     tentative Captain Kennedy from Boston (VN-0006). Verify spellings and identities via
@@ -459,7 +459,7 @@ Open questions:
    award from the Vietnamese government**, name not remembered. A foreign decoration appears
    in DD-214 item 26 and in the OMPF, so it is a directly checkable item for the NPRC return
    now in the mail (issue #19).*
-13. **New names from the 2026-08-15 session** — **Sgt. Weaver** (ex-Marine, VN-0014 — the
+13. **New names from the 2026-08-15 session** (issue #96) — **Sgt. Weaver** (ex-Marine, VN-0014 — the
     'WE...' name tape read by the survey now confirmed; bathroom-shooting witness),
     **PFC Jones** (VN-0012 believed, VN-0020; one Jones or two? — the monkey may have
     belonged to "Jones, the helicopter pilot"), **Mike Patrick** (VN-0010 — full name;
@@ -539,7 +539,7 @@ Open questions:
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
     rotating search antenna in the boulders — a documentable installation (USAF records)
     that could date the photos and corroborate the site.
-17. **The Pathet Lao prisoner** (VN-0023 comments, 2026-08-15) — a prisoner captured on a
+17. **The Pathet Lao prisoner** (VN-0023 comments, 2026-08-15, issue #97) — a prisoner captured on a
     patrol Larry accompanied, described as Pathet Lao ("pasthic Lao"), turned over to the
     CIA. A Laotian communist prisoner near Tây Ninh handed to the CIA would be remarkable
     and potentially documented (CIDG/SF after-action reports, agency records). Also from
@@ -734,3 +734,56 @@ Open questions:
     french," and that it was the Special Forces hangout where he would meet Sgt. Lowry (#4).
     Also settled in the same comment, and closing a Tier 3 question: **he was on the mountain
     for Tết, not in Saigon** — "When tet happened when I was there I was up in the mountain."*
+24. **Captain Kennedy** (issue #92) — the officer Larry names as running the camp, and the man
+    he credits with taking VN-0023. Record: `data/people/captain-kennedy.json`.
+    *2026-09-01, cold: "Special Forces ran the camp. Captain Kennedy was in Charge of the camp
+    most of the time." 2026-09-02, and this is what makes him searchable at last: "**Captain
+    Kennedy, he was from Boston, his mom sent him a telescope.**" A Special Forces captain, at a
+    named site, in a known window, with a home city, is a different search from a bare surname —
+    and Kennedy is common enough that without the city it was hopeless. THE TENSION STANDS AND IS
+    NOT RECONCILED: the order of battle names a different officer commanding here from 20 April
+    1965 (`research/people/nui-ba-den-roster-names.md`), and Larry did not say that name. A
+    commander of record and the man Larry experienced as running the place need not be the same,
+    and Larry independently describes constant rotation — the Australian major "was only there
+    like 3 days and then another would come." **Do not offer him the other name**; the follow-up
+    is in the guide at tier 1 #3, worded cold.*
+25. **Major Schwartzkoff** (issue #93) — named as being in charge of the boxing-callsign net,
+    and the fullest-drawn officer in the archive. Record: `data/people/major-schwartzkoff.json`;
+    spelling candidates in `research/people/major-schwartzkoff.md`, **none of which are read to
+    him**.
+    *He matters to the research and not only to the memoir: he is the only person Larry places
+    **above** the net — "Major Schartkoff was in charge of them" (2026-09-01, cold) — which puts
+    him exactly where the archive's biggest gap is, between #2/#57 and the call signs. The 2026-
+    09-02 BAR story is also the clearest picture anyone has of how Larry was treated there:
+    "Hunnewell you can go with us… I don't want anybody taking a pistol out in the jungle… The
+    major was a character. Real nice guy." Both "Schartkoff" and "Schwartzkoff" are his son's
+    transcriptions of a sound; **search the sound, not the string.** Name the obvious trap
+    explicitly: H. Norman Schwarzkopf Jr. was in Vietnam 1965–66 as a **captain**, not a major,
+    and the resemblance must be ruled in or out on records rather than on sound.*
+26. **Rosie, and the T-122 housekeeper** (issue #94) — two Vietnamese women Larry says reached
+    the United States. `data/people/rosie.json`; photographs VN-0151, VN-0154, VN-0155.
+    *2026-09-02: "the one with the white top made it to the United States, Ron Tototz told me.
+    She was 27 and had 9 kids. Her mother was on the right… **The one in the white shirt I knew
+    her name.**" And: "Cashier at the EM Club named Rosie made it back to the United States
+    also." VN-0151 is the same housekeeper as VN-0155. Of VN-0154: "This might be Rosie. I'm not
+    sure who it is." **A different kind of search from everything else here** — not American
+    servicemen in 1965 records but civilians who emigrated, which means immigration and
+    naturalisation indexes, and the real possibility that one or both are alive: a woman of 27 in
+    1965 is in her late eighties now, and nine children would be findable. **Handle with more
+    care than the military searches** — living people, families who may not wish to be found.
+    NOTHING IS SEARCHED until the name question has been put to him; he says he knew it.*
+27. **The USAF radar installation on Núi Bà Đen** (issue #62) — a dating anchor, and an issue
+    that has been open since 2026-08-16 without a ledger entry. Filed here to close that gap.
+    *The value is chronological: if the date the installation went in can be fixed, it bounds
+    what Larry could and could not have seen on the summit, independently of his memory.*
+28. **Major Lewis** (issue #63) — pilot of Rosethorn 007, an issue open since 2026-08-16 with no
+    ledger entry until now. `research/people/major-lewis.md`.
+    *Note the collision to keep straight, because the archive has already tripped on it once: a
+    **1LT Lewis** appears in the order of battle as commanding at Núi Bà Đen from April 1965
+    (#24), and **Major Lewis** is Larry's Rosethorn 007 pilot. Same surname, different rank,
+    different job. Nothing suggests they are the same man and nothing rules it out.*
+29. **Mike Patrick** (issue #60) — VN-0010; ranger, "special operations group for MACV," whom
+    Larry called a ghost or a spook. Issue open since 2026-08-23 with only partial ledger
+    coverage under #13.
+    *Also unresolved in the same frame: the other American sitting on the rocks at the edge of
+    the picture, unnamed. Ask open — the guide has it at tier 4.*
