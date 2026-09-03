@@ -667,3 +667,66 @@ ANDs words and no page carries all five. **"Tudo" as a single token is searchabl
 "Tu Do" is not**, and period American writing did sometimes close the space. Worth a direct
 `tudo` sweep of 1964–65 — cheap, and it would also catch OCR that ran the two words together,
 which is common in this archive's agate type.
+
+## The 12 June front page — the best calibration of Larry's memory the archive has
+
+**Pacific Stars and Stripes, Saturday 12 June 1965, p.1** (Vol 21 No 162, **Five-Star Edition** —
+which incidentally reconfirms the edition point above). Headline **"VIET BATTLE RAGES"** over the
+kicker **"31 American Casualties"** and an AP radiophoto captioned *"Smoke pours from buildings at
+Dong Xoai as battle rages between government and Viet Cong forces for control of the city."*
+
+What the story says, against what Larry says (2026-09-01 and 2026-09-02). **Three elements, and
+they do not all go the same way.**
+
+### 1. The timing — CORROBORATED, precisely
+
+> An estimated 1,500 to 2,000 guerrillas struck the town in a **pre-dawn assault Thursday**…
+
+Larry: *"they were attacked by about 4000 enemy all at once at **4am in the morning**, I was
+sitting at the radio when it happened."* **A pre-dawn assault is exactly what he describes**, and
+he gave the hour unprompted, sixty-one years on. This is the single cleanest corroboration of a
+detail in his testimony that this archive has produced from a contemporary source.
+
+### 2. The enemy strength — INFLATED, about double
+
+Paper: **1,500 to 2,000**. Larry: **"about 4000"**. Not a wild error, and the kind of figure that
+grows in retelling, but recorded as a difference and **not corrected in his record**.
+
+### 3. The air support — CONTRADICTED, and the shape of the error is the interesting part
+
+Larry: *"There was **no aircraft up to help** the guys at Dong Xoai at all, **everything was
+grounded**… That's why the Vietcong attacked because they knew none of the helicopters could
+fly."*
+
+The paper:
+
+> The missing included **eight Americans from two helicopters shot down by enemy fire.**
+> …The **first government relief force sent to the scene by helicopter was torn apart by heavy
+> enemy fire.**
+
+**Helicopters flew, and were destroyed doing it.** Relief was attempted on the first day and
+failed. So his weather explanation is not what the record shows.
+
+**But look at what survives.** The thing he remembers — *help did not get through* — is correct.
+What is wrong is the **reason** he gives for it: he attributes to weather what the paper
+attributes to enemy fire. That is a very ordinary way for memory to work — the outcome is kept,
+the cause is reconstructed afterwards into something that explains it.
+
+**This is the most useful thing found today, and it is not a fact about Đồng Xoài.** It is a
+calibration of how to read all of Larry's testimony: **his times and his outcomes are good; his
+numbers inflate; and his causal explanations are reconstructions and must never be treated as
+observations.** Apply it to the "450 civilians" day (#10/#66), where his defence rests on a
+causal claim — that he could not have called in a strike — and to the KIA report, where
+"probably Sgt Lowery" is explicitly his inference.
+
+**None of this goes to Larry as a correction**, and none of it is written into a rendered field.
+His account stands as given; the differences live here.
+
+### Also on that page, for other questions
+
+- The defenders are described as **American Army Seabees, Special Forces personnel and government
+  troops** — against Larry's "about 16 people, special forces team". The Special Forces element
+  alone could well be that size.
+- Vietnamese rangers who stormed the compound lost **30 killed and 15 wounded**.
+- **Two helicopters shot down with eight Americans missing** — worth noting beside issue #89,
+  though that wreck is on Núi Bà Đen, not at Đồng Xoài.
