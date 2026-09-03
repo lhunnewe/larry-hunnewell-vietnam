@@ -835,3 +835,63 @@ eleven days left.
 paired with a camp or province name, "CBC" alone, and the correspondents' names if the candidate
 film ever yields any. Larry dates the visit to about Nov–Dec 1964, so a targeted year-1964 sweep
 on softer terms is the next attempt. Issue #69.
+
+---
+
+# A WEAKNESS IN TODAY'S WINDOW, found by asking the right question (2026-09-03)
+
+**Do we have a confirmed date Larry left Vietnam? No. We do not.**
+
+Everything derived today about *where* to search rests on one unverified sentence, and that
+should be written down plainly rather than discovered later.
+
+| Record | What it says | Confidence |
+|---|---|---|
+| `1965-09-departure` | "About early September 1965" | **unverified-recollection** |
+| `1965-fall-japan-medical-command` | "Early September – November 1965" | strongly-supported — **but only for the fact of Japan**, from the DD-214's last duty assignment. It does not date his arrival. |
+| `1964-09-arrival-vietnam` | "About September 1964" | **unverified-recollection** |
+
+**The DD-214 gives no Vietnam dates whatsoever.** It names only the last duty assignment in Japan.
+
+## What this does to the re-derived window
+
+The window used today — last day on the mountain about **25–27 August 1965**, hence a casualty
+item around **30 Aug – 3 Sep** — was built by working the medevac chain backwards from *"arrived
+in Japan early September."* **That anchor is his own recollection and nothing else.**
+
+If he in fact reached Camp Zama in, say, early October, then his last day on the mountain moves
+to late September and **the Aug 30, Aug 31 and Sep 3 pages read today were the wrong issues.**
+Those reads are still worth having — they are scoped negatives either way — but they do not carry
+the weight the derivation implied.
+
+**The derivation is sound; its anchor is not.** That distinction should travel with it.
+
+## What the DD-214 *does* constrain, and it is worth having
+
+**Item 24c: Foreign and/or Sea Service — 1 year, 1 month, 18 days.** (Net service this period
+2y 1m 2d, which reconciles exactly with induction 28 Oct 1963 → separation 30 Nov 1965, so the
+form's arithmetic is internally sound and the foreign-service figure can be trusted.)
+
+Working back from a return to CONUS shortly before separation, that places his **departure from
+the United States in late September to mid-October 1964** — slightly later than the archive's
+"about September 1964", though within its margin.
+
+**It does not split Vietnam from Japan**, so it cannot date the medevac. What it does establish
+is that he was **overseas until roughly November 1965** — meaning the Japan period was months,
+not weeks, which is consistent with a September arrival followed by a long hospitalisation and
+medical holding, but equally consistent with an October one.
+
+**A quieter corroboration, from the same form:** *"RETAINED IN SERVICE 1 MONTH & 2 DAYS FOR THE
+CONVENIENCE OF THE GOVERNMENT."* His two-year obligation from induction ran out on **28 October
+1965**, and he was held to 30 November. A man still in a Medical Holding Detachment past his ETS
+is the obvious reason to retain him — which supports a substantial hospitalisation, without
+dating its start.
+
+## What would settle it
+
+In order of directness: **the clinical records** (requested 2026-08-17, pending); **DA Form 20,
+item 33**, in the OMPF (same request); **morning reports** for the Medical Holding Detachment;
+and now **the VA C-file**, since the rating decision proved to be the wrong document
+(`../records-request/clinical-records-followup.md`).
+
+**Until one of those lands, every window in this file is provisional.** Say so when citing them.

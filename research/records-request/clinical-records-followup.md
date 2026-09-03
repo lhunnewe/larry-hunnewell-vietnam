@@ -76,3 +76,29 @@ Fall back, in order:
 - [ ] **Read the VA paperwork already in `private/` for an admission date** — free, and may make
       this whole file unnecessary.
 - [ ] Send this supplementary request **only if** the reply arrives without clinical records.
+
+---
+
+## The VA paperwork has been read — NEGATIVE, 2026-09-03
+
+The suggestion above that the VA documents already in `private/` might carry the Camp Zama
+admission date has been checked. **They do not.**
+
+`private/documents/va/2015-10-21-va-rating-decision-and-dd214.pdf` is four scanned pages with no
+text layer (page images had to be extracted to read them; they were deleted afterwards, as they
+carry identifiers):
+
+- **p.1** — the DD-214 itself, already transcribed in `dd214-findings.md`. No Vietnam dates and
+  no hospital dates; the only medical trace is the last duty assignment, MHD USA MED COMD.
+- **pp.2–4** — the **2015 rating decision letter**: coronary artery disease post-myocardial
+  infarction raised to 60%, PTSD with alcohol use disorder to 30%, combined rating 70% effective
+  21 August 2015, plus benefits boilerplate. **Nothing about 1965 at all.**
+
+**Why it was never going to be there, and what would be:** a rating *decision letter* states
+conclusions, not the evidence behind them. The document that lists evidence with dates is the
+**VA claim file (C-file)** — obtainable from the VA by the veteran under a Privacy Act request,
+separately from anything NPRC holds. **That is now the only free avenue left for the admission
+date**, and it is worth filing alongside the NPRC wait.
+
+- [ ] **Request the full VA C-file** (Privacy Act request to the VA Records Management Center),
+      which would contain the service treatment records the 2015 adjudication drew on.
