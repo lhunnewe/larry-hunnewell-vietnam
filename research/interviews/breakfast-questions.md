@@ -14,16 +14,16 @@ lists live in the observation records.
 > probes that only work if details aren't supplied. Reach it by direct URL / bookmark only,
 > and don't re-link it from any public page. Same goes for spoilers in `researchNotes`
 > fields that render on photo/footage/place/person pages he browses: keep "don't prime him"
-> hypotheses (Ketel's beer barrel, the two-friends split) in `research/` files, not in
-> rendered fields.
+> hypotheses (Ketel's beer barrel, the reading of "Trung Xi Nhat Nham") in `research/` files,
+> not in rendered fields.
 
-**How the tiers work now**
+**How the tiers work**
 
 The order is by *what the setting allows*, not by when the question was written.
 
 | Tier | What it is | When to use it |
 |---|---|---|
-| **1** | Live cold probes, no photograph needed | **A phone call.** Ask these first; several decay if primed, and one blocks a search |
+| **1** | Live cold probes, no photograph needed | **A phone call.** Ask these first; several decay if primed, and two block searches |
 | **2** | Needs the picture in front of him | The table, with a tablet |
 | **3** | Quick confirmations | Fast yes/no over coffee |
 | **4** | Stories and people | No research agenda — let him wander |
@@ -51,9 +51,11 @@ The order is by *what the setting allows*, not by when the question was written.
   three different things here and the archive has already confused two of them: whose words,
   whose keystrokes, and whose spelling. You type, so the keystrokes are always yours — but a
   spelling Larry chose letter by letter is evidence, and a spelling you supplied for a sound
-  is not. The base name looked like four independent renderings until it turned out only one
-  ("Ton Son Nuht", 2026-08-13) was his; the rest were transcription. Note which it is at the
-  time, because nobody can recover it later.
+  is not. **The working notation, established 2026-09-02: write `(his spelling)` beside a
+  name Larry spelled out, and `(my spelling)` beside one you rendered from the sound. Anything
+  unmarked is read as yours.** It has already paid for itself twice — "Ton Son Nuht" and
+  "Geutler" are the only two renderings in the whole archive that carry Larry's own authority,
+  and without the notation both would have been lost among transcriptions.
 - **Retire a probe here the same day it is answered.** This guide has twice gone on asking
   questions Larry had already answered, because the answer went into `data/recollections/`
   and nothing came back up to the guide. When a probe is spent, move it to "Answered — the
@@ -61,13 +63,13 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ---
 
-## If you only get ten minutes on the phone
+## If you only get ten minutes
 
-1. **Gagne** — was he French himself, and where did he die? *(blocks a search)*
-2. **Đồng Xoài** — mountain, or the Saigon van?
-3. **The CBC crew** — described cold, before anyone shows him a film.
-4. **Camp Zama** — did he see the Stars and Stripes piece in the ward? *(ledger #1)*
-5. **Was Kennedy always the one in charge?** *(don't offer the other name)*
+1. **The interpreter at the burnt helicopter** — what did you all call him? *(blocks a search)*
+2. **Gagne** — what became of him after you were flown out?
+3. **Was Kennedy always the one in charge?** *(don't offer the other name)*
+4. **The chaplain at Camp Zama** — do you remember his name?
+5. **The bar on Tu Do street** — roughly when was the explosion?
 
 ---
 
@@ -75,101 +77,94 @@ The order is by *what the setting allows*, not by when the question was written.
 
 Every question here works on a telephone call. They are ordered by what the answer unlocks.
 
-- [ ] **1. Gagne — nationality first, then where he died.** *(ledger #18, issue #68)*
-  *"You mentioned Gagne, and that he was Foreign Legion. Was he French himself, or was he
-  from somewhere else? And where was he when he died?"* Ask softly, and in that order.
-  - [~] **PARTIALLY ANSWERED 2026-09-01** — *"He mentioned on the call the guy was french.
-    He also mentioned that Legionaires couldn't go home."* (paraphrase;
-    `data/recollections/2026-09-01-phone-gagne-french.json`)
-  - **This does not close it, and the reason matters: the French Foreign Legion recruits
-    foreigners by design.** A Legionnaire could be German, Spanish, Algerian or American and
-    still be a Legionnaire, so "french" may be reporting **the unit rather than the
-    passport**. The second half — *Legionnaires couldn't go home* — matches a real feature of
-    the Legion (service under an assumed identity, men with reasons not to return home) and
-    is not a detail invented by accident; treat it as a lead about **who Gagne was**, not a
-    fact about him.
-  - **Why it is first:** nationality decides which casualty records could ever name him, and
-    **until he answers plainly, no search is run.** Looking in the wrong record set and
-    finding nothing produces a false negative that can stand for years.
+- [ ] **1. The interpreter — his name, or his rank?** *(ledger #22 — blocks a search)*
+  *"The man standing by the burnt helicopter — the interpreter. What did you all call him?
+  Was that his name, or his rank? Where was he from?"*
+  He gave the archive a wholly new person on 2026-09-02 — nine languages, a warrior monk, and
+  the only man he has ever described as assigned to protect him. **There is a reading of the
+  name that would change every search term, and it is deliberately not written here or on any
+  page he browses** (`research/people/trung-xi-nhat-nham.md`). Ask cold; if he separates it
+  himself that is independent confirmation, and if we supply it first his agreement proves
+  nothing. **Nothing is searched until he answers** — the same discipline that protected the
+  Gagne question.
 
-- [ ] **2. Where were you sitting when Đồng Xoài was hit?**
-  *"When Dong Xoai was hit and you were on the radio — were you up on the mountain, or down
-  at the radio van in Saigon?"* Supply no other detail.
-  *His 2026-09-01 answer runs the mountain and the radio together without saying which set he
-  was at, and a great deal rests on which it was.*
+- [ ] **2. Gagne — what became of him?** *(ledger #18)*
+  *"You said Gagne was still alive when they flew you out. Did you ever hear what happened to
+  him after that? Did you ever try to find him?"*
+  On 2026-09-01 he said Gagne died; on 2026-09-02, asked directly, he said Gagne did not die.
+  **Both stand; don't raise the difference with him and don't ask him to choose.** What he
+  knows is that Gagne was alive on the day he left — so this asks only about after.
 
-- [ ] **3. The CBC crew — described before anything is shown.** *(ledger #19, issue #69)*
-  *"Tell me about the CBC people. How many were there? What gear did they have? Was there a
-  reporter as well as a cameraman? Did they say where in Canada they were from? Where were
-  you all when they filmed?"*
-  **Ask first and show nothing.** A candidate film has been found and is free to watch
-  (`research/events/cbc-documentary-1964-65.md`), which is exactly why the order of
-  operations matters: a description given cold can be matched against a film; a description
-  given after watching one cannot.
-
-- [ ] **4. The CBC pictures — described, not hunted.**
-  *"What do the CBC pictures show — where were you all, and what were they doing?"*
-  He says photographs of the crew are among his own. The archive cannot find them, and a
-  machine search of all 157 scans for film crews found nothing
-  (`research/photos/scan-reconciliation-2026-09-01.md`). A described frame can be matched
-  against the survey even when the survey never labelled it as a film crew.
-
-- [ ] **5. Camp Zama — the ward, and the flight out.** *(ledger #1 — the archive's oldest
-  question)*
-  *"How long were you in the hospital at Camp Zama? Did you see the Stars and Stripes piece
-  in the ward? And how did they fly you out of Vietnam?"*
-  He arrived in Japan around early September 1965 as a medevac patient and separated
-  30 November 1965, so the misreport window is roughly Sept–Nov 1965 and the ward is where he
-  would have seen it. **Pacific Stars and Stripes is not on newspapers.com** and the
-  hometown-echo search is a confirmed negative, so his own memory of the ward is currently a
-  better lead than the paper. *(Photos VN-0093/VN-0095 help but aren't needed.)*
-
-- [ ] **6. Was Kennedy always the one in charge?**
+- [ ] **3. Was Kennedy always the one in charge?**
   *"Was there ever another officer up there besides Captain Kennedy? Did whoever was in
   charge change while you were there?"*
   **Do not offer the other name.** He named Captain Kennedy cold on 2026-09-01; period
   records name a different officer as detachment commander in the same window
-  (`research/people/nui-ba-den-roster-names.md`). If he produces that name himself it is
-  corroboration; if we hand it to him it is worth nothing.
+  (`research/people/nui-ba-den-roster-names.md`). Still unasked.
 
-- [ ] **7. The names on the rocks.** *(ledger #4, #12 — reads fine aloud, photo optional)*
-  Read them slowly: *"Rewerts. Garvey. Kirby, First Special Forces. Captain Lynch. Dean — it
-  says deceased. Willcut. …Was Sergeant Lowry's name painted up there too?"*
-  **Stricter since 2026-09-01.** Two of these names have been matched to real Special Forces
-  officers serving in Tây Ninh in 1964, in period records. The names came off his own
-  photograph, so reading them to him is fine — **saying which two, or who they were, or what
-  they did, is not**, until he has answered cold. If he volunteers a rank, a job or a story
-  against a name, that is independent corroboration.
-  *Show VN-0035 zoomed in, and VN-0133, if you have a screen.*
+- [ ] **4. The chaplain at Camp Zama.** *(ledger #1 — **VN-0093**, **VN-0095** if you have a
+  screen; the unnamed hospital friend in VN-0093 is a separate standing question)*
+  *"You went straight to the chaplain when you saw your name. Do you remember his name, or
+  what he did about it? And how long were you at Camp Zama altogether?"*
+  He has now said he saw his name **on a KIA list** within three or four days of arriving and
+  went to the hospital chaplain. A chaplain's office is a place that keeps paper, and neither
+  the chaplain nor the length of his stay is recorded anywhere yet.
+
+- [ ] **5. The bar on Tu Do street, and the explosion.** *(ledger #23)*
+  *"The night of the explosion by the Palace — roughly when was that, early in your tour or
+  late? Was it the Papallon, or a different bar? What did people say afterwards about who
+  did it?"*
+  Saigon bar bombings of 1964–65 were reported in the press and are individually dateable —
+  one of the very few things in this archive findable in newspapers rather than military
+  records. He was in the street giving first aid, so anything that fixes the date fixes him
+  in place on a documented day.
+
+- [ ] **6. Dating the burnt helicopter — by what it sat between.** *(ledger #21)*
+  *"The helicopter that burned on the mountain — was that before or after the Canadian film
+  people came? Was it before or after the day with the rocket launcher?"*
+  He says he doesn't know whose aircraft it was and gave no date, so **relative** dating
+  against two events he can place is the only route from him. A seven-fatality loss should be
+  findable in aviation loss records once the window narrows.
+
+- [ ] **7. Spell Zukowski.** *(ledger #12)*
+  *"Zukowski — the one who went to the pool with you and Ron. Spell that for me the way you'd
+  spell it. What was his first name?"*
+  He rendered it **Zukowski** on 2026-09-02 and **Zekeowski** earlier. Both are your
+  transcriptions of a sound, so the difference is noise, not a change of mind — which is
+  exactly why one spelling from him would be worth more than both.
 
 - [ ] **8. The missing photographs.**
   *"Were there other pictures that didn't go in with the rest — another album, a box, a
   folder somewhere? Did you ever give any away?"*
-  He says photographs are missing. The scan reconciliation shows the archive holds every
-  frame the lab was given, numbered unbroken from E001 to E157 — so anything missing was
-  never scanned. The gap is upstream of the scanner, and only he knows where to look.
+  Still open, and **not** answered by finding the CBC frame. The scan reconciliation shows the
+  archive holds every frame the lab was given, E001–E157 unbroken, so anything missing was
+  never scanned. Only he knows where to look.
 
-- [ ] **9. The mountain, day to day.** *(VN-0044, VN-0059 if you have a screen)*
-  *"How did you get up — helicopter? How long were your stints up there?"* And the boy of
-  VN-0009: *"the kid that was with you all the time — what was his name? What became of
-  him?"* *(ledger #16 — about 12, shot in the leg, married at 10, and still unnamed.)*
+- [ ] **9. The medic — one more pass.** *(ledger #14)*
+  *"The medic who drowned at Nha Trang — you said Kansas or Nebraska. If you had to pick one,
+  which feels right? Do you remember anything about him at all — where he trained, what
+  people called him?"*
+  His "Kanas or Nebraska" loosened the anchor the whole 399-casualty sweep was built on.
+  Kansas has never been swept. Don't read him any of the near-miss names.
 
 ---
 
 ## Tier 2 — Needs the photograph in front of him
 
-- [ ] **The guitarist — the most valuable unnamed man in the archive.**
+- [ ] **The guitarist — still the most valuable unnamed man in the archive.**
   Show **VN-0005** (the Cholon pool) beside **VN-0003/VN-0007/VN-0008** (the guitar
   sessions): *"It'll come to you — who was the guitar player?"*
-  The VN-0005 left man is someone Larry "knew really well" but cannot name, and he is the
-  guitarist of the other three. **One name resolves four photographs at once.**
-  *(The Japan hospital friend of VN-0093 is a separate unnamed man — don't merge them.)*
+  **He got closer on 2026-09-02 without getting there:** "Ron Tototz, Zukowski and that guy
+  who played the guitar would go here." So the guitarist is a fourth man in that pool group,
+  named alongside two men we can name. **One name still resolves four photographs at once.**
 
 - [ ] **Which base was home?** — Show **VN-0136** (camp panorama), **VN-0117** (C-123 over
   the hooches), **VN-0017** (T 123 hooch). *"Where was this camp? How long did you live here
   vs. anywhere else?"*
-  *Partly answered 2026-08-15: "T 123 my father says has to be their hooch" — his and Ron's.
-  **The base's NAME is still the missing anchor for half the collection's geography.***
+  **The base's NAME is still the missing anchor for half the collection's geography.** New
+  fixed points to place it against, all from 2026-09-02: the EM Club was "right across from my
+  hooch," VN-0082 was taken "right next to my hooch," and his unit's armory is the building in
+  that frame with the EM Club just off the right edge.
 
 - [ ] **The pocket patch.** — Show **VN-0028**: *"What did the patch say?"*
   *The helicopter half of this question is spent — see the Answered record. Ask only about
@@ -178,110 +173,93 @@ Every question here works on a telephone call. They are ordered by what the answ
 
 - [ ] **VN-0028's other people and things.** — *"Who is the young soldier under your arm?
   What was the equipment in the metal cabinet behind you? Whose Thompson is he holding?"*
-  **VN-0029** still awaits its own look.
+  *(Note: the Thompson in **VN-0082/VN-0084** is answered and is Larry's own — Gagne signed it
+  out of the Special Forces armory for him. The one in VN-0028 is a different question.)*
+
+- [ ] **VN-0029 — whose helicopter was it?** — *"You said this wasn't Rosethorn 007. Do you
+  remember whose it was, or where you were going?"*
+  *Partly answered 2026-09-02: "I was in someone else helicopter in this photo. I don't think
+  it was Rosethorn 007."*
 
 - [ ] **The ops van's neighbours.** — Show **VN-0011**: *"Who are the two flight controllers
   on the steps?"* And with **VN-0014** on the table: *"What did Weaver's pocket patch say?"*
-  *Where the van stood is answered — see the Answered record. These two are what remain.*
 
 - [ ] **Was that Bien Hoa burning?** — Show **VN-0074** and **VN-0078**. *"You photographed
   this fire twice from the air. What happened?"*
-  *Ask the open half first and let him date it himself before offering the May '65 explosion.
-  Unlocks a dateable documented event, and possibly the unit's home field.*
+  *Ask the open half first and let him date it himself before offering the May '65 explosion.*
 
 - [ ] **Can we watch your movie film together?** — One chapter at a time on the website
   (**VF-0001**–**VF-0005**, Footage page). Let him narrate; ask only *"Where is this? Who's
-  holding the camera?"* The tree-lined boulevard in **VF-0005** may be his Saigon.
-  Follow-ups: what camera did he carry, and **do the original 8mm reels still exist?**
-  *Unlocks narration for all 22 minutes — places, dates, the aircraft drop in VF-0004 and its
-  dark stretch. If the reels survived, a professional re-scan becomes possible.*
+  holding the camera?"* Follow-ups: what camera did he carry, and **do the original 8mm reels
+  still exist?**
 
 - [ ] **The Ginza day.** — Show **VN-0095**: *"Was the Ginza day a pass from the hospital?
   What do you remember about that restaurant — the sign, the entrance, the stairs?"*
   **Don't supply details.** If he spontaneously describes a giant beer-barrel doorway, that
   identifies Ketel's — see `research/places/ginza-heidelberg.md`.
 
+- [ ] **The CBC film, now that he has described the crew.** — The order of operations has
+  finally flipped: he described the crew cold on 2026-09-02, so **a candidate film can now be
+  shown to him without spoiling anything** (`research/events/cbc-documentary-1964-65.md`).
+  *"Is this the crew? Is that you?"*
+
 ---
 
 ## Tier 3 — Quick confirmations (fast yes/no over coffee)
 
-- [ ] **The town** — VN-0055 ("CHERRY" bar sign): "Is this Tây Ninh, under the mountain?"
-- [ ] **The monument square** — VN-0130: "Which town is this?"
-- [ ] **The crash** — VN-0148: "Whose helicopter went down here? Did everyone get out?"
-- [ ] **Saigon trips** — VN-0120 (City Hall), VN-0068 (Tết flowers): "What took you into
-  Saigon — duty or passes? Were you there for Tết '65?"
-- [ ] **The other pool frames** — VN-0075/VN-0083: "Same pool as the French one in Cholon?"
-  *(VN-0004/VN-0005 are answered.)*
-- [ ] **The beach medic** — VN-0021/VN-0022: "The medic from Nebraska who went out into the
-  water — do you remember his name, or when it happened? Were you there that day? Was he
-  Army, or a Navy man? Was it during your first weeks at Nha Trang in '64, or a later trip
-  back?" *(ledger #14. A full sweep of the official casualty file — issue #61, 2026-08-16 —
-  found NO Nebraska serviceman and NO medic drowned in Vietnam during his tour window. His
-  answers decide which anchor to relax before re-searching. **Don't read him any of the
-  near-miss names.**)*
+- [ ] **The monument square** — VN-0130: *"You thought this was Nha Trang — does that still
+  feel right, or could it be somewhere else?"* *(He answered "I think this is Nha Trang" —
+  tentative enough to be worth one confirmation, and no more.)*
+- [ ] **The gibbon** — VN-0152: *"And the black gibbon — whose was he?"* *(The monkey is
+  answered: Sarge. The gibbon never has been.)*
+- [ ] **The mother and baby** — VN-0145, VN-0156: *"Who were they? Did you ever learn what
+  became of them?"*
 
 ---
 
 ## Tier 4 — Stories and people (no research agenda — pure memoir gold)
 
-- [ ] **The guitar circle** — VN-0003/0007/0008: "Who could actually play? What did you sing?"
-  *(Kahn and Ron Tototz named in VN-0003, 2026-08-13. The guitarist himself is the Tier 2
-  question above.)*
-- [ ] **The rocket launcher day** — VN-0006, which he took himself atop the mountain,
-  ~June 1965: "What happened when it fired? Did it hit the crossroad? Who was the Australian
-  captain? Tell me about Major Schwartzkoff — what was he like?" *(Just listen on the major —
-  no name suggestions; see `research/people/major-schwartzkoff.md`.)*
 - [ ] **The patrol and the prisoner** — VN-0023, when he's in the mood: "Tell me about that
-  patrol — how was the prisoner captured? How did you all know he was Pathet Lao? Did you go
-  on many patrols with Captain Kennedy?" *(ledger #17)*
+  patrol — how was the prisoner captured? How did you all know he was Pathet Lao?" *(ledger
+  #17. He has since described drawing a BAR from the armory for a patrol with Major
+  Schwartzkoff — worth asking whether this was that day.)*
 - [ ] **Mike Patrick** — VN-0010: "How did you know Mike Patrick? What was he like? And who's
-  the other American sitting on the rocks at the edge of the picture?" *(Ask open — he
-  already said ranger / MACV special operations / "ghost.")*
+  the other American sitting on the rocks at the edge of the picture?"
 - [ ] **Parr** — VN-0025: "Parr, from the Nha Trang days — do you remember his first name?
   Where was he from? Did you stay in touch?"
-- [ ] **Rosie and the club** — "Which club was that — where was it? And how do you know Rosie
-  made it to America — did you hear from her?" *(Could be a whole story.)*
+- [ ] **Rosie** — *"Rosie who was the cashier at the EM Club — how do you know she made it to
+  America? Did you hear from her?"* *(2026-09-02: she was the club's cashier, and Larry says
+  she made it to the United States. VN-0154 "might be Rosie. I'm not sure who it is.")*
+- [ ] **The housekeeper who made it to America** — VN-0151, VN-0155: *"The one in the white
+  top — you said you knew her name. Does it come back to you?"* *(2026-09-02: she was 27 with
+  nine children, her mother is the woman on the right, and Ron Tototz is how Larry knows she
+  reached the United States.)*
 - [ ] **Sgt. La Franceaous** — "You mentioned a Sergeant La Franceaous — where did you know
   him from? What did he do?"
-- [ ] **The other officer at the Huey** — VN-0020: "The officer on the left next to Captain
-  Guegler — it may come back to you. And what was Guegler's first name?" *(ledger #5)*
+- [ ] **Captain Guegler's first name** — VN-0020: "The officer on the left next to him — it
+  may come back to you. And what was Guegler's first name?" *(ledger #5. His surname spelling
+  is settled — "Geutler" is Larry's own — so the first name is what is left.)*
 - [ ] **Rosethorn 007 crew** — VN-0016: "Besides Major Lewis and Captain Guegler, do you
-  remember other pilots or crew on Rosethorn 007?" *(Open question only — see
-  `research/people/major-lewis.md`.)*
-- [ ] **PFC Zekeowski** — VN-0027: "How do you spell Zekeowski, best guess? What was his
-  first name? What did he do?" *(Also asked in the page comments; no answer yet.)*
+  remember other pilots or crew on Rosethorn 007?"
 - [ ] **The battalion and the flight line neighbours** — with VN-0012 and VN-0020 on the
   table: "Do you remember which battalion your company belonged to? What other helicopter
   outfits flew out of Tan Son Nhut — how were their aircraft marked?" *(Open questions only —
-  do **NOT** name any unit or describe any emblem to him; candidate readings live in
-  `research/units/flight-following-1964-65.md` and `research/magnification/README.md`.)*
-- [ ] **The python** — VN-0153: "Who caught it, and where were you?" *(He has already said
-  they ate it and it was delicious. VN-0153 is uncataloged with no date, so anything he says
-  about the day is the only thing that will ever date it.)*
+  do **NOT** name any unit or describe any emblem to him.)*
 - [ ] **Basic training** — "Where was basic training?" (Kennedy was shot a month in — "where
-  were you when you heard?" is the way in.) And reconcile Chapman: "Did you know Sgt. Chapman
-  from training AND Vietnam, or just over there?" *(ledger #8 — Chapman is in VN-0024 with
-  Larry, in Vietnam, an E7.)*
+  were you when you heard?" is the way in.) And reconcile Chapman, with **VN-0024** on the
+  table: "Did you know Sgt. Chapman from training AND Vietnam, or just over there?" *(ledger
+  #8 — Chapman is in VN-0024 with Larry, in Vietnam, an E7.)*
 - [ ] **The motorcycle days** — "Tell me about your motorcycle days in Inglewood — did you
-  ever crash?" *(Newspapers show two: South Gate Press Sep 1, 1957 — his motorcycle hit a car
-  at Firestone Blvd. at ~16 — and Daily Breeze Jul 10, 1959 — thrown to the pavement at
-  Crenshaw and 120th at 18, Daniel Freeman Hospital, feared fractures, listed "good." **Let
-  him tell it before showing the clippings**; the 1959 item prints "Larry B." so his telling
-  also confirms it's him. See `research/people/hunnewell-family-newspapers.md`.)*
-- [ ] **The mother and baby at the battery bank** — VN-0145, VN-0156: "Who were they? Did you
-  ever learn what became of them?"
-- [ ] **The T 122 family portrait** — VN-0155: "The ladies next door — laundry? cooking?
-  names?"
-- [ ] **The mascots** — VN-0017 and VN-0152: "Was there one Jones or two — the PFC working on
-  the Huey (VN-0012, VN-0020) and the helicopter-pilot Jones with the monkey? And the black
-  gibbon — whose was he?" *(The monkey is answered: Sarge, whom Ron hated.)*
-- [ ] **The club nights** — VN-0030–0034: "How often did shows come through? Anyone you can
-  name in the crowd?"
-- [ ] **The Thompson** — VN-0082, VN-0084: "Was that your gun on your bunk? Ever have to use
-  it?"
-- [ ] **The woman in the red áo dài** — VN-0154: "Who is she? This one looks like it
-  mattered."
-- [ ] **The girl holding the camera** — VN-0151: "Did she take any of these pictures?"
+  ever crash?" *(Newspapers show two: South Gate Press Sep 1, 1957 and Daily Breeze Jul 10,
+  1959. **Let him tell it before showing the clippings**; the 1959 item prints "Larry B." so
+  his telling also confirms it's him.)*
+- [ ] **Chris Cox** — *(2026-09-02, volunteered: he named his son Chris after Chris Cox, who
+  owned Agrotech Machine and rode with the Prospectors motorcycle club, and the middle name
+  after Ian Fleming.)* *"Tell me about Chris Cox — how did you know him?"* Family history
+  rather than Vietnam, and worth having in his words.
+- [ ] **The music** — VN-0084: *(he had a stereo between his bunk and Ron's, playing Mantovani,
+  Ferrante & Teicher, and Peter Nero.)* *"What else did you listen to over there? Where did you
+  get the records?"*
 
 ---
 
@@ -289,16 +267,18 @@ Every question here works on a telephone call. They are ordered by what the answ
 
 - **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:
   "Do you remember this man and this day?" His answer also decides whether the photo is ever
-  shown publicly. Related: VN-0148 (the crash site).
-- **The bathroom shooting** — **the full account arrived 2026-08-15**
+  shown publicly.
+- **The bathroom shooting** — the full account arrived 2026-08-15
   (`data/recollections/giscus-stories-c18035411.json`; timeline entry
-  `data/timeline/1965-02-bathroom-shooting.json`): victim shot in the chest in the shower,
-  the drunk gunman aimed at Larry, Sgt. Weaver (E5) responded, Air Force police took his
-  statement, and he heard the shooter got 20 years hard labor in Okinawa. Remaining gentle
-  follow-ups: "Did the man in the shower live? Do you remember the shooter's name, or the
-  victim's? About what time of night was it?" *(The earlier family memory was of a knife —
-  don't correct him either way. `data/recollections/2026-brief-bathroom-knife.json`. Court
-  martial search: ledger #11.)*
+  `data/timeline/1965-02-bathroom-shooting.json`). Remaining gentle follow-ups: "Did the man
+  in the shower live? Do you remember the shooter's name, or the victim's?" *(Court martial
+  search: ledger #11.)*
+- **The 450 civilians, and the KIA report** — now one story in his own telling, and the
+  heaviest thing in the archive. He has given it in full once, unprompted
+  (`data/recollections/giscus-stories-c18259364.json`), including Sgt Lowery's accusation and
+  his own defence that he never changed his radio station and could not have called in a
+  strike. **Do not go back at this for detail unless he opens it himself.** What research
+  needs from it is already on the page.
 
 ---
 
@@ -307,115 +287,140 @@ Every question here works on a telephone call. They are ordered by what the answ
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
 
+### The Memories harvest of 2026-09-02 — twenty-six answers in one sitting
+
+The largest single harvest in the archive's history, and the session that closed most of the
+tier-1 board. Records are in `data/recollections/giscus-*`.
+
+- [X] **Where were you sitting when Đồng Xoài was hit?** — **"On top the radio mountain."**
+  And the reason no help came, which nobody had asked for: "They couldn't get Saigon because
+  there was no direct path and the ran and wind was blowing 100 mph… There was no aircraft up
+  to help the guys at Dong Xoai at all, everything was grounded. That's why the Vietcong
+  attacked because they knew none of the helicopters could fly."
+- [X] **The CBC crew, described cold** — three men 25–35, a full-size **16mm** camera, "Yes a
+  new reporter" as well as a cameraman, "Toronto or Montreal. Just a guess," on Núi Bà Đen
+  fifty to a hundred yards below the point, **Nov or Dec 1964**.
+- [X] **The CBC pictures** — **found: VN-0057**, which the archive had swept for and missed.
+  "I took the photo. The other 4 are Cambodians coming back from patrol." Now cataloged
+  (`data/photos/VN-0057.json`). → **the film can now be shown to him: Tier 2.**
+- [X] **Gagne** — **"No - he did not die. He was still alive when I got medivac out."** French
+  "pretty sure," but "He could have been born in Germany or Belgium, I don't know." And he is
+  placed at last: **he ran the Special Forces armory** and signed Larry's Thompson out of it.
+  → **Tier 1 #2 is what remains.**
+- [X] **The names on the rocks — VN-0035, seven clean negatives.** Rewerts, Garvey, Kirby,
+  Captain Lynch, Dean, Willcut, Lowry: **N to all seven.** "These names were there when I
+  arrived. I didn't know any of them. The names on the left are probably special forces."
+  *This closes the standing instruction to check Sgt. Lowry against the rock (ledger #4).*
+- [X] **The mountain, day to day** — VN-0044: "Got there by Helicopter. The stints were a week
+  or 10 days. Sometimes I would take 2 of them back to back. **I liked it there. It was safer
+  there.**" The boy of VN-0009 is still unnamed, now asked twice — "I don't remember the kids
+  name. He was shot twice I think in the leg." *Treat as a settled negative, not an open ask.*
+- [X] **The KIA report and the 450 civilians, told as one story** — the helicopter that spotted
+  "about 450 of them **digging defensive positions**," Sgt Lowery's accusation an hour later,
+  and "Somebody up there, probably Sgt Lowery, probably reported me KIA." Then the medevac
+  chain the archive never had: Captain **Geutler** flew him off the mountain and dropped Sgt.
+  Weaver in his place; yellow jaundice at the medic trailer; ~3 days in Cholon; 4–5 days at
+  **Subic Bay**; then Camp Zama, where "In the first 3-4 days I saw the name in **the KIA
+  list** and went straight to the chaplin." → **ledger #1 and #10; Tier 1 #4.**
+- [X] **VN-0055 is not Tây Ninh** — "I think it's Ton Suhn Nhut intersection and pretty early
+  when i arrived in vietnam." A gate with soldiers, a machine gun position up the street to
+  the right, and the bicycle taxi he names a *ciclo*.
+- [X] **Tết** — "When tet happened when I was there I was up in the mountain." *Not Saigon.*
+- [X] **The pool** — VN-0075 and VN-0083 both confirmed as the French Pool in Cholon. And why
+  they were there: "Because we were Radio Operators we couldn't get KP duty or anything so
+  when we were off, we were to be relaxing."
+- [X] **The crash** — VN-0148: "7 guys dead in it. It burnt for 3 hours. I don't know whose
+  helicopter it belonged to." → **now a searchable loss, ledger #21; dating question in
+  Tier 1 #6.**
+- [X] **The club** — VN-0030/VN-0031: the **EM Club**, across from his hooch, a show almost
+  every night, officers not allowed, mixed drinks ten cents, performers mostly from the
+  Philippines. "I don't know any of the people in the photos. They are from other units."
+- [X] **The python** — VN-0153: "This is at the very top of the mountain. These are my
+  Cambodians guys. they were getting ready to eat it and I wanted some and i got some. It was
+  good. When you are eating sea rations, anything is good." *Places and effectively dates a
+  photograph that had neither.*
+- [X] **The Thompson** — VN-0082/VN-0084: his own, signed out for him by Gagne; his bunk with
+  mosquito netting, Ron on the right, a stereo between them, and an Ian Fleming paperback.
+- [X] **The rocket launcher day** — VN-0006: fired with "a 6 volt battery, just two wires";
+  **Captain Kennedy was from Boston** and his mother sent him a telescope; "At the bottom of
+  the hill is a crossroad of the Ho Chi Min trail. **We fired it and we hit it.**" The
+  Australian major "was only there like 3 days and then another would come. A lot of
+  rotation." And Major Schwartzkoff sending him back for a real weapon — "If you go out there
+  with that pistol you are unarmed" — so he drew a BAR. "The major was a character. Real nice
+  guy."
+- [X] **Jones and the helicopter** — VN-0012: "Jones is looking at a bullet hole in the rotor
+  which causes vibration."
+- [X] **The medic at Nha Trang** — VN-0021: Army, "**our medic for my unit**," "riptide came
+  down and pulled him under," "from **Kanas or Nebraska** and never seen water," "during the
+  first couple week Nha Trang in '64." No name. → **the state anchor loosened: Tier 1 #9.**
+- [X] **The T 122 women** — VN-0155: "yes laundry, cooking, cleaning floor." The one in the
+  white top reached the United States (Ron Tototz told him), was 27 with nine children, and
+  her mother is the woman on the right. VN-0151 is the same housekeeper.
+- [X] **VN-0029** — "I was in someone else helicopter in this photo. I don't think it was
+  Rosethorn 007." → **residual in Tier 2.**
+- [X] **VN-0130** — "I think this is Nha Trang." *Tentative; one confirmation in Tier 3.*
+- [X] **VN-0154** — "This might be Rosie. I'm not sure who it is. Rosie were red a lot and was
+  always dressed nice and clean."
+- [X] **The Saigon bombing** — VN-0120, volunteered: the Palace, an explosion at a bar, "someone
+  had there throat bleeding so I took off my t-shirt and wrapped it around real tight." And the
+  **Papallon** on Tu Do street, the Special Forces bar where he met Lowry. → **ledger #23;
+  dating question in Tier 1 #5.**
+
 ### The four cold probes — telephone, 2026-09-01
 
-All four were asked **cold**, with nothing from that day's document research supplied first.
-Raw capture and analysis: `2026-09-01-phone-answers.md`. Fidelity assigned `transcribed` for
-all four; the CBC answer is `paraphrase` (third-person voice).
+All four asked **cold**, nothing from that day's document research supplied first. Raw capture:
+`2026-09-01-phone-answers.md`. Fidelity `transcribed` for all four; the CBC answer `paraphrase`.
 
 - [X] **What was the camp for?** — *"The best place to have readios because it was high…
   could transmit 25 miles but with being on the mouttain and on the curvature of the Earth
-  allow the signal to connect."* He named the mission and explained the physics himself. The
-  RADIX Press order of battle, read hours earlier and never shown to him, prints the site's
-  official mission as **"MISSION: RADIO RELAY"**. **This is the strongest corroboration of
-  Larry's account the archive has produced.**
-  `data/recollections/2026-09-01-phone-why-the-mountain.json`
-- [X] **Did a camp ever call you while it was being attacked?** — **the probe was spent by
-  him volunteering the answer to a different question.** Unasked, he gave the Đồng Xoài
-  attack: ~16 defenders, "about 4000 enemy all at once at 4am," the man on the other radio
-  "dying from shot in the stomach," and **"Gagne was with me and died, he was a french
-  foreign Legionair."** Gagne appears nowhere else in the archive.
-  *Tensions held open, not reconciled: a UTT/68th memoir has that camp's radio officer
-  rescued alive; the published battle opened the night of 9 June 1965 and he says 4 a.m.*
-  → **follow-up promoted to Tier 1 #2 (where was he sitting) and Tier 1 #1 (Gagne).**
+  allow the signal to connect."* The order of battle, read hours earlier and never shown to
+  him, prints the site's official mission as **"MISSION: RADIO RELAY"**. **The strongest
+  corroboration of Larry's account the archive has produced.**
+- [X] **Did a camp ever call you while it was being attacked?** — spent by his volunteering
+  the Đồng Xoài attack unasked, and naming Gagne for the first time.
 - [X] **Who ran the camp?** — *"Special Forces ran the camp. Captain Kennedy was in Charge of
-  the camp most of the time. But I really worked for 1st Cavalry"*. Upgrades Captain Kennedy
-  from tentatively-identified to, in Larry's words, the man in charge. Period records name a
-  different officer as detachment commander in the same window; **the difference stands, it
-  is not reconciled.** "I really worked for 1st Cavalry" goes to ledger #2 / issue #10 and
-  still sits against the division's arrival in country around September 1965.
-  `data/recollections/2026-09-01-phone-who-ran-the-camp.json`
-  → **follow-up promoted to Tier 1 #6.**
+  the camp most of the time. But I really worked for 1st Cavalry."* → **Tier 1 #3.**
 - [X] **What was the camp called?** — *"They called the camp The Mountain. The guys in my Unit
-  in Saigon called it the mountain."* Also confirms in passing that the Saigon end of the net
-  was his own unit. `data/recollections/2026-09-01-phone-the-mountain-name.json`
+  in Saigon called it the mountain."*
 - [X] **The other boxing call signs** — *"Body Jab 42, Right Cross, Upper Cut, Might have been
-  a Body Jab 41, 43, Major Schartkoff was in charge of them."* On 2026-08-23 this archive
-  predicted the siblings — **Uppercut was on that written list** — and he produced it cold,
-  with Right Cross and a 41/42/43 series supporting the hypothesis that the digits mark the
-  station within a net. Format difference recorded and **not** corrected: a period memoir
-  gives the Đồng Xoài camp radio as "55 Body Jab", number first, against his "Body Jab 42".
-  `data/recollections/2026-09-01-phone-boxing-call-signs.json`
+  a Body Jab 41, 43, Major Schartkoff was in charge of them."* Uppercut was on this archive's
+  written list of predicted siblings before he said it.
   *Residual, low priority: does he know which camps were 41 and 43?*
-- [X] **The CBC documentary** — *"They were doing a documentary and they asked me some
-  questions… They were there about two weeks filming… I believe it was done in '64 maybe
-  around Christmas time."* (paraphrase)
-  `data/recollections/2026-09-01-phone-cbc-crew.json`
-  → **follow-ups promoted to Tier 1 #3 and #4.**
-- [X] **The python** — VN-0153, "Did they eat it?" — *"My father said they did and it tasted
-  delicious."* (paraphrase; `data/recollections/2026-09-01-phone-the-python.json`)
-  → **follow-up in Tier 4.**
+- [X] **The python, first pass** — "Did they eat it?" — *"My father said they did and it tasted
+  delicious."*
 
 ### Earlier sessions
 
-- [X] **"Is this you?"** — **2026-08-17:** Larry confirmed **VN-0028** (name tape HUNNEWELL,
-  arm around a Vietnamese soldier on the mountain) is him. With his earlier
-  self-identifications in VN-0015 and VN-0022 (2026-08-15), the identity thread through the
-  whole collection is anchored by his own word, not a machine reading of a name tape.
-  → **follow-ups promoted to Tier 2.**
-- [X] **"Who is your friend?"** — **2026-08-15:** the beach-table man of VN-0022 is **Ron
-  Tototz** — *"Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang"* — from Des
-  Moines, Iowa; passed away about ten years ago; hated Sarge the monkey. The "WE…" name tape
-  in VN-0014 resolved separately as **Sgt. Weaver**. *(ledger #9, #15)*
-  → **the remaining unnamed man is Tier 2's guitarist.**
+- [X] **"Is this you?"** — **2026-08-17:** VN-0028 confirmed as him.
+- [X] **"Who is your friend?"** — **2026-08-15:** **Ron Tototz**, from Des Moines, Iowa; died
+  about ten years ago. The "WE…" name tape in VN-0014 is **Sgt. Weaver**.
 - [~] **The helicopter markings** — **ASKED 2026-08-23, NEGATIVE:** *"Doesn't recall what was
-  on the helicopter."* He offered instead an Army-issue watch and **two M-60s on the
-  helicopter door — actual machine guns.** The tail-emblem probe has been run once and
-  returned nothing; the emblem readings stay withheld, but **don't expect a second asking to
-  produce more.** *The pocket patch half was never answered — Tier 2.*
+  on the helicopter."* He offered instead an Army-issue watch and **two M-60s on the door**.
+  *The pocket patch half was never answered — Tier 2. Don't expect a second asking to help.*
 - [X] **Where the ops van stood** — **2026-08-23:** *"It was over in the property of **18th
-  aviation**. They were huge. They had probably about 300 helicopters including sky cranes.
-  **It was before the first cav aviation.**"* A unit that appears nowhere else in the archive,
-  and a sequencing claim that would explain the remembered 1st Cavalry association without his
-  having served in it. Also 2026-08-15: VN-0015 is Larry — *"This is me inside the radio van
-  starting the night 12-hour shift alone"* — Weaver is an ex-Marine, and VN-0011 is the van's
-  exterior: *"these two guys are flight controllers. I was a flight controller also."*
-  → **follow-ups promoted to Tier 2.**
+  aviation**… **It was before the first cav aviation.**"* A unit that appears nowhere else in
+  the archive, and a sequencing claim that would explain the remembered 1st Cavalry
+  association without his having served in it.
 - [X] **Which hospital in Japan?** — **2026-08-13, unprompted:** *"I was at Camp Zama in Japan
-  in Sugami Uro"* [Sagami-Ōno]. He was told only that research had a high-confidence name,
-  not which one, and produced it himself. Unlocks the NPRC clinical-records request, filed by
-  hospital. *(ledger #7)* → **follow-ups promoted to Tier 1 #5 and Tier 2.**
+  in Sugami Uro"* [Sagami-Ōno]. → **the ward follow-ups are Tier 1 #4.**
 - [X] **The mountain radio room** — **2026-08-15** (VN-0059): *"This is my radio area with 3
-  radios, single side band, fox mike x2… I was the only annex of it [Saigon center]."*
-  → **follow-ups promoted to Tier 1 #9.**
-- [X] **The beach** — **2026-08-15:** Nha Trang, beach hut #3 or #4 (VN-0021, VN-0022).
-  → **the drowned-medic follow-up is in Tier 3.**
-- [X] **The pool** — **2026-08-15** (VN-0004/VN-0005): *"French Swimming pool in cholon,
-  Chinese district of Saigon."* → **the other pool frames are in Tier 3.**
-- [X] **The monkey** — **2026-08-15:** Sarge, whom Ron hated, and "may have belong to Jones,
-  the helicopter pilot." → **the gibbon and the two-Joneses question are in Tier 4.**
-- [X] **"Su-ners"** — **ANSWERED 2026-08-23, and he said the word himself, unprompted:
-  "They were called Sappers."** He added that there were sappers as young as ten. The probe
-  is spent and the term is no longer withheld. *(The 2026-08-12 call had rendered it
-  "su-ners"; if a specific attack can be matched, ledger work continues there.)*
+  radios, single side band, fox mike x2… I was the only annex of it."*
+- [X] **The beach** — **2026-08-15:** Nha Trang, beach hut #3 or #4.
+- [X] **The monkey** — **2026-08-15:** Sarge, whom Ron hated, "may have belong to Jones, the
+  helicopter pilot." *The gibbon is still open — Tier 3.*
+- [X] **"Su-ners"** — **2026-08-23, and he said the word himself, unprompted: "They were called
+  Sappers."** He added that there were sappers as young as ten.
 
 ### Housekeeping — all closed
 
-- [X] **Service number** — answered by the DD-214 (photo from Mom, Aug 2026); recorded in the
-  private archive and used on the SF-180. It contains **no 42** — so the family memory that
-  "42 mattered to him" was about something else. **CONFIRMED 2026-08-13:** as the Body Jab 42
-  comment was being written, Larry told his son directly that the camp call sign is why he
-  uses that number. *The 42 mystery is closed; the number itself stays off the repo.*
-- [X] **VA file number** — **answered Aug 2026**, recorded in `private/notes/`. *Note: the
-  number as he recalls it differs by one digit from the number on the Oct 2015 VA letter —
-  both are in the private notes, and **the letter's number goes on forms.*** The DD-214 has
-  also turned up (transcription in `research/records-request/dd214-findings.md`); it does
-  **not** name the Vietnam unit, only the last assignment in Japan. A Montana county recorder
-  holds a certified copy if a cleaner one is ever needed. *Identifiers stay off the repo.*
+- [X] **Service number** — answered by the DD-214 (Aug 2026); recorded privately. It contains
+  **no 42**, and on 2026-08-13 Larry said directly that the camp call sign is why he uses that
+  number. *The 42 mystery is closed; the number stays off the repo.*
+- [X] **VA file number** — **answered Aug 2026**, in `private/notes/`. The number as he recalls
+  it differs by one digit from the Oct 2015 VA letter; **the letter's number goes on forms.**
+  The DD-214 (`research/records-request/dd214-findings.md`) does **not** name the Vietnam unit.
 - [X] **More slide boxes or prints?** — **Aug 2026 (family):** *"I don't think so. I scanned
-  everything my father gave to me. The 8mm footage can be redone though"* — a
-  higher-quality re-scan of the film is an open possibility. *(This is about what was
-  **scanned**; whether photographs exist that were never handed over is Tier 1 #8.)*
-- [X] **Who labeled the slides — you or the lab? Did any get flipped?** — **Aug 2026
-  (family):** a friend who worked at Longs Drugs did the developing for free. *(Two scans are
-  confirmed mirror-flipped: VN-0072, VN-0075.)*
+  everything my father gave to me. The 8mm footage can be redone though."* *(About what was
+  **scanned** — whether photographs exist that were never handed over is Tier 1 #8.)*
+- [X] **Who labeled the slides — you or the lab?** — **Aug 2026 (family):** a friend who worked
+  at Longs Drugs did the developing for free. *(VN-0072 and VN-0075 are mirror-flipped.)*

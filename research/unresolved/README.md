@@ -42,6 +42,38 @@ Open questions:
    read all 44 "inglewood" 1965 hits. It was PAUSED on cost with nine candidate casualty
    lists still unread visually — keyword absence proves nothing here, so the sweep is a
    documented partial negative with a named resume point, not a closed search.*
+   *2026-09-02 (Memories harvest) — **THIS QUESTION AND #10 ARE ONE EVENT, and the search has
+   been aimed at the wrong kind of document.** Larry told the whole sequence as a single story
+   for the first time (`data/recollections/giscus-stories-c18259364.json`): on his last day on
+   the mountain a helicopter spotted ~450 enemy digging outside the perimeter, he passed it to
+   Sgt Lowery, and an hour later Lowery came back with "You son of a bitch you killed 450
+   civilians down there!" Then: "**Somebody up there, probably Sgt Lowery, probably reported me
+   KIA. All the officers were gone, so he was the only one on the other radio in Special Forces
+   that I know of.**" That is the first mechanism the archive has ever had for how a false
+   report could be generated — and it is Larry's inference, hedged twice with "probably," not
+   something he witnessed. See `data/people/sgt-lowry.json`. The numbers #1 and #10 are kept
+   rather than combined, because both are cited across the repo and in issue threads; treat
+   them as one question with two doors.*
+   *2026-09-02 — **THE REFRAME, and it is the most useful thing in this harvest.** He says: "In
+   the first 3-4 days I saw **the name in the KIA list** and went straight to the chaplin in
+   the hospital in Camp Zama. I told him I was KIA and I was still alive. I doubt if there was
+   somebody with the same name." A **casualty list** is not a news item about Larry — it is a
+   dense name column. That explains the shape of every negative so far: the 2026-08-17 Stars
+   and Stripes sweep searched keywords and got zero across eleven OCR variants, and dense
+   name-column lists are exactly what OCR fails on. And the sweep was paused with **nine
+   candidate casualty lists still unread visually** — which are now the precise target, not a
+   leftover. **Resume there first.** The window tightens too: 3–4 days after arrival at Camp
+   Zama, and he reached Japan ~early September 1965, so look at lists published roughly the
+   first fortnight of September 1965. NEW RECORD PATHS, both untried: the **Camp Zama hospital
+   chaplain** — he went straight to one and said he was alive, which is the kind of thing a
+   chaplain's office logs — and **Subic Bay**, newly in the chain below.*
+   *2026-09-02 — the medevac chain, which the archive did not have, and which dates the whole
+   sequence: extracted from the mountain by **Captain "Geutler"** (Larry's own spelling — see
+   #5), who dropped **Sgt. Weaver** off in his place; back to the base, where a medic told him
+   "No shit you have yellow jaundice"; **~3 days in Cholon** near the French swimming pool;
+   **4–5 days at Subic Bay in the Philippines**; then **Camp Zama**. He was "in and out of
+   consciousness" and "didn't know I was reported KIA at this time." Jaundice, not a wound, is
+   what took him out of Vietnam — which bears on the NPRC clinical-records request (#7).*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
@@ -230,6 +262,18 @@ Open questions:
    the official Army history documents the Núi Bà Đen CIDG camp at half A-team strength —
    1 officer, 5 enlisted — in October 1964, so "the only one there from Special Forces that
    day" is entirely consistent with the documented garrison.*
+   *2026-09-02 — he is now the hinge of #1 as well as #10. Larry: "Somebody up there, probably
+   Sgt Lowery, probably reported me KIA. All the officers were gone, so he was the only one on
+   the other radio in Special Forces that I know of." Larry's inference, hedged twice, and
+   recorded as inference — but it means identifying this man would speak to both questions at
+   once. NEGATIVE, clean, and it closes a standing instruction: asked whether Lowry's name was
+   painted on the rock in VN-0035, Larry said **no** — and no to all six other names read to
+   him, adding "These names were there when I arrived. I didn't know any of them." **The rock
+   is not a route to identifying him; stop checking it.** New material to search on instead:
+   Larry says "Lowry usually worked at **Body Jab 42 Nui Ba Den**" and that he would meet him
+   off duty at a bar called **the Papallon on Tu Do street** in Saigon, which he describes as
+   the Special Forces hangout. He also describes him as an alcoholic, and says Gagne did not
+   get on with him. Remaining avenues unchanged: SFA rolls, NARA 5th SFG / B-32 rosters.*
 5. **Captain "Guegler"** — spelling, identity, and possible connection to the KIA report.
    *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
    officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
@@ -238,6 +282,19 @@ Open questions:
    the 'J' name-tape tension is resolved — that tape is the U.S. ARMY tape below aviator
    wings; his own name tape is hidden. Further notes (not for rendered fields):
    research/people/captain-guegler.md.*
+   *2026-09-02 — **the spelling question is answered, and four of the five renderings turn out
+   not to count.** Larry's son wrote "captain Geutler (his spelling)" into the record and
+   confirmed afterwards that he had asked Larry directly and Larry spelled it that way. So
+   **"Geutler" is Larry's own** and the other four — Guegler, Guetler, Gutler, Getler — are his
+   son's transcriptions of a sound, made at different times. They are not independent evidence
+   of anything and must stop being counted as four data points. **Lead every roster search with
+   Geutler.** This is the second time the archive has made this mistake: the base name looked
+   like four renderings until only "Ton Son Nuht" proved to be Larry's.*
+   *2026-09-02 — the "possible connection to the KIA report" in this entry's title is no longer
+   speculative in Larry's telling. He is the pilot who flew up and took Larry off the mountain
+   on the last day, dropping Sgt. Weaver off in his place, hours after the accusation (#1, #10).
+   Nothing documentary ties him to the report itself. Separately, VN-0029 is NOT a Rosethorn 007
+   frame: "I was in someone else helicopter in this photo. I don't think it was Rosethorn 007."*
 6. **Bombs jettisoned at sea** — separate documented procedure, ROE, aborted missions, political
    restriction, and rumor.
 7. **The Japan medical command** — **largely answered by Larry himself (call, 2026-08-12):**
@@ -344,6 +401,28 @@ Open questions:
     MIDCAP/MILCAP indemnification claims docketed by **Sector S-5** are where a friendly-fire
     civilian death generated paper in 1965 — Tây Ninh Sector's S-5 files now go into the RG
     472 request. Findings go to the family first; nothing written to a page Larry browses.*
+    *2026-09-02 — **this is the same event as #1**, told end to end for the first time
+    (`data/recollections/giscus-stories-c18259364.json`). The numbers are kept rather than
+    combined because both are cited across the repo and in issue threads; treat them as one
+    question with two doors. **And the detail that reframes the question: what Larry says he
+    reported was not civilians.** "Last day I was there, helicopter spotted enemy outside
+    perimeter, **about 450 of them digging defensive positions**. I never heard the helicopter,
+    but anyways I told Sgt Lowery about the enemy digging." The number 450 therefore enters the
+    story as a **count of enemy troops seen digging in**, radioed by a helicopter crew — and
+    becomes "450 civilians" only in Lowery's accusation an hour later. That is a materially
+    different question from the one this entry has been asking. It does not settle what
+    happened; it says the archive should also be looking for a **strike on a reported enemy
+    concentration** near the mountain, not only for a civilian-casualty record.*
+    *2026-09-02 — **Larry's own defence, which is a capability claim and is checkable.** "I knew
+    that was wrong because i never changed my radio station. I never changed it ever. **Like I
+    can't just call up a jet to call up and attach something.**" He is saying a radio relay
+    operator on a fixed net had no means to direct air support at all. If the net structure and
+    his equipment can be established from #2 and the order of battle, that claim can be tested
+    against doctrine rather than left as self-exculpation — and it would matter a great deal to
+    an eighty-six-year-old man who has carried this for sixty-one years. Note this sits well
+    with the USOM Sept 1965 finding above: an operation north of the mountain that **moved** a
+    village rather than killing it. Findings go to the family first; nothing written to a page
+    Larry browses.*
 11. **The bathroom shooting court-martial** — Larry says the man who shot at him "would have
     been court martialed, there should be a record" (~Feb–Mar 1965 by his dating). Locating
     it would date the incident and recover the real surname of his bunk mate and witness
@@ -422,6 +501,18 @@ Open questions:
     the last location-plausible candidate (Sgt Gilbert Smith Jr., 101st) is ruled out —
     Coffelt detail places his drowning in the Song Ba river near An Khe. Every in-window
     drowning is now located; none at Nha Trang.*
+    *2026-09-02 — **the anchor that failed is the one Larry has now loosened himself**, which is
+    the outcome the three disambiguating questions were written to produce. Asked which state,
+    he said "**Kanas or Nebraska**" — so the Nebraska anchor that the whole 399-casualty sweep
+    was built on was never firm, and the negative should be re-read as "no Nebraska match,"
+    not "no match." Kansas has not been swept. He held the other anchors: "He was **Army**. He
+    was **our medic for my unit**" — his own unit's medic, not a stranger on the beach — and
+    "**during the first couple week Nha Trang in '64**," which tightens the window rather than
+    relaxing it. Cause of death as he tells it: "riptide came down and pulled him under and the
+    undertow pulled him uderwater," and "The guy was from Kanas or Nebraska and never seen
+    water." He does not remember the name. NEXT: sweep Kansas casualties in the same file, on
+    the same terms, and keep the "medic" gloss loose — he may be describing his unit's aidman
+    rather than a man with an MOS that reads medic.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
@@ -483,6 +574,27 @@ Open questions:
     an assumed identity, and men with reasons not to return to their own countries. It is not
     a detail invented by accident, and it is a lead about who Gagne was rather than a fact
     about him.*
+    *2026-09-02 — **GAGNE DID NOT DIE, and the premise of this entry is reversed by Larry
+    himself.** Asked the sharpened question, he answered: "Was he French himself? **Yes, pretty
+    sure.** From somewhere else? **He could have been born in Germany or Belgium, I don't
+    know.** Where was he when he died? **No - he did not die. He was still alive when I got
+    medivac out.**" (`data/recollections/giscus-stories-c18259589.json`.) The 2026-09-01 record
+    says he died. **Neither is corrected and neither is preferred** — both are Larry's, a day
+    apart, and they sit side by side in `data/people/gagne.json`. What changes is the search: a
+    casualty file is now the **wrong universe**, not merely a risky one. A man who outlived
+    Larry's tour appears in DCAS and on the Virtual Wall exactly nowhere, so the hold that
+    protected this question from a false negative has done its job and can lift — in a new
+    direction. Nationality moved only halfway: "pretty sure" French, immediately widened to
+    Germany or Belgium, which is precisely the Legion's own pattern and still not a passport.*
+    *2026-09-02 — and he is placed at last, in a photograph the archive already had.
+    **Gagne ran the Special Forces armory**, and it was Gagne who signed out the Thompson
+    standing against Larry's bunk in **VN-0082** and handed it to him: "He went into the special
+    forces armory, signed it out and handed it to me. He was in charge of the armory." An
+    armorer is a billet, and billets generate paper. NEXT, and no longer blocked: French Foreign
+    Legion service records (Bureau des Anciens Militaires Étrangers), and any Détachement B-32 /
+    5th SFG roster naming an armorer at Núi Bà Đen in 1964–65. Still worth one gentle question —
+    **what became of him after Larry was flown out** — because Larry only knows he was alive on
+    the day he left. Issue #68 needs its premise rewritten, not closed.*
 19. **The CBC documentary** (2026-09-01 phone call, issue #69) — Larry says a Canadian
     Broadcasting Corporation crew filmed on site for about two weeks, that they asked him
     questions on camera, that they all ate together, and that photographs of the crew are
@@ -499,6 +611,23 @@ Open questions:
     independently says photographs are missing. The traceable half is the film itself: CBC
     output of that period is catalogued, and a documentary would be findable in a way almost
     nothing else in this archive is.*
+    *2026-09-02 — **the photograph exists, it was always here, and the conclusion written above
+    was wrong.** Larry identified **VN-0057** as the CBC crew, unprompted and before being shown
+    anything: three men between about twenty-five and thirty-five, a full-size **16mm** camera,
+    "**Yes a new reporter**" as well as a cameraman, "Toronto or Montreal. Just a guess," filmed
+    on Núi Bà Đen fifty to a hundred yards below the point — and **he took the picture himself**,
+    which is why he is not in it. The other four men are "Cambodians coming back from patrol."
+    His date moves earlier: **Nov or Dec 1964**, against "maybe around Christmas time" the day
+    before; both stand. Record: `data/photos/VN-0057.json`. **Why the survey missed it, and the
+    lesson:** the vision pass read the frame as a jungle halt and proposed the fair-haired man in
+    civilian clothes might be Larry. Nobody in the frame is holding a camera in a way a machine
+    would call a camera, and civilian dress in the jungle read as an off-duty American rather
+    than as press. A search for "movie cameras, tripods, booms" could not have found this
+    picture, and the negative it produced was reported with more confidence than it had earned.
+    The "never scanned" inference built on it is withdrawn. **The photograph claim is corrected;
+    the missing-photographs question (Larry says pictures are missing) stands on its own and is
+    still open.** Next, and the order matters: he has now described the crew cold, so a candidate
+    film can finally be shown to him without spoiling anything.*
 20. **The Veterans History Project** (2026-09-01, issue #70) — an avenue this archive has
     never searched, found by accident while checking whether a 1968 Núi Bà Đen film had
     escaped into commercial newsfilm libraries. The **Terona Chivers Collection**
@@ -573,3 +702,35 @@ Open questions:
     "long career" exclusions should therefore be treated as soft.**
     NOTHING FURTHER NEEDS SEARCHING. What remains is watching: every collection on the
     reading list is online and free. research/people/vhp-sweep-2026-09-01.md, issue #71.*
+21. **The burnt helicopter on Núi Bà Đen** (VN-0148, 2026-09-02, issue #89) — Larry says of the wreck in
+    his own photograph: "7 guys dead in it. It burnt for 3 hours. I don't know whose helicopter
+    it belonged to." Record: `data/photos/VN-0148.json`.
+    *NOT YET SEARCHED, and it is the most tractable new question in this harvest. A loss with
+    seven fatalities is not a minor incident and is not the kind of thing that goes unrecorded:
+    Army aviation losses of 1964–65 are indexed by date, place and airframe, and the Vietnam
+    Helicopter Pilots Association loss database plus the Army accident files should between
+    them name a seven-fatality loss at or near the mountain inside Larry's tour. A hit would
+    **date a photograph the archive has had to leave undated**, and would name a crew. Hold the
+    figure loosely: Larry was a radio operator on the mountain, not aircrew, and says outright
+    he does not know whose aircraft it was — "7 guys dead" is what he understood at the time,
+    not a count he made.*
+22. **"Trung Xi Nhat Nham"** (VN-0148, 2026-09-02, issue #90) — the man standing at that wreck, and the
+    only person Larry has ever described as assigned to protect him: "He was an interpreter and
+    could speak 9 languages. He was a warrior monk." New to the archive. Records:
+    `data/people/trung-xi-nhat-nham.json`, `research/people/trung-xi-nhat-nham.md`.
+    *NOT SEARCHED, deliberately, and for the reason #18 and #61 both taught: a reading of the
+    name that would change every search term is filed in the research note, **and Larry has not
+    been asked yet.** Ask him cold first — the question is in the guide — then search. The
+    reading is kept out of every rendered field under rule 6.*
+23. **The Saigon street bombing** (VN-0120, 2026-09-02, issue #91) — Larry describes an explosion at a bar
+    near the Palace: "there was an explosion so I ran and someone had there throat bleeding so I
+    took off my t-shirt and wrapped it around real tight. I don't know if he lived or died.
+    there was nothing but wounded people all over the street. There was a bomb of some kind."
+    *NOT YET SEARCHED. Terrorist bombings of Saigon bars and restaurants in 1964–65 were
+    reported contemporaneously and are individually dateable — this is one of the few events in
+    the archive that should be findable in the mainstream press rather than in military records,
+    and Larry places himself in the street giving first aid. Related and separately dateable:
+    he says the bar he drank in on Tu Do street was **the Papallon**, "which means butterfly in
+    french," and that it was the Special Forces hangout where he would meet Sgt. Lowry (#4).
+    Also settled in the same comment, and closing a Tier 3 question: **he was on the mountain
+    for Tết, not in Saigon** — "When tet happened when I was there I was up in the mountain."*

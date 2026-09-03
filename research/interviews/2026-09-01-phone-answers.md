@@ -1,9 +1,10 @@
 # Phone call, 2026-09-01 — the four cold probes, answered
 
 **Captured:** 2026-09-01, by Larry's son, by telephone, the same day the probes were written.
-**Status:** RAW CAPTURE, pending classification. **Fidelity not yet assigned** — see the open
-question at the bottom. Nothing here has been promoted to `data/recollections/` yet, and the
-text below must not be edited when it is.
+**Status:** CLASSIFIED AND PROMOTED (2026-09-02). Fidelity is assigned: answers 1–4 are
+`transcribed`, and the CBC answer is `paraphrase` (third-person voice). All five are in
+`data/recollections/2026-09-01-phone-*.json`, where the fidelity travels with the words. The
+text below is the raw capture and must not be edited.
 **Why this matters:** all four questions were asked **cold**. Nothing from the day's document
 research was supplied to him. What follows is therefore independent testimony, not an echo.
 
@@ -138,16 +139,24 @@ thread, and one that could end in footage of Larry at twenty-one.
 
 ## Open questions from this call
 
-1. **Fidelity.** Were answers 1–4 typed as he spoke them (`transcribed`), or written up from
-   memory after the call (`paraphrase`)? The parentheses in answer 2 read like the son's
-   inserted context around Larry's words; if so, the record should note that. The CBC answer
-   is third-person and is a `paraphrase` regardless.
-2. **Gagne** — spelling, and when and where he died. Whether he was U.S. Army, or a French or
-   Vietnamese national serving alongside. This is the difference between a searchable casualty
-   record and an unfindable name.
-3. **Which photographs show the CBC crew** — the archive IDs would let them be catalogued now.
-4. **Where was Larry sitting** during the Đồng Xoài attack: on the mountain, or in the radio
-   van at the Saigon end?
+*Four of these five closed on 2026-09-02. Kept with their answers rather than deleted, because
+the order in which they closed is itself part of the method record.*
+
+1. ~~**Fidelity.**~~ **RESOLVED 2026-09-02.** Answers 1–4 are `transcribed` — typed as he spoke
+   them — and the parenthesis in answer 2 is his son's inserted context around Larry's words,
+   noted in that record. The CBC answer is `paraphrase`.
+2. ~~**Gagne** — when and where he died.~~ **REVERSED 2026-09-02, by Larry.** *"No - he did not
+   die. He was still alive when I got medivac out."* Nationality: *"Yes, pretty sure"* French,
+   immediately widened to *"He could have been born in Germany or Belgium, I don't know."* Both
+   accounts stand; neither is corrected. The casualty-record framing of this question is
+   withdrawn — see ledger #18 and issue #68.
+3. ~~**Which photographs show the CBC crew.**~~ **ANSWERED 2026-09-02: VN-0057**, which the
+   archive had swept for and missed. *"I took the photo. The other 4 are Cambodians coming back
+   from patrol."* Now cataloged.
+4. ~~**Where was Larry sitting** during the Đồng Xoài attack.~~ **ANSWERED 2026-09-02: "On top
+   the radio mountain."** With the reason no help came — 100 mph wind and rain, everything
+   grounded, *"That's why the Vietcong attacked because they knew none of the helicopters could
+   fly."*
 5. **Captain Kennedy vs 1LT Lewis** — worth one gentle follow-up: was there ever an officer at
    the camp besides Kennedy, and did the man in charge change while he was there? Ask without
    offering the name Lewis.

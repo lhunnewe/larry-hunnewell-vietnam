@@ -2,8 +2,14 @@
   "photoId": "VN-0148",
   "originalFilename": "1920236-R2-E060.jpg",
   "originalPath": "Native Vietnamese/1920236-R2-E060.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The burnt helicopter on Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": ["trung-xi-nhat-nham"],
+  "description": "A man in a dark beret and camouflage fatigues stands squarely in front of the crumpled, partly burned wreckage of a helicopter driven into a brushy hillside — buckled fuselage panels, a scorched engine mass at right, torn interior surfaces at left, snapped saplings ringing the gouge. Larry names him as Trung Xi Nhat Nham, an interpreter who spoke nine languages and who he says was protecting him, and places the wreck on Núi Bà Đen. Of the crash itself he says seven men died in it and that it burned for three hours. He does not know whose helicopter it was.",
+  "researchNotes": "Answered by Larry on 2026-09-02 (his words, with fidelity and provenance, in data/recollections/giscus-vn-0148-c18259776.json), against the standing question \"Whose helicopter went down here? Did everyone get out?\" — the second half is answered and the first is not. The date is left unknown: he gave none, and no date should be inferred from the roll position. THIS IS NOW A SEARCHABLE LOSS. A crash with seven dead is not a minor incident, and Army aviation loss records for 1964-65 are indexed by date, place and airframe; a seven-fatality loss at or near Núi Bà Đen during Larry's tour should be findable in the Vietnam Helicopter Pilots Association loss database and in the Army's accident files, which would date this photograph and name the aircraft and crew. That search has not been run. Note the tension to hold open rather than resolve: Larry says he does not know whose helicopter it was, which is consistent with his being a radio operator on the mountain rather than aircrew, and it means his seven-dead figure is what he was told or understood at the time, not something he counted. The man in the frame is a new person record (data/people/trung-xi-nhat-nham.json); a reading of his name that affects how it should be searched is filed in research/ and deliberately not repeated here.",
+  "confidence": "unverified-recollection",
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

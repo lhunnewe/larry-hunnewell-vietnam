@@ -2,8 +2,17 @@
   "photoId": "VN-0057",
   "originalFilename": "1920236-R1-E035.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E035.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
-  "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "cataloged": true,
+  "title": "The CBC film crew on Núi Bà Đen",
+  "approximateDate": "November or December 1964 (Larry's best guess)",
+  "sortDate": "1964-12-01",
+  "datePrecision": "approximate",
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "A halt on a wooded slope, mixing civilian clothes and camouflage. Larry identifies the men in civilian dress as a Canadian Broadcasting Corporation film crew — three men, he thinks between twenty-five and thirty-five, carrying a full-size 16mm movie camera, with a news reporter as well as a cameraman. The four men in camouflage carrying rifles are, in his words, \"Cambodians coming back from patrol.\" He places the picture at the very point of the summit, fifty to a hundred yards down the north side, and he took it himself.",
+  "researchNotes": "Identified by Larry on 2026-09-02 (his words, with fidelity and provenance, in data/recollections/giscus-vn-0057-c18259588.json), answering a question written cold: he was asked to describe the crew before being shown anything, and the description came first. Until that day this photograph was uncataloged and untitled, and the archive had searched all 157 scans for a film crew without finding one (research/photos/scan-reconciliation-2026-09-01.md) — the frame was here the whole time, read as a jungle halt. Two machine hypotheses are corrected by his answer and should not be carried forward: the 2026-08-09 vision pass proposed that the fair-haired man in the sweater might be Larry in civilian clothes, and Larry says he took the photograph, so the civilian-dressed men are the crew; and it read the armed men as CIDG, where Larry says Cambodians — the same men he calls \"my Cambodians guys\" in VN-0153. His date is his least certain element and is recorded as his guess: it sits about a month earlier than the \"maybe around Christmas time\" he gave on 2026-09-01, and both renderings stand. What the crew filmed, and whether Larry appears in the finished programme, are open; the film research is filed in research/events/cbc-documentary-1964-65.md and deliberately not summarized here.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0153", "vn-0023"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }
