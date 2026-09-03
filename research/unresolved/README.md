@@ -190,6 +190,31 @@ Open questions:
    118th. Caveat recorded: Coffelt lists the major command as **1st Avn Bde**, which did not
    exist until March 1966, so that field is a later normalisation and the brigade level should
    not be quoted for 1964. Do not put the battalion or group to Larry; the question stays open.*
+   *2026-09-03 (Stars and Stripes sweep, first hour) — **THE CONTRADICTION IN THIS ENTRY IS
+   RESOLVED, one level up.** A Pacific Stars and Stripes item of **5 Nov 1965** about the 6th
+   Aviation Platoon quotes them as having been *"assigned to the 145th Aviation Bn at Tan Son
+   Nhut."* **The 145th Aviation Battalion was at Tan Son Nhut** — and the 118th Aviation Company
+   belonged to the 145th. The company was at **Bien Hoa** (confirmed twice in the same sweep:
+   awards at Bien Hoa Airfield Jan 1964, "the 118th Aviation Co's headquarters at Bien Hoa" Nov
+   1965), which is why the 118th never fitted Larry's Tan Son Nhut. **Both are true, one level
+   apart.** A battalion HQ is exactly where an operations section would sit — flight following, a
+   radio van, shift-working flight controllers talking to subordinate companies — which is what
+   Larry describes, including "Saigon center" and being "the only annex of it" from the mountain.
+   **WORKING HYPOTHESIS, not a conclusion: Larry was at 145th Avn Bn HQ at Tan Son Nhut**, and
+   "118th AOD" is the battalion's best-known company plus an operations detachment. It also fits
+   his "property of 18th aviation" (2026-08-23) — a large installation, not his own company's
+   flight line. Full findings, with the commander succession, the 1964 higher command (**U.S.
+   Army Support Command, Vietnam** — which settles the anachronistic "1st Avn Bde" caveat from
+   2026-09-02) and the battalion's December 1965 company list, are in
+   `research/units/145th-avn-bn-tan-son-nhut.md`.*
+   *2026-09-03 — **AND A NEW PLACE TO LOOK.** When Nguyen Cao Ky decorated the 145th in Dec 1965
+   the citation named its companies: the **74th, 82d, 118th and 120th** Aviation Companies plus
+   **A Companies of the 92d and 504th** Aviation Battalions. If Larry was in the 145th but not the
+   118th, his company is very likely one of these — and the 74th, 82d, 120th, A/92d and A/504th
+   **have never been considered in this archive at all.** Next search.*
+   *2026-09-03 — **RULE 6.** None of the above goes to Larry or into a rendered field. The guide
+   asks him open — "do you remember which battalion your company belonged to?" — and that
+   question is now the one where priming would cost the most.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
