@@ -321,3 +321,34 @@ single handle on this material found so far.
 - [ ] The three dated targets above — Sep 24/25 first.
 - [ ] The remaining Sep 12 – Oct 24 gap by browsing war-news pages.
 - [ ] Dec 1965 – Feb 1966 for a correction item.
+
+## The ~24–25 Sep target, worked 2026-09-03
+
+**Method gain, and it supersedes the broken range filter: the EXACT-DATE filter works.**
+`?ndt=ed&py=1965&pm=9&pd=24` returns only that day's pages, with filter chips confirming
+Year/Month/Day. **Use this to search inside a single issue.** It also reveals page numbers —
+a result's link href carries `/page-N/`, so an exact-date search on a war-news term tells you
+which page to open without browsing. That is how page 4 was found below.
+
+**Result: NEGATIVE for Pacific 24 Sep 1965.**
+
+- Exact-date search of **24 Sep**, term `defense department`: 6 results. The only
+  casualty-identification item is the **European** one already known; the Pacific hits are a
+  draft-call story, the "Hello, Dolly" troupe, a doctors' draft item and the editorial-page
+  disclaimer. No Pacific name list.
+- Exact-date search of **25 Sep**, same term: 4 results, none a casualty list.
+- **Pacific 24 Sep, page 4 — the war-news page — READ. No name list.** It carries combat
+  reporting and *weekly totals* (65 Vietnamese and 21 U.S. killed for the week ending Sept 18,
+  against 495 Viet Cong, 106 wounded) but not a single name. The rest of the page is a
+  jewellery-store robbery, Sudan, a Vietnam relief drive, and Marines refusing a liquor gift.
+
+**Reading:** Pacific appears **not to have run** the DoD name release that European carried on
+24 Sep — or ran it on a page or date not yet located. Weekly *totals* were what Pacific printed
+that day, and totals carry no names, so this issue could never have shown Larry his own name.
+
+**Not yet checked, and the obvious next step:** Pacific **26 Sep** page 4, and a page-by-page
+look at the 25 Sep issue. *(A Cloudflare human-check interrupted the 25 Sep page-4 read.)*
+
+**Cloudflare note:** a second human-check was triggered on the ninth page-load of the session.
+They arrive roughly every 15–20 automated navigations. Budget for one interruption per working
+hour, and hand each to Leroy — they cannot be cleared from here.
