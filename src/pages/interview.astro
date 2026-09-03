@@ -33,6 +33,12 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Two of them are blocking searches that will not start until he answers.',
     questions: [
       {
+        id: 'zama-arrival-date',
+        q: '“Do you remember roughly when you got to the hospital in Japan? What month? Anything that fixes it — the weather, what was going on, how long before you saw the list, anything at all.”',
+        why: 'ASK THIS ONE FIRST. Everything the archive believes about where to look for the KIA misreport rests on one unverified sentence — that he reached Japan “early September 1965”. His DD-214 gives no Vietnam dates at all, and the timeline record carries confidence unverified-recollection. Pacific Stars and Stripes printed casualty identifications three to five days behind the event, by its own account, so a firm arrival date worked back through the medevac chain he gave on 2026-09-02 — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — collapses the search window from a fortnight of issues to two or three. He will probably not remember a date, and that is fine: take anything adjacent. How long he was there, whether it was hot or cold, what was happening in the ward, how many days between arriving and seeing the list, whether he was there for a holiday. Any of it narrows the window. Do NOT supply him “early September” — that is the very thing being tested.',
+        photos: [],
+      },
+      {
         id: 'interpreter-name',
         q: '“The man standing by the burnt helicopter — the interpreter. What did you all call him? Was that his name, or his rank? Where was he from?”',
         why: 'He gave the archive a wholly new person on 2026-09-02 — nine languages, a warrior monk, and the only man he has ever described as assigned to protect him. There is a reading of the name that would change every search term, and it is deliberately not written here or on any page he browses (research/people/trung-xi-nhat-nham.md). Ask cold: if he separates it himself that is independent confirmation, and if we supply it first his agreement proves nothing. Nothing gets searched until he answers — the same discipline that protected the Gagne question.',
@@ -254,10 +260,10 @@ const answered: { q: string; a: string }[] = [
   <section class="ten-minutes">
     <h2>If you only get ten minutes</h2>
     <ol>
+      <li><strong>What date did you get to Camp Zama?</strong> — <em>anything that fixes it. This is the one.</em></li>
       <li><strong>The interpreter at the burnt helicopter</strong> — what did you all call him? <em>(blocks a search)</em></li>
       <li><strong>Gagne</strong> — what became of him after you were flown out?</li>
       <li><strong>Was Kennedy always the one in charge?</strong> <em>(don't offer the other name)</em></li>
-      <li><strong>The chaplain at Camp Zama</strong> — do you remember his name?</li>
       <li><strong>The bar on Tu Do street</strong> — roughly when was the explosion?</li>
     </ol>
   </section>

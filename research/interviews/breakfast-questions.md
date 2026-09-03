@@ -65,10 +65,10 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **The interpreter at the burnt helicopter** — what did you all call him? *(blocks a search)*
-2. **Gagne** — what became of him after you were flown out?
-3. **Was Kennedy always the one in charge?** *(don't offer the other name)*
-4. **The chaplain at Camp Zama** — do you remember his name?
+1. **What date did you get to Camp Zama?** — *anything that fixes it. This is the one.*
+2. **The interpreter at the burnt helicopter** — what did you all call him? *(blocks a search)*
+3. **Gagne** — what became of him after you were flown out?
+4. **Was Kennedy always the one in charge?** *(don't offer the other name)*
 5. **The bar on Tu Do street** — roughly when was the explosion?
 
 ---
@@ -76,6 +76,27 @@ The order is by *what the setting allows*, not by when the question was written.
 ## Tier 1 — Ask cold, ask next (no photograph needed)
 
 Every question here works on a telephone call. They are ordered by what the answer unlocks.
+
+- [ ] **ASK THIS ONE FIRST — what date did you get to Camp Zama?** *(ledger #1, issue #9 —
+  promoted to the head of the guide 2026-09-03 at the family's request, and it deserves the spot)*
+  *"Do you remember roughly when you got to the hospital in Japan? What month? Anything that
+  fixes it — the weather, what was going on, how long before you saw the list, anything at all."*
+
+  **Why this is the single most valuable thing he can tell us.** Everything the archive believes
+  about *where* to look for the KIA misreport rests on one unverified sentence — that he reached
+  Japan "early September 1965". His DD-214 gives **no Vietnam dates at all**, and the timeline
+  record carries confidence `unverified-recollection`.
+
+  Pacific Stars and Stripes printed casualty identifications **three to five days behind the
+  event** — the paper says so itself. Work a firm arrival date back through the medevac chain he
+  gave on 2026-09-02 — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — and the
+  search window collapses **from a fortnight of issues to two or three.**
+
+  **He will probably not remember a date, and that is fine — take anything adjacent.** How long
+  he was there. Whether it was hot or cold. What was happening in the ward. How many days between
+  arriving and seeing the list. Whether he was there for a holiday. Any of it narrows the window.
+
+  *Do not supply him "early September" — that is the very thing being tested.*
 
 - [ ] **1. The interpreter — his name, or his rank?** *(ledger #22 — blocks a search)*
   *"The man standing by the burnt helicopter — the interpreter. What did you all call him?
@@ -117,7 +138,8 @@ Every question here works on a telephone call. They are ordered by what the answ
   went to troops **in Vietnam and the Seventh Fleet**, and Larry was in **Japan**; the digitised
   edition is the **Five-Star**, the Far East one, whose masthead is on the front pages being
   read. So the archive being searched is the right paper. **The DATE half is untouched and is
-  now the single most valuable thing he could give us.**
+  now the single most valuable thing he could give us** — and it has accordingly been promoted to
+  the head of this tier as "ASK THIS ONE FIRST". Ask it there, not here.
   *(ledger #1, issue #9 — added 2026-09-03, and between them these two could collapse a
   fortnight of searching into two or three issues)*
   *"What newspaper did you read in the hospital at Camp Zama? Did they hand it out, or did you
