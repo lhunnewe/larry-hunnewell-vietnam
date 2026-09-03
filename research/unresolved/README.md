@@ -714,6 +714,33 @@ Open questions:
     figure loosely: Larry was a radio operator on the mountain, not aircrew, and says outright
     he does not know whose aircraft it was — "7 guys dead" is what he understood at the time,
     not a count he made.*
+    *2026-09-03, FIRST PASS RUN — **NEGATIVE, scoped** (`research/events/nui-ba-den-helicopter-wreck.md`).
+    **No helicopter loss at Núi Bà Đen or anywhere in Tây Ninh province appears in the VHPA data
+    for Sept 1964 – Sept 1965.** Method, because the access route is reusable: `vhpa.org/KIA/`
+    returns 403 to everything including a real browser (a directory with no index, not
+    bot-blocking), but **the panel index at `KIA/panel/panelind.htm` is date-ranged**, and
+    Larry's whole tour falls inside just two panels — **01E (10/21/57–6/6/65) and 02E
+    (6/6/65–10/27/65)**. Both were parsed: 493 crew rows, 300 in window, **37 linked incident
+    pages all fetched and read.** Zero mention Tây Ninh / Bà Đen / Black Virgin; zero carry a UTM
+    grid in square **XT**, where the mountain sits. Only two incidents in the window killed six
+    or more and **both are ruled out on location**: the 28 May 1965 mid-air collision of two 118
+    AML UH-1Bs over Bien Hoa Air Base (10 dead), and 118 AML UH-1B 62-02046 on 2 Sept 1965, which
+    burned with 12 dead but is placed by an eyewitness diary about two miles south of **Ben Cat**.
+    LIMITS, which make this partial and not closed: VHPA panels list **crew who died and are named
+    on the Wall**, so an aircraft whose seven dead were passengers, or were **not American**,
+    is invisible — and Larry says he does not know whose helicopter it was, at a CIDG site with
+    Cambodian troops, where a VNAF H-34 would appear in no US source at all.*
+    *2026-09-03 — **AND THE WINDOW IS PROBABLY WRONG.** The pass above assumed the crash happened
+    during his tour, and **nothing he said supports that.** He never says he saw it happen, and
+    not knowing whose aircraft it was is a strange thing not to know about an event at your own
+    small camp. **What he photographed is a wreck, and wrecks persist** — an airframe burnt out on
+    that mountainside in 1965 could have got there years earlier, on a mountain fought over since
+    the French war. "7 guys dead" and "burnt for 3 hours" then become **what he was told**, which
+    is how they sound: a round number and a round duration. Panel 01E already covers from 1957 and
+    was parsed in full, so the earlier years are swept too, and also negative. **The question to
+    put to him is no longer only when — it is whether he saw it happen at all.** In the guide,
+    tier 1 #6. Next: VNAF/CIDG losses via the RG 472 request (#27, #66), and the Army Aviation
+    Safety Center accident files, named as a source in every VHPA record read.*
 22. **"Trung Xi Nhat Nham"** (VN-0148, 2026-09-02, issue #90) — the man standing at that wreck, and the
     only person Larry has ever described as assigned to protect him: "He was an interpreter and
     could speak 9 languages. He was a warrior monk." New to the archive. Records:

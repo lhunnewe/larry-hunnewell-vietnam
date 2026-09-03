@@ -119,12 +119,20 @@ Every question here works on a telephone call. They are ordered by what the answ
   records. He was in the street giving first aid, so anything that fixes the date fixes him
   in place on a documented day.
 
-- [ ] **6. Dating the burnt helicopter — by what it sat between.** *(ledger #21)*
-  *"The helicopter that burned on the mountain — was that before or after the Canadian film
-  people came? Was it before or after the day with the rocket launcher?"*
-  He says he doesn't know whose aircraft it was and gave no date, so **relative** dating
-  against two events he can place is the only route from him. A seven-fatality loss should be
-  findable in aviation loss records once the window narrows.
+- [ ] **6. The burnt helicopter — did you see it happen?** *(ledger #21, issue #89 — the
+  question changed on 2026-09-03)*
+  **Ask this first, and ask it plainly:** *"The helicopter that burned on the mountain — did
+  you see it come down, or was it already there when you got there?"*
+  Then, only after: *"Was that before or after the Canadian film people came? Before or after
+  the day with the rocket launcher?"*
+  **Why the order changed.** A full sweep of the VHPA loss data for his whole tour came back
+  negative — no helicopter lost at Núi Bà Đen or anywhere in Tây Ninh province — and it turned
+  up the assumption nobody had checked. He never said he was there when it happened, and not
+  knowing whose aircraft it was is a strange thing not to know about a crash at your own small
+  camp. **What he photographed is a wreck, and wrecks persist.** If it was already there when
+  he arrived, the search window is years wider and the "7 guys dead, burnt for 3 hours" is what
+  he was told rather than what he saw. Don't put any of that to him — just ask whether he saw
+  it. *(Full sweep and its limits: `research/events/nui-ba-den-helicopter-wreck.md`.)*
 
 - [ ] **7. Spell Zukowski.** *(ledger #12)*
   *"Zukowski — the one who went to the pool with you and Ron. Spell that for me the way you'd
