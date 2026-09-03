@@ -352,3 +352,37 @@ look at the 25 Sep issue. *(A Cloudflare human-check interrupted the 25 Sep page
 **Cloudflare note:** a second human-check was triggered on the ninth page-load of the session.
 They arrive roughly every 15–20 automated navigations. Budget for one interruption per working
 hour, and hand each to Leroy — they cannot be cleared from here.
+
+## Continued 2026-09-03 — the Nov 10/11 target found, and a finding about how the lists behaved
+
+**FOUND: "U.S. Identifies 31 War Dead", Pacific, Thu 11 Nov 1965, p.4 (printed 6).** This is the
+list the Nov 12 item meant by *"the second lengthy casualty list in two days"*, and it was in no
+table here. The Defense Department released 31 names on the Tuesday, and the paper itself calls
+it "one of the longest single casualty lists," covering several days of action.
+
+**READ IN FULL — NO HUNNEWELL, NO INGLEWOOD.** Army: Knowlton, Macklin, Hammond, Tuttle,
+Townsend, Wheeler, Huggins, Cox, Lopez, Bess, Jarnigan, Brown, Hayward, Tilquist, Moore, Noelke,
+Hamill, Luke, Santos-Trujillo, Collins, Pickett, Johnson, Potkanicz, White, Parrett, Barnett,
+Daniels; then Marine Corps. The only California man is PFC Richard A. Noelke of **Fontana**.
+
+*(Pacific 10 Nov p.4 was read first and carries no list — Harkins on protesters, a village bombed
+in error, 56 paraplegics leaving for a V.A. hospital. So "two days" means the 11th, not the 10th.)*
+
+### THE LISTS WERE REVISED, AND THAT MATTERS TO THIS QUESTION
+
+**WO Don Knowlton and WO Ronald Macklin appear among the dead on 11 November. Both were printed
+as MISSING in the 25 October list** (read in the August session and re-read here as the control).
+So a man's status moved between releases, and the same names recur in different columns weeks
+apart.
+
+Three consequences, and the third is the one to keep:
+
+1. Reading one list is not enough to clear a date — a name can enter the record later.
+2. A "correction item" is not a long shot after all. **These lists visibly corrected themselves**,
+   which makes the Dec 1965 – Feb 1966 sweep for a correction more plausible than it looked when
+   it was ranked fourth and first-to-cut.
+3. Together with the Halyburton case (printed dead 25 Oct, in fact a POW and alive) and the
+   "non-hostile" miscategorisation of the four 118 AML crew, **this is now the third documented
+   instance of these releases being wrong about a man's fate.** The machinery Larry says put his
+   name in the KIA list demonstrably made exactly this class of error, repeatedly, in the exact
+   months he was reading the paper. That conclusion no longer depends on finding his name.
