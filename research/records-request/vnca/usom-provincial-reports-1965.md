@@ -183,3 +183,81 @@ scans). Re-download any of them from the URL pattern above:
       supplies candidates — this is now the sharpest reason to request the 1:25,000 Pictomap
       sheets.
 - [ ] Add Tây Ninh Sector S-5 / MIDCAP claim files to the NARA RG 472 request.
+
+
+---
+
+# Phuoc Long — the province Đồng Xoài sits in — 2026-09-03
+
+**No request was needed.** These reports are free and downloadable from the open VVA portal, and
+**the July 1965 report already cited by this archive turns out to contain a Phuoc Long section
+that nobody had read.** It was mined for Tây Ninh in September and the rest of the document was
+left.
+
+## A TRAP THAT PRODUCED A FALSE NEGATIVE — read this before searching any VVA scan
+
+The first greps of the July PDF returned **zero** hits for "Phuoc Long", "Tay Ninh", *and even
+"Province"* — in a document titled *Reports of USOM Provincial Representatives*. That was not
+absence. **The OCR text layer has every character doubled**, e.g. "RREEPOORRTTSS" for "REPORTS"
+and "PPrroovviinncciiaall" for "Provincial".
+
+Plain grep finds nothing, and a careless session would record a confident false negative.
+**Search these scans with a doubling-tolerant pattern** — a regex allowing each character to
+repeat, case-insensitive. With that applied the same document yields Phuoc Long x3, Tay Ninh x3,
+Dong Xoai x1, Province x174.
+
+*The doubling is not perfectly uniform, so do not simply take every other character.*
+
+## What the Phuoc Long report says — month ending 31 July 1965
+
+Written by the resident American civilian representative, about six weeks after Đồng Xoài:
+
+> The fact remains that **Song-Be, along with three other district areas were either overrun or
+> hit very bad**, despite the presence and efforts of GVN. As people anywhere, they fear for
+> their lives... **Nearly every night one or more of the district headquarters are probed.**
+>
+> Economically, the province is in bad shape. **All bridges out of the capital to the districts
+> have been blown up during the past two weeks.** All of our supplies have to be air-lifted in...
+> The people are worried about **another attack on Song Be**, since the VC have announced they
+> would try again.
+
+Đồng Xoài is not named — it is one of the "three other district areas" — and the rest of the
+report is cement, roofing nails for the artillery battery headquarters, rice, fuel, and a planned
+sewing centre.
+
+**What matters is what is absent. There is no civilian casualty figure, no massacre, no mass
+grave, no body count of any kind** — in the report of the American civilian official resident in
+the province where the battle happened, six weeks after it. That is exactly the texture the Tây
+Ninh reports showed: **these documents do not enumerate the dead.** It confirms, from a second
+province, that the silence of this series is a property of the series and not evidence about any
+particular event.
+
+## The one Đồng Xoài mention — and it is the civilian aftermath
+
+It appears not under Phuoc Long but under **Binh Duong**, in the refugee accounting at Phu Cuong:
+
+> Of the 2400 odd refugees in Phu Cuong, a large percentage have been dispersed to other areas;
+> to Gia Dinh for resettlement, **back home to Dong Xoai**, and one group at Lai Thieu is still
+> supported by Social Welfare. At present there is a total of **771 families of refugees
+> consisting of 3,476 persons — 1,346 adults and 2,131 children.**
+
+So the people who fled Đồng Xoài were counted, housed and in part sent home, and the record of it
+sits in a neighbouring province's report. **Displacement is recorded in this series where death
+is not** — the same pattern as the September Region III report on the village burned north of
+Núi Bà Đen, whose population was *moved rather than killed*.
+
+## The June 1965 report — NOT LOCATED
+
+Searched the open portal for `usom provincial representatives`, date span 1965, using the durable
+advanced-search URL documented at the top of this file with the query terms swapped.
+
+Months returned: **July, September, October, December** (August is already held under a different
+item id). **No report for the month ending 30 June 1965 appears.** Three adjacent item ids were
+also tried directly and turn out to be State Department airgrams and an economic-aid table, not
+this series.
+
+**Not closed.** The result list may be paginated beyond what was read, and the June issue may sit
+in another collection or under another title. VNCA's archivist has already proved willing to
+answer specific questions. **If one more thing is ever asked of VNCA, ask for the USOM provincial
+representatives' report for the month ending 30 June 1965** — the only issue that would carry
+Phuoc Long's own account of the battle in the month it happened.
