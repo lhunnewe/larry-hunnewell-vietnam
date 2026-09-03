@@ -110,6 +110,23 @@ Every question here works on a telephone call. They are ordered by what the answ
   went to the hospital chaplain. A chaplain's office is a place that keeps paper, and neither
   the chaplain nor the length of his stay is recorded anywhere yet.
 
+- [ ] **4b. What paper did you read at Camp Zama — and what date did you get there?**
+  *(ledger #1, issue #9 — added 2026-09-03, and between them these two could collapse a
+  fortnight of searching into two or three issues)*
+  *"What newspaper did you read in the hospital at Camp Zama? Did they hand it out, or did you
+  have to buy it?"* Then: *"Do you remember the date you got to Camp Zama — or what the weather
+  was like, or anything that fixes it?"*
+  **Why both matter, and why they are asked open.**
+  On the paper: Pacific Stars and Stripes launched a **free edition for troops in Vietnam and
+  the Seventh Fleet on 1 September 1965** — a different edition from the one digitised in the
+  archive being searched. If that is the paper he saw, **every negative from that archive may be
+  beside the point.** *Do not name that edition to him.* Let him describe the paper; if he says
+  it was free or handed out, that is the answer.
+  On the date: the paper's own rule was that casualty identifications ran **three to five days
+  behind the event**. Working back from his arrival at Camp Zama through the medevac chain he
+  gave — 4–5 days at Subic, about 3 in Cholon, a day for the jaundice — dates the item. **A firm
+  arrival date narrows the search from a fortnight of issues to two or three.**
+
 - [ ] **5. The bar on Tu Do street, and the explosion.** *(ledger #23)*
   *"The night of the explosion by the Palace — roughly when was that, early in your tour or
   late? Was it the Papallon, or a different bar? What did people say afterwards about who
