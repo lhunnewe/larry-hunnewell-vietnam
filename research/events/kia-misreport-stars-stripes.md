@@ -570,3 +570,81 @@ thing a service newspaper actually printed.
 **1, 2, 3 first.** They are the ones where a hit is plausible *and* transformative, and none of
 them depends on the casualty-list grind. Then Tier B as a batch, since keyword sweeps take
 minutes. Return to the KIA gap and the correction sweep with whatever time is left.
+
+---
+
+# Tier A run, 2026-09-03 — one hit, one viable, one negative
+
+## 3. Đồng Xoài — **HIT**, and it cuts both ways
+
+`dong xoai`, 1965: **30 results.** Heavy coverage, as expected.
+
+**Read: "Hundreds Killed at Dong Xoai", Pacific Stars and Stripes, Sunday 13 June 1965, p.13**
+(printed 24; continued from page 1). The continuation opens:
+
+> …**118th Aviation Co. through heavy Viet Cong fire to evacuate the wounded**, military
+> officials said.
+
+**This is the strongest period link yet between Larry's candidate unit and the battle he says he
+listened to on the radio** (ledger #2, #10; and his 2026-09-01 testimony). The same page also
+carries a C-123 loss on a Special Forces resupply run from Nha Trang to Pleiku, killing at least
+eight Americans — two Air Force and six Army.
+
+### THE TENSION, recorded and not reconciled
+
+Larry, 2026-09-02, on why Đồng Xoài was attacked:
+
+> There was **no aircraft up to help the guys at Dong Xoai at all, everything was grounded**.
+> That's why the Vietcong attacked because they knew none of the helicopters could fly.
+
+**The contemporary report has the 118th flying into Đồng Xoài through heavy fire to evacuate
+wounded.** Those are not the same claim and they are not reconciled here.
+
+They *may* both be true of different moments: Larry describes the **opening attack** — "4am in
+the morning", sitting at the radio when it happened — and the battle ran roughly 9–13 June, so
+an evacuation on the 12th–13th says nothing about flying conditions on the first night. **Do not
+put this to Larry as a correction, and do not resolve it in his favour either.** What it does is
+give the archive, for the first time, a documentary check on one of his most vivid claims — and
+the check is partial, not clean.
+
+**Next:** page 1 of the 13 June issue, for the head of the story; and the 12 June item
+("SAIGON (AP) — The battle for [Đồng Xoài] ended Friday with heavy casualties on both sides"),
+which is closer to the opening hours.
+
+## 2. The Saigon bar bombing — **VIABLE, not yet identified**
+
+`bomb saigon bar wounded`: **24 results 1964–65, 8 in 1965 alone.** So Saigon bar and restaurant
+bombings *are* covered by name and date in this paper — the search is sound, the item just is
+not identified yet.
+
+Candidates inside Larry's tour, none yet matching his description of a bar beside the Palace:
+
+- **1 Apr 1965** — aftermath coverage of the **US Embassy bombing** of 30 March. Wrong building,
+  but the scale ("nearly 100 Vietnamese" plus Americans) matches his "nothing but wounded people
+  all over the street".
+- **21 Jun 1965** (three separate items) — an **M-26 grenade**: one Army enlisted man killed, 15
+  wounded. A grenade would fit his "There was a bomb of some kind."
+- **21 Apr 1965** — 12 American servicemen injured. **22 Apr 1965** — Darlac.
+
+`tu do street bomb bar` returns **0** — "Tu Do" does not survive as ANDed search words, so the
+street name cannot be searched directly. **Next:** work from the known 1965 Saigon attacks by
+date rather than by street, and match against his account (a bar, beside the Palace, wounded in
+the street, a man with a throat wound). The **My Canh floating restaurant bombing of 25 June
+1965** has not yet been checked and is the other obvious candidate.
+
+## 1. The bathroom-shooting court-martial — **NEGATIVE, three probes**
+
+| Probe | Window | Result |
+|---|---|---|
+| `court martial hard labor okinawa` | 1965–66 | 2 results, neither relevant — a Camp Kue doctor (14 months) and a check-forgery case (7 years) |
+| `sentenced 20 years hard labor` | 1965–66 | 7 results, none relevant — mostly the "Fort Hood Three" draft-refusal appeals and a Nazi trial |
+| `shot shower barracks saigon` | 1965 | **0** |
+
+**Reading, and it is worth keeping:** court-martial coverage in this paper skews heavily to
+**garrison cases in Okinawa, Japan and Germany** — the places with reporters. An
+American-on-American shooting inside a Vietnam billet in early 1965 appears not to have been
+reported at all, which is consistent with how little of that war's internal crime reached print.
+**Not closed** — the sentence Larry describes (20 years, hard labour, Okinawa confinement) would
+have been served in the Ryukyus, so an Okinawa-datelined item remains possible on other wordings.
+But it is no longer the "Tier A, high probability" item it was ranked as this morning; on the
+evidence of three probes it belongs in Tier C.
