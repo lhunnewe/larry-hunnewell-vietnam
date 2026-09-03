@@ -100,5 +100,6 @@ conclusions, not the evidence behind them. The document that lists evidence with
 separately from anything NPRC holds. **That is now the only free avenue left for the admission
 date**, and it is worth filing alongside the NPRC wait.
 
-- [ ] **Request the full VA C-file** (Privacy Act request to the VA Records Management Center),
-      which would contain the service treatment records the 2015 adjudication drew on.
+- [x] **Request the full VA C-file** — drafted 2026-09-03 as `va-cfile-request.md`, ready for
+      Larry to sign. It asks for the file *and names the specific documents*, because a general
+      request comes back partial, and it asks for electronic release, which is faster and free.
