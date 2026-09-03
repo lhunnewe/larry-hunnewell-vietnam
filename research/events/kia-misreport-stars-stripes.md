@@ -254,3 +254,70 @@ was ever printed, in the September gap and not in November.
 Whatever happens, the outcome is a result. Update ledger #1, comment issue #9, and mark each
 list read in the table above with its date — so that if access does lapse, the next person knows
 exactly which pages were seen and which were not.
+
+---
+
+# Session 2026-09-03 — blocks 1 and 2 begun
+
+**Access:** live; subscription ends 2026-09-17. **One Cloudflare human-check** was triggered by
+rapid automated navigation and was cleared by Leroy. Pace requests; batch reads, not hops.
+
+## Method findings — read these before searching again
+
+1. **The `ndt=bd` date-range filter is broken.** A range of 12 Sep – 24 Oct 1965 returned items
+   from Sep 2, 10 and 11. The filter chip displays but **the start date is not applied**. The
+   earlier note said cross-year ranges fail silently; in fact within-year ranges mis-apply too.
+   **Use `ndt=by&py=YYYY&pey=YYYY` (year range), which works reliably**, and filter by eye.
+2. **The viewer's "Find on page" box searches only the page you are on**, not the issue. It is
+   useless for locating a list inside a 35-page issue.
+3. **VISUAL READING WORKS, and this is the important one.** Navigate to
+   `/pacific-stars-and-stripes/YYYY-MM-DD/page-N/`, wait ~10s for the tiles, scroll down 4
+   ticks to seat the page, screenshot to locate the article, then zoom its column region in two
+   passes. Agate casualty type comes out legible. **Control test:** the Oct 25 list was read
+   this way and matches the August session's record name for name. The IIP/fcgi crop route in
+   the older method notes is not needed for this.
+4. **The European edition is a finding aid for the Pacific.** The same DoD release ran in both
+   within about a day, and European OCR sometimes catches an item Pacific OCR misses. Searching
+   European gives you the *date* to open in Pacific.
+
+## Lists resolved this session
+
+| Date 1965 | Page | Result |
+|---|---|---|
+| **Nov 12** | 4 (printed 6) | **READ IN FULL — NO HUNNEWELL.** "Casualty List For Vietnam", 23 Army + 1 Marine. King, Ugland, Thayer, Anderson, Smith, Sherrod, Ebison, Barksdale, Savage, Elliott, Kusovich, Nathan, Hill, Rodriguez, Sligh, Maynard, Crafton, Tolliver, Whitaker, Mooney, Ren, Hannigan, Lynch; Metott (USMC). No Inglewood. |
+| **Nov 15** | 4 (printed 6) | **READ IN FULL — NO HUNNEWELL.** "Casualties Identified", 19 killed + 5 non-hostile + 1 missing. Army: Pasqual, Harrington, Holcum, Howard, Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser, Foster, Hawes, Ross, Mathison, Potter. No Inglewood. |
+| **Oct 29** | 4 | **STRUCK — resolved from the search snippet.** Only two men identified, and the Army one is named: SSgt Daniel L. Chappell, Seaside, Cal.; the other is Air Force. |
+| **Nov 5** | 4 | **STRUCK — resolved from the search snippet.** Six identified, five Marines and **one** Army man, named in the snippet as PFC Peter Ruzila, Paramus, N.J. |
+| **Nov 4** | 4 | **STRUCK — NOT A CASUALTY LIST.** It is a policy story about whether to stop sending 17-year-olds to Vietnam. The August table had flagged it "may not be a list"; confirmed. |
+| **Nov 13** | 19 | **Probably struck — weekly totals, no names** ("85 killed in action"). Verify cheaply if convenient. |
+| **Nov 20** | 4 | **Probably struck — weekly totals, no names** ("108 killed for the week"). Same. |
+
+**The unread queue is down from nine to two known items: Nov 19 (finish it) and Nov 24.**
+
+## Three unfound lists now dated — the gap is no longer blind
+
+- **Pacific ~24–25 Sep 1965.** European S&S of **Fri 24 Sep** carries a DoD release identifying
+  servicemen killed plus seven Air Force missing. Pacific ran it within a day. *(Pacific Sep 25
+  surfaced in a keyword probe but is a FALSE POSITIVE — the matched words come from a medical
+  feature, an air-defence story and a bio. The list may be on another page of that issue.)*
+- **Pacific ~12–13 Oct 1965.** European S&S of **Tue 12 Oct** identifies more servicemen killed.
+- **Pacific ~10–11 Nov 1965.** New, and found inside the Nov 12 item itself, which opens by
+  saying it was *"the second lengthy casualty list in two days."* So a long list ran ~48 hours
+  earlier and is not in any table here.
+
+**The first of these matters most.** The 8-day lag calibration puts Larry's name, if it was ever
+printed, in the 5–20 September window.
+
+## Enumeration worth keeping
+
+A search for `defense department servicemen killed`, year-filtered to 1965, returns **24 items
+across both editions** — effectively the year's DoD-release coverage. Pacific items that are
+*not* name lists (weekly totals, policy stories) are identified above. That query is the best
+single handle on this material found so far.
+
+## Still to do
+
+- [ ] Nov 19 (finish), Nov 24.
+- [ ] The three dated targets above — Sep 24/25 first.
+- [ ] The remaining Sep 12 – Oct 24 gap by browsing war-news pages.
+- [ ] Dec 1965 – Feb 1966 for a correction item.
