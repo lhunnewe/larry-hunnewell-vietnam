@@ -244,3 +244,67 @@ is where a claim would sit. Added to the RG 472 request below.
 5. If the unit is confirmed (118th Aviation Company is the leading candidate — see the
    call-signs note), its association (http://www.118ahc.us/) may hold rosters and
    recollections covering mountain support missions, and living members who flew them.
+
+---
+
+## 2026-09-03 — a B-52 strike northeast of Tây Ninh City, from the period press
+
+**Source:** Pacific Stars and Stripes, Wednesday 29 September 1965, p.13, found in the first
+pass through the 117 Tây Ninh items in the paper for 1964–65 (a body of contemporary reporting
+this archive had never searched). Method and search record: `kia-misreport-stars-stripes.md`.
+
+The report:
+
+> The big eight-engine bombers struck in Tay Ninh Province where communist guerrillas operate in
+> massive strength. The B-52s carried out their **33rd strike of the war 15 miles northeast of
+> the provincial capital of Tay Ninh City.**
+>
+> U.S. intelligence reports have said that one of the Viet Cong's headquarters is located in the
+> province.
+
+And the map caption on the same page: *"American B-52 bombers **Monday** hit a Viet Cong sanctuary
+in Tay Ninh Province."* Monday was **27 September 1965**.
+
+### What this does and does not do
+
+**It does NOT overturn the rule-out for Larry's day.** His last day on the mountain was about
+25–27 August 1965 (derived from the medevac chain, see the Stars and Stripes file), and he was in
+Japan by early September. **A strike on 27 September is a month after he had gone.** The 2026-08-13
+finding — that no B-52 strike hit near the mountain in his window, per the declassified CIA Arc
+Light mission maps — stands untouched by this.
+
+**What it does do is separate two things the archive had been treating as one.**
+
+Núi Bà Đen sits roughly **nine miles north-east of Tây Ninh City**. This strike went in **fifteen
+miles north-east** of it — the same direction, a little beyond the mountain. So the country around
+Núi Bà Đen **was** Arc Light target area, beginning at least by late September 1965.
+
+That matters for the part of this question that has never fitted: **the post-war story Larry heard
+of 450 buried at the mountain's base.** If heavy bombing of that specific approach began weeks
+after he left and continued, then a mass-casualty account attached to the mountain has a plausible
+origin **that has nothing to do with the day he was accused.** The accusation and the mass grave
+may be two separate things that his memory, reasonably, joined together — the way the Đồng Xoài
+weather and the Đồng Xoài failure were joined.
+
+### A concrete test of this archive's own earlier conclusion
+
+The paper numbers it: **the 33rd B-52 strike of the war.** Arc Light missions were numbered and
+dated, so this is identifiable rather than approximate.
+
+- [ ] **Check whether Arc Light mission 33, 27 September 1965, appears on the declassified CIA
+      mission maps already held** (`sources/cia-arclight-1965`), and where it plots.
+- If it is on the maps at the stated location, the maps are validated and the 2026-08-13 rule-out
+  is as strong as it was claimed to be.
+- **If it is missing from the maps, the rule-out is weaker than stated** — because it would mean
+  the map series does not carry every strike, and an absence on them would no longer be
+  sufficient to rule out a strike in Larry's window.
+
+That check costs nothing, uses a source already in hand, and either way it tells us how much
+weight the earlier negative can bear.
+
+### Still to read
+
+The Tây Ninh set is 117 items for 1964–65 and only this one has been read. **July–September 1965
+is the priority band** for this question. Dates already visible and unread in 1965 include
+1 Apr, 21 Apr, 3 Apr, 3 May, 13 Jun, 17 Jun, 7 Oct, 11 Oct, 30 Oct, 31 Oct, 28 Nov, 30 Nov,
+3 Dec, 6 Dec, 7 Dec, 22 Dec.
