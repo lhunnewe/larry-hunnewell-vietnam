@@ -449,3 +449,39 @@ before any negative here is called final.
 - [ ] The rest of the Sep 12 – Oct 24 gap.
 - [ ] **Dec 1965 – Feb 1966 for a correction** — promoted, no longer the long shot: these lists
       demonstrably revised themselves (Knowlton, Macklin, Gandy all moved between columns).
+
+## The re-derived window worked, 2026-09-03 — NEGATIVE so far, and here is the exact scope
+
+The three dates the medevac chain pointed to were examined. **Nothing found. But read the scope
+line for each before treating any of them as closed** — these are *partial* checks of large
+zoned issues, not exhaustive ones.
+
+| Date | Term search (exact-date) | Pages viewed | Result |
+|---|---|---|---|
+| **30 Aug 1965** (32pp) | `defense department killed` → **0 results** | p28 (Vietnam war page — Mekong battle, 1,200 Marines landing), p13 (battle continuation), p32 (listings/radio-TV) | **No name list.** Only enemy/friendly totals. |
+| **31 Aug 1965** (30pp) | `defense department killed names` → **0 results** | p13 (Natchez, house fire, F-105 pilot missing) | **No name list.** *p4 and p6 carry Vietnam content and were NOT viewed.* |
+| **3 Sep 1965** (33pp) | — | p32 (tropical storm, Marine shooters, booby-trap feature) | **No name list.** *p21, p28 and p31 carry Vietnam content and were NOT viewed.* |
+
+**Honest reading.** Aug 30 and Aug 31 are reasonably solid: the exact-date term search returned
+zero *and* the main Vietnam war page was read on each. Sep 3 is the weakest of the three — one
+page of thirty-three, chosen because the Sep 2 list sat on p32 of its issue. **Sep 3 should not
+be called negative until p21, p28 and p31 are seen**, and Aug 31 wants p4 and p6.
+
+### What the window exercise did establish
+
+Even unfinished, it produced the first *reasoned* target this search has had. Every previous
+window was a guess anchored on "August 1965" from the DD-214, or on "the ward" from his own
+account. This one is derived from the paper's own stated rule — identifications run three to
+five days behind the event — run backwards through the medevac chain Larry described on
+2026-09-02. **That reasoning stands whatever the pages show**, and it is reusable: if the
+family ever pins his Camp Zama arrival date, the window tightens to two or three issues.
+
+### Remaining, in priority order
+
+- [ ] **Finish the three dates**: Sep 3 pp.21/28/31; Aug 31 pp.4/6.
+- [ ] **Extend either side**: Aug 28, Aug 29, Sep 4, Sep 6–9. The lag rule allows ±2 days of
+      slack, and the Sunday issues (Sep 5) run to 66 pages.
+- [ ] The Oct 12–13 target, and the rest of the Sep 12 – Oct 24 gap.
+- [ ] **Dec 1965 – Feb 1966 for a correction** — still promoted.
+- [ ] **Ask the family which paper he read.** The Three-Star Edition question (above) could
+      make every negative here beside the point.
