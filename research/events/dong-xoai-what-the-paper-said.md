@@ -61,7 +61,7 @@ this archive believes Larry was attached to or worked for.
 |---|---|---|
 | **When** | "4am in the morning" | "a **pre-dawn** assault Thursday" |
 | **How many attackers** | "about 4000" | Paper: "an estimated 1,500 to 2,000" struck the town. **CIA, 14 June: at least five regular battalions plus an artillery battalion, guerrillas and porters in the vicinity, with four more battalions available inside 24 hours.** |
-| **How many defenders** | "about 16 people, special forces team" | Seabees, Special Forces and government troops |
+| **How many defenders** | "about 16 people, special forces team" | **CIA, 11 June: "of 20 US personnel in Dong Xoai when attacked"** — alongside a garrison of 250–300 South Vietnamese |
 | **Air support** | "no aircraft up to help… everything was grounded" | missions flown "almost continuously", but **"low cloud ceiling hampered the air attacks"**; two helicopters shot down; an entire heliborne relief force **"wiped out before it could reach survivors"** |
 
 ### The timing is right, and it is remarkable that it is
@@ -95,8 +95,8 @@ describing what was coming at that camp, was talking about the second.
 was mine, not his.
 
 *(The paper and CIA also differ on province: Đồng Xoài is in **Phuoc Long**, not Tây Ninh —
-roughly 60–70 miles from Núi Bà Đen. Larry guessed "like 40 miles away". That undershoots, but
-note what it does to his point rather than against it: he was explaining that the sets could
+roughly 55 miles from Núi Bà Đen by coordinates. Larry guessed "like 40 miles away" — an
+undershoot, but a modest one. Note what it does to his point rather than against it: he was explaining that the sets could
 transmit only about 25 miles and the mountain's height carried the signal past that. **The real
 distance being greater makes the mountain relay matter more, not less.**)*
 
@@ -136,6 +136,26 @@ years — rather than a wrong explanation bolted onto a right outcome.
 *(The one causal claim he makes that the record does not support is the further step:
 "That's why the Vietcong attacked because they knew none of the helicopters could fly." Nothing
 in the reporting speaks to VC intent, and that is an inference of his, not an observation.)*
+
+### The defenders — a third correction, and the closest he has come to exact
+
+The table above once set his *"about 16 people, special forces team"* against the newspaper's
+vague "Seabees, Special Forces and government troops", as though he were being loose. He was not.
+He was counting **the Americans**, and the **Central Intelligence Bulletin of 11 June 1965** —
+the daily brief to the President — counts them too:
+
+> **Of 20 US personnel in Dong Xoai when attacked**, 13 wounded have been evacuated, one has been
+> confirmed killed, and six are missing and presumed dead.
+
+**Twenty Americans. He said about sixteen.** For a man recalling, sixty-one years later, the size
+of a team at a camp he was listening to over a radio and had never been to, that is close to the
+bone.
+
+*(A correction to this file's own arithmetic while we are here: an earlier draft put Đồng Xoài
+"60–70 miles" from Núi Bà Đen. By coordinates it is closer to **55 miles**. Larry said "like 40
+miles". He still undershoots, but by less than this file previously implied, and the point he was
+making — that his sets reached about 25 miles and the mountain's height carried the signal past
+that — holds at either figure.)*
 
 ## Why this makes his testimony more useful, not less
 

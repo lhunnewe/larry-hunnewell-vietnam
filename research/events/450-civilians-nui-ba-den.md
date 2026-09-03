@@ -541,3 +541,59 @@ Unread and worth a later look: the PDB of **17 June**, two documents titled **"T
 South Vietnam"**, **"The Situation in Vietnam"**, a **DCI briefing to the House Appropriations
 Committee**, and **"The Plight of Refugees in Vietnam"** — the last of which may bear on the
 civilian-displacement thread in this file.
+
+## The Central Intelligence Bulletin, 11 June 1965 — the closest document to the attack Larry describes
+
+`CIA-RDP79T00975A008300350001-1`, 19 pages, published two days after the assault. Its lead item
+is again Đồng Xoài, and it is the richest account found anywhere:
+
+> Fighting continues in the Dong Xoai area of **Phuoc Long Province, 60 miles north of Saigon**…
+> The Viet Cong force involved, **now estimated as a full regiment**, had successfully **chewed up
+> two waves of an earlier relief force as it debarked from helicopters in the landing zone.**
+>
+> Casualties…are not yet fully known, particularly among the **250–300 South Vietnamese in the
+> garrison** at the time of the attack… **Of 20 US personnel in Dong Xoai when attacked**, 13
+> wounded have been evacuated, one has been confirmed killed, and six are missing and presumed
+> dead. Eleven other Americans are missing and probably killed in the reinforcement operations.
+> **Eight of them were crew members of two helicopters which were destroyed.**…
+>
+> The Viet Cong force **is being subjected to intensive air strikes** in an effort to dislodge them.
+
+### What it does to Larry's account — a third point in his favour
+
+**He said "about 16 people, special forces team." CIA counts 20 US personnel in the camp.** The
+archive had been reading his figure as vague against the newspaper's "Seabees, Special Forces and
+government troops"; in fact he was counting **the Americans**, and he was close. Correction
+recorded in `dong-xoai-what-the-paper-said.md`.
+
+**And on the relief that did not arrive:** two waves of helicopters *"chewed up… as they debarked
+in the landing zone."* That is what Larry means by nobody coming. Men were flown in and destroyed
+getting out of the aircraft.
+
+**A correction to this archive's own arithmetic:** a note here previously put Đồng Xoài "60–70
+miles" from Núi Bà Đen. By coordinates it is about **55 miles**. Larry guessed "like 40 miles" —
+still an undershoot, but a smaller one than this file claimed.
+
+### The running tally, because the pattern is now unmistakable
+
+| His claim | First source | Best source |
+|---|---|---|
+| 4 a.m. attack | pre-dawn ✓ | ✓ |
+| "everything was grounded" | looked wrong on the front page | **"low cloud ceiling hampered the air attacks"** — in the record |
+| "about 4000" | looked doubled vs the paper | **inside CIA's estimate** — five battalions plus artillery, guerrillas, porters |
+| "about 16 people" | looked vague | **20 US personnel** — close |
+| "like 40 miles away" | called a 60–70 mile undershoot | **~55 miles** — a modest undershoot |
+| Gagne died | — | he later said Gagne did **not** die; both stand |
+
+**Five of six checked details have moved toward him as better sources were read.** The lesson
+recorded earlier stands and hardens: **the first source consulted has consistently been the least
+favourable one.** Nothing here says his memory is infallible — the Gagne reversal is his own, and
+his causal step about *why* the VC attacked remains unsupported. But the archive should stop
+treating first-pass discrepancies as findings.
+
+### Also in this Bulletin, for other threads
+
+- **10 June air operations over North Vietnam were "hampered by poor weather"** — a fourth
+  independent notice of that week's weather limiting air activity.
+- The Đồng Xoài garrison was **250–300 South Vietnamese** plus the 20 Americans, against a force
+  CIA by then rated a full regiment.
