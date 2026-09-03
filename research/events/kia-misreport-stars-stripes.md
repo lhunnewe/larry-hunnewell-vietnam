@@ -774,3 +774,64 @@ couple.
 and American casualties, where this is a traffic circle with Vietnamese police and civilian dead.
 **Logged as a dated Saigon explosion inside his tour**, because the list of those is what #91
 needs and this is one more entry on it.
+
+---
+
+# Tier B keyword sweeps, run 2026-09-03
+
+| # | Term | Window | Result |
+|---|---|---|---|
+| 5 | `body jab` | 1964–66 | **30+ results, every one BOXING.** Closed. |
+| 6 | `rosethorn` | **all dates, whole archive** | **1 result, 1959, OCR garbage.** Clean negative. Closed. |
+| 7 | `tay ninh` | 1964–65 | **117 results — NOT a negative. A large unread body of reporting.** |
+| 8 | Canadian crew | 1964–65 | Negative on two term sets. Not closed. |
+
+## 5. "Body Jab" — closed, with an irony worth keeping
+
+Thirty-plus hits across 1964–66 and the first three are Liston–Clay: *"Liston was short with a
+[body jab] as Clay ducked away."* The term is unusable in this archive.
+
+**And the reason is the same reason it was chosen.** Larry told us the Special Forces call signs
+in his area were **boxing terms** — Body Jab, Right Cross, Upper Cut. Call signs are picked to be
+ordinary, unremarkable words. **That is exactly what makes them invisible in a service newspaper
+that covered boxing heavily.** The property that made it a good call sign in 1965 makes it an
+unsearchable one in 2026. **Do not retry this term.**
+
+## 6. Rosethorn — a genuinely clean negative
+
+Searched **all dates across the entire archive**, not just his window: **one result, from 1959,
+and it is OCR noise.** The call sign of the helicopter Larry called for rides never appeared in
+Pacific or European Stars and Stripes in seventy years of publication. Issues #5 and #63 should
+record this as closed on this source. *(Unlike "Body Jab", this one is a real negative rather
+than a term failure — "Rosethorn" is distinctive and would have been found had it been printed.)*
+
+## 7. Tây Ninh — 117 results, and the best untapped resource in this archive
+
+**This is the finding of the Tier B batch, and it is not a negative.** One hundred and seventeen
+Pacific and European items mention Tây Ninh in 1964–65, and **nobody has ever read period press
+for the province Larry served in.** Every previous approach to the "450 civilians" day (#10, #66)
+has gone through military record series — MACV journals, RG 472, USOM provincial reports — which
+are slow, partly closed, and mostly not digitised.
+
+**Immediately visible and unread:**
+
+- **29 Sept 1965 — "Province bombing".** The USOM Region III report for the month ending
+  30 September 1965 describes an operation *north of Núi Bà Đen* that burned a village and moved
+  its people. A Stars and Stripes item about a bombing in the province that month is the first
+  chance to see whether the press carried anything about operations near the mountain.
+- 13 Jun 1965, 17 Jun 1965, 1 Apr 1965, 16 Jun 1964, 14 Jun 1964 — assorted; unread.
+
+**Recommended next use of the subscription: read the Tây Ninh 117**, filtered to Jul–Sep 1965
+first. It is the only route into #66 that does not depend on a records request, and there are
+eleven days left.
+
+## 8. The Canadian film crew — negative on two term sets, not closed
+
+- `canadian broadcasting television vietnam`, 1964–65 → **1 result**, an NBC/Moscow censorship
+  item. Irrelevant.
+- `canadian television crew filming`, 1964–65 → **0**.
+
+**Not closed.** Untried wordings that could still work: "Canadian newsmen", "television crew"
+paired with a camp or province name, "CBC" alone, and the correspondents' names if the candidate
+film ever yields any. Larry dates the visit to about Nov–Dec 1964, so a targeted year-1964 sweep
+on softer terms is the next attempt. Issue #69.
