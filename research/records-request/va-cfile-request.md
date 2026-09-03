@@ -37,6 +37,37 @@ It is not guaranteed. STRs are sometimes obtained only in part, and clinical (in
 are filed separately from outpatient STRs at NPRC and may never have reached VA. But the C-file
 is free, it is the veteran's own record, and nothing else in the queue costs nothing.
 
+## TRY THIS FIRST — the VSO shortcut
+
+**Before filing anything formal, find out whether Larry has a VSO representative.**
+
+If a Veterans Service Organization — VFW, DAV, American Legion, or a county/state veterans
+service officer — holds **power of attorney** for him, they generally have direct access to the
+electronic claims folder through VBMS and **can often pull the C-file in days rather than
+months.**
+
+He filed a claim in 2015 and came away with a 70% combined rating, which is the kind of outcome
+people usually get with help. **There is a good chance a VSO assisted him, and that the
+appointment is still on file.** One phone call establishes it. If the answer is yes, the formal
+request below may be unnecessary.
+
+*(If nobody knows, VA can say who holds power of attorney on his file: 1-800-827-1000.)*
+
+## How this differs from the NPRC request already sent
+
+They are **complementary, not duplicative**, and both should run.
+
+| | SF-180 → NPRC (mailed 2026-08-17) | VA C-file (this document) |
+|---|---|---|
+| Agency | National Archives — NPRC, St. Louis | Department of Veterans Affairs |
+| What it is | The **original military records** | VA's **claims folder** |
+| Holds | OMPF, and clinical/inpatient records filed by hospital | Claim forms, exam reports, rating worksheets, and **copies of whatever service records VA obtained** |
+| Route to the date | The Camp Zama inpatient record itself | The service treatment records VA pulled for the 2015 claim |
+
+If NPRC's inpatient records did not survive, VA may still hold copies of the treatment records
+— and if VA never obtained them, NPRC remains the only source. **Neither makes the other
+redundant.**
+
 ## What to file
 
 **VA Form 20-10206**, "Freedom of Information Act (FOIA) or Privacy Act (PA) Request."
@@ -94,14 +125,22 @@ request.
 
 ## Expectations
 
-- **Timeline:** C-file requests have historically run from weeks to well over a year, depending on
-  route and backlog. **This will not arrive before the subscription lapses on 17 September**, and
-  should not be waited on for that.
+- **Timeline: not reliably faster than NPRC, and do not assume it is.** C-file requests have
+  historically run from a few weeks to well over a year depending on route and backlog. An
+  electronic request for an electronic file *can* beat a paper search, but it is not dependable.
+  **Neither request will arrive before the subscription lapses on 17 September**, and neither
+  should be waited on for that. **The VSO route above is the only one that might be quick.**
+- **Privacy Act, not FOIA.** A veteran requesting his own file under the Privacy Act receives far
+  fewer redactions than a FOIA requester would.
+- **The signature is the bottleneck, not the technology.** The request can be filed online, but
+  Larry must sign as the veteran and he does not use a computer. The workable flow is: print, he
+  signs in ink, his son scans and uploads.
 - **What it does not do:** it will not contain anything about the KIA misreport itself. VA holds
   claims records, not casualty reporting. It is being requested for **one date**.
 
 ## Status
 
+- [ ] **Ask whether a VSO holds power of attorney** — this may make everything below moot.
 - [ ] Verify the current form number and submission route.
 - [ ] Fill from `private/notes/`, using the rating-letter file number.
 - [ ] Larry signs.
