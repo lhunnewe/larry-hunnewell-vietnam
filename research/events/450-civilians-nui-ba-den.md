@@ -308,3 +308,65 @@ The Tây Ninh set is 117 items for 1964–65 and only this one has been read. **
 is the priority band** for this question. Dates already visible and unread in 1965 include
 1 Apr, 21 Apr, 3 Apr, 3 May, 13 Jun, 17 Jun, 7 Oct, 11 Oct, 30 Oct, 31 Oct, 28 Nov, 30 Nov,
 3 Dec, 6 Dec, 7 Dec, 22 Dec.
+
+## The Tây Ninh press sweep, completed 2026-09-03 — a clean, scoped negative
+
+**All 64 Stars and Stripes items mentioning Tây Ninh in 1965 have now been enumerated** (Pacific
+and European, three result pages). This is the first time period press for the province has been
+searched at all.
+
+### The July–September band, in full
+
+| Date 1965 | What it is |
+|---|---|
+| **Jul 12** | Viet Cong "charged in from the jungle near Tay Ninh… and fled after tearing up the party" |
+| **Jul 27** | A Filipino surgical team stationed at the Tay Ninh Hospital |
+| **Aug 2** | A camp "located at Ta Bang Village, in Tay Ninh Province" |
+| **Aug 6** | A Regional Force unit on Highway 22 near Tay Ninh, 40 miles NW of Saigon |
+| **Aug 17** | A photo caption — "approaches for a tricky landing at Tay Ninh" |
+| — | **NOTHING between 18 August and 3 September** |
+| **Sep 4** | A Popular Force platoon ambushed five VC near Tay Ninh City; three VC killed, government casualties light |
+| **Sep 7** | An outpost less than a mile from Tay Ninh City; three VC killed by artillery |
+| **Sep 29** | The B-52 strike 15 miles NE of Tay Ninh City (read in full above) |
+
+### The finding
+
+**Of all 64 items, not one falls between 18 August and 3 September 1965** — the window that
+contains Larry's last day on the mountain (about 25–27 August, derived from his medevac chain).
+And **no mass-casualty event in Tây Ninh Province appears anywhere in Stars and Stripes in the
+whole of 1965.** The province's coverage that year is small actions, a hospital, a photo caption,
+and — from late September — B-52 raids.
+
+**Three independent bodies of record are now silent on the same event:**
+
+1. **USOM provincial reports** — Tây Ninh's own sections for July, August and November 1965
+   report no civilian-casualty event, in a series that names them elsewhere in the same months.
+2. **CIA Arc Light mission maps** — no B-52 strike near the mountain in the window.
+3. **Stars and Stripes, 1965** — nothing in the province at all across Larry's window, and no
+   mass-casualty event in the province all year.
+
+An event in which 450 people died would be very hard to keep out of all three.
+
+### The limits of it, stated plainly
+
+- The term searched is `tay ninh` as ANDed words. **An item describing an action near the
+  mountain without naming the province would be missed.** Note that `nui ba den` was separately
+  searched and returns **zero** for 1964–65 while returning 51 across all dates — so the mountain
+  is findable in this archive and simply was not written about during his tour.
+- Pacific Stars and Stripes did not cover every provincial action; plenty went unreported.
+- OCR failure is always possible, though "Tay Ninh" OCRs cleanly in the snippets above.
+
+### What it does to the question
+
+It does not prove nothing happened. It does mean that **the "450 civilians" event, as an event,
+has now failed to appear in every independent place it should appear** — American provincial
+reporting, bombing records, and the service press of the theatre.
+
+That pushes the weight of this question further toward what the archive has been circling since
+2026-09-02: **the number 450 enters Larry's story as a count of enemy troops seen digging in,
+radioed by a helicopter crew, and becomes "450 civilians" only in Sgt Lowery's accusation an hour
+later.** Nothing found since has contradicted that reading, and a good deal now supports it.
+
+**The mass grave he heard about after the war remains a separate thread** — and the late-1965
+Arc Light strikes northeast of Tây Ninh City (the 33rd of the war on 27 Sept, the 35th on
+2 Oct) are a better candidate origin for it than anything that happened while he was there.
