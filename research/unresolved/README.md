@@ -177,6 +177,19 @@ Open questions:
    **zero hits** across the entire Veterans History Project, which is a small independent
    sign of how thinly this trade and period are recorded anywhere.
    research/units/callsigns-and-units.md; research/people/vhp-sweep-2026-09-01.md.*
+   *2026-09-03 — **THE CHAIN ABOVE THE 118th IS NOW DOCUMENTED, as a by-product of the medic
+   search (#14).** The Coffelt Database on NARA AAD carries full unit hierarchy per casualty, and
+   two men who died in Larry's window give the same chain in a DoD-derived record rather than in
+   a donor's free text: **SSG James Edwin Bailey** (09/04/1964, helicopter repairman, killed in
+   an air crash) and **PFC Thomas Arthur Bain** (10/07/1964, the loss at YS570950 in Long Khánh)
+   are both recorded as **118th Avn Co → 145th Avn Bn → 12th Avn Grp**. That independently
+   confirms the 145th association previously known only from Clyde S. Gudermuth's VHP entry, and
+   **adds the group level, which the archive did not have at all.** It also answers, on paper,
+   the tier-4 question Larry has never been able to answer — "which battalion did your company
+   belong to?" — for the 118th, though **not** the prior question of whether Larry was in the
+   118th. Caveat recorded: Coffelt lists the major command as **1st Avn Bde**, which did not
+   exist until March 1966, so that field is a later normalisation and the brigade level should
+   not be quoted for 1964. Do not put the battalion or group to Larry; the question stays open.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -513,6 +526,30 @@ Open questions:
     water." He does not remember the name. NEXT: sweep Kansas casualties in the same file, on
     the same terms, and keep the "medic" gloss loose — he may be describing his unit's aidman
     rather than a man with an MOS that reads medic.*
+    *2026-09-03 — **CORRECTION to the "NEXT" above, and then a real result.** "Sweep Kansas" was
+    **mis-scoped advice**: the 2026-08-16 pass already checked *every entry containing "drown" in
+    the full 58,220-record DCAS file regardless of state*, so a state-axis sweep cannot add
+    anything to a state-independent one. Retracted before anyone spends a session on it.*
+    *2026-09-03 — **SEPTEMBER 1964 IS NOW EXHAUSTIVELY CLOSED**
+    (`research/people/drowned-medic-nha-trang.md`). Larry's own date — "first couple week Nha
+    Trang in '64" — points at September 1964, and that month is small enough to enumerate whole.
+    Coffelt on NARA AAD, Actual Date of Death between 09/01/1964 and 09/30/1964, returns **14
+    records: every US military death in Vietnam that month.** **No Kansas man and no Nebraska man
+    died in Vietnam at all that month. No medic died. No drowning.** All four Army deaths are
+    individually accounted for and all four are hostile — a helicopter crash (BAILEY, 09/04), two
+    small-arms (LYNCH 09/10, MC COY 09/26) and an explosive device (GREANY 09/25). The five Navy
+    deaths of 09/08 are a single cluster, and Larry says his man was **Army**. THREE EXPLANATIONS
+    SURVIVE and they are now the whole question: the date is wrong and it was a later trip back;
+    the man was **not a US serviceman**; or — and **nobody has tested this** — **he may not have
+    died.** "Went out to the water and disappeared" is equally consistent with what a man on the
+    beach saw and with what he was later told.*
+    *2026-09-03 — **THE ROUTE NOBODY HAS USED: search on occupation.** Coffelt exposes a
+    **Service Occupation** field carrying the MOS with a plain-English meaning ("67N40 —
+    Single-Rotor Turbine Observation/Utility Helicopter Repairman"). No pass has ever searched
+    it. One query across the whole tour filtered to the Army **91-series medical MOS** would
+    return every medic who died in the window — the exact shape of this question, and better than
+    either the state axis or the cause axis. Needs the AAD "show more fields" screen, **which
+    crashed the renderer once on 2026-09-03** — add columns one at a time.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
