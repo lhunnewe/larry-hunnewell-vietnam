@@ -512,3 +512,61 @@ own words, and no one has yet asked him to describe the masthead. The remaining 
 tier-1 question — **what date he reached Camp Zama** — is untouched and is now the single most
 valuable thing he could tell us, because it would collapse the search window to two or three
 issues.*
+
+---
+
+# What else this subscription can do before 2026-09-17
+
+Written 2026-09-03. **The KIA misreport is one use of this archive and not the most promising
+one.** Everything below is untried, cheap, and closes a different open question. Several are
+more likely to return a positive than more casualty-list reading, because they are the kind of
+thing a service newspaper actually printed.
+
+## Tier A — Stars and Stripes is *exactly* the right source
+
+1. **The bathroom-shooting court-martial (issue #59).** Larry says the man who shot at him got
+   **20 years hard labour and went to Okinawa**. A sentence that severe was routine news in a
+   service paper. Search 1965–66 for the court-martial, the offence, and Okinawa confinement.
+   **This could name the shooter and the victim — two names the archive does not have**, and it
+   would date an event currently fixed only as "February 1965".
+2. **The Saigon bar bombing (issue #91).** He ran from a bar near the Palace and tied off a
+   man's throat with his t-shirt. Pacific S&S covered Saigon terrorism closely and by name.
+   Search 1964–65 for bar and restaurant bombings, Tu Do street, and the Papallon.
+   **A dated bombing puts him in a documented street on a documented day.**
+3. **Đồng Xoài, June 1965.** Guaranteed heavy coverage. Not a search for Larry but a test of
+   **his strongest testimony**: he says the weather grounded everything, that no aircraft could
+   help, and that the VC attacked *because* nothing could fly. Contemporary reporting either
+   corroborates that or does not, and either way it is evidence about how reliable his account
+   of a battle he heard on the radio actually is.
+4. **The Bien Hoa fire (VN-0074/VN-0078).** Two candidates now: the May 1965 ammunition
+   explosion, and the **28 May 1965 mid-air collision of two 118 AML UH-1Bs over Bien Hoa Air
+   Base** found in this session's first hour. Both would have been covered. **Do not put either
+   to Larry** — the question to him stays open-ended.
+
+## Tier B — never searched here, and cheap
+
+5. **`"Body Jab"`** — his own call sign (#57). Long shot, since call signs were rarely printed,
+   but a single search settles it forever.
+6. **`Rosethorn`** — the helicopter call sign (#5, #63). Same reasoning.
+7. **`"Tay Ninh"` 1964–65**, broader than the mountain. May surface the operation behind the
+   "450 civilians" day (#66) — recall the USOM report of a village north of Núi Bà Đen burned
+   and its people moved.
+8. **A Canadian film crew at a Special Forces site (#69).** A visiting foreign television crew
+   is exactly the kind of colour item Pacific S&S ran. Never tried, and it could date the CBC
+   visit independently of Larry.
+
+## Tier C — person searches, lower odds
+
+9. **`Lowry` / `Lowery` + Special Forces** (#12) — the man Larry believes reported him dead.
+10. **Schwartzkoff variants** (#93) — search the sound, not the string.
+11. **The drowned medic at Nha Trang** (#61) — a drowning at a beach used by American troops
+    would plausibly be reported, and this is now the only axis left after DCAS came back empty
+    on both the state and the cause.
+12. **The seven-fatality helicopter loss (#89)** — if it happened during his tour rather than
+    before it, S&S would have covered it.
+
+## Recommended order, given the deadline
+
+**1, 2, 3 first.** They are the ones where a hit is plausible *and* transformative, and none of
+them depends on the casualty-list grind. Then Tier B as a batch, since keyword sweeps take
+minutes. Return to the KIA gap and the correction sweep with whatever time is left.

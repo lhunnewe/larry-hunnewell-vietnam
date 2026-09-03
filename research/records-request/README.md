@@ -41,7 +41,15 @@ Louis 63138, and keep the receipt; (2) expect an NPRC acknowledgment letter with
 number within a few weeks; (3) if nothing arrives in ~4–6 weeks, check status via NPRC's
 online status form or 314-801-0800 with Larry's name and the mailing date.
 
-**Add to the request — the hospital clinical records** (research of 2026-08-12,
+**✓ INCLUDED IN THE MAILED REQUEST — verified 2026-09-03.** The paragraph below reads like an
+outstanding to-do because of where it sits on the page; it is not. The clinical-records wording
+is on the **signed v3 form that was mailed on 2026-08-17**, and is spelled out again in the
+accompanying cover letter (`private/documents/records-requests/sf180-cover-letter-2026-08-16.html`),
+naming the hospital, its later official designation, Sagami-Ōno, the September–November 1965
+window, and the conditions treated. **No supplementary request is needed unless NPRC comes back
+without them** — see `clinical-records-followup.md` for the contingency, drafted and ready.
+
+**The request as sent — the hospital clinical records** (research of 2026-08-12,
 `research/places/japan-hospital-1965.md`): clinical (inpatient) records are filed at NPRC
 **by treating hospital**, separately from the personnel file, and were untouched by the 1973
 fire. Request: *"Clinical (inpatient) records of treatment at **U.S. Army Hospital, Camp
