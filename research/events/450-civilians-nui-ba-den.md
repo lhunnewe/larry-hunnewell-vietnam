@@ -488,3 +488,56 @@ hour after Larry radioed a report of **enemy troops digging in**.
   Summaries — covering the fall of the mountain at the war's end, not 1965. Two are worth a later
   look for period content: a **Central Intelligence Bulletin** and **"The Military Situation in
   South Vietnam"**. Unread; low priority.
+
+---
+
+## The Central Intelligence Bulletin, 14 June 1965 — read 2026-09-03
+
+`CIA-RDP79T00975A008300370001-9`, 13 pages, the daily current-intelligence brief circulated to
+the President, the Vice President, the Secretaries of State and Defense, the Joint Chiefs and
+CINCPAC. Its lead item is **"The Military Situation in South Vietnam"** and it is about Đồng Xoài.
+
+What it establishes, and it bears on Larry's testimony rather than on the 450 question:
+
+- **Đồng Xoài is in Phuoc Long Province**, roughly 60–70 miles from Núi Bà Đen. Larry guessed
+  *"like 40 miles away"*. He undershoots — but the point he was making was that his sets reached
+  only about 25 miles and the mountain's height carried the signal past that. **A greater true
+  distance strengthens his account rather than weakening it.**
+- **Enemy strength**: *"at least five regular battalions and an artillery battalion, supported by
+  local guerrillas and civilian porters,"* with MACV believing the VC could reinforce *"with up to
+  four additional regular battalions in less than 24 hours."* **That is thousands of men**, and it
+  places Larry's "about 4000" inside CIA's own estimate. See the correction recorded in
+  `dong-xoai-what-the-paper-said.md`.
+- **12 June**: a Vietnamese airborne battalion sweeping the periphery was counterattacked by ~500
+  VC and *"badly mauled — an estimated 322 personnel out of a total complement of 480 killed,
+  wounded, or missing."* A separate catastrophe from the opening assault Larry describes.
+- **Government forces at Đồng Xoài**: three understrength battalions plus the remnants of that
+  airborne battalion. A battalion of the **173rd US Airborne Brigade** was airlifted to Phuoc Binh
+  but *"has thus far not been committed."*
+- **Weather**: the same Bulletin records a planned strike in North Vietnam **cancelled because of
+  poor weather** on 12 June, and *"adverse weather conditions continued throughout the week end."*
+  Regional rather than Đồng Xoài-specific, but it is the third independent source in which the
+  weather of that week is a limiting factor on air operations.
+
+**The President's Daily Brief of 15 June 1965** (`0005967732`) adds only that *"clearing and
+evacuation operations are continuing in the Dong Xoai area of Phuoc Long Province but no ground
+contact with the Viet Cong has been reported."*
+
+### The pattern worth naming
+
+**Twice now, going deeper into the record has moved a judgement in Larry's favour.** The front
+page made his weather claim look wrong; the continuation page put the weather in the record. The
+newspaper made his enemy count look doubled; CIA's own estimate put it in range.
+
+**The lesson is not that he is always right.** It is that **the first source consulted has twice
+been the least favourable one**, and conclusions about an old man's memory should not be drawn
+from a single document when more exist. Both corrections are recorded in place, with the
+original error shown rather than quietly removed.
+
+### Unread, and available free
+
+`"Dong Xoai"` returns **30 documents** in CREST. Read: the CIB of 14 June and the PDB of 15 June.
+Unread and worth a later look: the PDB of **17 June**, two documents titled **"The Situation in
+South Vietnam"**, **"The Situation in Vietnam"**, a **DCI briefing to the House Appropriations
+Committee**, and **"The Plight of Refugees in Vietnam"** — the last of which may bear on the
+civilian-displacement thread in this file.

@@ -60,7 +60,7 @@ this archive believes Larry was attached to or worked for.
 | | Larry | The paper |
 |---|---|---|
 | **When** | "4am in the morning" | "a **pre-dawn** assault Thursday" |
-| **How many attackers** | "about 4000" | "an estimated 1,500 to 2,000" |
+| **How many attackers** | "about 4000" | Paper: "an estimated 1,500 to 2,000" struck the town. **CIA, 14 June: at least five regular battalions plus an artillery battalion, guerrillas and porters in the vicinity, with four more battalions available inside 24 hours.** |
 | **How many defenders** | "about 16 people, special forces team" | Seabees, Special Forces and government troops |
 | **Air support** | "no aircraft up to help… everything was grounded" | missions flown "almost continuously", but **"low cloud ceiling hampered the air attacks"**; two helicopters shot down; an entire heliborne relief force **"wiped out before it could reach survivors"** |
 
@@ -71,11 +71,34 @@ was answering a question about radio physics. **Sixty-one years later he put the
 pre-dawn dark, and the contemporary wire report says pre-dawn.** That is the cleanest match
 between his testimony and a document that this archive has ever produced.
 
-### The numbers are about double
+### The numbers — a second correction, and it goes his way too
 
-Four thousand against fifteen hundred to two thousand. Not a wild invention — the right order
-of magnitude, and the sort of figure that swells a little every time a story is told. It is
-recorded as a difference. **His words are not edited.**
+**This section also said something different when written, and it was also wrong.** It said his
+"about 4000" was roughly double the paper's "1,500 to 2,000" and was the sort of figure that
+swells in retelling. Then the **Central Intelligence Bulletin of 14 June 1965** was read — the
+daily brief that went to the President, the Secretaries of State and Defense and the Joint
+Chiefs — and it says this:
+
+> Viet Cong forces in the immediate vicinity of Dong Xoai are estimated to number **at least
+> five regular battalions and an artillery battalion**, supported by local guerrillas and
+> civilian porters. MACV believes the Viet Cong can reinforce with **up to four additional
+> regular battalions in less than 24 hours.**
+
+Five battalions plus an artillery battalion, plus guerrillas and porters, with four more
+battalions within a day. At period strengths that is **thousands of men, not fifteen hundred.**
+
+The two figures were never in conflict — they count different things. **The newspaper's 1,500–2,000
+is the assault force that struck the town. CIA's is the enemy strength in the area.** And Larry,
+describing what was coming at that camp, was talking about the second.
+
+**His "about 4000" sits comfortably inside CIA's own estimate.** The inflation I attributed to him
+was mine, not his.
+
+*(The paper and CIA also differ on province: Đồng Xoài is in **Phuoc Long**, not Tây Ninh —
+roughly 60–70 miles from Núi Bà Đen. Larry guessed "like 40 miles away". That undershoots, but
+note what it does to his point rather than against it: he was explaining that the sets could
+transmit only about 25 miles and the mountain's height carried the signal past that. **The real
+distance being greater makes the mountain relay matter more, not less.**)*
 
 ### The air support — and here a correction, made the same day
 
@@ -126,8 +149,10 @@ be leaned on:
   this kind of detail — the mission of the mountain camp, which matched an official document he
   had never seen; the Uppercut call sign, which this archive had predicted in writing before he
   said it.
-- **Counts and scales: inflated.** Four thousand for two thousand. Expect roughly double, and
-  never build on his figures alone.
+- **Counts and scales: better than they first look.** His "4000" was called inflated here until
+  CIA's own estimate of the forces around Đồng Xoài was read, at which point it fell inside the
+  range. **Check his numbers against the best source before discounting them** — twice now the
+  first source has made him look worse than the second.
 - **Causes and explanations: mixed, and worth checking rather than discounting.** His weather
   explanation turned out to be *in the record* once the continuation page was read. What was not
   in the record was the further step he takes from it — that the enemy attacked *because* of the
