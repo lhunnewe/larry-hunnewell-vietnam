@@ -597,3 +597,56 @@ treating first-pass discrepancies as findings.
   independent notice of that week's weather limiting air activity.
 - The Đồng Xoài garrison was **250–300 South Vietnamese** plus the 20 Americans, against a force
   CIA by then rated a full regiment.
+
+## "The Plight of Refugees in Vietnam" — an eyewitness inside Đồng Xoài, days after the siege
+
+`CIA-RDP67B00446R000300190007-2`. Not an intelligence report at all: it is the **Congressional
+Record of 28 July 1965**, reprinting a **Des Moines Register** dispatch by **Leo Cherne** of the
+International Rescue Committee, entered by Rep. John V. Lindsay. CREST holds it because CIA
+clipped it.
+
+Cherne flew into Đồng Xoài himself:
+
+> I helicoptered from Saigon to Dong Xoai shortly after the siege… The Vietcong had **burned out
+> a large portion of the town**… They entered every household and stripped it of every scrap of
+> food and every piastre…
+>
+> When the Vietcong retreated, they left Dong Xoai **a smoldering ruin and streets filled with
+> broken, smashed bodies (many of them women and children)** — some dead; others dying, still
+> others condemned to live the rest of their lives horribly maimed.
+
+And on what followed:
+
+> The dust of battle had hardly settled when personnel from the **U.S. operations mission (USOM)**
+> and **U.S. Army civil affairs officers** entered the town to take an inventory of needs. It was
+> arranged to fly in **5,000 kilos of rice**…
+
+### Why this belongs in this file
+
+**It documents mass civilian death — women and children in the streets — at the one battle Larry
+personally connects himself to.** He was on the radio during Đồng Xoài; he says a man died on the
+other end of it.
+
+**Two things must be kept apart here, and the second is speculation.**
+
+**The finding:** Đồng Xoài in June 1965 produced exactly the kind of scene — a burned town, streets
+of civilian dead — that the archive has been unable to locate anywhere near Núi Bà Đen in August.
+The cause was the Viet Cong assault and the battle to retake the town, not American action.
+
+**The speculation, flagged as such and not to be built on:** Larry's radio world that summer
+contained a documented event of mass civilian death, and he was listening to it happen. Whether
+anything of Đồng Xoài has attached itself, over sixty-one years, to the separate memory of being
+accused over "450 civilians" is **not something this archive can answer and should not assert.**
+The accusation is firmly placed at the end of his tour and concerns a report of *enemy troops
+digging in*. These are different events. But the presence of a real mass-casualty scene in his
+own experience is worth having on the record beside a story the documents cannot otherwise
+place.
+
+### A new avenue, and a cheap one
+
+**USOM personnel and U.S. Army civil affairs officers entered Đồng Xoài to inventory needs.** This
+archive already holds USOM provincial reports for Tây Ninh (July, August, September, November
+1965) from the Texas Tech Virtual Vietnam Archive. **USOM reporting on Phuoc Long Province for
+June 1965 would carry that inventory**, and the same collection should hold it. Worth requesting
+alongside whatever else goes to VNCA — it costs nothing and it is the civilian-side record of the
+battle Larry says he heard.
