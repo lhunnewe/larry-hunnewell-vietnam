@@ -460,7 +460,7 @@ zoned issues, not exhaustive ones.
 |---|---|---|---|
 | **30 Aug 1965** (32pp) | `defense department killed` → **0 results** | p28 (Vietnam war page — Mekong battle, 1,200 Marines landing), p13 (battle continuation), p32 (listings/radio-TV) | **No name list.** Only enemy/friendly totals. |
 | **31 Aug 1965** (30pp) | `defense department killed names` → **0 results** | p13 (Natchez, house fire, F-105 pilot missing) | **No name list.** *p4 and p6 carry Vietnam content and were NOT viewed.* |
-| **3 Sep 1965** (33pp) | — | p32 (tropical storm, Marine shooters, booby-trap feature) | **No name list.** *p21, p28 and p31 carry Vietnam content and were NOT viewed.* |
+| **3 Sep 1965** (33pp) | — | p32 (tropical storm, Marine shooters, booby-trap feature); **p28** (war-news continuation — Ben Cat, a week-long search for a Navy pilot downed 26 Aug — plus a Florida airport fire and Schweitzer; *page rendered only partially*) | **No name list on either.** *p21 and p31 still NOT viewed — p21 was blocked by a Cloudflare check.* |
 
 **Honest reading.** Aug 30 and Aug 31 are reasonably solid: the exact-date term search returned
 zero *and* the main Vietnam war page was read on each. Sep 3 is the weakest of the three — one
