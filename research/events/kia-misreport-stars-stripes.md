@@ -648,3 +648,22 @@ reported at all, which is consistent with how little of that war's internal crim
 have been served in the Ryukyus, so an Okinawa-datelined item remains possible on other wordings.
 But it is no longer the "Tier A, high probability" item it was ranked as this morning; on the
 evidence of three probes it belongs in Tier C.
+
+### "Tudo" — a spelling that is Larry's own, reported 2026-09-03
+
+His son confirms that **Larry renders the street as one word, "Tudo"** — it is not a
+transcription artifact in `giscus-vn-0120-c18259873.json`, which prints "Tudo street" unmarked.
+
+**Two consequences.**
+
+**For the archive's method:** this joins the very short list of renderings carrying Larry's own
+authority — previously only **"Ton Son Nuht"** (2026-08-13) and **"Geutler"** (2026-09-02). It
+should be marked `(his spelling)` retrospectively wherever it is cited. *Worth one confirmation
+at the table, since the record itself is unmarked and the claim reaches the archive second-hand.*
+
+**For searching:** it explains a failure and offers a route. `tu do street bomb bar` returned
+**0**, which was read as the street being unsearchable. The likelier cause is that the search
+ANDs words and no page carries all five. **"Tudo" as a single token is searchable in a way
+"Tu Do" is not**, and period American writing did sometimes close the space. Worth a direct
+`tudo` sweep of 1964–65 — cheap, and it would also catch OCR that ran the two words together,
+which is common in this archive's agate type.
