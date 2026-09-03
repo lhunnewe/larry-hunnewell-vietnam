@@ -143,10 +143,15 @@ visually. That is what the table above tracks.
 
 # Resume plan, written 2026-09-03 — read this before spending subscription time
 
-**Access is the constraint.** The NewspaperArchive Stars and Stripes subscription may lapse
-within the month, so this session is ordered by *what is only possible with access*, not by what
-is most interesting. Everything on the AAD/Coffelt side (#61, #10) is free and can wait; none of
-this can.
+**HARD DEADLINE: the NewspaperArchive subscription ends 2026-09-17.** Confirmed by Leroy on
+2026-09-03 — a fourteen-day window, and then this door closes for good unless someone pays
+again. Pacific Stars and Stripes is not on newspapers.com and the nationwide hometown-echo
+search is a confirmed negative, so **this archive is the only remaining path to the misreport.**
+
+Everything on the AAD/Coffelt side (#61, #10) is free and will still be there in October. None
+of what follows will be. The order below is therefore by *what is only possible with access*,
+not by what is most interesting — and inside that, **fast before slow**, so that nothing cheap
+is left stranded if access ends early or a session gets cut short.
 
 ## A finding from 2026-09-03 that re-orders the queue
 
@@ -183,12 +188,27 @@ printed among the dead on Oct 25, was alive and a POW.)*
 
 ## Order of work
 
-**FIRST — the Sep 12 to Oct 1 gap.** Roughly 4–5 DoD release items are unfound here and the lag
+**FIRST, and it should take under an hour — the four secondary keyword sweeps.** These were
+never started, they are *searches* rather than page reads, and each one closes or advances a
+different open question. Do them before anything slow, because they bank guaranteed results in
+minutes:
+
+| Term | Window | Question |
+|---|---|---|
+| `"Nui Ba Den"` | 1964–65 | ledger #10/#21 — **nothing in this archive has ever searched period press for the mountain** |
+| `"118th Aviation"`, `"145th Aviation"` | 1964–65 | issue #10 — **now known to be productive**, since the 118th's dead did reach these pages |
+| `Gagne` | 1964–66 | issue #68 — new since this plan was last written |
+| `Totosz` | any | issue #58 |
+
+A positive hit on any of these is worth having even though keyword *absence* proves nothing
+here. Record each as a scoped result either way.
+
+**SECOND — the Sep 12 to Oct 1 gap.** Roughly 4–5 DoD release items are unfound here and the lag
 calibration puts Larry's window squarely inside it. Browse the war-news page of each issue
 rather than relying on keyword probes: **keyword absence proves nothing** in this archive, as
 the Ia Drang calibration in the log above established. Find the items, then read them visually.
 
-**SECOND — the nine known lists, all page 4 except Nov 13 (p.19).** imageIDs already extracted,
+**THIRD — the nine known lists, all page 4 except Nov 13 (p.19).** imageIDs already extracted,
 so no hunting is needed:
 
 | Date 1965 | Page | imageID |
@@ -203,16 +223,6 @@ so no hunting is needed:
 | Nov 20 | 4 | 133215505 |
 | Nov 24 | 4 | 133215593 |
 
-**THIRD — the secondary sweeps, which are cheap and only possible with access.** Do these even
-if the primary search fails, because each one closes or advances a different open question:
-
-- `"Nui Ba Den"` 1964–65 — ledger #10/#21, and nothing in this archive has ever searched period
-  press for the mountain.
-- `"118th Aviation"` and `"145th Aviation"` 1964–65 — issue #10. **Now known to be productive**:
-  the 118th's casualties did reach these pages.
-- `Totosz` — issue #58.
-- **`Gagne`** — issue #68. New since the last session and not in the old resume list.
-
 **FOURTH, only if time remains —** extend to Dec 1965 – Feb 1966 for a correction item. Larry
 went to the chaplain to say he was alive; whether that produced a printed correction is unknown
 and always was the longest shot here.
@@ -225,6 +235,19 @@ and always was the longest shot here.
 - Date-range URLs fail silently across a year boundary; split at Dec 31.
 - Read every list **visually**. Agate-type name columns OCR badly and keyword search will lie to
   you.
+
+## Sizing it to 14 days
+
+Four working blocks, and they fit comfortably if nothing drifts:
+
+1. **The keyword sweeps** — under an hour, and they are done forever.
+2. **The Sep 12 – Oct 1 gap** — the real work, and the block most likely to overrun, because
+   the items must be found before they can be read. Give it the most room.
+3. **The nine November lists** — fast, because the imageIDs above remove all the hunting.
+4. **Dec 1965 – Feb 1966 correction sweep** — the longest shot, and the first thing to cut.
+
+**If it comes to a choice, block 2 beats block 3.** The lag calibration puts Larry's name, if it
+was ever printed, in the September gap and not in November.
 
 ## What to record
 
