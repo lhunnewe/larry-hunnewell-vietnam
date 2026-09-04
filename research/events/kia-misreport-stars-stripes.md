@@ -570,6 +570,98 @@ Say so when citing them.
 - [ ] **Ask Larry, next call: was it Stars and Stripes at all, or something the hospital put out?**
       Ask it cold — do not offer him the options above, and do not describe the Five-Star to him.
 
+### WHAT THE PORTAL ACTUALLY HOLDS — checked 2026-09-03, and it settles the edition question
+
+The action item written an hour earlier — *"establish what the NewspaperArchive portal actually
+holds"* — was carried out. **It holds one Pacific title, and nothing that could be Larry's paper.**
+
+**Method, because it is reusable and cheap.** The portal's own browse page
+(`/browse/`) carries a `Location.PublicationTitleID` select listing every title in the
+subscription. Behind a Cloudflare human-check, which the family cleared. The list is the
+authoritative answer to the question and takes one page load.
+
+**All 22 titles in the subscription:**
+
+| Theatre | Titles |
+|---|---|
+| **Pacific** | **Pacific Stars and Stripes (1947–2000)** — id 10165, published Tokyo, Japan. **THAT IS THE ONLY ONE.** |
+| Europe | European (1942–2007), London (1942–2012), Northern Ireland (1943–44), Southern France (1944–45), ESS and ESS (1945–46), Combat (1943) |
+| Mediterranean / Africa | Middle East, Oran, Besancon, Marseilles, Naples, Grenoble, Rome, Livorno, Algiers, Sicily, Tunis, Casablanca, 5th Army, Stars and Stripes at Sea |
+| Modern | Mideast Edition (2003–04) |
+
+**There is no Three-Star Edition, no Vietnam edition, no Korea, Ryukyu or Tokyo local edition,
+and no Camp Zama post or hospital bulletin.** Everything outside the single Pacific title is
+European, Mediterranean or Second World War.
+
+**Then the second test: does that one title hide a short edition inside it?** The browse listing
+returns a **date + image-count table** — that is, the page count of every issue. Pages 208–212 of
+the Pacific browse cover **22 June – 18 November 1965, 150 consecutive issues**, which brackets
+Larry's whole window. Result:
+
+- **Minimum page count across all 150 issues: 27. Maximum: 78.**
+- **Not one issue under 12 pages.** Weekdays run 30–37; Sundays double to 63–66.
+- **No missing dates whatever between 20 August and 30 September 1965** — every single day is
+  present.
+
+Page counts across his exact window, for the record:
+
+| Date | Pages | Date | Pages | Date | Pages |
+|---|---|---|---|---|---|
+| 1965-08-25 | 33 | 1965-09-03 | **33** | 1965-09-12 | 65 |
+| 1965-08-26 | 30 | 1965-09-04 | 35 | 1965-09-13 | 33 |
+| 1965-08-27 | 32 | 1965-09-05 | 66 | 1965-09-14 | 33 |
+| 1965-08-28 | 31 | 1965-09-06 | 33 | 1965-09-15 | 35 |
+| 1965-08-29 | 63 | 1965-09-07 | 33 | 1965-09-16 | 34 |
+| 1965-08-30 | 32 | 1965-09-08 | 33 | 1965-09-17 | 35 |
+| 1965-08-31 | 30 | 1965-09-09 | 34 | 1965-09-18 | 32 |
+| 1965-09-01 | 34 | 1965-09-10 | 34 | 1965-09-19 | 64 |
+| 1965-09-02 | 34 | 1965-09-11 | 34 | 1965-09-20 | 34 |
+
+**AND A CONTROL, which is what makes this a real negative rather than an assumption.** The same
+image-count column, read for **January 1948**, returns issues of **4, 5, 6, 20 and 21 pages** —
+because Pacific Stars and Stripes genuinely was a four-to-six-page paper in 1948. **So the
+instrument demonstrably reports short papers when short papers exist.** Its silence in 1965 is a
+measurement, not an artefact.
+
+### CONCLUSION: his paper is not in this subscription, in any edition
+
+**The six-page free paper Larry describes cannot be reached through this subscription.** It is not
+a separate title, and it is not a short issue hiding inside the Pacific run. Whatever he read at
+Camp Zama — a post bulletin, a hospital sheet, the Three-Star carried back on a medevac aircraft —
+**this archive does not hold it, and no amount of remaining subscription time will produce it.**
+
+### BUT THIS DOES NOT KILL THE SEARCH — it changes what the search is for
+
+An important distinction, and the earlier note in this file overstated the damage by missing it.
+
+**We are not looking for the physical copy Larry held. We are looking for the casualty release
+that put his name in print.** Casualty identifications in Pacific Stars and Stripes came from
+**Department of Defense releases**, issued theatre-wide. A six-page local sheet at Camp Zama had
+no casualty-reporting apparatus of its own; if it printed a list of the dead, **it was reprinting
+the same DoD release** that the Five-Star Edition printed.
+
+So the Five-Star casualty lists of **3–7 September 1965** remain the correct target — not because
+Larry read them, but because **they are a faithful proxy for the release he did read.** If his
+name went out on a DoD casualty release in that window, it should be in those lists.
+
+And the coverage finding makes that target better than it was: **the run is complete for his
+window, with no missing dates.** A negative read across 3–7 September 1965 would therefore be a
+strong negative about the *release*, not merely about one paper.
+
+**REVISED PLAN FOR THE REMAINING SUBSCRIPTION (ends 2026-09-17):**
+
+1. **Read the casualty lists in the Five-Star Edition, 3–7 September 1965, visually.** Five
+   issues, 33–66 pages each. This is the highest-value use of the remaining access and it is now
+   properly anchored from two directions.
+2. Widen to **1–12 September 1965** if that is negative, since his "first 3-4 days" is itself
+   approximate and his arrival date is a "may have been".
+3. **Stop treating the edition question as a live search problem.** It is answered: his paper is
+   not here. What remains is whether the *release* is here.
+4. The Tier B keyword sweeps (Núi Bà Đen, 118th/145th Aviation, Totosz, Gagne) are unaffected by
+   any of this — they were never about the misreport — and remain worth running.
+
+---
+
 ### AND THE WINDOW IS NOW ANCHORED — 2026-09-03
 
 The other half of the tier-1 question, called "the single most valuable thing he could tell us"

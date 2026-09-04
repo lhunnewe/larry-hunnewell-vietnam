@@ -66,8 +66,8 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **What newspaper was it, exactly?** — *the 2026-09-03 answer reopened this. Highest value,
-   and the subscription ends 17 September.*
+1. **What newspaper was it, exactly?** — *his paper is not in the subscription; the answer now
+   names a different record to go find.*
 2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
 3. **How long after that last week did you leave Vietnam?** *(a second route to the date)*
 4. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
@@ -84,27 +84,24 @@ including the Camp Zama date. His answers are in "Answered — the record" below
 What remains here is what he did not answer, plus **five new questions his answers created.**
 
 - [ ] **ASK THIS ONE FIRST — what newspaper was it, exactly?** *(ledger #1, issue #9 — NEW
-  2026-09-03, and it replaces the Camp Zama date at the head of this tier because that one is
-  now answered)*
+  2026-09-03. It replaces the Camp Zama date at the head of this tier, and it is no longer a
+  question about where to search — it is a question about what publication to go and find.)*
   *"The paper you saw your name in at Camp Zama — was that Stars and Stripes, or was it
   something the hospital put out? Do you remember the top of the front page, what it said?
   How big was it — could you fold it in your hand, or was it a full-size newspaper?"*
 
-  **Why this is now the most valuable thing he can tell us, and why it is urgent.** He said on
-  2026-09-03: *"They were a free news paper, like 6 pages. I think the first page on the right
-  side was 40 guys killed."* **That does not fit the paper this archive has spent weeks
-  searching.** The digitised Pacific Stars and Stripes is the Five-Star Edition — 24 to 37 pages,
-  with casualty lists on inside pages, never page one. A six-page paper with the dead on the
-  front is something else: possibly a Camp Zama post or hospital bulletin, possibly the
-  Three-Star Edition carried back on a medevac flight.
+  **Why it still matters, though the urgency has changed.** He said on 2026-09-03: *"They were
+  a free news paper, like 6 pages. I think the first page on the right side was 40 guys killed."*
+  The portal was audited the same day and **his paper is definitively not in it** — the
+  subscription holds one Pacific title only, and every issue in his window runs 27 to 78 pages.
+  So this question will not tell us where to search the subscription; **it tells us what other
+  record to go looking for.** If he says the hospital or the post put it out, that names a
+  publication — a Camp Zama post sheet or hospital bulletin — which is a findable thing in Army
+  publication holdings, and nobody has ever looked for it because nobody knew it existed.
 
-  If it was not Stars and Stripes, **every negative recorded so far rules out a paper he never
-  held**, and the remaining subscription time should be spent differently. The subscription
-  **ends 2026-09-17**, so this answer is worth more this week than next.
-
-  **Ask it completely cold.** *Do not name Stars and Stripes first, do not name the Three-Star
-  Edition, and do not tell him what page the lists were on.* Let him describe it. If he says
-  "Stars and Stripes" unprompted, that is worth something; if we say it first, his agreement is
+  **Ask it completely cold.** *Do not name Stars and Stripes first, do not name any edition, and
+  do not tell him what page the lists were on.* Let him describe it. If he says "Stars and
+  Stripes" unprompted, that is worth something; if we say it first, his agreement is
   worth nothing.
 
 - [ ] **1. The Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*

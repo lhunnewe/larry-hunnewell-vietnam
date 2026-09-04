@@ -109,6 +109,28 @@ Open questions:
    logs is poor and a hospital chaplain's office may leave nothing — but it is **the first
    indication that the misreport generated any paper at all beyond the casualty list
    itself**, and it is a records request nobody has made.
+   *2026-09-03, THE PORTAL AUDIT — **the edition question is settled, and his paper is not
+   there.** The action item raised hours earlier was run. The subscription holds **22 titles, of
+   which exactly ONE is Pacific**: Pacific Stars and Stripes (1947–2000), published Tokyo. No
+   Three-Star, no Vietnam or Korea edition, no Camp Zama bulletin — everything else is European,
+   Mediterranean or WWII. And the single Pacific title hides no short edition: the browse
+   listing's image-count column shows **150 consecutive issues from 22 June to 18 November 1965
+   running 27–78 pages, none under 12**, with **no missing dates at all** between 20 August and
+   30 September. CONTROL, which makes this a measurement rather than an assumption: the same
+   column reports **4-, 5- and 6-page issues for January 1948**, when the paper really was that
+   short. It detects short papers; there are none in 1965. **So the six-page free paper Larry
+   describes cannot be reached through this subscription in any edition.***
+
+   *2026-09-03 — **and the correct response is to re-aim, not to abandon.** The note above
+   overstated the damage by conflating two things. We are not looking for the physical copy Larry
+   held; we are looking for **the DoD casualty release that put his name in print.** Casualty
+   identifications in Pacific S&S came from Department of Defense releases issued theatre-wide,
+   and a six-page post sheet had no casualty apparatus of its own — if it printed the dead, it was
+   reprinting the same release. **The Five-Star lists of 3–7 September 1965 are therefore a
+   faithful proxy for what he read**, and the completeness finding makes them a better target than
+   before: a negative there would be a strong negative about the release itself. **Remaining
+   subscription plan: read 3–7 Sept 1965 casualty lists visually, widen to 1–12 Sept if negative,
+   and stop treating the edition as a live search problem.***
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
