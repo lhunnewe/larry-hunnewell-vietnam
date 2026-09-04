@@ -487,12 +487,12 @@ family ever pins his Camp Zama arrival date, the window tightens to two or three
       make every negative here beside the point.
 
 
-## THE EDITION QUESTION — declared resolved on 2026-09-03, and REOPENED the same day
+## THE EDITION QUESTION — resolved, briefly and wrongly reopened, and resolved again
 
-> **Read the correction at the end of this section before relying on anything in it.**
-> The conclusion below was reached from a paraphrase and was overtaken within hours by
-> Larry's own description of the paper. It is left standing, wrong, because the reasoning
-> is the useful part.
+> **The conclusion below is RIGHT — it was reached on weak grounds, briefly retracted on
+> worse ones, and is now restored on the strongest grounds available: Larry's own repeated,
+> unhedged statement that the paper was Stars and Stripes.** Read the whole section, including
+> the retraction at the end, before citing any part of it.
 
 **2026-09-03.** Larry's son, asked which paper he read at Camp Zama, reports that **Larry
 described a stack of the paper lying about free and accessible, which most soldiers could just
@@ -659,6 +659,66 @@ strong negative about the *release*, not merely about one paper.
    not here. What remains is whether the *release* is here.
 4. The Tier B keyword sweeps (Núi Bà Đen, 118th/145th Aviation, Totosz, Gagne) are unaffected by
    any of this — they were never about the misreport — and remain worth running.
+
+---
+
+### THE RETRACTION OF THE RETRACTION — 2026-09-03, and the method lesson is the point
+
+**The reopening above is withdrawn. It was Stars and Stripes.**
+
+The family pointed out what this file had failed to weigh: **Larry has said the paper was Stars
+and Stripes firmly and repeatedly, and it has been validated with him directly more than once.**
+It is also on the record here twice, from before the call:
+
+- **The original project brief** — *"He personally remembers seeing a notice or article in **Stars
+  and Stripes** saying he had been killed."* Volunteered, unprompted.
+  (`data/recollections/2026-brief-kia-report.json`)
+- **2026-08-23, the ward question** — *"Did you see the Stars and Stripes piece in the ward?
+  **Yes.** Was told of it at Camp Zama and then saw it or went looking for it."*
+  (`data/recollections/giscus-stories-c18118868.json`.) Weaker on its own, since the question
+  named the paper, but it is consistent.
+
+**Where the reasoning went wrong, precisely.** Look again at what he actually said:
+
+> They were a free news paper, like 6 pages. **I think** the first page on the right side was 40
+> guys killed.
+
+**He hedged the page detail. He did not hedge the title.** This file then took the hedged half as
+decisive and treated the unhedged, independently corroborated half as up for revision. That is
+backwards, and it is **the same failure recorded twice already on 2026-09-03** — in
+`dong-xoai-what-the-paper-said.md`, where his "4000" and his "about 16" were both called loose
+against the first source and both turned out to sit inside the second. The lesson was written
+down that morning and not applied by the afternoon.
+
+**A second cost, and it is the one that matters most.** The reopening produced a question to put
+back to Larry — *"was it Stars and Stripes at all?"* — about something he has already answered
+plainly several times. **Asking a man of 86 to re-litigate a settled memory is not neutral.** It
+invites him to doubt himself, and a witness who starts hedging a firm memory to please the person
+asking is a witness this archive has damaged. The question has been withdrawn from the guide and
+from `/interview/`. **Do not ask it.**
+
+**What is still genuinely open** — as an oddity inside his account, not as evidence against the
+title:
+
+- **Why six pages.** Plausible readings, none of which need putting to him: he was handed or found
+  a **section** rather than a whole paper, which is ordinary in a ward where papers get pulled
+  apart; or his page count is simply soft at sixty-one years, which is why he hedged it.
+- **"The first page on the right side."** Most likely the right-hand **column** of the front page
+  of whatever he was holding — casualty matter ran in columns.
+
+**AND THIS IS WHERE THE DETAIL EARNS ITS KEEP.** Read as a pointer rather than a contradiction, it
+says something the search has not acted on. **Every sweep so far has targeted the dense inside
+casualty lists** — the ones found at pp. 32, 19, 13 and 4. Larry describes something on a **front
+page, with a number attached: about forty dead.** That is a different kind of item: a front-page
+news paragraph or box reporting a week's toll, not the agate list.
+
+**So the plan gains a step rather than losing one:**
+
+> **Read the FRONT PAGE of every issue 3-7 September 1965, as well as the casualty-list pages.**
+> Watch for a front-page item carrying a figure near forty American dead.
+
+That is cheap — five front pages — and it is the first time his own description has been used to
+direct where on the page to look.
 
 ---
 

@@ -66,12 +66,15 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **What newspaper was it, exactly?** — *his paper is not in the subscription; the answer now
-   names a different record to go find.*
-2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
-3. **How long after that last week did you leave Vietnam?** *(a second route to the date)*
-4. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
+1. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
+2. **How long after that last week did you leave Vietnam?** *(a second route to the date)*
+3. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
+4. **The campfires** — how many nights was it like that?
 5. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
+
+> **Do not ask him again what newspaper it was.** He has answered it firmly and repeatedly: it
+> was Stars and Stripes. A question about it was briefly added to this guide on 2026-09-03 on
+> bad reasoning and has been withdrawn. Asking a settled memory again invites him to doubt it.
 
 ---
 
@@ -81,30 +84,16 @@ Every question here works on a telephone call. They are ordered by what the answ
 
 **Eight probes were retired from this tier on 2026-09-03** — he answered them all in one call,
 including the Camp Zama date. His answers are in "Answered — the record" below, in his words.
-What remains here is what he did not answer, plus **five new questions his answers created.**
+What remains here is what he did not answer, plus **four new questions his answers created.**
 
-- [ ] **ASK THIS ONE FIRST — what newspaper was it, exactly?** *(ledger #1, issue #9 — NEW
-  2026-09-03. It replaces the Camp Zama date at the head of this tier, and it is no longer a
-  question about where to search — it is a question about what publication to go and find.)*
-  *"The paper you saw your name in at Camp Zama — was that Stars and Stripes, or was it
-  something the hospital put out? Do you remember the top of the front page, what it said?
-  How big was it — could you fold it in your hand, or was it a full-size newspaper?"*
+> **A ninth question was added that day and then withdrawn the same day: what newspaper it was.**
+> He has answered that firmly and more than once — it was Stars and Stripes — and the reasoning
+> that reopened it weighted a detail he hedged against a title he did not. **Do not put it to him
+> again.** Re-asking a settled memory teaches a witness to hedge. The reasoning, and what is
+> still genuinely open about the six pages, is in
+> `research/events/kia-misreport-stars-stripes.md`.
 
-  **Why it still matters, though the urgency has changed.** He said on 2026-09-03: *"They were
-  a free news paper, like 6 pages. I think the first page on the right side was 40 guys killed."*
-  The portal was audited the same day and **his paper is definitively not in it** — the
-  subscription holds one Pacific title only, and every issue in his window runs 27 to 78 pages.
-  So this question will not tell us where to search the subscription; **it tells us what other
-  record to go looking for.** If he says the hospital or the post put it out, that names a
-  publication — a Camp Zama post sheet or hospital bulletin — which is a findable thing in Army
-  publication holdings, and nobody has ever looked for it because nobody knew it existed.
-
-  **Ask it completely cold.** *Do not name Stars and Stripes first, do not name any edition, and
-  do not tell him what page the lists were on.* Let him describe it. If he says "Stars and
-  Stripes" unprompted, that is worth something; if we say it first, his agreement is
-  worth nothing.
-
-- [ ] **1. The Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*
+- [ ] **ASK THIS ONE FIRST — the Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*
   *"You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who'd
   got sick in Cambodia. What else do you remember about him? How many days were you in that
   room? Was he still there when you left?"*

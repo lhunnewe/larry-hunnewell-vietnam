@@ -131,6 +131,29 @@ Open questions:
    before: a negative there would be a strong negative about the release itself. **Remaining
    subscription plan: read 3–7 Sept 1965 casualty lists visually, widen to 1–12 Sept if negative,
    and stop treating the edition as a live search problem.***
+   *2026-09-03, RETRACTION — **the edition reopening above is withdrawn. It was Stars and
+   Stripes.** The family pointed out what the entries above failed to weigh: Larry has said so
+   firmly and repeatedly, and it has been validated with him directly more than once. It is also
+   in the archive twice from before the call — volunteered in the original project brief
+   (`data/recollections/2026-brief-kia-report.json`) and confirmed in the ward question of
+   2026-08-23 (`giscus-stories-c18118868.json`). **The error, precisely: he hedged the page detail
+   ("I think the first page on the right side") and did NOT hedge the title, and this ledger took
+   the hedged half as decisive.** That is the same failure written down twice earlier the same day
+   in `dong-xoai-what-the-paper-said.md`, where his "4000" and his "about 16" were both called
+   loose against the first source and both sat inside the second. **A second cost, and the worse
+   one: it generated a question to put back to an 86-year-old about something he has already
+   answered plainly several times.** Re-asking a settled memory invites a witness to hedge. The
+   question has been withdrawn from the guide and `/interview/`; do not ask it.*
+
+   *2026-09-03 — **what survives, and it is not nothing.** The portal audit stands on its own:
+   one Pacific title, complete coverage of 20 Aug – 30 Sep 1965 with no missing dates, and exact
+   page counts for planning the visual reads. And his "six pages" remains an open oddity in his
+   account — most plausibly a SECTION handed round a ward rather than a whole paper — rather than
+   evidence against the title. **Read as a pointer it adds a step to the plan:** every sweep so far
+   has targeted the dense inside lists at pp.32, 19, 13 and 4, while he describes something on a
+   FRONT page with a number attached, about forty dead. **Read the front page of every issue 3–7
+   September 1965 as well as the list pages** — five front pages, and the first time his own
+   description has directed where on the page to look.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
