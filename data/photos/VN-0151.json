@@ -2,8 +2,15 @@
   "photoId": "VN-0151",
   "originalFilename": "1920236-R3-E115.jpg",
   "originalPath": "Native Vietnamese/1920236-R3-E115.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The housekeeper with a camera in her hands",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "A young Vietnamese woman with short curled hair, in a pale embroidered blouse and dark skirt, stands laughing inside the camp wire with a small blue-grey camera in her hands, its strap looped on her wrist. Behind her a sandbagged emplacement, a double fence of barbed wire, prefabricated buildings under construction, and tin roofs and hills beyond. She is the housekeeper Larry says reached America: \"She had 9 kids. Her and her mother would clean the hooch.\" Two days earlier: \"She is the housekeeper who made it to america. The same one in front of T-122. This is in Tah Suhn Nhut.\"",
+  "researchNotes": "Two comments, 2026-09-03 (giscus-vn-0151-c18260227.json) and 2026-09-05 (-c18308362 is VN-0152; this one is -c18307708.json). Her name is still not given — Larry said on 2026-09-02 that he knew it — and the tier-4 question stands. The survey had placed this frame at Nha Trang from the construction in the background; Larry's placement at the headquarters base is his and is entered, with the survey's reading left as a hypothesis. She holds a camera: whose, and whether any frame in this collection is hers, has not been asked. Ledger #26, issue #94: she is a living person or has living children, and nothing is searched until the name question has been put to Larry and the family has decided how to proceed.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0155", "vn-0154", "vn-0104"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

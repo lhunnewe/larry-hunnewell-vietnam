@@ -2,8 +2,15 @@
   "photoId": "VN-0067",
   "originalFilename": "1920236-R1-E053.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E053.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The road to the taxis, airport end of the base",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "Sunbeams fan through a mackerel sky over a wet road and a base skyline: a water tower on lattice legs, guard towers, a large flat building at left, rows of low barracks and curved-arm streetlights, two cyclists and a walking figure on the road. \"This looks like the airport area in Ton Suhn Nhut. We had to walk down this road to get a Taxi. There was a machine gun nest at the end of the road.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0067-c18307775.json). The road with a machine-gun post at its end is the same road on which he places the orphanage of VN-0070, 'somewhat near the machine gun nest' — two frames now fixed to one stretch of the base perimeter. The water tower is the frame's most distinctive feature and the survey's suggested comparison point for identifying the base from period photographs of Tân Sơn Nhứt; not yet attempted.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0070", "vn-0062", "vn-0117"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

@@ -2,8 +2,15 @@
   "photoId": "VN-0041",
   "originalFilename": "1920236-R1-E015.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E015.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The summit compound at dusk — and the building where sick call was held",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "The top of the mountain against a fading sky, heavily backlit: a boulder at left, stacked crates and a barefoot figure in shorts mid-frame, a boxy structure with a window at right, and beyond them a path climbing over the rocks toward the high point, where a built-up position with a flagpole and a few silhouetted figures stands on the skyline. Larry finds it hard to read — \"Not sure what is happening in this picture. It's hard to see\" — but offers: \"The building on the right with the window could be where we held sick call for the infantry of the Cambodians and their families. Captain Kennedy handled the political problems. Me and the medic handled the sick call.\" The boxes at front centre: \"Could be ammo but we never left ammo outside.\" A second look, later the same day: \"Maybe the guys are holding a person on a stretcher above them? Maybe this is the day of the Cambodian picking up the detonator to return to me?\"",
+  "researchNotes": "Two comments on 2026-09-05 (giscus-vn-0041-c18308745.json, -c18308763.json), and the first is one of the longest he has given. It carries three separate things: the sick-call building and the New Zealand medic he called Kiwi (data/people/kiwi-the-medic.json); a story from his first arrival on the mountain with Gagne, when a Cambodian chief in his sixties or seventies came into that building wearing a necklace of thirty human ears — 'I never seen anything like that in my life and i never will again and I'll never forget it either'; and, told as a separate story while looking at this frame, a meeting with Thai soldiers that he thinks was by the pool in Cholon (placed on that record, not this one). His second comment tentatively links the frame to the day of the detonator accident in VN-0157 — 'maybe', twice — which is left as his tentative association and not adopted as the caption. The survey read the boxy structure at right as an equipment van with antenna leads rather than a building; both readings stand, his as the identification and the survey's as a hypothesis.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0039", "vn-0059", "vn-0157", "vn-0069"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

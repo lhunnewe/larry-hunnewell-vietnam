@@ -2,8 +2,15 @@
   "photoId": "VN-0076",
   "originalFilename": "1920236-R2-E069.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E069.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Morning coffee where the press drank it — a Saigon corner",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "A three-storey colonial corner building in morning backlight, its rounded corner stacked with shop signs — a big red VIETNAM cosmetics advertisement, a radio shop, names in Vietnamese and Chinese — above a street market under the trees at left; cyclos, motorbikes, a crowd, and a man in a white shirt crossing the open foreground. \"Saigon. I am sitting in the Continental restaurant having coffee in the morning. This is where all the press had coffee at. Most likely sitting with Ronnie Tototz.\" Up the street to the right, he says, was a big movie theater where he watched a Vietnamese or Chinese film, \"a bloody film of a bunch of people killing a bunch of people\"; the road to the right led back to the base and the river; the road at left was Saigon's main drag, with the Presidential Palace two blocks or so up.",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0076-c18308016.json). His placement — the terrace of the Continental, the press hotel — is his and stands. Held against it: the bilingual Chinese–Vietnamese shop signs the survey read on the corner building are characteristic of Chợ Lớn rather than the Continental's square, and the frame does not show the hotel. The difference is recorded on the Saigon and Cholon place records and not resolved. What is not in doubt is the routine he describes: morning coffee in town with Ron Tototz, in the same city where they ate at the Mỹ Cảnh and rode with the same taxi driver.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0085", "vn-0081", "vn-0083"],
+  "relatedEvents": [],
+  "sources": []
 }

@@ -1,0 +1,11 @@
+{
+  "name": "Lieutenant Hanna",
+  "aliases": ["Hanna"],
+  "role": "Helicopter pilot in Larry's unit; Larry says killed in 1968",
+  "status": "unresolved",
+  "summary": "A young pilot in Larry's own unit — \"he was 19 or 20\" — whom Larry flew with \"a couple times\" and rated highly: \"he was a real good pilot.\" Larry remembers him as cross-eyed, and says that after Larry left Vietnam Hanna went on to another unit, \"I think he was 1st cavalary,\" and was killed in 1968 at Kontum, \"which is about 50 miles south of Pleikeu.\" Named while looking at VN-0046, a view of rice paddies that Larry thinks was taken on take-off from Tân Sơn Nhứt. In the same breath Larry adds that Pleiku was the 1st Cavalry's base, \"they called it the golf course,\" and that he put the first radio beacon in there.",
+  "researchNotes": "New on 2026-09-05 (data/recollections/giscus-vn-0046-c18308860.json), and the most checkable name in that sitting: a named pilot, a year, a place, and a division are four handles on a death that the casualty file records. First check, same day, against the helicopter pilots' memorial roll (sources/vhpa-kia-index): it carries two men of this surname, and NEITHER FITS — one was killed in 1968 with the 1st Cavalry, but was born in 1948 and only reached Vietnam in November 1967, so he was sixteen in 1965 and cannot have flown with Larry; the other died in 1969 on a first tour that began that year. Neither died near Kontum. That is a scoped negative, not a closed question: the roll covers helicopter pilots and crew only, and one of Larry's five details (the rank, the age, the year, the place, or the division) may be off while the man is real. Next steps and the reasoning are in research/people/lt-hanna.md; the full casualty file (DCAS) for every Hanna who died in 1968 is the sweep that would settle it. The 'golf course' at An Khê — not Pleiku — was the 1st Cavalry's famous base from September 1965, which is after Larry left; his 'first radio beacon' there is a separate claim to hold against the unit question (#2). Ledger #31, issue #126.",
+  "confidence": "unverified-recollection",
+  "relatedPlaces": ["thom-son-nuht"],
+  "sources": ["vhpa-kia-index"]
+}

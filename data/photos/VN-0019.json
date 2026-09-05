@@ -2,8 +2,15 @@
   "photoId": "VN-0019",
   "originalFilename": "1920236-R3-E102.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E102.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Larry, barefoot, with an AR-15 in front of hooch T 123",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": ["larry-dennis-hunnewell"],
+  "description": "Larry squats barefoot on the gravel in a white T-shirt and utility cap, grinning, an early AR-15 across his knee. \"That is me,\" he says. Behind him at left is his own hooch, T 123, with its reed blinds; the framed tent at right with the sides rolled up is another hooch, \"so it would be aired out.\" The low sandbagged pit on the right \"is where we would jump into when we got mortared. The rats were huge.\" The rifle is not his: \"It was one of the first ones in Vietnam… a big deal because we didn't know if we would all be issued this or not.\"",
+  "researchNotes": "Identified by Larry on 2026-09-05 (data/recollections/giscus-vn-0019-c18307680.json and -c18307688.json). The T 123 stencil ties this frame to VN-0017, where Ron Tototz stands at the same door with Sarge, and to VN-0084, the interior with his bunk; together they fix the hooch as Larry's and Ron's at the base he calls Ton Son Nuht. The rifle detail is period-consistent: the AR-15 reached Army aviation and advisory units in Vietnam in 1963–64 ahead of general M16 issue, which is exactly the situation he describes — a rifle in the unit that not everyone had. The sandbagged pit as a mortar shelter is his identification; the survey had read it as a low wall.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0017", "vn-0084", "vn-0082"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

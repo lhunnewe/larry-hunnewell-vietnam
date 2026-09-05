@@ -2,8 +2,15 @@
   "photoId": "VN-0068",
   "originalFilename": "1920236-R1-E056.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E056.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The street of flowers, Saigon — and the night the Mỹ Cảnh blew up",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "Beds and baskets of potted yellow chrysanthemums and red celosia fill the median of a tree-lined boulevard around painted kiosks — Star-photo again, a blue P parking sign, newspaper stands — with shoppers strolling among the flowers and a small boy running at right. \"This is Saigon. It's a street parallel to Tudo street. It was a street of flowers.\" Then the story the picture brought back: to the right, he says, was the river and the Mỹ Cảnh floating restaurant, \"where I almost got blown up.\" He was standing in front of it when his friend Lopez, a Marine he had known since the cub scouts, invited him to the Peacock instead, \"and when we entered the Peacock the MyChan blew up. It was like a guardian angel.\" He photographed the wreck the next day; that picture, he thinks, is missing.",
+  "researchNotes": "Larry's comment of 2026-09-05 (giscus-vn-0068-c18307841.json) is the archive's first account of the Mỹ Cảnh bombing of 25 June 1965, a documented event (sources/frus-1964-68-v03-d20) that fixes him in Saigon on a calendar date — see data/timeline/1965-06-25-my-canh-bombing.json and research/events/my-canh-bombing-1965.md. He was not asked about the bombing; the survey's question about it had sat unasked on VN-0079. The street: his 'street of flowers, parallel to Tudo' is a precise description of Nguyễn Huệ Boulevard, which the survey independently read from the street plate under the P sign; he did not name it and the machine reading is not adopted as fact, but the two agree. His orientation — 'to the left is the Presidential Palace and to the right is the Mekong River' — has the building at the head of the boulevard as the Palace, where the city hall in fact stood (the same building he calls the Palace in VN-0120), and the Saigon River at the other end. The chrysanthemums suggested to the survey a Tết flower market, which would date the frame to about February 1965; Larry said nothing about the season, so the date stays unknown.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0079", "vn-0065", "vn-0040", "vn-0120", "vn-0072"],
+  "relatedEvents": ["1965-06-25-my-canh-bombing"],
+  "sources": ["frus-1964-68-v03-d20"]
 }

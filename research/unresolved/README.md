@@ -154,6 +154,13 @@ Open questions:
    FRONT page with a number attached, about forty dead. **Read the front page of every issue 3–7
    September 1965 as well as the list pages** — five front pages, and the first time his own
    description has directed where on the page to look.*
+   *2026-09-05 (Memories harvest, paraphrase) — **the elapsed-time answer arrived**, in his son's
+   words: "he says he was flown out after 2-3 days of seeing the hundreds of camp fires"
+   (`data/recollections/giscus-stories-c18306894.json`). It is the second route to the date the
+   guide asked for on 2026-09-03, and it lands inside the same fortnight: campfire nights ~23–26
+   August, off the mountain ~25–27 August, Camp Zama ~3 September. The 3–7 September casualty-list
+   window stands; nothing here widens or narrows it. Paraphrase — do not fish for a transcribed
+   confirmation with a number.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
@@ -372,6 +379,15 @@ Open questions:
    HANDLING: the names came off Larry's own photographs and are not secret from him, but
    **who these men were must not reach him before he is asked cold** whether he remembers the
    names — the interview question stays exactly as written.*
+   *2026-09-05 — **the base acquired a layout**, all from photographs and all transcribed: EM Club
+   "about 50 yards from my hooch" (VN-0030–0034); the barracks and his bunk (VN-0152); the road
+   "we had to walk down to get a Taxi" with "a machine gun nest at the end" at the airport end
+   (VN-0067) and an orphanage on the same road (VN-0070); the river with swimming children on
+   the way into Saigon (VN-0064); the unit's deuce-and-a-half that he drove (VN-0080); the
+   housekeeper of VN-0151 placed here. Rendering this time "Ton Suhn Nhut" (son's spelling) —
+   the fifth in the archive; none since 2026-08-13 carries his authority. The orphanage with a
+   church beside it and the water tower of VN-0067 are the two features most likely to place the
+   base against period Tân Sơn Nhứt photographs; neither attempted.*
 4. **Sgt. Lowry / Lowery** — Special Forces sergeant on Núi Bà Đen, spelling and identity.
    *2026-08-13: now also the only named witness to the "450 civilians" day (#10) — he was
    the lone SF man at the camp and delivered the accusation. Identifying him could unlock
@@ -574,6 +590,12 @@ Open questions:
    "right before the battle of the I Drang Valley", and **Ia Drang was 14–18 November 1965**,
    by which time his own Camp Zama date puts him in Japan for over two months. His spellings
    are preserved.
+   *2026-09-05 (paraphrase, `giscus-stories-c18306894.json`): "**he was flown out after 2-3 days
+   of seeing the hundreds of camp fires.**" One figure answers both tier-1 follow-ups — the
+   number of nights, and the interval to the medevac. **For the RG 472 imagery request (#66) the
+   target window is now nameable: nightly infrared runs over the Cambodian border west of Núi Bà
+   Đen, ~23–26 August 1965.** Nothing in the paraphrase touches the Ia Drang tension, which
+   stands.*
 11. **The bathroom shooting court-martial** — Larry says the man who shot at him "would have
     been court martialed, there should be a record" (~Feb–Mar 1965 by his dating). Locating
     it would date the incident and recover the real surname of his bunk mate and witness
@@ -621,6 +643,18 @@ Open questions:
     **PFC Stanton** (VN-0026 — explicitly a guess), **Rosie** (club doorkeeper who made it
     to America), and **Sgt. "La Franceaous"** (phonetic Fran-Swas, no photos, no context
     yet). Person records exist for all.
+   *2026-09-05 — **STANTON REVERSED, in both directions.** Shown VN-0026 again: "This is not
+   Stanton." The 2026-08-15 guess is withdrawn and the frame reverts to an unnamed soldier
+   ("ex helicopter school", like most of the unit). The same sitting made Stanton real for the
+   first time: from New York, on a rooftop bar with Zukowski in Larry's last Saigon days, and a
+   post-war visit to Larry's machine shop on Western Blvd in Los Angeles (VN-0081). A man in
+   touch after the war may be in Larry's own papers — ask the family before any roster.
+   **La Franceaous** surfaced again as a bare "Sargent LaFrancois" at the end of the VN-0046
+   comment; his son says it was a separate thought, not a man in the frame. Still no context.
+   **Four new names, each with a record:** Lieutenant Hanna (#31), Lopez (#32), "Kiwi" the New
+   Zealand medic (`data/people/kiwi-the-medic.json` — sick call on the mountain with Larry,
+   "might have been Roger"; NZ records are a distinct and small search), and the taxi driver
+   "VC Charlie" (a nickname, entered so the Saigon record can refer to him; not searchable).*
    *2026-08-23: Mike Patrick — Larry named the organisation himself, "He was above special
    forces. **He was MAGSOG**", his own rendering of MACV-SOG, which the survey had only
    inferred. Still his single testimony rather than a document, so the classification does
@@ -709,6 +743,10 @@ Open questions:
     stands: he died 2004, not "about ten years ago" — the family judges this won't be
     news to Larry. Last corroboration step (Vietnam/unit-level): NPRC morning reports
     once the unit settles, or family materials via outreach.*
+    *2026-09-05: Ron's Saigon, for the outreach letter — the Mỹ Cảnh ("we always ate here",
+    VN-0072), morning coffee at the Continental (VN-0076), the taxi driver they shared
+    (VN-0073), and the mountain medic who met him with Larry in town "all the time". A family
+    holding his photographs would recognise these.*
 16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
     leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
@@ -770,6 +808,14 @@ Open questions:
     5th SFG roster naming an armorer at Núi Bà Đen in 1964–65. Still worth one gentle question —
     **what became of him after Larry was flown out** — because Larry only knows he was alive on
     the day he left. Issue #68 needs its premise rewritten, not closed.*
+    *2026-09-05 — **a commission.** "Sargent Gagne made Field Promotion to Lieutenant and that
+    don't really happen. He was that good" (`giscus-stories-c18308877.json`). A battlefield
+    commission is published in orders and sits in the OMPF, so the man is now findable under two
+    ranks, and a direct appointment in a III Corps SF detachment in 1965 is rare enough to be a
+    search on its own. Held against it, unreconciled: a serving French Foreign Legionnaire could
+    not hold a U.S. commission — either the Legion is his past or one description is loose. Also
+    from the same day: Gagne was with Larry on Larry's **first** arrival at the mountain
+    (VN-0041), which puts him there from the start of Larry's association, not only the end.*
 19. **The CBC documentary** (2026-09-01 phone call, issue #69) — Larry says a Canadian
     Broadcasting Corporation crew filmed on site for about two weeks, that they asked him
     questions on camera, that they all ate together, and that photographs of the crew are
@@ -984,6 +1030,12 @@ Open questions:
     bar **"Papillon"** here — correct French for butterfly, as he himself glossed it —
     against **"Papallon"** on 2026-09-02. Both spellings are his and both should be carried
     as search terms.*
+    *2026-09-05 — **a SECOND Saigon bombing, not to be merged with this one.** He was in front
+    of the Mỹ Cảnh floating restaurant when it blew up on 25 June 1965 (#30). Different day,
+    different mechanism, different companion (Lopez, not Lowry), no first aid mentioned. The
+    Papillon and "the Embassy around the corner" recur on VN-0065, consistent with this entry.
+    And on VN-0081, undated: a rooftop bar with Zukowski and Stanton "and there was war going
+    on all around us. It was one of my last days in Saigon" — a third scene, unplaced.*
 24. **Captain Kennedy** (issue #92) — the officer Larry names as running the camp, and the man
     he credits with taking VN-0023. Record: `data/people/captain-kennedy.json`.
     *2026-09-01, cold: "Special Forces ran the camp. Captain Kennedy was in Charge of the camp
@@ -1022,6 +1074,10 @@ Open questions:
     1965 is in her late eighties now, and nine children would be findable. **Handle with more
     care than the military searches** — living people, families who may not wish to be found.
     NOTHING IS SEARCHED until the name question has been put to him; he says he knew it.*
+    *2026-09-05, VN-0151 again: "She had 9 kids. Her and her mother would clean the hooch." The
+    number repeats exactly; the name did not come and was not asked. She is holding a camera in
+    that frame — whose, and whether any picture here is hers, is a new open question for the
+    table. VN-0151 now cataloged, with the base as Larry places it.*
 27. **The USAF radar installation on Núi Bà Đen** (issue #62) — a dating anchor, and an issue
     that has been open since 2026-08-16 without a ledger entry. Filed here to close that gap.
     *The value is chronological: if the date the installation went in can be fixed, it bounds
@@ -1032,8 +1088,68 @@ Open questions:
     **1LT Lewis** appears in the order of battle as commanding at Núi Bà Đen from April 1965
     (#24), and **Major Lewis** is Larry's Rosethorn 007 pilot. Same surname, different rank,
     different job. Nothing suggests they are the same man and nothing rules it out.*
+    *2026-09-05: Rosethorn 007 named unprompted a fourth time, as the aircraft for the run to
+    the mountain with its flight profile — "take off low for 10-15 miles and then we go up
+    about 3000 to 5000 feet… about 70 miles" (VN-0071). And a second pilot from his own unit is
+    named for the first time, **Lieutenant Hanna** (#31) — not tied by Larry to Rosethorn 007,
+    but the tier-4 crew question now has one more name to hear back.*
 29. **Mike Patrick** (issue #60) — VN-0010; ranger, "special operations group for MACV," whom
     Larry called a ghost or a spook. Issue open since 2026-08-23 with only partial ledger
     coverage under #13.
     *Also unresolved in the same frame: the other American sitting on the rocks at the edge of
     the picture, unnamed. Ask open — the guide has it at tier 4.*
+30. **The Mỹ Cảnh bombing, 25 June 1965 — and the missing next-day photograph** (issue #127) —
+    told unprompted on 2026-09-05 at VN-0068: he was in front of the floating restaurant when
+    it blew up, and inside the Peacock only because Lopez had just invited him there. The
+    event is documented to the day (`sources/frus-1964-68-v03-d20`: 44 dead, 13 American, two
+    command-detonated mines); his presence is testimony. **The only day of his tour fixed to a
+    calendar date by his being there**, and it bounds the mountain stints: sixteen days after
+    Đồng Xoài, which he heard from the mountain, he is in the city. He says he photographed
+    the wreck the next day — **that slide is not in the collection and was never scanned**
+    (E001–E157 unbroken), the first concrete missing photograph the archive can name. NEXT:
+    26–28 June 1965 wire and Stars and Stripes coverage (a "Peacock" nearby? any next-day
+    scene); the reopening date, to bound VN-0072/VN-0098; the missing picture put to him in his
+    own frame. `research/events/my-canh-bombing-1965.md`,
+    `data/timeline/1965-06-25-my-canh-bombing.json`, `data/places/my-canh.json`. Keep apart
+    from #23, the Embassy bombing of 30 March.
+31. **Lieutenant Hanna** (issue #126) — a pilot in Larry's own unit, "19 or 20", cross-eyed,
+    "a real good pilot", flown with a couple of times; "killed in 1968 Kontom", "I think he was
+    1st cavalary" (VN-0046, 2026-09-05). *Same-day check against the VHPA helicopter-pilot
+    memorial roll (`sources/vhpa-kia-index`): two Hannas, NEITHER FITS — WO1 Gary W. Hanna,
+    KIA 31 Jan 1968 with the 1st Cav near Huế, matches year and division but was born in 1948
+    and arrived in Nov 1967 (sixteen in 1965); WO1 David R. Hanna died 1969 on a first tour.
+    Scoped negative: if Larry's Hanna was a helicopter pilot killed in 1968 he is not on the
+    roll under this spelling. Rank ("Lieutenant" for a 19-year-old pilot is unlikely — warrant
+    officer more so), aircraft (fixed-wing would not be on the roll), spelling and year can
+    each flex. NEXT: DCAS/Coffelt sweep of every Hanna/Hannah/Hana who died 1967–69, filter
+    Kontum and 1st Cav. A candidate with a documented 1964–65 assignment would name Larry's
+    unit (#2) from a new direction. `research/people/lt-hanna.md`,
+    `data/people/lt-hanna.json`. Ask Larry only open questions; never a candidate name.*
+    *Also in the comment, held against #2 and not pursued: "Pleikeu was 1st Calvaries base.
+    They called it the golf course. I put the first radio beacon in there." The Golf Course was
+    the division's base at An Khê from September 1965, after his medevac.*
+32. **Lopez** (issue #128) — "my pal throughout the cub scouts", a Marine, who "just showed up"
+    outside the Mỹ Cảnh on 25 June 1965 and invited Larry to the Peacock (VN-0068, 2026-09-05).
+    First name not given. *Two handles: the same Inglewood cub scout pack as Larry in the early
+    1950s, and a Marine posting in Saigon in June 1965, which was a small set of units (the
+    hypothesis is in `research/events/my-canh-bombing-1965.md`, not on his page — rule 6).
+    Searchable without asking Larry anything; when asked, only "Tell me about Lopez."
+    `data/people/lopez.json`.*
+33. **The Cambodian striker wounded by Larry's blasting cap** (VN-0157, issue #129) — the held
+    question answered on 2026-09-05, at the photograph: felling trees with explosive cord by
+    the helicopter pad, a dropped cap, a man who "had no idea what it was" carrying it back to
+    him; fingers lost; arms held up in the helicopter to slow the bleeding; handed to ARVN
+    nurses at the Vietnamese army hospital by the base in Saigon; never learned what became of
+    him. "Jan/Feb/Mar of 1965." "It added PTSD." *A striker injured by a U.S. cap would appear
+    in the detachment's reporting to B-32 if anything did; the hospital fits Cộng Hòa General
+    Hospital beside Tân Sơn Nhứt (hypothesis). He asked a question of his own — "Do they have a
+    Cambodian area in there with Cambodian nurses?" — and a records answer to it is a thing this
+    archive could actually give him. THE SENSITIVITY DECISION (#22) IS NOW DUE: the guide said
+    his answer would decide whether the frame is shown publicly; he has answered. That is the
+    family's call. VN-0157 cataloged; the man is unnamed and not linked to a record.*
+34. **The shoot-down with PFC Jones** (issue #130) — "PFC Jones and I got shot down and had to
+    go back to the base and land one time" (VN-0071, 2026-09-05). Undated; attached by him to
+    the Rosethorn 007 run to the mountain. *An aircraft that took hits and returned to base
+    generated a report and a maintenance entry; the first incident attached to a Jones rather
+    than a likeness (#13, one Jones or two). Searchable once the unit (#2) or the Rosethorn 007
+    crew (#28) is settled.*

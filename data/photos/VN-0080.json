@@ -2,8 +2,15 @@
   "photoId": "VN-0080",
   "originalFilename": "1920236-R2-E073.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E073.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Bicycles by the hundred, and perhaps the unit's deuce-and-a-half, Saigon",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "A tide of parked two-wheelers — bicycles, mopeds, scooters racked side by side down a tree-lined pavement beside a monumental pale stone building — with two olive-drab military trucks at the kerb at left and a uniformed figure walking between them. \"This is Saigon. The 2.5 ton truck may be my unit's truck that I drove. The truck is called deuce and a half.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0080-c18308110.json). The detail that he drove the unit's 2½-ton truck is new and small and worth keeping — a radio operator with a truck run into Saigon is a duty that morning reports and motor-pool dispatch logs would show. The stone building with arched windows was flagged by the survey as matchable to a Saigon institution and has not been attempted.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0085", "vn-0066"],
+  "relatedEvents": [],
+  "sources": []
 }

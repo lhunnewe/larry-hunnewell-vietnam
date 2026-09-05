@@ -2,8 +2,15 @@
   "photoId": "VN-0045",
   "originalFilename": "1920236-R1-E019.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E019.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Looking up at the machine-gun nest, Núi Bà Đen, at dusk",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "The summit rocks in silhouette against an amber-and-blue evening sky, a utility pole and antenna wire crossing the frame, and on the highest boulder the dark shape of a gun position. Faint white lettering shows on the rock face at lower right. \"Nui Ba Den looking up at the machine gun nest.\"",
+  "researchNotes": "Identified by Larry on 2026-09-05 (giscus-vn-0045-c18308817.json). The painted lettering is the same boulder complex as VN-0035, whose names he has already gone through (seven negatives, 2026-09-02); nothing new is legible here. VN-0069, shot in daylight, shows the same crest with 'machine guns on top of the rock' in his words, so the two frames describe one position from two lights.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0069", "vn-0035", "vn-0044"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

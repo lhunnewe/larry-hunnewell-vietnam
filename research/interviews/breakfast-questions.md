@@ -67,10 +67,15 @@ The order is by *what the setting allows*, not by when the question was written.
 ## If you only get ten minutes
 
 1. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
-2. **How long after that last week did you leave Vietnam?** *(a second route to the date)*
-3. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
-4. **The campfires** — how many nights was it like that?
+2. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
+3. **The pictures of the My Canh blown up** — you said you took some the next day; where might
+   they be? *(he raised it himself on 2026-09-05; the first missing photograph we can name)*
+4. **Lopez** — tell me about him. *(no more than that; he is findable from what we have)*
 5. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
+
+> **Two of the five from 2026-09-03 came off this list on 2026-09-05** — how long after the
+> campfire week he was flown out, and how many nights it lasted — answered together in one
+> line: "flown out after 2-3 days of seeing the hundreds of camp fires." See "Answered".
 
 > **Do not ask him again what newspaper it was.** He has answered it firmly and repeatedly: it
 > was Stars and Stripes. A question about it was briefly added to this guide on 2026-09-03 on
@@ -103,16 +108,8 @@ What remains here is what he did not answer, plus **four new questions his answe
   be true. **"How many days" is the real prize** — it is an independent route to the medevac
   timing, coming at the chain from the Philippines end rather than the Japan end.
 
-- [ ] **2. How long after that last week did you leave Vietnam?** *(ledger #1 — NEW 2026-09-03)*
-  *"That last week on the mountain, with all the campfires — how long after that were you flown
-  out? Days? Weeks?"*
-  **A second, independent route to the date**, asked from the other direction. He gave 3
-  September 1965 for Camp Zama, which the archive's own medevac derivation matches — but he
-  offered it as "may have been" and said he was in and out of consciousness. An elapsed-time
-  answer would corroborate or break it without ever asking him for a date again.
-  **Do not mention the Ia Drang valley.** He anchored that week to it himself, and Ia Drang was
-  in November — two months after he says he was already in Japan. Asking about it would only
-  invite him to reconcile the two, which is our job, not his.
+- [X] **2. How long after that last week did you leave Vietnam?** — *answered 2026-09-05, with
+  #4, in one line; see "Answered — the record". Do not re-ask with a number.*
 
 - [ ] **3. The chaplain's book.** *(ledger #1, issue #9 — NEW 2026-09-03; **VN-0093**,
   **VN-0095** if you have a screen — the unnamed hospital friend in VN-0093 is a separate
@@ -125,21 +122,18 @@ What remains here is what he did not answer, plus **four new questions his answe
   whether it was a bound ledger or a loose form tells us which series to request, and whether
   anything was forwarded up. Everything else about the misreport is memory.
 
-- [ ] **4. The campfires — how many nights?** *(ledger #10, issue #66 — NEW 2026-09-03)*
-  *"You said that week the whole thing was lit up with campfires toward Cambodia. How many
-  nights was it like that before the day everything happened? Did anyone come up to look —
-  did you tell anyone besides the radio?"*
-  He gave this unprompted: fifteen fires on a normal night, hundreds that week. It is the first
-  context the archive has ever had for "450 enemy digging in", and **a night count would date
-  the build-up** — which is exactly what a Mohawk infrared imagery request to NARA would need in
-  order to name a target window. *Do not suggest a number of nights to him.*
+- [X] **4. The campfires — how many nights?** — *answered 2026-09-05 with #2: "2-3 days". The
+  night count the imagery request needed is ~23–26 August 1965. See "Answered".*
 
-- [ ] **5. The missing photographs.**
-  *"Were there other pictures that didn't go in with the rest — another album, a box, a
-  folder somewhere? Did you ever give any away?"*
+- [ ] **5. The missing photographs — now with one to name.** *(VN-0068, VN-0079 on a screen)*
+  *"You said you took pictures of the My Canh the next day, after it was blown up. Where might
+  those be? Were there other pictures that didn't go in with the rest — another album, a box,
+  a folder somewhere? Did you ever give any away?"*
   Still open, and **not** answered by finding the CBC frame. The scan reconciliation shows the
   archive holds every frame the lab was given, E001–E157 unbroken, so anything missing was
-  never scanned. Only he knows where to look.
+  never scanned. Only he knows where to look. **2026-09-05: he named one himself** — "The next
+  day i took pictures of the MyChan restaurant of it blown up. The picture may be missing
+  though." It is not in the collection. Asking about it does not prime; he raised it.
 
 - [ ] **6. The medic — one more pass.** *(ledger #14, issue #61)*
   *"The medic who drowned at Nha Trang — you said Kansas or Nebraska. If you had to pick one,
@@ -203,8 +197,8 @@ What remains here is what he did not answer, plus **four new questions his answe
 - [ ] **The monument square** — VN-0130: *"You thought this was Nha Trang — does that still
   feel right, or could it be somewhere else?"* *(He answered "I think this is Nha Trang" —
   tentative enough to be worth one confirmation, and no more.)*
-- [ ] **The gibbon** — VN-0152: *"And the black gibbon — whose was he?"* *(The monkey is
-  answered: Sarge. The gibbon never has been.)*
+- [X] **The gibbon** — VN-0152: *answered 2026-09-05, "This is Sarge." One animal, not two: the
+  gibbon is the monkey of VN-0017. See "Answered".*
 - [ ] **The mother and baby** — VN-0145, VN-0156: *"Who were they? Did you ever learn what
   became of them?"*
 
@@ -224,16 +218,37 @@ What remains here is what he did not answer, plus **four new questions his answe
   America? Did you hear from her?"* *(2026-09-02: she was the club's cashier, and Larry says
   she made it to the United States. VN-0154 "might be Rosie. I'm not sure who it is.")*
 - [ ] **The housekeeper who made it to America** — VN-0151, VN-0155: *"The one in the white
-  top — you said you knew her name. Does it come back to you?"* *(2026-09-02: she was 27 with
-  nine children, her mother is the woman on the right, and Ron Tototz is how Larry knows she
-  reached the United States.)*
+  top — you said you knew her name. Does it come back to you? And whose camera is she
+  holding?"* *(2026-09-02: she was 27 with nine children, her mother is the woman on the right,
+  and Ron Tototz is how Larry knows she reached the United States. 2026-09-05, VN-0151: "She had
+  9 kids. Her and her mother would clean the hooch" — the number repeats; the name still did not
+  come. She is holding a camera in that frame: whose was it, and did she take any of these
+  pictures?)*
 - [ ] **Sgt. La Franceaous** — "You mentioned a Sergeant La Franceaous — where did you know
-  him from? What did he do?"
+  him from? What did he do?" *(The name came up again on 2026-09-05, alone, at the end of the
+  VN-0046 comment — a separate thought, not a man in that frame. Still no context.)*
+- [ ] **Lopez** — *"Tell me about Lopez."* *(ledger #32, issue #128. Nothing more than that:
+  first name, where he was from, how they met again in Saigon, what became of him. He is the
+  Marine from the cub scouts who pulled Larry away from the Mỹ Cảnh on 25 June 1965. Do not
+  offer any unit or posting — the search hypothesis is in research/, and he must not hear it.)*
+- [ ] **Lieutenant Hanna** — *"Hanna — do you remember his first name, or where he was from?
+  What did he fly?"* *(ledger #31, issue #126. Named at VN-0046 on 2026-09-05: a pilot in his
+  own unit, 19 or 20, killed in 1968. The pilots' memorial roll has no match that fits; the
+  DCAS sweep comes first. **Never a candidate name.**)*
+- [ ] **Kiwi, the medic** — *"The New Zealand medic you did sick call with on the mountain —
+  Kiwi — does his name come back? Was he in the Army, or with the New Zealanders?"*
+  *(2026-09-05, VN-0041: "Might have been Roger." Whether he was a New Zealand serviceman or a
+  New Zealand-born American decides which records to search.)*
+- [ ] **Stanton, after the war** — *"Stanton came to see you at the shop on Western — when
+  was that? Did you stay in touch? What was his first name?"* *(2026-09-05, VN-0081. A man in
+  touch after the war may be in Dad's own address books and papers — ask the family first.)*
 - [ ] **Captain Guegler's first name** — VN-0020: "The officer on the left next to him — it
   may come back to you. And what was Guegler's first name?" *(ledger #5. His surname spelling
   is settled — "Geutler" is Larry's own — so the first name is what is left.)*
 - [ ] **Rosethorn 007 crew** — VN-0016: "Besides Major Lewis and Captain Guegler, do you
-  remember other pilots or crew on Rosethorn 007?"
+  remember other pilots or crew on Rosethorn 007?" *(2026-09-05: he named Rosethorn 007 again
+  unprompted as the aircraft for the run to the mountain (VN-0071), and named a second pilot
+  from his unit, Lieutenant Hanna — without tying him to this aircraft. Ask as written.)*
 - [ ] **The battalion and the flight line neighbours** — with VN-0012 and VN-0020 on the
   table: "Do you remember which battalion your company belonged to? What other helicopter
   outfits flew out of Tan Son Nhut — how were their aircraft marked?" *(Open questions only —
@@ -258,9 +273,13 @@ What remains here is what he did not answer, plus **four new questions his answe
 
 ## Hold for the right moment (not breakfast material)
 
-- **VN-0157** — the wounded man aboard the helicopter. When he's ready, and only then:
-  "Do you remember this man and this day?" His answer also decides whether the photo is ever
-  shown publicly.
+- **VN-0157** — the wounded man aboard the helicopter. **Answered, 2026-09-05, at the
+  photograph** — the Cambodian striker whose fingers were taken by a blasting cap Larry had
+  dropped, flown to the Vietnamese army hospital by the base, never heard of again; "It added
+  PTSD." See "Answered" and ledger #33. **The decision his answer was to settle — whether the
+  photograph is shown publicly — is now the family's to make (issue #22).** The one gentle
+  follow-up, and only if he opens it: he asked whether the hospital had a Cambodian ward; a
+  records answer to that is something the archive could give him.
 - **The bathroom shooting** — the full account arrived 2026-08-15
   (`data/recollections/giscus-stories-c18035411.json`; timeline entry
   `data/timeline/1965-02-bathroom-shooting.json`). Remaining gentle follow-ups: "Did the man
@@ -279,6 +298,45 @@ What remains here is what he did not answer, plus **four new questions his answe
 
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
+
+### The Memories harvest of 2026-09-05 — thirty-three photographs in one sitting
+
+Larry's son walked him through the Saigon and mountain frames and typed as he spoke; forty-one
+comments arrived, thirty-eight on photographs. Records: `data/recollections/giscus-*-c1830[6-8]*`.
+Thirty-one photographs went from uncataloged to cataloged on them. **The sitting answered four
+probes from this guide, none of which was asked** — every answer arrived on its own.
+
+- [X] **How long after that last week were you flown out — and how many nights of campfires?**
+  *(tier 1, #2 and #4)* — one line, in his son's words (paraphrase):
+  > Camp fires - he says he was flown out after 2-3 days of seeing the hundreds of camp fires.
+
+  Both questions in one figure. Read against his Camp Zama date of 3 September, the campfire
+  nights fall around **23–26 August 1965**, and the medevac chain closes from the mountain end
+  as well as the Japan end. **A transcribed confirmation would be welcome but must not be
+  fished for with a number.** (Ledger #1, #10; the imagery request #66 now has a window.)
+
+- [X] **The gibbon — whose was he?** *(tier 3, VN-0152)*
+  > This is Sarge. I think this is in the barracks in my bed with the mosquito net around, maybe.
+
+  **One animal, not two.** The guide had kept "the monkey" (Sarge, VN-0017) and "the black
+  gibbon" (VN-0152) as separate questions; the gibbon is Sarge. Probe retired.
+
+- [X] **VN-0157 — do you remember this man and this day?** *(held)* — answered at the
+  photograph, unasked, with a place, a three-month window, and the whole account
+  (`giscus-vn-0157-c18308344.json`). Moved out of "Hold"; the sensitivity decision is due.
+
+- [X] **Did you ever eat at the My Canh — and where were you when it was bombed?** — a
+  question the *survey* had written for VN-0079 in August and nobody had asked. He answered it
+  from a picture of a different street: standing in front of it when it blew up, inside the
+  Peacock with Lopez. **The first day of his tour fixed to a documented date by his being
+  there — 25 June 1965.** Ledger #30.
+
+**Also settled without being asked:** he is himself in VN-0019 (barefoot, with a borrowed
+AR-15, T 123 his hooch); the EM Club was fifty yards from that hooch (VN-0030–0034); the man
+in VN-0026 is *not* Stanton (the 2026-08-15 guess withdrawn); Rosethorn 007 flew the run to
+the mountain (VN-0071); Gagne was field-promoted to lieutenant; and the questions this created
+— Lopez, Hanna, Kiwi, Stanton after the war, the missing My Canh picture — are in the tiers
+above.
 
 ### The telephone call of 2026-09-03 — eight probes, all of them answered
 

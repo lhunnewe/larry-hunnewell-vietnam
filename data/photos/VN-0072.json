@@ -2,8 +2,15 @@
   "photoId": "VN-0072",
   "originalFilename": "1920236-R2-E063.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E063.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "From a window of the Mỹ Cảnh — a crowded ferry on the river",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "my-canh",
+  "people": [],
+  "description": "Through a window frame, the river: a crowded wooden motor ferry — conical hats and sun helmets, a bicycle aboard, a thatch canopy amidships, the yellow-and-red flag at the stern — crosses toward a far bank of stilt houses, warehouses, a bridge and a big billboard. \"This is me sitting inside the MyChan restaurant taking a photo out the window of the water side. Ronnie Tototz would be sitting across from me. We always ate here.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0072-c18307926.json), which settles what the survey could only guess: the frame edge is a window of the floating restaurant, and the restaurant is the one whose sign is legible in VN-0079. The survey also noted that a billboard on the far bank reads mirror-reversed, which would mean this slide was scanned emulsion-side out; that goes to the orientation audit (issue #21) and does not affect the identification. Ron Tototz is not in the frame; he is across the table, out of it. The restaurant was bombed on 25 June 1965 (data/timeline/1965-06-25-my-canh-bombing.json); nothing dates this meal relative to that.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0079", "vn-0089", "vn-0098", "vn-0068"],
+  "relatedEvents": ["1965-06-25-my-canh-bombing"],
+  "sources": []
 }

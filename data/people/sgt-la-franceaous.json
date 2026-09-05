@@ -1,10 +1,10 @@
 {
   "name": "Sgt. \"La Franceaous\"",
-  "aliases": ["La Franceaous (phonetic)", "Fran-Swas (Larry's phonetic)"],
+  "aliases": ["La Franceaous (phonetic)", "Fran-Swas (Larry's phonetic)", "LaFrancois (transcription, 2026-09-05)"],
   "role": "Sergeant",
   "status": "unresolved",
-  "summary": "A sergeant Larry remembered on 2026-08-15 — the name given phonetically as \"La Franceaous,\" pronounced Fran-Swas. No photographs of him are in the collection, and no further context was captured in the comment.",
-  "researchNotes": "The phonetic points to a French surname — likely spellings: LaFrancois, Lafrançois, LaFrance (less likely given the '-swas' ending), Francois. Ask Larry for context: where did he know him — the operations section, the mountain, basic training? — before any roster search is possible.",
+  "summary": "A sergeant Larry remembered on 2026-08-15 — the name given phonetically as \"La Franceaous,\" pronounced Fran-Swas. No photographs of him are in the collection, and no further context was captured in the comment. The name came up again on 2026-09-05, rendered \"Sargent LaFrancois\" and standing alone at the end of Larry's comment on VN-0046 — his son records that it was a separate thought, not a man in that photograph.",
+  "researchNotes": "The phonetic points to a French surname — likely spellings: LaFrancois, Lafrançois, LaFrance (less likely given the '-swas' ending), Francois. Ask Larry for context: where did he know him — the operations section, the mountain, basic training? — before any roster search is possible. 2026-09-05: the second rendering, 'LaFrancois', is the son's spelling of the sound (data/recollections/giscus-vn-0046-c18308860.json) and adds no authority, but the name surfacing unprompted while he was talking about a pilot from his own unit is a small hint at context. The tier-4 question stands: where did he know him from?",
   "confidence": "unverified-recollection",
   "relatedPlaces": [],
   "sources": []

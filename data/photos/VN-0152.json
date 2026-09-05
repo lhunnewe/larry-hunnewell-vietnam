@@ -2,8 +2,15 @@
   "photoId": "VN-0152",
   "originalFilename": "1920236-R3-E128.jpg",
   "originalPath": "Native Vietnamese/1920236-R3-E128.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Sarge, in the barracks",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "A shaggy black gibbon, backlit so its face is in shadow, stands on all fours on a pale curved surface with a pink cloth behind it, long arms hunched — a comic little gorilla. \"This is Sarge. I think this is in the barracks in my bed with the mosquito net around, maybe.\" And: \"Location: Ton Suhn Nhut.\"",
+  "researchNotes": "Two comments of 2026-09-05 (giscus-vn-0152-c18308362.json, -c18308364.json), and they close a question the guide had kept open in the wrong shape. The interview list had two animals — 'the monkey' Sarge of VN-0017, whom Ron hated, and 'the black gibbon' of this frame, unnamed — and asked whose the gibbon was. Larry's answer is that this is Sarge: one animal, a gibbon, called a monkey in the way anyone would. The survey's 'fibreglass cowling or hull' under the animal becomes, in his reading, the bedding of his own bunk under its mosquito net (VN-0084 shows the bunk). The probe is retired.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0017", "vn-0084"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

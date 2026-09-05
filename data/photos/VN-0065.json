@@ -2,8 +2,15 @@
   "photoId": "VN-0065",
   "originalFilename": "1920236-R1-E046.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E046.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Children playing in a Saigon street — \"Tudo street… where all the bars are\"",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "From under a shop awning marked with a big orange 22, a wide street opens where eight or nine children play a squatting game in the roadway, one boy standing apart with his sandals in his hand. Along the median run painted kiosks — Star photo, Photo-Bell, Vietnamese shop names — and colonial buildings with shuttered balconies line the far side. \"This is in Saigon. Tudo street is a street with all the bars. The Papillon bar is where I went the most. The Embassy I believe is around the corner from here.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0065-c18307751.json). His placement is Tu Do; the kiosk row is the same one that appears in VN-0068 (the 'Star photo' kiosk is in both), which he separately describes as the street of flowers running parallel to Tu Do, and which the survey read from a street plate as Nguyễn Huệ. The two placements cannot both be exact; both are his and both stand, with the discrepancy noted here and on the Saigon place record. The Papillon, the bar where he met Sgt. Lowry and felt the Embassy bombing of 30 March 1965 'rock the building', is on Tu Do in every account he has given (ledger #23).",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0068", "vn-0120", "vn-0040"],
+  "relatedEvents": [],
+  "sources": []
 }

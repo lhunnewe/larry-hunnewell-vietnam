@@ -3,12 +3,13 @@
   "originalFilename": "1920236-R3-E150.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E150.jpg",
   "cataloged": true,
-  "title": "Soldier with an M16 — possibly PFC Stanton",
+  "title": "Soldier with a rifle in a green doorway — unnamed; \"this is not Stanton\"",
   "datePrecision": "unknown",
-  "people": ["pfc-stanton"],
-  "description": "A young soldier in eyeglasses grins in the doorway of a green board-and-batten building, an M16-family rifle across his chest. Larry does not know who this is; the one name he offered as a guess is PFC Stanton.",
-  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0026-c18035534.json). Explicitly a guess — the weakest identification in the batch; the person record carries the same caveat. It also settles the survey's open question: the resemblance to Larry notwithstanding, this is not Larry with glasses on.",
+  "people": [],
+  "description": "A young soldier in eyeglasses grins in the doorway of a green board-and-batten building, an early M16-family rifle across his chest. Larry does not know who he is. The name first offered for him as a guess, Stanton, was withdrawn on 2026-09-05 when Larry looked again: \"This is not Stanton.\" Of the man, or of the men like him: \"He was ex helicopter school. Most of the guys in my Unit were ex-helicopter school because they had the radio experience from the school but couldn't make it in.\"",
+  "researchNotes": "Two comments, in opposite directions. 2026-08-15 (paraphrase, giscus-vn-0026-c18035534.json): \"A guess name he said is PFC Stanton.\" 2026-09-05 (transcribed, giscus-vn-0026-c18308443.json): \"This is not Stanton.\" The later, first-person statement withdraws the earlier guess, so the person link is removed and the man reverts to unnamed; Stanton himself is now a real and separately described person (data/people/pfc-stanton.json) who is not in this frame. The 'ex helicopter school' remark is the more useful thing in the comment for the unit question (#2): a unit staffed with men washed out of helicopter school for their radio training describes an aviation-support signal element rather than a flying one. The building — permanent, painted, with a louvered gable vent — is not identified; the survey's thought that it is at the headquarters base is a hypothesis only.",
   "confidence": "unverified-recollection",
   "relatedPhotos": ["vn-0028"],
+  "relatedEvents": [],
   "sources": []
 }

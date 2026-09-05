@@ -1,0 +1,21 @@
+{
+  "name": "The Mỹ Cảnh floating restaurant, Saigon",
+  "alternateNames": [
+    "MyChan (Larry's rendering, \"pronounced My-Can\")",
+    "My Canh",
+    "My Cahn (Larry's rendering)",
+    "Restaurant Mỹ-Cảnh Flottant"
+  ],
+  "vietnameseName": "Nhà hàng nổi Mỹ Cảnh",
+  "summary": "A two-deck restaurant barge moored on the Saigon River at the foot of the city's main streets, and the place Larry says he and Ron Tototz always ate: \"Ronnie Tototz would be sitting across from me.\" He photographed it from the quay with its rooftop sign in frame (VN-0079), and from inside, looking out of a window at the water and a crowded ferry (VN-0072). On the evening of 25 June 1965 it was bombed by the Viet Cong, and Larry was standing in front of it: a friend named Lopez, a Marine he had known since the cub scouts, appeared and invited him to eat at the Peacock instead, \"and when we entered the Peacock the MyChan blew up. It was like a guardian angel.\" He says he photographed the wreck the next day and that the picture may be missing.",
+  "researchNotes": "Identified by its own signage in VN-0079 — 'FLOATING MỸ-CẢNH RESTAURANT' is legible on the roof — and by Larry independently, who named it before being told anything (2026-09-05, data/recollections/giscus-vn-0068-c18307841.json, -vn-0072-c18307926.json, -vn-0079-c18307967.json, -vn-0089-c18308137.json). The bombing is documented: two mines, one in the dining room and one at the gangway, on the evening of 25 June 1965, with 44 dead including 13 Americans (sources/frus-1964-68-v03-d20). Larry's 'claymore mine' matches the reconstruction in every account. HIS PRESENCE THAT EVENING IS HIS OWN TESTIMONY and is rated as such; but it is the single most precise date in his whole tour, and it places him in Saigon, not on the mountain, on 25 June 1965 — sixteen days after Đồng Xoài, which he says he heard from the radio mountain. The 'next day' photograph of the wreck is not in the collection: the scan reconciliation shows the lab numbered every frame it received without a gap, so if it existed it left the family's hands before scanning — the first concrete missing photograph the archive can name (ledger #30, issue #127). No coordinates until the mooring is fixed from a period map; the quay is settled to the block, not the metre. Working file: research/events/my-canh-bombing-1965.md.",
+  "confidence": "plausible",
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "ron-tototz",
+    "lopez"
+  ],
+  "sources": [
+    "frus-1964-68-v03-d20"
+  ]
+}

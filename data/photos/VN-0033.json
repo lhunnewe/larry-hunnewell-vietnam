@@ -2,8 +2,15 @@
   "photoId": "VN-0033",
   "originalFilename": "1920236-R1-E040.jpg",
   "originalPath": "Group Photos with Unit/Vietnam Ladies/1920236-R1-E040.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Floor show at the EM Club — the dancer sweeps past the camera",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "The dancer in blue sequins passes so close that her hand blurs, and the audience behind her comes into focus instead: a soldier with a camera in his lap, another with a U.S. ARMY tape and a badge above the pocket, a man in a white shirt standing arms-crossed against the rear post, and rows of faces turned toward the show. The film's sprocket edge shows at the left of the scan. \"Entertainment at the EM Club in Ton Suhn Nhut. About 50 yards from my hooch.\"",
+  "researchNotes": "Captioned with VN-0030 on 2026-09-05 (giscus-vn-0033-c18308458.json). A different roll and exposure number from VN-0030 to VN-0032 (R1-E040 against E006–E009), which the lab's numbering suggests is the same night photographed across two loads of film — or a second show at the same club. Larry's caption does not distinguish. Faces here are the sharpest of the series and the best chance of naming his own section, asked open at the table.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0030", "vn-0031", "vn-0032", "vn-0034"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

@@ -2,8 +2,14 @@
   "photoId": "VN-0071",
   "originalFilename": "1920236-R2-E061.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E061.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Paddies from the door of Rosethorn 007, on the run to the mountain",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": [],
+  "description": "Through a helicopter door in flight: dry harvested paddies divided by dike lines run to a tree line, with a small pale building in the middle distance; inside the frame edge the muzzle of a rifle angles up beside a strap. \"This is rice paddies in the background. We took off from Ton Suhn Nhut to Nui Ba Den. We take off low for 10-15 miles and then we go up about 3000 to 5000 feet. The distance was about 70 miles. This would be in Rosethorn 007.\" A second comment attaches an event to the frame: \"PFC Jones and I got shot down and had to go back to the base and land one time. That is what PFC Jones was looking at in the picture.\"",
+  "researchNotes": "Two comments of 2026-09-05 (giscus-vn-0071-c18307905.json, -c18307913.json). The flight profile and distance are recorded on the helicopter-travel timeline entry; Tân Sơn Nhứt to Núi Bà Đen is about 53 statute miles direct, so his 'about 70' is a loose but reasonable memory of a run he flew often. The shoot-down with Jones is a new event (ledger #34, data/people/pfc-jones.json): the wording does not say this frame was taken that day, only that the view is what Jones was looking at, and it is not cataloged as a picture of the incident. Rosethorn 007 has now been named on its own four times.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0016", "vn-0046", "vn-0029"],
+  "relatedEvents": ["1964-1965-helicopter-travel"],
+  "sources": []
 }

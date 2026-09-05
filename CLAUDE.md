@@ -134,7 +134,7 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-- **The public research page lists six questions; the ledger holds seventeen.** Closing that
+- **The public research page lists six questions; the ledger holds thirty-four.** Closing that
   gap is authorship, not bookkeeping: several ledger questions cannot be published as written
   without breaking rule 6.
 - **Not every ledger question has an issue, and not every issue has a ledger entry**, though

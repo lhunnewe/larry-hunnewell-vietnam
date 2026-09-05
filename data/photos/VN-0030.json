@@ -2,8 +2,15 @@
   "photoId": "VN-0030",
   "originalFilename": "1920236-R1-E006.jpg",
   "originalPath": "Group Photos with Unit/Vietnam Ladies/1920236-R1-E006.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Floor show at the EM Club — a dancer in blue fringe",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "A dancer in a fringed light-blue two-piece and a tall bouffant stands in the middle of a packed club while a seated soldier reaches up to her — tucking a note into her costume, from the look of it. Soldiers in fatigues and a few men in sport shirts watch from folding chairs; on the low stage behind, a clarinetist and a pianist play beside a drum kit, and a Gibson amplifier sits on the floor. \"Entertainment at the EM Club in Ton Suhn Nhut. About 50 yards from my hooch.\"",
+  "researchNotes": "One of five frames (VN-0030 to VN-0034) that Larry captioned identically on 2026-09-05 (giscus-vn-0030-c18308465.json and siblings): the Enlisted Men's Club at his headquarters base, fifty yards from hooch T 123. Read with his 2026-09-03 comment on VN-0082, which puts the EM Club just off the right edge of that frame beside the unit armory, the club is now placed relative to two photographs and his hooch. The family's own folder for these prints was 'Vietnam Ladies'. Beer there was four cents and the hostesses were mostly Filipino (VN-0082 comment); Rosie, who reached the United States, was the cashier (VN-0154). The performers are not identified; touring floor shows of this kind played the club circuit in 1964–65 and are occasionally named in unit newsletters.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0031", "vn-0032", "vn-0033", "vn-0034", "vn-0082", "vn-0154"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

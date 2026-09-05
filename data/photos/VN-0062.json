@@ -2,8 +2,14 @@
   "photoId": "VN-0062",
   "originalFilename": "1920236-R1-E043.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E043.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A girl on a bicycle, from the taxi between the base and Saigon",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": [],
+  "description": "A girl of perhaps ten in light polka-dot pyjama-style clothes pedals an adult bicycle straight at the camera down a dirt street, concentrating hard; behind her, blurred, a two-storey building carries two Coca-Cola signs above green roller shutters. \"Location is between Ton Suhn Nhut and Saigon. I was in a Taxi cab when taking the photo. The photo is a random person and random shot.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0062-c18307725.json). He places it on the road between the base and the city rather than in either, so no place is entered. It belongs with the taxi frames — VN-0064 and VN-0073 on the river, VN-0067 at the airport end of the base — that together describe the ride he took with the driver he called VC Charlie.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0064", "vn-0067", "vn-0073"],
+  "relatedEvents": [],
+  "sources": []
 }

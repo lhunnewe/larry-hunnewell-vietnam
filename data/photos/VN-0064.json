@@ -2,8 +2,15 @@
   "photoId": "VN-0064",
   "originalFilename": "1920236-R1-E045.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E045.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Stilt houses on the river, halfway into Saigon",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "Shot over a tan-painted bridge railing: a broad waterway bends between banks matted with water hyacinth, and along the far side runs a long line of houses on stilts over the water — thatch and tin, laundry, ladders down to the river — with palms at left and a hazy skyline far right. \"This is halfway into Saigon. A lot of kids swam in the river. This is the Mekong River. The town in the background is part of Saigon.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0064-c18307733.json). He calls the river the Mekong here and in two other Saigon frames; the river at Saigon is the Saigon River (the Mekong proper lies some 60 km to the south-west), and the bridge on the road in from the base would have crossed one of the city's arroyos. His usage is recorded as given. The swimming children he mentions are the subject of VN-0073, taken from a bridge or a taxi.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0073", "vn-0062"],
+  "relatedEvents": [],
+  "sources": []
 }

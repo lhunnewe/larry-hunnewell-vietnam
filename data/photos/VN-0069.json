@@ -2,8 +2,15 @@
   "photoId": "VN-0069",
   "originalFilename": "1920236-R1-E057.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E057.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The summit path and the gun position on the rock, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "The path climbs through boulders and wire toward the painted rock of VN-0035, a sandbagged position on its crest and a ladder scaffold at its side, under a clear sky with a bare flagpole mid-frame; sandbagged positions and drying laundry stand on the higher ground at right. \"This photo is Bui Ba Den. There's machine guns on top of the rock. There's rocks everywhere on the top of the mountain making it hard to walk around. Every step you take is a different angle.\" And a night he remembers: running for the mortar pit under attack, \"I ran into a big bamboo ladder they put up next to a building and it knocked me cold. I was out for a few hours. captain Kennedy was standing over me when I came too.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0069-c18307869.json). The ladder in his story is very likely the scaffold visible against the rock in this frame — he did not say so, and the link is an inference. The gun position he names here is the one seen in silhouette at dusk in VN-0045. The frame is shot past a riveted metal edge at lower right, which the survey took for a vehicle or aircraft doorway.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0035", "vn-0045", "vn-0044"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

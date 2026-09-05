@@ -2,8 +2,15 @@
   "photoId": "VN-0066",
   "originalFilename": "1920236-R1-E047.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E047.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A motorcycle-sidecar taxi, Saigon",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "A green motorcycle-sidecar taxi in profile — the driver in a pith helmet and sunglasses high on the saddle, two passengers under the yellow-and-green canopy of the sidecar box ahead of him, a smiling man visible. Mismatched wheels and patched fenders; behind, a white fence and villa gate, palms, a woman in a white blouse with a basket, a boy passing. \"Random picture in Saigon.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0066-c18307760.json). He offers no more, and none is added: the motorised cyclo was a working improvisation of the Saigon streets in these years, and this is a clean record of one.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0080", "vn-0085"],
+  "relatedEvents": [],
+  "sources": []
 }

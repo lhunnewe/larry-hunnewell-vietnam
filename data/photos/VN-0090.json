@@ -2,8 +2,14 @@
   "photoId": "VN-0090",
   "originalFilename": "1920236-R3-E089.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R3-E089.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The coast from a helicopter — \"Nha Trang area?\"",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "people": [],
+  "description": "An aerial over a coastal port, the photographing helicopter's own exposed rotor mast and control linkages blurred in the left foreground: a ship at a T-pier with a road running to the shore, barge moorings at right, cleared lots and scrub inland, and across the water a rounded, forested island closing the bay. \"I think this is the coast of Vietnam, Nha Trang area?\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0090-c18308127.json) ends in a question mark, so no place is entered. The survey independently proposed Nha Trang or Cam Ranh from the island profile, and noted that an exposed rotor head in the foreground points to a light observation helicopter rather than a Huey — which would be a different aircraft from Rosethorn 007 and a different kind of flight. Both are hypotheses. Nha Trang was Larry's first station in Vietnam (VN-0021, VN-0022), which makes his guess plausible without making it more.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0021", "vn-0046", "vn-0071"],
+  "relatedEvents": ["1964-1965-helicopter-travel"],
+  "sources": []
 }

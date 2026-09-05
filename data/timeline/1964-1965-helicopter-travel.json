@@ -5,8 +5,11 @@
   "datePrecision": "approximate",
   "endDate": "1965-09-01",
   "category": "larry-recollection",
-  "description": "As a radio operator with what he remembers as the 118th AOD (Aviation Operations Detachment), Larry's duties involved substantial helicopter travel. He recalls traveling throughout Vietnam.",
+  "description": "As a radio operator with what he remembers as the 118th AOD (Aviation Operations Detachment), Larry's duties involved substantial helicopter travel. He recalls traveling throughout Vietnam. The run he describes most exactly (2026-09-05, VN-0071) is the one to the mountain: \"We took off from Ton Suhn Nhut to Nui Ba Den. We take off low for 10-15 miles and then we go up about 3000 to 5000 feet. The distance was about 70 miles. This would be in Rosethorn 007.\" On one such flight he and PFC Jones \"got shot down and had to go back to the base and land.\" He also names a young pilot from his own unit he flew with, Lieutenant Hanna, and says of the aerial view in VN-0090 that it may be the coast near Nha Trang.",
+  "researchNotes": "The Tân Sơn Nhứt to Núi Bà Đen leg is about 85 km (53 statute miles) in a straight line; his 'about 70 miles' is close for a memory of a route flown many times, and the low-then-climb profile he describes is standard for leaving a controlled airfield. Rosethorn 007 named again, unprompted, as the aircraft for that run — the fourth time the call sign has come up on its own. The shoot-down with Jones is a new event with no date (ledger #34).",
   "confidence": "unverified-recollection",
-  "relatedPeople": ["larry-dennis-hunnewell"],
+  "relatedPeople": ["larry-dennis-hunnewell", "pfc-jones", "lt-hanna", "major-lewis"],
+  "relatedPlaces": ["thom-son-nuht", "nui-ba-den"],
+  "relatedPhotos": ["vn-0071", "vn-0046", "vn-0090", "vn-0016"],
   "sources": []
 }

@@ -2,8 +2,15 @@
   "photoId": "VN-0085",
   "originalFilename": "1920236-R2-E078.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E078.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The main boulevard, Saigon — \"probably taking a picture of the '65 Chevy\"",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "A long colonial block with balustraded balconies and shuttered windows behind big tamarind trees, market stalls under awnings at the kerb, a doctor's shingle and shop signs on the façade, and a row of parked cars including a big two-tone American sedan and, at right, a Saigon taxi. \"This must be Saigon due to the Saigon Taxi on the right. I was probably taking a picture of the 65 Chevy. This is probably the main boulevard.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0085-c18308086.json). A 1965 Chevrolet on a Saigon street is itself a dating floor for the frame — the model year reached showrooms in the autumn of 1964 — if his identification of the car is right; a machine-shop man's eye for a Chevrolet is worth more than most. The survey read a street number and a physician's name on the signs and suggested the block is on Lê Lợi; a hypothesis awaiting a period directory, not adopted.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0081", "vn-0080", "vn-0076"],
+  "relatedEvents": [],
+  "sources": []
 }

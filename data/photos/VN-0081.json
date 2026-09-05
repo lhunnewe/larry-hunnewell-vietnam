@@ -2,8 +2,15 @@
   "photoId": "VN-0081",
   "originalFilename": "1920236-R2-E074.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E074.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A Saigon roundabout, a taxi, and a rooftop bar remembered",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": [],
+  "description": "A five-storey modern block at a traffic circle, rooftop billboards for Bireley's orange drink, a display wall of national flags on the island below, and a blue-and-cream Saigon taxi crossing in front. \"This picture is of Saigon because that is a Saigon Taxi. Not sure what the building is but I would guess it's a restaurant hotel.\" The frame set off two memories of Stanton: \"One time in Saigon, I was on a bar on a roof with Zukowski, Stanton and there was war going on all around us. It was one of my last days in Saigon.\" And after the war: \"Stanton is from New York. One time Stanton came into my machine shop in LA on Western Blvd and we went into King Henry the 8th topless club to eat.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0081-c18308075.json). The building is his guess and is left unidentified. The survey read the flag wall on the island as a public tally board for the central-Vietnam flood relief campaign, which ran in the winter of 1964–65 — a machine reading of partial Vietnamese text, so a dating hypothesis only, not adopted. The Stanton material changed that man's record substantially (data/people/pfc-stanton.json): he is real, from New York, and in touch after the war — but no longer the man in VN-0026. The rooftop bar with 'war going on all around us' in his last days in Saigon is undated and unplaced.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0085", "vn-0120", "vn-0026"],
+  "relatedEvents": [],
+  "sources": []
 }

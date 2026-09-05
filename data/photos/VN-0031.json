@@ -2,8 +2,15 @@
   "photoId": "VN-0031",
   "originalFilename": "1920236-R1-E007.jpg",
   "originalPath": "Group Photos with Unit/Vietnam Ladies/1920236-R1-E007.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Floor show at the EM Club — the dancer works the crowd",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "The same club on the same night, and the room is delighted: a dancer in a red sequined top and a long slit pink skirt moves through the audience while a soldier leans in with a mock-courtly grin and everyone around them laughs. At front left another soldier crouches with a camera and flash — a second photographer working the show. Checkered tablecloths, beverage cans, crew cuts and fatigues; the clarinetist plays on at right. \"Entertainment at the EM Club in Ton Suhn Nhut. About 50 yards from my hooch.\"",
+  "researchNotes": "Captioned with VN-0030 on 2026-09-05 (giscus-vn-0031-c18308463.json). The crouching photographer at front left is worth remembering: at least two cameras were working that night, so some of the club frames in the collection may not be Larry's own exposures — a question for another sitting, asked open. Several name tapes in the front row are sharp enough to try under magnification; none has been read, and no name should be suggested to Larry.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0030", "vn-0032", "vn-0033", "vn-0034", "vn-0082"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

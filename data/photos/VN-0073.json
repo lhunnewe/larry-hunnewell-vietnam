@@ -2,8 +2,15 @@
   "photoId": "VN-0073",
   "originalFilename": "1920236-R2-E065.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E065.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Boys swimming in the river — and the taxi driver they called VC Charlie",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "saigon",
+  "people": ["vc-charlie", "ron-tototz"],
+  "description": "Looking down from a rail: five or six boys swim in the brown river, faces turned up to the camera, one holding something aloft; a sampan lies under a graffitied wall, and freighters ride at anchor down-river at right. \"I am on a bridge or probably just stepped out of a Taxi. That is the Mekong River with kids swimming in it. The taxi driver's name was VC Charlie or that's what we called him. He knew me and Ronnie Tototz. 90% of the time Ronnie and I rode with VC Charlie. He was a nice guy making a living and always laughing.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0073-c18307950.json). The driver is entered as a person because he recurs in Larry's Saigon, under the only name Larry has for him (data/people/vc-charlie.json); Ron Tototz is linked because Larry puts him in the taxi with him as a habit, not because he is in the frame. The river is the Saigon River near the port; his 'Mekong' is his usage throughout. The swimmers are the same children he mentions on VN-0064.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0064", "vn-0062", "vn-0089"],
+  "relatedEvents": [],
+  "sources": []
 }

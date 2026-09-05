@@ -2,8 +2,15 @@
   "photoId": "VN-0032",
   "originalFilename": "1920236-R1-E009.jpg",
   "originalPath": "Group Photos with Unit/Vietnam Ladies/1920236-R1-E009.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Floor show at the EM Club — the floor routine",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "The dancer lies back on a pink cloth spread over the plywood floor, red fabric pooled beside her, while the front row leans in and one soldier reaches out with a bill in his hand. Boots, folding chairs, a camera in a lap, the Gibson amplifier and the drum kit on the stage behind. \"Entertainment at the EM Club in Ton Suhn Nhut. About 50 yards from my hooch.\"",
+  "researchNotes": "Captioned with VN-0030 on 2026-09-05 (giscus-vn-0032-c18308461.json). The survey flagged a shoulder patch on the seated man at upper left as a magnification candidate for the unit question; it has not been read, and per the archive's rule no reading of any insignia is to appear on a page Larry browses or be described to him.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0030", "vn-0031", "vn-0033", "vn-0034"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

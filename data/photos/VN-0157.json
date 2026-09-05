@@ -2,8 +2,17 @@
   "photoId": "VN-0157",
   "originalFilename": "1920236-R4-E157.jpg",
   "originalPath": "Native Vietnamese/1920236-R4-E157.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
-  "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "cataloged": true,
+  "title": "The Cambodian striker wounded by a blasting cap, aboard the helicopter",
+  "approximateDate": "January–March 1965 (Larry's estimate)",
+  "sortDate": "1965-02-15",
+  "datePrecision": "approximate",
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "On the floor of a helicopter, a young man lies on his back with both arms held up, his hands bloodied and a dressing wrapped around one forearm; another man's bloodstained hand reaches in from the left to hold them there. Larry's account: they were felling trees near the helicopter pad with explosive cord, and he had dropped a blasting cap from his belt clip. The Cambodian found it and was carrying it back to him — \"He had no idea what it was… the heat of the hand, it will go off, it's that sensitive\" — and it took some of his fingers. \"We were keeping his arms up to prevent his blood from pumping out.\" They flew him to the Vietnamese army hospital near the base in Saigon, where ARVN nurses came out and took him; Larry, being American, does not think they could go in, and had to fly back without knowing what became of him. \"I felt so sorry for him… It added PTSD.\" He did not know the man well; \"This is a different Cambodian than the one always hanging out with me.\"",
+  "researchNotes": "Larry's account of 2026-09-05 (giscus-vn-0157-c18308344.json) — given at the photograph, with the location, the timeframe 'Jan/Feb/Mar of 1965' and the description of the picture itself, 'him in the helicopter laying on the back floor'. THE SENSITIVITY DECISION IS STILL THE FAMILY'S (issue #22): the guide held this frame for the right moment and said his answer would decide whether it is shown publicly; he has now answered, and his words are on the page, so the decision is due. The man is unnamed and not linked to a record. The hospital he describes — a Vietnamese military hospital by the base, with ARVN nurses — fits Cộng Hòa General Hospital beside Tân Sơn Nhứt; a hypothesis. A striker injured by a U.S. blasting cap would have generated a casualty entry in the detachment's reporting to B-32 if anything did, and it is one of the few events on the mountain with a specific injury, a place of treatment and a three-month window. His closing question — 'Do they have a Cambodian area in there with Cambodian nurses?' — is his, not the archive's, and is the kind of thing a records answer could give him. Ledger #33, issue #129.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0041", "vn-0153", "vn-0057"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

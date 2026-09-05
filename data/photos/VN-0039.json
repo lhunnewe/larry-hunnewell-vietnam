@@ -2,8 +2,15 @@
   "photoId": "VN-0039",
   "originalFilename": "1920236-R1-E013.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E013.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A resident's shelter on the summit, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "A woman in a pale blouse sits against a weathered boulder beside a lean-to of poles, sandbags and canvas, one arm along the rock; crates, a tin, a bucket and helmet liners lie under its bamboo frame, and a rolling field of sandbags fills the foreground. Beyond the scrub at left the mountain drops away into haze. \"One of the residents. This is where she lived.\" Of the shelter: \"Everything is made out of scrap. To get a stick like that you would go down into the jungle and carry it up.\" And of the people: \"They were sick.\"",
+  "researchNotes": "Identified by Larry on 2026-09-05 (giscus-vn-0039-c18308606.json), with the location given in his own words. This is the third of the summit domestic frames the survey grouped together, and the first that he has spoken to directly; 'they were sick' connects to the sick call he says he and the medic held for the strikers' families (VN-0041). His remark about sanitation is kept as given in the recollection record and not repeated here. The poles-and-scrap construction, and the effort of carrying timber up from the jungle, is the kind of texture the CIDG-camp histories never record.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0041", "vn-0044", "vn-0145"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

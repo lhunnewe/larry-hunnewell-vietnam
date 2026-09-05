@@ -2,8 +2,15 @@
   "photoId": "VN-0046",
   "originalFilename": "1920236-R1-E020.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E020.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Rice paddies on take-off — the frame that brought back Lieutenant Hanna",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "Dry harvested paddies in pinkish stubble run to a tree line under heavy cloud, the near ground streaked with motion. \"Probably taking off from Ton Son Nhut and looking at some rice paddies.\" The picture set Larry talking about a pilot: \"Lieutenant Hanna, he was 19 or 20. He was kind of cross eyed… he was a real good pilot. I flew with him a couple times.\" Hanna, he says, was in his unit, went on to another after Larry left, and was killed in 1968 at Kontum.",
+  "researchNotes": "Larry's comment of 2026-09-05 (giscus-vn-0046-c18308860.json) is mostly about a man, not the frame; the man has his own record (data/people/lt-hanna.json) and a research file. The location is his 'probably' and is entered on that basis. The comment ends with the bare name 'Sargent LaFrancois', which his son says was a separate thought and not someone in this picture; it is noted on that person's record and not here. Nothing in the frame itself fixes the place; the survey read it as taken from a moving vehicle rather than an aircraft, and the low, blurred foreground would fit either.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0071", "vn-0090"],
+  "relatedEvents": ["1964-1965-helicopter-travel"],
+  "sources": []
 }

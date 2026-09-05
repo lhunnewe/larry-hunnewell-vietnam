@@ -2,8 +2,15 @@
   "photoId": "VN-0079",
   "originalFilename": "1920236-R2-E072.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E072.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The Mỹ Cảnh floating restaurant from the quay",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "my-canh",
+  "people": [],
+  "description": "The floating restaurant moored at the Saigon riverfront, photographed over an orange-and-green railing: two decks under awnings, rows of green chairs on the open upper deck, lantern lampposts, the flag at the mast, and the rooftop sign — FLOATING MỸ CẢNH RESTAURANT — plainly legible. \"Here's a photo of the My Canh floating restaurant. It's a barge.\" A second comment places it: \"This is in Saigon, just at the end of Tudo street. The street with the flowers led to this street. There was also the Majestic Hotel and the Continental Hotel were by the My Canh. The Majestic is where the press stayed.\"",
+  "researchNotes": "The one photograph in the collection that identifies its own subject in legible signage, and Larry named it independently on 2026-09-05 (giscus-vn-0079-c18307967.json, -c18307981.json) before the survey's reading was mentioned to him. The place record (data/places/my-canh.json) and the timeline entry for its bombing on 25 June 1965 hold the history; his account of being at the door that night is on VN-0068. The restaurant appears intact here, which says the frame was taken before the bombing or after the repair, and nothing chooses between them. His second comment continues into an opinion of the press corps, kept as given in the recollection record. His geography is right: the Majestic stood at the river end of Tu Do, a few hundred metres from the mooring; the Continental was further up the street.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0072", "vn-0089", "vn-0098", "vn-0068"],
+  "relatedEvents": ["1965-06-25-my-canh-bombing"],
+  "sources": ["frus-1964-68-v03-d20"]
 }

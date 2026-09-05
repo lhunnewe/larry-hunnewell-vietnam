@@ -2,8 +2,15 @@
   "photoId": "VN-0070",
   "originalFilename": "1920236-R2-E059.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R2-E059.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The orphanage children going to school, at the end of the road",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": [],
+  "description": "Twenty or more children — mostly girls in pale pyjama-style clothes, several in sun hats and conical hats, satchels in hand — queue along a dirt road at a gate with red-brick pillars; a cream Renault sedan and a step-through moped stand beside them, a corrugated-and-lattice building behind, and at far left a small church steeple with a cross. \"This is a orphanage. This was at the end of the road in Ton Suhn Nhut somewhat near the machine gun nest. The kids were all dressed up going to school. Some of them wearing butterfly wings on their back shoulders. It reminded me of being home.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0070-c18307893.json). An orphanage with a church beside it at the perimeter of the base is a findable institution — Catholic orphanages around Tân Sơn Nhứt in the 1960s are documented in mission records — and the survey had already flagged the steeple as the way in. Placed on the same road as VN-0067.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0067", "vn-0062"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

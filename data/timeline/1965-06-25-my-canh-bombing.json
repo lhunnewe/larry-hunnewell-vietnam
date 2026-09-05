@@ -1,0 +1,14 @@
+{
+  "title": "The Mỹ Cảnh floating restaurant is bombed — Larry at the door",
+  "sortDate": "1965-06-25",
+  "displayDate": "June 25, 1965",
+  "datePrecision": "exact",
+  "category": "larry-recollection",
+  "description": "On the evening of 25 June 1965 the Viet Cong bombed the Mỹ Cảnh, the floating restaurant on the Saigon River where Larry and Ron Tototz always ate. Larry says he was standing in front of it when a friend named Lopez — a Marine he had known since the cub scouts — appeared and invited him to eat at the Peacock instead; as they walked into the Peacock the barge blew up. \"It was like a guardian angel… It was a miracle he showed up.\" He describes the weapon as a claymore mine that \"fires 700 buckshot bullets in a curve.\" The next day, he says, he went back and photographed the wreck; that picture is not in the collection. The date of the bombing is documented; that Larry was there is his account, given on 2026-09-05 while looking at a photograph of the street of flowers.",
+  "researchNotes": "The event is one of the best-documented attacks of the war: two command-detonated mines, one on the barge and one covering the gangway, 44 dead including 13 Americans (sources/frus-1964-68-v03-d20, written the following morning). Larry's account arrived unprompted on VN-0068 (data/recollections/giscus-vn-0068-c18307841.json), and he had not been asked about the bombing — the survey's question about it had been sitting unasked in the observation record for VN-0079 since August. WHAT IT DOES FOR THE CHRONOLOGY: this is the only day in his tour he fixes to a documented calendar date by being there, and it says he was in Saigon on 25 June 1965 — sixteen days after Đồng Xoài (9–10 June), which he says he heard from the radio mountain. A stint on the mountain of 'a week or ten days' and a return to base between fits. WHAT IT DOES NOT DO: nothing documentary places Larry at the door — his name is in no account, and the 'next day' photograph, which would have been his own evidence, was never scanned (research/photos/scan-reconciliation-2026-09-01.md). Lopez is a new name and a findable one: a Marine in Saigon in June 1965 was almost certainly with the Embassy or MACV guard, and a man from the same Inglewood cub scout pack narrows it further (ledger #32, research/events/my-canh-bombing-1965.md). Note the other Saigon explosion in his memory, the Embassy bombing of 30 March 1965 (ledger #23), is a separate event a block from the Papillon; VN-0120's account of a bar and a throat wound belongs to that one, not this.",
+  "confidence": "unverified-recollection",
+  "relatedPlaces": ["saigon", "my-canh"],
+  "relatedPeople": ["larry-dennis-hunnewell", "lopez", "ron-tototz"],
+  "relatedPhotos": ["vn-0068", "vn-0079", "vn-0072", "vn-0089"],
+  "sources": ["frus-1964-68-v03-d20"]
+}

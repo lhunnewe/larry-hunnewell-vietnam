@@ -3,5 +3,12 @@
   "recorded": "2026-09-05",
   "provenance": "giscus comment posted from @kawaputt-rgb on the stories page; discussion #32; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/32#discussioncomment-18308877",
   "text": "Sargent Gagne made Field Promotion to Lieutenant and that don't really happen. He was that good. ",
-  "fidelity": "transcribed"
+  "fidelity": "transcribed",
+  "researchNotes": "A battlefield commission for Gagne — sergeant to lieutenant — which is a documented kind of event. Carried to data/people/gagne.json; note the tension with 'French Foreign Legionnaire' there.",
+  "relatedPeople": [
+    "gagne"
+  ],
+  "relatedPlaces": [
+    "nui-ba-den"
+  ]
 }

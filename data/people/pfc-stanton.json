@@ -1,11 +1,11 @@
 {
-  "name": "PFC Stanton (guess)",
-  "aliases": ["Stanton"],
-  "role": "Private first class (name is Larry's guess only)",
+  "name": "Stanton",
+  "aliases": ["PFC Stanton (as first given, 2026-08-15)"],
+  "role": "Soldier in Larry's unit, from New York; a friend after the war",
   "status": "unresolved",
-  "summary": "Larry's guess — explicitly no more than that — for the bespectacled soldier holding an M16 in the doorway in VN-0026. Larry does not know who the man is; Stanton is the one name he offered.",
-  "researchNotes": "The weakest identification in the archive — a stated guess, kept because even guesses have proven to carry signal in this project. Do not present this name back to Larry as established; if the unit roster is ever recovered, check whether a Stanton served alongside him.",
+  "summary": "A man in Larry's unit from New York, and a friend Larry kept after the war: \"One time Stanton came into my machine shop in LA on Western Blvd and we went into King Henry the 8th topless club to eat.\" Larry also places him in one of his last Saigon days — on a rooftop bar with Zukowski and Stanton \"and there was war going on all around us.\" He is NOT the man in VN-0026: that photograph was first captioned with his name as a guess (2026-08-15), and on 2026-09-05, looking at it again, Larry said flatly \"This is not Stanton.\" No photograph of Stanton has been identified.",
+  "researchNotes": "This record has reversed. On 2026-08-15 'Stanton' was a guessed name for the bespectacled soldier in VN-0026 and the weakest identification in the archive; on 2026-09-05 Larry withdrew the guess — 'This is not Stanton' (data/recollections/giscus-vn-0026-c18308443.json) — and the same day, on VN-0081, made Stanton a real man with a hometown, a post-war visit and a scene (giscus-vn-0081-c18308075.json). So the name is now firmer and the photograph is gone: VN-0026 reverts to an unnamed soldier, described by Larry as 'ex helicopter school', like most of the men in his unit. The post-war visit is the research handle — a New Yorker who knew where to find Larry's machine shop in Los Angeles was in touch for years, and may appear in Larry's own papers or address books; ask the family before any roster search. 'One of my last days in Saigon… war going on all around us' is undated and unplaced and is left as given.",
   "confidence": "unverified-recollection",
-  "relatedPlaces": [],
+  "relatedPlaces": ["saigon"],
   "sources": []
 }

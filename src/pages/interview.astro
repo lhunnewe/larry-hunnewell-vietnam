@@ -30,18 +30,12 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
   {
     title: 'Ask cold, ask next',
     intro:
-      'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Eight probes were retired from this tier on 2026-09-03, when he answered them all in one call — including the Camp Zama date. What is left is what he did not answer, plus four new questions his answers created. Do NOT ask him again what newspaper it was: he has answered that firmly and more than once, it was Stars and Stripes, and re-asking a settled memory only teaches a witness to hedge.',
+      'No photograph needed — every one of these works on a telephone call. Ordered by what the answer unlocks. Eight probes were retired from this tier on 2026-09-03, when he answered them all in one call — including the Camp Zama date; two more came off on 2026-09-05, when “flown out after 2-3 days of seeing the hundreds of camp fires” answered the campfire-nights and days-until-flown-out questions together, unasked. Do NOT ask him again what newspaper it was: he has answered that firmly and more than once, it was Stars and Stripes, and re-asking a settled memory only teaches a witness to hedge. Do NOT put a number of nights to him either — the answer is a paraphrase, and a number offered back would only be echoed.',
     questions: [
       {
         id: 'subic-russian',
         q: '“You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who’d got sick in Cambodia. What else do you remember about him? How many days were you in that room? Was he still there when you left?”',
         why: 'New to the archive on 2026-09-03, and the most checkable thing in the whole call. A Russian civilian archaeologist invalided out of northern Cambodia into a US naval hospital in 1965 is unusual enough to leave a trace, and it is the kind of specific detail that tends to be true. “How many days” is the real prize — it is an independent route to the medevac timing, coming at the chain from the Philippines end rather than the Japan end.',
-        photos: [],
-      },
-      {
-        id: 'days-until-flown-out',
-        q: '“That last week on the mountain, with all the campfires — how long after that were you flown out? Days? Weeks?”',
-        why: 'A second, independent route to the date, asked from the other direction. He gave 3 September 1965 for Camp Zama, which matches the archive’s own medevac derivation — but he offered it as “may have been” and said he was in and out of consciousness. An elapsed-time answer would corroborate or break it without ever asking him for a date again. Do NOT mention the Ia Drang valley: he anchored that week to it himself, and it does not fit his own dating. Reconciling that is our job, not his.',
         photos: [],
       },
       {
@@ -51,16 +45,10 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
         photos: ['vn-0093', 'vn-0095'],
       },
       {
-        id: 'campfires-nights',
-        q: '“You said that week the whole thing was lit up with campfires toward Cambodia. How many nights was it like that before the day everything happened? Did anyone come up to look — did you tell anyone besides the radio?”',
-        why: 'He gave this unprompted on 2026-09-03: fifteen fires on a normal night, hundreds that week. It is the first context the archive has ever had for “450 enemy digging in” — a described build-up rather than a bare number. A night count would date that build-up, which is exactly what a records request for night surveillance imagery would need in order to name a target window. Do NOT suggest a number of nights to him.',
-        photos: [],
-      },
-      {
         id: 'missing-photographs',
-        q: '“Were there other pictures that didn’t go in with the rest — another album, a box, a folder somewhere? Did you ever give any away?”',
-        why: 'Still open, and NOT answered by finding the CBC frame. The scan reconciliation shows the archive holds every frame the lab was given, numbered unbroken from E001 to E157, so anything missing was never scanned — the gap is upstream of the scanner, and only he knows where to look.',
-        photos: [],
+        q: '“You said you took pictures of the My Canh the next day, after it was blown up — where might those be? Were there other pictures that didn’t go in with the rest — another album, a box, a folder somewhere? Did you ever give any away?”',
+        why: 'Still open, and NOT answered by finding the CBC frame. The scan reconciliation shows the archive holds every frame the lab was given, numbered unbroken from E001 to E157, so anything missing was never scanned — the gap is upstream of the scanner, and only he knows where to look. On 2026-09-05 he named one himself: “The next day i took pictures of the MyChan restaurant of it blown up. The picture may be missing though.” It is not in the collection. He raised it, so asking does not prime.',
+        photos: ['vn-0079', 'vn-0068'],
       },
       {
         id: 'medic-state',
@@ -142,7 +130,6 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
     intro: 'Fast yes/no questions over coffee. Most of this tier was answered on 2026-09-02.',
     questions: [
       { id: 'monument-town', q: '“You thought this was Nha Trang — does that still feel right, or could it be somewhere else?”', why: 'He answered “I think this is Nha Trang” on 2026-09-02 — tentative enough to be worth one confirmation, and no more.', photos: ['vn-0130'] },
-      { id: 'gibbon', q: '“And the black gibbon — whose was he?”', why: 'The monkey is ANSWERED (2026-08-15): Sarge, whom Ron hated. The gibbon never has been.', photos: ['vn-0152'] },
       { id: 'mother-baby', q: '“The mother and baby by your batteries on the mountain — who were they? Did you ever learn what became of them?”', photos: ['vn-0145', 'vn-0156'] },
     ],
   },
@@ -154,10 +141,14 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
       { id: 'mike-patrick', q: '“How did you know Mike Patrick? What was he like? And who’s the other American on the rocks at the edge?”', why: 'Named 2026-08-15 in VN-0010 — ranger, MACV special operations, “a ghost or a spook.” Ask open; let him tell it.', photos: ['vn-0010'] },
       { id: 'parr', q: '“Parr, from the Nha Trang days — what was his first name? Where was he from? Did you stay in touch?”', photos: ['vn-0025'] },
       { id: 'rosie-club', q: '“Rosie who was the cashier at the EM Club — how do you know she made it to America? Did you hear from her?”', why: 'Placed on 2026-09-02: she was the club’s cashier, and Larry says she reached the United States. Of VN-0154 he said “This might be Rosie. I’m not sure who it is. Rosie were red a lot and was always dressed nice and clean.”', photos: ['vn-0154'] },
-      { id: 'housekeeper-america', q: '“The one in the white top — you said you knew her name. Does it come back to you?”', why: 'From 2026-09-02: she reached the United States (Ron Tototz told him), was 27 with nine children, and her mother is the woman on the right. VN-0151 is the same housekeeper.', photos: ['vn-0151', 'vn-0155'] },
-      { id: 'la-franceaous', q: '“Sergeant La Franceaous — where did you know him from? What did he do?”', photos: [] },
+      { id: 'housekeeper-america', q: '“The one in the white top — you said you knew her name. Does it come back to you? And whose camera is she holding?”', why: 'From 2026-09-02: she reached the United States (Ron Tototz told him), was 27 with nine children, and her mother is the woman on the right. VN-0151 is the same housekeeper — and on 2026-09-05 he said again “She had 9 kids. Her and her mother would clean the hooch.” The name still did not come. She is holding a camera in VN-0151.', photos: ['vn-0151', 'vn-0155'] },
+      { id: 'la-franceaous', q: '“Sergeant La Franceaous — where did you know him from? What did he do?”', why: 'The name came up again on 2026-09-05, alone, at the end of a comment about a pilot — a separate thought, not a man in that frame. Still no context.', photos: [] },
+      { id: 'lopez', q: '“Tell me about Lopez.”', why: 'The Marine from his cub scout pack who pulled him away from the My Canh floating restaurant on 25 June 1965, minutes before it blew up (VN-0068, 2026-09-05). First name, where he was from, how they met again in Saigon, what became of him — nothing more than that, and do NOT offer any unit or posting: he is findable from what we already have, and a suggestion would only be echoed.', photos: ['vn-0068', 'vn-0079'] },
+      { id: 'lt-hanna', q: '“Hanna — do you remember his first name, or where he was from? What did he fly?”', why: 'Named at VN-0046 on 2026-09-05: a pilot in his own unit, 19 or 20, cross-eyed, “a real good pilot”, killed in 1968. The pilots’ memorial roll has no match that fits; the casualty-file sweep comes first. NEVER read him a candidate name.', photos: ['vn-0046'] },
+      { id: 'kiwi-medic', q: '“The New Zealand medic you did sick call with on the mountain — Kiwi — does his name come back? Was he in the Army, or with the New Zealanders?”', why: '2026-09-05, VN-0041: “Might have been Roger.” Whether he was a New Zealand serviceman or a New Zealand-born American decides which records to search.', photos: ['vn-0041'] },
+      { id: 'stanton-after', q: '“Stanton came to see you at the shop on Western — when was that? Did you stay in touch? What was his first name?”', why: 'On 2026-09-05 he withdrew the guess that Stanton is in VN-0026 (“This is not Stanton”) and made him real: from New York, a rooftop bar in Saigon with Zukowski, and a visit to the machine shop in LA after the war. A man in touch after the war may be in Dad’s own address books — ask the family first.', photos: ['vn-0081'] },
       { id: 'guegler-more', q: '“The officer on the left next to Captain Guegler — it may come back to you. And what was Guegler’s first name?”', why: 'The surname is settled: “Geutler” is Larry’s own spelling, asked and confirmed 2026-09-02, and the only rendering with real weight. The first name is what is left.', photos: ['vn-0020'] },
-      { id: 'rosethorn-crew', q: '“Besides Major Lewis and Captain Guegler, do you remember other pilots or crew on Rosethorn 007?”', photos: ['vn-0016'] },
+      { id: 'rosethorn-crew', q: '“Besides Major Lewis and Captain Guegler, do you remember other pilots or crew on Rosethorn 007?”', why: 'On 2026-09-05 he named Rosethorn 007 again, unprompted, as the aircraft for the run to the mountain (VN-0071), and named a second pilot from his unit, Lieutenant Hanna — without tying him to this aircraft. Ask as written.', photos: ['vn-0016', 'vn-0071'] },
       { id: 'battalion-flightline', q: '“Do you remember which battalion your company belonged to? What other helicopter outfits flew out of Tan Son Nhut — how were their aircraft marked?”', why: 'Open questions only — don’t name any unit or describe any emblem to him. Candidate readings live in research/ files.', photos: ['vn-0012', 'vn-0020'] },
       { id: 'basic-chapman', q: '“Where was basic training? And did you know Sgt. Chapman from training too, or just over there?”', why: 'Chapman turned out to be in VN-0024 with Larry in Vietnam, an E7 (2026-08-15) — the earlier basic-training association needs reconciling. Kennedy was shot a month into basic — “where were you when you heard?” is the way in.', photos: ['vn-0024'] },
       { id: 'motorcycle-days', q: '“Tell me about your motorcycle days in Inglewood — did you ever crash?”', why: 'Newspapers show two crashes: South Gate Press Sep 1, 1957 and Daily Breeze Jul 10, 1959. Let him tell it before showing the clippings — the 1959 item prints “Larry B.”, so his telling also confirms it’s him.', photos: [] },
@@ -170,6 +161,22 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
 // Spent probes. Kept visible so nobody asks them again, and so the reasoning
 // survives. Full record: research/interviews/breakfast-questions.md.
 const answered: { q: string; a: string }[] = [
+  {
+    q: 'How long after that last week were you flown out — and how many nights of campfires?',
+    a: '2026-09-05, both in one line and in his son’s words: “Camp fires - he says he was flown out after 2-3 days of seeing the hundreds of camp fires.” Read against his Camp Zama date of 3 September, the campfire nights fall around 23–26 August 1965, and the medevac chain now closes from the mountain end as well as the Japan end. A paraphrase, so a confirmation in his own words would be welcome — but never by offering him a number.',
+  },
+  {
+    q: 'The gibbon — whose was he?',
+    a: '2026-09-05, at VN-0152: “This is Sarge. I think this is in the barracks in my bed with the mosquito net around, maybe.” One animal, not two — the “black gibbon” and the “monkey” Ron hated are the same Sarge. The question had been kept open in the wrong shape.',
+  },
+  {
+    q: 'VN-0157 — do you remember this man and this day?',
+    a: '2026-09-05, at the photograph, without being asked: the Cambodian striker whose fingers were taken by a blasting cap Larry had dropped while they were felling trees by the helicopter pad; arms held up in the helicopter to slow the bleeding; handed to ARVN nurses at the Vietnamese army hospital by the base; never heard of again. “Jan/Feb/Mar of 1965.” “It added PTSD.” Whether the photograph is shown publicly is now the family’s decision.',
+  },
+  {
+    q: 'Did you ever eat at the My Canh — and where were you when it was bombed?',
+    a: 'A question the photo survey had written down in August and nobody had asked. On 2026-09-05 he answered it from a picture of a different street: he and Ron always ate there, and on 25 June 1965 he was standing in front of it when his cub-scout friend Lopez, a Marine, appeared and invited him to the Peacock instead — “and when we entered the Peacock the MyChan blew up. It was like a guardian angel.” The first day of his tour fixed to a documented date by his being there.',
+  },
   {
     q: 'What date did you get to Camp Zama?',
     a: '2026-09-03, and it is the answer to the archive’s most-wanted fact: “He says Camp Zama may have been 9/3/1965. He said he was kind of in and out of it.” Held loosely — “may have been”, and in and out of consciousness is how dates blur — but it independently matches the archive’s own derivation, which had worked the medevac chain backwards from “early September” to a last day on the mountain of 25–27 August. He added something nobody asked for: at Subic Bay he shared a room with a Russian archaeologist invalided out of northern Cambodia, and “We played cards together.”',
@@ -266,11 +273,11 @@ const answered: { q: string; a: string }[] = [
   <section class="ten-minutes">
     <h2>If you only get ten minutes</h2>
     <ol>
-      <li><strong>What date did you get to Camp Zama?</strong> — <em>anything that fixes it. This is the one.</em></li>
-      <li><strong>The interpreter at the burnt helicopter</strong> — what did you all call him? <em>(blocks a search)</em></li>
-      <li><strong>Gagne</strong> — what became of him after you were flown out?</li>
-      <li><strong>Was Kennedy always the one in charge?</strong> <em>(don't offer the other name)</em></li>
-      <li><strong>The bar on Tu Do street</strong> — roughly when was the explosion?</li>
+      <li><strong>The Russian at Subic Bay</strong> — anything more about him. <em>(checkable, and it dates him)</em></li>
+      <li><strong>The chaplain's book</strong> — what kind of book was it? <em>(the only paper trail we have)</em></li>
+      <li><strong>The pictures of the My Canh blown up</strong> — you said you took some the next day; where might they be?</li>
+      <li><strong>Lopez</strong> — tell me about him. <em>(nothing more than that)</em></li>
+      <li><strong>The medic who drowned</strong> — Kansas or Nebraska, if you had to pick one?</li>
     </ol>
   </section>
 
@@ -305,10 +312,13 @@ const answered: { q: string; a: string }[] = [
   <section class="held">
     <h2>Held for the right moment</h2>
     <p>
-      One photograph — <strong>VN-0157</strong>, a wounded man aboard a helicopter — is not a
-      breakfast question. When Dad is ready, and only then: <em>“Do you remember this man and
-      this day?”</em> His answer also decides whether that photo is ever shown publicly. It is
-      deliberately not linked here; it lives in the archive.
+      One photograph — <strong>VN-0157</strong>, a wounded man aboard a helicopter — was held here
+      as not a breakfast question. <strong>He answered it himself on 2026-09-05</strong>, at the
+      photograph: the Cambodian striker hurt by a blasting cap Larry had dropped, flown to the
+      Vietnamese army hospital by the base, never heard of again. His answer was to decide
+      whether the photo is ever shown publicly; that decision is now the family's to make. The
+      one gentle follow-up, and only if he opens it: he asked whether the hospital had a
+      Cambodian ward, and a records answer to that is something the archive could give him.
     </p>
     <p>
       The <strong>bathroom incident</strong>: the full account arrived 2026-08-15 — the man

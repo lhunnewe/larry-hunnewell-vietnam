@@ -1,0 +1,26 @@
+{
+  "name": "Saigon",
+  "alternateNames": [
+    "Sài Gòn",
+    "Ho Chi Minh City (since 1976)"
+  ],
+  "vietnameseName": "Sài Gòn",
+  "coordinates": {
+    "lat": 10.7769,
+    "lng": 106.7009
+  },
+  "summary": "The capital of South Vietnam and Larry's city for time off — a taxi ride from the base he calls \"Ton Suhn Nhut.\" His Saigon, told across the photographs he identified on 2026-09-05, is a small map: Tu Do street, \"a street with all the bars,\" and the Papillon, the bar he went to most; the street of flowers that ran parallel to it; the Continental, where he drank morning coffee where the press did; the Majestic, where the press stayed; the Mỹ Cảnh floating restaurant on the river, where he and Ron Tototz always ate; a movie theater where he sat through a bloody Vietnamese or Chinese film; and the taxi driver he and Ron rode with nine times in ten, whom they called VC Charlie. He was in the city for two of the war's Saigon bombings — a block from the US Embassy on 30 March 1965, and in front of the Mỹ Cảnh on 25 June 1965, when a friend's invitation to eat somewhere else put him inside the Peacock as the barge blew up. He calls the river the Mekong.",
+  "researchNotes": "The place is settled geography; what is his is the itinerary, and it is consistent across sixteen photographs identified in one sitting on 2026-09-05 (data/recollections/giscus-vn-0062 … -0089). Several frames carry their own evidence: VN-0079 shows the Mỹ Cảnh's rooftop sign, VN-0068 a street plate the survey read as Nguyễn Huệ — which is indeed the flower-market boulevard parallel to Tu Do, exactly as he describes it without naming it — and VN-0081 a public tally board for the winter 1964–65 central-Vietnam flood relief. Two of his placements do not agree with the signage and are recorded rather than corrected: he puts VN-0065 on Tu Do, but its kiosk row is the same one as VN-0068's; and he puts VN-0076 at the Continental, where the bilingual Chinese–Vietnamese shop signs read more like Chợ Lớn. He calls the river at Saigon the Mekong in three separate comments (VN-0064, VN-0068, VN-0073); the river there is the Saigon River, and the Mekong proper lies some 60 km south-west — a usage, not a misidentification of a place. The association is plausible rather than higher because, as with every place in this archive, no document yet names him there; his own signage-identified photographs make it as near certain as testimony gets. Events: research/events/my-canh-bombing-1965.md and the Embassy bombing under ledger #23.",
+  "confidence": "plausible",
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "ron-tototz",
+    "lopez",
+    "vc-charlie",
+    "pfc-stanton",
+    "pfc-zekeowski"
+  ],
+  "sources": [
+    "frus-1964-68-v03-d20"
+  ]
+}

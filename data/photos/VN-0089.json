@@ -2,8 +2,15 @@
   "photoId": "VN-0089",
   "originalFilename": "1920236-R3-E088.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R3-E088.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The river from the Mỹ Cảnh — patrol boat TD.9 at the quay",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "my-canh",
+  "people": [],
+  "description": "From the deck, past a diagonal brace: a grey naval patrol craft with the hull marking TD.9 lies at a stone quay, mast and lookout ring above her awning frames, other small craft beyond; across the wide river a far shore of red-roofed warehouses and palms under a cumulus sky. \"This is the river from the My Cahn. The TD9 is a Vietnamese patrol boat.\"",
+  "researchNotes": "Larry's caption of 2026-09-05 (giscus-vn-0089-c18308137.json), which puts the camera on the floating restaurant and settles the survey's Saigon-or-Nha-Trang question in favour of Saigon. The hull code is legible, and Vietnamese Navy small-craft designations of the period are documented — TD-series hulls should identify the vessel's type and station, which would corroborate the mooring from the naval side. Not yet searched; a clean lead for a records session.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0079", "vn-0072", "vn-0098"],
+  "relatedEvents": ["1965-06-25-my-canh-bombing"],
+  "sources": []
 }
