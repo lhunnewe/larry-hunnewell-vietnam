@@ -1,0 +1,111 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+
+const drawings = (await getCollection('drawings')).sort((a, b) =>
+  a.data.drawingId.localeCompare(b.data.drawingId)
+);
+const places = await getCollection('places');
+const placeName = (id: string) => places.find((p) => p.id === id)?.data.name ?? id;
+---
+
+<BaseLayout
+  title="Drawings"
+  description="Places from Larry Hunnewell's Vietnam service, 1964-1965, drawn from memory in his own hand."
+>
+  <span class="eyebrow">In his own hand</span>
+  <h1>Drawings</h1>
+  <p class="lede">
+    Sixty years on, Larry drew these places from memory in a sketchbook. They are not
+    photographs and they are not maps: they are his memory, put on paper by him, with the
+    names written the way he says them. Each drawing has a permanent archive number
+    (<span class="record">VD-0001</span> onward), its own <strong>Memories</strong> box, and a
+    place on the page of the place it shows, beside the photographs taken there.
+  </p>
+  <p class="record">
+    {drawings.length} drawing{drawings.length === 1 ? '' : 's'} &middot; every legible inscription
+    on a sheet is recorded, spelled as he wrote it &middot; nothing on a sheet is corrected
+  </p>
+
+  <ul class="drawing-grid">
+    {drawings.map((drawing) => (
+      <li>
+        <a href={withBase(`/drawings/${drawing.id}/`)}>
+          <img
+            src={withBase(`/images/drawings/thumbs/${drawing.data.drawingId}.jpg`)}
+            alt=""
+            loading="lazy"
+            width="480"
+            height="360"
+          />
+          <span class="record drawing-id">{drawing.data.drawingId}</span>
+          <span class="drawing-title">{drawing.data.title}</span>
+          <span class="record drawing-meta">
+            {drawing.data.drawnDisplay}
+            {drawing.data.depicts && <> &middot; {placeName(drawing.data.depicts.id)}</>}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2>How to read them</h2>
+  <p>
+    A drawing from memory is evidence of what Larry remembers, which is what this archive is
+    for. It is not evidence of where a building stood. Where a sheet agrees with what he has
+    said at the photographs, the research notes say so; where it raises a question, the
+    question is his to answer, and nothing on the sheet is checked against a map on these pages.
+  </p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-size: 1.15rem;
+  }
+
+  .drawing-grid {
+    list-style: none;
+    padding: 0;
+    margin: 1.6rem 0 0;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+
+  .drawing-grid a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 0.6rem;
+  }
+
+  .drawing-grid a:hover {
+    border-color: var(--signal);
+  }
+
+  .drawing-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .drawing-id {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--ink-soft);
+  }
+
+  .drawing-title {
+    display: block;
+    font-size: 1rem;
+    color: var(--ink);
+  }
+
+  .drawing-meta {
+    display: block;
+    margin-top: 0.3rem;
+    color: var(--ink-soft);
+  }
+</style>

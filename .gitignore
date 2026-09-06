@@ -1,7 +1,8 @@
 # build output
 dist/
-# generated web copies of photos (originals live in data/photos/originals/)
+# generated web copies of photos and drawings (originals live in data/*/originals/)
 public/images/photos/
+public/images/drawings/
 # generated types
 .astro/
 # dependencies

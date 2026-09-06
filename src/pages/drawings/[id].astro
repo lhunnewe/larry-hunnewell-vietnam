@@ -1,0 +1,256 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import Recollection from '../../components/Recollection.astro';
+import MemoryBox from '../../components/MemoryBox.astro';
+import Citations from '../../components/Citations.astro';
+import { withBase } from '../../lib/paths';
+import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
+
+export async function getStaticPaths() {
+  const drawings = (await getCollection('drawings')).sort((a, b) =>
+    a.data.drawingId.localeCompare(b.data.drawingId)
+  );
+  return drawings.map((drawing, i) => ({
+    params: { id: drawing.id },
+    props: {
+      drawing,
+      prev: i > 0 ? drawings[i - 1] : null,
+      next: i < drawings.length - 1 ? drawings[i + 1] : null,
+    },
+  }));
+}
+
+const { drawing, prev, next } = Astro.props;
+const d = drawing.data;
+
+const places = await getCollection('places');
+const people = await getCollection('people');
+const allDrawings = await getCollection('drawings');
+/** Every recollection, so copied testimony can be attributed by its true fidelity. */
+const allRecollections = await getCollection('recollections');
+
+const place = d.depicts ? places.find((p) => p.id === d.depicts!.id) : undefined;
+const artist = people.find((p) => p.id === d.drawnBy.id);
+const related = d.relatedDrawings
+  .map((r) => allDrawings.find((x) => x.id === r.id))
+  .filter((x): x is NonNullable<typeof x> => Boolean(x));
+const relatedPhotos = await getCollection('photos', (p) =>
+  d.relatedPhotos.some((r) => r.id === p.id)
+);
+
+/** Testimony recorded about this drawing, with its own fidelity and provenance. */
+const drawingRecollections = allRecollections.filter((r) =>
+  (r.data.relatedDrawings ?? []).some((x) => x.id === drawing.id)
+);
+---
+
+<BaseLayout title={`${d.drawingId} — ${d.title}`}>
+  <span class="eyebrow">Drawing {d.drawingId}</span>
+  <h1>{d.title}</h1>
+
+  <img
+    src={withBase(`/images/drawings/full/${d.drawingId}.jpg`)}
+    alt={`Drawing ${d.drawingId}: ${d.title}`}
+    width="1600"
+    height="1200"
+  />
+
+  <nav class="pager record" aria-label="Drawing navigation">
+    {prev ? <a href={withBase(`/drawings/${prev.id}/`)}>&larr; {prev.data.drawingId}</a> : <span></span>}
+    <a href={withBase('/drawings/')}>All drawings</a>
+    {next ? <a href={withBase(`/drawings/${next.id}/`)}>{next.data.drawingId} &rarr;</a> : <span></span>}
+  </nav>
+
+  <dl class="drawing-record">
+    <div><dt class="record">Archive ID</dt><dd>{d.drawingId}</dd></div>
+    <div>
+      <dt class="record">Drawn by</dt>
+      <dd><a href={withBase(`/people/${d.drawnBy.id}/`)}>{artist?.data.name ?? d.drawnBy.id}</a></dd>
+    </div>
+    <div><dt class="record">Drawn</dt><dd>{d.drawnDisplay}</dd></div>
+    {d.medium && <div><dt class="record">Medium</dt><dd>{d.medium}</dd></div>}
+    <div>
+      <dt class="record">Shows</dt>
+      <dd>
+        {place ? <a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a> : 'Not stated on the sheet'}
+      </dd>
+    </div>
+    <div><dt class="record">Original file</dt><dd>{d.originalFilename}</dd></div>
+    <div><dt class="record">Evidence</dt><dd><EvidenceBadge level={d.confidence} /></dd></div>
+  </dl>
+
+  {d.labels.length > 0 && (
+    <>
+      <h2>Written on the sheet</h2>
+      <p class="record labels-note">In his hand, spelled as written, in reading order. Shown in capitals.</p>
+      <ul class="labels">
+        {d.labels.map((label) => <li>{label}</li>)}
+      </ul>
+    </>
+  )}
+
+  {d.description && <p>{d.description}</p>}
+
+  <p class="record provenance">{d.provenance}</p>
+
+  {d.larrysRecollection && (
+    <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
+      {d.larrysRecollection}
+    </Recollection>
+  )}
+
+  {drawingRecollections.map((rec) => (
+    <>
+      <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+      <p class="record provenance">{rec.data.provenance}</p>
+    </>
+  ))}
+
+  {d.researchNotes && (
+    <>
+      <h2>Research notes</h2>
+      <p>{d.researchNotes}</p>
+    </>
+  )}
+
+  <Citations sources={d.sources} />
+
+  {relatedPhotos.length > 0 && (
+    <>
+      <h2>Photographs he has placed here</h2>
+      <ul class="related-photos">
+        {relatedPhotos
+          .sort((a, b) => a.data.photoId.localeCompare(b.data.photoId))
+          .map((photo) => (
+            <li>
+              <a href={withBase(`/photos/${photo.id}/`)}>
+                <img
+                  src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
+                  alt=""
+                  width="320"
+                  height="216"
+                  loading="lazy"
+                />
+                <span class="record">{photo.data.photoId}</span>
+                <span class="related-title">{photo.data.title}</span>
+              </a>
+            </li>
+          ))}
+      </ul>
+    </>
+  )}
+
+  {related.length > 0 && (
+    <>
+      <h2>Other drawings</h2>
+      <ul>
+        {related.map((r) => (
+          <li>
+            <a href={withBase(`/drawings/${r.id}/`)}>
+              <span class="record">{r.data.drawingId}</span> {r.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <MemoryBox
+    term={d.drawingId}
+    subject="drawing"
+    image={withBase(`/images/drawings/full/${d.drawingId}.jpg`)}
+    imageAlt={`Drawing ${d.drawingId}`}
+  />
+</BaseLayout>
+
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem 0 0.8rem;
+    border: 1px solid var(--line);
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .drawing-record {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 0.8rem 1.5rem;
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+  }
+
+  .drawing-record div {
+    margin: 0;
+  }
+
+  .drawing-record dt {
+    color: var(--ink-soft);
+    margin-bottom: 0.15rem;
+  }
+
+  .drawing-record dd {
+    margin: 0;
+  }
+
+  .labels-note {
+    color: var(--ink-soft);
+    margin-top: -0.4rem;
+  }
+
+  .labels {
+    list-style: none;
+    padding: 0;
+    margin: 0.4rem 0 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .labels li {
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 0.25rem 0.7rem;
+  }
+
+  .provenance {
+    color: var(--ink-soft);
+    margin: 0.3rem 0 1.4rem;
+  }
+
+  .related-photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 1rem;
+  }
+
+  .related-photos a {
+    text-decoration: none;
+  }
+
+  .related-photos img {
+    margin: 0 0 0.3rem;
+  }
+
+  .related-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+</style>

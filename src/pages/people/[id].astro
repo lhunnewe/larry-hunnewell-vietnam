@@ -22,6 +22,11 @@ const allRecollections = await getCollection("recollections");
 const personRecollections = allRecollections.filter((r) =>
   (r.data.relatedPeople ?? []).some((x) => x.id === person.id)
 );
+
+/** Drawings this person made from memory. */
+const personDrawings = (await getCollection('drawings'))
+  .filter((dr) => dr.data.drawnBy.id === person.id)
+  .sort((a, b) => a.data.drawingId.localeCompare(b.data.drawingId));
 ---
 
 <BaseLayout title={d.name}>
@@ -68,6 +73,22 @@ const personRecollections = allRecollections.filter((r) =>
       <ul>
         {d.relatedPlaces.map((p) => (
           <li><a href={withBase(`/places/${p.id}/`)}>{p.id}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {personDrawings.length > 0 && (
+    <>
+      <h2>Drawings in his own hand</h2>
+      <ul>
+        {personDrawings.map((dr) => (
+          <li>
+            <a href={withBase(`/drawings/${dr.id}/`)}>
+              <span class="record">{dr.data.drawingId}</span> {dr.data.title}
+            </a>
+            <span class="record"> &middot; {dr.data.drawnDisplay}</span>
+          </li>
         ))}
       </ul>
     </>

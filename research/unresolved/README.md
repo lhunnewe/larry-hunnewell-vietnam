@@ -1153,3 +1153,16 @@ Open questions:
     generated a report and a maintenance entry; the first incident attached to a Jones rather
     than a likeness (#13, one Jones or two). Searchable once the unit (#2) or the Rosethorn 007
     crew (#28) is settled.*
+
+35. **Larry's drawings from memory** (VD-0001 to VD-0003, issue #133) — on 2026-09-05 he drew
+    the base camp ("BASE CAMP TON SON NHUT"), the mountain ("NUI BA DEN") and Tu Do Street in
+    a sketchbook: the first evidence in the archive in his own hand. Records in
+    `data/drawings/`, notes in `research/drawings/README.md`. Open: the provenance his son
+    can still supply (asked or unprompted, what he said while drawing); the marks only Larry
+    can explain (the circled M and the vertical river label on VD-0003, the unlabelled box and
+    GENERATORS on VD-0002, the unlabelled boxes and the figures in the SHOWER on VD-0001),
+    none of which is to be prompted with a reading. GENERATORS on the mountain is new
+    testimony. Three labels on VD-0003 (the river's first word, the Palace box, the Embassy
+    box) are not transcribed because a letter cannot be read from the phone captures; ASK THE
+    FAMILY FOR A FLAT SCAN of the three sheets. The comparison of VD-0002 with the 6231-4 fort
+    symbol stays in research/; he is not shown a map to correct a sketch.
