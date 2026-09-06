@@ -1157,8 +1157,10 @@ Open questions:
 35. **Larry's drawings from memory** (VD-0001 to VD-0003, issue #133) — on 2026-09-05 he drew
     the base camp ("BASE CAMP TON SON NHUT"), the mountain ("NUI BA DEN") and Tu Do Street in
     a sketchbook: the first evidence in the archive in his own hand. Records in
-    `data/drawings/`, notes in `research/drawings/README.md`. Open: the provenance his son
-    can still supply (asked or unprompted, what he said while drawing); the marks only Larry
+    `data/drawings/`, notes in `research/drawings/README.md`. *Evening of 2026-09-05: his
+    son confirms he volunteered the drawings unprompted, and that at the base camp sheet he
+    was describing the shower shooting (#11) — Weaver "came in from the right side"; filed
+    as a paraphrase recollection linked to VD-0001.* Open: the marks only Larry
     can explain (the circled M and the vertical river label on VD-0003, the unlabelled box and
     GENERATORS on VD-0002, the unlabelled boxes and the figures in the SHOWER on VD-0001),
     none of which is to be prompted with a reading. GENERATORS on the mountain is new

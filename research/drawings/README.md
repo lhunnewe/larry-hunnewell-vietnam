@@ -30,13 +30,23 @@ of `ARMORY` on VD-0001 (the wall line crosses it), the middle of `STREET` on VD-
 faintest ink on any sheet), and the three withheld inscriptions below. The slash in
 `TO BASE /A PORT` abuts the A on the sheet and is transcribed that way.
 
-### Provenance not recorded (ask his son, not Larry)
+### Provenance (answered by his son, evening of 2026-09-05)
 
-- Were the drawings asked for, or did he pick up the sketchbook himself? If asked, what was
-  the question, and was he looking at any photograph while drawing?
-- What did he say while drawing? Anything remembered goes in a recollections record as
-  `paraphrase` (his son's report) and is linked with `relatedDrawings`.
-- Were the three drawn in the order photographed, and in one sitting?
+- **Unprompted.** "He mentioned he could draw it. He fully volunteered to draw it. I never
+  brought it up." Recorded on all three records' `provenance`.
+- **What he said.** His son listened and did not take notes. One thing is remembered: at the
+  base camp sheet he was describing the shower shooting (the man who came in, shot his buddy
+  in the shower, aimed at Larry; Weaver came in "from the right side"). Filed as
+  `data/recollections/2026-09-05-drawing-shower-shooting.json`, fidelity `paraphrase`, linked
+  to VD-0001. Nothing is recorded for VD-0002 or VD-0003.
+- Still to ask his son (he has offered to validate): were the three drawn in one sitting, in
+  the order photographed; was he looking at any photograph while drawing; did he write the
+  labels as he drew each thing or afterwards; when he said Weaver came in "from the right
+  side", did he point at the sheet, and if so where; did he say what the two figures in the
+  SHOWER box are, or what the curved line beside it is; did he say anything at all at the
+  mountain or Tu Do sheets, even a word. **A hypothesis to keep off his pages**: the two
+  figures may be the man shot and the shooter, and the curved line Weaver's entrance; not to
+  be suggested to Larry.
 
 ### Questions for Larry, from the sheets themselves
 
