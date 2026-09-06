@@ -24,6 +24,8 @@ interface Question {
   photos: string[];
   /** Film clip IDs, linked to their /footage/ pages. */
   clips?: string[];
+  /** Drawing IDs, linked to their /drawings/ pages. */
+  drawings?: string[];
 }
 
 const tiers: { title: string; intro?: string; questions: Question[] }[] = [
@@ -122,6 +124,76 @@ const tiers: { title: string; intro?: string; questions: Question[] }[] = [
         q: '“Was the Ginza day a pass from the hospital? What do you remember about that German restaurant — the sign, the entrance, the stairs?”',
         why: 'Don’t supply details. If he spontaneously describes a giant beer-barrel doorway, that identifies Ketel’s — see research/places/ginza-heidelberg.md.',
         photos: ['vn-0095'],
+      },
+    ],
+  },
+  {
+    title: 'The drawings',
+    intro:
+      'His three sheets of 2026-09-05, drawn unprompted while he was explaining the Saigon photographs. Open the drawing on the tablet and ask him to read his own marks. Never read a label to him; several are unread on purpose. The questions that end in “validate” check what his son heard him say while drawing, and must be asked open, without the answer in them.',
+    questions: [
+      {
+        id: 'drawing-camp-boxes',
+        q: '“On your camp drawing — the boxes down the left side, and the big one at the bottom left: what were they?”',
+        why: 'Five boxes, one labelled MY HOOCH; the other four are unlabelled and unidentified. Let him name each.',
+        photos: [],
+        drawings: ['vd-0001'],
+      },
+      {
+        id: 'drawing-camp-armory-wall',
+        q: '“The armory wall along the top — was that a wall around the camp, or the armory building’s own wall? And what’s the little box marked OUR?”',
+        why: 'OUR and ARMORY WALL are two inscriptions on the sheet; whether they read together is his to say.',
+        photos: [],
+        drawings: ['vd-0001'],
+      },
+      {
+        id: 'drawing-camp-shower',
+        q: '“Walk me through the shower building on the drawing — where were you, where did each man come in, and what are the two little marks you drew in the box?” (validate)',
+        why: 'His son’s account of 2026-09-05 has the gunman at the left entrance, Larry at the stalls or toilets along the bottom, the showers along the top and Weaver at the far right door, with the two marks being stalls. Get it in his own words; do not describe the layout to him first.',
+        photos: [],
+        drawings: ['vd-0001'],
+      },
+      {
+        id: 'drawing-mountain-marks',
+        q: '“On the mountain drawing — the box to the right of the words, the two small boxes above the fort, the mark in the bottom corner, the long curved line, and the lines coming down from the heli pad: what are they?”',
+        why: 'None of these is labelled or explained on record.',
+        photos: [],
+        drawings: ['vd-0002'],
+      },
+      {
+        id: 'drawing-mountain-generators',
+        q: '“The generators — what did they run, whose were they, and what did you have to do to them?” (validate)',
+        why: 'His son heard “change them or add gas to them or do something to them”. First mention of generators anywhere; everything about them is open.',
+        photos: [],
+        drawings: ['vd-0002'],
+      },
+      {
+        id: 'drawing-mountain-fort',
+        q: '“Who slept in the fort? Did you?” (validate)',
+        why: 'His son heard a name and that Larry sometimes slept there too. Do not offer the name; if he gives it, the paraphrase is confirmed in his words.',
+        photos: [],
+        drawings: ['vd-0002'],
+      },
+      {
+        id: 'drawing-tudo-labels',
+        q: '“On the Tu Do drawing — read me what you wrote down the right-hand side by the river, and what’s written in the box on the left and the box on the right.”',
+        why: 'Three inscriptions are deliberately untranscribed because a letter cannot be read from the photograph. His reading settles them. Do not read any candidate to him.',
+        photos: [],
+        drawings: ['vd-0003'],
+      },
+      {
+        id: 'drawing-tudo-market',
+        q: '“The circle with the M — what was that? What happened there, and were you there when it happened?” (validate)',
+        why: 'His son heard “Market” and that an explosion went off there, and could not tell whether Larry was present or recalling something he had heard of. Presence is the question; which market and which explosion are research, not for him.',
+        photos: [],
+        drawings: ['vd-0003'],
+      },
+      {
+        id: 'drawing-tudo-band',
+        q: '“The wide strip up the middle with the shapes in it and the arrows, the star by the flowers, and the shape in the top corner — what are they?”',
+        why: 'Unlabelled marks, uninterpreted on record.',
+        photos: [],
+        drawings: ['vd-0003'],
       },
     ],
   },
@@ -293,13 +365,16 @@ const answered: { q: string; a: string }[] = [
               <span class="q-text">{item.q}</span>
             </label>
             {item.why && <p class="q-why">{item.why}</p>}
-            {(item.photos.length > 0 || (item.clips?.length ?? 0) > 0) && (
+            {(item.photos.length > 0 || (item.clips?.length ?? 0) > 0 || (item.drawings?.length ?? 0) > 0) && (
               <p class="q-photos">
                 {item.photos.map((p) => (
                   <a class="photo-chip" href={withBase(`/photos/${p}/`)}>{p.toUpperCase()}</a>
                 ))}
                 {item.clips?.map((c) => (
                   <a class="photo-chip" href={withBase(`/footage/${c}/`)}>&#9654; {c.toUpperCase()}</a>
+                ))}
+                {item.drawings?.map((dr) => (
+                  <a class="photo-chip" href={withBase(`/drawings/${dr}/`)}>&#9998; {dr.toUpperCase()}</a>
                 ))}
               </p>
             )}

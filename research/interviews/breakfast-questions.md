@@ -190,6 +190,43 @@ What remains here is what he did not answer, plus **four new questions his answe
   shown to him without spoiling anything** (`research/events/cbc-documentary-1964-65.md`).
   *"Is this the crew? Is that you?"*
 
+### The drawings — VD-0001 to VD-0003 (added 2026-09-05)
+
+His three sheets, drawn unprompted while he was explaining the Saigon photographs
+(`data/drawings/`, `research/drawings/README.md`). Open the drawing on the tablet and ask him
+to read his own marks. **Never read a label to him** — three on VD-0003 are unread on purpose.
+Questions marked *(validate)* check what his son heard him say while drawing; ask them open,
+without the answer in them.
+
+- [ ] **The camp boxes.** — Show **VD-0001**: *"The boxes down the left side, and the big one
+  at the bottom left: what were they?"* *(Five boxes, one labelled MY HOOCH; four unidentified.)*
+- [ ] **The armory wall.** — **VD-0001**: *"Was that a wall around the camp, or the armory
+  building's own wall? And what's the little box marked OUR?"*
+- [ ] **The shower building** *(validate)*. — **VD-0001**: *"Walk me through it — where were
+  you, where did each man come in, and what are the two little marks you drew in the box?"*
+  *(His son's account, `2026-09-05-drawing-shower-layout.json`: gunman at the left entrance,
+  Larry at the stalls or toilets along the bottom, showers along the top, Weaver at the far
+  right door, the two marks being stalls. Get it in his words; don't describe the layout first.)*
+- [ ] **The mountain marks.** — **VD-0002**: *"The box to the right of the words, the two small
+  boxes above the fort, the mark in the bottom corner, the long curved line, and the lines
+  coming down from the heli pad: what are they?"*
+- [ ] **The generators** *(validate)*. — **VD-0002**: *"What did they run, whose were they, and
+  what did you have to do to them?"* *(His son heard "change them or add gas to them or do
+  something to them". First mention of generators anywhere.)*
+- [ ] **The fort** *(validate)*. — **VD-0002**: *"Who slept in the fort? Did you?"* *(His son
+  heard a name — `2026-09-05-drawing-fort-kennedy.json` — and that Larry sometimes slept there.
+  Do NOT offer the name.)*
+- [ ] **The Tu Do labels.** — **VD-0003**: *"Read me what you wrote down the right-hand side by
+  the river, and what's written in the box on the left and the box on the right."* *(Three
+  inscriptions untranscribed because a letter can't be read from the photograph. Do NOT read
+  any candidate to him — see `research/drawings/README.md`.)*
+- [ ] **The circled M** *(validate)*. — **VD-0003**: *"What was that? What happened there, and
+  were you there when it happened?"* *(His son heard "Market" and an explosion, and could not
+  tell whether Larry was present. Presence is the question; which market and which explosion
+  are research, not for him.)*
+- [ ] **The Tu Do marks.** — **VD-0003**: *"The wide strip up the middle with the shapes in it
+  and the arrows, the star by the flowers, and the shape in the top corner — what are they?"*
+
 ---
 
 ## Tier 3 — Quick confirmations (fast yes/no over coffee)

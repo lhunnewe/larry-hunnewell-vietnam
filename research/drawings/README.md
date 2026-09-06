@@ -39,14 +39,29 @@ faintest ink on any sheet), and the three withheld inscriptions below. The slash
   in the shower, aimed at Larry; Weaver came in "from the right side"). Filed as
   `data/recollections/2026-09-05-drawing-shower-shooting.json`, fidelity `paraphrase`, linked
   to VD-0001. Nothing is recorded for VD-0002 or VD-0003.
-- Still to ask his son (he has offered to validate): were the three drawn in one sitting, in
-  the order photographed; was he looking at any photograph while drawing; did he write the
-  labels as he drew each thing or afterwards; when he said Weaver came in "from the right
-  side", did he point at the sheet, and if so where; did he say what the two figures in the
-  SHOWER box are, or what the curved line beside it is; did he say anything at all at the
-  mountain or Tu Do sheets, even a word. **A hypothesis to keep off his pages**: the two
-  figures may be the man shot and the shooter, and the curved line Weaver's entrance; not to
-  be suggested to Larry.
+- **His son's answers, later the same evening** (all filed as paraphrase recollections dated
+  2026-09-05, linked with `relatedDrawings`):
+  - One sitting, in the order photographed; labels written as he drew each thing; he talked as
+    he drew all three sheets. Not looking at any image: they had been looking at photographs,
+    and after he had said things like "to the right of the flowers on Tu Do street is x" a
+    couple of times he decided drawing would be easier. Now in each record's `provenance`.
+  - **VD-0001, the SHOWER box** (`2026-09-05-drawing-shower-layout.json`): he pointed at the
+    sheet. Gunman in at the left entrance; Larry near the left and bottom of the box; showers
+    along the top; Weaver in at the far-right door. The two figures on the bottom edge are
+    stalls or toilets where Larry was, not men. (So the earlier hypothesis — figures = the two
+    men — is withdrawn, unasked.) The curved line beside the box is still unexplained.
+  - **VD-0002, GENERATORS** (`2026-09-05-drawing-generators.json`): he would change them or
+    add gas to them "or do something to them" when up there.
+  - **VD-0002, FORT** (`2026-09-05-drawing-fort-kennedy.json`): Captain Kennedy slept there,
+    and sometimes Larry did. Validate by asking who slept there, without the name.
+  - **VD-0003, the circled M** (`2026-09-05-drawing-market-m.json`): stands for "Market"; an
+    explosion went off there; his son could not tell whether Larry was present or was recalling
+    something he had heard of. **Research lead, not for him:** which Saigon market, and which
+    explosion — the central market (Chợ Bến Thành) sits at the head of the Nguyễn Huệ / Lê Lợi
+    axis, and the sheet puts the M at the head of the wide band; a search of 1964-65 Saigon
+    bombings at or near a market has not been run. Ask him first whether he was there.
+- All of the above are now questions in the interview guide and on `/interview/` ("The
+  drawings"), each marked *(validate)* where it checks his son's hearing.
 
 ### Questions for Larry, from the sheets themselves
 
