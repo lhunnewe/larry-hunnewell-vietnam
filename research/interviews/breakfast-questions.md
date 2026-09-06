@@ -277,9 +277,16 @@ What remains here is what he did not answer, plus **four new questions his answe
   photograph** — the Cambodian striker whose fingers were taken by a blasting cap Larry had
   dropped, flown to the Vietnamese army hospital by the base, never heard of again; "It added
   PTSD." See "Answered" and ledger #33. **The decision his answer was to settle — whether the
-  photograph is shown publicly — is now the family's to make (issue #22).** The one gentle
-  follow-up, and only if he opens it: he asked whether the hospital had a Cambodian ward; a
-  records answer to that is something the archive could give him.
+  photograph is shown publicly — is now his to make, and it goes to him as a question, not a
+  default (issue #22).** Cautiously: **not at breakfast, not with the picture on the table
+  unless he brings it up, and never twice.** If he opens the subject himself:
+  *"That picture of the Cambodian in the helicopter — it's on the website with what you told
+  me. Do you want it there for people to see, or would you rather we kept it just for the
+  family?"* Take whatever he says as the answer, in his words, as a recollection record with
+  its own date. Until he answers, nothing changes: the photograph stays as it is, unlinked
+  from this guide, and is not used anywhere else. The other gentle follow-up, same rule: he
+  asked whether the hospital had a Cambodian ward; a records answer to that is something the
+  archive could give him.
 - **The bathroom shooting** — the full account arrived 2026-08-15
   (`data/recollections/giscus-stories-c18035411.json`; timeline entry
   `data/timeline/1965-02-bathroom-shooting.json`). Remaining gentle follow-ups: "Did the man
