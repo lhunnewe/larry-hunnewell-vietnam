@@ -1,25 +1,104 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PhotoTile from '../../components/PhotoTile.astro';
 import { withBase } from '../../lib/paths';
+import {
+  DEFAULT_VIEW,
+  groupByCatalogState,
+  groupByDate,
+  groupByFamilySorting,
+  groupByLocation,
+  groupByPerson,
+  isDated,
+  VIEW_KEYS,
+  type PhotoSection,
+  type ViewKey,
+} from '../../lib/photo-views';
 
 const photos = (await getCollection('photos')).sort((a, b) =>
   a.data.photoId.localeCompare(b.data.photoId)
 );
+const places = await getCollection('places');
+const people = await getCollection('people');
 
 const cataloged = photos.filter((p) => p.data.cataloged).length;
+const located = photos.filter((p) => p.data.location).length;
+const named = photos.filter((p) => p.data.people.length > 0).length;
+const dated = photos.filter(isDated).length;
 
-// Group by the family's own sorting of the prints (the folder structure
-// the scans arrived in, preserved as catalog information).
-const groups = new Map<string, typeof photos>();
-for (const photo of photos) {
-  const folder = photo.data.originalPath
-    ? photo.data.originalPath.split('/').slice(0, -1).join(' / ')
-    : 'Ungrouped';
-  if (!groups.has(folder)) groups.set(folder, []);
-  groups.get(folder)!.push(photo);
+const plural = (n: number, noun = 'photograph') => `${n} ${noun}${n === 1 ? '' : 's'}`;
+
+/**
+ * Before the module script runs, the root's data-photos-view (set by the
+ * inline script below) decides which panel paints. These rules are generated
+ * from VIEW_KEYS so a new view cannot be left without one; they must beat the
+ * scoped `.view[hidden]` rule, which they do on specificity.
+ */
+const viewRules =
+  'html[data-photos-view] .view{display:none}' +
+  VIEW_KEYS.map((k) => `html[data-photos-view='${k}'] .view[data-view='${k}']{display:block}`).join('');
+
+/**
+ * Every view is rendered; a small script shows the chosen one. Each grouping
+ * reads only the catalog record's own fields (see src/lib/photo-views.ts):
+ * nothing from the vision survey and nothing from research notes places a
+ * photograph anywhere.
+ */
+interface View {
+  key: ViewKey;
+  label: string;
+  /** What the sections are keyed on, and how many photographs have no value yet. */
+  intro: string;
+  /** Suffix on each section's count line, e.g. "family sorting". */
+  keyedOn: string;
+  sections: PhotoSection<(typeof photos)[number]>[];
+  showConfidence?: boolean;
+  showDate?: boolean;
 }
-const sections = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+
+const views: View[] = [
+  {
+    key: 'family',
+    label: 'Family sorting',
+    intro:
+      "The family's own sorting of the prints, as the scans arrived. This is catalog information and the default view.",
+    keyedOn: 'family sorting',
+    sections: groupByFamilySorting(photos),
+  },
+  {
+    key: 'location',
+    label: 'By location',
+    intro: `Grouped by the place named on each photograph's record, under the place record's own name. ${plural(located)} have a location; ${plural(photos.length - located)} have none yet. Each photograph shows its record's evidence classification.`,
+    keyedOn: 'by location',
+    sections: groupByLocation(photos, places, (id) => withBase(`/places/${id}/`)),
+    showConfidence: true,
+  },
+  {
+    key: 'person',
+    label: 'By person',
+    intro: `Grouped by the people named on each photograph's record. A photograph naming two people appears under both. ${plural(named)} name someone; ${plural(photos.length - named)} name no one yet. Each photograph shows its record's evidence classification.`,
+    keyedOn: 'by person',
+    sections: groupByPerson(photos, people, (id) => withBase(`/people/${id}/`)),
+    showConfidence: true,
+  },
+  {
+    key: 'date',
+    label: 'By date',
+    intro: `Photographs with a date on their record, in date order, then the rest in archive order. ${plural(dated)} carry a date so far; ${plural(photos.length - dated)} do not. The date text is shown as recorded, including whose estimate it is.`,
+    keyedOn: 'by date',
+    sections: groupByDate(photos),
+    showDate: true,
+    showConfidence: true,
+  },
+  {
+    key: 'catalog',
+    label: 'Not yet cataloged',
+    intro: `Photographs that have not yet been through cataloging, then those that have. ${plural(photos.length - cataloged)} are not yet cataloged; ${plural(cataloged)} are.`,
+    keyedOn: 'catalog state',
+    sections: groupByCatalogState(photos),
+  },
+];
 ---
 
 <BaseLayout title="Photographs">
@@ -37,34 +116,179 @@ const sections = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
     uncataloged photo is guessed
   </p>
 
-  {sections.map(([folder, items]) => (
-    <section>
-      <h2>{folder}</h2>
-      <p class="record">{items.length} photograph{items.length === 1 ? '' : 's'} &middot; family sorting</p>
-      <ul class="photo-grid">
-        {items.map((photo) => (
-          <li>
-            <a href={withBase(`/photos/${photo.id}/`)}>
-              <img
-                src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
-                alt={photo.data.cataloged ? photo.data.title : `Photograph ${photo.data.photoId}, not yet cataloged`}
-                loading="lazy"
-                width="480"
-                height="324"
+  <div class="view-switcher" role="group" aria-labelledby="view-switcher-label">
+    <span class="record switcher-label" id="view-switcher-label">Group by</span>
+    {views.map((view) => (
+      <button
+        type="button"
+        class="view-button"
+        data-view={view.key}
+        aria-controls={`view-${view.key}`}
+        aria-pressed={view.key === DEFAULT_VIEW ? 'true' : 'false'}
+      >
+        {view.label}
+      </button>
+    ))}
+  </div>
+
+  {/*
+    Before the panels are parsed, mark the root with the remembered view so
+    the stylesheet shows it on first paint instead of painting the default and
+    jumping. The keys come from src/lib/photo-views.ts; anything else in
+    storage is ignored and the default renders. The module script below then
+    takes over the `hidden` attributes and button state.
+  */}
+  <style is:inline set:html={viewRules}></style>
+  <script is:inline define:vars={{ keys: VIEW_KEYS, defaultView: DEFAULT_VIEW }}>
+    try {
+      var remembered = localStorage.getItem('photos-view');
+      if (remembered && remembered !== defaultView && keys.indexOf(remembered) !== -1) {
+        document.documentElement.dataset.photosView = remembered;
+      }
+    } catch (e) {
+      /* no storage: the default view is already the one marked visible */
+    }
+  </script>
+
+  {views.map((view) => (
+    <div class="view" id={`view-${view.key}`} data-view={view.key} hidden={view.key !== DEFAULT_VIEW}>
+      <p class="view-intro">{view.intro}</p>
+      {view.sections.map((section) => (
+        <section class:list={{ bucket: section.isBucket }}>
+          <h2>
+            {section.href ? <a href={section.href}>{section.heading}</a> : section.heading}
+          </h2>
+          <p class="record">{plural(section.items.length)} &middot; {view.keyedOn}</p>
+          <ul class="photo-grid">
+            {section.items.map((photo) => (
+              <PhotoTile
+                photo={photo}
+                showConfidence={view.showConfidence}
+                showDate={view.showDate && isDated(photo)}
               />
-              <span class="record photo-id">{photo.data.photoId}</span>
-              {photo.data.cataloged && <span class="photo-title">{photo.data.title}</span>}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </section>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
   ))}
 </BaseLayout>
+
+<script>
+  import { DEFAULT_VIEW, isViewKey, type ViewKey } from '../../lib/photo-views';
+
+  const STORAGE_KEY = 'photos-view';
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.view-button');
+  const panels = document.querySelectorAll<HTMLElement>('.view[data-view]');
+
+  function show(key: ViewKey) {
+    document.documentElement.dataset.photosView = key;
+    panels.forEach((panel) => {
+      panel.hidden = panel.dataset.view !== key;
+    });
+    buttons.forEach((button) => {
+      button.setAttribute('aria-pressed', button.dataset.view === key ? 'true' : 'false');
+    });
+  }
+
+  // The last-chosen view is remembered per device, like the /interview/
+  // checkboxes. Storage may be unavailable (private window, blocked site
+  // data); the page must still render the default.
+  let stored: string | null = null;
+  try {
+    stored = localStorage.getItem(STORAGE_KEY);
+  } catch {
+    stored = null;
+  }
+  if (isViewKey(stored) && stored !== DEFAULT_VIEW) show(stored);
+  else show(DEFAULT_VIEW);
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const key = button.dataset.view;
+      if (!isViewKey(key)) return;
+      show(key);
+      try {
+        localStorage.setItem(STORAGE_KEY, key);
+      } catch {
+        /* nothing to remember with; the view still switches */
+      }
+    });
+  });
+</script>
 
 <style>
   .lede {
     font-size: 1.15rem;
+  }
+
+  .view-switcher {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.6rem 0 0.4rem;
+    padding: 0.8rem 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .switcher-label {
+    color: var(--ink-soft);
+    margin-right: 0.3rem;
+  }
+
+  .view-button {
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    color: var(--ink);
+    padding: 0.35rem 0.8rem;
+  }
+
+  .view-button:hover {
+    border-color: var(--signal);
+  }
+
+  .view-button[aria-pressed='true'] {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+
+  .view-button:focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 2px;
+  }
+
+  .view-intro {
+    color: var(--ink-soft);
+    max-width: var(--measure);
+  }
+
+  /*
+   * Panels are shown by the `hidden` attribute once the module script has
+   * run, and by the root's data-photos-view before that (see `viewRules` in
+   * the frontmatter), so a remembered view paints first. Without JavaScript
+   * neither applies and the default shows.
+   */
+  .view[hidden] {
+    display: none;
+  }
+
+  section h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  section h2 a:hover {
+    text-decoration: underline;
+  }
+
+  .bucket h2 {
+    color: var(--ink-soft);
   }
 
   .photo-grid {
@@ -74,35 +298,5 @@ const sections = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-  }
-
-  .photo-grid a {
-    display: block;
-    text-decoration: none;
-    border: 1px solid var(--line);
-    background: var(--paper-deep);
-    padding: 0.5rem;
-  }
-
-  .photo-grid a:hover {
-    border-color: var(--signal);
-  }
-
-  .photo-grid img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .photo-id {
-    display: block;
-    margin-top: 0.45rem;
-    color: var(--ink-soft);
-  }
-
-  .photo-title {
-    display: block;
-    font-size: 0.92rem;
-    color: var(--ink);
   }
 </style>

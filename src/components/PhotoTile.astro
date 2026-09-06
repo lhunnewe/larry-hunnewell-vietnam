@@ -1,0 +1,98 @@
+---
+/**
+ * One gallery tile: thumbnail, archive number, and the title once cataloged.
+ * A cataloged tile's title is visible text inside the same link, so its image
+ * gets an empty alt rather than announcing the title twice.
+ * Optional lines show the record's confidence (for views that place a photo
+ * by an unverified field) and its date text (for the by-date view; the caller
+ * passes `showDate` only for photos the by-date grouping counts as dated, so a
+ * tile never prints a date under "Date unknown"). Both come straight from the
+ * record and are never guessed.
+ */
+import type { CollectionEntry } from 'astro:content';
+import EvidenceBadge from './EvidenceBadge.astro';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  photo: CollectionEntry<'photos'>;
+  showConfidence?: boolean;
+  showDate?: boolean;
+}
+
+const { photo, showConfidence = false, showDate = false } = Astro.props;
+const d = photo.data;
+---
+
+<li>
+  <a href={withBase(`/photos/${photo.id}/`)}>
+    <img
+      src={withBase(`/images/photos/thumbs/${d.photoId}.jpg`)}
+      alt={d.cataloged ? '' : `Photograph ${d.photoId}, not yet cataloged`}
+      loading="lazy"
+      width="480"
+      height="324"
+    />
+    <span class="record photo-id">{d.photoId}</span>
+    {d.cataloged && <span class="photo-title">{d.title}</span>}
+    {showDate && d.approximateDate && <span class="record photo-date">{d.approximateDate}</span>}
+    {showConfidence && (
+      <span class="photo-confidence">
+        <span class="visually-hidden">Evidence: </span>
+        <EvidenceBadge level={d.confidence} />
+      </span>
+    )}
+  </a>
+</li>
+
+<style>
+  a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--paper-deep);
+    padding: 0.5rem;
+  }
+
+  a:hover {
+    border-color: var(--signal);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .photo-id {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--ink-soft);
+  }
+
+  .photo-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+
+  .photo-date {
+    display: block;
+    margin-top: 0.3rem;
+    color: var(--ink-soft);
+  }
+
+  .photo-confidence {
+    display: block;
+    margin-top: 0.4rem;
+  }
+
+  /* Read by assistive technology only, so the badge is announced as evidence. */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>
