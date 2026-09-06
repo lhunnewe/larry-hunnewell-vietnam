@@ -5,10 +5,10 @@
   "text": "Sargent Gagne made Field Promotion to Lieutenant and that don't really happen. He was that good. ",
   "fidelity": "transcribed",
   "researchNotes": "A battlefield commission for Gagne — sergeant to lieutenant — which is a documented kind of event. Carried to data/people/gagne.json; note the tension with 'French Foreign Legionnaire' there.",
-  "relatedPeople": [
-    "gagne"
-  ],
   "relatedPlaces": [
     "nui-ba-den"
+  ],
+  "relatedPeople": [
+    "gagne"
   ]
 }
