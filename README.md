@@ -28,8 +28,8 @@ Published at <https://lhunnewe.github.io/larry-hunnewell-vietnam>.
 2. Every important claim carries an evidence classification: confirmed, strongly supported,
    plausible, unverified recollection, or contradicted.
 3. Unknown information is represented as unknown, never guessed.
-4. Photograph IDs (`VN-0001`, …), film clip IDs (`VF-0001`, …), and public filenames are
-   permanent once assigned.
+4. Photograph IDs (`VN-0001`, …), film clip IDs (`VF-0001`, …), drawing IDs (`VD-0001`, …),
+   and public filenames are permanent once assigned.
 
 ## Development
 

@@ -95,6 +95,58 @@ const videos = defineCollection({
   }),
 });
 
+/**
+ * Drawings Larry made from memory, decades later. Not photographs and never
+ * filed as VN-####: the VN series is what he brought home from Vietnam, and a
+ * 2026 sketch is a different kind of evidence — his own hand, unmediated by
+ * anyone typing for him, showing how he remembers a place today.
+ */
+const drawings = defineCollection({
+  loader: glob({ pattern: '*.json', base: './data/drawings' }),
+  schema: z.object({
+    /** Permanent archival ID, e.g. VD-0001. Matches the filename. */
+    drawingId: z.string().regex(/^VD-\d{4}$/),
+    /** The capture file as it arrived, never renamed. */
+    originalFilename: z.string(),
+    /** Path of that file relative to data/drawings/originals/. */
+    originalPath: z.string(),
+    drawnBy: reference('people'),
+    /** When it was drawn (not when the scene existed), YYYY-MM-DD when known. */
+    drawn: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/)
+      .optional(),
+    /** What to show for the drawing date; never more precise than the evidence. */
+    drawnDisplay: z.string(),
+    medium: z.string().optional(),
+    /** How the sheet reached the archive, and what was not recorded. */
+    provenance: z.string(),
+    title: z.string(),
+    /**
+     * Every legible inscription on the sheet, transcribed in reading order,
+     * in capitals, with the spelling exactly as written. His mix of capitals
+     * and lower case is not recorded: the captures do not support reading it
+     * letter by letter. These are Larry's words in his own hand. Never
+     * edited. An inscription with any letter that cannot be read with
+     * confidence is left out whole and noted in `description` (its legible
+     * words may be named there), so that no reading is frozen into this list
+     * before he has confirmed it.
+     */
+    labels: z.array(z.string()).default([]),
+    /** The place the drawing shows, when the sheet itself says so. */
+    depicts: reference('places').optional(),
+    /** What is on the sheet, described without interpretation. */
+    description: z.string().optional(),
+    /** Larry's own words about the drawing. Never edited. */
+    larrysRecollection: z.string().optional(),
+    researchNotes: z.string().optional(),
+    confidence: confidence,
+    relatedPhotos: z.array(reference('photos')).default([]),
+    relatedDrawings: z.array(reference('drawings')).default([]),
+    sources: sourceRefs,
+  }),
+});
+
 const people = defineCollection({
   loader: glob({ pattern: '*.json', base: './data/people' }),
   schema: z.object({
@@ -189,6 +241,7 @@ const recollections = defineCollection({
     researchNotes: z.string().optional(),
     relatedPhotos: z.array(reference('photos')).default([]),
     relatedVideos: z.array(reference('videos')).default([]),
+    relatedDrawings: z.array(reference('drawings')).default([]),
     relatedTimeline: z.array(reference('timeline')).default([]),
     relatedPlaces: z.array(reference('places')).default([]),
     relatedPeople: z.array(reference('people')).default([]),
@@ -218,4 +271,13 @@ const sources = defineCollection({
   }),
 });
 
-export const collections = { photos, videos, people, places, timeline, recollections, sources };
+export const collections = {
+  photos,
+  videos,
+  drawings,
+  people,
+  places,
+  timeline,
+  recollections,
+  sources,
+};

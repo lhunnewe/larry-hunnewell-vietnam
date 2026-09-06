@@ -29,6 +29,11 @@ const placeEvents = (await getCollection('timeline'))
 const placeRecollections = (await getCollection('recollections')).filter((r) =>
   r.data.relatedPlaces.some((p) => p.id === place.id)
 );
+
+/** Drawings whose sheet names this place, in Larry's own hand. */
+const placeDrawings = (await getCollection('drawings'))
+  .filter((dr) => dr.data.depicts?.id === place.id)
+  .sort((a, b) => a.data.drawingId.localeCompare(b.data.drawingId));
 ---
 
 <BaseLayout title={d.name}>
@@ -96,6 +101,33 @@ const placeRecollections = (await getCollection('recollections')).filter((r) =>
     </>
   )}
 
+  {placeDrawings.length > 0 && (
+    <>
+      <h2>Drawn from memory</h2>
+      <p class="record">
+        Larry's own drawings of this place, made from memory decades later and shown beside
+        the photographs rather than instead of them.
+      </p>
+      <ul class="place-drawings">
+        {placeDrawings.map((dr) => (
+          <li>
+            <a href={withBase(`/drawings/${dr.id}/`)}>
+              <img
+                src={withBase(`/images/drawings/thumbs/${dr.data.drawingId}.jpg`)}
+                alt=""
+                width="320"
+                height="240"
+                loading="lazy"
+              />
+              <span class="record">{dr.data.drawingId}</span>
+              <span class="drawing-title">{dr.data.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
   {placeRecollections.length > 0 && (
     <>
       <h2>Recollections</h2>
@@ -151,5 +183,32 @@ const placeRecollections = (await getCollection('recollections')).filter((r) =>
   .provenance {
     margin: 0.3rem 0 1.4rem;
     color: var(--ink-soft);
+  }
+
+  .place-drawings {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1rem;
+  }
+
+  .place-drawings a {
+    text-decoration: none;
+  }
+
+  .place-drawings img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    margin-bottom: 0.3rem;
+  }
+
+  .drawing-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--ink);
   }
 </style>

@@ -1153,3 +1153,24 @@ Open questions:
     generated a report and a maintenance entry; the first incident attached to a Jones rather
     than a likeness (#13, one Jones or two). Searchable once the unit (#2) or the Rosethorn 007
     crew (#28) is settled.*
+
+35. **Larry's drawings from memory** (VD-0001 to VD-0003, issue #133) — on 2026-09-05 he drew
+    the base camp ("BASE CAMP TON SON NHUT"), the mountain ("NUI BA DEN") and Tu Do Street in
+    a sketchbook: the first evidence in the archive in his own hand. Records in
+    `data/drawings/`, notes in `research/drawings/README.md`. *Evening of 2026-09-05: his
+    son confirms he volunteered the drawings unprompted, and that at the base camp sheet he
+    was describing the shower shooting (#11) — Weaver "came in from the right side"; filed
+    as a paraphrase recollection linked to VD-0001. Later that evening, four more of his
+    son's reports: the shower-box layout as Larry pointed to it (the two figures are stalls,
+    not men); the generators he tended on the mountain; Captain Kennedy and sometimes Larry
+    sleeping in the fort; the circled M on the Tu Do sheet meaning "Market", where an
+    explosion went off — presence unsettled. All filed as paraphrase; all now questions in
+    the guide, marked (validate). Research lead kept here: which market and which explosion.*
+    Open: the marks only Larry
+    can explain (the circled M and the vertical river label on VD-0003, the unlabelled box and
+    GENERATORS on VD-0002, the unlabelled boxes and the figures in the SHOWER on VD-0001),
+    none of which is to be prompted with a reading. GENERATORS on the mountain is new
+    testimony. Three labels on VD-0003 (the river's first word, the Palace box, the Embassy
+    box) are not transcribed because a letter cannot be read from the phone captures; ASK THE
+    FAMILY FOR A FLAT SCAN of the three sheets. The comparison of VD-0002 with the 6231-4 fort
+    symbol stays in research/; he is not shown a map to correct a sketch.

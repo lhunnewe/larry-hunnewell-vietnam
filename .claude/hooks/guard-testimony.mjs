@@ -22,9 +22,16 @@
 
 import { readFileSync, existsSync } from 'node:fs';
 
-/** Fields holding someone's own words, by the directory they live in. */
-const TESTIMONY = { 'data/recollections': 'text', default: 'larrysRecollection' };
-const PERMANENT_IDS = ['photoId', 'videoId'];
+/**
+ * Fields holding someone's own words, by the directory they live in. A
+ * drawing's `labels` are the words Larry wrote on the sheet, in his own hand.
+ */
+const TESTIMONY = {
+  'data/recollections': ['text'],
+  'data/drawings': ['larrysRecollection', 'labels'],
+  default: ['larrysRecollection'],
+};
+const PERMANENT_IDS = ['photoId', 'videoId', 'drawingId'];
 
 const allow = () => process.exit(0);
 
@@ -88,28 +95,35 @@ try {
 }
 
 const dir = Object.keys(TESTIMONY).find((d) => d !== 'default' && posix.includes(`${d}/`));
-const testimonyField = dir ? TESTIMONY[dir] : TESTIMONY.default;
+const testimonyFields = dir ? TESTIMONY[dir] : TESTIMONY.default;
 const shortPath = posix.slice(posix.search(/(^|\/)data\//)).replace(/^\//, '');
 
-const was = before[testimonyField];
-const now = after[testimonyField];
+/** A non-empty string, or a non-empty array of strings, is protected testimony. */
+const isTestimony = (v) =>
+  (typeof v === 'string' && v.trim() !== '') || (Array.isArray(v) && v.length > 0);
+const asText = (v) => (Array.isArray(v) ? v.join(' | ') : String(v));
 
-if (typeof was === 'string' && was.trim() !== '' && now !== was) {
-  block([
-    `BLOCKED: this edit changes "${testimonyField}" in ${shortPath}.`,
-    '',
-    "Larry's words are primary-source evidence and are never altered — not for",
-    'grammar, spelling, or a name he misremembers (CLAUDE.md rule 1).',
-    '',
-    now === undefined || now === null
-      ? '  The edit removes the field entirely.'
-      : `  was: ${JSON.stringify(was.slice(0, 120))}${was.length > 120 ? '…' : ''}\n  now: ${JSON.stringify(String(now).slice(0, 120))}${String(now).length > 120 ? '…' : ''}`,
-    '',
-    'If research contradicts him, put the difference in "researchNotes" and set',
-    '"confidence" accordingly — his account stays as given. If he himself revised',
-    'it, add a new recollection record with its own date and provenance rather',
-    'than overwriting this one.',
-  ]);
+for (const testimonyField of testimonyFields) {
+  const was = before[testimonyField];
+  const now = after[testimonyField];
+
+  if (isTestimony(was) && JSON.stringify(now) !== JSON.stringify(was)) {
+    block([
+      `BLOCKED: this edit changes "${testimonyField}" in ${shortPath}.`,
+      '',
+      "Larry's words are primary-source evidence and are never altered — not for",
+      'grammar, spelling, or a name he misremembers (CLAUDE.md rule 1).',
+      '',
+      now === undefined || now === null
+        ? '  The edit removes the field entirely.'
+        : `  was: ${JSON.stringify(asText(was).slice(0, 120))}${asText(was).length > 120 ? '…' : ''}\n  now: ${JSON.stringify(asText(now).slice(0, 120))}${asText(now).length > 120 ? '…' : ''}`,
+      '',
+      'If research contradicts him, put the difference in "researchNotes" and set',
+      '"confidence" accordingly — his account stays as given. If he himself revised',
+      'it, add a new recollection record with its own date and provenance rather',
+      'than overwriting this one.',
+    ]);
+  }
 }
 
 for (const field of PERMANENT_IDS) {

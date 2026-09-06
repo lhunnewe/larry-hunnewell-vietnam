@@ -125,6 +125,7 @@ async function fetchAllDiscussions() {
 function relatedRefsForTerm(term) {
   if (/^VN-\d{4}$/.test(term)) return { relatedPhotos: [term.toLowerCase()] };
   if (/^VF-\d{4}$/.test(term)) return { relatedVideos: [term.toLowerCase()] };
+  if (/^VD-\d{4}$/.test(term)) return { relatedDrawings: [term.toLowerCase()] };
   const place = term.match(/^place:(.+)$/);
   if (place) return { relatedPlaces: [place[1]] };
   const person = term.match(/^person:(.+)$/);

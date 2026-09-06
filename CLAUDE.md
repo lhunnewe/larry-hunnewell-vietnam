@@ -27,16 +27,17 @@ the archive working, not failing.
 
 ## The rules that do not bend
 
-1. **Never alter `larrysRecollection`, or a recollection record's `text`.** Not to fix grammar,
-   spelling, or a name he misremembers. His words are primary-source evidence. If research
-   contradicts him, the difference goes in `researchNotes` — his account stays as given.
+1. **Never alter `larrysRecollection`, a recollection record's `text`, or a drawing's
+   `labels`.** Not to fix grammar, spelling, or a name he misremembers. His words are
+   primary-source evidence. If research contradicts him, the difference goes in
+   `researchNotes` — his account stays as given.
    Preserve his own renderings: "Thom Son Nuht", "Zekeowski", "sepititis", "su-ners".
 2. **Unknown is written as unknown.** Never fill a field with a plausible guess. `datePrecision:
    "unknown"` and an absent `location` are correct answers. A guess entered once becomes a fact
    three sessions later.
-3. **Archive IDs are permanent.** `VN-####`, `VF-####`, public filenames, and the person/place
-   slugs never change once assigned — other records, the website, and Larry's giscus comment
-   threads are keyed to them. Filename case is part of the ID (`VN-0002.json`, not
+3. **Archive IDs are permanent.** `VN-####`, `VF-####`, `VD-####`, public filenames, and the
+   person/place slugs never change once assigned — other records, the website, and Larry's
+   giscus comment threads are keyed to them. Filename case is part of the ID (`VN-0002.json`, not
    `vn-0002.json`); Windows + `core.ignorecase` will let this drift silently.
 4. **Machine output is hypothesis, never fact.** `data/photos/ai-observations/` is a vision
    pass. It is never merged into a catalog record as fact and **never** written into
@@ -74,9 +75,9 @@ Two hooks in `.claude/settings.json` back the rules above, so they don't depend 
 remembering them:
 
 - **`guard-testimony.mjs`** (before every edit) blocks any change to an existing
-  `larrysRecollection`, a recollection's `text`, or a `photoId`/`videoId`. It simulates the
-  pending edit and compares only those fields, so it never blocks *adding* Larry's words to
-  a stub — that is cataloging. It fails open: if it cannot read or parse, the edit proceeds.
+  `larrysRecollection`, a recollection's `text`, a drawing's `labels`, or a
+  `photoId`/`videoId`/`drawingId`. It simulates the pending edit and compares only those
+  fields, so it never blocks *adding* Larry's words to a stub — that is cataloging. It fails open: if it cannot read or parse, the edit proceeds.
 - **`check-archive.mjs`** (after every edit to a record) runs the validator and reports
   errors only. Warnings and notes stay for `npm run validate`, so the hook interrupts for
   corruption and nothing else.
@@ -89,6 +90,7 @@ and provenance — not an edit to the old one.
 | You have | It goes in |
 |---|---|
 | Larry's words | `larrysRecollection` on the record, or a `data/recollections/` record with `fidelity` and `provenance` |
+| A drawing he made | `data/drawings/` with the next `VD-####`, the capture file unrenamed in `originals/`, every legible word on the sheet in `labels`, in capitals, spelled as written, and `provenance` saying what was not recorded. An inscription with any letter you cannot read stays out of `labels` whole and is noted in `description`. A word found later, or one he confirms, is added by editing the JSON outside the Edit tool, in a commit that says so |
 | A paraphrase of what he said | a recollections record with `fidelity: "paraphrase"` — never in `larrysRecollection` |
 | Analysis, a hypothesis, a contradiction | `researchNotes` — but see rule 6 before writing it to a rendered field |
 | A working search, leads, transcriptions | `research/<area>/<slug>.md`, dated, with provenance |
@@ -102,9 +104,9 @@ Findings move from `research/` to `data/` only when the evidence supports the cl
 ## Content model
 
 Records are JSON under `data/`, loaded as Astro content collections with zod validation
-(`src/content.config.ts`). Collections: `photos`, `videos`, `people`, `places`, `timeline`,
-`recollections`, `sources`. They reference each other with `reference()`, so relationships are
-data, not markup.
+(`src/content.config.ts`). Collections: `photos`, `videos`, `drawings`, `people`, `places`,
+`timeline`, `recollections`, `sources`. They reference each other with `reference()`, so
+relationships are data, not markup.
 
 **Reference ids are the lowercased filename.** `data/photos/VN-0028.json` is referenced as
 `"vn-0028"`. Getting this wrong fails the build; `npm run validate` names the fix.

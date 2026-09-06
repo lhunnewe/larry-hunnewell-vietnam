@@ -68,6 +68,11 @@ const SPOILER_TERMS = [
 const RENDERED_FIELDS = {
   photos: ['title', 'description', 'researchNotes'],
   videos: ['title', 'description', 'researchNotes'],
+  // A drawing's labels are Larry's own words and render as written; they are
+  // scanned too, because a probe term on the page primes him wherever it came
+  // from. If a label ever trips this, the remedy is to retire the probe or
+  // stop rendering the field — never to edit the label (rule 1).
+  drawings: ['title', 'description', 'researchNotes', 'provenance', 'medium', 'drawnDisplay', 'labels'],
   people: ['name', 'role', 'summary', 'researchNotes'],
   places: ['name', 'summary', 'researchNotes'],
   timeline: ['title', 'description'],
@@ -77,7 +82,7 @@ const RENDERED_FIELDS = {
   sources: ['title', 'citation', 'notes'],
 };
 
-const COLLECTIONS = ['photos', 'videos', 'people', 'places', 'timeline', 'recollections', 'sources'];
+const COLLECTIONS = ['photos', 'videos', 'drawings', 'people', 'places', 'timeline', 'recollections', 'sources'];
 
 /**
  * Cross-collection reference fields, by collection.
@@ -86,6 +91,7 @@ const COLLECTIONS = ['photos', 'videos', 'people', 'places', 'timeline', 'recoll
 const REFS = {
   photos: { location: 'places', people: 'people', relatedPhotos: 'photos', relatedEvents: 'timeline' },
   videos: { location: 'places', people: 'people', relatedPhotos: 'photos', relatedVideos: 'videos' },
+  drawings: { drawnBy: 'people', depicts: 'places', relatedPhotos: 'photos', relatedDrawings: 'drawings' },
   people: { relatedPlaces: 'places' },
   places: { relatedPeople: 'people' },
   timeline: { relatedPlaces: 'places', relatedPeople: 'people', relatedPhotos: 'photos' },
@@ -93,6 +99,7 @@ const REFS = {
     person: 'people',
     relatedPhotos: 'photos',
     relatedVideos: 'videos',
+    relatedDrawings: 'drawings',
     relatedPlaces: 'places',
     relatedPeople: 'people',
   },
@@ -155,7 +162,7 @@ for (const collection of COLLECTIONS) {
     const d = entry.data;
 
     // Permanent IDs match their filename. README principle 4: once assigned, never changes.
-    for (const key of ['photoId', 'videoId']) {
+    for (const key of ['photoId', 'videoId', 'drawingId']) {
       if (!d[key]) continue;
       const name = basename(entry.file, '.json');
       if (d[key].toLowerCase() !== name.toLowerCase()) {
@@ -167,7 +174,7 @@ for (const collection of COLLECTIONS) {
       }
     }
 
-    for (const key of ['sortDate', 'endDate']) {
+    for (const key of ['sortDate', 'endDate', 'drawn']) {
       if (d[key] && !ISO_DATE.test(d[key])) err(where, `${key} "${d[key]}" is not YYYY-MM-DD`);
     }
     if (d.sortDate && d.endDate && ISO_DATE.test(d.sortDate) && ISO_DATE.test(d.endDate) && d.endDate < d.sortDate) {
@@ -188,7 +195,8 @@ for (const collection of COLLECTIONS) {
     }
 
     for (const field of RENDERED_FIELDS[collection] ?? []) {
-      const text = d[field];
+      const raw = d[field];
+      const text = Array.isArray(raw) ? raw.join(' ') : raw;
       if (typeof text !== 'string') continue;
       for (const term of SPOILER_TERMS) {
         if (text.toLowerCase().includes(term)) {
@@ -225,6 +233,29 @@ for (const entry of db.photos) {
     if (!d.larrysRecollection && !d.researchNotes) {
       warn(where, 'cataloged: true but neither larrysRecollection nor researchNotes — nothing was recorded');
     }
+  }
+}
+
+// -------------------------------------------------------------- drawing files
+// A drawing is Larry's own hand: the capture file it describes must exist,
+// and the sheet's labels are transcribed testimony, so an empty list is a
+// record that has not been read yet.
+const DRAWING_ORIGINALS = join(DATA, 'drawings', 'originals');
+// Compared against the directory listing, not existsSync(), so that filename
+// case drift is caught on Windows too (rule 3).
+const drawingFiles = existsSync(DRAWING_ORIGINALS) ? readdirSync(DRAWING_ORIGINALS) : [];
+for (const entry of db.drawings) {
+  const where = `drawings/${entry.file}`;
+  const d = entry.data;
+  if (d.originalPath && !drawingFiles.includes(d.originalPath)) {
+    err(where, `originalPath "${d.originalPath}" not found under data/drawings/originals/ (exact case)`);
+  }
+  // The page displays originalFilename; the pipeline reads originalPath. They must name one file.
+  if (d.originalFilename && d.originalPath && basename(d.originalPath) !== d.originalFilename) {
+    err(where, `originalFilename "${d.originalFilename}" does not match originalPath "${d.originalPath}"`);
+  }
+  if (!(d.labels ?? []).length && !d.description) {
+    warn(where, 'neither labels nor description — nothing on the sheet has been recorded');
   }
 }
 
@@ -269,7 +300,7 @@ for (const entry of db.recollections) {
   let copied = 0;
   let copiedParaphrase = 0;
 
-  for (const collection of ['photos', 'videos', 'people', 'places', 'timeline']) {
+  for (const collection of ['photos', 'videos', 'drawings', 'people', 'places', 'timeline']) {
     for (const entry of db[collection]) {
       const own = normalize(entry.data.larrysRecollection ?? '');
       if (own.length < 40) continue;
@@ -294,7 +325,7 @@ for (const entry of db.recollections) {
   const SOMEONE_ELSES_VOICE =
     /\b(larry|my father|his son)\b|\bhe (remembers|recalls|recalled|describes|described|volunteered|personally remembers)\b|\bhis (duties|organization|recollection)\b/i;
   const thirdPerson = [];
-  for (const collection of ['photos', 'videos', 'people', 'places', 'timeline']) {
+  for (const collection of ['photos', 'videos', 'drawings', 'people', 'places', 'timeline']) {
     for (const entry of db[collection]) {
       const own = entry.data.larrysRecollection;
       if (typeof own === 'string' && SOMEONE_ELSES_VOICE.test(own)) {

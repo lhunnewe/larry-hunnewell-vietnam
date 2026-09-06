@@ -6,8 +6,8 @@
 - **GitHub Pages** hosting, deployed by **GitHub Actions** (`withastro/action`)
 - Self-hosted fonts via `@fontsource` packages (Oswald, Source Serif 4, Courier Prime)
 - **GitHub Discussions + giscus** for Larry's comments: `MemoryBox.astro` on every photo,
-  place, and person page plus the timeline, keyed to stable terms (`VN-####`, `place:<id>`,
-  `person:<id>`, `timeline`) via `data-mapping="specific"` (strict) in the **Memories**
+  footage, drawing, place, and person page plus the timeline, keyed to stable terms (`VN-####`, `place:<id>`,
+  `person:<id>`, `VD-####`, `timeline`) via `data-mapping="specific"` (strict) in the **Memories**
   category; IDs live in `src/lib/giscus.ts`. A GitHub Action
   (`.github/workflows/export-recollections.yml` running
   `scripts/export-recollections.mjs`) archives comments by allowlisted authors
@@ -19,8 +19,8 @@
 ## Content model
 
 All historical records live as JSON files under `data/`, loaded through Astro content collections
-(`src/content.config.ts`) with zod validation. Collections: `photos`, `people`, `places`,
-`timeline`, `recollections`, `sources`. Records reference each other by file id (`reference()`),
+(`src/content.config.ts`) with zod validation. Collections: `photos`, `videos`, `drawings`,
+`people`, `places`, `timeline`, `recollections`, `sources`. Records reference each other by file id (`reference()`),
 so relationships — photo → person → place → event — are data, not hardcoded HTML.
 
 Shared conventions enforced by the schemas:
@@ -46,6 +46,18 @@ classification), `Recollection` (quoted memory with attribution).
 Base path `/larry-hunnewell-vietnam` (GitHub Pages project site). All internal links go through
 `withBase()` in `src/lib/paths.ts`. Detail pages are generated per collection entry:
 `/photos/VN-0001/`, `/people/sgt-lowry/`, `/places/nui-ba-den/`.
+
+## Drawings
+
+`drawings` holds sketches Larry made from memory decades later (`VD-####`), never filed as
+photographs: the VN series is what he brought home, and a 2026 drawing is a different kind of
+evidence — his own hand, with no one typing for him. A record carries `drawnBy`, `drawn` /
+`drawnDisplay`, `provenance` (how the sheet reached the archive and what was not recorded),
+`labels` (every legible word on the sheet, in capitals, spelled as written, never edited —
+guarded by the same hook as `larrysRecollection`; an inscription with an unreadable letter stays out whole), `depicts` (a place reference, only when the sheet itself names it),
+and an objective `description`. Capture files live in `data/drawings/originals/` unrenamed;
+`scripts/build-photo-images.mjs` derives `public/images/drawings/{full,thumbs}/VD-####.jpg`.
+Detail pages at `/drawings/vd-0001/`; place pages show the drawings that name them.
 
 ## Photo pipeline
 
