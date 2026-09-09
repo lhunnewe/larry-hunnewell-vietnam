@@ -122,6 +122,105 @@ took while he was there:
 | 31 Aug 1965 | — | 3 | — |
 | 2 Sep 1965 | UH-1B 62-02046 | 12 | ~2 mi south of Ben Cat, burned |
 
+---
+
+# 2026-09-09 — reading the wreck itself, and finding the ceiling
+
+**Searched by:** Claude Opus 5 in session with Larry's son. No new testimony taken.
+
+The previous pass ended pointed at records nobody can reach without an archival request. This
+pass tried the one route that needs no archive at all: **identify the airframe from the
+photograph.** An airframe type would narrow the search enormously — a turbine UH-1 puts the loss
+squarely in US Army data that has already been swept and come back negative, while a radial-engine
+H-34 or CH-21 opens VNAF, USMC and contractor operators, which is precisely where the last pass
+said the answer probably lies.
+
+**It did not work, and the reason it did not work is the finding.**
+
+## What was done
+
+`data/photos/originals/Native Vietnamese/1920236-R2-E060.jpg` was cropped and magnified 4× and 8×
+over three regions — the dark panels at left, the pale structure at centre, the scorched mass at
+right — with contrast and sharpening applied. Colour was then sampled numerically rather than by
+eye, against in-frame references (sky, foliage, the standing man's fatigues).
+
+## What was seen, and what it turned out to be
+
+At 4× a **fluted arc** appears at the top of the wreck, and fluting reads as the cooling fins of a
+radial piston engine — which would have been decisive, since a radial means H-34, CH-21, H-19 or
+H-37 and rules out the UH-1 entirely.
+
+**At 8× it resolves into a rolled sheet-metal edge — a torn skin panel curled over. It is not an
+engine.** Recorded because the wrong version of this observation is exactly the kind of thing that
+becomes a fact three sessions later.
+
+## The colour question is genuinely inconclusive
+
+The large dark panels do read blue, and consistently:
+
+| Patch | RGB | Hue | Sat | Val |
+|---|---|---|---|---|
+| dark panel, lower left | 59, 67, 82 | 219° | 0.28 | 0.32 |
+| dark panel, upper left | 98, 107, 129 | 223° | 0.24 | 0.51 |
+| pale panel, centre | 219, 212, 211 | 8° | 0.04 | 0.86 |
+| burnt mass, right | 79, 64, 66 | 352° | 0.19 | 0.31 |
+| sky (white reference) | 249, 248, 243 | — | 0.02 | 0.98 |
+
+A dark blue airframe would matter: US Army helicopters of 1964–65 were olive drab, so blue-and-white
+would point at a contractor or civil operator — and *"I don't know whose helicopter it belonged to"*
+is exactly what a man says about an aircraft that is not in his own service's markings.
+
+**But there is an innocent explanation that fits equally well and cannot be excluded from this
+scan.** These panels are dark (value 0.31–0.51) and lie in shade under vegetation. Shadowed
+surfaces under open sky are lit by blue skylight, and blue-shifted shadows are the normal
+behaviour of colour reversal film, not evidence of blue paint. Two readings, one scan, no way to
+separate them:
+
+1. genuinely blue-painted panels, or
+2. blue skylight fill on dark scorched metal.
+
+Note also that the in-frame references are not behaving: foliage sampled at 119,119,116 — neutral
+grey, saturation 0.03 — where it should be clearly green. Whether that is patch placement or dye
+fade in a sixty-year-old slide is itself unresolved, and until it is, **no colour claim from this
+frame should be treated as evidence of anything.**
+
+## The actual finding: the scan is the bottleneck, and it is measurable
+
+| | |
+|---|---|
+| File | 1600 × 1081 |
+| Lit image area inside the slide mount | **1162 × 858** |
+| Effective resolution over a 36 × 24 mm frame | **~820 dpi** |
+| A 4000 dpi archival rescan | ~5669 × 3780 — **4.9× linear, 24× the pixels** |
+
+At 820 dpi the airframe cannot be identified, and no amount of further processing will change
+that: 8× magnification is already well past what the data supports, which is why the fluted arc
+dissolved. **Identifying this aircraft from the photograph depends on rescanning the original
+slide, not on looking harder at the file the archive has.**
+
+**This bears directly on issue #20** (magnification/OCR pass on high-value details). VN-0148 is the
+test case, and it says #20's yield is capped by scan resolution rather than by effort. Worth
+knowing before that pass is planned across 157 frames.
+
+## Negative worth recording, because a search engine will offer it again
+
+**Civil Air Transport Flight 106 is not this aircraft.** It surfaces on searches pairing Núi Bà Đen
+with a 1964 aircraft crash and looks superficially perfect — 20 June 1964, an aircraft destroyed,
+non-military so it would explain both the absence from US loss data and Larry not knowing whose it
+was. **It crashed near Shenkang, western Taiwan**, a Curtiss C-46D, 57 dead, no survivors. Nothing
+to do with Vietnam. Checked and closed.
+
+## Next, revised
+
+- [ ] **Rescan VN-0148 at archival resolution** before any further visual work on it. This is now
+      the gating step for the airframe question, and it is cheap compared with a records request.
+- [ ] The three record paths from the previous pass stand unchanged: VNAF/CIDG losses via NARA
+      RG 472 (#27, #66), Army Aviation Safety Center accident files, and asking Larry relatively
+      rather than absolutely.
+- [ ] **Do not re-run the VHPA panel sweep.** Panels 01E and 02E are read in full.
+
+---
+
 **And a candidate for a different question.** The standing ask on **VN-0074/VN-0078** — the fire
 Larry photographed twice from the air — has always been pointed at the May 1965 Bien Hoa ammunition
 explosion. The **28 May 1965 mid-air collision over Bien Hoa Air Base**, with an aircraft
