@@ -412,6 +412,56 @@ const report = (label, list) => {
   }
 };
 
+/**
+ * The giscus exporter must know about every `related*` field on the
+ * recollections schema.
+ *
+ * `scripts/export-recollections.mjs` rewrites each giscus record from the live
+ * discussion on every run, carrying over the human-added fields by name. A
+ * relation field it does not know about is therefore DELETED on the next
+ * export — and nothing else notices, because a record with fewer links is
+ * still schema-valid and every remaining link still resolves.
+ *
+ * This is not a hypothetical failure. `relatedTimeline` was missing from that
+ * list and the export of 2026-09-06 erased 16 timeline links across 15 records
+ * curated the day before; `relatedDrawings` was missing too and would have gone
+ * the same way the first time a drawing was linked. Both were invisible to this
+ * validator, which is why the check exists at all.
+ *
+ * An error, not a warning: silent loss of curated relationships is corruption.
+ */
+{
+  const where = 'scripts/export-recollections.mjs';
+  const config = readFileSync(join(ROOT, 'src', 'content.config.ts'), 'utf8');
+  const exporter = readFileSync(join(ROOT, 'scripts', 'export-recollections.mjs'), 'utf8');
+
+  const block = config.match(/const recollections = defineCollection\(\{[\s\S]*?\n\}\);/);
+  const declared = block ? [...block[0].matchAll(/\b(related[A-Za-z]+)\s*:/g)].map((m) => m[1]) : [];
+
+  const listed = exporter.match(/const RELATION_KEYS = \[([\s\S]*?)\]/);
+  const known = listed ? [...listed[1].matchAll(/'(related[A-Za-z]+)'/g)].map((m) => m[1]) : null;
+
+  if (!block) {
+    err(where, 'cannot find the recollections schema in src/content.config.ts to check against');
+  } else if (known === null) {
+    err(where, 'no RELATION_KEYS list found — the exporter cannot be checked against the schema');
+  } else {
+    const missing = declared.filter((k) => !known.includes(k));
+    const extra = known.filter((k) => !declared.includes(k));
+    if (missing.length > 0) {
+      err(
+        where,
+        `RELATION_KEYS is missing ${missing.join(', ')} — the next giscus export will DELETE ` +
+          `${missing.length === 1 ? 'that field' : 'those fields'} from every record that has ` +
+          `${missing.length === 1 ? 'it' : 'them'}. Add to RELATION_KEYS in the exporter.`
+      );
+    }
+    if (extra.length > 0) {
+      err(where, `RELATION_KEYS lists ${extra.join(', ')}, which the recollections schema does not define`);
+    }
+  }
+}
+
 const counts = Object.fromEntries(COLLECTIONS.map((c) => [c, db[c].length]));
 const cataloged = db.photos.filter((e) => e.data.cataloged).length;
 console.log(
