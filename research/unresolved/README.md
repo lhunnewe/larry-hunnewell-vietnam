@@ -1002,6 +1002,31 @@ Open questions:
     Army Aviation Safety Center files. **The second and third sentences answer a different
     question** — they date the PHOTOGRAPH relative to the CBC visit and the rocket launch,
     and do not bear on when the aircraft crashed.*
+    *2026-09-09 — **the wreck was read directly, and the scan is the ceiling.** Working:
+    `research/events/nui-ba-den-helicopter-wreck.md`. The one route needing no archive was tried:
+    identify the airframe from the photograph, since a turbine UH-1 would sit inside the US Army
+    data already swept and negative, while a radial-engine H-34 or CH-21 opens the VNAF / USMC /
+    contractor operators this entry already suspects. **It failed, and the reason is the result.**
+    A "fluted arc" that at 4× reads as radial-engine cooling fins — which would have been
+    decisive — **resolves at 8× into a rolled sheet-metal edge. Not an engine.** Recorded because
+    the wrong version of that observation is exactly what becomes a fact three sessions later.
+    **The blue is genuinely ambiguous, not suggestive.** The large dark panels sample at hue
+    219–223°, saturation 0.24–0.28 — consistently blue, and a blue-and-white airframe would point
+    hard at a contractor or civil operator, which is what *"I don't know whose helicopter it
+    belonged to"* sounds like. But those panels are dark (value 0.31–0.51) and in shade, and
+    shadowed surfaces under open sky are lit by blue skylight; blue-shifted shadows are normal
+    reversal-film behaviour, not paint. Worse, in-frame foliage samples neutral grey (sat 0.03)
+    where it should be green, so either the patch placement or the dye is untrustworthy. **No
+    colour claim from this frame is evidence of anything until a better scan exists.**
+    **THE MEASURABLE FINDING: the file is 1600×1081 but the lit image area inside the slide mount
+    is only 1162×858 — about 820 dpi over a 35mm frame. A 4000 dpi archival rescan would give
+    ~5669×3780: 4.9× linear, 24× the pixels.** Identifying this aircraft from the photograph
+    depends on rescanning the slide, not on looking harder at the file we have. **This bears on
+    #20** (magnification/OCR pass): VN-0148 is the test case and it says #20's yield is capped by
+    scan resolution rather than by effort — worth knowing before that pass is planned across 157
+    frames. Also closed: **Civil Air Transport Flight 106 is not this aircraft** — it surfaces on
+    "Núi Bà Đen 1964 aircraft crash" searches and looks perfect until you read it; it crashed near
+    Shenkang, western TAIWAN, a C-46D, 57 dead. Do not chase it again.*
 22. **"Trung Xi Nhat Nham"** (VN-0148, 2026-09-02, issue #90) — the man standing at that wreck, and the
     only person Larry has ever described as assigned to protect him: "He was an interpreter and
     could speak 9 languages. He was a warrior monk." New to the archive. Records:
