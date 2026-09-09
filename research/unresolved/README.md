@@ -807,6 +807,34 @@ Open questions:
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
     rotating search antenna in the boulders — a documentable installation (USAF records)
     that could date the photos and corroborate the site.
+    *2026-09-09 (issue #62, `research/places/nui-ba-den-summit-installations.md`) — **A TRAP
+    IDENTIFIED, and it is the most useful thing in this pass.** The famous Núi Bà Đen relay —
+    callsign **Granite Romeo Tango**, 121st Signal Battalion — was established in **February
+    1966**, roughly five months AFTER Larry was medevaced. The summit was seized by the Special
+    Forces 3rd MIKE Force in **May 1964**. **Larry sits inside a ~21-month gap between the seizure
+    and the documented relay.** #62's own search plan proposes reading the 1966+ signal-site
+    histories because "their histories often recap earlier installations" — reasonable, and the
+    likeliest way to go wrong: that material is abundant, it is about a different installation,
+    and a date lifted from it would move Larry's mountain period half a year in the wrong
+    direction. **No date may be inferred from Granite Romeo Tango.** The corollary is not a
+    disappointment: his account may be among the **earliest eyewitness descriptions of equipment
+    on that summit**, and VN-0009/VN-0059 photographs of a pre-relay installation — which raises
+    the value of the frames and explains the documentary silence, since the well-kept records
+    begin when the signal battalion arrives. **A service tension, recorded and NOT resolved:**
+    Larry says Air Force; the unit veterans name for the summit is the **372nd Radio Research
+    Unit** (Sobe, Okinawa) — "Radio Research" being the cover designation for **Army Security
+    Agency** SIGINT, not USAF. Three readings survive (USAF team too small to leave a trace; he
+    read ASA men as Air Force; both present at different times) and none is preferred. **Do not
+    put this to him as a leading question** — ask what the men wore and what they said they were
+    doing, never "were they Army?" **NEGATIVES:** no USAF radar site and no TACAN on the mountain
+    is documented for 1964–65 in accessible open sources (searched by mountain name, "Black
+    Virgin", and Tây Ninh); **Combat Skyspot is ruled out on date** — the MSQ-77 programme, the
+    obvious rotating-antenna candidate for Tây Ninh, began March 1966. **BLOCKED, and this is the
+    resume point:** CMH Pub 90-11 (*Division-Level Communications 1962–1973*) and Rienzi's CMH Pub
+    90-8 (*Communications-Electronics 1962–1970*) both index signal sites by name and date, and
+    `history.army.mil` returns **403 to curl even with a browser user-agent** — the block is not
+    UA-based. A browser session or a library copy settles it in minutes: search each for "Ba Den".
+    AFHRA unit histories for III Corps radar detachments remain wholly untouched.*
 17. **The Pathet Lao prisoner** (VN-0023 comments, 2026-08-15, issue #97) — a prisoner captured on a
     patrol Larry accompanied, described as Pathet Lao ("pasthic Lao"), turned over to the
     CIA. A Laotian communist prisoner near Tây Ninh handed to the CIA would be remarkable
