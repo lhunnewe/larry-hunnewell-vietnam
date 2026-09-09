@@ -181,9 +181,15 @@ Open questions:
    probably reported me KIA" — is now the leading hypothesis.** It has gained no positive
    evidence and is still owed its own proof (#10 above, and #12 on the issue tracker).
    **Consequence for the eight days of paid access left (ends 2026-09-17): spend it looking for
-   LARRY'S name in a casualty list, not for a near-name to explain it away.** The paused
-   nine-list visual sweep, plus the five front pages of 3–7 September 1965, is the whole
-   remaining plan.*
+   LARRY'S name in a casualty list, not for a near-name to explain it away.** **CORRECTION to that
+   sentence, made the same day: "the paused nine-list visual sweep" is STALE** — it repeats the
+   2026-08-23 note without reading the resolution table in
+   `research/events/kia-misreport-stars-stripes.md`, where a later session records "the unread
+   queue is down from nine to **two** known items: Nov 19 (finish it) and Nov 24." The real
+   remaining plan is the file's own REVISED PLAN: **the Five-Star casualty lists of 3–7 September
+   1965, and the FRONT PAGE of each of those five issues**, neither yet read; widen to 1–12 Sept
+   if negative; then the two November stragglers and three newly dated unfound lists (Pacific
+   ~24–25 Sep, ~12–13 Oct, ~10–11 Nov 1965).*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
