@@ -140,3 +140,112 @@ on 2026-09-03** — approach it slowly, one checkbox at a time.
   **Province**, **Casualty Location**, Rank, Component.
 - Province is frequently coded `99 — Province and Military Region Unknown` in 1964 records, so
   province filtering will be weak for this era. Casualty Location was empty on all four.
+
+
+---
+
+## Third pass, 2026-09-09: the *missing* loophole, closed nationally
+
+**Searched by:** Claude Opus 5 in session with Larry's son. No new testimony taken.
+
+### The gap this pass exists to close
+
+Both previous passes searched on **cause of death**: the 2026-08-16 pass read every entry
+containing **"drown"** in the full DCAS narrative file, and concluded "every drowning in Larry's
+window is now located; none was at Nha Trang."
+
+That is a sound negative about *drownings*. But Larry's account is:
+
+> "went out to the water and **disappeared**" … the undertow "pulled him uderwater"
+
+**A man who goes into the sea and is never found is not necessarily coded as drowned.** With no
+body, the casualty machinery of 1964 would more likely carry him as **missing, later declared
+dead** — and a search for the word "drown" cannot see that record. The 2026-08-16 pass named
+this itself ("body-not-recovered cases can carry late declared-dead dates… a missing-presumed-dead
+search by province has not been possible yet") and left it open. It is now closed, and without
+needing AAD.
+
+### How, and why it needed no browser
+
+The NARA state casualty lists carry a **Remains Recovered** flag (Y/N) alongside the incident
+death date. All 55 published state and territory files were downloaded and parsed (the same
+corpus built for ledger #1 on the same day), giving **56,539 parsed casualty rows**, and filtered
+to `remains recovered = N`.
+
+### Result — Nebraska and Kansas, the two states Larry has named
+
+**Every NE/KS casualty with unrecovered remains before 1967 — eleven men, all ruled out:**
+
+| | Name | Svc | Rank | Death | Why not |
+|---|---|---|---|---|---|
+| NE | Biber, Gerald Mack | Army | SGT | 22 Apr **1961** | Three years before Larry arrived |
+| NE | Grella, Donald | Army | SP5 | 28 Dec **1965** | After Larry left Vietnam |
+| NE | Booze, Delmar George | USMC | CAPT | 24 Jan 1966 | After; Marine officer |
+| NE | Sprick, Doyle Robert | USMC | MAJ | 24 Jan 1966 | After; Marine officer |
+| NE | Confer, Michael Steele | Navy | LTJG | 10 Oct 1966 | After; Navy officer |
+| NE | Stark, Willie Ernest | Army | SGM | 2 Dec 1966 | After |
+| KS | Jewell, Eugene | USAF | CAPT | 4 Sep 1965 | Air Force officer |
+| KS | Klenda, Dean Albert | USAF | MAJ | 17 Sep 1965 | Air Force officer (known MIA aircrew case) |
+| KS | Neth, Fred Albert | Navy | LCDR | 16 Jan 1966 | After |
+| KS | Mowrey, Richard Lynn | Navy | LTJG | 14 Dec 1966 | After |
+| KS | Tiderman, John Mark | — | LCDR | 21 Mar 1966 | After |
+
+**And a stronger finding sitting underneath it.** Across the whole of **1 September 1964 to
+31 January 1965** — the period Larry places the event ("the first couple week Nha Trang in '64")
+— **not one Nebraska man and not one Kansas man died in Vietnam at all**, recovered or not. The
+earliest death in either state inside the tour window is Founds (KS) on 7 Feb 1965; the earliest
+Nebraska death is Roark on 7 Apr 1965. The 2026-09-03 pass established this for September 1964
+via Coffelt; it now extends across the entire autumn and winter, from a different source.
+
+### Result — nationally, because "from Nebraska" may not be home of record
+
+Both previous passes flagged that DCAS records **home of record**, and a man raised in Nebraska
+could carry another state. So the same filter was run across every state file:
+
+- **All US fatal casualties, 1 Sep 1964 – 30 Sep 1965: 885.**
+- **Of those, remains not recovered: 81.**
+- **In Sept–Dec 1964 — the window Larry names — only 12 exist in the entire US military.**
+
+Those twelve are: a USAF Capt (MI), Army SSG (TN), Army CPT (CA), USMC Capt (PA), USMC LCpl (GA),
+USAF Maj (TN), Army SSG (HI), Army SFC (TX), Army SSG (AR — Harold Bennett, captured and
+executed), USAF Col (CA), USMC Col (NY), Army SGM (VA). **Not one is a junior-enlisted Army
+medic, and not one is from Nebraska or Kansas.**
+
+The 81 as a whole are overwhelmingly **shot-down aircrew** (Air Force and Navy officers) plus the
+**10 June 1965 Đồng Xoài cluster** of Army NCOs. The profile Larry describes — a unit medic,
+necessarily junior enlisted, lost off a beach — does not appear anywhere in it. The only junior
+enlisted Army man in the whole national list is PFC Thomas VanCampen (Oroville CA, 24 Jun 1965),
+wrong on state, date and circumstance.
+
+### Scope of this negative, stated honestly
+
+- **The parse covers 56,539 rows of ~58,220** (97.1%). The remainder are rows whose name or date
+  columns wrapped in the PDF layout and did not match the row pattern. A wrapped row could in
+  principle hide a match, so this is a 97% sweep, not a 100% one.
+- These are lists of **fatal casualties**. If the man survived, he is correctly absent — which is
+  the entire point of hypothesis 3 below.
+- `mp-alpha.pdf` (Northern Mariana Islands) does not exist at NARA; 54 jurisdictions, not 55.
+
+### What survives
+
+The three explanations from 2026-09-03 are unchanged in kind, but their weights have moved:
+
+1. **The date is wrong.** Still the cheapest to test, still contradicted twice by Larry himself.
+2. **The man was not a US serviceman.** Untouched by this pass.
+3. **He may not have died.** **This pass strengthens it materially.** The record has now been
+   searched on cause (drowned) *and* on the absence of a body (missing/unrecovered), for two named
+   states and then nationally, and produces nothing that fits. Larry describes what a man on a
+   beach *sees* — someone going into the water and not coming back — and what he was later
+   *told*. A rescue, or a man who was pulled out alive, looks exactly like this from where he
+   stood, and leaves no trace in any casualty database because there is no casualty.
+
+**The occupation-axis search remains the named resume point** and is still browser-gated: AAD
+(`dt=1806`) and DMDC both refuse non-browser clients — re-confirmed 2026-09-09, both return only
+a shell page to `curl`. When a browser session is next available, filter Service Occupation to the
+Army **91-series medical MOS** across the whole tour. That is still the one query shaped exactly
+like this question. **But note what this pass implies about its likely yield:** if no unrecovered
+body and no drowning fits, an occupation filter will probably confirm the same absence rather
+than break it.
+
+**Do not repeat:** the drown-axis sweep (2026-08-16), the September-1964 enumeration
+(2026-09-03), and now the unrecovered-remains sweep for NE, KS and nationally (2026-09-09).

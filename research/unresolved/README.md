@@ -745,6 +745,38 @@ Open questions:
     return every medic who died in the window — the exact shape of this question, and better than
     either the state axis or the cause axis. Needs the AAD "show more fields" screen, **which
     crashed the renderer once on 2026-09-03** — add columns one at a time.*
+    *2026-09-09 — **THE "MISSING" LOOPHOLE IS CLOSED, NEBRASKA, KANSAS AND NATIONALLY.** Working:
+    `research/people/drowned-medic-nha-trang.md`, third pass. **The gap:** every prior sweep
+    searched on CAUSE — the 2026-08-16 pass read every entry containing **"drown"**. But Larry says
+    the man "went out to the water and **disappeared**", and a man who goes into the sea and is
+    never found is not necessarily coded as drowned; with no body, 1964 casualty machinery would
+    more likely carry him as **missing, later declared dead**, which a "drown" search cannot see.
+    The 2026-08-16 pass named this itself and left it open. **Closed now, and without AAD:** the
+    NARA state lists carry a **Remains Recovered Y/N** flag, so the corpus already built for
+    ledger #1 the same day (56,539 parsed rows across 54 jurisdictions) was filtered on `N`.
+    **Nebraska and Kansas: eleven men have unrecovered remains before 1967 and every one is ruled
+    out** — six are after Larry left Vietnam, two are USAF officers (Jewell 4 Sep 65, Klenda
+    17 Sep 65), one is 1961, none is a junior-enlisted Army medic. **And underneath it, a stronger
+    result: across 1 Sept 1964 – 31 Jan 1965 — the period Larry names — not one Nebraska man and
+    not one Kansas man died in Vietnam at all**, recovered or not. Earliest in either state inside
+    the tour window is Founds (KS) 7 Feb 65; earliest Nebraska is Roark 7 Apr 65. That extends the
+    2026-09-03 September finding across the whole autumn, from an independent source.
+    **Nationally, because "from Nebraska" may not be home of record:** of 885 US fatal casualties
+    in 1 Sep 64 – 30 Sep 65, **81 have unrecovered remains, and in Sept–Dec 1964 only TWELVE exist
+    in the entire US military.** Those twelve are aircrew officers, senior NCOs and Harold Bennett
+    — **not one junior-enlisted Army medic, none from NE or KS.** The 81 overall are overwhelmingly
+    shot-down aircrew plus the 10 June 65 Đồng Xoài cluster; the only junior enlisted Army man
+    anywhere in the list is PFC Thomas VanCampen (CA, 24 Jun 65), wrong on every anchor.
+    **SCOPE, stated honestly: 56,539 of ~58,220 rows parsed (97.1%)** — the remainder are rows
+    whose columns wrapped in the PDF layout, so this is a 97% sweep, not 100%.
+    **WHAT IT DOES TO THE THREE EXPLANATIONS:** "the date is wrong" and "not a US serviceman" are
+    untouched. **"He may not have died" is materially strengthened** — the record has now been
+    searched on cause AND on absence-of-body, for two named states and then nationally, and
+    produces nothing that fits. A man pulled out alive leaves no trace in a casualty database
+    because there is no casualty. **The occupation-axis search stays the resume point and stays
+    browser-gated** (AAD `dt=1806` and DMDC both re-confirmed 2026-09-09 to return only a shell
+    page to `curl`) — but note the likely yield: if no unrecovered body and no drowning fits, an
+    MOS filter will probably confirm the same absence rather than break it.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a
