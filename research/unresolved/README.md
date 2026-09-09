@@ -459,6 +459,41 @@ Open questions:
    is why Lowry was the only man on the other Special Forces radio. Note it also **narrows
    the identification target**: not merely a sergeant at the camp, but the NCO acting in
    command in the captain's absence in late August 1965.
+   *2026-09-09 (issue #12, `research/people/sgt-lowry-search.md`) — **three findings, and the most
+   useful is that this archive has been reaching for the wrong KIND of source.**
+   **(1) He is not in the casualty record, and that is the point.** Every surname variant across
+   the complete NARA DCAS national roll: LOWERY x15, LOWRY x5, LOWREY x1 — twenty-one men, and
+   **not one died in 1964-65 in a way that could be this man.** Earliest is Dalton Lowery (USMC,
+   20 Dec 1966); the only 1965 death is Capt Tyrrell Lowry, USAF aircrew, 18 Jun 65. **Consistent
+   with Larry, who never says the man died** — and the consequence is methodological: **the
+   casualty and memorial databases are the wrong tool for him.** Every other person-search in this
+   archive runs through memorial sources because those are the searchable dead; Lowry is
+   presumptively **alive**. He is in rosters, unit associations and veteran registries, and the
+   whole national roll has now been checked — **do not search memorials for him again.**
+   **(2) The searchable handle is the detachment, not the phonetic surname.** The camp is
+   **Detachment A-324** (opened July 1964, XT281582). Newly found: the 9th Infantry Regiment
+   ("Manchus") site records that SF "was headquartered out of **Ben Soi, A-321** but had unit
+   **A-324** on the mountain", and that A-324's job was **continuous radio relay for SF and VNSF
+   across the whole III Corps area.** That independently corroborates the mountain's radio role —
+   **and it matters for #16 / issue #62: the summit was an SF relay long before Granite Romeo
+   Tango.** It also names a target requestable by name: **"After Action Reports from both 125th
+   Signal Battalion and Special Forces A-324"** — fold into the RG 472 effort (#7, #10).
+   **CAUTION on strength:** that page's "about 30 men" describes the 1967-68 period (its
+   surrounding text is about the CIDG being pulled off in Nov 1967). Kelly's half-team — 1 officer,
+   5 enlisted — stays the 1964 figure, and matches Larry's "no one there from Special Forces that
+   day except Lowry". **Do not quote "30 men" for 1964-65.**
+   **(3) THE ROSTERS THIS ENTRY NAMES MAY BE THE WRONG GROUP.** It has twice said "NARA 5th SFG /
+   B-32 rosters". Per ARSOF history (*A Team Effort: Special Forces in Vietnam, June-December
+   1964*), the teams in Vietnam in 1964 were rotating **TDY detachments of the 1st SFG (Okinawa)
+   and 7th SFG (Fort Bragg)**; **the 5th SFG only deployed in late 1964** to assume command. A
+   sergeant on that mountain in 1964-early 65 is quite likely a **1st or 7th SFG man on a
+   six-month rotation.** Search those associations too, not only the 5th. (Limit recorded: ARSOF
+   names an A-321 of the 7th SFG at **Buon Brieng**, a different camp — that does not establish
+   the Ben Soi A-321's parent group, and no such claim is made here.)
+   **WITHDRAWN, recorded so it is not re-derived as new:** "Body Jab 42" is a boxing term and the
+   link to Schwartzkoff's boxing-callsign net looked unmade. **It is already made, thoroughly** —
+   `data/recollections/2026-09-01-phone-boxing-call-signs.json` and
+   `research/units/callsigns-and-units.md`.*
 5. **Captain "Guegler"** — spelling, identity, and possible connection to the KIA report.
    *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
    officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
