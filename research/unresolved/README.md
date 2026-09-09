@@ -161,6 +161,29 @@ Open questions:
    August, off the mountain ~25–27 August, Camp Zama ~3 September. The 3–7 September casualty-list
    window stands; nothing here widens or narrows it. Paraphrase — do not fish for a transcribed
    confirmation with a number.*
+   *2026-09-09, THE SAME-NAME HYPOTHESIS FAILS — **a hard negative, and it re-ranks the
+   explanations.** Working: `research/events/kia-same-name-hypothesis.md`. The deferral recorded
+   on 2026-08-23 ("everything on the AAD/Coffelt side is free and will still be there in
+   October") was taken up. The complete NARA DCAS fatal-casualty roll — all 54 reporting
+   jurisdictions, 59,577 casualty rows, the whole 1956–2006 span — was searched for **Hunnewell
+   and every near-spelling**, for the entire `HUM`–`HUR` alphabetical neighbourhood, and for
+   **every surname in the corpus ending `-WELL`**. Line-wrapping was ruled out by reading all 16
+   occurrences of `NEWELL` with their preceding line. **Zero matches.** The nearest names in the
+   whole American dead are HUNNICUTT (d. 1969) and HUNEYCUTT (d. 1967), and the nearest
+   `-WELL` names are HALLOWELL, HOLLOWELL, GREENWELL, CORNWELL. **Larry's own hedge — "I doubt
+   if there was somebody with the same name" — is now `strongly-supported` rather than
+   intuition.** What this does NOT do: find or date the item. It cannot — a man reported KIA in
+   error and corrected never enters DCAS, which is exactly Larry's case, so the absence is fully
+   consistent with his account. What it DOES do is remove the benign alternative: a correct list
+   about another man, misread. That is gone for fatal casualties and survives only for a
+   similarly-named **wounded or missing** man, who would not be in DCAS. **By elimination, and
+   only by elimination, Larry's own hedged inference — "somebody up there, probably Sgt Lowery,
+   probably reported me KIA" — is now the leading hypothesis.** It has gained no positive
+   evidence and is still owed its own proof (#10 above, and #12 on the issue tracker).
+   **Consequence for the eight days of paid access left (ends 2026-09-17): spend it looking for
+   LARRY'S name in a casualty list, not for a near-name to explain it away.** The paused
+   nine-list visual sweep, plus the five front pages of 3–7 September 1965, is the whole
+   remaining plan.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
