@@ -98,3 +98,62 @@ because "USAF histories date such work to the month." That premise is intact but
 this pass has established that the *easily reachable* documentation is about the wrong
 installation. Until a 1964–65 source is found, **the mountain period cannot be dated from the
 radar, and no date should be inferred from Granite Romeo Tango.**
+
+
+---
+
+## Second pass, same day: both official Army signal histories read in full — NEGATIVE
+
+**2026-09-09, browser session.** The block recorded above was resolved and the resume point
+is now closed rather than merely named.
+
+### Correcting the block, because the earlier note was half wrong
+
+The first pass reported `history.army.mil` as 403-blocking `curl`. Partly true, partly a wrong
+URL:
+
+- `history.army.mil/html/books/090/90-8/CMH_Pub_90-8.pdf` is a **404** — that path does not
+  exist, and CMH has restructured the site. So has `books/Vietnam/Comm-Elect/index.htm`.
+- The **correct** catalog path is `.../Publications/catalog/90-9-1.pdf` (Communications-
+  Electronics) and `.../catalog/90-11.pdf` (Division-Level Communications) — and **those do
+  return 403 to `curl`, with or without a browser user-agent.** The block is real; the first
+  URL tried was also wrong. Both facts belong on the record.
+- **The way through is neither**: a complete HTML mirror of both volumes exists at
+  `webdoc.sub.gwdg.de/ebook/p/2005/CMH_2/www.army.mil/cmh-pg/books/vietnam/{comm-el,divlevcom}/`
+  and serves 200 to plain `curl`. Chapters are `ch1.htm`–`ch13.htm` and `ch01.htm`–`ch13.htm`
+  respectively. **Use the mirror; it is greppable and needs no browser at all.**
+
+### What the two volumes say about Núi Bà Đen
+
+Both volumes were downloaded complete and stripped to text — **562,699 characters** — and
+searched. Every occurrence, in full:
+
+| Volume / ch. | Date it describes | Content |
+|---|---|---|
+| Div-Level ch03 | **June 1966** | Photo caption: *"NUI BA DEN, JUNE 1966. Home of Granite Romeo Tango."* |
+| Div-Level ch03 | 1966 | Granite Romeo Tango is **Company C, 121st Signal Battalion, 1st Infantry Division** — **eight men**, providing VHF relay for the 121st and FM retransmission for the division; also relayed for the 25th Inf Div, 173rd Abn Bde and Special Forces |
+| Div-Level ch03 | by **end of March 1966** | 125th Signal Bn (25th Inf Div) relayed through Núi Bà Đen via the 121st — "the first of many informal equipment-sharing arrangements" |
+| Div-Level ch04 | 1966+ | Automatic FM retransmission station on the summit; position fortified, "the enemy held all but the summit… but he seemed satisfied to leave the position alone, and even shared a waterhole on the mountain with station personnel" |
+| Div-Level ch05 | 1969–70 | Ground relays on Núi Bà Đen and Núi Bà Rá (11th ACR / 595th Sig Co) |
+| Comm-Elect ch09 | **13–14 May 1968** | The attack: 25th Inf Div signal site plus ~15 men of 1st Signal Brigade; 23 US killed, 3 wounded, 1 missing |
+| Comm-Elect ch12 | early 1970 | 11th ACR voice retransmission through the summit site during Cambodia |
+| Comm-Elect ch13 | 13 May 1968 | PFC Thomas M. Torma, 86th Signal Bn, Silver Star in that attack |
+
+**Every single mention in both official volumes is 1966 or later. There is not one reference to
+Núi Bà Đen in 1964 or 1965 in either book.**
+
+### What that settles
+
+The resume point named in the first pass is **closed, and it is a negative**: the two
+authoritative Army signal histories contain nothing about anything on that summit during
+Larry's time. His installation is not in the Army signal record.
+
+That is consistent with all three readings of the service tension above and eliminates none of
+them — but it does remove the possibility that the answer was sitting unread in the obvious
+book. **What survives as untried is the same as before: AFHRA unit histories for III Corps
+radar and tactical control detachments, 1964–65.**
+
+A small refinement to the date, worth noting: Wikipedia gives **February 1966** for the
+establishment of Granite Romeo Tango; the official history's own photo caption reads **June
+1966**. Both are comfortably after Larry, so nothing here turns on it, but the archive should
+not quote "February 1966" as though the official history said it.

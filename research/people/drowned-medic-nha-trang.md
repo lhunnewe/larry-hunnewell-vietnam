@@ -249,3 +249,63 @@ than break it.
 
 **Do not repeat:** the drown-axis sweep (2026-08-16), the September-1964 enumeration
 (2026-09-03), and now the unrecovered-remains sweep for NE, KS and nationally (2026-09-09).
+
+
+---
+
+## Fourth pass, same day (browser session): the resume point is retired, and Oct–Nov 1964 is closed
+
+**2026-09-09.** A browser session was used specifically to run the occupation-axis search that
+three prior entries have named as the way forward.
+
+### The occupation-axis search does not exist, and the resume point should be retired
+
+The 2026-09-03 entry proposed: *"One query across the whole tour filtered to the Army 91-series
+medical MOS would return every medic who died in the window — the exact shape of this question."*
+
+**That query cannot be run.** Both AAD file units were opened and their fielded-search forms
+read field by field:
+
+- **Coffelt (`dt=1806`)** searchable fields are: Last Name, Given Names, Service, Actual Date of
+  Death, Country, Major command, Company/battery/troop, Battalion, Regiment, Home of Record
+  State Code. **No occupation field.**
+- **DCAS Vietnam Conflict Extract (`dt=2513`)** searchable fields are: Service Number, Member
+  Name, Member Service Code, Member Birthdate, Home of Record City/County/State, Incident or
+  Death Date, Casualty Category. **No occupation field.**
+
+Service Occupation appears only on the Coffelt **record-detail** page — it is display-only. You
+cannot filter on it; you can only read it one record at a time, after some other filter has
+already narrowed the set. The 2026-09-03 note was written from having seen the field on a detail
+page and assuming it was therefore searchable. **It is not, and a future session should not
+spend a browser window discovering that again.**
+
+### What was run instead, and it closes a real gap
+
+Every prior pass stopped at **September 1964**. Larry says "the first couple week Nha Trang in
+'64" — a phrase that drifts easily by a few weeks, and **October and November 1964 had never
+been enumerated.**
+
+Coffelt, Actual Date of Death **between 10/01/1964 and 11/30/1964**: **46 records — every US
+military death in Vietnam, Cambodia and Laos in those two months.** All 46 read on one page.
+
+**NEGATIVE, and complete for the period:**
+
+- **No Nebraska man and no Kansas man.** Home states present: PA, NY, VA, MS, MA, ME, NC, CA,
+  TX, AZ, HI, MT, MI, OH, TN, GA, MN, IA, VT, MO. Neither of Larry's two named states appears.
+- **No drowning and no Nha Trang death** identifiable in the set. The two largest clusters are a
+  24 October 1964 loss over **Cambodia** (six 13th AF men plus two 5th SFG HHC men) and the
+  7 October and 1 November aviation losses below.
+- Combined with the September enumeration (14 records, 2026-09-03) and the unrecovered-remains
+  sweep earlier today, **September, October and November 1964 are now all enumerated at record
+  level and all negative.**
+
+This agrees exactly with the independent finding from the NARA state lists earlier today — that
+no Nebraska or Kansas man died in Vietnam at all between 1 September 1964 and 31 January 1965 —
+and it was reached from a different database.
+
+### Where #61 now stands
+
+Unchanged in shape, but the cheapest remaining tests are used up. "The date is wrong" has now
+been tested across three consecutive months and failed. What survives is **"not a US
+serviceman"** and **"he may not have died"**, and nothing in any casualty database can settle
+either. The next real move is Larry, not the record: whether he saw the man go in, or was told.
