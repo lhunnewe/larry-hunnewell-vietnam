@@ -1123,3 +1123,35 @@ and now **the VA C-file**, since the rating decision proved to be the wrong docu
 (`../records-request/clinical-records-followup.md`).
 
 **Until one of those lands, every window in this file is provisional.** Say so when citing them.
+
+---
+
+# 2026-09-09 — THE SAME-NAME HYPOTHESIS IS TESTED, AND IT FAILS
+
+Full working: **`kia-same-name-hypothesis.md`**.
+
+The deferral recorded above — *"Everything on the AAD/Coffelt side is free and will still be
+there in October"* — was taken up. The complete NARA DCAS casualty roll (all 54 reporting
+jurisdictions, 59,577 casualty rows, the whole 1956–2006 span) was downloaded and searched for
+**Hunnewell and every near-spelling**, for the whole `HUM`–`HUR` alphabetical neighbourhood,
+and for every surname in the corpus ending `-WELL`.
+
+**Zero matches. There is no Hunnewell, and nothing that could be misread as one, among the
+American dead of the Vietnam War.**
+
+Larry's own hedge — *"I doubt if there was somebody with the same name"* — is now
+`strongly-supported` rather than intuition.
+
+**What it changes here.** Every window in this file was built to find *the item*. This result
+does not date the item or find it. What it removes is the alternative that would have made the
+item unremarkable: a correct list about another man, misread. That is gone as a fatal-casualty
+explanation, and survives only in the narrow form of a similarly-named **wounded or missing**
+man, who would not be in DCAS.
+
+By elimination — and only by elimination — Larry's own hedged inference that *"somebody up
+there, probably Sgt Lowery, probably reported me KIA"* becomes the leading hypothesis. It has
+gained no positive evidence. It is owed its own proof (#12).
+
+**What it changes for the eight days of paid access left.** The remaining NewspaperArchive
+time should be spent looking for **Larry's name in a casualty list**, not for a near-name to
+explain it away. The paused nine-list visual sweep is the resume point.
