@@ -325,6 +325,25 @@ Open questions:
    *2026-09-03 — **RULE 6.** None of the above goes to Larry or into a rendered field. The guide
    asks him open — "do you remember which battalion your company belonged to?" — and that
    question is now the one where priming would cost the most.*
+    *2026-09-09 — **FIVE NAMED 118th AVIATION COMPANY DEAD IN LARRY'S FIRST TWO MONTHS**, found
+    incidentally while enumerating Coffelt for #61. Working:
+    `research/units/118th-avn-co-losses-oct-nov-1964.md`. Coffelt, all 46 US deaths in Oct–Nov
+    1964: **BAIN (NY), HAVEMANN (TX), LA FLEMME (OR) all on 7 Oct 1964; BUBAR (ME) and O KEEFE
+    (MN) on 1 Nov 1964** — every one carrying the chain **118th Avn Co → 145th Avn Bn → 12th Avn
+    Grp**. That chain is now attested in a casualty database and not only in unit-history prose,
+    independently corroborating `research/units/145th-avn-bn-tan-son-nhut.md`. It also
+    cross-checks the #89 VHPA loss table (which had 5 dead on 7 Oct and 4 on 1 Nov — per-aircraft
+    figures including non-118th men, so both are consistent). **A TRAP IN THE DATA: four of the
+    five are listed under "1st Aviation Brigade", which was not activated until MARCH 1966** —
+    Coffelt is retro-assigning the parent command it holds at compilation time. Do not read that
+    column as evidence about 1964 naming, and do not treat the odd Bain row ("MACV") as a real
+    distinction from the men who died beside him. Company, battalion and group are the reliable
+    parts. **IT DOES NOT SETTLE THE QUESTION:** every record says Aviation *Company*; Larry
+    remembers an Aviation Operations *Detachment*, and the Tân Sơn Nhứt vs Biên Hòa mismatch is
+    untouched. Five men of a company dying near him is context, not membership. **What it opens:**
+    a membership/dating probe that must not name them (rule 6 — ask "did anything happen to the
+    unit soon after you got there?", never "do you remember Bain?"), and five more names for the
+    #23 outreach.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -745,6 +764,29 @@ Open questions:
     return every medic who died in the window — the exact shape of this question, and better than
     either the state axis or the cause axis. Needs the AAD "show more fields" screen, **which
     crashed the renderer once on 2026-09-03** — add columns one at a time.*
+    *2026-09-09 (browser session) — **RETRACTION: that query does not exist. Retire this resume
+    point.** Both AAD file units were opened and their fielded-search forms read field by field.
+    **Coffelt (dt=1806)** searches Last Name, Given Names, Service, Actual Date of Death, Country,
+    Major command, Company, Battalion, Regiment, Home of Record State — **no occupation field**.
+    **DCAS (dt=2513)** searches Service Number, Member Name, Service Code, Birthdate, Home of
+    Record City/County/State, Incident or Death Date, Casualty Category — **no occupation field**.
+    Service Occupation exists only on the Coffelt **record-detail** page: display-only, readable
+    one record at a time after some other filter has narrowed the set, never filterable itself.
+    The 2026-09-03 note was written from seeing the field on a detail page and assuming it was
+    searchable. **A future session should not spend a browser window rediscovering this.**
+    **WHAT WAS RUN INSTEAD, and it closes a real gap:** every prior pass stopped at September
+    1964, and "the first couple week... in '64" drifts easily — **October and November 1964 had
+    never been enumerated.** Coffelt, death date between 10/01/1964 and 11/30/1964: **46 records,
+    every US military death in Vietnam, Cambodia and Laos in those two months, all read.**
+    **NO Nebraska man and NO Kansas man** (states present: PA NY VA MS MA ME NC CA TX AZ HI MT MI
+    OH TN GA MN IA VT MO); no drowning and no Nha Trang death in the set. **September, October and
+    November 1964 are now all enumerated at record level and all negative** — and this agrees
+    exactly with today's independent NARA state-list finding that no NE or KS man died between
+    1 Sep 1964 and 31 Jan 1965, reached from a different database. **WHERE IT LEAVES #14:** "the
+    date is wrong" has now been tested across three consecutive months and failed. What survives
+    is "not a US serviceman" and "he may not have died", and no casualty database can settle
+    either. **The next real move is Larry, not the record** — whether he saw the man go in, or
+    was told.*
     *2026-09-09 — **THE "MISSING" LOOPHOLE IS CLOSED, NEBRASKA, KANSAS AND NATIONALLY.** Working:
     `research/people/drowned-medic-nha-trang.md`, third pass. **The gap:** every prior sweep
     searched on CAUSE — the 2026-08-16 pass read every entry containing **"drown"**. But Larry says
