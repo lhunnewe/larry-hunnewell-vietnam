@@ -1154,4 +1154,14 @@ gained no positive evidence. It is owed its own proof (#12).
 
 **What it changes for the eight days of paid access left.** The remaining NewspaperArchive
 time should be spent looking for **Larry's name in a casualty list**, not for a near-name to
-explain it away. The paused nine-list visual sweep is the resume point.
+explain it away.
+
+**CORRECTION, same day: "the paused nine-list visual sweep" is a STALE figure and this entry
+should not have repeated it.** It was lifted from the 2026-08-23 ledger note describing the
+2026-08-17 sweep, without reading the resolution table earlier in this same file. A later
+session worked that queue down: Nov 12 and Nov 15 read in full (no Hunnewell), Oct 29, Nov 5
+and Nov 4 struck from search snippets, Nov 13 and Nov 20 probably struck as weekly totals with
+no names. **"The unread queue is down from nine to two known items: Nov 19 (finish it) and
+Nov 24."** The real resume point is the one set out under REVISED PLAN above: **the Five-Star
+casualty lists of 3-7 September 1965, plus the FRONT PAGE of each of those five issues** -
+neither of which has been read.
