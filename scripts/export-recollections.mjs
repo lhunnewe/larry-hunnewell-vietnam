@@ -134,6 +134,32 @@ function relatedRefsForTerm(term) {
   return null;
 }
 
+/**
+ * Every `related*` reference field on the recollections schema.
+ *
+ * This list MUST match `src/content.config.ts`. A field missing here is not a
+ * cosmetic omission: this script rewrites each record from the live discussion
+ * on every export, so any relation it does not know to carry over is DELETED
+ * from the record — silently, because a record with fewer links is still valid
+ * and the validator sees nothing wrong.
+ *
+ * That is not hypothetical. `relatedTimeline` was absent from this list, and the
+ * export of 2026-09-06 erased 16 hand-added timeline links across 15 records
+ * that had been curated the day before. `relatedDrawings` was absent too, and
+ * would have erased drawing links the first time one was made.
+ *
+ * `npm run validate` now fails if this list and the schema disagree, so the next
+ * field someone adds cannot go missing here quietly.
+ */
+const RELATION_KEYS = [
+  'relatedPhotos',
+  'relatedVideos',
+  'relatedDrawings',
+  'relatedTimeline',
+  'relatedPlaces',
+  'relatedPeople',
+];
+
 const termSlug = (term) => term.toLowerCase().replace(/:/g, '-');
 const isoDate = (s) => s.slice(0, 10);
 const DELETION_NOTE = 'Source comment deleted from Discussions as of';
@@ -169,7 +195,7 @@ function buildRecord(comment, discussion, term, personId, existing) {
     fidelity: existing?.fidelity ?? 'transcribed',
   };
   if (existing?.researchNotes) record.researchNotes = existing.researchNotes;
-  for (const key of ['relatedPhotos', 'relatedVideos', 'relatedPlaces', 'relatedPeople']) {
+  for (const key of RELATION_KEYS) {
     const merged = union(refs[key], existing?.[key]);
     if (merged.length > 0) record[key] = merged;
   }
