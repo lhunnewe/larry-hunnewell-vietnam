@@ -325,6 +325,42 @@ Open questions:
    59 names, **one man printed as dead was demonstrably alive**, with two unresolved, in the same
    months and the same paper. **The printed record and the official record disagree here at about
    one case in sixty, and Larry says he was one of them.***
+   *2026-09-09, THE NOV 19 RE-READ — **both open names were OURS, the instrument is now clean,
+   and a discriminator this search leans on has just got weaker.** The one-page target was bought
+   and read: Pacific S&S, Fri 19 Nov 1965, p.4, "DOD Names Dead, Missing" (imageID 133215485,
+   verified). **Scan native size 2975×4273** — twice the European page, agate fully legible.
+   **"PFC Floyd D. Simmons" is in fact PFC Floyd D. JOHNSON of Marsland, Neb.** (DCAS: JOHNSON
+   FLOYD DEAN, Army PFC, Marsland, Dawes Co. NE, d. 19651114 — a 5-day lag to printing). **"1st Lt
+   Richard L. Gandy, Clovis N.M." is in fact AIR FORCE 1st Lt. Richard L. GOUDY** (DCAS: GOUDY
+   RICHARD LEE, AF CAPT, Sharon Springs KS, d. 19650809, the date he went missing). **Neither man
+   was falsely reported; the archive had misread two surnames off a 1965 scan and mis-assigned
+   one service.** Four further corrections from the same item: "Covoy" is printed **Covey** (that
+   error was ours, not the paper's); Santiago-Cruz is **Guayama**; Copeland is **Minot AFB,
+   N.D.**; Miller is **Air Force, Wichita, Kan.** **And the method fired a third time,
+   unprompted:** of the five missing men (Jenkins, McCleary, Moore, Adams, Dusing) four are in
+   DCAS and **Navy Cdr. Harry T. Jenkins Jr. is not — he was a POW released in 1973.***
+   *2026-09-09 — **THE CORRECTED RESULT, and it is clean.** 64 names reconciled; **57 matched, 7
+   not, and the two columns separate perfectly.** **Printed DEAD — 40 names, 39 in DCAS; the one
+   exception is Halyburton, and he was alive.** After transcription errors are removed the
+   instrument has **zero false positives**. **Printed MISSING — 24 names, 18 in DCAS; the six that
+   are not** (Schierman, Norse, Sima, McDonald, Wheat, Jenkins) **are the men who came home.**
+   **So the base rate is measured rather than assumed: about one man in forty printed as dead in
+   this paper, in these months, was not dead.** Larry says he was one of them.*
+   *2026-09-09 — **AND A DISCRIMINATOR FALLS. Read this before ruling anything out on hometown
+   again.** The re-read showed that **the "hometown" this paper prints is frequently not a
+   hometown.** In a single item of eight men: Copeland is given as "**Minot AFB, N.D.**" (a base);
+   Goudy as "**Clovis, N.M.**" (Cannon AFB — home of record Sharon Springs, **Kansas**); Miller as
+   "**Wichita, Kan.**" (McConnell AFB — home of record **Norfolk**); Covey as "**Los Angeles**"
+   against a home of record of **Benedict, Nebraska**. **Four of eight.** This archive has
+   repeatedly used *Inglewood* as the identifying hometown — the 2026-08-17 sweep read all 44
+   "inglewood" 1965 hits, and the August table ruled entries out on hometown ("the one Los Angeles
+   man is Covoy, not him"). **Those readings are not wrong, but their power was overestimated.**
+   If Larry's name was printed, the place beside it could as easily have been Tan Son Nhut,
+   Saigon, a hospital, or a home of record his family had left. **Do not rule a candidate out on
+   hometown alone, and do not treat the negative "inglewood" sweep as covering a printed entry for
+   him. The name is the discriminator; the place is corroboration at best.** **Best remaining use
+   of the subscription: re-read the Nov 11, Nov 12 and Nov 15 lists capturing given names and
+   hometowns rather than surnames only — three pages, ~70 testable names.***
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still

@@ -1646,3 +1646,63 @@ printed dead, absent from DCAS — is real, detectable, and was recovered blind 
 case.** And the base rate is now measured rather than assumed: across 59 names, **one man
 printed as dead was demonstrably alive**, with two unresolved — in the same months, in the same
 paper.
+
+---
+
+# 2026-09-09, FOURTH PASS — THE NOV 19 RE-READ. BOTH OPEN NAMES WERE OURS, AND A DISCRIMINATOR FALLS
+
+Full working: **`kia-list-dcas-reconciliation.md`**, section "RESOLVED — the Nov 19 re-read".
+
+The one-page target was bought and read: **Pacific S&S, Fri 19 Nov 1965, p.4, "DOD Names Dead,
+Missing"** (imageID 133215485 — verified correct). **Scan native size 2975 x 4273**, about twice
+the European page and easily legible at agate.
+
+**Both open cases were this archive's own transcription errors, not instances of the error
+class:**
+
+- "PFC **Floyd D. Simmons**" is in fact **PFC Floyd D. JOHNSON, Marsland, Neb.** — DCAS:
+  JOHNSON FLOYD DEAN, Army PFC, Marsland, Dawes Co. NE, **d. 19651114**, a 5-day lag to
+  printing. Matched.
+- "1st Lt **Richard L. Gandy**, Clovis N.M." (recorded as Army) is in fact **Air Force 1st Lt.
+  Richard L. GOUDY** — DCAS: GOUDY RICHARD LEE, Air Force CAPT, Sharon Springs KS, **d.
+  19650809**, which is the date he went missing. Matched.
+
+**Four further corrections to this file's Nov 19 transcription:** "Covoy" is printed **Covey**
+(so that error was ours, not the paper's); Santiago-Cruz is **Guayama**, not "Guayanina";
+Copeland is **Minot AFB, N.D.**; Miller is **Air Force**, **Wichita, Kan.** The five missing men
+are **Navy Cdr. Harry T. Jenkins Jr.; AF Lt. Col. George C. McCleary; AF TSgt. Thomas Moore; AF
+S/Sgt. Samuel Adams; AF S/Sgt. Charles G. Dusing.**
+
+**The method fired a third time, unprompted.** Of those five, McCleary, Moore, Adams and Dusing
+are all in DCAS; **Harry T. Jenkins Jr. is not — he was a POW released in 1973.**
+
+**THE CORRECTED RESULT: 64 names reconciled, 57 matched, 7 not, and the columns separate
+perfectly.**
+
+- **Printed DEAD — 40 names. 39 are in DCAS. The one exception is Halyburton, and he was
+  alive.** After transcription errors are removed the instrument has **zero false positives**.
+- **Printed MISSING — 24 names. 18 are in DCAS; six are not** (Schierman, Norse, Sima, McDonald,
+  Wheat, Jenkins) — the men who came home.
+- **The base rate is therefore measured, not assumed: about one in forty men printed as dead in
+  this paper, in these months, was not dead.** Larry says he was one of them.
+
+## AND A DISCRIMINATOR THIS SEARCH HAS BEEN LEANING ON JUST GOT WEAKER
+
+The re-read showed that **the "hometown" this paper prints is frequently not a hometown**.
+In one item of eight men: Copeland is given as "Minot AFB, N.D." (a base); Goudy as "Clovis,
+N.M." (Cannon AFB — his home of record is Sharon Springs, Kansas); Miller as "Wichita, Kan."
+(McConnell AFB — home of record Norfolk); and Covey as "Los Angeles" against a home of record
+of Benedict, Nebraska. **Four of eight.**
+
+**This bears directly on #9.** The archive has repeatedly used *Inglewood* as the identifying
+hometown — the 2026-08-17 sweep read all 44 "inglewood" 1965 hits, and the August table ruled
+entries out on hometown ("the one Los Angeles man is Covoy, not him"). Those readings are not
+wrong, **but their power was overestimated.** If Larry's name was printed, the place beside it
+could as easily have been Tan Son Nhut, Saigon, a hospital, or a home of record his family had
+left. **Do not rule a candidate out on hometown alone, and do not treat the negative "inglewood"
+sweep as covering a printed entry for him.** The name is the discriminator; the place is
+corroboration at best.
+
+**Best remaining use of the subscription:** re-read the **Nov 11, Nov 12 and Nov 15** lists
+capturing **given names and hometowns** rather than surnames only — three pages, about 70
+testable names, and the Nov 19 re-read has just demonstrated how far a transcription can drift.

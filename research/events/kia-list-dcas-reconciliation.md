@@ -117,7 +117,12 @@ known returned prisoners of the 1973 releases.
 on Oct 25, twelve later entered DCAS and five did not; of 9 printed as *dead* the same day,
 eight entered DCAS and one — Halyburton — did not, and he is the one who lived.
 
-### The two that are genuinely open — both printed as DEAD, both absent
+### The two that looked open — RESOLVED the same day, and both were our errors
+
+> **Superseded by the re-read below.** Both were transcription errors in this archive's own
+> reading of Nov 19, p.4. See **"RESOLVED — the Nov 19 re-read"** at the foot of this file.
+> The section is kept as written because the reasoning it records — and the fact that it was
+> wrong — is the point.
 
 | Name | Category | List |
 |---|---|---|
@@ -185,3 +190,130 @@ record disagree in about one case in sixty here**, and Larry says he was one of 
       rule 1 is not engaged. Note both forms so the printed spelling is not lost.)*
 - [ ] Screen any newly found list against DCAS as a matter of course. The scripts are
       reproducible from the method above; the corpus re-downloads in about a minute.
+
+---
+
+# RESOLVED — the Nov 19 re-read, 2026-09-09
+
+The one-page target named above was bought and read the same day. **Pacific Stars and Stripes,
+Friday 19 November 1965, page 4, "DOD Names Dead, Missing"** (imageID **133215485**, as
+recorded — the ID verified correct).
+
+**Scan quality, checked first per the method note: native size 2975 × 4273** — nearly twice the
+European page's 1553 × 2095, roughly 200 dpi. **Agate resolves cleanly at this density.** The
+item was read at native resolution via the IIP crop endpoint.
+
+## Both open cases were OUR transcription errors, not instances of the error class
+
+| This archive had transcribed | The page actually prints | DCAS |
+|---|---|---|
+| "PFC **Floyd D. Simmons**" | **PFC Floyd D. JOHNSON, Marsland, Neb.** | **JOHNSON FLOYD DEAN**, Army PFC, Marsland, Dawes Co. NE, d. **19651114** — exact on city, state, service, rank, and a 5-day lag to printing |
+| "1st Lt **Richard L. Gandy**, Clovis N.M." *(recorded as Army)* | **Air Force 1st Lt. Richard L. GOUDY of Clovis, N.M.** | **GOUDY RICHARD LEE**, Air Force CAPT, Sharon Springs, Wallace Co. KS, d. **19650809** |
+
+**Neither man was falsely reported. Both are in DCAS. The archive had simply misread two
+surnames off a 1965 scan** — `Johnson`→`Simmons` and `Goudy`→`Gandy` — and mis-assigned Goudy's
+service. Goudy's DCAS death date of **9 August 1965** is the date he went missing, not the date
+of the announcement, which is exactly what "previously listed as missing" implies.
+
+## Four further corrections from the same re-read
+
+| Transcribed | Printed |
+|---|---|
+| "S/Sgt Lawrence **Covoy**" | **Covey** — so "Covoy" was ours; the paper had it right |
+| "PFC Rafael Santiago-Cruz, **Guayanina**, P.R." | **Guayama, Puerto Rico** |
+| "SP4 Ralph A. Copeland" *(no hometown)* | **Copeland, Minot AFB, N.D.** |
+| "Capt William N. Miller, non-hostile" *(recorded as Army, no hometown)* | **Air Force** Capt. William N. Miller, **Wichita, Kan.** |
+
+The five missing men are also fuller than transcribed: **Navy Cdr. Harry T. Jenkins Jr.; Air
+Force Lt. Col. George C. McCleary; Air Force TSgt. Thomas Moore; Air Force S/Sgt. Samuel Adams;
+and Air Force S/Sgt. Charles G. Dusing.**
+
+## The five missing men, now also reconciled — and the method fired a third time
+
+| Name | DCAS | |
+|---|---|---|
+| Lt. Col. George C. McCleary | MCCLEARY GEORGE CARLTON, AF COL, Baton Rouge LA, d. 19651105 | matched |
+| TSgt. Thomas Moore | MOORE THOMAS, AF CMSGT, Baton Rouge LA, d. 19651031 | matched |
+| S/Sgt. Samuel Adams | ADAMS SAMUEL, AF CMSGT, Goldenrod FL, d. 19651031 | matched |
+| S/Sgt. Charles G. Dusing | DUSING CHARLES GALE, AF CMSGT, Charleston SC, d. 19651031 | matched |
+| **Cdr. Harry T. Jenkins Jr.** | **no record anywhere in the national roll** | **UNMATCHED** |
+
+**Harry T. Jenkins Jr. was a prisoner of war, released in 1973.** He lived. **The method
+returned him unprompted, from the missing column, having been told nothing about him** — a
+third independent confirmation after Halyburton and the Oct 25 five.
+
+*(Moore, Adams and Dusing share a death date of 31 October and two share a home city, which is
+the signature of a single aircraft loss. Their DCAS "remains recovered" flag is `N`.)*
+
+---
+
+# THE CORRECTED RESULT
+
+**64 printed names reconciled** — the original 59 plus the five Nov 19 missing men.
+**57 matched. 7 did not. And the two columns separate perfectly.**
+
+## Printed as DEAD — 40 names
+
+> **39 of 40 are in DCAS. The single exception is Porter A. Halyburton, and he was alive.**
+
+**After the transcription errors are removed, the method has no false positives at all among
+the dead.** Every man the paper said was killed, died — except the one who did not.
+
+## Printed as MISSING — 24 names
+
+> **18 are in DCAS. Six are not: Schierman, Norse, Sima, McDonald, Wheat, Jenkins.**
+
+Those six are the men who **came home**. Schierman, Sima, Wheat and Jenkins are all known
+returned prisoners of the 1973 releases.
+
+## What that gives issue #9
+
+1. **The instrument is validated to zero false positives.** Across 40 men printed dead, it
+   flagged exactly one, and that one is independently known to have been a false report.
+2. **The base rate is now measured, not assumed: about one in forty.** In these months, in this
+   paper, roughly one man in forty printed as dead was not dead. Small sample, but it is a real,
+   non-zero, documented rate — **and Larry says he was one of them.**
+3. **It is cheap to run.** Corpus re-downloads in about a minute; a list screens in seconds.
+
+---
+
+# A DISCRIMINATOR WARNING THAT MATTERS MORE THAN THE RESOLUTION
+
+The re-read exposed something the reconciliation had only hinted at. **The hometown this paper
+prints is frequently not a hometown at all.**
+
+| Printed | Actually |
+|---|---|
+| Copeland, "**Minot AFB, N.D.**" | an Air Force **base**, not a home town |
+| Goudy, "**Clovis, N.M.**" | Cannon AFB is at Clovis — DCAS home of record is **Sharon Springs, Kansas** |
+| Miller, "**Wichita, Kan.**" | McConnell AFB is at Wichita — DCAS home of record is **Norfolk** |
+| Covey, "**Los Angeles**" | DCAS home of record is **Benedict, Nebraska** |
+
+**Four of eight men in a single item carry a printed place that is a duty station or simply
+disagrees with the official home of record.**
+
+**This bears directly on the search for Larry, and it cuts against a method the archive has
+leaned on.** Sessions have used *Inglewood* as the identifying hometown — the 2026-08-17 sweep
+read all 44 "inglewood" hits for 1965 and found nothing, and the August table repeatedly ruled
+entries out on hometown ("the one Los Angeles man is Covoy, not him"). Those readings are not
+wrong, **but their power was overestimated**: if his name was printed, the place beside it might
+have been **Tan Son Nhut, Saigon, a hospital, a home of record his family had moved from, or
+nothing at all.**
+
+**Consequence: do not rule a candidate out on hometown alone, and do not treat the negative
+"inglewood" sweep as covering a printed entry for Larry.** The name is the discriminator; the
+place is corroboration at best.
+
+---
+
+# NEXT, REVISED
+
+- [x] ~~Re-read Nov 19 p.4 and check Simmons and Gandy~~ — **done; both were our errors**
+- [ ] **Re-read the Nov 11, Nov 12 and Nov 15 lists capturing given names and hometowns**, not
+      surnames only. Three pages, ~70 testable names. **Now the best remaining use of the
+      subscription**, and the Nov 19 re-read shows how much a transcription can drift.
+- [x] ~~Correct the transcription variants~~ — done, in `kia-misreport-stars-stripes.md`
+- [ ] Screen any newly found list against DCAS as a matter of course.
+- [ ] **Revisit the hometown-based exclusions** recorded across this search in light of the
+      warning above. None need reversing on present evidence, but their weight should be
+      downgraded from "rules out" to "does not support".
