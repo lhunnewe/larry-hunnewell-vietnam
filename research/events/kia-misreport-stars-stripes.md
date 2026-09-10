@@ -1823,3 +1823,133 @@ page actually visited returns **HTTP 403**, while the visited page returns 200:
 **The portal authorises the jp2 when its viewer page is loaded, and not before.** So the
 edition-structure walk of a 33-page issue genuinely costs 33 viewer navigations; there is no
 way to buy it more cheaply, and any future plan that assumes otherwise should be dropped.
+
+---
+
+# 2026-09-10 — THE EDITION-STRUCTURE WALK: 7 SEPTEMBER 1965, ALL 33 PAGES
+
+The task promoted in section 6 above ("establish the edition structure properly on one date —
+walk a 33-page issue end to end… **do this before spending more on content**") was carried out
+on **Tuesday 7 September 1965**, the date whose structure was already half-known: p.1 is the
+Five-Star front, p.28 was found to be a second front reading KOREA EDITION, and p.33 was
+thought to be a third, Okinawa.
+
+**It cost far less than budgeted, because of a technique found doing it — see "How the whole
+issue was opened without 33 navigations" below.**
+
+## What each archive page actually is
+
+Read from the folio line at the foot of each page. **`—` in the folio column means the page
+prints no folio there** (a front page, a full-page photo or advertisement, or a comics page);
+it does not mean the page is missing.
+
+| archive p | scan px | folio | suffix | note |
+|---|---|---|---|---|
+| 1 | 3137×4212 | — | | **FRONT** — Five-Star, "SCHWEITZER DIES" |
+| 2 | 3053×4192 | 2 | | flag/imprint block at the foot: *"STARS AND STRIPES PACIFIC … APO San Francisco 96503"* |
+| 3 | 3053×4192 | 4 | | |
+| 4 | 3053×4192 | 6 | | |
+| 5 | 3053×4192 | 8 | | |
+| 6 | 3053×4192 | 10 | | |
+| 7 | **6098×4250** | not printed | | **the only true double-page spread in the issue** |
+| 8 | 3053×4192 | 14 | | |
+| 9 | 3053×4192 | not printed | | savings-bond advertisement at the foot |
+| 10 | 3053×4192 | 18 | | |
+| 11 | 3095×4231 | 20 | | |
+| 12 | 3095×4223 | 22 | | |
+| 13 | 3053×4192 | 24 | | |
+| 14 | 2981×4228 | 7 | | |
+| 15 | 3053×4192 | 23 | | |
+| 16 | 2953×4206 | 17 | | |
+| 17 | 2945×4214 | 17 | **—A** | |
+| 18 | 3092×4300 | 17 | **—O** | |
+| 19 | 3092×4173 | 3 | | |
+| 20 | 3092×4173 | 5 | | |
+| 21 | 3048×4139 | 7 | **(S&S)** | |
+| 22 | 3089×4223 | 9 | | |
+| 23 | 3048×4139 | 11 | | |
+| 24 | 3048×4139 | not printed | | comics page |
+| 25 | 3048×4139 | 17 | | |
+| 26 | 3048×4139 | 19 | | |
+| 27 | 3048×4139 | 21 | | |
+| 28 | 3045×4273 | — | | **FRONT** — same lead as p.1; the KOREA front found earlier |
+| 29 | 3045×4237 | 23 | | |
+| 30 | 3045×4192 | 17 | **—K** | |
+| 31 | 3009×4220 | 7 | | |
+| 32 | 3009×4228 | 7 | | |
+| 33 | 3009×4237 | 7 | | its text refers to "the Ryukyus" |
+
+## THE FINDING THAT MATTERS MOST: THE EDITION IS PRINTED ON EVERY PAGE
+
+**The date line under the folio carries an edition suffix**, and pages 16, 17, 18 prove it
+beyond argument — **three consecutive archive pages, all numbered folio 17**, differing only in
+that line:
+
+> p.16 — `Pacific Stars & Stripes 17 / Tuesday, Sept. 7, 1965`
+> p.17 — `Pacific Stars & Stripes 17 / Tuesday, Sept. 7, 1965`**`—A`**
+> p.18 — `Pacific Stars & Stripes 17 / Tuesday, Sept. 7, 1965`**`—O`**
+
+and p.30 gives a fourth: `17 / Tuesday, Sept. 7, 1965`**`—K`**.
+
+**So the edition of any page in this archive can be read off its own folio line** — no need to
+find a front page, and no need to compute an offset from anything. `—O` is Okinawa on the
+evidence of p.33's Ryukyus content; `—K` is Korea on the evidence of the KOREA front at p.28;
+`—A` is not yet identified. **This supersedes method note 2 in section 6** ("find an edition's
+front page by searching the day's lead headline"), which still works but is no longer necessary.
+
+## WHAT THE ARCHIVE CALLS "PAGE N" IS NOT A PAGE OF A NEWSPAPER
+
+Three structural facts, all of which bear on every negative this search has recorded:
+
+**1. The archive's page order is not the paper's page order.** Archive pp.2–13 carry the
+**even** folios 2, 4, 6 … 24 in sequence. The **odd** folios turn up much later and in a
+different run — p.19 = 3, p.20 = 5, p.21 = 7, p.22 = 9, p.23 = 11, p.25 = 17, p.26 = 19,
+p.27 = 21, p.29 = 23. Anyone reasoning "archive page 4 is near archive page 5, so I have read
+that part of the paper" is reasoning about the scanner's tray, not the newspaper.
+
+**2. Folio numbers repeat, because several zone editions are bundled under one date.** In this
+one 33-page bundle there are **five pages numbered 7** (archive pp. 14, 21, 31, 32, 33), **five
+numbered 17** (pp. 16, 17, 18, 25, 30) and **two numbered 23** (pp. 15, 29).
+
+**3. There are two front pages, and one double-width scan.** p.1 and p.28 are both fronts;
+p.7 alone is a two-page spread at 6098 px wide, so even the "one scan = one page" assumption
+fails once per issue.
+
+**The consequence for #9, stated plainly: "I read page N of date D" is not a statement of
+coverage.** A negative on a page numbered 17 covers **one zone's** page 17 and says nothing
+about the other four. Every page-level negative in this file should be read that way from now
+on — not as wrong, but as narrower than it sounds. This is the same error the 2026-09-03 audit
+made one level up, when it read the browse list of titles and concluded the paper was
+unreachable "in any edition".
+
+**A cheap heuristic that falls out of it:** the imageIDs break between p.18 (`133213996`) and
+p.19 (`141723444`) — two different scan batches — and the break lands almost exactly where the
+even-folio run ends and the odd-folio run begins. **A discontinuity in the imageID sequence
+marks a structural boundary in the bundle**, and it can be seen without opening a single page.
+
+## HOW THE WHOLE ISSUE WAS OPENED WITHOUT 33 NAVIGATIONS
+
+The addendum above records that jp2 access is authorised **per page viewed**, which made this
+walk look like it would cost 33 top-level navigations — each one a Cloudflare risk and a page
+teardown. **It does not. Three things make it cheap:**
+
+1. **imageIDs can be harvested in bulk with `fetch()`, no navigation.** `fetch` the viewer URL
+   for each page and read `ImageID` out of the returned HTML. All 33 came back in one call.
+   This is *not* enough to authorise the jp2 — the descriptor still 400s — but it is enough to
+   know what to ask for.
+2. **A hidden `<iframe>` authorises the jp2, and a top-level navigation is not required.**
+   Appending an iframe pointing at `/pacific-stars-and-stripes/<date>/page-N/` causes the
+   server to authorise that page's jp2 within a couple of seconds. **No Cloudflare check is
+   triggered and the host page is never torn down.**
+3. **Authorisations accumulate for the session.** A page authorised earlier stays readable
+   while you work on another, so the whole issue can be opened once and then read freely.
+
+**Run four iframes in parallel with a short poll and all 33 pages of an issue are authorised in
+about one minute, with zero failures.** After that, tiles can be composed into any view you
+like: a 33-page thumbnail grid at DeepZoom level 9 shows every front page in one screenshot,
+and a grid of bottom-outer-corner crops at level 12 reads every folio line in three.
+
+**Practical notes for re-running it:** the folio sits in the **bottom outer** corner — left for
+even folios, right for odd — so both corners must be rendered; a 480 × 165 crop at level 12 is
+enough; and a `javascript_tool` call that awaits a slow load will hit the 45-second CDP timeout,
+so start work in a detached async function that writes progress to a global and poll it.

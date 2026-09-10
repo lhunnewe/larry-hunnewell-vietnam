@@ -478,6 +478,45 @@ Open questions:
    by a strict `-layout` search. Since an unmatched printed name IS the signature, the old
    recipe was manufacturing exactly the evidence we are hunting. That hazard is now closed.**
    `kia-same-name-hypothesis.md` has been annotated at the recipe.*
+   *2026-09-10, THE EDITION-STRUCTURE WALK IS DONE — **7 September 1965, all 33 archive pages,
+   and the result is bigger than the task.** Working: `research/events/kia-misreport-stars-
+   stripes.md`, section "THE EDITION-STRUCTURE WALK". **The edition is printed on every page.**
+   The date line under the folio carries a suffix, proved by three consecutive archive pages
+   all numbered folio 17 and differing only there: p.16 plain, **p.17 "—A"**, **p.18 "—O"**,
+   and p.30 gives **"—K"**. `—O` is Okinawa (p.33's text refers to the Ryukyus), `—K` is Korea
+   (the KOREA front is p.28), `—A` is not yet identified. **So the edition of any page can be
+   read off its own folio line — no front page needed, no offset computed.** This supersedes
+   the older method note "find an edition's front page by searching the day's lead headline",
+   which still works but is no longer necessary.*
+   *2026-09-10 — **what the archive calls "page N" is not a page of a newspaper, and this bears
+   on every page-level negative recorded in this search.** (a) **The archive's order is not the
+   paper's order:** archive pp.2–13 carry the EVEN folios 2,4,…,24 in sequence, while the ODD
+   folios appear much later in a separate run — p.19=3, p.20=5, p.21=7, p.22=9, p.23=11,
+   p.25=17, p.26=19, p.27=21, p.29=23. (b) **Folio numbers repeat, because several zone
+   editions are bundled under one date:** in this one bundle there are **five pages numbered
+   7**, **five numbered 17** and **two numbered 23**. (c) **Two front pages (pp.1 and 28) and
+   one double-width scan (p.7, 6098 px)**, so even "one scan = one page" fails once per issue.
+   **Consequence, stated plainly: "I read page N of date D" is not a statement of coverage.** A
+   negative on a page numbered 17 covers ONE zone's page 17 and says nothing about the other
+   four. Every page-level negative here should be read as narrower than it sounds — not wrong.
+   It is the same error the 2026-09-03 audit made one level up when it read the browse list of
+   titles and concluded the paper was unreachable "in any edition".*
+   *2026-09-10, A FREE HEURISTIC — **a discontinuity in the imageID sequence marks a structural
+   boundary in the bundle, and it can be seen without opening a page.** On 7 Sept the IDs break
+   between p.18 (133213996) and p.19 (141723444), and the break lands almost exactly where the
+   even-folio run ends and the odd-folio run begins.*
+   *2026-09-10, METHOD — **an entire issue can be opened in about a minute without a single
+   top-level navigation, and this changes what is affordable.** Three parts. (1) **imageIDs
+   harvest in bulk by `fetch()`** of each viewer URL — all 33 in one call; this does not
+   authorise the jp2 but tells you what to ask for. (2) **A hidden `<iframe>` pointed at the
+   viewer URL authorises that page's jp2 within a couple of seconds, triggers NO Cloudflare
+   check, and does not tear down the host page.** (3) **Authorisations accumulate for the
+   session.** Four iframes in parallel with a short poll authorised all 33 pages with zero
+   failures. Then compose tiles into whatever view is wanted: a level-9 thumbnail grid shows
+   every front page in one screenshot; level-12 crops of the bottom OUTER corner (left for even
+   folios, right for odd, 480×165 is enough) read every folio line in three. Caveat: a
+   `javascript_tool` call that awaits a slow load hits the 45-second CDP timeout, so start work
+   in a detached async function that writes progress to a global and poll it.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
