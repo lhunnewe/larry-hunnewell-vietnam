@@ -1953,3 +1953,130 @@ and a grid of bottom-outer-corner crops at level 12 reads every folio line in th
 even folios, right for odd — so both corners must be rendered; a 480 × 165 crop at level 12 is
 enough; and a `javascript_tool` call that awaits a slow load will hit the 45-second CDP timeout,
 so start work in a detached async function that writes progress to a global and poll it.
+
+---
+
+# 2026-09-10 — GOING LATE: THE SEP 12 – OCT 24 GAP, THE 12–13 OCT TARGET, AND THE CORRECTION SWEEP
+
+The last of the three deferred items ("test reading 1 of section 1 by going late, not early")
+was worked. **All three components are negative, and the negatives are worth more than they
+sound.**
+
+## 1. The Sep 12 – Oct 24 gap is closed, and it holds no unread Vietnam casualty release
+
+Four probes, all Pacific unless noted:
+
+| probe | window | total | result |
+|---|---|---|---|
+| `identified` | 12 Sep – 24 Oct 1965 | 141 | noisy; one new date |
+| `servicemen identified` | 12 Sep – 31 Dec 1965 | **15** | **the tightest probe found so far** — it returns Oct 25, Oct 29 and Nov 15 (all known) and one new date |
+| `released names killed` | 12 Sep – 31 Dec 1965 | 7 | returns Nov 11 (known) and the same new date |
+| `war dead` | 12 Sep – 31 Dec 1965 | 140 | noisy — WWII and Korea memorial items; nothing new |
+
+**`servicemen identified` is recommended as the standard probe from here on.** It is precise
+enough to read every hit and it recovered three of the known releases blind.
+
+**The single new item in the gap is 27 September 1965 — and it is not a Vietnam casualty
+release.**
+
+> **"Kamiseya Fire Dead Identified"** — TOKYO (S&S). *"The U.S. Navy has released the names of
+> the 12 American servicemen killed and 14 injured in Friday's fire at the Kamiseya Navy
+> Communications Center, 20 miles southwest of Tokyo."*
+
+Read at native resolution: **archive p.17, imageID 133214410, 3045 × 4398, printed folio 7,
+Monday 27 September 1965.** The item runs in **four zone editions** — archive pp. **17, 18, 21
+and 31** — which is the bundling structure established today behaving exactly as predicted.
+
+Names as printed, so the list is on the record: Lt. (jg) **Ernest D. Moody**, Havana; two
+Marines, Sgt. **Paul C. Rodri[guez]**, "Conajoharie", N.Y., and Lance Cpl. **Richard E.
+McKown**, Malden; then "other navymen" — CT Seaman Apprentices **Roger W. Alex**, Dawson, and
+**William E. Briley**, Costa [Mesa], Cal.; Seamen **Wayne E. Tower**, Bland[ford], Mass.;
+**James K. Whitman**, Tiffin, Ohio; **Dennis E. Etzweiler**, Millers[burg], Pa.; **Archie R.
+Garofalo**, Vine[land], N.J.; **Wilford D. Cordell**, Rose[…]. The last few hometowns are
+clipped by the column edge and are not chased, for the reason in the next section.
+
+**So the gap is negative for the purpose it was raised for.** The DoD releases were roughly
+weekly and an earlier session estimated "4–5 items are probably still unfound" in this gap.
+**On four probes there are none.** The Pacific simply did not run Vietnam casualty name lists
+between 10 September and 25 October 1965.
+
+## 2. A BOUNDARY CONDITION ON THE INSTRUMENT, found by nearly walking into it
+
+The obvious next move with the Kamiseya list was to screen its 12 names against DCAS, because
+this archive screens every list as a matter of course. **That would have produced twelve
+unmatched names, and every one of them a false positive.**
+
+**DCAS is a Vietnam-conflict roll.** The Kamiseya men died in a peacetime fire in Japan, so
+they are correctly absent from it. A screen would have returned twelve men "printed dead,
+absent from DCAS" — the exact documentary signature this whole search is built on — for twelve
+men who were simply, actually dead.
+
+**The rule that follows: establish that a list IS a Vietnam casualty release BEFORE screening
+it.** The instrument does not test whether a printed dead man is alive. It tests whether a man
+printed as a *Vietnam* casualty is absent from the *Vietnam* roll. Applied outside that frame
+it manufactures signal. This joins the `-layout`/`-table` finding of the same day as the second
+false-positive source closed in one session, and the two are the same kind of error: **the
+signature is an absence, and absences are only meaningful against a corpus that should have
+contained the thing.**
+
+## 3. The ~12–13 October target does not exist in the Pacific
+
+The target was inferred from the European edition of Tue 12 Oct 1965 identifying more
+servicemen killed. **No item appears at 12 or 13 October in the Pacific under any of the four
+probes above.**
+
+**This is the second documented instance of a DoD release that the European edition ran and the
+Pacific did not** — the first being "15 War Dead Identified", European S&S, Sunday 5 September
+1965, recorded above. Two instances is a pattern rather than an anomaly, and it materially
+weakens an assumption this search has leaned on since the beginning: **that the European
+edition is a reliable finding aid for the Pacific.** It is a finding aid for *what DoD
+released*. It is not evidence of *what the Pacific printed*.
+
+**For #9 this cuts both ways, and the second way is the more important.** It means a release
+naming Larry could have been issued and simply never have run in the paper he read — which is
+consistent with his account and unfalsifiable from this archive. But it equally means **the
+Pacific's silence in any given week is weaker evidence than it looks**, because the Pacific
+demonstrably skipped releases.
+
+## 4. The Dec 1965 – Feb 1966 correction sweep is negative — and it found the error class in print
+
+| probe | window | total | casualty-related |
+|---|---|---|---|
+| `erroneously reported dead` | 1965–1966, all editions | **0** | 0 |
+| `erroneously` | 1965–1966, all editions | 19 | **1** |
+| `mistakenly reported` | 1965–1966, all editions | 7 | 0 |
+
+**No Pacific Stars and Stripes item in 1965 or 1966 uses "erroneously" or "mistakenly" about a
+casualty.** The longest shot in this search — that Larry going to the chaplain to say he was
+alive produced a printed correction — **has now been probed and is negative.**
+
+**But the one hit is worth having.** *European Stars and Stripes, **Tuesday 4 May 1965***
+carries a reference to a correction **"on Page 4 after Marine had been erroneously reported
+killed on the U.S. Embassy grounds on Saturday."**
+
+**Read this carefully, because it is easy to over-read.** The Saturday before 4 May 1965 is
+**1 May 1965**, and the U.S. Embassy in question is almost certainly **Santo Domingo** — the
+Dominican intervention was at its height that week — **not Saigon**. On present evidence
+**this is not a Vietnam case and it is not a lead on Larry.**
+
+**What it is, is precedent, and the archive has never had any.** It is documentary proof that
+**Stars and Stripes did print corrections when a serviceman was erroneously reported killed**,
+and that such a correction ran **on an inside page (p.4)** rather than as a front-page
+retraction. Until today the correction Larry's account implies was a purely hypothetical
+object. It is now a known genre with a known format and a known place in the paper.
+
+**Recorded as an open item:** confirm the incident behind the 4 May 1965 item — Santo Domingo
+or Saigon — and read the correction itself on p.4 of the preceding issue. If Santo Domingo, it
+stays precedent. If Saigon, it becomes something much larger.
+
+## What the late window did to the question
+
+Nothing was found. **What changed is the shape of the remaining possibility.** Before today the
+open hypothesis was "the item is in a part of the paper we have not read yet". After the gap,
+the October target and the correction sweep, that is much harder to sustain for Sept–Dec 1965:
+**the Pacific's Vietnam casualty lists in that period are now all located and all read, and
+none of them names him.**
+
+The hypothesis that survives is different and weaker to test: **that the release naming him was
+issued but never ran in the Pacific** — for which there are now two demonstrated precedents in
+this very window, and which this archive cannot settle from the newspaper alone.

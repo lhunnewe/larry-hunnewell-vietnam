@@ -517,6 +517,66 @@ Open questions:
    folios, right for odd, 480×165 is enough) read every folio line in three. Caveat: a
    `javascript_tool` call that awaits a slow load hits the 45-second CDP timeout, so start work
    in a detached async function that writes progress to a global and poll it.*
+   *2026-09-10, GOING LATE — **the last of the three deferred items is worked, and all three
+   components are negative.** Working: `research/events/kia-misreport-stars-stripes.md`, section
+   "GOING LATE". **(a) The Sep 12 – Oct 24 gap holds no unread Vietnam casualty release.** Four
+   probes: `identified` (12 Sep–24 Oct, 141 hits), **`servicemen identified`** (12 Sep–31 Dec,
+   **15 hits — the tightest probe found so far**, and it recovered Oct 25, Oct 29 and Nov 15
+   blind), `released names killed` (7 hits, recovered Nov 11), `war dead` (140, noisy WWII/Korea
+   items). An earlier session estimated "4–5 items are probably still unfound" in this gap; **on
+   four probes there are none.** The Pacific ran no Vietnam casualty name list between 10
+   September and 25 October 1965. **`servicemen identified` is recommended as the standard probe
+   from here on.** (b) The one new item, **27 Sept 1965**, is **not** a Vietnam release: it is
+   "Kamiseya Fire Dead Identified" (TOKYO S&S), the Navy naming the 12 killed and 14 injured in
+   the fire at the Kamiseya Navy Communications Center near Tokyo — read at native resolution,
+   archive p.17, imageID 133214410, printed folio 7, and running in **four zone editions**
+   (archive pp.17, 18, 21, 31), which is today's bundling finding behaving as predicted.*
+   *2026-09-10, A BOUNDARY CONDITION ON THE INSTRUMENT, found by nearly walking into it —
+   **screening the Kamiseya list against DCAS would have produced twelve unmatched names and
+   every one a false positive.** DCAS is a **Vietnam-conflict** roll; the Kamiseya men died in a
+   peacetime fire in Japan and are correctly absent from it. A screen would have returned twelve
+   men "printed dead, absent from DCAS" — the exact signature this search is built on — for
+   twelve men who were simply dead. **RULE: establish that a list IS a Vietnam casualty release
+   BEFORE screening it.** The instrument does not test whether a printed dead man is alive; it
+   tests whether a man printed as a *Vietnam* casualty is absent from the *Vietnam* roll.
+   Outside that frame it manufactures signal. This is the second false-positive source closed in
+   one day (the first being `pdftotext -layout`), and they are the same kind of error: **the
+   signature is an absence, and an absence only means something against a corpus that should
+   have contained the thing.***
+   *2026-09-10 — **the ~12–13 Oct target does not exist in the Pacific**, on all four probes.
+   That is the **second** documented instance of a DoD release the European edition ran and the
+   Pacific did not (the first: "15 War Dead Identified", European S&S, Sun 5 Sept 1965). Two
+   instances is a pattern, and it weakens an assumption this search has leaned on throughout:
+   **the European edition is a finding aid for what DoD RELEASED, not for what the Pacific
+   PRINTED.** For #9 it cuts both ways — a release naming Larry could have been issued and never
+   have run in the paper he read, which is consistent with his account and unfalsifiable from
+   this archive; but equally **the Pacific's silence in any given week is weaker evidence than
+   it looks.***
+   *2026-09-10, THE CORRECTION SWEEP IS NEGATIVE — **and it found the error class in print for
+   the first time.** `erroneously reported dead` 1965–66: **0 results**. `erroneously` 1965–66:
+   19 results, **one** casualty-related. `mistakenly reported` 1965–66: 7, none. **No Pacific
+   S&S item in 1965 or 1966 uses "erroneously" or "mistakenly" about a casualty** — so the
+   longest shot in this search, that Larry telling the chaplain he was alive produced a printed
+   correction, is probed and negative. **The one hit is precedent the archive has never had:**
+   *European Stars and Stripes, **Tue 4 May 1965*** refers to a correction **"on Page 4 after
+   Marine had been erroneously reported killed on the U.S. Embassy grounds on Saturday."**
+   **Do not over-read it:** the Saturday before is 1 May 1965 and the embassy is almost certainly
+   **Santo Domingo** (the Dominican intervention), **not Saigon** — on present evidence this is
+   not a Vietnam case and not a lead on Larry. **What it is: documentary proof that Stars and
+   Stripes printed corrections when a serviceman was erroneously reported killed, and that such
+   a correction ran on an inside page (p.4).** Until today that object was purely hypothetical;
+   it is now a known genre with a known format and a known place in the paper. **OPEN: confirm
+   the incident behind the 4 May 1965 item — Santo Domingo or Saigon — and read the correction
+   itself on p.4 of the preceding issue. If Santo Domingo it stays precedent; if Saigon it
+   becomes something much larger.***
+   *2026-09-10, WHAT THE LATE WINDOW DID TO THE QUESTION — nothing was found, **but the shape of
+   the remaining possibility changed.** Before today the open hypothesis was "the item is in a
+   part of the paper we have not read yet". After the gap, the October target and the correction
+   sweep that is hard to sustain for Sept–Dec 1965: **the Pacific's Vietnam casualty lists in
+   that period are now all located and all read, and none names him.** The hypothesis that
+   survives is different and weaker to test — **that the release naming him was issued but never
+   ran in the Pacific** — for which there are now two demonstrated precedents in this very
+   window, and which cannot be settled from the newspaper alone.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
