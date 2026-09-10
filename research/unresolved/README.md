@@ -386,6 +386,98 @@ Open questions:
    others were listed as dead from other than hostile causes."* Names begin at about page
    fraction **y=0.72**, column **x≈0.048, w≈0.19**. **One page, ~24 names** — then the three
    November lists are complete. Also free and offline: the edit-distance pass on the five above.*
+   *2026-09-10, THE EDIT-DISTANCE PASS IS DONE — **all five resolve, none was an absence, and
+   Nov 11 + Nov 12 are 55 of 55 matched.** Free, offline; corpus rebuilt to 202,942 lines across
+   55 files, reproducing the recorded figure exactly. **MacLin** = MACKLIN RONALD, Army WO1,
+   Glendale/Los Angeles Co. CA, d. 19651020; **Russel Hammond** = HAMMOND RUSSELL, Army SFC,
+   Pittsburgh/Allegheny PA, d. 19651105; **J. W. Barksdale** = BARKSDALE **JAMES WILLIAM**, Army
+   SGT, St Petersburg/Pinellas FL, d. 19651106 — the initials resolve outright; **Kelley E.
+   Whitaker** = WHITAKER KELLY, Army PFC, Memphis/Shelby TN, d. 19651108; **Philip K. Rea** =
+   REA **PHILLIP KENNETH**, Army PFC, Chicago/Cook IL, d. 19651106. Every one exact on rank,
+   service and city, with a 4–6 day lag to printing (MacLin, already matched once as an Oct 25
+   missing man, is the exception at 22). **No fuzzy matching was needed** — all five were plain
+   surname greps on the NATIONAL roll, and they looked like edit-distance problems only because
+   the fifth pass screened them against the printed state first, which is correction 2 in the
+   reconciliation file's own method section.*
+   *2026-09-10, THE BASE RATE COMES DOWN, AND OUR OWN NUMBER IS CORRECTED — **the union is now
+   118 distinct printed names: 111 matched, 7 not, and every one of the seven was alive.**
+   Printed DEAD 94 names, 93 in DCAS, the sole exception Halyburton; printed MISSING 24, 18 in
+   DCAS, the six absent being the men who came home. **The rate of men printed dead who were not
+   dead is therefore about one in ninety-four (~1%), NOT the one in forty (~2.5%) recorded
+   yesterday** — 54 further printed-dead names all matched. **This cuts both ways and both
+   belong here.** It **weakens** the prior on Larry's account being visible in this corpus by
+   more than half. It **strengthens** the instrument: 54 more names produced no noise at all, so
+   an unmatched printed-dead name stays a rare and therefore informative event. Larry's case is
+   still the kind of thing this method can see; it is a rarer kind of thing than we said.*
+   *2026-09-10, A CORRECTION TO THE RESUME POINT ABOVE — **Nov 15 is NOT unread.** An earlier
+   session read it in full and recorded 17 Army surnames (Pasqual, Harrington, Holcum, Howard,
+   Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser, Foster, Hawes, Ross,
+   Mathison, Potter), composition **19 killed + 5 non-hostile + 1 missing**. What is outstanding
+   is a **re-read for given names and hometowns**, exactly as for Nov 11 and Nov 12 — where nine
+   surnames in 55 had drifted. **The single missing man on the Nov 15 list is a free test of the
+   instrument.***
+   *2026-09-10 — **the hometown-based negatives in `kia-misreport-stars-stripes.md` are now
+   annotated in place**, at the 44-hit "inglewood" sweep and at the "no Inglewood" list table, so
+   a reader meeting them cannot take them for a test that was passed. **None needed reversing on
+   present evidence; their weight is downgraded from "rules out" to "does not support".***
+   *2026-09-10, NOV 15 IS READ IN FULL — **25 names, all with given names and hometowns, and
+   the November queue is now CLOSED.** Working: `research/events/kia-list-dcas-reconciliation.md`.
+   Pacific S&S **Mon 15 Nov 1965, archive p.4 = printed p.6** (folio read off the page),
+   "Casualties Identified", imageID 133215410, scan 2975×4295. **No Hunnewell.** The earlier
+   "READ IN FULL" record for this date covered **one of the item's four blocks**: 17 Army
+   surnames, of which **five had drifted** (Pasqual→**Pascuel**, "C. Bell"→**Ball**,
+   Herman→**Merman**, Elsasser→**Elmore**, Ross→**Keao**), and it omitted the Marine killed
+   (Cpl. **Larry D. Bell**), an Army SP4 printed as **"(no first name given) Sciptltate"** —
+   DCAS **TATE SCIP**, the paper ran given name and surname together — the five non-hostile
+   dead (**Nuziard, Dawson, Sizemore, Ivanov, McBride**) and the missing man (**Esposito**).*
+   *2026-09-10 — **screened: 25 of 25 matched. The signature does not fire.** Running total for
+   the whole search: **143 printed names, 136 matched, 7 not, and every one of the seven was
+   alive.** Printed DEAD 118, of which 117 in DCAS (Halyburton the sole exception); printed
+   MISSING 25, of which 19. **The measured rate of men printed dead who were not dead is now
+   about one in 118** — it was one in forty two days ago and one in ninety-four this morning,
+   and it has fallen every time the denominator grew.*
+   *2026-09-10, THE HOMETOWN DISCRIMINATOR IS NOT WEAK, IT IS NOISE — **and the paper says so in
+   print.** On this single list, **at least eleven of 24 men were printed with a place that is
+   not their home of record**: two of them a *post* (Fort Benning, twice), one **the wrong Boise
+   City**, and **PFC John K. Keao III printed as of Haleiwa, Hawaii against a home of record of
+   Los Angeles County, California**. The item then ends: *"Missing in action was Army PFC
+   William Esposito Jr. **His home town was withheld.**"* **For #9 this closes it: Inglewood was
+   never a test.** A printed entry for Larry could have carried Tan Son Nhut, a hospital, a
+   post, a city his family had left, the wrong city of the same name — or nothing at all. **The
+   name is the only discriminator this corpus supports.***
+   *2026-09-10, TWO DATING TRAPS, both documented on this one list. **Backdating:** Capt. Daniel
+   G. Dawson is printed among the newly identified dead on 15 Nov 1965; DCAS gives his death as
+   **6 Nov 1964**, remains not recovered — when a missing man is resolved to dead, the date that
+   enters the record is **the date he went missing** (the Goudy pattern again). **Do not date an
+   item from a DCAS death date without allowing for a year's lag.** **The missing column lags
+   too:** PFC William Esposito Jr. is printed *missing* on 15 Nov; DCAS has him **dead on 11
+   Nov**, four days before the item ran. The instrument is asymmetric — an unmatched name in the
+   DEAD column is informative; the MISSING column is noisy in both directions.*
+   *2026-09-10, METHOD — **the IIP crop recipe recorded in `kia-misreport-stars-stripes.md` is
+   dead, and the replacement is better.** Every fractional `RGN=` now returns HTTP 400 at every
+   WID and QLT; `RGN=0,0,1,1` only appears to work because the viewer had cached that exact URL.
+   **`fetch()` is blocked by the WAF and `<img>` is not** (the `.dzi` descriptor is the one
+   exception). Use the viewer's own transport: read `?DeepZoom=<jp2>.dzi` for size and tile
+   size, compute max level as `ceil(log2(max(W,H)))` (**13** here, giving true native
+   2975×4295), load `?DeepZoom=<jp2>_files/13/{col}_{row}.jpg` **as `<img>` elements** laid out
+   at `left=col*256, top=row*256`, and scale the container by CSS. **Display at 2×–3× native**,
+   because the browser screenshot downsamples a 2560-px viewport to 1568.*
+   *2026-09-10, METHOD, AND THIS ONE IS SERIOUS — **the DCAS corpus recipe has been wrong since
+   the same-name pass. `pdftotext -layout` mis-associates names with their data; use
+   `pdftotext -table`.** The NARA PDFs set the Name column on tighter line spacing than the data
+   columns, so position-based reconstruction pairs a name with the wrong row; the tell is
+   alternating bare-name lines and data rows missing the Service field. Three controls: a record
+   reconstructed by hand from the wrapped text was **predicted exactly** by `-table` and
+   independently corroborated by the newspaper (BAAL CARL THOMAS / "SP5 Carl T. Ball"); a
+   control record is identical under both modes; and `-table` gives **58,096** date-bearing rows
+   against `-layout`'s **59,354**, where the true figure is near the **~58,220** names on the
+   Wall. **Both archive controls survive the change: no Hunnewell anywhere in the corrected
+   roll, and Halyburton correctly absent.** No verdict already recorded is reversed — every
+   match asserted was corroborated by rank, service, city or date — **but four names on the
+   Nov 15 list alone (Bell, Ball, Spencer, Tate) are in DCAS and would have been called absent
+   by a strict `-layout` search. Since an unmatched printed name IS the signature, the old
+   recipe was manufacturing exactly the evidence we are hunting. That hazard is now closed.**
+   `kia-same-name-hypothesis.md` has been annotated at the recipe.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still

@@ -33,6 +33,13 @@ Archive-wide searches of the whole S&S archive (all editions, 1942–2012 covera
   Sep 15; Capt. John A. Rooke of Inglewood, Sep 30 — neither related). **No casualty
   list and no Hunnewell.**
 
+  > **CAUTION, added 2026-09-10 from the 2026-09-09 re-read — this negative is weaker than it looks.** The Nov 19
+  > re-read showed that the hometown this paper prints is frequently not a hometown: four of
+  > eight men in one item were given a base or a place that is not their home of record. **A
+  > printed entry for Larry need not carry the word "Inglewood" at all**, so this sweep does
+  > not cover one. It rules out an Inglewood-tagged item, and nothing more. See the section
+  > "AND A DISCRIMINATOR THIS SEARCH HAS BEEN LEANING ON JUST GOT WEAKER" below.
+
 ## The casualty-list feature identified
 
 Pacific S&S in this period ran the DoD casualty releases as short AP/UPI items with
@@ -59,6 +66,10 @@ announced names", "died of wounds", "dod names" — Sep–Dec 1965 window):
 | Nov 24 | p.4 | DoD item ("said Monday") | **NOT yet read** | ? |
 
 Lists read in full (no Hunnewell, no Inglewood, no similar name):
+
+> **The "no Inglewood" half of this heading, and of every "No Inglewood" cell in the table
+> above, should be read as corroboration only — not as a test that was passed.** See the
+> caution above. The **name** is the discriminator.
 
 - **Sep 2, p.32 — "U.S. Names Vietnam Dead"** (11 dead, Aug 30 announcement). KIA:
   Marine Cpl. Terry J. Neumier (Kewaunee, Wis.); Lance Cpl. Veron Hadley (Bay Minette,
@@ -285,7 +296,7 @@ rapid automated navigation and was cleared by Leroy. Pace requests; batch reads,
 | Date 1965 | Page | Result |
 |---|---|---|
 | **Nov 12** | 4 (printed 6) | **READ IN FULL — NO HUNNEWELL.** "Casualty List For Vietnam", 23 Army + 1 Marine. King, Ugland, Thayer, Anderson, Smith, Sherrod, Ebison, Barksdale, Savage, Elliott, Kusovich, Nathan, Hill, Rodriguez, Sligh, Maynard, Crafton, Tolliver, Whitaker, Mooney, Ren, Hannigan, Lynch; Metott (USMC). No Inglewood. |
-| **Nov 15** | 4 (printed 6) | **READ IN FULL — NO HUNNEWELL.** "Casualties Identified", 19 killed + 5 non-hostile + 1 missing. Army: Pasqual, Harrington, Holcum, Howard, Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser, Foster, Hawes, Ross, Mathison, Potter. No Inglewood. |
+| **Nov 15** | 4 (printed 6) | **SUPERSEDED — see the 2026-09-10 re-read at the end of this file. This row covered ONE of the item's four blocks and five of its surnames had drifted. NO HUNNEWELL (still true).** "Casualties Identified", 19 killed + 5 non-hostile + 1 missing. Army: Pasqual, Harrington, Holcum, Howard, Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser, Foster, Hawes, Ross, Mathison, Potter. No Inglewood. |
 | **Oct 29** | 4 | **STRUCK — resolved from the search snippet.** Only two men identified, and the Army one is named: SSgt Daniel L. Chappell, Seaside, Cal.; the other is Air Force. |
 | **Nov 5** | 4 | **STRUCK — resolved from the search snippet.** Six identified, five Marines and **one** Army man, named in the snippet as PFC Peter Ruzila, Paramus, N.J. |
 | **Nov 4** | 4 | **STRUCK — NOT A CASUALTY LIST.** It is a policy story about whether to stop sending 17-year-olds to Vietnam. The August table had flagged it "may not be a list"; confirmed. |
@@ -1706,3 +1717,94 @@ corroboration at best.
 **Best remaining use of the subscription:** re-read the **Nov 11, Nov 12 and Nov 15** lists
 capturing **given names and hometowns** rather than surnames only — three pages, about 70
 testable names, and the Nov 19 re-read has just demonstrated how far a transcription can drift.
+
+---
+
+# 2026-09-10, THE NOV 15 RE-READ — AND TWO METHOD FINDINGS THAT OUTLAST IT
+
+Full working, including the 25-name transcription and the DCAS screening:
+**`kia-list-dcas-reconciliation.md`**, sections "SEVENTH PASS" and "THE CORPUS RECIPE IS WRONG".
+
+**Pacific S&S, Mon 15 Nov 1965, archive p.4 = printed p.6, "Casualties Identified"** (imageID
+133215410, scan native 2975 × 4295) is now transcribed **in full for the first time — 25
+names**, with given names and hometowns. **No Hunnewell.** The earlier "READ IN FULL" entry for
+this date had covered one of the item's four blocks: it held 17 Army surnames, of which **five
+had drifted** (Pasqual→**Pascuel**, "C. Bell"→**Ball**, Herman→**Merman**, Elsasser→**Elmore**,
+Ross→**Keao**), and it omitted the Marine killed (Cpl. Larry D. Bell), an Army SP4 printed as
+**"(no first name given) Sciptltate"** (DCAS: **TATE SCIP** — the paper ran his given name and
+surname together), the five non-hostile dead, and the missing man.
+
+**Screened against DCAS: 25 of 25 matched. The signature does not fire.** Running total across
+every list read in this search: **143 names, 136 matched, 7 not — and every one of the seven
+was alive.** The measured rate of men printed dead who were not dead is now **about one in 118**,
+down from the "one in forty" recorded two days ago; it has fallen every time the denominator has
+grown.
+
+**With Nov 15 read, the entire November queue is closed.**
+
+## THE HOMETOWN DISCRIMINATOR IS NOT WEAK, IT IS NOISE — AND THE PAPER SAYS SO
+
+The caution added at the top of this file today was still too generous. On this one list, **at
+least eleven of 24 men were printed with a place that is not their home of record** — two of
+them a *post* (Fort Benning, twice), one the wrong Boise City, and **PFC John K. Keao III
+printed as of Haleiwa, Hawaii against a home of record of Los Angeles County, California**.
+
+And the item ends: *"Missing in action was Army PFC William Esposito Jr. **His home town was
+withheld.**"* **The paper states in print that it sometimes does not give the hometown at all.**
+
+For #9 this closes the question: **Inglewood was never a test.** A printed entry for Larry could
+have carried Tan Son Nhut, a hospital, a post, a home of record his family had left, a wrong
+city of the same name — or nothing. **The name is the only discriminator this corpus supports.**
+
+## Two further patterns, both dating traps
+
+- **Backdating.** Capt. Daniel G. Dawson is printed among the newly identified dead on 15 Nov
+  1965; DCAS gives his death as **6 Nov 1964**, remains not recovered. When a missing man is
+  resolved to dead, the date that enters the record is **the date he went missing**. This is the
+  Goudy pattern again. **Do not date an item from a DCAS death date without allowing for it.**
+- **The missing column lags.** PFC William Esposito Jr. is printed **missing** on 15 Nov; DCAS
+  has him **dead on 11 Nov**, four days before the item ran.
+
+## METHOD FINDING 1 — THE IIP CROP RECIPE IN THIS FILE IS DEAD; USE DEEPZOOM TILES AS `<img>`
+
+The recipe recorded under "Method notes" above —
+`iipsrv.fcgi?FIF=…&WID=…&RGN=x,y,w,h&CVT=jpeg` — **no longer works.** Every fractional `RGN`
+now returns **HTTP 400** (`application/vnd.netfpx`, 17 bytes), at every `WID`, at every `QLT`.
+`RGN=0,0,1,1` appears to work but only because the viewer had already cached that exact URL;
+requested fresh with any other parameter it 400s too.
+
+**What works, and it is better:**
+
+1. **`fetch()` is blocked; `<img>` is not.** The WAF rejects the same URL by XHR and serves it
+   to an image element. Anything you want must be loaded as an `<img>`, never fetched. (The
+   `.dzi` descriptor is the one exception — it fetches fine.)
+2. **Read the descriptor first**, as the older note says:
+   `iipsrv.fcgi?DeepZoom=<jp2 path>.dzi` → for this page,
+   `TileSize="256" Overlap="0" Format="jpg"`, `Size 2975 × 4295`.
+3. **Compute the maximum level as `ceil(log2(max(W,H)))`** — here **13**, giving the full
+   2975 × 4295. Level 12 is half size; anything above 13 404s.
+4. **Fetch tiles as `<img>` from
+   `iipsrv.fcgi?DeepZoom=<jp2 path>_files/13/{col}_{row}.jpg`**, cols `0…ceil(W/256)-1`,
+   rows `0…ceil(H/256)-1`, and lay them out absolutely in a container at `left = col*256`,
+   `top = row*256`.
+5. **Scale the container with a CSS transform, not the tiles.** The browser screenshot is
+   downsampled (a 2560-px viewport arrives as 1568 px, a factor of ~0.61), so **display at 2×–3×
+   native** to keep agate legible after that. 3× was comfortable; 2× was readable.
+
+**This is strictly better than the old recipe**: it is the viewer's own transport, so it is not
+rate-limited or WAF-blocked, and it reaches true native resolution rather than whatever `WID`
+the server felt like honouring.
+
+## METHOD FINDING 2 — THE DCAS CORPUS RECIPE IS WRONG
+
+`pdftotext -layout`, used by every DCAS pass in this archive, **mis-associates names with their
+data**, because the NARA PDFs set the Name column on tighter line spacing than the data columns.
+**`pdftotext -table` is correct**, and the switch closed four false absences on the Nov 15 list
+alone (Bell, Ball, Spencer, Tate — all in DCAS, all of which a strict `-layout` search calls
+missing). Both controls survive the change: **no Hunnewell anywhere in the corrected roll**, and
+**Halyburton correctly absent.** Full evidence and the corrected recipe are in
+`kia-list-dcas-reconciliation.md`; `kia-same-name-hypothesis.md` has been annotated.
+
+**Why it matters here and not only there:** an unmatched printed name *is* the signature this
+whole search is built on. A parser that can fail to find a man who is in the roll manufactures
+exactly the evidence we are looking for. That hazard is now closed.
