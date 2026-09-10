@@ -287,6 +287,44 @@ Open questions:
    question and it needs no subscription. **Built-in control:** the Oct 25 list printed Lt. (jg)
    Porter A. Halyburton as dead when he was a living POW, so a working method must return him as
    an unmatched name.*
+   *2026-09-09, THE RECONCILIATION WAS RUN THE SAME DAY — **the signature is real, and the
+   control fired.** Full working: `research/events/kia-list-dcas-reconciliation.md`. Offline and
+   free; the DCAS roll was re-downloaded and reproduced exactly (202,942 lines). **59 printed
+   names** from the Sep 2, Sep 10, Oct 25, Nov 19 and Nov 11 lists were reconciled. **51 matched;
+   8 did not, and every one of the 8 falls into a category that predicts it.** **THE CONTROL:**
+   Lt. (jg) **Porter A. Halyburton**, printed among the *dead* on 25 Oct, has **no occurrence in
+   the entire national roll** — he was a living POW, and the method recovered a known false
+   report blind. **SECOND VALIDATION, five cases deep:** five of the 17 men printed as *missing*
+   on 25 Oct are absent from DCAS (Schierman, Norse, Sima, McDonald, Wheat) — men listed missing
+   who never enter DCAS are the men who **came home**, and Schierman, Sima and Wheat are known
+   returned prisoners. The two categories behave exactly as the theory predicts.*
+   *2026-09-09 — **what the reconciliation corrected, and one warning that bears on the whole
+   search.** Four apparent failures were printing/transcription variants rather than absences,
+   and they correct this archive's own transcriptions of a printed source (**not** any of Larry's
+   words — rule 1 is not engaged): **Neumier→NEUMEIER**, **Badsling→BADSING**, **Covoy→COVEY**,
+   **Hadley "Veron"→VERLON**. Keep both forms; the printed spelling is evidence of what the paper
+   said. **The warning:** S/Sgt Lawrence Covey was printed as **Los Angeles** but his DCAS home
+   of record is **Benedict, Nebraska**. **The paper's printed hometown can disagree with the
+   official one**, which weakens hometown as a discriminator anywhere in this search — and
+   Larry's Inglewood is a hometown argument.*
+   *2026-09-09 — **two names printed as DEAD are genuinely unmatched, and settling them costs one
+   page.** **PFC Floyd D. Simmons** ("dead of wounds") and **1st Lt. Richard L. Gandy** of Clovis
+   N.M. ("previously listed as missing"), both from **Nov 19, p.4**, have no DCAS record after
+   exact, windowed and edit-distance searching. Either our transcription of those two names is
+   wrong — six other names from that same list reconcile, but Covey was itself mis-transcribed —
+   or they are further instances of the error class. **Gandy is the more suggestive: his status
+   had already moved once, and a second move is the Halyburton pattern exactly.** **Resume point,
+   and it is now the most specific unread target in the whole question: re-read Pacific S&S,
+   19 Nov 1965, p.4 (imageID 133215485) and check those two names letter by letter.** Also worth
+   three pages: re-read the Nov 11, Nov 12 and Nov 15 lists capturing **given names and
+   hometowns**, not surnames only — that adds ~70 testable names.*
+   *2026-09-09 — **what this does for Larry.** It does not find him; no Hunnewell was printed in
+   any list the archive has read. What it does is turn a hypothesis into an instrument: **the
+   signature his case would leave — printed dead, absent from DCAS — is real, detectable, and was
+   recovered blind from a known case.** And the base rate is measured rather than assumed: across
+   59 names, **one man printed as dead was demonstrably alive**, with two unresolved, in the same
+   months and the same paper. **The printed record and the official record disagree here at about
+   one case in sixty, and Larry says he was one of them.***
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
