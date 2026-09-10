@@ -239,6 +239,54 @@ Open questions:
    between editions. **Resume point: the bundled non-Five-Star pages of 3–6 Sept — Sep 5 first,
    66pp and almost wholly unread — and, before spending more on content, walk one 33-page issue
    end to end to map where each masthead changes.***
+   *2026-09-09, SECOND SESSION — **the bundled editions are read for 5 Sept and are negative,
+   the negative now spans 3–9 Sept, and a DoD release inside the window is found in the EUROPEAN
+   edition that the Pacific appears never to have run.** Sep 5's second front page was located
+   the cheap way — search the day's lead headline (`steel pact`), which returns one hit per
+   edition — and sits at **p.22**, not p.28. **That positively disconfirms the "six pages"
+   arithmetic**: the offset tracks the size of that day's Five-Star and is not fixed. Read and
+   negative: **p.22 (KOREA EDITION front, Vol. 21 No. 247)**, p.24 (Korea war news), p.26
+   (Pacific-wide features), p.45 (Sunday sports). The cross-edition pattern is now four
+   instances deep — identical wire war news with **one local item swapped per edition** ("Heads
+   for N. Vietnam" where the Five-Star ran Weather; "Adm. Brown in ROK" where it ran "Collision
+   Kills 15 Turks") — and **no edition carried casualty content the others lacked.** Okinawa is
+   still only a *zone*, not a confirmed edition: Okinawa content sits at pp.23/27/66 but **no
+   Okinawa masthead has been seen**, and that stays unknown until one is.*
+   *2026-09-09 — **the probe that should have been used from the start.** `defense department`
+   was the wrong handle; **every DoD release in this paper uses the verb "identified"**, which
+   survives OCR far better than a name column. Run exact-date across **every date 3–9 September
+   1965**: 2, 3, 2, 4, 4, 3 and 2 hits — **not one a Pacific casualty release** (police
+   identifications, a submarine, a libel complaint, reactor design, prison escapees; on 8 Sept a
+   B-57 pilot named, Capt. Wilfred Hamann of Tucson, appearing on p.1 **and p.28** — two fronts
+   again). `hostile` on 5 Sept returns **zero**, and every list of this period carries a
+   "non-hostile" category, so that zero is meaningful. **The negative therefore extends cleanly
+   from 3–7 to 3–9 September, bounded either side by lists already read in full and already
+   negative (Sep 2 p.32, Sep 10 p.19).***
+   *2026-09-09, THE FIND — **"15 War Dead Identified", European Stars and Stripes, Sunday 5
+   Sept 1965, p.3.** *"The Defense Department identified Thursday 15 more American servicemen
+   killed in action in Viet Nam. They were:"* — then a name list under Army and Marine Corps
+   subheads. The release was issued **Thursday 2 September**, precisely the window both the
+   medevac chain and Larry's "may have been 9/3/1965" point at. **The Pacific is a day AHEAD of
+   Europe, so its version should have run 3 or 4 September — and it did not, nor on 5, 6, 7, 8
+   or 9.** The Pacific's Sep 2 item is a different release (11 dead, announced 30 Aug) and its
+   Sep 10 item a later one. **This is the first time the search has identified a particular
+   named release that the Pacific skipped, rather than a general absence.** **The 15 names were
+   NOT read, and cannot be**: the page's DeepZoom descriptor gives its native size as
+   **1553×2095** (~100 dpi for a broadsheet), and the IIP crop endpoint is capped at native
+   (`WID=5200` and `WID=12000` both return 1553×2095). Headline and lede resolve; 5.5-point
+   agate at ~7 pixels tall does not. **That is a measured constraint on the whole search, not a
+   one-page problem**, and future sessions should check `<jp2 path>.dzi` before paying to zoom.*
+   *2026-09-09 — **the test this makes possible, and it is FREE.** The same-name work
+   established there is no Hunnewell anywhere in the 59,577-row NARA DCAS fatal-casualty roll.
+   The corollary is a method: **a man reported killed in error and later corrected never enters
+   DCAS, but he does appear in the newspaper.** So a name printed in a Stars and Stripes
+   casualty list with **no matching DCAS record** is the exact documentary signature of an
+   erroneous report — which is Larry's case. **Every list already transcribed in
+   `kia-misreport-stars-stripes.md` (Sep 2, Sep 10, Oct 25, Nov 11, Nov 12, Nov 15, Nov 19) has
+   never been reconciled against DCAS.** That is now the highest-value unworked task in this
+   question and it needs no subscription. **Built-in control:** the Oct 25 list printed Lt. (jg)
+   Porter A. Halyburton as dead when he was a living POW, so a working method must return him as
+   an unmatched name.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
