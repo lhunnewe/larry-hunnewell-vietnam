@@ -1808,3 +1808,18 @@ missing). Both controls survive the change: **no Hunnewell anywhere in the corre
 **Why it matters here and not only there:** an unmatched printed name *is* the signature this
 whole search is built on. A parser that can fail to find a man who is in the roll manufactures
 exactly the evidence we are looking for. That hazard is now closed.
+
+### Addendum, same day — jp2 access is authorised PER PAGE VIEWED, so an issue cannot be walked cheaply
+
+A tempting shortcut was tested and **does not work**: imageIDs look sequential within an issue,
+so it seemed possible to map a whole issue from one anchor page without loading the other 32
+viewer pages. **It is not.** Requesting the `.dzi` descriptor for the imageIDs either side of a
+page actually visited returns **HTTP 403**, while the visited page returns 200:
+
+    133215409 = 403
+    133215410 = 200   (Nov 15 p.4 — the page whose viewer URL was loaded)
+    133215411 = 403
+
+**The portal authorises the jp2 when its viewer page is loaded, and not before.** So the
+edition-structure walk of a 33-page issue genuinely costs 33 viewer navigations; there is no
+way to buy it more cheaply, and any future plan that assumes otherwise should be dropped.
