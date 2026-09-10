@@ -317,3 +317,78 @@ place is corroboration at best.
 - [ ] **Revisit the hometown-based exclusions** recorded across this search in light of the
       warning above. None need reversing on present evidence, but their weight should be
       downgraded from "rules out" to "does not support".
+
+---
+
+# 2026-09-09, FIFTH PASS — NOV 11 AND NOV 12 RE-READ WITH GIVEN NAMES AND HOMETOWNS
+
+Two of the three surname-only lists were re-read at native resolution and are now fully
+transcribed. **Nov 15 was located but not read — see the resume point.**
+
+## Nov 11, p.4 — "U.S. Identifies 31 War Dead" (imageID **133215320**, scan 3006×4353)
+
+**ARMY (27):** WO Don G. Knowlton, Savage, Minn.; WO Ronald W. **MacLin**, Glendale, Cal.;
+SFC Russel Hammond, Pittsburgh; SSgt. Arlen C. Tuttle, Columbus, Ga.; SSgt. Robert F. Townsend,
+Royal Oak, Minn.; SSgt. Morris E. Wheeler, Clarksville, Tenn.; SSgt. Gordon S. Huggins,
+Columbia, S.C.; Sgt. Charles C. Cox, Greensboro, N.C.; Sgt. Miles H. **Loper** Jr., Washington;
+Sgt. Samuel Bess, Sanford, N.C.; Sgt. James H. **Jarzenski**, Cochranton, Pa.; SP5 Walter W.
+Brown, Waukegan, Ill.; SP5 James J. **Howard**, Dora, Ala.; SP4 Robert A. Tillquist, Branford,
+Conn.; PFC Fred Moore Jr., Shapsville, Ind.; PFC Richard A. Noelke, Fontana, Cal.; PFC Wright B.
+Hamill, Albany, Ore.; PFC Ronald H. Luke, Miami; PFC Daniel Santos-Trujillo, Puerto Rico; PFC
+Clayton Collins, Roselle, Ill.; PFC Willie C. Pickett, Pensacola, Fla.; PFC Timothy H. Johnson,
+Milwaukee; PFC James T. **Pottkotter**, New Weston, Ohio; PFC Laris White Jr., Chiplese, Fla.;
+PFC James R. Parrett, Colorado Springs, Colo.; PFC Alan L. Barnett, Astoria, Ore.; Pvt. Carl S.
+Daniels, New Orleans.
+
+**MARINE CORPS (4) — never transcribed before:** Lance Cpl. John P. Duchnowski, Cleveland;
+PFC William L. Hunt, Indianapolis; PFC William B. Mitchell, Danbury, Conn.; PFC Larry A. Rayski,
+St. Louis.
+
+**Corrections to this archive's earlier surname-only transcription:** Macklin→**MacLin**,
+Jarnigan→**Jarzenski**, Lopez→**Loper**, Hayward→**Howard**, Potkanicz→**Pottkotter**.
+
+## Nov 12, p.4 — "Casualty List For Vietnam", 23 Army + 1 Marine (imageID **133215338**)
+
+**ARMY (23):** 2d Lt. Felix D. King, Indiana, Pa.; 2d Lt. David L. Ugland, Minneapolis, Minn.;
+1st Sgt. Thomas E. Thayer, Clarksville, Tenn.; SFC Everett R. Anderson, Fort Collins, Colo.;
+SSgt. Ralph N. Smith, Clarksville, Tenn.; Sgt. Louis Sherrod, Kokomo, Ind.; Sgt. Samuel A.
+**Eidson**, North Birmingham, Ala.; Sgt. J. W. Barksdale, North St. Petersburg, Fla.; Sgt. Varis
+Savage, Newport News, Va.; Sgt. Gary W. **Platt**, Nederland, Colo.; SP4 George C. **Kosovich**,
+Bloomfield, Conn.; SP4 John A. Nathan, San Francisco; Cpl. Eddie L. Hill, Columbus, Ga.; Cpl.
+Rudolph Rodriguez, Highland Falls, N.Y.; PFC Alvin C. Sligh, Greensboro, N.C.; PFC Thomas H.
+Maynard, El Monte, Cal.; PFC James J. Crafton, Philadelphia; PFC Samuel S. Tolliver, Richmond,
+Va.; PFC Kelley E. Whitaker, Memphis, Tenn.; PFC James Mooney, Selma, Ala.; PFC Philip K.
+**Rea**, Chicago; PFC John S. Hannigan II, Antioch, Cal.; PFC Justin M. Lynch, Fayetteville, N.C.
+
+**MARINE CORPS (1):** Lance Cpl. Gerald P. Metott, Springwater, N.Y.
+
+**Corrections:** Ebison→**Eidson**, Elliott→**Platt**, Kusovich→**Kosovich**, Ren→**Rea**.
+
+## Screening result — first strict pass
+
+**55 names. 50 matched to DCAS. 5 unresolved, and none is claimed as an absence:**
+MacLin, Russel Hammond, J. W. Barksdale, Kelley Whitaker, Philip Rea.
+
+**All five are near-spelling or initials-only cases, not candidate false reports.** MacLin is the
+clearest demonstration: the paper prints **MacLin**, DCAS holds **MACKLIN**, and that record
+*already matched* in the first reconciliation as one of the Oct 25 missing men who later entered
+the roll. Likewise "Russel"/Russell, "Kelley"/Kelly, "Philip"/Phillip, and Barksdale is printed
+with initials only so a given-name test cannot fire.
+
+**These five need an edit-distance pass before any verdict.** Do not record them as unmatched.
+
+## Note on hometowns, added to the warning above
+
+Neither list contains an Inglewood man. The California men are Noelke (Fontana), MacLin
+(Glendale), Nathan (San Francisco), Maynard (El Monte) and Hannigan (Antioch). Nothing here
+changes the hometown caution — it reinforces it: "Royal Oak, **Minn.**" is printed for Townsend,
+and Royal Oak is in Michigan.
+
+## RESUME POINT
+
+- [ ] **Nov 15, p.4, "Casualties Identified" — LOCATED BUT NOT READ.** imageID **133215410**,
+      36-page issue. The item is the **bottom-left column**; its lede reads *"The Defense
+      Department has identified 19 more U.S. servicemen killed in action in Vietnam. Five others
+      were listed as dead from other than hostile causes."* The names begin at roughly page
+      fraction **y = 0.72**, column **x ≈ 0.048, width ≈ 0.19**. One page, ~24 names.
+- [ ] **Resolve the five near-spelling cases above** with the edit-distance pass. Free, offline.

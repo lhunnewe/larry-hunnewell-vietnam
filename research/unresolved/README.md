@@ -361,6 +361,31 @@ Open questions:
    him. The name is the discriminator; the place is corroboration at best.** **Best remaining use
    of the subscription: re-read the Nov 11, Nov 12 and Nov 15 lists capturing given names and
    hometowns rather than surnames only — three pages, ~70 testable names.***
+   *2026-09-09, TWO OF THE THREE DONE — **Nov 11 and Nov 12 are now fully transcribed with given
+   names and hometowns; Nov 15 is located but NOT read.** Working:
+   `research/events/kia-list-dcas-reconciliation.md`. **Nov 11 p.4** ("U.S. Identifies 31 War
+   Dead", imageID 133215320, scan 3006×4353): 27 Army **plus four Marines who had never been
+   transcribed at all** (Duchnowski, Hunt, Mitchell, Rayski). **Nov 12 p.4** ("Casualty List For
+   Vietnam", imageID 133215338): 23 Army + 1 Marine. **Nine surname corrections to this archive's
+   own earlier surname-only transcription:** Macklin→**MacLin**, Jarnigan→**Jarzenski**,
+   Lopez→**Loper**, Hayward→**Howard**, Potkanicz→**Pottkotter**, Ebison→**Eidson**,
+   Elliott→**Platt**, Kusovich→**Kosovich**, Ren→**Rea**. That is nine drifted names in 55 —
+   which is the argument for having re-read them.*
+   *2026-09-09 — **screening result: 55 names, 50 matched, 5 unresolved and NONE claimed as an
+   absence.** MacLin, Russel Hammond, J. W. Barksdale, Kelley Whitaker, Philip Rea. **All five are
+   near-spelling or initials-only cases, not candidate false reports** — MacLin is the proof: the
+   paper prints MacLin, DCAS holds MACKLIN, and that record already matched in the first
+   reconciliation. Likewise Russel/Russell, Kelley/Kelly, Philip/Phillip; Barksdale is printed
+   with initials only, so a given-name test cannot fire. **They need an edit-distance pass before
+   any verdict — do not record them as unmatched.** Neither list contains an Inglewood man; and
+   the hometown caution is reinforced, since Townsend is printed "Royal Oak, **Minn.**" and Royal
+   Oak is in Michigan.*
+   *2026-09-09, RESUME POINT — **Nov 15 p.4, "Casualties Identified", LOCATED BUT NOT READ.**
+   imageID **133215410**, 36-page issue; the item is the **bottom-left column**, lede *"The
+   Defense Department has identified 19 more U.S. servicemen killed in action in Vietnam. Five
+   others were listed as dead from other than hostile causes."* Names begin at about page
+   fraction **y=0.72**, column **x≈0.048, w≈0.19**. **One page, ~24 names** — then the three
+   November lists are complete. Also free and offline: the edit-distance pass on the five above.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
