@@ -568,7 +568,7 @@ Open questions:
    it is now a known genre with a known format and a known place in the paper. **OPEN: confirm
    the incident behind the 4 May 1965 item — Santo Domingo or Saigon — and read the correction
    itself on p.4 of the preceding issue. If Santo Domingo it stays precedent; if Saigon it
-   becomes something much larger.***
+   becomes something much larger. **Tracked as issue #144.***
    *2026-09-10, WHAT THE LATE WINDOW DID TO THE QUESTION — nothing was found, **but the shape of
    the remaining possibility changed.** Before today the open hypothesis was "the item is in a
    part of the paper we have not read yet". After the gap, the October target and the correction
