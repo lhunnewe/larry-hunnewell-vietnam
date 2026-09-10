@@ -190,6 +190,55 @@ Open questions:
    1965, and the FRONT PAGE of each of those five issues**, neither yet read; widen to 1–12 Sept
    if negative; then the two November stragglers and three newly dated unfound lists (Pacific
    ~24–25 Sep, ~12–13 Oct, ~10–11 Nov 1965).*
+   *2026-09-09, THE 3–7 SEPTEMBER WINDOW IS READ — **NEGATIVE, and the window's own anchor is
+   now in tension with Larry's number.** Full working: `research/events/kia-misreport-stars-
+   stripes.md`. The REVISED PLAN was executed: **the FRONT PAGE of all five issues 3, 4, 5, 6
+   and 7 September 1965 (Five-Star Edition, Vol. 21 Nos. 245–249), plus the war-news pages of
+   each** — Sep 4 pp.13/18, Sep 5 p.13, Sep 6 p.13, Sep 7 pp.13/27/28/29/30/31/33; Sep 3's list
+   pages (pp.21/28/31/32) were already read on 2026-09-03. An exact-date `defense department`
+   probe was run on all five dates: 3, 6, 2, 3 and 4 hits respectively, **not one of them a
+   casualty release** (policy stories, a bio, a bowling item, the standing editorial-page
+   disclaimer). **No Hunnewell, no casualty name list, and no front-page item carrying a figure
+   near forty American dead.** The precise negative is stronger than "his name is not there":
+   **the Five-Star ran NO name list at all on 3–7 September.** The two nearest DoD releases
+   bracket the gap and are both already read and both negative — Sep 2 p.32 ("U.S. Names
+   Vietnam Dead", 11 dead) and Sep 10 p.19 ("U.S. Lists 5 Killed in Action"). With the portal
+   audit's finding that coverage is complete for this window, that is a **strong negative about
+   the release**, which is exactly what the revised plan said a negative here would buy.*
+   *2026-09-09 — **the calibration that argues against this window, found on the page.** Sep 3
+   p.1 prints the paper's own weekly toll: "Nine Americans were reported killed in action, 250
+   wounded and 7 either captured or missing for the week ending Aug. 28" — i.e. **nine American
+   KIA in exactly the week Larry left the mountain.** Set against the same paper's later weekly
+   totals already on file ("85 killed in action", Nov 13; "108 killed for the week", Nov 20), a
+   front-page item reporting ~40 American dead is about four times the early-September rate.
+   **The most useful reading is that Larry's "40" is a LIST LENGTH, not a weekly toll** — the
+   11 Nov release ran 31 names and the paper itself called it "one of the longest single
+   casualty lists" — which would put the item he saw in **late 1965, not early September**. This
+   is the first evidence in the file that argues against the 3–7 Sept window rather than merely
+   failing to confirm it. It does not overturn the two routes that produced the window (his "may
+   have been 9/3/1965" and the medevac chain); it is a real tension between his date and his
+   number and is held open, not resolved. **Rule 6: this is not to be put to him.***
+   *2026-09-09, A CORRECTION TO THE PORTAL AUDIT — **the scans bundle several regional
+   editions, and nobody had looked inside one.** Sep 7 archive p.28 is not an inside page: it is
+   a **FRONT PAGE** — same date, same Vol. 21 No. 249, same lead stories — with the edition line
+   reading **"KOREA EDITION"** where archive p.1 reads **"FIVE-STAR EDITION."** Confirmed on Sep
+   6 (p.28, Vol. 21 No. 248). **The editions are not reprints:** the Korea front page of 6 Sep
+   carries "R&R Flights Halted" (a Saigon item on suspended Hong Kong R&R flights) which is
+   absent from the Five-Star front page of the same date, and the two head the same wire story
+   differently. A **third** zone exists — Sep 7 p.33 is Okinawa-zoned and runs the same Tuyen
+   Nhon Special Forces story as p.31 under a different headline. **This does NOT reopen the
+   title question — that is closed, correctly, and he is not to be asked.** What it corrects is
+   ours: the 2026-09-03 audit read the browse list of TITLES and concluded "the six-page free
+   paper Larry describes cannot be reached through this subscription **in any edition**." A
+   Korea edition demonstrably is in the subscription; it is simply bound inside the Pacific
+   scan rather than listed separately. **Narrow that claim to "no separately-titled Pacific
+   edition is listed."** Held as UNKNOWN, deliberately: how many editions are bundled and where
+   each begins and ends — the tidy "Korea = pp.28–33, six pages" is arithmetic, not observation,
+   and the folios contradict it (Sep 7 p.30 prints as 17; Sep 4 p.13 prints as 24). Also
+   unknown: whether any bundled edition is Vietnam-facing, and whether casualty content differed
+   between editions. **Resume point: the bundled non-Five-Star pages of 3–6 Sept — Sep 5 first,
+   66pp and almost wholly unread — and, before spending more on content, walk one 33-page issue
+   end to end to map where each masthead changes.***
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
