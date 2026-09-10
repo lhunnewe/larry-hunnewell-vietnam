@@ -1165,3 +1165,544 @@ no names. **"The unread queue is down from nine to two known items: Nov 19 (fini
 Nov 24."** The real resume point is the one set out under REVISED PLAN above: **the Five-Star
 casualty lists of 3-7 September 1965, plus the FRONT PAGE of each of those five issues** -
 neither of which has been read.
+
+---
+
+# 2026-09-09 — THE 3–7 SEPTEMBER WINDOW IS READ. NEGATIVE — AND THE ARCHIVE TURNS OUT TO HOLD MORE EDITIONS THAN THE PORTAL AUDIT FOUND
+
+The resume point set out above was executed in full: **the front page of all five issues
+3–7 September 1965, plus the war-news pages of each.** Larry's name does not appear. What the
+session also found — by accident, on the last page checked — is that **the scan of a single
+date bundles several regional editions**, which changes what "read the issue" means and
+partly corrects the 2026-09-03 portal audit.
+
+**Access:** live, subscription ends 2026-09-17. ~30 viewer page-loads and 9 searches spent.
+
+## 1. THE FRONT PAGES — ALL FIVE READ, ALL NEGATIVE
+
+This was the half of the plan that had never been attempted, and it was directed by Larry's
+own description: *"They were a free news paper, like 6 pages. I think the first page on the
+right side was 40 guys killed."* Every front page below is the **FIVE-STAR EDITION** front
+page (archive page 1).
+
+| Date 1965 | Vol/No | pp. | Lead | Casualty content on the page | Result |
+|---|---|---|---|---|---|
+| **Fri 3 Sep** | 21/245 | 33 | "Indian, Pakistani Planes, Tanks Battle in Kashmir" | "VC Down Copter, 5 Killed" — 4 Americans + 1 Vietnamese, a UH-1B down half a mile south of Ben Cat, Binh Duong. **No names.** Plus a weekly toll (below). | **NEGATIVE** |
+| **Sat 4 Sep** | 21/246 | 35 | "Pakistanis 30 Mi. Inside Kashmir, Near Key Road" | "New Viet Drive Launched" — 22 dead Viet Cong, no US names | **NEGATIVE** |
+| **Sun 5 Sep** | 21/247 | 66 | "STEEL PACT REACHED" | "Large VC Arms Dump Uncovered" — includes a US Army helicopter loss (below). **No names.** | **NEGATIVE** |
+| **Mon 6 Sep** | 21/248 | 33 | "Pakistanis Go Deeper; Report India Using MIGs" | "Saigon Forces Score in Delta But Lose Heavily at Outpost" — 53 VC killed; US casualties "termed light" | **NEGATIVE** |
+| **Tue 7 Sep** | 21/249 | 33 | "SCHWEITZER DIES" / "Leathernecks Trap VC In Copter-Sea Assault" | 25 enemy dead, "American casualties were extremely light". "Towers Fall at Fair; 2 Killed, 46 Injured" is a Nebraska state-fair accident, not war dead | **NEGATIVE** |
+
+**No casualty name list appeared on any of the five front pages, and no front-page item
+carried a figure anywhere near forty American dead.**
+
+### THE NUMBER THAT DID APPEAR, AND WHY IT MATTERS MORE THAN THE ABSENCE
+
+Sep 3, p.1, in the continuation column of "VC Down Copter, 5 Killed":
+
+> Nine Americans were reported killed in action, 250 wounded and 7 either captured or
+> missing for the week ending Aug. 28, newsmen were told.
+
+That is the paper's own weekly American KIA figure for **exactly the week Larry left the
+mountain** — and it is **nine**. (The 250-wounded figure against 9 killed is an odd ratio and
+is recorded as printed, not reconciled; the KIA number is the one that matters here.)
+
+**This is the best calibration the archive has for Larry's "40 guys killed," and it cuts
+against this window.** Set it beside the same paper's later weekly totals, already in this
+file: **"85 killed in action"** (Nov 13) and **"108 killed for the week"** (Nov 20). A
+front-page item reporting about forty American dead is roughly four times the early-September
+weekly rate and about half the November rate.
+
+Three readings, none preferred, none to be put to him (see rule 6 and the retraction above):
+
+1. **His "40" is a list length, not a weekly toll.** A DoD release naming ~40 men is entirely
+   plausible — the 11 Nov item ran 31 names and the paper called it "one of the longest single
+   casualty lists." That would put the item he saw in **late 1965**, not early September.
+2. **His "40" is soft at sixty-one years**, like the page count he hedged in the same breath.
+3. **The window is right and the number is wrong.** Possible, but then the item should have
+   been on one of these five front pages, and it is not.
+
+**Reading 1 is the one that does work for the search**, and it is the first thing in this file
+that argues *against* the 3–7 September window on evidence rather than on absence. It does not
+overturn the two independent routes that produced the window — Larry's "may have been
+9/3/1965" and the medevac chain — but it is a genuine tension between his date and his number,
+and it should be held open rather than resolved.
+
+## 2. THE CASUALTY-LIST PAGES — READ, AND THERE IS NO LIST IN THE WINDOW
+
+**Pages read visually this session** (all Five-Star unless noted; archive page numbers):
+
+| Date | Page | What is on it | Result |
+|---|---|---|---|
+| 4 Sep | p.13 *(printed 24)* | War-news page: "New Drive Hits VC", Rusk on Kashmir, Qui Nhon action — "American losses were light" | No list |
+| 4 Sep | p.18 | Pacific features: "Lift Hot Bombs" (Tan Son Nhut EOD team, B-57 crash at Nha Trang), "U.S. Guard Hit in Saigon" (identity withheld) | No list |
+| 5 Sep | p.13 | "Find VC Cache" — the p.1 continuation. **Does not name the helicopter crew.** Qui Nhon, Kien An, 532 sorties | No list |
+| 6 Sep | p.13 | UN cease-fire, "Saigon Forces Kill 53", Vietnam incident map (an AF pilot presumed killed 35 mi S of Vinh; another missing 100 mi W of Hanoi) | No list |
+| 7 Sep | p.13 | "Screaming Eagles Batter VC In Highlands" (101st Abn), "Marines Trap VC" cont., map (a Navy pilot presumed killed) | No list |
+| 7 Sep | p.27 | Five-Star sports/features (Marichal suspension, sumo) | No list |
+| 7 Sep | p.28 | **KOREA EDITION front page** — see section 3 | No list |
+| 7 Sep | p.29 | Sports/features, crossword | No list |
+| 7 Sep | p.30 *(printed 17)* | Korea local: AFKN Radio-TV listings, Yongsan, ASCOM | No list |
+| 7 Sep | p.31 | Vietnam features: 173rd Abn "eagle flight", Tuyen Nhon Special Forces camp, Da Nang "skunk hunt", Tan Son Nhut F-100 missions | No list |
+| 7 Sep | p.33 | **Okinawa-zoned page** — see section 3 | No list |
+| 6 Sep | p.28 | **KOREA EDITION front page** — see section 3 | No list |
+
+**Sep 3 needed no new list-page work:** p.21, p.28, p.31 and p.32 were read on 2026-09-03 and
+recorded there as a solid negative. Only its front page was outstanding, and it is now read.
+
+### Keyword probes, exact-date, term `defense department` — ALL FIVE DATES
+
+| Date | Hits | What they are |
+|---|---|---|
+| 3 Sep | 3 | A State-vs-Defense credit story (p.22), a civilian-employee notice (p.25), the editorial-page disclaimer (p.5) |
+| 4 Sep | 6 | Maritime union shipping accusation (p.2), aerospace-gifts story (p.23), a bowling tournament (p.33), the disclaimer (p.5) |
+| 5 Sep | 2 | A gear-evaluation quote from the Marine Aircraft Group 11 compound (p.4), the disclaimer (p.5) |
+| 6 Sep | 3 | McNamara's Labor Day statement (p.2), a diplomat's bio (p.14), the disclaimer (p.5) |
+| 7 Sep | 4 | Abrams on Army readiness (p.3), the disclaimer (p.5, twice), one European item |
+
+**Not one DoD casualty release on any of the five dates.** Keyword absence proves little on its
+own — that is why this session was visual — but here it agrees with the visual read rather
+than merely failing to contradict it.
+
+### THE SHAPE OF THE NEGATIVE, STATED PRECISELY
+
+**The two nearest DoD name releases bracket the window and are both already read and both
+negative:**
+
+- **Thu 2 Sep, p.32** — "U.S. Names Vietnam Dead", 11 dead. Read in full. No Hunnewell.
+- **Fri 10 Sep, p.19** — "U.S. Lists 5 Killed in Action". Read in full. No Hunnewell.
+
+Between them — **3, 4, 5, 6 and 7 September — the Five-Star ran no name list at all.** It ran
+combat reporting with aggregate figures and the standing "casualties were light" formula. So
+the honest statement of today's result is not merely "his name is not there." It is:
+
+> **There was no casualty list in the Pacific Stars and Stripes Five-Star Edition during the
+> exact days Larry places himself reading one.** If he read a DoD casualty list in his first
+> three or four days at Camp Zama from 3 September, the Five-Star of those days did not
+> carry it — and the releases immediately either side of the gap do not carry his name.
+
+Given the portal audit's finding that coverage is complete for this window with no missing
+dates, that is a **strong negative about the release**, which is what the revised plan said a
+negative here would be worth.
+
+## 3. THE FINDING THAT WAS NOT BEING LOOKED FOR — THE SCANS BUNDLE SEVERAL EDITIONS
+
+Reading Sep 7 p.28 to check a back-page continuation turned up something else entirely:
+
+> **Sep 7 archive p.28 is a FRONT PAGE.** Same masthead, same date, same volume and issue
+> number (Vol. 21, No. 249), same lead stories — but the edition line reads **"KOREA EDITION"**
+> where archive p.1 reads **"FIVE-STAR EDITION."**
+
+Confirmed immediately on a second date: **Sep 6 archive p.28 is also a Korea Edition front
+page** (Vol. 21, No. 248).
+
+**And the editions are not reprints of each other.** The Korea front page of 6 Sep carries
+**"R&R Flights Halted"** — a Saigon item on the suspension of Hong Kong R&R flights for
+personnel in Vietnam — which is **not on the Five-Star front page of the same date**, where a
+weather box sits instead. The two also head the same wire story differently ("ONE-IN-A-MILLION
+CHANCE" vs "ONE IN A MILLION SHOT").
+
+**A third zone exists.** Sep 7 p.33 is Okinawa-zoned (Okinawa Reversion Council, Okinawa
+census, a Naha item) and carries the **same** Tuyen Nhon Special Forces story that runs on
+p.31 under a **different headline** — "Special Forces Camp Shows Results of Yankee Ingenuity"
+on p.33, "Yankee Ingenuity Pays Off" on p.31.
+
+**So: at least three regional editions — Five-Star, Korea, Okinawa — are bundled inside the
+scan of one date, with differing content, differing headlines and their own front pages.**
+
+### What this does and does not do to the edition question
+
+**It does NOT reopen whether Larry read Stars and Stripes.** That is closed, it was closed
+correctly, and the retraction above explains why reopening it was a method failure and a cost
+to an 86-year-old witness. **Do not ask him.** Nothing here bears on the title.
+
+**What it does correct is narrower and is ours, not his.** The 2026-09-03 portal audit
+concluded:
+
+> "22 titles, of which exactly ONE is Pacific… No Three-Star, no Vietnam or Korea edition, no
+> Camp Zama bulletin… **So the six-page free paper Larry describes cannot be reached through
+> this subscription in any edition.**"
+
+That audit read the **browse list of titles**. It did not look **inside** an issue scan. A
+Korea edition is demonstrably in this subscription — it simply is not listed as its own title,
+because it is bound into the Pacific Stars and Stripes scan. **The claim "in any edition" was
+broader than the evidence supported, and should be narrowed to "no separately-titled Pacific
+edition is listed."**
+
+**What remains genuinely unknown**, and must be written as unknown:
+
+- **How many editions are bundled, and where each begins and ends.** The tidy reading — Korea
+  = archive pp.28–33, six pages — is arithmetic, not observation, and **it is contradicted by
+  the folios**: Sep 7 p.30 prints as page **17**, and Sep 4 p.13 prints as page **24**. Archive
+  page numbers do not track printed pagination. **The six-page inference is not established
+  and must not be recorded as fact.**
+- **Whether any bundled edition is Vietnam-facing.** Not found; not ruled out. The Three-Star
+  Edition for troops in Vietnam was announced in this very paper on 1 Sept 1965.
+- **Whether casualty content differed between editions.** Unknown. It is now known that *other*
+  content did, which is the reason the question is worth asking at all.
+
+## 4. TWO CONTEXTUAL FINDS WORTH KEEPING
+
+**a. A helicopter loss with the number withheld — Sep 5, p.1.** In "Large VC Arms Dump
+Uncovered", about 20 miles NW of Saigon, following a B-52 saturation strike on the Thursday
+(2 Sept):
+
+> Guerrilla groundfire downed a troop-carrying U.S. Army helicopter on its way to the bombed
+> area. It crashed and burst into flames and the spokesman said there were no survivors. The
+> number aboard was withheld for security reasons, but such craft can carry from 10 to 12 men.
+
+An all-hands loss of up to a dozen men, aboard an **Army** helicopter, in Larry's own theatre
+and aviation world, **two days after the last day the medevac chain gives him on the mountain**
+— with the count deliberately withheld. It is exactly the kind of event that produces a name
+release three to five days later. **The continuation on p.13 does not name the crew**, and no
+list naming them appears anywhere in 3–7 September. Whether the 10 Sep list (read, 5 KIA, no
+Hunnewell) is that release, or whether it ran later, is **not established**. Worth carrying
+into any later-September sweep — and worth noting for #10 and the 145th Aviation questions
+regardless of #9.
+
+**b. Tan Son Nhut and Special Forces recur in the features.** Sep 4 p.18 ("Lift Hot Bombs",
+an EOD team based at Tan Son Nhut, on a B-57 that crashed in downtown Nha Trang) and Sep 7
+p.31/p.33 (the Tuyen Nhon Special Forces camp; Capt. Ronald E. Urich; Capt. Richard E. Laritz
+of Fayetteville, N.C.). Neither is about Larry and neither is a casualty list, but both are
+the right units and the right base, and this paper evidently ran Special-Forces-camp features
+regularly. **That is a cheap, unexploited seam for #5, #10 and #57** — not for #9.
+
+## 5. METHOD FINDINGS FOR THE NEXT SESSION
+
+1. **Cloudflare has got much more aggressive, then stopped.** Checks fired on the **first and
+   second** viewer navigations of the session — the old note said one per 15–20 — and then not
+   once in roughly 25 further navigations. **Budget for two interruptions at the start of a
+   session, not a steady rate.** They must be cleared by Leroy at the keyboard; they cannot be
+   cleared from here and should not be.
+2. **Search-result URLs (`/tags/…`) never triggered a check.** Only viewer page loads did.
+   **Do the cheap search-based mapping first, then batch the viewer reads.**
+3. **The exact-date filter is confirmed reliable and is the workhorse:**
+   `?ndt=ed&py=1965&pm=M&pd=D&pr=30`. Add `&pr=30` to get every result on one page.
+4. **Read the result pages out of the DOM, not off a screenshot.** One call returns every
+   page number and snippet for a date: select `.serpBlock`, take the `/page-` anchor inside
+   each, and capture the digits. Far cheaper than screenshotting a results page, and it is how
+   every page map above was built. *(Caution: returning full hrefs is blocked as query-string
+   data — return the captured page number only.)*
+5. **Do not guess the page, and do not trust the printed folio either.** Archive page is not
+   printed page (Sep 4 p.13 = printed 24; Sep 7 p.30 = printed 17). Map with a search on
+   `saigon` or `viet cong`, then read.
+6. **Expect duplicate-looking results within one date — they are different editions**, not a
+   glitch, and the wording often differs. Two results with near-identical snippets and
+   different page numbers is the signature of the bundling described in section 3.
+
+## 6. WHAT IS NOW READ, AND WHAT IS NEXT
+
+**The 3–7 September window is closed as a Five-Star question.** Front pages: five of five.
+War-news pages: every issue. Probe: all five dates. Nothing found.
+
+**Named resume point, in priority order:**
+
+- [ ] **The bundled non-Five-Star pages of 3, 4, 5 and 6 September** — the Korea and Okinawa
+      zones, which no session has ever knowingly opened. **Sep 5 first**: at 66 pages it has by
+      far the most unread bundled surface, and only p.1 and p.13 of it have been read.
+- [ ] **Establish the edition structure properly on one date** — walk a 33-page issue end to
+      end and record where each masthead changes and what folio each archive page prints.
+      Cheap, done once, and it makes every future negative in this archive precise instead of
+      approximate. **Do this before spending more on content.**
+- [ ] **Test reading 1 of section 1 by going late, not early** — if "40" is a list length, the
+      target is a long DoD release in Oct–Dec 1965. The 12–13 Oct target and the Sep 12 – Oct 24
+      gap are still unworked, and the Dec 1965 – Feb 1966 correction sweep remains promoted.
+- [ ] Nov 24 is struck and Nov 19 finished; **the November queue is empty** and should not be
+      re-opened.
+
+**Not to be done:** re-running the whole-archive keyword sweep (done, negative), and re-asking
+Larry about the edition or the title (closed — see the retraction above).
+
+---
+
+# 2026-09-09, SECOND SESSION — THE BUNDLED EDITIONS ARE READ, AND A DoD RELEASE INSIDE THE WINDOW IS FOUND IN THE EUROPEAN EDITION
+
+Following the resume point set above. The bundled non-Five-Star pages were opened for the
+first time, starting with Sep 5. They are negative. But the session turned up **a Defense
+Department casualty release dated inside Larry's window that the Pacific never ran** — and it
+sharpens both the negative and the method.
+
+## 1. THE EDITION STRUCTURE, NOW MEASURED RATHER THAN INFERRED
+
+**The cheap way to find an edition's front page: search the day's lead headline.** Every
+edition runs it, so the search returns one hit per edition front.
+
+Exact-date search, 5 Sept, term `steel pact` (the day's lead) — **4 results**:
+
+| Page | What it is |
+|---|---|
+| **p.1** | FIVE-STAR EDITION front page |
+| **p.22** | **KOREA EDITION front page** — Vol. 21 No. 247, Sunday Sept. 5, 1965 |
+| p.13 | the p.1 continuation (Five-Star inside) |
+| p.24 | the p.22 continuation (Korea inside) |
+
+Exact-date search, 5 Sept, term `edition` — **3 results**: p.1 (OCR'd "AVES STAR EDITION" =
+FIVE-STAR), **p.22 (KOREA EDITION)**, and one European item. **Only two Pacific mastheads OCR
+on this date.**
+
+**So the "six pages" arithmetic from the first session is now positively disconfirmed, not
+merely unverified.** On Sep 5 the Korea front sits at p.22 of a 66-page scan, not at p.28 as
+on Sep 6 and Sep 7. **The offset is not fixed — it tracks the size of that day's Five-Star.**
+Recording the corrected rule:
+
+> **Find each edition's front page by searching the day's lead headline. Do not compute it.**
+
+Corroborated on a third date without extra cost: **Sep 8's "identified" probe returned the
+same B-57 pilot item on both p.1 and p.28** — two fronts again, as on Sep 6 and Sep 7.
+
+**Okinawa remains a zone, not a confirmed separate edition.** Sep 5 has Okinawa content at
+p.23 (a Battle of Okinawa history piece), p.27 (Kadena AB saddle club) and p.66 (a Sukiran bus
+map — a back-page service page), but **no Okinawa masthead was found on this date.** On Sep 7,
+p.33 was Okinawa-zoned. Whether Okinawa is its own edition or a zoned section inside the Korea
+bundle is **still unknown** and should stay unknown until a masthead is actually seen.
+
+## 2. THE BUNDLED PAGES OF 5 SEPTEMBER — READ, ALL NEGATIVE
+
+| Page | Edition/zone | What is on it | Result |
+|---|---|---|---|
+| **p.22** | **KOREA EDITION front page** | Same lead and layout as the Five-Star front — but **"Heads for N. Vietnam"** (Typhoon Rose aimed at north Vietnam) runs where the Five-Star prints its Weather box | **No list, no ~40 figure** |
+| **p.24** | Korea, war news | The same war page as Five-Star p.13 — but **"Adm. Brown in ROK"** (Rear Adm. R. B. Brown, Navy Bureau of Medicine and Surgery, arrived Kimpo AB) replaces the Five-Star's "Collision Kills 15 Turks" | **No list** |
+| **p.26** | Pacific-wide features | Hal Drake's battle feature "Airborne Unit Gets Taste of Battle, VC Style" (Cam Ranh) — **names living soldiers, not casualties**: 1st Lt. William R. Wilson, 2d Lt. Seth F. Hudgins, Sgt. Carl H. Killgrove (Percy, Ill.), PFC Robert Dawkins (Union, S.C.), PFC Richard E. McWilliams (Norman, Okla.). Plus Guam, Manila and Taipei items | **No list** |
+| **p.45** | Sunday supplement | Sports (Casey Stengel's farewell, sumo, boxing) | **No list** |
+
+**The pattern holds across editions: identical wire war news, with one local item swapped in
+per edition.** That is the third and fourth instance of edition-specific substitution, after
+"R&R Flights Halted" (Korea, 6 Sept) and the Tuyen Nhon headline change (Okinawa, 7 Sept).
+**No edition carried casualty content the others lacked.**
+
+## 3. THE PROBE THAT SHOULD HAVE BEEN USED FROM THE START — `identified`
+
+`defense department` was the wrong handle. **Every DoD casualty release in this paper uses the
+verb "identified"**, and it survives OCR far better than a dense name column.
+
+Exact-date `identified`, Pacific, **every date 3-9 September 1965**:
+
+| Date | Hits | Any casualty release? |
+|---|---|---|
+| 3 Sep | 2 | No — a detectives item; one European family item |
+| 4 Sep | 3 | No — a submarine, a power-line accident, a libel complaint |
+| 5 Sep | 2 | No Pacific item. **One European item — see §4** |
+| 6 Sep | 4 | No — reactor design, two European travel items |
+| 7 Sep | 4 | No — three police/hospital identifications |
+| 8 Sep | 3 | No — MiGs, and a B-57 pilot named (Capt. Wilfred Hamann, 27, Tucson, Ariz.), on p.1 **and p.28** |
+| 9 Sep | 2 | No — prison escapees; a Ranger air group |
+
+Also run: exact-date `hostile`, 5 Sept — **zero results**. Every DoD list in this period carries
+a "non-hostile" category, so a zero is a meaningful absence rather than a null.
+
+**Seven consecutive days, the best available probe, and no Pacific casualty release.** Combined
+with the visual reads of the first session, the negative for 3-7 September now extends
+cleanly to **3-9 September**, and it is bounded on both sides by lists already read in full and
+already negative: **Sep 2 p.32** and **Sep 10 p.19**.
+
+## 4. THE FIND — "15 WAR DEAD IDENTIFIED", EUROPEAN EDITION, SUNDAY 5 SEPT 1965, p.3
+
+The one `identified` hit inside the window that *is* a casualty release is **not in the
+Pacific**:
+
+> **"15 War Dead Identified"** — European Stars and Stripes, Sunday, September 5, 1965, page 3.
+> *"WASHINGTON (UPI) — The Defense Department identified Thursday 15 more American servicemen
+> killed in action in Viet Nam. They were:"* — followed by a name list under service subheads
+> (**Army**, then **Marine Corps**).
+
+**Why this matters.** The method note already in this file says the European edition is a
+finding aid for the Pacific, because the same DoD release ran in both within about a day.
+**Here it did not.** The release was issued **Thursday 2 September** — precisely the window the
+medevac chain and Larry's own "may have been 9/3/1965" point at — and:
+
+- The **Pacific is a day ahead of Europe**, so the Pacific's version should have appeared on
+  **3 or 4 September**. Both are read, visually and by probe. **Neither carries it.**
+- Nor does 5, 6, 7, 8 or 9 September.
+- The Pacific's Sep 2 item is a *different* release (11 dead, announced 30 August), and its
+  Sep 10 item is a later one (5 killed).
+
+**So a DoD casualty release issued inside Larry's window reached print in the European edition
+and appears never to have reached the Pacific at all.** That is a new and specific gap, and it
+is the first time this search has identified a *particular named release* that the Pacific
+skipped rather than a general absence.
+
+### WHAT COULD NOT BE DONE, AND WHY — THE NAMES ARE NOT RECOVERABLE FROM THIS SCAN
+
+**The 15 names were not read.** This is a limitation of the scan, and it was measured rather
+than guessed:
+
+The viewer serves DeepZoom tiles from
+`/npaviewerclipping/iipsrv.fcgi?DeepZoom=<jp2 path>_files/{level}/{col}_{row}.jpg`, and its
+descriptor is fetchable at `<jp2 path>.dzi`. For this page it returns:
+
+> `<Size Width="1553" Height="2095"/>`
+
+**1553 x 2095 is the native resolution of the scan** — roughly 100 dpi for a broadsheet page.
+The IIP crop endpoint confirms the ceiling: requesting `WID=5200` and `WID=12000` both return a
+full page of exactly **1553x2095**, so the `WID` parameter is capped at native and cannot be
+pushed. At that density the **headline and lede are legible** (they were read, and are quoted
+above) but **5.5-point agate name columns are about seven pixels tall and do not resolve.**
+Contrast adjustment cannot add resolution.
+
+**This is a real constraint on the whole search, not a one-page problem**, and it should temper
+how much any future session expects to buy with visual reading of European-edition lists.
+
+## 5. THE TEST THIS FIND MAKES POSSIBLE — AND IT IS FREE
+
+The same-name work established that **there is no Hunnewell anywhere in the complete NARA DCAS
+fatal-casualty roll** (59,577 rows). The corollary was noted there and is worth stating as a
+method:
+
+> **A man reported killed in error and later corrected never enters DCAS — but he would appear
+> in the newspaper.** So a name printed in a Stars and Stripes casualty list that has **no
+> matching DCAS record** is the exact documentary signature of an erroneous report.
+
+That makes every *readable* printed list a testable object: reconcile its names against the
+DCAS roll already downloaded, and any unmatched name is either an OCR/transcription artefact or
+a man whose death was retracted. **Larry's case is the second kind.**
+
+This is free, offline, repeatable, and it does not need the subscription. **The lists already
+read in full in this file** — Sep 2 (11 names), Sep 10 (11 names), Oct 25 (9 dead + 17
+missing), Nov 11 (31 names), Nov 12 (24), Nov 15 (24), Nov 19 — **are all sitting in this
+document with their names transcribed and have never been reconciled against DCAS.** That is
+the highest-value unworked task in the whole question, and it costs nothing.
+
+*(Calibration already available: the Oct 25 list printed Lt. (jg) Porter A. Halyburton as dead
+when he was in fact a POW and alive. He should therefore be a documented unmatched name. If the
+reconciliation method works, it must find him. That is a built-in control.)*
+
+## 6. METHOD GAINS FROM THIS SESSION
+
+1. **`identified` beats `defense department` as the casualty-list probe.** It is the verb every
+   release uses, it survives OCR, and it caught an item four sessions of `defense department`
+   probes had missed.
+2. **Find an edition's front page by searching the day's lead headline** (`steel pact` here).
+   One search returns one hit per edition. **Do not compute the offset — it is not fixed**
+   (Korea front: p.22 on Sep 5, p.28 on Sep 6 and 7).
+3. **Check the scan's native resolution before spending time zooming.** Fetch
+   `<jp2 path>.dzi` via the `DeepZoom=` parameter; the `<Size>` element gives it immediately.
+   Under about 2000px wide, agate name columns will not be readable and a visual read of a list
+   is not worth buying.
+4. **IIP `WID` is capped at native.** `WID=5200` and `WID=12000` return identical output. The
+   older method note's `WID=2200` was already at the ceiling for these files.
+5. **The JS bridge blocks returned strings containing query-string or cookie-like data.**
+   Returning full hrefs fails. Strip to alphanumerics
+   (`.replace(/[^A-Za-z0-9 ,.]/g,' ')`) and return only the captured page number.
+6. **Cloudflare confirmed again:** one check on the first viewer navigation of a working
+   stretch, then none across ~15 further loads. `/tags/` searches never triggered one.
+
+## 7. RESUME POINT, REVISED
+
+- [ ] **Reconcile every already-transcribed casualty list in this file against the NARA DCAS
+      roll.** Free, offline, and the Halyburton case is a built-in control. **Do this first.**
+- [ ] **The bundled editions of 3, 4 and 6 September** — find each front by searching that
+      day's lead headline. Sep 5 is now done and negative.
+- [ ] **The European edition either side of the window.** It carried a release the Pacific
+      skipped; it may carry others. Probe `identified` across European 1-12 Sept 1965. Expect
+      the names to be unreadable at ~100 dpi — the value is in *dating the releases*, not
+      reading them.
+- [ ] Test the "40 = list length" reading by going late: the 12-13 Oct target, the Sep 12 -
+      Oct 24 gap, and the Dec 1965 - Feb 1966 correction sweep.
+
+**Not to be done:** the whole-archive keyword sweep (done, negative), and re-asking Larry about
+the edition or the title (closed).
+
+---
+
+# 2026-09-09, THIRD PASS — THE DCAS RECONCILIATION WAS RUN, AND THE SIGNATURE IS REAL
+
+Full working: **`kia-list-dcas-reconciliation.md`**.
+
+The task promoted at the end of the previous section was carried out the same day, offline and
+free. **59 printed names** from the Sep 2, Sep 10, Oct 25, Nov 19 and Nov 11 lists were
+reconciled against the complete NARA DCAS roll (re-downloaded, 202,942 lines, reproduced
+exactly).
+
+**51 matched. 8 did not — and every one of the 8 falls into a category that predicts it.**
+
+- **THE CONTROL FIRED.** Lt. (jg) **Porter A. Halyburton**, printed among the *dead* on 25 Oct,
+  has **no occurrence in the national roll**. He was a living POW. The method recovered a known
+  false report blind.
+- **Five of the 17 men printed as MISSING on 25 Oct are absent from DCAS** — Schierman, Norse,
+  Sima, McDonald, Wheat. Men listed missing who never enter DCAS are the men who **came home**;
+  Schierman, Sima and Wheat are known returned prisoners. Second validation, five cases deep.
+- **Four apparent failures were printing/transcription variants, not absences**, and they
+  correct this file's own transcriptions: **Neumier→NEUMEIER** (Kewaunee WI, d. 19650830),
+  **Badsling→BADSING** (d. 19650906), **Covoy→COVEY** (d. 19651114), **Hadley "Veron"→VERLON**
+  (Bay Minette AL, d. 19650818). Both spellings should be kept — the printed form is evidence
+  of what the paper said.
+- **A hometown warning that bears on this whole search:** S/Sgt Lawrence Covey was printed as
+  **Los Angeles** but his DCAS home of record is **Benedict, Nebraska**. The paper's printed
+  hometown can disagree with the official one, which weakens hometown as a discriminator —
+  and Larry's Inglewood is a hometown argument.
+- **Two names printed as DEAD remain genuinely unmatched:** **PFC Floyd D. Simmons** ("dead of
+  wounds") and **1st Lt. Richard L. Gandy** of Clovis N.M. ("previously listed as missing"),
+  both from **Nov 19, p.4**. Either our transcription of those two names is wrong, or they are
+  further instances of the error class. **Gandy is the more suggestive — his status had already
+  moved once, and a second move is the Halyburton pattern exactly.**
+
+**The most specific unread target in the whole question is now one page:** re-read **Pacific
+S&S, 19 Nov 1965, p.4** (imageID 133215485, already recorded above) and check those two names
+letter by letter.
+
+**What it does for Larry.** It does not find him — no Hunnewell was printed in any list read.
+What it does is turn a hypothesis into an instrument: **the signature his case would leave —
+printed dead, absent from DCAS — is real, detectable, and was recovered blind from a known
+case.** And the base rate is now measured rather than assumed: across 59 names, **one man
+printed as dead was demonstrably alive**, with two unresolved — in the same months, in the same
+paper.
+
+---
+
+# 2026-09-09, FOURTH PASS — THE NOV 19 RE-READ. BOTH OPEN NAMES WERE OURS, AND A DISCRIMINATOR FALLS
+
+Full working: **`kia-list-dcas-reconciliation.md`**, section "RESOLVED — the Nov 19 re-read".
+
+The one-page target was bought and read: **Pacific S&S, Fri 19 Nov 1965, p.4, "DOD Names Dead,
+Missing"** (imageID 133215485 — verified correct). **Scan native size 2975 x 4273**, about twice
+the European page and easily legible at agate.
+
+**Both open cases were this archive's own transcription errors, not instances of the error
+class:**
+
+- "PFC **Floyd D. Simmons**" is in fact **PFC Floyd D. JOHNSON, Marsland, Neb.** — DCAS:
+  JOHNSON FLOYD DEAN, Army PFC, Marsland, Dawes Co. NE, **d. 19651114**, a 5-day lag to
+  printing. Matched.
+- "1st Lt **Richard L. Gandy**, Clovis N.M." (recorded as Army) is in fact **Air Force 1st Lt.
+  Richard L. GOUDY** — DCAS: GOUDY RICHARD LEE, Air Force CAPT, Sharon Springs KS, **d.
+  19650809**, which is the date he went missing. Matched.
+
+**Four further corrections to this file's Nov 19 transcription:** "Covoy" is printed **Covey**
+(so that error was ours, not the paper's); Santiago-Cruz is **Guayama**, not "Guayanina";
+Copeland is **Minot AFB, N.D.**; Miller is **Air Force**, **Wichita, Kan.** The five missing men
+are **Navy Cdr. Harry T. Jenkins Jr.; AF Lt. Col. George C. McCleary; AF TSgt. Thomas Moore; AF
+S/Sgt. Samuel Adams; AF S/Sgt. Charles G. Dusing.**
+
+**The method fired a third time, unprompted.** Of those five, McCleary, Moore, Adams and Dusing
+are all in DCAS; **Harry T. Jenkins Jr. is not — he was a POW released in 1973.**
+
+**THE CORRECTED RESULT: 64 names reconciled, 57 matched, 7 not, and the columns separate
+perfectly.**
+
+- **Printed DEAD — 40 names. 39 are in DCAS. The one exception is Halyburton, and he was
+  alive.** After transcription errors are removed the instrument has **zero false positives**.
+- **Printed MISSING — 24 names. 18 are in DCAS; six are not** (Schierman, Norse, Sima, McDonald,
+  Wheat, Jenkins) — the men who came home.
+- **The base rate is therefore measured, not assumed: about one in forty men printed as dead in
+  this paper, in these months, was not dead.** Larry says he was one of them.
+
+## AND A DISCRIMINATOR THIS SEARCH HAS BEEN LEANING ON JUST GOT WEAKER
+
+The re-read showed that **the "hometown" this paper prints is frequently not a hometown**.
+In one item of eight men: Copeland is given as "Minot AFB, N.D." (a base); Goudy as "Clovis,
+N.M." (Cannon AFB — his home of record is Sharon Springs, Kansas); Miller as "Wichita, Kan."
+(McConnell AFB — home of record Norfolk); and Covey as "Los Angeles" against a home of record
+of Benedict, Nebraska. **Four of eight.**
+
+**This bears directly on #9.** The archive has repeatedly used *Inglewood* as the identifying
+hometown — the 2026-08-17 sweep read all 44 "inglewood" 1965 hits, and the August table ruled
+entries out on hometown ("the one Los Angeles man is Covoy, not him"). Those readings are not
+wrong, **but their power was overestimated.** If Larry's name was printed, the place beside it
+could as easily have been Tan Son Nhut, Saigon, a hospital, or a home of record his family had
+left. **Do not rule a candidate out on hometown alone, and do not treat the negative "inglewood"
+sweep as covering a printed entry for him.** The name is the discriminator; the place is
+corroboration at best.
+
+**Best remaining use of the subscription:** re-read the **Nov 11, Nov 12 and Nov 15** lists
+capturing **given names and hometowns** rather than surnames only — three pages, about 70
+testable names, and the Nov 19 re-read has just demonstrated how far a transcription can drift.
