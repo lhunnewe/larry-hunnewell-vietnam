@@ -565,10 +565,42 @@ Open questions:
    not a Vietnam case and not a lead on Larry. **What it is: documentary proof that Stars and
    Stripes printed corrections when a serviceman was erroneously reported killed, and that such
    a correction ran on an inside page (p.4).** Until today that object was purely hypothetical;
-   it is now a known genre with a known format and a known place in the paper. **OPEN: confirm
+   it is now a known genre with a known format and a known place in the paper. **[SUPERSEDED the same day by the #144 resolution below: the incident is Santo Domingo, and there is NO correction on Page 4 — there is a MAP. What the paper actually did was acknowledge the erroneous report in a subordinate clause inside a later news story, with no heading, label or retraction.]** **OPEN: confirm
    the incident behind the 4 May 1965 item — Santo Domingo or Saigon — and read the correction
    itself on p.4 of the preceding issue. If Santo Domingo it stays precedent; if Saigon it
    becomes something much larger. **Tracked as issue #144.***
+   *2026-09-10, #144 IS RESOLVED, AND BOTH HALVES OF THE LEAD WERE WRONG — **Santo Domingo, and
+   there is no correction on Page 4; there is a map.** Working:
+   `research/events/kia-misreport-stars-stripes.md`, section "ISSUE #144 RESOLVED". The item is
+   **European S&S, Tue 4 May 1965, Vol. 24 No. 17, page 1** (imageID 133459274, scan 1517×2056),
+   inside the column "Yanks Link Up to Open Corridor — SANTO DOMINGO (AP)" under the lead
+   "Johnson Charges Reds Rule Dominican Revolt". **(1) The incident is the Dominican
+   intervention, not Saigon** — the Saturday is 1 May 1965 and the embassy is the U.S. Embassy
+   in Santo Domingo. The caution attached when the lead was recorded was correct and is settled.
+   **(2) The "correction on Page 4" does not exist — that was my own misreading of an OCR
+   snippet.** The boxed cross-reference **"Map on Page 4"** sits physically inside the paragraph
+   and interrupts the sentence "This brings to a total of five the official count / of U.S.
+   military men dead, plus 38 wounded…". Page 4 carries a map of the Dominican Republic. **The
+   "correction notice on an inside page" recorded earlier today should be struck.***
+   *2026-09-10 — **what survives is more useful than what was struck.** Stars and Stripes DID
+   acknowledge an erroneous death report in print, but **as a single subordinate clause inside a
+   later running news story** — no heading, no label, no "correction", no retraction: *"Another
+   Marine had been erroneously reported killed on the U.S. Embassy grounds on Saturday."*
+   Eleven words while updating a casualty count, then straight on to the United Nations.
+   **For #9 this cuts against the sweep that found it:** if the Pacific ever acknowledged
+   Larry's misreport, **the acknowledgment may not look like a correction at all** — a clause
+   inside a later story about something else, carrying no keyword a sweep would catch, on a page
+   nobody would think to read. That is close to unfindable by search, and it is a better
+   explanation of the correction sweep's silence than "no correction was printed". **The force
+   the negative retains:** *erroneously* is genuinely rare here — **one casualty-related hit in
+   all of 1965–66 across every edition** — so had the Pacific used that phrasing about Larry,
+   the sweep would very likely have caught it. **The negative is about a phrasing, not about the
+   existence of an acknowledgment.***
+   *2026-09-10, A METHOD CAUTION WORTH THE EMBARRASSMENT — **the search index concatenates text
+   across boxed inserts and cross-references, so an OCR snippet can read as a grammatical
+   sentence that does not exist on the page.** Two passages written earlier today rested on such
+   a reading. **Verify a snippet against the page image before recording what it says** — the
+   same rule this archive already applies to Larry's testimony, applied to the machine.*
    *2026-09-10, WHAT THE LATE WINDOW DID TO THE QUESTION — nothing was found, **but the shape of
    the remaining possibility changed.** Before today the open hypothesis was "the item is in a
    part of the paper we have not read yet". After the gap, the October target and the correction

@@ -2065,6 +2065,13 @@ and that such a correction ran **on an inside page (p.4)** rather than as a fron
 retraction. Until today the correction Larry's account implies was a purely hypothetical
 object. It is now a known genre with a known format and a known place in the paper.
 
+> **SUPERSEDED THE SAME DAY — see "ISSUE #144 RESOLVED" at the end of this file.** The
+> incident is Santo Domingo, and **there is no correction on Page 4 — there is a map.** The
+> "correction notice on an inside page" described above was my own misreading of an OCR
+> snippet that ran two text blocks together. What survives is narrower and better: the paper
+> acknowledged the erroneous report **as a subordinate clause inside a later news story**, not
+> as a correction of any kind.
+
 **Recorded as an open item:** confirm the incident behind the 4 May 1965 item — Santo Domingo
 or Saigon — and read the correction itself on p.4 of the preceding issue. If Santo Domingo, it
 stays precedent. If Saigon, it becomes something much larger.
@@ -2080,3 +2087,78 @@ none of them names him.**
 The hypothesis that survives is different and weaker to test: **that the release naming him was
 issued but never ran in the Pacific** — for which there are now two demonstrated precedents in
 this very window, and which this archive cannot settle from the newspaper alone.
+
+---
+
+# 2026-09-10 — ISSUE #144 RESOLVED: SANTO DOMINGO, AND THERE IS NO CORRECTION ON PAGE 4
+
+The lead recorded a few hours earlier was chased to the page. **Both halves of it were wrong,
+and the thing that replaces them is more useful than either.**
+
+**The item: European Stars and Stripes, Tuesday 4 May 1965, Volume 24 Number 17, page 1**
+(imageID **133459274**, scan **1517 × 2056** — the ~100 dpi European scan the earlier session
+measured, legible for body text, not for agate).
+
+The front page leads **"Johnson Charges Reds Rule Dominican Revolt"**. The sentence sits inside
+the column **"Yanks Link Up to Open Corridor — SANTO DOMINGO (AP)"**, and reads, in full:
+
+> One U.S. Marine was killed and two wounded by sniper action not related to the linkup. This
+> brings to a total of five the official count **[Map on Page 4]** of U.S. military men dead,
+> plus 38 wounded, in four days of action involving U.S. forces. **Another Marine had been
+> erroneously reported killed on the U.S. Embassy grounds on Saturday.**
+> At the United Nations, meanwhile, the United States called on Cuba to explain to the Security
+> Council the role of Fidel Cas[tro]…
+
+## Correction 1 — the incident is Santo Domingo, as suspected
+
+**Confirmed: the Dominican Republic, not Saigon.** The Saturday is **1 May 1965**, the embassy
+is the U.S. Embassy in Santo Domingo, and the surrounding page is entirely the Dominican
+intervention. **This is not a Vietnam case and it is not a lead on Larry.** The caution
+attached to the lead when it was recorded was correct and is now settled.
+
+## Correction 2 — there is no correction on Page 4. There is a map.
+
+**This one was my own error and it needs stating plainly.** The search snippet read
+*"…on Page 4 after Marine had been erroneously reported killed…"*, and I read it as a reference
+to a printed correction carried on page 4. **It is not.** The words come from two different
+text blocks that the OCR ran together: the boxed cross-reference **"Map on Page 4"** sits in the
+middle of the paragraph, physically interrupting the sentence *"This brings to a total of five
+the official count / of U.S. military men dead…"*. Page 4 carries **a map of the Dominican
+Republic**.
+
+**So the "correction notice on an inside page" recorded this morning does not exist.** No such
+object was found, and the format described for it — inside page, p.4 — was an artefact of
+reading an OCR snippet as if it were a sentence.
+
+## What actually survives, and it is the more useful finding
+
+**Stars and Stripes did acknowledge an erroneous death report in print — but as a single
+subordinate clause inside a later running news story, not as a correction of any kind.** There
+is no heading, no label, no "correction", no retraction. A man had been reported killed, he had
+not been, and the paper says so in eleven words while updating a casualty count, then moves on
+to the United Nations in the next sentence.
+
+**This matters directly for #9, and it cuts against the sweep that found it.** If the Pacific
+ever acknowledged Larry's misreport, **the acknowledgment may not look like a correction at
+all** — it may be a clause inside a later story about something else, carrying no keyword a
+sweep would catch, on a page nobody would think to read. That is close to unfindable by search,
+and it is a better explanation of the correction sweep's silence than "no correction was
+printed".
+
+**The force the negative does retain:** the word *erroneously* is genuinely rare in this
+archive — **one casualty-related hit in all of 1965 and 1966, across every edition**. So if the
+Pacific had acknowledged Larry's misreport **in that phrasing**, the sweep would very likely
+have caught it. The negative is real, but it is a negative about **a phrasing**, not about the
+existence of an acknowledgment.
+
+## Consequence recorded
+
+- **#144 is closed.** Santo Domingo; no correction; precedent narrower than first stated.
+- **The Dec 1965 – Feb 1966 correction sweep stays negative**, and its interpretation is
+  revised: it rules out a *labelled* correction in the probed phrasings, not an acknowledgment.
+- **A method caution for anyone reading OCR snippets in this archive:** the search index
+  concatenates text across boxed inserts and cross-references, so a snippet can read as a
+  grammatical sentence that **does not exist on the page**. Two blocks of this file were written
+  on such a reading today. **Verify a snippet against the page image before recording what it
+  says** — the same rule the archive already applies to Larry's testimony, applied to the
+  machine.
