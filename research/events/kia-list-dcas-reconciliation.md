@@ -392,3 +392,263 @@ and Royal Oak is in Michigan.
       were listed as dead from other than hostile causes."* The names begin at roughly page
       fraction **y = 0.72**, column **x ≈ 0.048, width ≈ 0.19**. One page, ~24 names.
 - [ ] **Resolve the five near-spelling cases above** with the edit-distance pass. Free, offline.
+
+---
+
+# 2026-09-10, SIXTH PASS — THE EDIT-DISTANCE PASS: ALL FIVE RESOLVE, AND NOV 11 + NOV 12 ARE CLEAN
+
+Free, offline, no subscription. The task left at the resume point above.
+
+**Corpus rebuilt from the recipe in `kia-same-name-hypothesis.md`:** 55 state/territory files,
+`mp-alpha.pdf` still 404, **202,942 lines**. That reproduces the recorded figure exactly, which
+is a control on the rebuild as well as on the roll.
+
+## The five, all matched — and none was an absence
+
+| Printed in the paper | DCAS record | Why it is the same man |
+|---|---|---|
+| WO Ronald W. **MacLin**, Glendale, Cal. (Nov 11) | **MACKLIN RONALD**, Army WO1, b. 19380303, Glendale, Los Angeles Co. CA, **d. 19651020** | Given name, rank, city and county all exact. Confirms the fifth pass's reading: the record had *already matched* in the first reconciliation as an Oct 25 missing man who later entered the roll. |
+| SFC **Russel Hammond**, Pittsburgh (Nov 11) | **HAMMOND RUSSELL**, Army SFC, b. 19320427, Pittsburgh, Allegheny Co. PA, **d. 19651105** | One `l`. Rank, service and city exact; 6-day lag to printing. |
+| Sgt. **J. W. Barksdale**, North St. Petersburg, Fla. (Nov 12) | **BARKSDALE JAMES WILLIAM**, Army SGT, b. 19380130, St Petersburg, Pinellas Co. FL, **d. 19651106** | The initials-only case resolves outright: **J. W. = James William.** Rank, service, city and county exact; 6-day lag. |
+| PFC **Kelley E. Whitaker**, Memphis, Tenn. (Nov 12) | **WHITAKER KELLY**, Army PFC, b. 19470625, Memphis, Shelby Co. TN, **d. 19651108** | Kelley/Kelly. Rank, service, city exact; 4-day lag. |
+| PFC **Philip K. Rea**, Chicago (Nov 12) | **REA PHILLIP KENNETH**, Army PFC, b. 19430806, Chicago, Cook Co. IL, **d. 19651106** | Philip/Phillip, **K. = Kenneth**. Rank, service, city exact; 6-day lag. |
+
+**Nov 11 and Nov 12 are therefore 55 of 55 matched. Not one unmatched name, and no absence to
+explain.** The fifth pass's instruction — "do not record them as unmatched" — was correct, and
+the reason is now documented rather than inferred.
+
+## THE RUNNING TOTAL, CORRECTED — AND THE BASE RATE COMES DOWN
+
+Noelke was tested in both passes, so the union is **118 distinct printed names**, not 119.
+
+- **Printed DEAD — 94 names. 93 are in DCAS.** The one exception is Halyburton, and he was
+  alive.
+- **Printed MISSING — 24 names. 18 are in DCAS**; the six absent (Schierman, Norse, Sima,
+  McDonald, Wheat, Jenkins) are the men who came home.
+- **111 matched, 7 not — and every one of the seven was alive.** The columns still separate
+  perfectly, and the instrument still has **zero false positives**.
+
+**The correction that matters is to our own number.** The fourth pass measured the rate of men
+printed dead who were not dead at **about one in forty**. On 54 further printed-dead names, all
+of which matched, **that rate is now about one in ninety-four** — roughly 1%, not 2.5%.
+
+**This cuts both ways and both should be said.** It **weakens** the prior on Larry's account
+being visible in this corpus by more than half: erroneous death reports in this paper, in these
+months, are rarer than the archive has been saying since yesterday. It **strengthens** the
+instrument itself: 54 more names went through the method and produced no noise at all, so an
+unmatched printed-dead name remains a genuinely rare event and therefore a genuinely
+informative one. **Larry's case is still the kind of thing this method can see. It is simply a
+rarer kind of thing than we said.**
+
+*(Method note for anyone re-running this: every one of the five was found by a plain surname
+grep on the full national roll with a 3-line window. No fuzzy matching was needed. The five
+looked like edit-distance problems only because the fifth pass screened them against the
+printed state before the national roll — the same trap recorded as correction 2 in this file's
+Method section, which caught 14 names on the first pass and 5 here.)*
+
+## RESUME POINT, REVISED
+
+- [x] ~~Resolve the five near-spelling cases~~ — **done; all five matched, none an absence**
+- [ ] **Nov 15, p.4, "Casualties Identified" — RE-READ with given names and hometowns.**
+      imageID **133215410**, 36-page issue, bottom-left column, names begin about page fraction
+      **y = 0.72**, column **x ≈ 0.048, width ≈ 0.19**. **Note: this list is NOT unread** — an
+      earlier session read it in full and recorded 17 Army surnames (Pasqual, Harrington,
+      Holcum, Howard, Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser,
+      Foster, Hawes, Ross, Mathison, Potter) with the composition **19 killed + 5 non-hostile
+      + 1 missing**. What is missing is given names and hometowns, and the Nov 11/12 re-read
+      found **nine surnames in 55 had drifted**, so expect drift here too.
+      **The single missing man on this list is a free test of the instrument.**
+- [ ] Screen the re-read Nov 15 names against DCAS as a matter of course.
+- [ ] **Revisit the hometown-based exclusions** and downgrade them from "rules out" to "does
+      not support". None need reversing on present evidence.
+
+---
+
+# 2026-09-10, SEVENTH PASS — NOV 15 RE-READ, AND THE CORPUS RECIPE ITSELF WAS WRONG
+
+**Pacific Stars and Stripes, Monday 15 November 1965, archive p.4 = printed p.6** (folio read
+directly off the page), "Casualties Identified", imageID **133215410**, scan native
+**2975 × 4295**. Read at 2× and 3× native, fully legible at agate.
+
+**The item is now transcribed in full for the first time: 25 names.** The earlier session's
+record listed 17 Army surnames only and gave the composition as "19 killed + 5 non-hostile +
+1 missing" — **the composition was exactly right; the name list was not.**
+
+## The item as printed
+
+> WASHINGTON (AP) — The Defense Department has identified 19 more U.S. servicemen killed in
+> action in Vietnam. Five others were listed as dead from other than hostile causes.
+
+**Reported killed — Marine Corps (1):** Cpl. **Larry D. Bell**, Steamboat Springs, Colo.
+
+**Reported killed — Army (18):** SFC Florendo B. **Pascuel**, Fort Benning, Ga.; SSgt. Clifford
+W. Harrington, Clarksville, Tenn.; Sgt. Rebel L. **Holcum**, Wichita, Kan.; Sgt. Lawrence Howard
+Jr., Clarksville, Tenn.; Sgt. Walter R. Oliver, Newark, Ohio; Sgt. William A. Sullivan, Camden,
+N.J.; Sgt. Willis W. Weber, Valley City, N.D.; SP5 Carl T. **Ball**, Columbus, Ga.; SP4 Clyde R.
+**Merman**, Richmond, Va.; SP4 Cordell Spencer, Bessemer, Ala.; **SP4 (no first name given)
+Sciptltate**, Newark, N.J.; PFC James L. Allen, Beaumont, Tex.; PFC Gary L. **Elmore**, Lavonia,
+Ga.; PFC Byron J. Foster, Hudson, Mich.; PFC James D. Hawes, Ocilla, Ga.; PFC John K. **Keao
+III**, Haleiwa, Hawaii; PFC Michael K. Mathison, East St. Louis, Ill.; PFC Jerry L. Potter,
+Denver, Colo.
+
+**Dead from other than hostile causes — Marine Corps (1):** Sgt. Richard L. **Nuziard**,
+Bellflower, Cal.
+
+**Dead from other than hostile causes — Army (4):** Capt. Daniel G. Dawson, Rohnert Park, Cal.;
+WO James W. Sizemore, Hattiesburg, Miss.; SP4 Wilbur W. Ivanov, Claremont, N.H.; PFC Ben K.
+McBride, Boise City, Ida.
+
+**Missing (1), quoted because the wording matters:** *"Missing in action was Army PFC William
+Esposito Jr. His home town was withheld."*
+
+## What the re-read corrected
+
+**Five surname corrections in the 17 previously recorded**, and the pattern is the same as
+Nov 11/12 — the drift is ours, not the paper's:
+
+| Recorded before | Actually printed |
+|---|---|
+| Pasqual | **Pascuel** |
+| "C. Bell" | **Ball** — SP5 Carl T. Ball |
+| Herman | **Merman** *(see the glyph note below)* |
+| Elsasser | **Elmore** |
+| Ross | **Keao** |
+
+**And nine names had never been transcribed at all:** the Marine Cpl. **Larry D. Bell**; the
+Army SP4 printed as **"(no first name given) Sciptltate"**; and the whole non-hostile block plus
+the missing man — **Nuziard, Dawson, Sizemore, Ivanov, McBride, Esposito**. The earlier "READ IN
+FULL" entry covered one of the item's four blocks.
+
+**Glyph note, recorded rather than resolved:** the surname at Richmond, Va. reads **Merman** on
+this scan at 3× — a clear initial **M**. The earlier session read *Herman*, and DCAS holds
+**HERMAN CLYDE RUSSEL**. Either the paper mis-set the initial or the scan has broken the
+crossbar of an H. **It is transcribed here as printed.**
+
+## Screening against DCAS — 25 of 25 matched, and no signature fires
+
+| Printed | DCAS | Note |
+|---|---|---|
+| Cpl. Larry D. Bell, Steamboat Springs, Colo. | BELL LARRY DEAN, USMC CPL, Rockford, Winnebago IL, d. 19651110 | service + rank exact; **home of record is Illinois, not Colorado** |
+| SFC Florendo B. Pascuel, Fort Benning, Ga. | PASCUAL FLORENDO B, Army SFC, **Honolulu HI**, d. 19651103 | the printed "hometown" is his **post** |
+| SSgt. Clifford W. Harrington | HARRINGTON CLIFTON, Army SSG, Aberdeen, Moore NC, d. 19651108 | Clifford/Clifton |
+| Sgt. Rebel L. Holcum, Wichita, Kan. | HOLCOMB REBEL LEE, Army SGT, Wichita, Sedgwick KS, d. 19651108 | Holcum/HOLCOMB; city exact |
+| Sgt. Lawrence Howard Jr., Clarksville, Tenn. | HOWARD LAWRENCE, Army SGT, **Philadelphia PA**, d. 19651108 | |
+| Sgt. Walter R. Oliver, Newark, Ohio | OLIVER WALTER B, Army SGT, Newark, Licking OH, d. 19651104 | city + county exact |
+| Sgt. William A. Sullivan, Camden, N.J. | SULLIVAN WILLIAM, Army SGT, **Fayetteville NC**, d. 19651106 | |
+| Sgt. Willis W. Weber, Valley City, N.D. | WEBER WILLIS WILLIAM, Army SGT, Valley City, Barnes ND, d. 19651111 | exact |
+| SP5 Carl T. Ball, Columbus, Ga. | **BAAL CARL THOMAS**, Army SP5, Lebanon, Lebanon PA, d. 19651109 | Ball/BAAL; rank exact; Columbus Ga. is **Fort Benning** |
+| SP4 Clyde R. Merman, Richmond, Va. | HERMAN CLYDE RUSSEL, Army SP4, Roanoke VA, d. 19651106 | see glyph note |
+| SP4 Cordell Spencer, Bessemer, Ala. | SPENCER CORDELL, Army SP4, Bessemer, Jefferson AL, d. 19651108 | exact |
+| SP4 (no first name given) **Sciptltate**, Newark, N.J. | **TATE SCIP**, Army SP4, Newark, Essex NJ, d. 19651108 | **the printed word is "Scip Tate" run together** — city, county, rank exact |
+| PFC James L. Allen, Beaumont, Tex. | ALLEN JAMES LOUIS, Army PFC, Beaumont, Jefferson TX, d. 19651106 | exact |
+| PFC Gary L. Elmore, Lavonia, Ga. | ELMORE GARY LEWIS, Army PFC, **Garden City, Wayne MI**, d. 19651108 | |
+| PFC Byron J. Foster, Hudson, Mich. | FOSTER BYRON JAMES, Army PFC, Detroit, Wayne MI, d. 19651108 | state exact |
+| PFC James D. Hawes, Ocilla, Ga. | HAWES JAMES DALE, Army PFC, Waycross, Ware GA, d. 19651111 | state exact |
+| PFC John K. Keao III, **Haleiwa, Hawaii** | KEAO JOHN K III, Army PFC, **Los Angeles, Los Angeles CA**, d. 19651106 | name exact to the suffix |
+| PFC Michael K. Mathison, East St. Louis, Ill. | MATHISON MICHAEL K, Army PFC, East St Louis, St Clair IL, d. 19651108 | exact |
+| PFC Jerry L. Potter, Denver, Colo. | POTTER JERRY LEE, Army PFC, **Englewood**, Arapahoe CO, d. 19651108 | Denver suburb |
+| Sgt. Richard L. Nuziard, Bellflower, Cal. | NUZIARD RICHARD LEE, USMC SGT, **Mishawaka, St Joseph IN**, d. 19651108 | |
+| Capt. Daniel G. Dawson, Rohnert Park, Cal. | DAWSON DANIEL GEORGE, Army CPT, Ft Bragg, Mendocino CA, **d. 19641106**, remains **N** | **see below** |
+| WO James W. Sizemore, Hattiesburg, Miss. | SIZEMORE JAMES, Army WO1, Hattiesburg, Forrest MS, d. 19651104 | exact |
+| SP4 Wilbur W. Ivanov, Claremont, N.H. | IVANOV WILBUR WILLIAM, Army SP4, **Windsor, Windsor [VT]**, d. 19651111 | across the river from Claremont |
+| PFC Ben K. McBride, Boise City, Ida. | MCBRIDE BEN K, Army PFC, **Boise City, Cimarron [OK]**, d. 19651025 | **the paper read the wrong Boise City** |
+| PFC William Esposito Jr. — **printed MISSING** | ESPOSITO WILLIAM JR, Army CPL, New York, Kings NY, **d. 19651111** | **see below** |
+
+**Twenty-five of twenty-five. The signature does not fire anywhere on this list.**
+
+## Three things this list teaches beyond the count
+
+**1. The Dawson case is the backdating pattern, documented again.** He is printed on 15 November
+1965 among the newly identified dead; DCAS gives his death as **6 November 1964** with remains
+**not recovered**. That is a **one-year lag**, and it is the Goudy pattern already in this file:
+when a man carried as missing is resolved to dead, **the date that enters the record is the date
+he went missing, not the date of the announcement.** Any future attempt to date an item from a
+DCAS death date must allow for this.
+
+**2. The Esposito case is the mirror image of Larry's.** The paper printed him **missing** on 15
+November; DCAS has him **dead on 11 November**, four days before the item ran. So the printed
+*missing* column is not reliable either — it can lag a death. The two columns of this instrument
+are asymmetric: **an unmatched name in the DEAD column is informative; the MISSING column is
+noisy in both directions.**
+
+**3. The hometown discriminator collapses completely on this list, and it can now be quantified.**
+Of the 24 men whose home of record is known, **at least eleven were printed with a place that is
+not it** — Bell (Colo./Ill.), Pascuel (a post), Harrington, Howard, Sullivan, Ball (a post),
+Merman, Elmore (Ga./Mich.), **Keao (Hawaii/California)**, Nuziard (Cal./Ind.), Ivanov (N.H./Vt.),
+McBride (the wrong Boise City) — and the paper **states outright** that Esposito's "home town was
+withheld". That is **the paper telling us, in print, that the hometown field is not a hometown.**
+The downgrade recorded earlier today was not cautious enough: **on this list hometown is not
+corroboration, it is noise.**
+
+## RUNNING TOTAL — 143 names
+
+- **Printed DEAD — 118 names. 117 are in DCAS.** The sole exception remains Halyburton, and he
+  was alive.
+- **Printed MISSING — 25 names. 19 are in DCAS**; the six absent are the men who came home.
+- **136 matched, 7 not, and every one of the seven was alive.**
+- **The measured rate of men printed dead who were not dead is now about one in 118** — it was
+  "one in forty" two days ago and "one in ninety-four" this morning. **It has fallen every time
+  the corpus has grown, which is what an honest denominator does.**
+
+---
+
+# 2026-09-10 — THE CORPUS RECIPE IS WRONG, AND IT HAS BEEN WRONG SINCE THE SAME-NAME PASS
+
+This was found by accident while chasing two names on the Nov 15 list, and it is the most
+consequential thing in this file for anyone who re-runs the method.
+
+**The recipe recorded in `kia-same-name-hypothesis.md` converts the NARA PDFs with
+`pdftotext -layout`. That mis-associates names with their data.**
+
+The NARA casualty PDFs are **column-major tables**: the Name column is set on tighter line
+spacing than the data columns. `-layout` reconstructs by vertical position, so on many pages the
+name printed on a text line is **not** the name whose service, rank, birthdate, home of record
+and death date follow it. The symptom is easy to see once you know it: in the Illinois file,
+`-layout` produces alternating bare-name lines —
+
+    BELL DONNELL
+    BELL JAMES WILLIAM           SP4  19480731 HARRISBURG SALINE  19680731  Y
+    BELL JERRY W
+    BELL JOHN HENRY     ARMY     PVT  19490809 VENICE     MADISON 19680225  Y
+    BELL LARRY DEAN
+    BELL LEO JR         MARINE CORPS PFC 19500224 CHICAGO COOK    19690217  Y
+
+— and note that the rows carrying data are missing the **Service** field, which is the tell.
+
+**`pdftotext -table` is correct.** Three independent checks:
+
+1. **Prediction test.** Working from the wrapped `-layout` text by hand, the Pennsylvania record
+   for our man was reconstructed as *BAAL CARL THOMAS, Army SP5, b. 19270128, Lebanon, Lebanon
+   Co., d. 19651109*. Re-extracting `pa.pdf` with `-table` returns **exactly that row**. The
+   newspaper independently prints **SP5 Carl T. Ball** — rank, given names and a 6-day lag all
+   agree.
+2. **Control record.** `HAMMOND RUSSELL, Army SFC, 19320427, Pittsburgh, Allegheny, 19651105` is
+   identical under both modes, so `-table` is not shifting everything.
+3. **Row count.** `-table` yields **58,096** date-bearing rows against `-layout`'s **59,354**.
+   This file's own note says the true figure should be near the **~58,220** names on the Wall.
+   **`-layout` was inflating the roll with spurious rows.**
+
+**The two controls that matter both still hold under the corrected corpus:**
+
+- **There is no Hunnewell anywhere in the `-table` roll.** The same-name finding stands.
+- **Halyburton is absent.** He was a living POW, so he must be, and he is. The instrument's
+  built-in control fires under the corrected extraction too.
+
+**What this changes, and what it does not.** No verdict recorded in this file is reversed by it:
+every match asserted here was corroborated by rank, service, city or date agreeing with the
+printed entry, and corroborated matches cannot be victims of a mis-association. **What it
+changes is the confidence attaching to an UNMATCHED verdict.** Under `-layout`, a name could be
+present in the roll and still fail a data-bearing search — which is exactly what happened to
+Bell, Ball, Spencer and Tate on this list, all four of which are in DCAS and all four of which
+the first strict pass would have called absent. **Since an unmatched name is the whole
+signature, this was a live source of false positives, and it is now closed.**
+
+**Corrected recipe — supersedes the one in `kia-same-name-hypothesis.md`:**
+
+```sh
+for f in *.pdf; do pdftotext -table "$f" "${f%.pdf}.txt"; done
+```
+
+**Also worth recording:** `mp-alpha.pdf` still 404s, 55 files download, and the raw
+(non-`-layout`, non-`-table`) extraction is useless here — it emits each column as one run-on
+paragraph.

@@ -43,6 +43,42 @@ done
 for f in *.pdf; do pdftotext -layout "$f" "${f%.pdf}.txt"; done
 ```
 
+> **CORRECTION, 2026-09-10 — `-layout` IS THE WRONG FLAG. USE `pdftotext -table`.**
+>
+> The NARA casualty PDFs are column-major tables whose **Name** column is set on tighter line
+> spacing than the data columns, so `-layout`, which reconstructs by vertical position,
+> **mis-associates names with their service, rank, birthdate, home of record and death date**
+> on many pages. The tell is alternating bare-name lines, and data rows missing the Service
+> field:
+>
+> ```
+> BELL DONNELL
+> BELL JAMES WILLIAM           SP4  19480731 HARRISBURG SALINE  19680731  Y
+> BELL JERRY W
+> BELL JOHN HENRY     ARMY     PVT  19490809 VENICE     MADISON 19680225  Y
+> BELL LARRY DEAN
+> BELL LEO JR         MARINE CORPS PFC 19500224 CHICAGO COOK    19690217  Y
+> ```
+>
+> **Use this instead:**
+>
+> ```sh
+> for f in *.pdf; do pdftotext -table "$f" "${f%.pdf}.txt"; done
+> ```
+>
+> **Evidence, and the controls, are in `research/events/kia-list-dcas-reconciliation.md`**
+> (section "THE CORPUS RECIPE IS WRONG"). In short: a record reconstructed by hand from the
+> wrapped `-layout` text was predicted exactly by `-table` and independently corroborated by a
+> newspaper entry; a control record is identical under both modes; and `-table` yields **58,096**
+> date-bearing rows against `-layout`'s **59,354**, where the true figure should be near the
+> **~58,220** names on the Wall — `-layout` was inflating the roll.
+>
+> **The finding of THIS file is unaffected and was re-run as a control: there is no Hunnewell
+> anywhere in the `-table` corpus either.** What the correction changes is the reliability of an
+> *absence* generally: under `-layout` a man who is in the roll can fail a data-bearing search,
+> which on one 25-name list produced four spurious absences. Since an unmatched printed name is
+> the documentary signature this archive is hunting, that hazard mattered, and it is now closed.
+
 **Corpus check:** 202,942 lines across 55 files, containing **59,577** date-bearing casualty
 rows — consistent with the ~58,220 names on the Wall plus header and continuation rows. The
 corpus is complete, not a sample.

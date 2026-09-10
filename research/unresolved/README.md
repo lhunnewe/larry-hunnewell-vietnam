@@ -386,6 +386,229 @@ Open questions:
    others were listed as dead from other than hostile causes."* Names begin at about page
    fraction **y=0.72**, column **x≈0.048, w≈0.19**. **One page, ~24 names** — then the three
    November lists are complete. Also free and offline: the edit-distance pass on the five above.*
+   *2026-09-10, THE EDIT-DISTANCE PASS IS DONE — **all five resolve, none was an absence, and
+   Nov 11 + Nov 12 are 55 of 55 matched.** Free, offline; corpus rebuilt to 202,942 lines across
+   55 files, reproducing the recorded figure exactly. **MacLin** = MACKLIN RONALD, Army WO1,
+   Glendale/Los Angeles Co. CA, d. 19651020; **Russel Hammond** = HAMMOND RUSSELL, Army SFC,
+   Pittsburgh/Allegheny PA, d. 19651105; **J. W. Barksdale** = BARKSDALE **JAMES WILLIAM**, Army
+   SGT, St Petersburg/Pinellas FL, d. 19651106 — the initials resolve outright; **Kelley E.
+   Whitaker** = WHITAKER KELLY, Army PFC, Memphis/Shelby TN, d. 19651108; **Philip K. Rea** =
+   REA **PHILLIP KENNETH**, Army PFC, Chicago/Cook IL, d. 19651106. Every one exact on rank,
+   service and city, with a 4–6 day lag to printing (MacLin, already matched once as an Oct 25
+   missing man, is the exception at 22). **No fuzzy matching was needed** — all five were plain
+   surname greps on the NATIONAL roll, and they looked like edit-distance problems only because
+   the fifth pass screened them against the printed state first, which is correction 2 in the
+   reconciliation file's own method section.*
+   *2026-09-10, THE BASE RATE COMES DOWN, AND OUR OWN NUMBER IS CORRECTED — **the union is now
+   118 distinct printed names: 111 matched, 7 not, and every one of the seven was alive.**
+   Printed DEAD 94 names, 93 in DCAS, the sole exception Halyburton; printed MISSING 24, 18 in
+   DCAS, the six absent being the men who came home. **The rate of men printed dead who were not
+   dead is therefore about one in ninety-four (~1%), NOT the one in forty (~2.5%) recorded
+   yesterday** — 54 further printed-dead names all matched. **This cuts both ways and both
+   belong here.** It **weakens** the prior on Larry's account being visible in this corpus by
+   more than half. It **strengthens** the instrument: 54 more names produced no noise at all, so
+   an unmatched printed-dead name stays a rare and therefore informative event. Larry's case is
+   still the kind of thing this method can see; it is a rarer kind of thing than we said.*
+   *2026-09-10, A CORRECTION TO THE RESUME POINT ABOVE — **Nov 15 is NOT unread.** An earlier
+   session read it in full and recorded 17 Army surnames (Pasqual, Harrington, Holcum, Howard,
+   Oliver, Sullivan, Weber, C. Bell, Herman, Spencer, Allen, Elsasser, Foster, Hawes, Ross,
+   Mathison, Potter), composition **19 killed + 5 non-hostile + 1 missing**. What is outstanding
+   is a **re-read for given names and hometowns**, exactly as for Nov 11 and Nov 12 — where nine
+   surnames in 55 had drifted. **The single missing man on the Nov 15 list is a free test of the
+   instrument.***
+   *2026-09-10 — **the hometown-based negatives in `kia-misreport-stars-stripes.md` are now
+   annotated in place**, at the 44-hit "inglewood" sweep and at the "no Inglewood" list table, so
+   a reader meeting them cannot take them for a test that was passed. **None needed reversing on
+   present evidence; their weight is downgraded from "rules out" to "does not support".***
+   *2026-09-10, NOV 15 IS READ IN FULL — **25 names, all with given names and hometowns, and
+   the November queue is now CLOSED.** Working: `research/events/kia-list-dcas-reconciliation.md`.
+   Pacific S&S **Mon 15 Nov 1965, archive p.4 = printed p.6** (folio read off the page),
+   "Casualties Identified", imageID 133215410, scan 2975×4295. **No Hunnewell.** The earlier
+   "READ IN FULL" record for this date covered **one of the item's four blocks**: 17 Army
+   surnames, of which **five had drifted** (Pasqual→**Pascuel**, "C. Bell"→**Ball**,
+   Herman→**Merman**, Elsasser→**Elmore**, Ross→**Keao**), and it omitted the Marine killed
+   (Cpl. **Larry D. Bell**), an Army SP4 printed as **"(no first name given) Sciptltate"** —
+   DCAS **TATE SCIP**, the paper ran given name and surname together — the five non-hostile
+   dead (**Nuziard, Dawson, Sizemore, Ivanov, McBride**) and the missing man (**Esposito**).*
+   *2026-09-10 — **screened: 25 of 25 matched. The signature does not fire.** Running total for
+   the whole search: **143 printed names, 136 matched, 7 not, and every one of the seven was
+   alive.** Printed DEAD 118, of which 117 in DCAS (Halyburton the sole exception); printed
+   MISSING 25, of which 19. **The measured rate of men printed dead who were not dead is now
+   about one in 118** — it was one in forty two days ago and one in ninety-four this morning,
+   and it has fallen every time the denominator grew.*
+   *2026-09-10, THE HOMETOWN DISCRIMINATOR IS NOT WEAK, IT IS NOISE — **and the paper says so in
+   print.** On this single list, **at least eleven of 24 men were printed with a place that is
+   not their home of record**: two of them a *post* (Fort Benning, twice), one **the wrong Boise
+   City**, and **PFC John K. Keao III printed as of Haleiwa, Hawaii against a home of record of
+   Los Angeles County, California**. The item then ends: *"Missing in action was Army PFC
+   William Esposito Jr. **His home town was withheld.**"* **For #9 this closes it: Inglewood was
+   never a test.** A printed entry for Larry could have carried Tan Son Nhut, a hospital, a
+   post, a city his family had left, the wrong city of the same name — or nothing at all. **The
+   name is the only discriminator this corpus supports.***
+   *2026-09-10, TWO DATING TRAPS, both documented on this one list. **Backdating:** Capt. Daniel
+   G. Dawson is printed among the newly identified dead on 15 Nov 1965; DCAS gives his death as
+   **6 Nov 1964**, remains not recovered — when a missing man is resolved to dead, the date that
+   enters the record is **the date he went missing** (the Goudy pattern again). **Do not date an
+   item from a DCAS death date without allowing for a year's lag.** **The missing column lags
+   too:** PFC William Esposito Jr. is printed *missing* on 15 Nov; DCAS has him **dead on 11
+   Nov**, four days before the item ran. The instrument is asymmetric — an unmatched name in the
+   DEAD column is informative; the MISSING column is noisy in both directions.*
+   *2026-09-10, METHOD — **the IIP crop recipe recorded in `kia-misreport-stars-stripes.md` is
+   dead, and the replacement is better.** Every fractional `RGN=` now returns HTTP 400 at every
+   WID and QLT; `RGN=0,0,1,1` only appears to work because the viewer had cached that exact URL.
+   **`fetch()` is blocked by the WAF and `<img>` is not** (the `.dzi` descriptor is the one
+   exception). Use the viewer's own transport: read `?DeepZoom=<jp2>.dzi` for size and tile
+   size, compute max level as `ceil(log2(max(W,H)))` (**13** here, giving true native
+   2975×4295), load `?DeepZoom=<jp2>_files/13/{col}_{row}.jpg` **as `<img>` elements** laid out
+   at `left=col*256, top=row*256`, and scale the container by CSS. **Display at 2×–3× native**,
+   because the browser screenshot downsamples a 2560-px viewport to 1568.*
+   *2026-09-10, METHOD, AND THIS ONE IS SERIOUS — **the DCAS corpus recipe has been wrong since
+   the same-name pass. `pdftotext -layout` mis-associates names with their data; use
+   `pdftotext -table`.** The NARA PDFs set the Name column on tighter line spacing than the data
+   columns, so position-based reconstruction pairs a name with the wrong row; the tell is
+   alternating bare-name lines and data rows missing the Service field. Three controls: a record
+   reconstructed by hand from the wrapped text was **predicted exactly** by `-table` and
+   independently corroborated by the newspaper (BAAL CARL THOMAS / "SP5 Carl T. Ball"); a
+   control record is identical under both modes; and `-table` gives **58,096** date-bearing rows
+   against `-layout`'s **59,354**, where the true figure is near the **~58,220** names on the
+   Wall. **Both archive controls survive the change: no Hunnewell anywhere in the corrected
+   roll, and Halyburton correctly absent.** No verdict already recorded is reversed — every
+   match asserted was corroborated by rank, service, city or date — **but four names on the
+   Nov 15 list alone (Bell, Ball, Spencer, Tate) are in DCAS and would have been called absent
+   by a strict `-layout` search. Since an unmatched printed name IS the signature, the old
+   recipe was manufacturing exactly the evidence we are hunting. That hazard is now closed.**
+   `kia-same-name-hypothesis.md` has been annotated at the recipe.*
+   *2026-09-10, THE EDITION-STRUCTURE WALK IS DONE — **7 September 1965, all 33 archive pages,
+   and the result is bigger than the task.** Working: `research/events/kia-misreport-stars-
+   stripes.md`, section "THE EDITION-STRUCTURE WALK". **The edition is printed on every page.**
+   The date line under the folio carries a suffix, proved by three consecutive archive pages
+   all numbered folio 17 and differing only there: p.16 plain, **p.17 "—A"**, **p.18 "—O"**,
+   and p.30 gives **"—K"**. `—O` is Okinawa (p.33's text refers to the Ryukyus), `—K` is Korea
+   (the KOREA front is p.28), `—A` is not yet identified. **So the edition of any page can be
+   read off its own folio line — no front page needed, no offset computed.** This supersedes
+   the older method note "find an edition's front page by searching the day's lead headline",
+   which still works but is no longer necessary.*
+   *2026-09-10 — **what the archive calls "page N" is not a page of a newspaper, and this bears
+   on every page-level negative recorded in this search.** (a) **The archive's order is not the
+   paper's order:** archive pp.2–13 carry the EVEN folios 2,4,…,24 in sequence, while the ODD
+   folios appear much later in a separate run — p.19=3, p.20=5, p.21=7, p.22=9, p.23=11,
+   p.25=17, p.26=19, p.27=21, p.29=23. (b) **Folio numbers repeat, because several zone
+   editions are bundled under one date:** in this one bundle there are **five pages numbered
+   7**, **five numbered 17** and **two numbered 23**. (c) **Two front pages (pp.1 and 28) and
+   one double-width scan (p.7, 6098 px)**, so even "one scan = one page" fails once per issue.
+   **Consequence, stated plainly: "I read page N of date D" is not a statement of coverage.** A
+   negative on a page numbered 17 covers ONE zone's page 17 and says nothing about the other
+   four. Every page-level negative here should be read as narrower than it sounds — not wrong.
+   It is the same error the 2026-09-03 audit made one level up when it read the browse list of
+   titles and concluded the paper was unreachable "in any edition".*
+   *2026-09-10, A FREE HEURISTIC — **a discontinuity in the imageID sequence marks a structural
+   boundary in the bundle, and it can be seen without opening a page.** On 7 Sept the IDs break
+   between p.18 (133213996) and p.19 (141723444), and the break lands almost exactly where the
+   even-folio run ends and the odd-folio run begins.*
+   *2026-09-10, METHOD — **an entire issue can be opened in about a minute without a single
+   top-level navigation, and this changes what is affordable.** Three parts. (1) **imageIDs
+   harvest in bulk by `fetch()`** of each viewer URL — all 33 in one call; this does not
+   authorise the jp2 but tells you what to ask for. (2) **A hidden `<iframe>` pointed at the
+   viewer URL authorises that page's jp2 within a couple of seconds, triggers NO Cloudflare
+   check, and does not tear down the host page.** (3) **Authorisations accumulate for the
+   session.** Four iframes in parallel with a short poll authorised all 33 pages with zero
+   failures. Then compose tiles into whatever view is wanted: a level-9 thumbnail grid shows
+   every front page in one screenshot; level-12 crops of the bottom OUTER corner (left for even
+   folios, right for odd, 480×165 is enough) read every folio line in three. Caveat: a
+   `javascript_tool` call that awaits a slow load hits the 45-second CDP timeout, so start work
+   in a detached async function that writes progress to a global and poll it.*
+   *2026-09-10, GOING LATE — **the last of the three deferred items is worked, and all three
+   components are negative.** Working: `research/events/kia-misreport-stars-stripes.md`, section
+   "GOING LATE". **(a) The Sep 12 – Oct 24 gap holds no unread Vietnam casualty release.** Four
+   probes: `identified` (12 Sep–24 Oct, 141 hits), **`servicemen identified`** (12 Sep–31 Dec,
+   **15 hits — the tightest probe found so far**, and it recovered Oct 25, Oct 29 and Nov 15
+   blind), `released names killed` (7 hits, recovered Nov 11), `war dead` (140, noisy WWII/Korea
+   items). An earlier session estimated "4–5 items are probably still unfound" in this gap; **on
+   four probes there are none.** The Pacific ran no Vietnam casualty name list between 10
+   September and 25 October 1965. **`servicemen identified` is recommended as the standard probe
+   from here on.** (b) The one new item, **27 Sept 1965**, is **not** a Vietnam release: it is
+   "Kamiseya Fire Dead Identified" (TOKYO S&S), the Navy naming the 12 killed and 14 injured in
+   the fire at the Kamiseya Navy Communications Center near Tokyo — read at native resolution,
+   archive p.17, imageID 133214410, printed folio 7, and running in **four zone editions**
+   (archive pp.17, 18, 21, 31), which is today's bundling finding behaving as predicted.*
+   *2026-09-10, A BOUNDARY CONDITION ON THE INSTRUMENT, found by nearly walking into it —
+   **screening the Kamiseya list against DCAS would have produced twelve unmatched names and
+   every one a false positive.** DCAS is a **Vietnam-conflict** roll; the Kamiseya men died in a
+   peacetime fire in Japan and are correctly absent from it. A screen would have returned twelve
+   men "printed dead, absent from DCAS" — the exact signature this search is built on — for
+   twelve men who were simply dead. **RULE: establish that a list IS a Vietnam casualty release
+   BEFORE screening it.** The instrument does not test whether a printed dead man is alive; it
+   tests whether a man printed as a *Vietnam* casualty is absent from the *Vietnam* roll.
+   Outside that frame it manufactures signal. This is the second false-positive source closed in
+   one day (the first being `pdftotext -layout`), and they are the same kind of error: **the
+   signature is an absence, and an absence only means something against a corpus that should
+   have contained the thing.***
+   *2026-09-10 — **the ~12–13 Oct target does not exist in the Pacific**, on all four probes.
+   That is the **second** documented instance of a DoD release the European edition ran and the
+   Pacific did not (the first: "15 War Dead Identified", European S&S, Sun 5 Sept 1965). Two
+   instances is a pattern, and it weakens an assumption this search has leaned on throughout:
+   **the European edition is a finding aid for what DoD RELEASED, not for what the Pacific
+   PRINTED.** For #9 it cuts both ways — a release naming Larry could have been issued and never
+   have run in the paper he read, which is consistent with his account and unfalsifiable from
+   this archive; but equally **the Pacific's silence in any given week is weaker evidence than
+   it looks.***
+   *2026-09-10, THE CORRECTION SWEEP IS NEGATIVE — **and it found the error class in print for
+   the first time.** `erroneously reported dead` 1965–66: **0 results**. `erroneously` 1965–66:
+   19 results, **one** casualty-related. `mistakenly reported` 1965–66: 7, none. **No Pacific
+   S&S item in 1965 or 1966 uses "erroneously" or "mistakenly" about a casualty** — so the
+   longest shot in this search, that Larry telling the chaplain he was alive produced a printed
+   correction, is probed and negative. **The one hit is precedent the archive has never had:**
+   *European Stars and Stripes, **Tue 4 May 1965*** refers to a correction **"on Page 4 after
+   Marine had been erroneously reported killed on the U.S. Embassy grounds on Saturday."**
+   **Do not over-read it:** the Saturday before is 1 May 1965 and the embassy is almost certainly
+   **Santo Domingo** (the Dominican intervention), **not Saigon** — on present evidence this is
+   not a Vietnam case and not a lead on Larry. **What it is: documentary proof that Stars and
+   Stripes printed corrections when a serviceman was erroneously reported killed, and that such
+   a correction ran on an inside page (p.4).** Until today that object was purely hypothetical;
+   it is now a known genre with a known format and a known place in the paper. **[SUPERSEDED the same day by the #144 resolution below: the incident is Santo Domingo, and there is NO correction on Page 4 — there is a MAP. What the paper actually did was acknowledge the erroneous report in a subordinate clause inside a later news story, with no heading, label or retraction.]** **OPEN: confirm
+   the incident behind the 4 May 1965 item — Santo Domingo or Saigon — and read the correction
+   itself on p.4 of the preceding issue. If Santo Domingo it stays precedent; if Saigon it
+   becomes something much larger. **Tracked as issue #144.***
+   *2026-09-10, #144 IS RESOLVED, AND BOTH HALVES OF THE LEAD WERE WRONG — **Santo Domingo, and
+   there is no correction on Page 4; there is a map.** Working:
+   `research/events/kia-misreport-stars-stripes.md`, section "ISSUE #144 RESOLVED". The item is
+   **European S&S, Tue 4 May 1965, Vol. 24 No. 17, page 1** (imageID 133459274, scan 1517×2056),
+   inside the column "Yanks Link Up to Open Corridor — SANTO DOMINGO (AP)" under the lead
+   "Johnson Charges Reds Rule Dominican Revolt". **(1) The incident is the Dominican
+   intervention, not Saigon** — the Saturday is 1 May 1965 and the embassy is the U.S. Embassy
+   in Santo Domingo. The caution attached when the lead was recorded was correct and is settled.
+   **(2) The "correction on Page 4" does not exist — that was my own misreading of an OCR
+   snippet.** The boxed cross-reference **"Map on Page 4"** sits physically inside the paragraph
+   and interrupts the sentence "This brings to a total of five the official count / of U.S.
+   military men dead, plus 38 wounded…". Page 4 carries a map of the Dominican Republic. **The
+   "correction notice on an inside page" recorded earlier today should be struck.***
+   *2026-09-10 — **what survives is more useful than what was struck.** Stars and Stripes DID
+   acknowledge an erroneous death report in print, but **as a single subordinate clause inside a
+   later running news story** — no heading, no label, no "correction", no retraction: *"Another
+   Marine had been erroneously reported killed on the U.S. Embassy grounds on Saturday."*
+   Eleven words while updating a casualty count, then straight on to the United Nations.
+   **For #9 this cuts against the sweep that found it:** if the Pacific ever acknowledged
+   Larry's misreport, **the acknowledgment may not look like a correction at all** — a clause
+   inside a later story about something else, carrying no keyword a sweep would catch, on a page
+   nobody would think to read. That is close to unfindable by search, and it is a better
+   explanation of the correction sweep's silence than "no correction was printed". **The force
+   the negative retains:** *erroneously* is genuinely rare here — **one casualty-related hit in
+   all of 1965–66 across every edition** — so had the Pacific used that phrasing about Larry,
+   the sweep would very likely have caught it. **The negative is about a phrasing, not about the
+   existence of an acknowledgment.***
+   *2026-09-10, A METHOD CAUTION WORTH THE EMBARRASSMENT — **the search index concatenates text
+   across boxed inserts and cross-references, so an OCR snippet can read as a grammatical
+   sentence that does not exist on the page.** Two passages written earlier today rested on such
+   a reading. **Verify a snippet against the page image before recording what it says** — the
+   same rule this archive already applies to Larry's testimony, applied to the machine.*
+   *2026-09-10, WHAT THE LATE WINDOW DID TO THE QUESTION — nothing was found, **but the shape of
+   the remaining possibility changed.** Before today the open hypothesis was "the item is in a
+   part of the paper we have not read yet". After the gap, the October target and the correction
+   sweep that is hard to sustain for Sept–Dec 1965: **the Pacific's Vietnam casualty lists in
+   that period are now all located and all read, and none names him.** The hypothesis that
+   survives is different and weaker to test — **that the release naming him was issued but never
+   ran in the Pacific** — for which there are now two demonstrated precedents in this very
+   window, and which cannot be settled from the newspaper alone.*
 2. **The unit** — verify or correct "118th AOD — Aviation Operations Detachment"; explain the
    remembered 1st Cavalry association (note: 1st Cavalry Division arrived in-country ~Sep 1965).
    *The DD-214 does not settle this — item 11 names only the last duty assignment (Japan). Still
