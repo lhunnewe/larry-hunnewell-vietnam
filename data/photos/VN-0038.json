@@ -2,8 +2,15 @@
   "photoId": "VN-0038",
   "originalFilename": "1920236-R1-E010.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E010.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Families below the built-up rock, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "Below a huge boulder capped with a mortared-stone footing and a plank structure, a young woman in a lilac patterned blouse laughs with a baby on her hip; another woman at left holds a toddler in a striped shirt, a boy's head shows at bottom centre, and a young man in camouflage looks into the lens at lower right. Guy wires cross the frame. \"The guy in the lower right was a really nice guy. He had like 6 or 7 kids, could speak some english.\"",
+  "researchNotes": "Larry's comment of 2026-09-12 (giscus-vn-0038-c18416119.json). The man is not named, and Larry did not say whether the women and children here are his family. The structure on the rock is not identified.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0037", "vn-0039", "vn-0009"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

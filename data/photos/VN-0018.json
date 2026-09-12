@@ -2,8 +2,15 @@
   "photoId": "VN-0018",
   "originalFilename": "1920236-R3-E100.jpg",
   "originalPath": "Group Photos with Unit/1920236-R3-E100.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "On the beach at Nha Trang",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nha-trang",
+  "people": [],
+  "description": "Under an overcast sky a smiling American soldier in fatigues walks up the sand toward the camera, a camera of his own in his hands, while a young Vietnamese woman in a pale sleeveless blouse and blue capri trousers walks barefoot along the surf line behind him. A lone swimmer stands in the waves at far right, and headlands and islands close the bay; a palm frond hangs in at top right and two onlookers' heads intrude at the bottom corners. \"Nha Trang, the most beautiful place you ever saw.\" The young woman, Larry says, was one of the girls selling shrimp — a shrimp six or seven inches long and a beer for 25 cents.",
+  "researchNotes": "Larry's comments of 2026-09-12 (giscus-vn-0018-c18415793.json and -c18415813.json). The shrimp seller agrees with his earlier account of the Nha Trang beach huts in VN-0021/VN-0022 — two girls selling soda pop, beer and shrimp, three large shrimp for 25 cents (data/places/nha-trang.json); the details have moved a little in the retelling, which is ordinary. 'Average pay of a Vietnamese was 10 cents a day' is his impression and is not checked. The soldier with the camera is not named, and Larry did not say who took the picture. No date is set: he places his first two months in Vietnam at Nha Trang, from about September 1964, but nothing in these comments ties this frame to that stay rather than a later visit.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0021", "vn-0022"],
+  "relatedEvents": [],
+  "sources": []
 }

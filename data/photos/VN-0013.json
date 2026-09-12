@@ -5,9 +5,10 @@
   "cataloged": true,
   "title": "Larry with his Thompson",
   "datePrecision": "unknown",
+  "location": "thom-son-nuht",
   "people": ["larry-dennis-hunnewell"],
-  "description": "Larry crouches grinning behind a low sandbag wall, his Thompson submachine gun angled across his chest. Behind him stands a framed screened tent stenciled US — a hooch that, he remembers, was full of rats.",
-  "researchNotes": "Larry's own identification (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0013-c18032231.json). 'My Thompson' — the weapon was his, a period-typical arm for support troops before M16 issue (compare the AR-15 he says he saw for the first time in VN-0029). Same camp construction as the guitar-session series.",
+  "description": "Larry crouches grinning behind a low sandbag wall, his Thompson submachine gun angled across his chest — \"a fully automatic Thompson .45 caliber machine gun. It was mine and I got it from Gagne.\" Behind him stands a framed screened tent stenciled US: the neighbours' hooch, full of rats as he remembers it; his own hooch was just out of the shot to the left.",
+  "researchNotes": "Larry's own identification (Memories comment, 2026-08-15; archived as data/recollections/giscus-vn-0013-c18032231.json). 'My Thompson' — the weapon was his, a period-typical arm for support troops before M16 issue (compare the AR-15 he says he saw for the first time in VN-0029). Same camp construction as the guitar-session series. 2026-09-12 (giscus-vn-0013-c18415696.json), with 'Location: Ton Son Nhut': right next to his hooch, the background hooch the neighbours', the Thompson his own and from Gagne, who 'was in charge of all the weapons at Ton Son Nhut.' That last placement differs from his earlier account of Gagne running the Special Forces armory on the mountain and signing the Thompson out of it (VN-0082/VN-0084; data/people/gagne.json). Both accounts are his and both are kept; they are not reconciled here.",
   "confidence": "unverified-recollection",
   "relatedPhotos": ["vn-0003", "vn-0007", "vn-0008"],
   "sources": []

@@ -57,6 +57,11 @@ evidence — his own hand, with no one typing for him. A record carries `drawnBy
 guarded by the same hook as `larrysRecollection`; an inscription with an unreadable letter stays out whole), `depicts` (a place reference, only when the sheet itself names it),
 and an objective `description`. Capture files live in `data/drawings/originals/` unrenamed;
 `scripts/build-photo-images.mjs` derives `public/images/drawings/{full,thumbs}/VD-####.jpg`.
+A scan that arrives as a PDF is kept as it arrived, with each page's embedded JPEG extracted
+beside it without re-encoding (`<pdf name> p1.jpg`); the record points at the page image. An
+optional `rotate` (90/180/270, clockwise) turns only the web copies, for a sheet scanned
+sideways. The build skips a derivative newer than its original, so after changing `rotate`
+alone, delete the two derived files for that ID to force a rebuild.
 Detail pages at `/drawings/vd-0001/`; place pages show the drawings that name them.
 
 ## Photo pipeline

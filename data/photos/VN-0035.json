@@ -2,8 +2,15 @@
   "photoId": "VN-0035",
   "originalFilename": "1920236-R1-E001.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E001.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "The painted rock and the machine gun on its crest, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "A great boulder on the summit, its face painted with panels of names: at left a column of names in white capitals headed A5/122, with SITE OPENED 22 JULY 6– beside it; more names at the far left edge; several panels of Vietnamese names carrying the number 321; painted parachute wings; and at upper right a green-and-white shield with a parachute emblem and Vietnamese lettering. A sandbagged position crowns the rock, a steel ladder leans against its right side, and barbed wire runs across the foreground. \"30 caliber machine gun on top of the rock where the sandbags with the ladder on the right to enter it.\"",
+  "researchNotes": "Larry's comments of 2026-09-03 (giscus-vn-0035-c18259268.json) and 2026-09-12 (giscus-vn-0035-c18416074.json). On 2026-09-03 he was asked name by name whether he knew the painted names and said no to all seven, including Lowry: 'These names were there when I arrived. I didn't know any of them. The names on the left are probably special forces.' On 2026-09-12 he placed the frame on Núi Bà Đen and named the sandbagged position on the crest as a .30-caliber machine gun reached by the ladder at right. It is the gun position he photographed from below at dusk (VN-0045) and from the summit path in daylight (VN-0069), where the ladder scaffold also shows. The last digit of the painted opening date is crossed by a guy wire and is not read at this scan's resolution. The painted names have been researched (research/people/nui-ba-den-roster-names.md); the findings stay in research/ under that file's handling note.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0045", "vn-0069", "vn-0133"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

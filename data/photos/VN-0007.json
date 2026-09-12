@@ -2,8 +2,15 @@
   "photoId": "VN-0007",
   "originalFilename": "1920236-R1-E039.jpg",
   "originalPath": "Group Photos with Unit/1920236-R1-E039.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Guitar session, with Larry at far right",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": ["larry-dennis-hunnewell", "ron-tototz"],
+  "description": "The same gathering as VN-0003 and VN-0008, outside the matting-walled hooch: a soldier in fatigues with a holstered pistol leans against the wall at left, a man in a white shirt plays a sunburst archtop guitar on a folding chair, a man in a pale blue sport shirt stands with one foot up and a hand on a blind cord, and at far right, in a white T-shirt and white trousers with his hands on his hips, stands Larry. Sandbag revetments, a screened tent and a utility pole stand behind. \"Same as VN-003 except Larry D Hunnewell is on the far right. Kahn must be taking the picture.\"",
+  "researchNotes": "Larry's comment of 2026-09-12 (giscus-vn-0007-c18415627.json), with 'Location: Ton Son Nhut'. He identifies himself at far right and otherwise refers the frame to VN-0003, where he named Kahn (right) and Ron Tototz (left of Kahn); Ron is linked here on that cross-reference. 'Kahn must be taking the picture' is his inference from Kahn's absence from this frame, not a memory of the moment. The guitarist and the soldier in fatigues are not named in this comment. The soldier's name tape is present but not legible at this scan's resolution.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0003", "vn-0008", "vn-0013"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

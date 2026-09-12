@@ -5,8 +5,15 @@
   "datePrecision": "approximate",
   "category": "larry-recollection",
   "description": "A drunk soldier from another company shot a man in the chest in the shower at the headquarters company latrine, right next to Larry's hooch. Larry, who did not know the victim, saw where the bullet hit and turned to help the wounded man — at which point the gunman pointed the pistol at Larry and aimed it at him. Sgt. Weaver, an E5, showed up; the shooter, eyes rolled back, passed out. Air Force police took Larry's statement. Larry heard the shooter knew the man he shot, and that he was sentenced to twenty years of hard labor, imprisoned in Okinawa. Larry's bunk mate Ron Tototz was with him during the incident. Larry dates it roughly February–March 1965 — 'been there at least 6 months.'",
+  "researchNotes": "2026-09-12 (data/recollections/giscus-vn-0017-c18415788.json), at VN-0017, a photograph he dates to about July 1965: \"The other Unit is somewhere in the background, the guy that did the shooting in the bathroom. They had just arrived maybe a week or so.\" His son, who typed the comment, clarified the same day that “They had just arrived maybe a week or so” is Larry saying when the other unit got there — about a week before that photograph — and is not a date for the shooting. So the shooter’s unit reached the base in about late June or early July 1965 by his reckoning, and if the shooter was with that unit when he fired, the shooting came after that — which does not fit the February–March dating above. Both are his estimates and neither is corrected; the display date is unchanged until a record settles it. The court-martial search gains a filter either way: a unit newly arrived at the base (ledger #11, issue #59).",
   "confidence": "unverified-recollection",
-  "relatedPlaces": ["thom-son-nuht"],
-  "relatedPeople": ["larry-dennis-hunnewell", "ron-tototz", "sgt-weaver"],
+  "relatedPlaces": [
+    "thom-son-nuht"
+  ],
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "ron-tototz",
+    "sgt-weaver"
+  ],
   "sources": []
 }

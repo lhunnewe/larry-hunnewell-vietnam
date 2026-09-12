@@ -61,13 +61,15 @@ for (const series of SERIES) {
     const thumb = path.join(outThumb, `${id}.jpg`);
     if (isFresh(src, full) && isFresh(src, thumb)) continue;
 
-    await sharp(src)
-      .rotate() // respect EXIF orientation
+    // Respect EXIF orientation, then any quarter-turn the record asks for
+    // (a sheet scanned sideways); the original file is left as it arrived.
+    const oriented = () =>
+      record.rotate ? sharp(src).autoOrient().rotate(record.rotate) : sharp(src).rotate();
+    await oriented()
       .resize({ width: 1600, withoutEnlargement: true })
       .jpeg({ quality: 80, mozjpeg: true })
       .toFile(full);
-    await sharp(src)
-      .rotate()
+    await oriented()
       .resize({ width: 480, withoutEnlargement: true })
       .jpeg({ quality: 75, mozjpeg: true })
       .toFile(thumb);

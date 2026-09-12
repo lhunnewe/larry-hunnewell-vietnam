@@ -1,10 +1,12 @@
 {
   "name": "Major Lewis",
-  "aliases": ["Lewis"],
-  "role": "U.S. Army major, helicopter pilot",
+  "aliases": [
+    "Lewis"
+  ],
+  "role": "Pilot Larry once named for Rosethorn 007; no longer tied to a photograph",
   "status": "unresolved",
-  "summary": "The pilot at the controls in VN-0016, photographed by Larry in flight aboard the helicopter with call sign Rosethorn 007. Larry flew marathon days aboard this aircraft — once 4 a.m. to 11 p.m., refueling at Qui Nhơn — and identifies the smiling, mustached pilot behind the visor as Major Lewis.",
-  "researchNotes": "A field-grade aviation officer is comparatively findable once the unit is settled — majors appear in unit histories and flight-operations records. Identity notes and open questions: research/people/major-lewis.md.",
+  "summary": "A pilot Larry named on 2026-08-15 as the man at the controls in VN-0016, aboard the helicopter with call sign Rosethorn 007, on which he flew marathon days, once 4 a.m. to 11 p.m., refueling at Qui Nhơn. On 2026-09-12, looking at that photograph again, Larry read the name on the helmet of the man looking back at the camera and withdrew it: \"oh his last name is Estes, I was thinking his name was Lewis… Lewis must be somebody else.\" Both statements are his. The frame now names Estes, and Major Lewis is a name Larry remembers without a face or a photograph.",
+  "researchNotes": "A field-grade aviation officer is comparatively findable once the unit is settled — majors appear in unit histories and flight-operations records. Identity notes and open questions: research/people/major-lewis.md. 2026-09-12: withdrawn from VN-0016 by Larry himself, on reading the helmet (data/recollections/giscus-vn-0016-c18415765.json; see data/people/estes.json for how the reading came about). \"Lewis must be somebody else\" is his inference, not a memory of a second man, so this record is kept rather than deleted: the name came from him, and whether a Lewis flew with the unit is still open. What was once \"the pilot of Rosethorn 007\" is now only a remembered surname.",
   "confidence": "unverified-recollection",
   "relatedPlaces": [],
   "sources": []

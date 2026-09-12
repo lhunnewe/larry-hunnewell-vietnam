@@ -4,7 +4,16 @@
   "provenance": "giscus comment posted from @kawaputt-rgb on the VN-0003 page; discussion #35; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/35#discussioncomment-18415619",
   "text": "Location: Ton Son Nhut\nRight is Kahn, he was the company clerk, morning report written by him\nTototz is to the left of Kahn\nI slept in the hooch, once you enter the door, immediately on the right",
   "fidelity": "transcribed",
+  "researchNotes": "Repeats his 2026-08-13 identifications (giscus-vn-0003-c18006986.json) in the same positions, and Kahn's part in the morning reports from 2026-08-23 (giscus-stories-c18118728.json). Which hooch 'the hooch' is, is not said.",
   "relatedPhotos": [
     "vn-0003"
+  ],
+  "relatedPlaces": [
+    "thom-son-nuht"
+  ],
+  "relatedPeople": [
+    "kahn",
+    "ron-tototz",
+    "larry-dennis-hunnewell"
   ]
 }

@@ -2,8 +2,15 @@
   "photoId": "VN-0036",
   "originalFilename": "1920236-R1-E003.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E003.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A bunker on the summit edge, above the clouds, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "A soldier in a bush hat sits on a sandbag-walled bunker with a pale covered roof at the edge of the summit, holding a red-and-white striped pole. A slope of crushed rock and red earth runs down to it, with cut stumps and a wire line at right, and beyond the position a sea of cloud lies below, the plain showing through at right. \"The mountain is 2970 feet with the cloud general lower than the Mountain or right on us\" — and when the cloud was on them, he says, they could see nothing.",
+  "researchNotes": "Larry's comment of 2026-09-12 (giscus-vn-0036-c18416104.json). His 2,970 feet is recorded as given. The 1:50,000 sheet of the massif marks the summit spot height 986 (metres, about 3,235 feet; sources/map-l7014-6231-4-tay-ninh), and a 1969 release gives 3,200 feet (research/photos/nara-film-of-the-mountain.md); his figure is within a few hundred feet of both and is not corrected. The soldier on the bunker is not named, and what the striped pole was for is not on record.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0035", "vn-0037"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": ["map-l7014-6231-4-tay-ninh"]
 }

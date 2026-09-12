@@ -119,3 +119,70 @@ These are his marks to explain; none should be prompted with a candidate reading
   `research/`, or the giscus export. These three are the first.
 - 2026-09-05: letter-case transcription from the phone captures was attempted and withdrawn;
   see above. Do not retry it from these files.
+- **2026-09-12: THE FLAT SCAN DID NOT SETTLE THE THREE WITHHELD INSCRIPTIONS ON VD-0003.**
+  Scope: page 3 of `Scan_20260912_124415 dads drawings Vietnam.pdf` (2447 × 2206, the embedded
+  JPEG extracted byte-for-byte), crops at 1.5–5× with autocontrast, read against the phone
+  photograph at 3×. The left-hand box: the fifth letter still has a stem and a hooked shoulder
+  (`PALA?E`, R as much as C). The right-hand box: the two S strokes overlap and the A's crossbar
+  runs into the first, so `EMBASY` against `EMBASSY` is still open. The river: the second
+  letter of the first word is still unsettled (`M?KONG`). All three stay out of `labels`, and
+  the *Tu Do labels* probe stays in the guide. **Only Larry reading them settles these; a
+  better capture will not.** Do not request another scan for them.
+
+## The 2026-09-12 scans, and a fourth sheet
+
+His son scanned the three sheets flat with a phone (one three-page PDF, 12:44) and, the same
+afternoon, a new sheet Larry drew that day unprompted (one-page PDF, 15:00, his son's filename
+`Scan_20260912_150027 Ton Son Nhut Airport.pdf`). The PDFs were dropped straight into the NAS
+`Private Archive` folder, **which `scripts/sync-private-archive.ps1` mirrors from `private/`
+with `/MIR`, so they would have been deleted on the next sync.** They are now in
+`data/drawings/originals/` as they arrived (hashes checked against the NAS copies), with each
+page's embedded JPEG extracted without re-encoding beside them (`… p1.jpg` etc.). Records
+point at the page images. The 2026-09-05 phone photographs stay in `originals/` unchanged.
+
+- **Orientation.** The three old sheets were scanned sideways (binding at the right). Records
+  carry `rotate: 270` (new optional schema field, applied only to the web copies by
+  `scripts/build-photo-images.mjs`) so they display binding-up, as described. VD-0004 is
+  already binding-up.
+- **Did the sheets change in the week?** Compared scan against phone photograph for all
+  three: no mark found added or removed. Not a pixel comparison, a visual one at page and
+  label scale.
+- **What the scan did add:** VD-0002's small box right of centre has an oval mark inside it
+  near its left side (visible in the phone photograph once known; now in the description,
+  uninterpreted). Nothing new on VD-0001.
+
+### VD-0004 — the flight line (drawn 2026-09-12)
+
+His son answered three provenance questions the same day: **Larry offered to draw it** (not
+asked); **the heading is Larry's own hand** in a different pen, darker and finer than the
+pencil; and no notes were taken of what he said while drawing, so no paraphrase recollection
+was filed. Whether he was looking at a photograph is not recorded.
+
+`labels`: `RUNWAY`, `L19`, `HANGER`, `MOVIE'S`. Withheld whole, each for one letter, and
+named on the page only by their legible words. **Do not read any of these to him:**
+
+- **The heading** — `TON SON NHUT` then a word whose second R is written as a u-like hook.
+  Read by sense as AIRPORT; the letter is not settled.
+- **Over the middle aircraft** — `BEAV?R`, where the fifth glyph is the same r-for-e/c shape as
+  PALACE's fifth letter. Kept out for consistency with VD-0003, not because the word is in
+  doubt: he said "Beaver" at VN-0012 the same day.
+- **Over the crossed-out aircraft** — two rounded shapes and a 7-like figure: `007` or `OO7`.
+  **Hypothesis kept here, not on the page:** Rosethorn 007, the aircraft he has named four
+  times. The drawing it labels is scribbled through. Ask what the crossed-out plane was and
+  what he wrote above it; never say 007.
+- **The box left of the two vertical lines** — two lines, `FL?GHT` (the I is fused into the L
+  or missing) over `HD?` (G or Q). Read by sense as FLIGHT HDQ (headquarters). Open.
+- **Under HANGER** — `US POST OFF??E`; the fifth letter of the third word is an l as much as a
+  c. OFFICE by sense.
+- **The bottom-left box** — `USAF` over `M?SS HALL`; the second letter is a k-like shape.
+  MESS by sense.
+
+Unlabelled and not interpreted: the ladder-like vertical line with five rungs at the right
+edge above the flight line (a tower? a fence? revetments?), the two close vertical lines below
+it (a road?), the faint strokes under the heading, the hook and slash under RUNWAY. All his to
+explain; the guide has them.
+
+**For research only:** a USAF mess hall and a US post office in a hangar are specific enough
+to test against a period plan of Tân Sơn Nhứt, if one is found, but a sketch without scale or
+compass cannot confirm or rule out a base. Same caution as VD-0001: the heading strengthens the
+*name* he remembers, not the *location*.

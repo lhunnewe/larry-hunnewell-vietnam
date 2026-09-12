@@ -174,6 +174,8 @@ What remains here is what he did not answer, plus **four new questions his answe
   it was Rosethorn 007."*
 - [ ] **The ops van's neighbours.** — Show **VN-0011**: *"Who are the two flight controllers
   on the steps?"* And with **VN-0014** on the table: *"What did Weaver's pocket patch say?"*
+  *(2026-09-12, at VN-0011, unasked: "I think the street in the background is 18th Aviation
+  unit" — 18th, his son confirms, repeating the 2026-08-23 answer. The two men still unnamed.)*
 - [ ] **Was that Bien Hoa burning?** — Show **VN-0074** and **VN-0078**. *"You photographed
   this fire twice from the air. What happened?"*
   *Ask the open half first and let him date it himself before offering the May '65 explosion.*
@@ -190,11 +192,13 @@ What remains here is what he did not answer, plus **four new questions his answe
   shown to him without spoiling anything** (`research/events/cbc-documentary-1964-65.md`).
   *"Is this the crew? Is that you?"*
 
-### The drawings — VD-0001 to VD-0003 (added 2026-09-05)
+### The drawings — VD-0001 to VD-0004 (added 2026-09-05; VD-0004 on 2026-09-12)
 
-His three sheets, drawn unprompted while he was explaining the Saigon photographs
-(`data/drawings/`, `research/drawings/README.md`). Open the drawing on the tablet and ask him
-to read his own marks. **Never read a label to him** — three on VD-0003 are unread on purpose.
+His three sheets of 2026-09-05, drawn unprompted while he was explaining the Saigon
+photographs, and the flight line he offered to draw on 2026-09-12 (`data/drawings/`,
+`research/drawings/README.md`). Open the drawing on the tablet and ask him to read his own
+marks. **Never read a label to him** — three on VD-0003 and six on VD-0004 are unread on
+purpose, and **the flat scans of 2026-09-12 did not settle them: only his reading will.**
 Questions marked *(validate)* check what his son heard him say while drawing; ask them open,
 without the answer in them.
 
@@ -218,14 +222,24 @@ without the answer in them.
   Do NOT offer the name.)*
 - [ ] **The Tu Do labels.** — **VD-0003**: *"Read me what you wrote down the right-hand side by
   the river, and what's written in the box on the left and the box on the right."* *(Three
-  inscriptions untranscribed because a letter can't be read from the photograph. Do NOT read
-  any candidate to him — see `research/drawings/README.md`.)*
-- [ ] **The circled M** *(validate)*. — **VD-0003**: *"What was that? What happened there, and
-  were you there when it happened?"* *(His son heard "Market" and an explosion, and could not
-  tell whether Larry was present. Presence is the question; which market and which explosion
-  are research, not for him.)*
+  inscriptions untranscribed because a letter can't be read — from the phone photograph or
+  from the 2026-09-12 scan. Do NOT read any candidate to him — see
+  `research/drawings/README.md`.)*
+- [X] **The circled M** *(validate)* — *answered 2026-09-12 in his own words, "The Market
+  Explosion story"; he was there. See "Answered". Ledger #36.*
 - [ ] **The Tu Do marks.** — **VD-0003**: *"The wide strip up the middle with the shapes in it
   and the arrows, the star by the flowers, and the shape in the top corner — what are they?"*
+- [ ] **The flight line labels.** — **VD-0004**: *"Read me what you wrote across the top, over
+  each of the little planes, in the box on the left of the two long lines, under HANGER, and in
+  the box at the bottom left."* *(Six inscriptions withheld, one letter each; RUNWAY, L19,
+  HANGER and MOVIE'S are transcribed. **Do NOT read candidates, and never say a number for the
+  crossed-out plane** — readings in `research/drawings/README.md`.)*
+- [ ] **The flight line marks.** — **VD-0004**: *"The plane you crossed out — what was it? And
+  the ladder shape at the right edge, the two long lines down the middle, and the little marks
+  under RUNWAY — what are they?"* *(Nothing said while drawing was written down.)*
+- [ ] **From the flight line to the hooch.** — **VD-0004** with **VD-0001**: *"Where were your
+  hooch and the radio van from here? Which way would you walk?"* *(He put the flight line
+  "probably 3 blocks away" at VN-0012; the two sheets share no landmark, scale or direction.)*
 
 ---
 
@@ -243,10 +257,13 @@ without the answer in them.
 
 ## Tier 4 — Stories and people (no research agenda — pure memoir gold)
 
-- [ ] **The patrol and the prisoner** — VN-0023, when he's in the mood: "Tell me about that
-  patrol — how was the prisoner captured? How did you all know he was Pathet Lao?" *(ledger
-  #17. He has since described drawing a BAR from the armory for a patrol with Major
-  Schwartzkoff — worth asking whether this was that day.)*
+- [ ] **The patrol and the prisoner** — VN-0023, when he's in the mood: *"Tell me about that
+  patrol — who was on it, and what happened to the prisoner afterwards?"* *(ledger #17.
+  **Rewritten 2026-09-12:** the old wording put "Pathet Lao" in his mouth. That day he told it
+  himself — found in a hut by Sgt Lowry, tied up, "I heard he was Vietcong," a girlfriend told
+  to leave, handed to the Vietnamese and then the CIA. The 08-15 paraphrase said Pathet Lao.
+  **Offer neither label.** Still worth asking whether this was the BAR patrol with Major
+  Schwartzkoff.)*
 - [ ] **Mike Patrick** — VN-0010: "How did you know Mike Patrick? What was he like? And who's
   the other American sitting on the rocks at the edge of the picture?"
 - [ ] **Parr** — VN-0025: "Parr, from the Nha Trang days — do you remember his first name?
@@ -282,10 +299,16 @@ without the answer in them.
 - [ ] **Captain Guegler's first name** — VN-0020: "The officer on the left next to him — it
   may come back to you. And what was Guegler's first name?" *(ledger #5. His surname spelling
   is settled — "Geutler" is Larry's own — so the first name is what is left.)*
-- [ ] **Rosethorn 007 crew** — VN-0016: "Besides Major Lewis and Captain Guegler, do you
-  remember other pilots or crew on Rosethorn 007?" *(2026-09-05: he named Rosethorn 007 again
-  unprompted as the aircraft for the run to the mountain (VN-0071), and named a second pilot
-  from his unit, Lieutenant Hanna — without tying him to this aircraft. Ask as written.)*
+- [ ] **Estes, and the Rosethorn 007 crew** — VN-0016: *"Estes — does his first name come
+  back, or where he was from? And who else flew with you on Rosethorn 007?"* *(ledger #37,
+  issue #155. **Rewritten 2026-09-12:** his son pointed out a name on the helmet and Larry read
+  it — "oh his last name is Estes, I was thinking his name was Lewis… Lewis must be somebody
+  else" — adding National Guard, talking to him, "possibly" Geutler flying. A reading, not a
+  recollection. **Do not mention Lewis or the Guard back to him, and don't read him the
+  helmet.**)*
+- [ ] **Hong Kong** — VN-0012: *"You flew to Hong Kong on a Caribou — when was that? How long
+  were you there, who went with you, and what was the trip for?"* *(ledger #38, issue #156.
+  New 2026-09-12, a side story at VN-0012. Don't offer "R&R" — let him name the trip.)*
 - [ ] **The battalion and the flight line neighbours** — with VN-0012 and VN-0020 on the
   table: "Do you remember which battalion your company belonged to? What other helicopter
   outfits flew out of Tan Son Nhut — how were their aircraft marked?" *(Open questions only —
@@ -313,7 +336,9 @@ without the answer in them.
 - **VN-0157** — the wounded man aboard the helicopter. **Answered, 2026-09-05, at the
   photograph** — the Cambodian striker whose fingers were taken by a blasting cap Larry had
   dropped, flown to the Vietnamese army hospital by the base, never heard of again; "It added
-  PTSD." See "Answered" and ledger #33. **The decision his answer was to settle — whether the
+  PTSD." See "Answered" and ledger #33. **Revised by him on 2026-09-12:** "it may not have been
+  one I dropped but the Cambodian found one. I have no idea where he got it from." Both stand;
+  the family should have the second in front of them when this is put to him. **The decision his answer was to settle — whether the
   photograph is shown publicly — is now his to make, and it goes to him as a question, not a
   default (issue #22).** Cautiously: **not at breakfast, not with the picture on the table
   unless he brings it up, and never twice.** If he opens the subject himself:
@@ -328,7 +353,12 @@ without the answer in them.
   (`data/recollections/giscus-stories-c18035411.json`; timeline entry
   `data/timeline/1965-02-bathroom-shooting.json`). Remaining gentle follow-ups: "Did the man
   in the shower live? Do you remember the shooter's name, or the victim's?" *(Court martial
-  search: ledger #11.)*
+  search: ledger #11.)* **2026-09-12, at VN-0017:** the shooter was from "the other Unit" that
+  "had just arrived maybe a week or so" — which, his son confirms, is when that unit got there,
+  about a week before the photograph (about July 1965 by Larry), not a date for the shooting.
+  It sits against February–March for the shooting. **Put neither date to him, and don't ask
+  when the unit arrived — he has said.** If he returns to it himself: "when did the shooting
+  happen, compared with when they got there?"
 - **The 450 civilians, and the KIA report** — now one story in his own telling, and the
   heaviest thing in the archive. He has given it in full once, unprompted
   (`data/recollections/giscus-stories-c18259364.json`), including Sgt Lowery's accusation and
@@ -342,6 +372,39 @@ without the answer in them.
 
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
+
+### The Memories harvest of 2026-09-12 — thirty-seven comments and a fourth drawing
+
+His son took him through the base, flight-line and mountain frames again and typed as he
+spoke: 35 comments on 26 photographs and 2 stories, all transcribed but one (the VN-0157 line
+in his son's voice, filed as paraphrase). Records: `data/recollections/giscus-*-c18415*` and
+`-c18416*`. Eight photographs cataloged (68/157). He also offered to draw the flight line
+(VD-0004), and his son scanned all four sheets flat.
+
+- [X] **The circled M — were you there?** *(drawings, validate)* — answered unasked, on the
+  stories page:
+  > The Market Explosion story
+  > I was probably 6 or 8 bars away from the explosion. I heard the explosion and somebody, as
+  > i was running down somebody in English said bicycle bomb. There were no Americans hurt. I
+  > tried to stop the bleeding of a women by compressing the blood in and then someone else
+  > took over of Vietnamese.
+
+  **Presence settled in his telling.** Kept apart from the Embassy and the My Canh (ledger
+  #36, issue #154). Which market and which day are research, not for him.
+
+- [X] **The Rosethorn 007 crew — another name** *(tier 4)* — **not the way it was meant to
+  come.** His son pointed out a name on the VN-0016 helmet and Larry read it: "oh his last
+  name is Estes, I was thinking his name was Lewis." **It agrees with the survey's reading of
+  the lettering, and it is a reading, not a recollection: never write it up as independent
+  confirmation.** The question is rewritten around Estes above (ledger #28, #37).
+
+**Also given without being asked:** VN-0017 dated to about July 1965 and VN-0029 to March
+1965; the camera bought about three weeks into the tour (October 1964); Kahn the company clerk
+and his morning reports, a second time; Gagne "in charge of all the weapons at Ton Son Nhut";
+the prisoner "found in a hut by Sargent Lowry" and "I heard he was Vietcong"; ten hooches and a
+24-hour steak barbecue; "I felt safer on the mountain"; the mountain "2970 feet" and "27 hours
+to walk up"; the singers at the club Filipino, speaking Tagalog; and the Hong Kong trip on a
+Caribou, which is new.
 
 ### The Memories harvest of 2026-09-05 — thirty-three photographs in one sitting
 

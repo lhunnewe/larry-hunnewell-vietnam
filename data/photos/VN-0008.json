@@ -2,8 +2,15 @@
   "photoId": "VN-0008",
   "originalFilename": "1920236-R1-E050.jpg",
   "originalPath": "Group Photos with Unit/1920236-R1-E050.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "Guitar session: Kahn, Ron Tototz, and friends — the wide frame",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "thom-son-nuht",
+  "people": ["kahn", "ron-tototz"],
+  "description": "The widest of the three guitar-session frames (with VN-0003 and VN-0007). The soldier in fatigues, a holstered pistol on his hip, leans against the screen door of the matting-walled hooch; the guitarist plays on a folding chair; the man in the pale blue sport shirt leans on his knee beside him; and Kahn, in sunglasses, white T-shirt and dark trousers, stands at right. A gravel yard with plank walkways runs up to the door, with sandbag revetments and a large green-walled screened tent behind. \"People are the same as VN-0003 with Kahn on the right.\"",
+  "researchNotes": "Larry's comment of 2026-09-12 (giscus-vn-0008-c18415632.json), with 'Location: Ton Son Nhut'. He refers the frame to VN-0003 rather than naming each man, so Ron Tototz is linked on that cross-reference (in VN-0003 the man to Kahn's left); only Kahn is placed in this frame by position. Of the three frames this one shows the most of the camp — the screen-door hooch, plank walkways over gravel, the sandbag revetment and the screened tents — and is the best of them for matching the camp against other photographs.",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0003", "vn-0007"],
+  "relatedEvents": ["1964-1965-company-hq"],
+  "sources": []
 }

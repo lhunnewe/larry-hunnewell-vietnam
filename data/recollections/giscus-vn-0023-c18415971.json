@@ -4,7 +4,15 @@
   "provenance": "giscus comment posted from @kawaputt-rgb on the VN-0023 page; discussion #54; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/54#discussioncomment-18415971",
   "text": "Location: to the left of Nui Ba Den. \nThis guy was found in a hut by Sargent Lowry and they came out dragging him. He was tied up. No idea what he did. I heard he was Vietcong. He had a girlfriend with him and we told her to take off because the Vietnamese were coming and we turned this guy over to the Vietnamese and then the CIA were coming to get him from the Vietnamese/ARVN's. You couldn't trust the ARVN's at all. You didn't know. Basically everyone was trying to steal money because everyone was so poor.",
   "fidelity": "transcribed",
+  "researchNotes": "Differs from the 2026-08-15 paraphrase (giscus-vn-0023-c18035445.json) on who the prisoner was: 'I heard he was Vietcong' against 'a pasthic Lao'. Both kept (ledger #17, issue #97). First account of Sgt. Lowry finding the man, which puts Lowry with this patrol (issue #12); Larry does not say Lowry is in the frame. 'To the left of Nui Ba Den' places the patrol beside the mountain, not on it.",
   "relatedPhotos": [
     "vn-0023"
+  ],
+  "relatedPlaces": [
+    "nui-ba-den"
+  ],
+  "relatedPeople": [
+    "larry-dennis-hunnewell",
+    "sgt-lowry"
   ]
 }

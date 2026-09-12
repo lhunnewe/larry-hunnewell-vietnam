@@ -110,6 +110,12 @@ const drawings = defineCollection({
     originalFilename: z.string(),
     /** Path of that file relative to data/drawings/originals/. */
     originalPath: z.string(),
+    /**
+     * Clockwise quarter-turns, in degrees, applied to the web copies so the
+     * sheet shows the way it is described. The capture file itself is never
+     * rotated.
+     */
+    rotate: z.union([z.literal(90), z.literal(180), z.literal(270)]).optional(),
     drawnBy: reference('people'),
     /** When it was drawn (not when the scene existed), YYYY-MM-DD when known. */
     drawn: z

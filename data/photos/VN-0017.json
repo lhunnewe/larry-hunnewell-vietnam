@@ -4,11 +4,20 @@
   "originalPath": "Group Photos with Unit/1920236-R3-E093.jpg",
   "cataloged": true,
   "title": "Ron Tototz with Sarge the monkey at hooch T 123",
-  "datePrecision": "unknown",
-  "people": ["ron-tototz"],
+  "approximateDate": "July 1965 (Larry's estimate)",
+  "sortDate": "1965-07-15",
+  "datePrecision": "approximate",
+  "location": "thom-son-nuht",
+  "people": [
+    "ron-tototz"
+  ],
   "description": "Ron Tototz grins in front of hooch T 123 — which Larry says has to be theirs — holding the paw of a small pet monkey named Sarge. Ron hated the monkey, which may have belonged to Jones, the helicopter pilot. The hooch gable is stenciled T 123; reed blinds screen its front, and rows of identical metal-roofed hooches run off behind.",
-  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0017-c18035388.json and -c18035430.json). 'T 123 has to be their hooch' places Larry and Ron's quarters in a formally numbered building — a matchable datum if building registers for candidate bases (Tân Sơn Nhứt area compounds) survive; VN-0019 shows the same building. 'Jones, the helicopter pilot' vs the PFC Jones of VN-0012/VN-0020 may be one man loosely described or two different Joneses — kept open.",
+  "researchNotes": "Relayed by Larry's son from Larry's dictation (2026-08-15 session; archived as data/recollections/giscus-vn-0017-c18035388.json and -c18035430.json). 'T 123 has to be their hooch' places Larry and Ron's quarters in a formally numbered building — a matchable datum if building registers for candidate bases (Tân Sơn Nhứt area compounds) survive; VN-0019 shows the same building. 'Jones, the helicopter pilot' vs the PFC Jones of VN-0012/VN-0020 may be one man loosely described or two different Joneses — kept open. 2026-09-12 (giscus-vn-0017-c18415788.json): 'Location: Ton Son Nhut in front of our hooch', 'The photo would probably be July of 1965', and two things the frame brought back. First, 'The other Unit is somewhere in the background, the guy that did the shooting in the bathroom. They had just arrived maybe a week or so.' This bears on the date of the bathroom shooting (ledger #11, issue #59; data/timeline/1965-02-bathroom-shooting.json, dated February–March 1965 from his 'been there at least 6 months'). His son, who typed the comment, clarified the same day that “They had just arrived maybe a week or so” is Larry saying when the other unit got there — about a week before this photograph — and is not a date for the shooting. By Larry’s reckoning, then, the shooter’s unit reached the base in about late June or early July 1965. If the shooter was with that unit when he fired, the shooting came after that, which does not fit the February–March 1965 he gave for it earlier (‘been there at least 6 months’). Both dates are his estimates; the tension is recorded, not reconciled. What is solid either way is a record-searchable fact: the shooter belonged to a unit newly arrived at the base. Second, 'I got the camera about 3-weeks into Vietnam which would have been Oct of 1964' — to be read with his earlier accounts of a Canon Dial 35 bought at the Qui Nhơn PX (giscus-vn-0023-c18035521.json, a paraphrase; VN-0016).",
   "confidence": "unverified-recollection",
-  "relatedPhotos": ["vn-0019", "vn-0001", "vn-0002"],
+  "relatedPhotos": [
+    "vn-0019",
+    "vn-0001",
+    "vn-0002"
+  ],
   "sources": []
 }

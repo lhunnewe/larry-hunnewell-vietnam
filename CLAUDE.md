@@ -98,6 +98,11 @@ and provenance — not an edit to the old one.
 | A document you cited | `data/sources/*.json`, then reference its id from every record making the claim |
 | Anything with an SSN, DOB, or a living person's contact details | `private/` (gitignored) — never the repo |
 
+The NAS folder `W:\Shared Photos\1964-1965 Vietnam War Photos\Private Archive` is a **mirror
+target**: `scripts/sync-private-archive.ps1` copies `private/` onto it with `robocopy /MIR`, so
+anything saved straight into that folder is deleted on the next sync. When the family drops a
+new scan there, copy it into the repo (or `private/`) before anything else.
+
 `data/` is what the website renders and what is asserted. `research/` is the messy middle.
 Findings move from `research/` to `data/` only when the evidence supports the classification.
 
@@ -136,11 +141,14 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-- **The public research page lists six questions; the ledger holds thirty-four.** Closing that
+- **The public research page lists six questions; the ledger holds thirty-eight.** Closing that
   gap is authorship, not bookkeeping: several ledger questions cannot be published as written
   without breaking rule 6.
 - **Not every ledger question has an issue, and not every issue has a ledger entry**, though
   the rule above says both are required.
+- **The guide still asks two things ledger #8 records as answered**: the basic-training
+  location (Fort Ord) and whether he knew Chapman from training (he did not). Both forms,
+  tier 4 "Basic training". Noticed during the 2026-09-12 harvest and not retired then.
 
 Keep this section honest. It described drift that had already been fixed until an audit
 caught it, which is the same failure it exists to prevent.

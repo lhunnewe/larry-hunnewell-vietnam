@@ -3,8 +3,15 @@
   "recorded": "2026-09-12",
   "provenance": "giscus comment posted from @mdfmkl on the VN-0157 page; discussion #117; https://github.com/lhunnewe/larry-hunnewell-vietnam/discussions/117#discussioncomment-18415150",
   "text": "It’s unknown if the detonator was dropped by my father or was just found by the Cambodian. ",
-  "fidelity": "transcribed",
+  "fidelity": "paraphrase",
+  "researchNotes": "FIDELITY SET TO PARAPHRASE 2026-09-12: third-person voice ('dropped by my father') is his son's report, not Larry's words, whatever account posts it. It was posted from @mdfmkl, which the export maps to Larry and records as transcribed by default. Larry's own words for the same revision are on the stories page the same day (giscus-stories-c18415582.json). It revises the 2026-09-05 account (giscus-vn-0157-c18308344.json) that he dropped the cap; both stand.",
   "relatedPhotos": [
     "vn-0157"
+  ],
+  "relatedPlaces": [
+    "nui-ba-den"
+  ],
+  "relatedPeople": [
+    "larry-dennis-hunnewell"
   ]
 }

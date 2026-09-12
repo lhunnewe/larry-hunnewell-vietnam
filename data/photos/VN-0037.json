@@ -2,8 +2,15 @@
   "photoId": "VN-0037",
   "originalFilename": "1920236-R1-E008.jpg",
   "originalPath": "Landscape, Locations and villages/1920236-R1-E008.jpg",
-  "cataloged": false,
-  "title": "Uncataloged photograph",
+  "cataloged": true,
+  "title": "A woman and child among the sandbags, Núi Bà Đen",
   "datePrecision": "unknown",
-  "confidence": "unverified-recollection"
+  "location": "nui-ba-den",
+  "people": [],
+  "description": "A Vietnamese woman in a pale blouse and long dark skirt stands with a small child in red in a gap between deep sandbag walls. Behind her, a shelter of lashed poles, canvas and matting holds ammunition cans, a square tin, pots, a helmet liner and crates; boulders rise at right with an empty table frame on top, and the cloud layer lies below. Larry's comment is about the mountain rather than the people in the frame: \"It takes 27 hours to walk up the mountain.\"",
+  "researchNotes": "Larry's comment of 2026-09-12 (giscus-vn-0037-c18416114.json) gives the place and the climb; he did not speak about the woman or the child, who are unnamed. The 27 hours is his figure and is not checked. The shelter is of the scrap-built kind he described for the summit's residents at VN-0039 — 'to get a stick like that you would go down into the jungle and carry it up.'",
+  "confidence": "unverified-recollection",
+  "relatedPhotos": ["vn-0039", "vn-0038", "vn-0036"],
+  "relatedEvents": ["1964-1965-nui-ba-den"],
+  "sources": []
 }

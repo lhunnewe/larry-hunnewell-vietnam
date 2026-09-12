@@ -769,6 +769,15 @@ Open questions:
     a membership/dating probe that must not name them (rule 6 — ask "did anything happen to the
     unit soon after you got there?", never "do you remember Bain?"), and five more names for the
     #23 outreach.*
+    *2026-09-12 (Memories) — **"18th Aviation" a second time, unprompted, at a different photograph.**
+    At VN-0011: "I think the street in the background is 18th Aviation unit." His son confirms he
+    said 18th, not 118th. It repeats the 2026-08-23 answer that the ops van stood "over in the
+    property of 18th aviation" (Answered record in the guide), three weeks later, with no
+    prompt. Two consistent tellings make it a stable memory, not yet a fact. **Keep the 18th and
+    the 118th as separate leads; do not fold one into the other as a typo.** NOT CHECKED: where an
+    18th Aviation Company was stationed in 1964–65. Also from the sitting: the van ran about four
+    men by day and one at night (VN-0014), Kahn the company clerk "wrote the morning report"
+    (VN-0003, repeated from 08-23), and everyone in his hooch was "pretty much E-4's" (VN-0002).*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -919,6 +928,9 @@ Open questions:
    link to Schwartzkoff's boxing-callsign net looked unmade. **It is already made, thoroughly** —
    `data/recollections/2026-09-01-phone-boxing-call-signs.json` and
    `research/units/callsigns-and-units.md`.*
+   *2026-09-12 — **Lowry off the summit, on patrol.** At VN-0023: "This guy was found in a hut by
+   Sargent Lowry and they came out dragging him" (#17). Lowry is not said to be in the frame and is
+   not linked to it. It puts him on the ground near the mountain with Larry, not only on the radio.*
 5. **Captain "Guegler"** — spelling, identity, and possible connection to the KIA report.
    *2026-08-15: major advance — Larry identified him in a photograph (VN-0020, right
    officer at the Huey), added spellings Gutler/Getler ('Guetler' in the VN-0015 comment),
@@ -940,6 +952,8 @@ Open questions:
    on the last day, dropping Sgt. Weaver off in his place, hours after the accusation (#1, #10).
    Nothing documentary ties him to the report itself. Separately, VN-0029 is NOT a Rosethorn 007
    frame: "I was in someone else helicopter in this photo. I don't think it was Rosethorn 007."*
+   *2026-09-12 — at VN-0016, hedged: "Geutler was the guy flying possibly to the left of Estes"
+   (#28, #37). "Geutler" as Larry spells it. Not linked to the frame, because he said "possibly".*
 6. **Bombs jettisoned at sea** — separate documented procedure, ROE, aborted missions, political
    restriction, and rumor.
 7. **The Japan medical command** — **largely answered by Larry himself (call, 2026-08-12):**
@@ -979,6 +993,8 @@ Open questions:
    Fort Gordon / Fort Benning question in favour of Gordon and leaves Fort Benning as the
    separate place he volunteered for Vietnam. Note the tension with the DD-214: he says
    September 1963, the form says induction 28 October 1963. Both stand.*
+   *2026-09-12 — a second, hedged placement with Larry's section in Vietnam: VN-0015 was "taken at
+   nighttime by Weaver or Chapman".*
 9. **The two friends** — *half resolved 2026-08-15:* the man at the beach table (VN-0022)
    is **Ron Tototz** — "Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang." The
    Japan hospital friend (VN-0093, VN-0095), "from back east," remains unnamed. A NEW
@@ -1118,6 +1134,17 @@ Open questions:
     naming the OTHER witnesses, and confirming Sgt. Weaver, who Larry says responded. Note
     also that Larry now places the incident at the headquarters company rather than at a
     named base, so a records request should not assume Tân Sơn Nhứt.*
+    *2026-09-12 — **the shooter came from a newly arrived unit, and the date may move.** At VN-0017,
+    which he now dates "probably July of 1965": "The other Unit is somewhere in the background, the
+    guy that did the shooting in the bathroom. They had just arrived maybe a week or so." **His son,
+    who typed it, clarified the same day: "just arrived" is when that other unit got there — about a
+    week before the photograph — not a date for the shooting.** So by Larry's reckoning the
+    shooter's unit reached the base about late June or early July 1965, and if the shooter was with
+    it when he fired, the shooting came after that, which **does not fit the February–March
+    dating** ("been there at least 6 months") the timeline uses. Both are his estimates. **Not
+    reconciled; timeline display date unchanged**, with a note added. The search gains a filter it
+    did not have: **a unit newly arrived at the base, about June–July 1965 by his estimate.** Unit
+    arrival dates are the kind of thing unit histories record. Not yet searched. Issue #59.*
 12. **New names from the photo comments (2026-08-13, issue #96)** — Kahn (company secretary, VN-0003),
     Major "Schwartzkoff" (VN-0006 — hypotheses in research/people/major-schwartzkoff.md,
     not to be mentioned to Larry), the Australian captain (VN-0006, AATTV lead), and a
@@ -1134,6 +1161,10 @@ Open questions:
    award from the Vietnamese government**, name not remembered. A foreign decoration appears
    in DD-214 item 26 and in the OMPF, so it is a directly checkable item for the NPRC return
    now in the mail (issue #19).*
+   *2026-09-12 — Kahn again, at VN-0003: "he was the company clerk, morning report written by him"
+   (he said "secretary" on 08-13), and in VN-0008; of VN-0007, "Kahn must be taking the picture",
+   which is Larry's inference from who is missing. The morning-report detail is now given twice,
+   three weeks apart.*
 13. **New names from the 2026-08-15 session** (issue #96) — **Sgt. Weaver** (ex-Marine, VN-0014 — the
     'WE...' name tape read by the survey now confirmed; bathroom-shooting witness),
     **PFC Jones** (VN-0012 believed, VN-0020; one Jones or two? — the monkey may have
@@ -1177,6 +1208,8 @@ Open questions:
    sign, and Larry's name, in full-text searches of that memoir, Capt. Jack Johnson's
    narrative (0690504006), and the Operation FITCHBURG intelligence annex. Details:
    research/units/callsigns-and-units.md, 2026-09-01.*
+   *2026-09-12 — **Major Lewis withdrawn from VN-0016 by Larry, and a new name read in his place.**
+   Details under #28 and #37.*
 14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
     Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
     *2026-08-16 (issue #61, research/people/drowned-medic-nha-trang.md): comprehensive
@@ -1343,6 +1376,18 @@ Open questions:
     and potentially documented (CIDG/SF after-action reports, agency records). Also from
     those comments: "70% of strikers were enemy" — matching documented CIDG infiltration
     concerns at Núi Bà Đen-era camps.
+    *2026-09-12 — **a second account, in his own words, and it differs.** (transcribed,
+    `giscus-vn-0023-c18415971.json`): "Location: to the left of Nui Ba Den. This guy was found in a
+    hut by Sargent Lowry and they came out dragging him. He was tied up. No idea what he did. **I
+    heard he was Vietcong.** He had a girlfriend with him and we told her to take off because the
+    Vietnamese were coming and we turned this guy over to the Vietnamese and then the CIA were
+    coming to get him from the Vietnamese/ARVN's. You couldn't trust the ARVN's at all." Held
+    against the 2026-08-15 paraphrase, which said Pathet Lao: **neither is corrected.** The 08-15
+    account was his son's words; this one is Larry's, and it is hearsay by his own label ("I
+    heard"). The "remarkable Laotian prisoner" framing of this entry rests on the weaker of the
+    two. What is new and searchable: found in a hut by Lowry (#4), a woman released on the spot,
+    an ARVN hand-off before the CIA. The guide's tier-4 question named Pathet Lao and is
+    rewritten open. Issue #97.*
 18. **Gagne** (2026-09-01 phone call, issue #68) — a man Larry named for the first time
     sixty-one years on, while answering a question about radio physics: "Gagne was with me
     and died, he was a french foreign Legionair." The spelling is his own, given on the
@@ -1401,6 +1446,9 @@ Open questions:
     not hold a U.S. commission — either the Legion is his past or one description is loose. Also
     from the same day: Gagne was with Larry on Larry's **first** arrival at the mountain
     (VN-0041), which puts him there from the start of Larry's association, not only the end.*
+    *2026-09-12 — the Thompson again, at VN-0013: "I got it from Gagne. **He was in charge of all
+    the weapons at Ton Son Nhut.**" Same weapon, same man as 09-02, but the armory has moved from
+    the Special Forces camp to the base. Recorded as given, not reconciled (issue #68).*
 19. **The CBC documentary** (2026-09-01 phone call, issue #69) — Larry says a Canadian
     Broadcasting Corporation crew filmed on site for about two weeks, that they asked him
     questions on camera, that they all ate together, and that photographs of the crew are
@@ -1646,6 +1694,9 @@ Open questions:
     Papillon and "the Embassy around the corner" recur on VN-0065, consistent with this entry.
     And on VN-0081, undated: a rooftop bar with Zukowski and Stanton "and there was war going
     on all around us. It was one of my last days in Saigon" — a third scene, unplaced.*
+    *2026-09-12 — **another Saigon explosion in his telling, kept apart as #36**: the Market,
+    "6 or 8 bars away", a bicycle bomb, "no Americans hurt", and a woman whose bleeding he tried
+    to stop. Whether that is the first-aid scene this entry began with is open; not merged.*
 24. **Captain Kennedy** (issue #92) — the officer Larry names as running the camp, and the man
     he credits with taking VN-0023. Record: `data/people/captain-kennedy.json`.
     *2026-09-01, cold: "Special Forces ran the camp. Captain Kennedy was in Charge of the camp
@@ -1703,6 +1754,15 @@ Open questions:
     about 3000 to 5000 feet… about 70 miles" (VN-0071). And a second pilot from his own unit is
     named for the first time, **Lieutenant Hanna** (#31) — not tied by Larry to Rosethorn 007,
     but the tier-4 crew question now has one more name to hear back.*
+    *2026-09-12 — **LEWIS WITHDRAWN FROM THE PHOTOGRAPH BY LARRY; THE HELMET READS ESTES.** His son
+    pointed out a name on the helmet in VN-0016 and Larry read it: "oh his last name is Estes, I
+    was thinking his name was Lewis… Lewis must be somebody else." **This was a reading, not the
+    unprompted recall `research/people/major-lewis.md` had hoped for**: it agrees with the machine
+    reading of the lettering, so the lettering is settled, and it does not settle who wore the
+    helmet. What followed is memory: National Guard, "probably got called up", not flying but
+    talking to him, with "possibly" Geutler at the controls. VN-0016 now names Estes; Major Lewis
+    stays as a remembered name with no face. The crew question in the guide is rewritten.
+    New entry #37 for Estes; #63 keeps the name.*
 29. **Mike Patrick** (issue #60) — VN-0010; ranger, "special operations group for MACV," whom
     Larry called a ghost or a spook. Issue open since 2026-08-23 with only partial ledger
     coverage under #13.
@@ -1757,6 +1817,14 @@ Open questions:
     archive could actually give him. THE SENSITIVITY DECISION (#22) IS NOW DUE: the guide said
     his answer would decide whether the frame is shown publicly; he has answered. That is the
     family's call. VN-0157 cataloged; the man is unnamed and not linked to a record.*
+    *2026-09-12 — **he has revised whose cap it was.** On the stories page (transcribed): "The story of
+    the detonator, it may not have been one I dropped but the Cambodian found one. I have no idea
+    where he got it from." And his son, the same day on the VN-0157 page (paraphrase, filed so after
+    the export marked it transcribed): "It's unknown if the detonator was dropped by my father or
+    was just found by the Cambodian." Both accounts are his; neither is corrected. **This bears on
+    #22 and should be in front of the family when they decide:** the account on the page now carries
+    the doubt he raised himself. The records paths are unchanged. Issue #129 retitled the same day
+    to drop "Larry's" from the cap, since he no longer says it was his.*
 34. **The shoot-down with PFC Jones** (issue #130) — "PFC Jones and I got shot down and had to
     go back to the base and land one time" (VN-0071, 2026-09-05). Undated; attached by him to
     the Rosethorn 007 run to the mountain. *An aircraft that took hits and returned to base
@@ -1784,3 +1852,40 @@ Open questions:
     box) are not transcribed because a letter cannot be read from the phone captures; ASK THE
     FAMILY FOR A FLAT SCAN of the three sheets. The comparison of VD-0002 with the 6231-4 fort
     symbol stays in research/; he is not shown a map to correct a sketch.
+    *2026-09-12 — **the flat scan arrived, and a fourth sheet with it.** Scanned with a phone as PDFs.
+    **The scan did not settle the three withheld VD-0003 inscriptions**; scoped negative in
+    `research/drawings/README.md`. Only his reading settles them; do not ask for another scan. The
+    scans are now the published images (turned upright by a new `rotate` field). The phone
+    photographs stay in `originals/`. **The Market is answered in his words** (#36), so the
+    *(validate)* probe is retired. **VD-0004, the flight line**, drawn 2026-09-12 and offered by
+    him: RUNWAY, L19, HANGER and MOVIE'S transcribed; the heading (in his hand, a darker pen), the
+    word over the Beaver, the characters over a crossed-out aircraft, the FLIGHT box, the line under
+    HANGER and the USAF box are each withheld for one letter. The readings and the 007 hypothesis
+    stay in research/ only. **Also found:** the PDFs had been saved into the NAS folder that
+    `sync-private-archive.ps1` mirrors with `/MIR`, and would have been deleted on the next sync.
+    They are now in the repo.*
+36. **The Market explosion** (issue #154) — told 2026-09-12 under the heading "The Market Explosion
+    story" (transcribed, `giscus-stories-c18415576.json`): "probably 6 or 8 bars away", running
+    toward it, "somebody in English said bicycle bomb. There were no Americans hurt. I tried to
+    stop the bleeding of a women… women and children were hurt bad." It is the circled M on
+    VD-0003, and it settles the presence question his son could not (#35). *Kept apart from the
+    Embassy (30 March 1965, #23) and the Mỹ Cảnh (25 June 1965, #30): a bicycle bomb with no
+    American casualties fits neither. **Open and not for him:** whether this is the VN-0120
+    first-aid scene (a man's throat, near the Palace), which he later tied to the Embassy.
+    Details differ; not merged. NOT YET SEARCHED: Saigon bicycle or plastic bombs at a market,
+    Sept 1964 – Aug 1965.*
+37. **Estes** (issue #155) — the man looking back from the front seat of VN-0016, named when
+    Larry read the helmet on 2026-09-12 at his son's prompting (#28). *Not an unprompted
+    recollection, so the name carries the weight of a reading. What is memory: National Guard,
+    "probably got called up", and that he was not the one flying. NOT CHECKED: no ARNG units
+    were mobilized for Vietnam before 1968, so an individual Guardsman on active duty or a man
+    with prior Guard service is the reading to test. `data/people/estes.json`,
+    `research/people/major-lewis.md`. Ask only open questions: first name, home, what he flew.*
+38. **The Hong Kong trip** (issue #156) — at VN-0012 on 2026-09-12, a side story: "The plane I flew to
+    Hong Kong in was made by DeHavoland… two engines on the wings and it was short take off and
+    landing… I think they held 18 guys," then "Plane was called Caribou." *New to the archive: a
+    trip out of Vietnam during the tour, which, if it was R&R, generated orders and dates a
+    week. The description fits the DHC-4 Caribou; a Caribou to Hong Kong would be unusual,
+    since R&R flights were chartered airliners, so the aircraft, route and purpose are all
+    open. Nothing corrected, nothing checked. Ask when, how long, with whom, and whether it was
+    R&R.*
