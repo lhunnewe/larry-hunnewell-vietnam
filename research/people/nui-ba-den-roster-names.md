@@ -76,6 +76,22 @@ plausibly carry the names of one TDY rotation.
   is an attractive fit, but the dates shown for that appointment run 1966 and later.
   **Recorded as a candidate with a date problem.**
 - **Kirby** and **Dean**: **no match** anywhere in either part of the order of battle.
+  - ***2026-09-12 — DEAN FOUND, AND REWERTS WITH HIM, IN ONE HELICOPTER ON THE MOUNTAIN.*** Not in the
+    order of battle because he was not a commander: **SFC William Mearl Dean, Special Forces**, killed
+    **14 August 1964** when **UH-1B 62-02051 of the 118th Aviation Company** crashed on Black Virgin
+    Mountain about 200 feet below the summit (Pacific Stars and Stripes 19 Aug 1964 p.32; VHPA incident
+    0A293ACD; DCAS). **Capt. D. G. Rewerts was an injured passenger on the same aircraft**, and Capt. Alan
+    B. Harriman, Special Forces, also died of it. So two of the painted names — **Dean** and **Rewerts** —
+    were aboard the one loss documented on the mountain, while **Garvey** commanded the site (July–Sept
+    1964). A reasonable reading is that the rocks record that detachment and that day; it is a reading, not
+    a document about the rocks. Dean: **strongly-supported** as the Dean of the rock. Full note:
+    `research/events/nui-ba-den-helicopter-wreck.md`.
+  - ***2026-09-12, Captain Lynch — a candidate weakened.*** DCAS has **Capt. Richard Thomas Lynch, MACV
+    advisor, KIA 10 Sept 1964** — but with an ARVN Ranger battalion in **Long An** province, south of
+    Saigon (Silver Star citation, via web summary of Hall of Valor / VVMF), not at Núi Bà Đen. Not the
+    rock's Lynch on present evidence; Michael J. Lynch (Bu Dop) remains the only roster candidate.
+    DCAS: no Kirby (Army) and no Willcut/Wilcut among the dead in 1963–65, so both are presumably living
+    men of the site.
 
 ### And a negative worth having
 

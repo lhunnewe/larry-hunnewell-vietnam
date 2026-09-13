@@ -871,7 +871,8 @@ Open questions:
    right province in the right year. Weaker: "Captain Lynch" (a Michael J. Lynch, but at Bu
    Dop, not Tây Ninh); "Willcut" (CPT Roger E. Willcut was 5th SFG **Group Signal Officer**,
    an attractive fit for a relay site's rocks, but dated 1966+). No match at all for Kirby or
-   Dean. **LOWRY/LOWERY: zero hits in either part** — a real but NARROW negative for #12,
+   Dean *(2026-09-12: Dean found — SFC William M. Dean, killed in the 14 Aug 1964 crash on the mountain, with
+   Rewerts an injured passenger; see #21)*. **LOWRY/LOWERY: zero hits in either part** — a real but NARROW negative for #12,
    because this work rosters officers and senior NCOs, not every enlisted man. Also in
    Larry's window: a **1LT LEWIS commanded the camp from 20 April 1965** (NOT his Major Lewis
    of Rosethorn 007 — different rank, not an aviator; recorded so the collision is not
@@ -1676,6 +1677,18 @@ Open questions:
     frames. Also closed: **Civil Air Transport Flight 106 is not this aircraft** — it surfaces on
     "Núi Bà Đen 1964 aircraft crash" searches and looks perfect until you read it; it crashed near
     Shenkang, western TAIWAN, a C-46D, 57 dead. Do not chase it again.*
+    *2026-09-12 — **A DOCUMENTED LOSS ON THE MOUNTAIN, 14 AUGUST 1964: the leading candidate, plausible.**
+    Found in Pacific Stars and Stripes (19 Aug 1964 p.32: a U.S. Army helicopter "plunged into Black Virgin
+    Mountain about 200 feet from the summit", two dead, **seven injured**, a third died later) and matched to
+    VHPA incident 0A293ACD: **UH-1B 62-02051, 118th Aviation Company, total loss**, 3 killed (SP4 Caughey,
+    SFC Dean, Capt. Harriman), 6 injured, 9 aboard. Three weeks before his arrival — "already there when I got
+    to Vietnam." His "7 guys dead" may be the first report's seven injured, heard secondhand; nothing says it
+    burned. **The 2026-09-03 VHPA sweep missed it because it read incident pages only from 1 Sept 1964.** Not
+    shown: that his photograph is this airframe (rescan still gating). **And it resolves two rock names:
+    SFC William M. Dean died in it and Capt. D. G. Rewerts was an injured passenger** — two of the names
+    painted on the rocks (VN-0035) were aboard. `research/events/nui-ba-den-helicopter-wreck.md`,
+    `research/people/nui-ba-den-roster-names.md`. Not for Larry. Next: Army Aviation Safety Center case
+    0A293.*
 22. **"Trung Xi Nhat Nham"** (VN-0148, 2026-09-02, issue #90) — the man standing at that wreck, and the
     only person Larry has ever described as assigned to protect him: "He was an interpreter and
     could speak 9 languages. He was a warrior monk." New to the archive. Records:

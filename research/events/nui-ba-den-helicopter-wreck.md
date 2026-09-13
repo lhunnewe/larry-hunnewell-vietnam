@@ -227,3 +227,52 @@ explosion. The **28 May 1965 mid-air collision over Bien Hoa Air Base**, with an
 bursting into flame on the field, is a second candidate for a fire at Bien Hoa in that month.
 **Do not offer either to him**; the question stays open-ended, and this note stays out of every
 rendered field.
+
+---
+
+## 2026-09-12 — A DOCUMENTED CRASH ON THE MOUNTAIN, THREE WEEKS BEFORE LARRY ARRIVED
+
+Found in Pacific Stars and Stripes while sweeping for the 18th AOD (`research/units/18th-aod-stars-and-stripes-1964.md`),
+then matched to the VHPA incident record. **This is the first documented aircraft loss on Núi Bà Đen in
+the archive, and it falls exactly in the window the section above said to widen to.**
+
+- **Pacific Stars and Stripes, Wednesday 19 August 1964, archive p.32** (imageID `141639765`), AP, Saigon:
+  "Copter Toll Rises to 3 Dead." A **U.S. Army helicopter plunged into Black Virgin Mountain about 200 feet
+  from the summit** "last Friday" (**14 August 1964**), 60 miles northwest of Saigon. Two Army men killed
+  outright, **seven** others injured; a third died over the weekend after evacuation to Saigon. Named dead:
+  1st Lt. Alan B. Harriman; SP4 James C. Caughey, Indianapolis; S/Sgt. William M. Dean, Fayetteville, N.C.
+  Cause not disclosed.
+- **VHPA incident 0A293ACD** (`https://www.vhpa.org/KIA/incident/0A293ACD.HTM`, fetched 2026-09-12; source
+  DIA Helicopter Loss database + Army Aviation Safety Center + OPERA): **UH-1B 62-02051, 08/14/1964, unit
+  118 AVN, Total Loss Accident.** Killed 3, injured 6, passengers 5. Crew: W1 Christense?, W1 P. McLarney,
+  SP4 James Edward Caughey (CE, KIA), E3 B.G. Qualis. Passengers: **SFC William Mearl Dean (KIA)**, O3 J.H.
+  Bledsoe, **O3 D.G. Rewerts**, **CPT Alan Bates Harriman (KIA)**, E6 J.A. McCrary.
+- **DCAS** (PalmBeachPost `vnusreport.txt`): Caughey, 20, crew member, 14 Aug 1964; **SFC William Mearl
+  Dean, 31, Special Forces, passenger, 14 Aug 1964**; **Capt. Alan Bates Harriman, 26, Special Forces,
+  passenger, 15 Aug 1964.**
+- A web-search summary of the VVMF Wall of Faces page for Caughey gave the year as **1967** and described an
+  engine failure on short final to the summit helipad, the aircraft rolling down the slope. **The year is
+  wrong** (DCAS, VHPA and the 1964 newspaper all agree on 1964); the mechanism is unverified because the page
+  returned 403 and was not read directly.
+
+### Why it matters here
+
+1. **Why the earlier sweep missed it.** The 2026-09-03 VHPA pass read incident pages only for 1 Sept 1964 –
+   30 Sept 1965. This loss is on panel 01E, dated 14 Aug 1964: inside the panel, outside the window read.
+2. **Against Larry's words.** "It was already there when I got to Vietnam" — yes: a total-loss airframe on
+   the mountain from three weeks before his September 1964 arrival. **"7 guys dead"** — the newspaper's
+   first report had **seven injured** and two dead; VHPA has 3 dead, 6 injured, 9 aboard. A number heard
+   secondhand could drift from injured to dead. **"It burnt for 3 hours"** — nothing found says it burned.
+3. **Unit.** The aircraft was the **118th Aviation Company's** — the "118th" of Larry's remembered unit name.
+
+**Assessment: the leading candidate for the VN-0148 wreck — plausible, not established.** What is not shown:
+that the wreck in his photograph is this airframe (a UH-1B; the photograph's airframe question is open and
+gated on a rescan), that it burned, or that it lay where he photographed it. Do not put the date, the unit or
+the names to Larry; if asked anything, ask what he was told about how it happened.
+
+### Next
+
+- [ ] Rescan VN-0148 at archival resolution (unchanged; now with a type to test against: UH-1B).
+- [ ] Army Aviation Safety Center accident report, case **0A293** — a named file, requestable.
+- [ ] Read the VVMF Wall of Faces pages for Caughey, Dean and Harriman in a real browser (403 to fetch) for the
+      remembrance narrative, and note its sources.

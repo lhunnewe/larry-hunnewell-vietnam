@@ -161,6 +161,21 @@ Keyword searches, all editions, snippets only (OCR poor; multi-word tags are AND
 | `flight operations center` | 1964–66 | 130 | First 30 Pacific hits: Korea ATC training (1965), 313th Air Div rescue centre, NASA. No 18th AOD item. |
 | `mealey` | 1964–65 | 222 | PFC Mike Mealey's "Dateline Vietnam" ran ~Nov 1964 – Mar 1965 (Bien Hoa, Can Tho, Pleiku, Qui Nhon, Saigon). **1964-12-28 p.20 read: Can Tho — USAF radar "Paddy Control", A/1C Allen Brocious. Not the AOD.** Other columns not read. |
 
+## Unit-term sweep, 2026-09-12 (night) — run
+
+| Search | Years | Hits | Result |
+|---|---|---|---|
+| `aviation operating` | 1964–66 | 124 | Only the 24 Oct 1964 article. |
+| `air operations det` | 1964–66 | 180 | Only the 25 Jan 1965 column; the rest USAF detachments. |
+| `flight following center` | 1964–66 | 61 | Nothing relevant. |
+| `army flight operations system` | 1964–66 | 15 | Only the 24 Oct 1964 article. |
+| `125th air traffic` | 1965–66 | 8 | **125th Air Traffic Control Co active by 4 Oct 1965 (p.31) and "headquartered at Tan [Son Nhut]" by 28 Dec 1965 (pp.15–17), controllers at Army airfields.** Consistent with Larry's 125th taking over as he left; the 18th AOD is not named. |
+| `radio relay black virgin`; `radio relay mountain vietnam` | 1964–66 | 0; 0 | — |
+| `black virgin mountain` | 1964–65 | 3 | **By-product for ledger #21 and the rock names:** the 14 Aug 1964 UH-1B crash on the mountain (see `research/events/nui-ba-den-helicopter-wreck.md`). |
+| `radio relay` | 1964–65 | 190 | Pacific Vietnam hits only: VOA Hue relay (Dec 1965), a Da Nang item, VHF relay course (May 1964). None about the AOD's 13 stations. |
+
+So on keyword evidence the two 18th AOD items are the only S&S coverage of the unit in 1964–66.
+
 ## Search terms this note makes possible (not yet run)
 
 - **Unit phrases:** `"Aviation Operating"` 1964–66; `"Air Operations Det"`; `AFOS`; `"Army Flight Operations System"`; `"Flight Following Center"`; `"18th AOD"` 1965–66 (the October 1964 page is the only hit found so far for 1964–66).
