@@ -146,3 +146,25 @@ the job he describes, at the base he names.** A coincidence of that shape is ver
    `Phillips` + `aviation` 1964–65 for a change of command.
 4. People searches (not before the probes are asked): Rene C. LeFrancois; Tommy R. Chapman; Douglas
    L. Hanna; Maj. William D. Phillips of Norman, Okla. Living-person care applies.
+
+## Follow-up sweep, 2026-09-12 late evening — names and unit terms (Pacific S&S)
+
+Keyword searches, all editions, snippets only (OCR poor; multi-word tags are ANDed words):
+
+| Search | Years | Hits | Result |
+|---|---|---|---|
+| `hanna douglas` | 1963–70 | 31 | Only **PFC Douglas D. Hanna**, an MP with C Co at Yongsan, Korea, soldier of the month June 1964 (Pacific 1964-06-05 p.31, 1964-07-04 p.31) — different middle initial, different job; not our man. Rest are lists and sports. |
+| `francois rene` | 1963–70 | 40 | Nothing relevant (French politics, boxing). |
+| `lefrancois` | 1963–66 | 1 | A Canadian truck driver. |
+| `klingenhagen` | 1963–66 | 3 | Col. John L. Klingenhagen as CO/deputy CO, U.S. Army Support Group/Command, Vietnam (Oct 1963, Jan and Mar 1964). Confirms the article's chain of command; no AOD mention. |
+| `phillips aviation norman` | 1963–66 | 3 | Nothing relevant. |
+| `flight operations center` | 1964–66 | 130 | First 30 Pacific hits: Korea ATC training (1965), 313th Air Div rescue centre, NASA. No 18th AOD item. |
+| `mealey` | 1964–65 | 222 | PFC Mike Mealey's "Dateline Vietnam" ran ~Nov 1964 – Mar 1965 (Bien Hoa, Can Tho, Pleiku, Qui Nhon, Saigon). **1964-12-28 p.20 read: Can Tho — USAF radar "Paddy Control", A/1C Allen Brocious. Not the AOD.** Other columns not read. |
+
+## Search terms this note makes possible (not yet run)
+
+- **Unit phrases:** `"Aviation Operating"` 1964–66; `"Air Operations Det"`; `AFOS`; `"Army Flight Operations System"`; `"Flight Following Center"`; `"18th AOD"` 1965–66 (the October 1964 page is the only hit found so far for 1964–66).
+- **Successor units:** `"125th Air Traffic"` 1965–66 (Larry: a 125th unit took over as he left).
+- **Men:** `Chapman Tommy`; `Hanna` + `aviation` 1964–65; `LeFrancois` spelled `Le Francois`/`Lefrancois` 1964–70 (OCR splits); `Weaver` + `aviation` 1964–65; `Kahn` + `clerk`.
+- **Places:** `"radio relay"` + `Nui Ba Den` or `Black Virgin` 1964–65 (the 13 relay stations); `Pleiku` + `flight following`.
+- **Mealey's other columns**, Nov 1964 – Mar 1965: read any with a Saigon or Tan Son Nhut dateline — he wrote the January 1965 18th AOD mention and may have visited the van.
