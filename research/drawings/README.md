@@ -166,10 +166,16 @@ named on the page only by their legible words. **Do not read any of these to him
 - **Over the middle aircraft** — `BEAV?R`, where the fifth glyph is the same r-for-e/c shape as
   PALACE's fifth letter. Kept out for consistency with VD-0003, not because the word is in
   doubt: he said "Beaver" at VN-0012 the same day.
-- **Over the crossed-out aircraft** — two rounded shapes and a 7-like figure: `007` or `OO7`.
-  **Hypothesis kept here, not on the page:** Rosethorn 007, the aircraft he has named four
-  times. The drawing it labels is scribbled through. Ask what the crossed-out plane was and
-  what he wrote above it; never say 007.
+- ~~**Over the crossed-out aircraft** — `007` or `OO7`; hypothesis Rosethorn 007.~~
+  **SETTLED THE SAME EVENING, AND THE DESCRIPTION WAS WRONG.** His son (2026-09-12,
+  `data/recollections/2026-09-12-drawing-rosethorn-007.json`, paraphrase): "The plane he crossed
+  out isn't a plane, the X are the helicopter blades … for Rosethorn 007 and next to it is a
+  plane. The helipcopter was the first thing he drew as he was explaining where Rosethorn 007
+  was located in relation to the buildings around it." So the mark is a helicopter seen with its
+  rotor drawn as an X, not a crossing-out; the record first called it "heavily crossed through",
+  which was an interpretation dressed as description. `007` is now in `labels`, added outside the
+  Edit tool on the strength of his own account of the drawing, and the description says only
+  "long strokes crossing over it". **Lesson: "crossed out" is a reading. Describe strokes.**
 - **The box left of the two vertical lines** — two lines, `FL?GHT` (the I is fused into the L
   or missing) over `HD?` (G or Q). Read by sense as FLIGHT HDQ (headquarters). Open.
 - **Under HANGER** — `US POST OFF??E`; the fifth letter of the third word is an l as much as a
@@ -181,6 +187,11 @@ Unlabelled and not interpreted: the ladder-like vertical line with five rungs at
 edge above the flight line (a tower? a fence? revetments?), the two close vertical lines below
 it (a road?), the faint strokes under the heading, the hook and slash under RUNWAY. All his to
 explain; the guide has them.
+
+**Rosethorn 007 placed.** The sheet is, in his son's account, a map made to show where Rosethorn
+007 stood: drawn first, at the left of the flight line, beside a Beaver and an L19, with the
+flight building, hangar and mess hall laid out from it. The first placement of that aircraft on
+the ground anywhere in the archive (ledger #28).
 
 **For research only:** a USAF mess hall and a US post office in a hangar are specific enough
 to test against a period plan of Tân Sơn Nhứt, if one is found, but a sketch without scale or

@@ -98,6 +98,19 @@ What remains here is what he did not answer, plus **four new questions his answe
 > still genuinely open about the six pages, is in
 > `research/events/kia-misreport-stars-stripes.md`.
 
+- [ ] **ASK BEFORE ANYTHING ELSE ABOUT THE UNIT — four cold questions about the van.** *(ledger #2,
+  #8, #13, #31 — NEW 2026-09-12, and they decay the moment he sees a document)*
+  *"Who was the officer in charge of your van?"* · *"What did Sergeant La Franceaous do — what was
+  his job?"* · *"What did Chapman do?"* · *"What was the name or number of the outfit that ran the
+  van?"*
+  **A 1964 newspaper item names the officer in charge of a flight-operations van at his base and
+  two of its controllers, and all three surnames are ones he has given us.** Asked cold, his
+  answers either match the printed roles or they don't; either way the answer is evidence. Ask
+  about **roles, not first names** — his son expects no first names (only Ronnie Tototz's). **Say no
+  name, rank, number or unit. Do not show or mention the article** until all four are asked — the
+  item is in `research/units/18th-aod-stars-and-stripes-1964.md`, deliberately off every page he
+  browses.
+
 - [ ] **ASK THIS ONE FIRST — the Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*
   *"You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who'd
   got sick in Cambodia. What else do you remember about him? How many days were you in that
@@ -230,13 +243,17 @@ without the answer in them.
 - [ ] **The Tu Do marks.** — **VD-0003**: *"The wide strip up the middle with the shapes in it
   and the arrows, the star by the flowers, and the shape in the top corner — what are they?"*
 - [ ] **The flight line labels.** — **VD-0004**: *"Read me what you wrote across the top, over
-  each of the little planes, in the box on the left of the two long lines, under HANGER, and in
-  the box at the bottom left."* *(Six inscriptions withheld, one letter each; RUNWAY, L19,
-  HANGER and MOVIE'S are transcribed. **Do NOT read candidates, and never say a number for the
-  crossed-out plane** — readings in `research/drawings/README.md`.)*
-- [ ] **The flight line marks.** — **VD-0004**: *"The plane you crossed out — what was it? And
-  the ladder shape at the right edge, the two long lines down the middle, and the little marks
-  under RUNWAY — what are they?"* *(Nothing said while drawing was written down.)*
+  the middle plane, in the box on the left of the two long lines, under HANGER, and in the box
+  at the bottom left."* *(Five inscriptions withheld, one letter each; RUNWAY, 007, L19, HANGER
+  and MOVIE'S are transcribed. **Do NOT read candidates** — readings in
+  `research/drawings/README.md`.)*
+- [ ] **The flight line marks, and Rosethorn 007** *(validate)*. — **VD-0004**: *"The ladder
+  shape at the right edge, the two long lines down the middle, and the little marks under
+  RUNWAY — what are they? And why did you put Rosethorn 007 where you did?"* *(2026-09-12, his
+  son: the helicopter at the left, blades drawn as an X, was the first thing he drew, to show
+  where Rosethorn 007 stood among the buildings — `2026-09-12-drawing-rosethorn-007.json`. The
+  archive had first described it as a crossed-out plane. Let him say where it parked and what was
+  around it.)*
 - [ ] **From the flight line to the hooch.** — **VD-0004** with **VD-0001**: *"Where were your
   hooch and the radio van from here? Which way would you walk?"* *(He put the flight line
   "probably 3 blocks away" at VN-0012; the two sheets share no landmark, scale or direction.)*
@@ -288,7 +305,7 @@ without the answer in them.
 - [ ] **Lieutenant Hanna** — *"Hanna — do you remember his first name, or where he was from?
   What did he fly?"* *(ledger #31, issue #126. Named at VN-0046 on 2026-09-05: a pilot in his
   own unit, 19 or 20, killed in 1968. The pilots' memorial roll has no match that fits; the
-  DCAS sweep comes first. **Never a candidate name.**)*
+  DCAS sweep comes first. **Never a candidate name.**)* *(His son, 2026-09-12: expect no first name — Larry knows only Ronnie Tototz's; they all went by surnames, as Larry himself said on 2026-09-03. Ask once, lightly, and don't press. The role questions in tier 1 carry the weight now.)*
 - [ ] **Kiwi, the medic** — *"The New Zealand medic you did sick call with on the mountain —
   Kiwi — does his name come back? Was he in the Army, or with the New Zealanders?"*
   *(2026-09-05, VN-0041: "Might have been Roger." Whether he was a New Zealand serviceman or a

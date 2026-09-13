@@ -778,6 +778,32 @@ Open questions:
     18th Aviation Company was stationed in 1964–65. Also from the sitting: the van ran about four
     men by day and one at night (VN-0014), Kahn the company clerk "wrote the morning report"
     (VN-0003, repeated from 08-23), and everyone in his hooch was "pretty much E-4's" (VN-0002).*
+   *2026-09-12, evening — **THE UNIT IS FOUND IN PRINT, AND THREE OF HIS NAMES ARE IN IT.**
+   Pacific Stars and Stripes, 24 October 1964, p.29 (printed 19), datelined TAN SON NHUT: kicker
+   **"18TH AOD"**, "They Keep Eye On Lost Planes." The **18th Aviation Operating Det. (AOD)**, U.S.
+   Army Support Command, commanded by Maj. William D. Phillips, runs the Army's nationwide
+   **flight-following radio** system: **13 radio relay stations** from the 17th parallel to the
+   Delta, Flight Operations Centers at Saigon, Pleiku and Can Tho, "primary coordination" by the
+   **Saigon Headquarters of the 18th AOD.** The photo: controllers at status boards "in a specially
+   designed III Corps Flight Operations Center **van at Tan Son Nhut** Airfield." Caption, from
+   left: **1st Lt. Douglas L. Hanna, officer-in-charge; Sgt. Rene C. LeFrancois; PFC Tommy R.
+   Chapman** — Larry's Lieutenant Hanna (#31), Sgt. "La Franceaous" (#13) and Sgt. Chapman (#8),
+   three surnames he gave from memory, in the job he describes (a flight controller in a radio
+   van, "Saigon center", a relay station on the mountain), at the base he names. A second item,
+   25 Jan 1965 p.20 ("Dateline Vietnam", PFC Mike Mealey), puts the **"Flight Following Center of
+   the 18th Air Operations Det."** in the room next to the 145th Aviation Battalion's control desk
+   in Saigon — inside his tour. **Assessment: his unit was the 18th AOD at Tan Son Nhut,
+   strongly-supported, not confirmed** (his own name on its morning reports would confirm it).
+   "118th AOD" reads as "18th AOD" fused with the 118th Aviation Company; the 2026-08-13 verdict
+   that no AOD existed is **overturned**, and the 2026-08-16 "AOD is real vocabulary" reading is
+   borne out. **Tensions kept:** DCAS has **no Douglas Hanna** among the dead, against "killed in
+   1968"; Chapman is a **PFC** in Oct 1964, against Larry's E7; the caption date falls in what he
+   describes as his Nha Trang months. **Rule 6: nothing rendered yet** — four open probes (Hanna's
+   first name, what La Franceaous and Chapman did, "don't name any unit") would be spoiled; cold
+   questions added to the guide to ask first. Full note and scoped negatives:
+   `research/units/18th-aod-stars-and-stripes-1964.md`. NEXT: NPRC morning reports for the **18th
+   Aviation Operating Detachment**, Sept 1964 – Aug 1965 (#27) — the first request that can name a
+   documented unit. Issue #10, #57.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -1145,6 +1171,19 @@ Open questions:
     reconciled; timeline display date unchanged**, with a note added. The search gains a filter it
     did not have: **a unit newly arrived at the base, about June–July 1965 by his estimate.** Unit
     arrival dates are the kind of thing unit histories record. Not yet searched. Issue #59.*
+    *2026-09-12, evening — **searched** (`research/units/tan-son-nhut-arrivals-mid-1965.md`): **no
+    Army company or battalion is documented arriving at Tân Sơn Nhứt between 1 May and 15 Aug
+    1965.** The only unit-sized arrival there is the USAF 481st Tactical Fighter Squadron (F-100s,
+    ~21–29 June) — a timing fit for "a week or so" before a July photograph, but airmen by the
+    flight line, not an Army latrine; Air Force police taking the statement fits either service.
+    The 12th Aviation Group HQ deployed in August 1965 (day and base not found). Biên Hòa had a
+    stream of arrivals (173d Abn Bde May; 2d Bde 1st Inf Div ~15–17 July, camped 3 km off the
+    field). Small detachments rarely appear in such lists, and Stanton's order of battle was
+    unreachable, so the empty TSN list is a weak negative and **not** evidence for Biên Hòa.
+    Pacific S&S keyword checks for the shooting itself — `court-martial tan son nhut` (0),
+    `court-martial vietnam hard labor` 1965–66 (4, none relevant), `soldier shot shower vietnam`
+    (4, none) — negative on poor OCR. **Related find the same evening:** his own unit is very likely
+    the 18th AOD at Tan Son Nhut (#2), which strengthens TSN as the base where the shooting happened.*
 12. **New names from the photo comments (2026-08-13, issue #96)** — Kahn (company secretary, VN-0003),
     Major "Schwartzkoff" (VN-0006 — hypotheses in research/people/major-schwartzkoff.md,
     not to be mentioned to Larry), the Australian captain (VN-0006, AATTV lead), and a
@@ -1864,6 +1903,12 @@ Open questions:
     stay in research/ only. **Also found:** the PDFs had been saved into the NAS folder that
     `sync-private-archive.ps1` mirrors with `/MIR`, and would have been deleted on the next sync.
     They are now in the repo.*
+    *2026-09-12, evening — **correction from his son: it is a helicopter, not a crossed-out
+    plane.** The X is the rotor; it is Rosethorn 007, and it was the first thing Larry drew, to
+    show where the aircraft stood among the buildings (paraphrase,
+    `2026-09-12-drawing-rosethorn-007.json`). `007` added to `labels` on that account; the
+    description had interpreted blades as a crossing-out. Rosethorn 007 now has a place on the
+    ground in his telling (#28).*
 36. **The Market explosion** (issue #154) — told 2026-09-12 under the heading "The Market Explosion
     story" (transcribed, `giscus-stories-c18415576.json`): "probably 6 or 8 bars away", running
     toward it, "somebody in English said bicycle bomb. There were no Americans hurt. I tried to
@@ -1872,8 +1917,19 @@ Open questions:
     Embassy (30 March 1965, #23) and the Mỹ Cảnh (25 June 1965, #30): a bicycle bomb with no
     American casualties fits neither. **Open and not for him:** whether this is the VN-0120
     first-aid scene (a man's throat, near the Palace), which he later tied to the Embassy.
-    Details differ; not merged. NOT YET SEARCHED: Saigon bicycle or plastic bombs at a market,
-    Sept 1964 – Aug 1965.*
+    Details differ; not merged.*
+    *2026-09-12, evening — **SEARCHED: NO DOCUMENTED SAIGON MARKET EXPLOSION IN HIS TOUR.**
+    `research/events/saigon-market-bombing.md`: every day of Sept 1964 – Aug 1965 in 1,259 issues
+    of four AP-subscriber dailies (Internet Archive), FRUS, CIA weeklies (three read), plus a
+    Pacific Stars and Stripes keyword sweep — no bombing at a Saigon market. **The only reported
+    bicycle bomb in Saigon in his tour is the Mỹ Cảnh night, 25 June 1965** (AP: the second blast
+    was a bomb on a bicycle at a riverbank kiosk; mothers and children among the wounded) — but 13
+    Americans died there, it was no market, and he tells the Mỹ Cảnh as a separate story from the
+    door of the Peacock. Whether two memories share details is a research question only and **must
+    never be put to him.** Weak candidate: a grenade in a Cholon market square, 20 Aug 1965 (four
+    wounded, dawn, police the target). Unreached: the MACV 1965 Command History terrorism annex,
+    CIA weeklies for the rest of the tour, and the Texas Tech clippings (CAPTCHA). Status: open,
+    with a scoped negative. Issue #154.*
 37. **Estes** (issue #155) — the man looking back from the front seat of VN-0016, named when
     Larry read the helmet on 2026-09-12 at his son's prompting (#28). *Not an unprompted
     recollection, so the name carries the weight of a reading. What is memory: National Guard,
@@ -1888,4 +1944,6 @@ Open questions:
     week. The description fits the DHC-4 Caribou; a Caribou to Hong Kong would be unusual,
     since R&R flights were chartered airliners, so the aircraft, route and purpose are all
     open. Nothing corrected, nothing checked. Ask when, how long, with whom, and whether it was
-    R&R.*
+    R&R.* *His son, 2026-09-12: this is the first he had heard of a trip to Hong Kong — so it is
+    new to the family as well as the archive, and nothing in family papers is known to bear on it
+    yet.*
