@@ -66,12 +66,21 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
-2. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
-3. **The pictures of the My Canh blown up** — you said you took some the next day; where might
+1. **The van — four cold questions, asked before anything else about the unit** *(NEW
+   2026-09-12; say no names, ranks, numbers or units, and show him nothing)*:
+   - *"Who was the officer in charge of your van?"*
+   - *"What did Sergeant La Franceaous do — what was his job?"*
+   - *"What did Chapman do?"*
+   - *"What was the name or number of the outfit that ran the van?"*
+
+   *(A 1964 newspaper item names these men and the unit. His cold answers are the test — see Tier
+   1 below.)*
+2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
+3. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
+4. **The pictures of the My Canh blown up** — you said you took some the next day; where might
    they be? *(he raised it himself on 2026-09-05; the first missing photograph we can name)*
-4. **Lopez** — tell me about him. *(no more than that; he is findable from what we have)*
-5. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
+5. **Lopez** — tell me about him. *(no more than that; he is findable from what we have)*
+6. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
 
 > **Two of the five from 2026-09-03 came off this list on 2026-09-05** — how long after the
 > campfire week he was flown out, and how many nights it lasted — answered together in one
