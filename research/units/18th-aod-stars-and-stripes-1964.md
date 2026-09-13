@@ -5,8 +5,13 @@ Market explosion) in the NewspaperArchive Stars and Stripes portal (family subsc
 2026-09-17). A keyword probe for `18th aviation`, 1964–65, returned an OCR-garbled snippet reading
 "the 18th AOD operates a flight following radio" system. The page was then read visually through
 the IIP image endpoint (method: `research/events/kia-misreport-stars-stripes.md`, "Method notes").
-Crops of the headline, lede, photograph and caption are kept in
-`private/documents/stars-and-stripes/` (gitignored: copyrighted page images, family reference only).
+Full-page PDFs of both pages, saved by Larry's son from the viewer on 2026-09-12
+(`pacific-stars-and-stripes-Oct-24-1964-p-29.pdf`, page image 3012 × 4298;
+`pacific-stars-and-stripes-Jan-25-1965-p-20.pdf`, 2964 × 4264 — both read and the captions checked
+legible), plus screen crops of the 1964 headline, photograph and caption, are kept in
+`private/documents/stars-and-stripes/` (gitignored: copyrighted page images, family reference only;
+the "USA Photo" itself is an Army photograph, and the original print is a NARA search target if it is
+ever to be published).
 
 Bears on: **ledger #2 / issue #10 (the unit)**, **issue #57 ("Saigon center")**, **#3 / issue #11
 (the base)**, **#31 / issue #126 (Lieutenant Hanna)**, **#13 / issue #96 (Sgt. La Franceaous)**,
