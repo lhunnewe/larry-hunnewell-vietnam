@@ -54,6 +54,17 @@ const SPOILER_TERMS = [
   // The Australian captain — a lead to verify, not an established frame
   'aattv',
   'australian army training',
+  // The van follow-ups (2026-09-13): he is asked cold who commanded his unit and
+  // whether it had a name or number of its own, so neither the printed detachment
+  // nor its commander may appear (research/units/18th-aod-stars-and-stripes-1964.md).
+  // ' 18th aod' has a leading space so Larry's own "118th AOD" does not trip it.
+  ' 18th aod',
+  'aviation operating',
+  'air operations det',
+  'flight operations center',
+  'william d. phillips',
+  'major phillips',
+  'maj. phillips',
   // The interview apparatus itself: he must not learn a numbered question list
   // exists, or that he is being worked through one
   'breakfast question',

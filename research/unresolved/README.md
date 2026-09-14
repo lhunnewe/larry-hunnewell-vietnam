@@ -804,6 +804,35 @@ Open questions:
    `research/units/18th-aod-stars-and-stripes-1964.md`. NEXT: NPRC morning reports for the **18th
    Aviation Operating Detachment**, Sept 1964 – Aug 1965 (#27) — the first request that can name a
    documented unit. Issue #10, #57.*
+   *2026-09-13 — **THE COLD PROBES ASKED: THE PRINTED UNIT DID NOT COME BACK.** Asked by telephone,
+   exactly as written, "What was the name or number of the outfit that ran the van?" (transcribed,
+   `data/recollections/2026-09-13-phone-the-outfit.json`): "I think it belong to 18th Avaiation
+   because it was over in theior stuff and we had been using one of their offices." **No "AOD", no
+   118th, no detachment.** "18th Aviation" for the third time, now plainly the *host*: a big
+   company with its own paratroopers, maintenance department and an EM Club ("the playboy club"),
+   while "Our Unit was so small, I don't think we even had a medic. We had a cook." He describes two
+   organisations, which fits (without confirming) the two "18th" units found 2026-09-12: the
+   Aviation Company and the AOD. The van answers did not match the printed roles either: no
+   officer in the van, Chapman running it (#8, #31). **Assessment unchanged: 18th AOD
+   strongly-supported, not confirmed. The probes add no support and take none away.** Also new:
+   "They may have been absorbed into the 1st Cavalry", a third form of the 1st Cav association,
+   now attached to the host company after he left. **Rule 6 hold kept by the family**; two cold
+   follow-ups (who commanded; his own unit's name or number) are at the head of the guide. Full
+   comparison: `research/units/18th-aod-stars-and-stripes-1964.md`, "The cold probes".*
+   *2026-09-13, his son's notes on the call (the typist's, not Larry's words): **"18th" for certain,
+   not "118th"**; "the playboy club" heard as a nickname for a big EM Club, not a formal name;
+   "they" with the paratroopers is 18th Aviation. **"C Street"** in connection with 18th Aviation:
+   not typed, and his son is certain of the words (confirmed later that evening) but not the
+   meaning. Asking "what was C Street?" is safe because he said it; offer no guess.*
+   *2026-09-13 — **WHERE "118th AOD" CAME FROM: a weak attribution.** His son's account: it came
+   from the early, untyped conversations, which were sometimes hard to follow. Larry mentioned
+   **Bien Hoa**, perhaps with a "118th AOD", and his son may have taken it to be Larry's own unit.
+   The 118th Aviation Company was at Bien Hoa. **So "118th" may never have been Larry's name for
+   his unit**, while "18th" is in his transcribed words three times. Recorded on the brief's
+   record (`2026-brief-118th-aod.json`, provenance and notes); the brief stays as given. The
+   same caveat covers the brief's "110 men", pathfinders and clearances. Rations: his son's
+   summary that volunteering for the mountain is why Larry drew rations outside the mess hall
+   (`2026-09-13-son-mountain-rations.json`, paraphrase).*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
@@ -1022,6 +1051,21 @@ Open questions:
    September 1963, the form says induction 28 October 1963. Both stand.*
    *2026-09-12 — a second, hedged placement with Larry's section in Vietnam: VN-0015 was "taken at
    nighttime by Weaver or Chapman".*
+   *2026-09-13 — **asked cold, "What did Chapman do?"** (transcribed,
+   `2026-09-13-phone-chapman.json`): "He was kind of in charge of the van and kind of in charge of
+   scheduling, who would work what. Most of the guys didn't like going to the mountain at all.
+   Chapman would ask who wanted to go to the mountain." And unasked, answering who the officer in
+   charge was: "I think Sargeant Chapman was in charge of it." **Consistent with his E7, and not
+   with the PFC controller of the October 1964 caption (#2): the rank tension is sharpened.** Two
+   Chapmans, a wrong rank, or a man running the schedule without the rank; none preferred. The
+   mountain went to volunteers, and most men avoided it.*
+   *His son adds that on the officer question Larry seemed not to know who ran the van and may
+   have been guessing. Chapman "in charge" is hedged, and should not carry weight on its own.
+   Same evening, his son's report of earlier conversations (paraphrase): Larry "generally says he
+   volunteered" for the mountain, liking it because it "felt safer and was quieter"
+   (`2026-09-13-son-mountain-volunteered.json`), and "no one from training he knew in Vietnam"
+   (`2026-09-13-son-no-one-from-training.json`), repeating the 2026-08-23 answer. The guide's
+   basic-training and Chapman question is retired; only the Kennedy-day story remains.*
 9. **The two friends** — *half resolved 2026-08-15:* the man at the beach table (VN-0022)
    is **Ron Tototz** — "Ron Tototz and I. This is at Beachhut #3 or 4 at Nha Trang." The
    Japan hospital friend (VN-0093, VN-0095), "from back east," remains unnamed. A NEW
@@ -1250,6 +1294,14 @@ Open questions:
    research/units/callsigns-and-units.md, 2026-09-01.*
    *2026-09-12 — **Major Lewis withdrawn from VN-0016 by Larry, and a new name read in his place.**
    Details under #28 and #37.*
+   *2026-09-13 — **La Franceaous has context at last.** Asked cold, "What did Sergeant La Franceaous
+   do — what was his job?" (transcribed, `2026-09-13-phone-la-franceaous.json`): "He was paratrooper
+   and he was kind of in charge of everything. The officers had liked him the best. If something that
+   needed to be repaired, like a radio, they would get ahold of La Franceaous or Ron Tototz. La
+   Franceaous was probably about 5 foot 7 or so." In his own section, then, and senior in it. The
+   printed caption (#2) gives a sergeant, and the rank was in the question. The role he gives is
+   broader than the printed one. **Paratrooper** is a new discriminator for any records search,
+   since jump status is on a personnel file. The tier-4 question is retired.*
 14. **The drowned medic from Nebraska** (VN-0021 comment, 2026-08-15) — a medic from
     Nebraska went out into the water at Nha Trang beach (hut #3/#4) and disappeared.
     *2026-08-16 (issue #61, research/people/drowned-medic-nha-trang.md): comprehensive
@@ -1377,6 +1429,9 @@ Open questions:
     VN-0072), morning coffee at the Continental (VN-0076), the taxi driver they shared
     (VN-0073), and the mountain medic who met him with Larry in town "all the time". A family
     holding his photographs would recognise these.*
+    *2026-09-13 — **the first job anyone has given him**: when a radio needed repair "they would get
+    ahold of La Franceaous or Ron Tototz" (transcribed, `2026-09-13-phone-la-franceaous.json`). For
+    the outreach letter and for any record search: a radio repairman in Larry's section.*
 16. **The boy at the French fort** (VN-0009/VN-0059, 2026-08-15) — about 12, shot in the
     leg, married at 10 with two children, with Larry "all the time" on Núi Bà Đen. Name not
     recalled — ask. Also from the same comment: ~5 Air Force men installed a radar with a
@@ -1850,6 +1905,13 @@ Open questions:
     *Also in the comment, held against #2 and not pursued: "Pleikeu was 1st Calvaries base.
     They called it the golf course. I put the first radio beacon in there." The Golf Course was
     the division's base at An Khê from September 1965, after his medevac.*
+    *2026-09-13 — **not placed in the van by Larry.** Asked cold who the officer in charge of the van
+    was (transcribed, `2026-09-13-phone-van-officer.json`): "I don't think we had one… I never seen
+    officers in there. Officers left us alone completely other then flying with them." He did not
+    bring up Hanna. Against the October 1964 caption naming a 1st Lt. Hanna as officer-in-charge
+    (#2), that is a mismatch, kept as found. It is consistent with his memory of Hanna as a pilot he
+    flew with, and with the caption predating his time on the van crew. **Don't connect Hanna to
+    the van for him.***
 32. **Lopez** (issue #128) — "my pal throughout the cub scouts", a Marine, who "just showed up"
     outside the Mỹ Cảnh on 25 June 1965 and invited Larry to the Peacock (VN-0068, 2026-09-05).
     First name not given. *Two handles: the same Inglewood cub scout pack as Larry in the early

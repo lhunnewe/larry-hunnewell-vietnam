@@ -26,6 +26,10 @@ Bears on: **ledger #2 / issue #10 (the unit)**, **issue #57 ("Saigon center")**,
 > but the names and the unit designation are exactly what he has been asked to supply cold. The
 > guide now carries the cold questions to ask first (below). Decide with the family when to move
 > this into `data/`.
+>
+> **2026-09-13: the four probes are spent** (asked cold by telephone; see below). **The family kept
+> the hold** that day. His answers opened two new cold follow-ups that this file would spoil: who
+> commanded his unit, and the unit's own name or number.
 
 ## Document 1 — Pacific Stars and Stripes, Saturday 24 October 1964, archive page 29 (printed 19)
 
@@ -121,6 +125,87 @@ the job he describes, at the base he names.** A coincidence of that shape is ver
 4. **"Aviation Operating" vs "Air Operations."** The two documents expand AOD differently. Both are
    Army information releases; neither is an order. Larry's own "Aviation Operations" sits between.
 
+## The cold probes, asked 2026-09-13 — the roles do not match the caption
+
+His son put the four questions to him by telephone on 2026-09-13, **exactly as written, with nothing
+else said or shown**, and typed the answers as he spoke (`transcribed`). Records:
+`data/recollections/2026-09-13-phone-{van-officer,la-franceaous,chapman,the-outfit}.json`.
+
+| Probe | Larry, cold | The caption, 24 Oct 1964 | Result |
+|---|---|---|---|
+| Officer in charge of the van | "I don't think we had one. I think Sargeant Chapman was in charge of it. I never seen officers in there. Officers left us alone completely other then flying with them." | 1st Lt. Hanna, officer-in-charge | **No match.** He names no officer, and does not bring up Hanna, whom he remembers as a pilot he flew with. |
+| What La Franceaous did | A paratrooper, "kind of in charge of everything", the officers' favourite, sent for with Ron Tototz when a radio needed repair; about 5 ft 7 | Sgt., a controller in the van | **Rank agrees, but the question supplied it.** The role he gives is broader and more senior. No contradiction, no confirmation. |
+| What Chapman did | "Kind of in charge of the van and kind of in charge of scheduling"; asked who would go to the mountain, which most men avoided | PFC, a controller in the van | **No match.** It agrees with his own "E7" instead, so tension 2 above is **sharpened**. |
+| Name or number of the outfit | "I think it belong to 18th Avaiation": the host whose ground and offices the van used. A big company with its own paratroopers, maintenance department and an EM Club, "the playboy club". "Our Unit was so small, I don't think we even had a medic." | 18th Aviation Operating Det. (AOD) | **Not the printed designation.** No "AOD", no "118th", no detachment. "18th Aviation" for the third time, now said to be the *host*, not his own unit. |
+
+**Assessment.** The probes did not fire the way they were built to. **None of the three printed roles
+came back from him, and his answer on the outfit did not name the detachment.** That must never be
+written up as independent confirmation of this document. **It does not undo the identification
+either.** That rests on three surnames he gave from memory appearing together in one caption, in his
+job, at his base. The roles were the test of *which period* and *which van*, and on his telling his
+van was run by sergeants. Readings, none preferred:
+
+- The caption shows the van in **October 1964, before Larry was on its crew** (tension 3). By his
+  time, the officer was flying and the sergeants ran the shifts.
+- "Officer-in-charge" was a **paper role**. The man on the roster was not the man on shift.
+- **Two Chapmans**, or Larry's rank and role for Chapman are wrong.
+
+The unit assessment stays **strongly-supported, not confirmed**. The probe answers add no support
+to it, and take none away.
+
+**What the outfit answer does add.** Larry describes **two organisations**: a large host he calls
+18th Aviation, with paratroopers, maintenance and an EM Club, and his own small unit, with a cook
+and no medic, which he did not name. That is the shape the 2026-09-12 finding already had: two
+different "18th" units at or near Tan Son Nhut, the 18th Aviation **Company** (a large aviation
+company) and the 18th **AOD** (a detachment). His "big company … their own maintenance department"
+sounds like the company. His "so small … not even a medic" sounds like a detachment. **Hypothesis
+only**, and not to be put to him in those terms.
+
+**Leads from the call, research only:**
+
+1. **"The playboy club."** "Playboys" was the call sign of the UTT/68th helicopter platoon at Tan Son
+   Nhut, and is the leading candidate for the VN-0012 tail emblem (`research/magnification/README.md`).
+   He supplied the word himself, unprompted, so it cannot have been primed. Worth a search for an EM
+   club of that name at TSN, 1964–65. **The emblem probe stands: describe no emblem to him.**
+   *His son's reading, same evening: a nickname for a large EM Club on 18th Aviation's street,
+   given for its size, not a formal name. That weakens the call-sign link without removing it.*
+   *Not settled: whether this is the EM Club he has put 50 yards from his hooch (VN-0030–0034).*
+2. **Paratroopers.** La Franceaous "was paratrooper", and the host "had their own paratroopers". The
+   family brief speaks of pathfinders. Jump qualification is on a personnel file, so it is a
+   discriminator for any LeFrancois found.
+3. **"Absorbed into the 1st Cavalry."** This is a third form of the 1st Cavalry association (ledger
+   #2), attached this time to the host company after he left, not to him.
+4. **The mountain went to volunteers.** Chapman "would ask who wanted to go to the mountain", and most
+   men did not. Larry's long spells on Núi Bà Đen have a mechanism now. His son reports that
+   Larry generally says he volunteered, and liked it there, safer and quieter (paraphrase,
+   `2026-09-13-son-mountain-volunteered.json`).
+5. **Ron Tototz fixed radios.** This is the first job anyone has given him (ledger #15).
+6. **"C Street."** Larry said "C Street" in connection with 18th Aviation. It was not typed.
+   His son first gave it hedged, then confirmed it later that evening: certain of the words, not
+   the meaning. Asking what he meant is safe, because he said it; the question is in the guide.
+   Research, not for him: a Tan Son Nhut base map of 1964–65 with lettered streets or rows.
+
+**His son's notes on the call** (same evening, the typist's observations, not Larry's words). "18th"
+for certain, not "118th". On the officer question, Larry seemed not to know who ran the van and
+may have been guessing, so Chapman "in charge" is hedged. "Paratrooper" was clear, the first
+thing he said. "They" with the paratroopers and maintenance is 18th Aviation, the host. The
+rations: on another, unrecorded day, Larry described a different access to food, from a building
+that was not the mess hall. Whether cash was involved was never asked or said; his son first noted
+"not cash", then corrected that the same evening as his own assumption.
+
+**Where "118th AOD" came from (his son, 2026-09-13).** The founding brief's designation is his
+son's reading of an early, untyped conversation that was hard to follow and that mentioned **Bien
+Hoa**. Larry may have named a "118th" in it without meaning his own unit. The 118th Aviation
+Company was at Bien Hoa. The point-by-point table above, which lines "118th AOD" up as Larry's
+memory, should be read with that in mind. **His own transcribed number is "18th", three times.**
+The 2026-08-13 reasoning that "AML" was heard as "AOD" was built on the same weak attribution.
+Recorded on `data/recollections/2026-brief-118th-aod.json`.
+
+**Cold follow-ups these answers open**, added to the guide on 2026-09-13, both still protected by
+the hold: who commanded his own small unit (the item prints a commanding major), and whether that
+small unit had a name or number of its own. **The hold stays**, by the family's decision the same
+day.
+
 ## Scoped negatives, 2026-09-12
 
 - Pacific S&S keyword searches, 1963–66: `aviation operating detachment` (8 hits, none relevant),
@@ -132,9 +217,9 @@ the job he describes, at the base he names.** A coincidence of that shape is ver
 
 ## Next
 
-1. **Cold probes before anything is shown to him** (in the guide): who was the officer in charge of
-   the van; what did La Franceaous do; what did Chapman do; what was the number of the detachment
-   in the van — asked without names or numbers.
+1. ~~**Cold probes before anything is shown to him**~~ — **asked 2026-09-13**; see "The cold probes,
+   asked 2026-09-13" above. Two follow-ups replace them in the guide: who commanded, and his own
+   unit's name or number.
 2. NPRC/NARA: request **18th Aviation Operating Detachment** morning reports, Sept 1964 – Aug 1965
    (issue #27) — the first time the request can name a unit that is documented to exist.
 3. ~~Read the 1964-05-25 p.32 item~~ — **read 2026-09-12 (imageID 141720849): NOT the AOD.** "Vietnam

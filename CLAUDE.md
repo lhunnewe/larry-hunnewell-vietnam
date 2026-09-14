@@ -146,9 +146,6 @@ What the validator cannot see, and what is actually behind:
   without breaking rule 6.
 - **Not every ledger question has an issue, and not every issue has a ledger entry**, though
   the rule above says both are required.
-- **The guide still asks two things ledger #8 records as answered**: the basic-training
-  location (Fort Ord) and whether he knew Chapman from training (he did not). Both forms,
-  tier 4 "Basic training". Noticed during the 2026-09-12 harvest and not retired then.
 
 Keep this section honest. It described drift that had already been fixed until an audit
 caught it, which is the same failure it exists to prevent.

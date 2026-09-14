@@ -66,21 +66,19 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **The van — four cold questions, asked before anything else about the unit** *(NEW
-   2026-09-12; say no names, ranks, numbers or units, and show him nothing)*:
-   - *"Who was the officer in charge of your van?"*
-   - *"What did Sergeant La Franceaous do — what was his job?"*
-   - *"What did Chapman do?"*
-   - *"What was the name or number of the outfit that ran the van?"*
-
-   *(A 1964 newspaper item names these men and the unit. His cold answers are the test — see Tier
-   1 below.)*
+1. **The van — two cold follow-ups** *(NEW 2026-09-13; say no names, ranks, numbers or units)*:
+   *"Who was the commanding officer of your unit?"* · *"Your own small unit — did it have a name
+   or a number of its own?"* · *"You mentioned C Street — what was that?"* *("I don't know" is a
+   good answer. See Tier 1.)*
 2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
 3. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
 4. **The pictures of the My Canh blown up** — you said you took some the next day; where might
    they be? *(he raised it himself on 2026-09-05; the first missing photograph we can name)*
 5. **Lopez** — tell me about him. *(no more than that; he is findable from what we have)*
 6. **The medic who drowned** — Kansas or Nebraska, if you had to pick one?
+
+> **The four cold van questions came off this list on 2026-09-13**, answered by telephone. See
+> "Answered".
 
 > **Two of the five from 2026-09-03 came off this list on 2026-09-05** — how long after the
 > campfire week he was flown out, and how many nights it lasted — answered together in one
@@ -107,19 +105,33 @@ What remains here is what he did not answer, plus **four new questions his answe
 > still genuinely open about the six pages, is in
 > `research/events/kia-misreport-stars-stripes.md`.
 
-- [ ] **ASK BEFORE ANYTHING ELSE ABOUT THE UNIT — four cold questions about the van.** *(ledger #2,
-  #8, #13, #31 — NEW 2026-09-12, and they decay the moment he sees a document)*
-  *"Who was the officer in charge of your van?"* · *"What did Sergeant La Franceaous do — what was
-  his job?"* · *"What did Chapman do?"* · *"What was the name or number of the outfit that ran the
-  van?"*
-  **A 1964 newspaper item names the officer in charge of a flight-operations van at his base and
-  two of its controllers, and all three surnames are ones he has given us.** Asked cold, his
-  answers either match the printed roles or they don't; either way the answer is evidence. Ask
-  about **roles, not first names** — his son expects no first names (only Ronnie Tototz's). **Say no
-  name, rank, number or unit. Do not show or mention the article** until all four are asked — the
-  item is in `research/units/18th-aod-stars-and-stripes-1964.md`, deliberately off every page he
-  browses.
+> **The four cold van questions came off this tier on 2026-09-13**, asked by telephone exactly as
+> written. His answers are in "Answered — the record". **None of the printed roles came back**:
+> no officer in the van, Chapman and La Franceaous running things. The outfit was "18th
+> Aviation", a big host company, with his own unit "so small, I don't think we even had a
+> medic". Two follow-ups replace them, and **the article stays off every page he browses.**
 
+- [ ] **ASK BEFORE ANYTHING ELSE ABOUT THE UNIT — two cold follow-ups to the van questions.**
+  *(ledger #2, #8, #13 — NEW 2026-09-13)*
+  *"Who was the commanding officer of your unit — the man over all of you?"* ·
+  *"You said your own unit was so small it didn't have a medic. Did it have a name or a number of
+  its own?"*
+  **The 1964 item that named the men in the van also names the detachment and a commanding
+  officer.** He said on 2026-09-13 that officers left the van crew alone, so **"I don't know" is a
+  good answer**; write it down and don't press. For the second question, he has already named
+  the *host* ("18th Aviation"), and this asks about his *own* small unit. **Offer no number, no
+  "AOD", no "detachment", and not the 118th.** If he gives 18th Aviation again, that is his
+  answer; do not ask a third way. **Whatever number he gives is the first capture of his own
+  unit's number in his words**: the family brief's "118th AOD" turns out to be his son's reading of
+  an early, hard-to-follow conversation that mentioned Bien Hoa (2026-09-13). The item is in
+  `research/units/18th-aod-stars-and-stripes-1964.md`, deliberately off every page he browses.
+  **Third, and safe because he said it himself:** *"You mentioned C Street — what was that?"* He
+  said it on 2026-09-13 about 18th Aviation, and it was not typed. His son is certain of the
+  words but not the meaning. **Offer no guess** (a street, a company letter, a building row).
+  **Fourth, also his own words:** *"You said you got separate rations when you were on the
+  mountain — what were they, and where did you get them?"* **Offer no ration type and don't
+  mention money**; whether cash was involved has never been asked, and a suggestion would be
+  echoed.
 - [ ] **ASK THIS ONE FIRST — the Russian at Subic Bay.** *(ledger #1, issue #9 — NEW 2026-09-03)*
   *"You mentioned a Russian fellow at Subic Bay you played cards with — an archaeologist who'd
   got sick in Cambodia. What else do you remember about him? How many days were you in that
@@ -129,10 +141,8 @@ What remains here is what he did not answer, plus **four new questions his answe
   an unusual enough event to leave a trace, and it is the kind of specific detail that tends to
   be true. **"How many days" is the real prize** — it is an independent route to the medevac
   timing, coming at the chain from the Philippines end rather than the Japan end.
-
 - [X] **2. How long after that last week did you leave Vietnam?** — *answered 2026-09-05, with
   #4, in one line; see "Answered — the record". Do not re-ask with a number.*
-
 - [ ] **3. The chaplain's book.** *(ledger #1, issue #9 — NEW 2026-09-03; **VN-0093**,
   **VN-0095** if you have a screen — the unnamed hospital friend in VN-0093 is a separate
   standing question)*
@@ -143,10 +153,8 @@ What remains here is what he did not answer, plus **four new questions his answe
   Army chaplains kept activity logs and journals, and those are a records series; knowing
   whether it was a bound ledger or a loose form tells us which series to request, and whether
   anything was forwarded up. Everything else about the misreport is memory.
-
 - [X] **4. The campfires — how many nights?** — *answered 2026-09-05 with #2: "2-3 days". The
   night count the imagery request needed is ~23–26 August 1965. See "Answered".*
-
 - [ ] **5. The missing photographs — now with one to name.** *(VN-0068, VN-0079 on a screen)*
   *"You said you took pictures of the My Canh the next day, after it was blown up. Where might
   those be? Were there other pictures that didn't go in with the rest — another album, a box,
@@ -156,14 +164,12 @@ What remains here is what he did not answer, plus **four new questions his answe
   never scanned. Only he knows where to look. **2026-09-05: he named one himself** — "The next
   day i took pictures of the MyChan restaurant of it blown up. The picture may be missing
   though." It is not in the collection. Asking about it does not prime; he raised it.
-
 - [ ] **6. The medic — one more pass.** *(ledger #14, issue #61)*
   *"The medic who drowned at Nha Trang — you said Kansas or Nebraska. If you had to pick one,
   which feels right? Do you remember anything about him at all — where he trained, what
   people called him?"*
   His "Kanas or Nebraska" loosened the anchor the whole 399-casualty sweep was built on.
   Kansas has never been swept. Don't read him any of the near-miss names.
-
 
 ---
 
@@ -304,9 +310,9 @@ without the answer in them.
   9 kids. Her and her mother would clean the hooch" — the number repeats; the name still did not
   come. She is holding a camera in that frame: whose was it, and did she take any of these
   pictures?)*
-- [ ] **Sgt. La Franceaous** — "You mentioned a Sergeant La Franceaous — where did you know
-  him from? What did he do?" *(The name came up again on 2026-09-05, alone, at the end of the
-  VN-0046 comment — a separate thought, not a man in that frame. Still no context.)*
+- [X] **Sgt. La Franceaous** — *answered 2026-09-13 by the tier-1 van question: a paratrooper
+  in his own section, "kind of in charge of everything", about 5 ft 7. See "Answered". Do not
+  re-ask.*
 - [ ] **Lopez** — *"Tell me about Lopez."* *(ledger #32, issue #128. Nothing more than that:
   first name, where he was from, how they met again in Saigon, what became of him. He is the
   Marine from the cub scouts who pulled Larry away from the Mỹ Cảnh on 25 June 1965. Do not
@@ -314,7 +320,7 @@ without the answer in them.
 - [ ] **Lieutenant Hanna** — *"Hanna — do you remember his first name, or where he was from?
   What did he fly?"* *(ledger #31, issue #126. Named at VN-0046 on 2026-09-05: a pilot in his
   own unit, 19 or 20, killed in 1968. The pilots' memorial roll has no match that fits; the
-  DCAS sweep comes first. **Never a candidate name.**)* *(His son, 2026-09-12: expect no first name — Larry knows only Ronnie Tototz's; they all went by surnames, as Larry himself said on 2026-09-03. Ask once, lightly, and don't press. The role questions in tier 1 carry the weight now.)*
+  DCAS sweep comes first. **Never a candidate name.**)* *(His son, 2026-09-12: expect no first name — Larry knows only Ronnie Tototz's; they all went by surnames, as Larry himself said on 2026-09-03. Ask once, lightly, and don't press. The role questions in tier 1 carry the weight now.)* *(2026-09-13: asked who the officer in charge of the van was, he named no officer — "Officers left us alone completely other then flying with them." He did not bring up Hanna. **Don't connect Hanna to the van for him.**)*
 - [ ] **Kiwi, the medic** — *"The New Zealand medic you did sick call with on the mountain —
   Kiwi — does his name come back? Was he in the Army, or with the New Zealanders?"*
   *(2026-09-05, VN-0041: "Might have been Roger." Whether he was a New Zealand serviceman or a
@@ -339,10 +345,12 @@ without the answer in them.
   table: "Do you remember which battalion your company belonged to? What other helicopter
   outfits flew out of Tan Son Nhut — how were their aircraft marked?" *(Open questions only —
   do **NOT** name any unit or describe any emblem to him.)*
-- [ ] **Basic training** — "Where was basic training?" (Kennedy was shot a month in — "where
-  were you when you heard?" is the way in.) And reconcile Chapman, with **VN-0024** on the
-  table: "Did you know Sgt. Chapman from training AND Vietnam, or just over there?" *(ledger
-  #8 — Chapman is in VN-0024 with Larry, in Vietnam, an E7.)*
+- [ ] **Basic training — the Kennedy day only** — *"Kennedy was shot about a month into your
+  basic training. Where were you when you heard?"* *(Retired 2026-09-13, both parts already
+  answered: **where** basic training was — Fort Ord, 2026-08-23 — and **whether he knew
+  Chapman from training** — he did not, "No one from basic training was in Vietnam with him"
+  (2026-08-23), repeated in his son's report of 2026-09-13. Ledger #8. Don't re-ask either.
+  The Kennedy day is a story, not a probe.)*
 - [ ] **The motorcycle days** — "Tell me about your motorcycle days in Inglewood — did you
   ever crash?" *(Newspapers show two: South Gate Press Sep 1, 1957 and Daily Breeze Jul 10,
   1959. **Let him tell it before showing the clippings**; the 1959 item prints "Larry B." so
@@ -399,6 +407,62 @@ without the answer in them.
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
 
+### The telephone call of 2026-09-13 — the four cold van questions
+
+His son asked the four questions from the head of this guide by telephone, **exactly as written,
+with nothing else said or shown**, and typed the answers as he spoke. Records:
+`data/recollections/2026-09-13-phone-*.json`. **The probes did not produce the printed roles or
+the printed unit.** That is a clean result, and it must never be written up as confirmation.
+Comparison and readings: `research/units/18th-aod-stars-and-stripes-1964.md`, "The cold probes".
+
+- [X] **Who was the officer in charge of your van?**
+
+  > I don't think we had one. I think Sargeant Chapman was in charge of it. I never seen officers
+  > in there. Officers left us alone completely other then flying with them.
+
+  **He rejected the question's premise.** No officer on shift, and a sergeant running the van.
+  *His son: he seemed not to know who ran the van and may have been guessing, so the Chapman
+  part is hedged.*
+- [X] **What did Sergeant La Franceaous do — what was his job?**
+
+  > He was paratrooper and he was kind of in charge of everything. The officers had liked him the
+  > best. If something that needed to be repaired, like a radio, they would get ahold of La
+  > Franceaous or Ron Tototz. La Franceaous was probably about 5 foot 7 or so. Not a very big guy.
+
+  **The first context for this man since 2026-08-15**, and the first job anyone has given Ron
+  Tototz. The tier-4 La Franceaous question is retired with it. ("paratrooper" and "they" are
+  his son's corrections of two slips made while typing on the call.)
+- [X] **What did Chapman do?**
+
+  > He was kind of in charge of the van and kind of in charge of scheduling, who would work what.
+  > Most of the guys didn't like going to the mountain at all. Chapman would ask who wanted to go
+  > to the mountain.
+
+  **It agrees with his first answer and his own "E7"**, and gives the mountain a mechanism:
+  postings went to volunteers. *His son, same evening: Larry generally says he volunteered for the
+  mountain, and liked it there, because it felt safer and was quieter (paraphrase,
+  `2026-09-13-son-mountain-volunteered.json`). Don't ask it as a yes/no; he has said it.*
+- [X] **What was the name or number of the outfit that ran the van?**
+
+  > I think it belong to 18th Avaiation because it was over in theior stuff and we had been using
+  > one of their offices. We used the offices for our radios. It was a pretty big office area. On
+  > that street was the EM Club which was called the playboy club which was a big club. It was a
+  > big company. They had their own paratroopers, there own maintenance department. I don't know
+  > what happened when we left there of what happened to them. They may have been absorbed into
+  > the 1st Cavalry. Our Unit was so small, I don't think we even had a medic. We had a cook, I got
+  > seperate rations because I was gone at The Mountain but I could have eatin in the mess hall if
+  > I was there.
+
+  **"18th Aviation" for the third time, now as the host, not his unit.** He describes two
+  organisations: a big company, and his own unit, too small for a medic, which he did not name.
+  **Follow-ups promoted to tier 1: who commanded, and his own unit's name or number.** "The
+  playboy club" is his word, unprompted, and it touches the tail-emblem probe. The emblem probe
+  still stands: describe nothing to him.
+  *His son, same evening: "18th" for certain, not "118th". The Playboy Club sounded like a
+  nickname for a big EM Club, and "they" is 18th Aviation. **He said "C Street"** in connection
+  with them. It was not typed, and his son is certain of the words but not the meaning. The
+  follow-up is in tier 1.*
+
 ### The Memories harvest of 2026-09-12 — thirty-seven comments and a fourth drawing
 
 His son took him through the base, flight-line and mountain frames again and typed as he
@@ -409,15 +473,16 @@ in his son's voice, filed as paraphrase). Records: `data/recollections/giscus-*-
 
 - [X] **The circled M — were you there?** *(drawings, validate)* — answered unasked, on the
   stories page:
+
   > The Market Explosion story
   > I was probably 6 or 8 bars away from the explosion. I heard the explosion and somebody, as
   > i was running down somebody in English said bicycle bomb. There were no Americans hurt. I
   > tried to stop the bleeding of a women by compressing the blood in and then someone else
   > took over of Vietnamese.
+  >
 
   **Presence settled in his telling.** Kept apart from the Embassy and the My Canh (ledger
   #36, issue #154). Which market and which day are research, not for him.
-
 - [X] **The Rosethorn 007 crew — another name** *(tier 4)* — **not the way it was meant to
   come.** His son pointed out a name on the VN-0016 helmet and Larry read it: "oh his last
   name is Estes, I was thinking his name was Lewis." **It agrees with the survey's reading of
@@ -441,23 +506,24 @@ probes from this guide, none of which was asked** — every answer arrived on it
 
 - [X] **How long after that last week were you flown out — and how many nights of campfires?**
   *(tier 1, #2 and #4)* — one line, in his son's words (paraphrase):
+
   > Camp fires - he says he was flown out after 2-3 days of seeing the hundreds of camp fires.
+  >
 
   Both questions in one figure. Read against his Camp Zama date of 3 September, the campfire
   nights fall around **23–26 August 1965**, and the medevac chain closes from the mountain end
   as well as the Japan end. **A transcribed confirmation would be welcome but must not be
   fished for with a number.** (Ledger #1, #10; the imagery request #66 now has a window.)
-
 - [X] **The gibbon — whose was he?** *(tier 3, VN-0152)*
+
   > This is Sarge. I think this is in the barracks in my bed with the mosquito net around, maybe.
+  >
 
   **One animal, not two.** The guide had kept "the monkey" (Sarge, VN-0017) and "the black
   gibbon" (VN-0152) as separate questions; the gibbon is Sarge. Probe retired.
-
 - [X] **VN-0157 — do you remember this man and this day?** *(held)* — answered at the
   photograph, unasked, with a place, a three-month window, and the whole account
   (`giscus-vn-0157-c18308344.json`). Moved out of "Hold"; the sensitivity decision is due.
-
 - [X] **Did you ever eat at the My Canh — and where were you when it was bombed?** — a
   question the *survey* had written for VN-0079 in August and nobody had asked. He answered it
   from a picture of a different street: standing in front of it when it blew up, inside the
@@ -479,40 +545,45 @@ most-wanted fact and reversed one of its conclusions in the same ten minutes.**
 
 - [X] **What date did you get to Camp Zama?** — the question this guide had been reordered
   that morning to ask first.
+
   > He says Camp Zama may have been 9/3/1965. He said he was kind of in and out of it. He
   > remembers being conscious in Subic Bay and in a room with some Russian Archaoligist who had
   > gotten sick somewhere in the Northern part of cambodia and they had gotten out of there and
   > into Subic Bay Naval Hospital. We played cards together.
+  >
 
   **It matches the archive's own derivation.** The medevac chain had already been worked
   backwards from "early September" to a last day on the mountain of ~25–27 August; from 3
   September it gives 25–26 August. Two independent routes, one fortnight. **Follow-ups
   promoted to tier 1: the Russian at Subic Bay, and how long after that last week he left.**
-
 - [X] **What paper did you read at Camp Zama?**
+
   > They were a free news paper, like 6 pages. I think the first page on the right side was 40
   > guys killed.
+  >
 
   **This reversed a conclusion reached the same morning.** The guide had recorded the paper
   question as "essentially answered" — that a free stack at Camp Zama pointed to the Five-Star
   Edition, the one being searched. It does not: the Five-Star runs 24–37 pages with casualty
   lists on inside pages. **Re-promoted to the head of tier 1, and it is now the most urgent
   question in the guide** because the subscription ends 17 September.
-
 - [X] **The interpreter — his name, or his rank?**
+
   > Rank of interpreter is unknown. He doesn't know Vietnamese ranks. He seemed more of a
   > buddhist than a soldier. Phonetically he says something like Trang-Zee-Nee-Yot-Na-Yong
+  >
 
   **The probe did not fire, and that is a clean result.** He did not separate a rank from the
   name, so this is *not* the independent confirmation the cold question was built to produce —
   it must not be written up as one. What it gives is a second phonetic rendering that maps onto
   the same reading. The search may now proceed on a hypothesis. (Issue #90.)
-
 - [X] **Gagne — what became of him?**
-  > I have no idea. He could still be alive for all I know.
 
+  > I have no idea. He could still be alive for all I know.
+  >
 - [X] **Was Kennedy always the one in charge?** — asked with the other name deliberately
   withheld, and he supplied it himself.
+
   > Kennedy pretty much ran the camp. When he was gone, Lowry ran the camp. Kennedy wasn't
   > there that last week when all the shit happened. At night, normally looking into Cambodia
   > to the West you might see 15 camp fires going, that week there must have been a hundreds
@@ -520,39 +591,44 @@ most-wanted fact and reversed one of its conclusions in the same ten minutes.**
   > all enemy fires on the Ho Chi Men trail. This was right before the battle of the I Drang
   > Valley. We had Mohawk airplane flying this everynight with infared. He could have been
   > taking pictures with the infared.
+  >
 
   **The single most productive answer in the call.** It corroborates "all the officers were
   gone" from a second direction, it supplies the first context the archive has had for the 450,
   and it names an aircraft type that generated records. **Follow-up promoted to tier 1: how
   many nights.** *(One tension, not to be put to him: he anchors the week to Ia Drang, which
   was November — after he says he was already in Japan.)*
-
 - [X] **The chaplain at Camp Zama.**
+
   > I don't know the Chaplains name. He wrote it down in a book.
+  >
 
   The name is lost; **the second sentence is the find** — a contemporaneous written record of
   him reporting himself alive while listed dead. **Follow-up promoted to tier 1: what sort of
   book.**
-
 - [X] **The bar on Tu Do street, and the explosion.**
+
   > About in the middle of the tour. The US Embassy is what was blown up or their offices.
   > Pretty sure it was the Embassy. I heard it was the Vietcong who did it. I was about a block
   > away, I think I was at the Papillon and it rocked the building when it went off.
+  >
 
   **Dates an event the archive could not place**: the VC car bombing of the US Embassy on Hàm
   Nghi Boulevard, 30 March 1965 — squarely "in the middle of the tour", as he says. (Issue #91.)
   Note he spells the bar **Papillon** here and **Papallon** on 2026-09-02; both are his.
-
 - [X] **The burnt helicopter — did you see it happen?** — the question that had changed shape
   that morning, asked plainly.
+
   > It was already there when I got to Vietnam. After the CBC people. After the rocket launch.
+  >
 
   **He confirms what the archive had reasoned and could not test.** The wreck predates him: the
   search window moves to before September 1964, and "7 guys dead, burnt for 3 hours" is what he
   was told, not what he saw. (Issue #89.)
-
 - [X] **Spell Zukowski.**
+
   > Zukowski. I don't know the first name. No one went by first name in the military.
+  >
 
   **ZUKOWSKI** now carries his own authority — the third such spelling in the archive after
   "Ton Son Nuht" and "Geutler". "Zekeowski" was a transcription of the sound and is superseded
