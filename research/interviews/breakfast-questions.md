@@ -39,6 +39,14 @@ The order is by *what the setting allows*, not by when the question was written.
   capture at the table is `transcribed`. See CLAUDE.md, "Who is speaking".)
 - Never correct him from the research. If his memory differs from a hypothesis below, his
   memory goes in the record as given, and the difference becomes a research note.
+- **Tell him "I don't know" is a good answer — once, at the start.** *(Added 2026-09-13, from his
+  son: he may feel obliged to answer, and on that day's officer question he seemed to be
+  guessing.)* Something like: *"Some of these you may not know, and that's fine. 'I don't know'
+  helps as much as anything. Don't guess for me. And if something comes back to you later, tell
+  me then."* Say it once, not before each question: repeated before one question, it hints that
+  this one is a question he shouldn't know. If an answer sounds like a guess, it's fine to ask
+  gently, "Is that something you remember, or your best guess?" Write down which he says. A
+  guess recorded as a guess is still useful.
 - Check off questions as asked; add the date.
 - **He answers on his own schedule.** Some of the best material arrives days later and out of
   nowhere — in the car, at the VA, mid-way through something else — with no reference to the
