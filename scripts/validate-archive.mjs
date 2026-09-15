@@ -35,6 +35,22 @@ const note = (where, msg) => notes.push({ where, msg });
 
 // Interview-probe terms withheld from rendered fields: scripts/spoiler-terms.mjs
 import { SPOILER_TERMS } from './spoiler-terms.mjs';
+// Standard public spellings of place names: scripts/place-names.mjs
+import { nonStandardPlaceNames } from './place-names.mjs';
+
+/**
+ * Fields that name things on a public page and so must use the standard place
+ * spelling (CLAUDE.md, "Place names"). Testimony, drawing labels and a place's
+ * vietnameseName are exempt: they are someone's own words, or the Vietnamese line.
+ */
+const PUBLIC_NAME_FIELDS = {
+  photos: ['title'],
+  videos: ['title'],
+  drawings: ['title', 'drawnDisplay'],
+  people: ['name', 'role', 'aliases'],
+  places: ['name', 'alternateNames'],
+  timeline: ['title', 'displayDate'],
+};
 
 /**
  * Fields that actually render on a page Larry may browse, per collection.
@@ -179,6 +195,15 @@ for (const collection of COLLECTIONS) {
         if (text.toLowerCase().includes(term)) {
           warn(where, `${field} contains the interview probe "${term}" — this renders on a page Larry may browse; keep it in research/`);
         }
+      }
+    }
+
+    for (const field of PUBLIC_NAME_FIELDS[collection] ?? []) {
+      const raw = d[field];
+      const text = Array.isArray(raw) ? raw.join(' · ') : raw;
+      if (typeof text !== 'string') continue;
+      for (const found of new Set(nonStandardPlaceNames(text).map((x) => `"${x.found}" — use "${x.standard}"`))) {
+        warn(where, `${field} spells a place ${found} (public place names use the standard spelling; note other spellings in researchNotes)`);
       }
     }
   }

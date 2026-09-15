@@ -1,10 +1,12 @@
 {
   "name": "PFC Zukowski",
-  "aliases": ["Zukowski (Larry's own spelling, 2026-09-03)", "PFC \"Zekeowski\"", "Zekeowski (phonetic)", "Zee-Cow-Ski (Larry's phonetic)", "Zoo-Cow-Ski (first phonetic attempt)"],
+  "aliases": [
+    "Zekeowski"
+  ],
   "role": "Private first class, from Newark, New Jersey",
   "status": "unresolved",
   "summary": "A PFC photographed in a white T-shirt and blue jeans in VN-0027: \"He was from Newark New Jersey.\" \"He wasn't in my hooch.\" Larry first gave the name by sound, \"Zoo-Cow-Ski,\" then \"Zee-Cow-Ski,\" and on 2026-09-03, asked to spell it: \"Zukowski. I don't know the first name. No one went by first name in the military.\" He went to the French pool in Cholon with the others: \"Ron Tototz, Zukowski and that guy who played the guitar would go here.\" And he was on the Saigon rooftop: \"I was on a bar on a roof with Zukowski, Stanton and there was war going on all around us.\"",
-  "researchNotes": "Display name changed 2026-09-14 from PFC \"Zekeowski\" to Zukowski, the spelling Larry gave letter by letter on 2026-09-03 (data/recollections/2026-09-03-phone-zukowski.json); the slug stays pfc-zekeowski and every rendering stays in aliases. \"Zekeowski\" was his son's rendering of the sound and is superseded for searching. Searches should lead with Zukowski; the earlier phonetic candidates (Zykowski, Zikowski, Cikowski, Zichowski, Zekowski) are fallbacks. Newark had a large Polish community, so city directories and news archives are viable once a spelling candidate hits.",
+  "researchNotes": "Display name changed 2026-09-14 from PFC \"Zekeowski\" to Zukowski, the spelling Larry gave letter by letter on 2026-09-03 (data/recollections/2026-09-03-phone-zukowski.json); the slug stays pfc-zekeowski and every rendering stays in aliases. \"Zekeowski\" was his son's rendering of the sound and is superseded for searching. Searches should lead with Zukowski; the earlier phonetic candidates (Zykowski, Zikowski, Cikowski, Zichowski, Zekowski) are fallbacks. Newark had a large Polish community, so city directories and news archives are viable once a spelling candidate hits. 2026-09-15, on his son's decision (no spelling notes on public pages): the rendered aliases were trimmed; removed from display, kept here: \"Zukowski (Larry's own spelling, 2026-09-03)\"; \"PFC \"Zekeowski\"\"; \"Zekeowski (phonetic)\"; \"Zee-Cow-Ski (Larry's phonetic)\"; \"Zoo-Cow-Ski (first phonetic attempt)\".",
   "confidence": "unverified-recollection",
   "relatedPlaces": ["thom-son-nuht", "cholon", "saigon"],
   "sources": []

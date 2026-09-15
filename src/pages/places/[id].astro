@@ -63,6 +63,11 @@ const placeDrawings = (await getCollection('drawings'))
   <span class="eyebrow">Place</span>
   <h1>{d.name}</h1>
 
+  {/* The only place an accented Vietnamese spelling renders (CLAUDE.md, "Place names");
+      lang="vi" is also what scripts/check-published.mjs skips. */}
+  {d.vietnameseName && d.vietnameseName !== d.name && (
+    <p class="record" lang="vi">{d.vietnameseName}</p>
+  )}
   {d.alternateNames.length > 0 && (
     <p class="record">Also: {d.alternateNames.join(' · ')}</p>
   )}

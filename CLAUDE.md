@@ -78,8 +78,9 @@ push on a failure, and never skip or weaken a check to get past one.
   section; an interview-probe term (`scripts/spoiler-terms.mjs`, shared with the validator) or a
   publish-only term (unit designations, the held Stars and Stripes and crash names, file paths,
   ledger and issue numbers, interview apparatus, health and benefits details); anything shaped
-  like an SSN, service number, phone, email, street address or date of birth; text from a parked
-  field; or the text of a held recollection. Larry's own transcribed words are exempt from the
+  like an SSN, service number, phone, email, street address or date of birth; a place spelled
+  other than its public name (`scripts/place-names.mjs`); text from a parked field; or the text
+  of a held recollection. Larry's own transcribed words are exempt from the
   term checks (a probe he answers himself is answered) — a paraphrase is not.
 - **CI enforces it.** The deploy workflow's build runs `postbuild`, so a failure stops the
   publish, including after an export. `.github/workflows/check.yml` runs the same build on every
@@ -105,11 +106,15 @@ and a page-by-page read of the restored build with his son. **Timeline, Units, R
 Sources stay parked**: the timeline's dates are research estimates, Units is a placeholder, and
 Research and Sources are research by nature. His son's decisions that day: hold the "450
 civilians" story (below); hold the founding-brief paraphrases and the "su-ners" call summary;
-show Ron under the documented spelling Totosz (his "Tototz" as an alias); keep "Ton Son Nuht" as
-his spelling, with the Tân Sơn Nhứt identification off the page until a document settles it;
-show his own words about his illness and the hospital. `2026-call-japan-medevac.json` stays held,
-because its specifics (stool, urine) go beyond what was shown to him and it touches the Ginza
-question.
+show Ron under the documented spelling Totosz (his "Tototz" as an alias); show his own words
+about his illness and the hospital. Later that day: **no spelling notes on public pages** —
+"(Larry's own spelling)", "(phonetic)", "(as typed…)", "(his son's transcription…)" and
+sound-renderings came off every person and place `name`, `aliases` and `alternateNames` (each
+removed form is kept, dated, in that record's `researchNotes`). Places follow "Place names on
+public pages" below. People keep the name as Larry gives it where the true spelling is unknown.
+His recollections keep every spelling as given, and `research/` keeps the provenance notation.
+`2026-call-japan-medevac.json` stays held, because its specifics (stool, urine) go beyond what was
+shown to him and it touches the Ginza question.
 
 What renders now, and nothing else:
 
@@ -163,6 +168,33 @@ GitHub (discussion #32). Lift the holds and unhide the comments together.
   typically his son's account of what he said while drawing — or for a story the family has
   chosen not to show yet. The record's words are unchanged; the exporter preserves `hold` like
   `fidelity`. Delete the field once the question is asked or the family decides.
+
+## Place names on public pages
+
+His son's rule (2026-09-15): **every place has one public name, and the site uses it everywhere.**
+
+- **The public name is the family's choice, made once.** When a place turns up that is not in
+  `scripts/place-names.mjs` — in a new record, a title, a template — **ask his son what its public
+  name should be before using it**, offering two or three candidates with one recommended
+  (normally the common English spelling of the period, without Vietnamese accents: Tan Son Nhut,
+  Nui Ba Den, Qui Nhon, My Canh, Tu Do Street). Then add the choice to `PLACE_NAMES`, with every
+  variant spelling known so far, and use it consistently. Don't pick a public name silently.
+- **What it covers:** anything a reader sees outside someone's own words — place `name` and
+  `alternateNames`, photo, clip, drawing and timeline titles, `drawnDisplay`, person `role`, and
+  the fixed text in templates. Drawing titles too (VD-0001 is "Base camp, Tan Son Nhut", though
+  he wrote TON SON NHUT).
+- **What keeps its own spelling:** recollection text of any fidelity and a drawing's `labels`
+  (rule 1), words inside quotation marks, and a place's `vietnameseName`, which renders as the one
+  small Vietnamese line on the place page and index (`lang="vi"`).
+- **No spelling notes on the page.** Not "(Larry's own spelling)", "(phonetic)", "(as typed…)" or
+  a list of his variants. The differences — his spellings, his son's transcriptions, the accented
+  form, which one carries his authority, and when each was recorded — go in the place record's
+  `researchNotes`, dated, and in `research/`.
+- **Slugs never change** (rule 3): `thom-son-nuht` stays the id of the page titled Tan Son Nhut.
+  A standardized name is a display choice, not an identification: `confidence` is unchanged.
+
+`npm run validate` warns on a known variant in those fields; `check:published` fails the build on
+one in the built pages.
 
 ## What is enforced automatically
 

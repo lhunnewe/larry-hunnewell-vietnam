@@ -25,6 +25,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SPOILER_TERMS } from './spoiler-terms.mjs';
+import { nonStandardPlaceNames } from './place-names.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
@@ -76,7 +77,8 @@ const PRIVACY_PATTERNS = [
   { term: /\b(RA|US|ER|NG)\s?\d{8}\b/, why: 'looks like an Army service number' },
   { term: /[\w.+-]+@[\w-]+\.[\w.]+/, why: 'email address' },
   { term: /\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}[-.]\d{3}[-.]\d{4}\b/, why: 'telephone number' },
-  { term: /\b\d{2,5}\s+(?:[A-Z][a-z]+\s+){1,3}(?:Road|Rd|Street|St|Avenue|Ave|Boulevard|Blvd|Drive|Dr|Lane|Ln|Court|Ct|Way)\b\.?/, why: 'street address' },
+  // (An archive ID is not a house number: "VD-0003 Tu Do Street" is a drawing title.)
+  { term: /(?<!\b(?:VN|VF|VD)-)\b\d{2,5}\s+(?:[A-Z][a-z]+\s+){1,3}(?:Road|Rd|Street|St|Avenue|Ave|Boulevard|Blvd|Drive|Dr|Lane|Ln|Court|Ct|Way)\b\.?/, why: 'street address' },
   { term: /date of birth|\bborn (on )?(january|february|march|april|may|june|july|august|september|october|november|december) \d/i, why: 'date of birth' },
 ];
 
@@ -221,6 +223,19 @@ for (const { file, rel } of pages) {
   for (const { term, why } of PUBLISH_ONLY_TERMS) {
     const m = text.match(term);
     if (m) fail(rel, `contains "${m[0]}" — ${why}`);
+  }
+
+  // 4b. Place names: the standard public spelling (scripts/place-names.mjs). Testimony
+  // of any fidelity, a drawing's labels, the lang="vi" Vietnamese-name line and quoted
+  // words keep their own spelling and are not checked.
+  const placeText = visibleText(
+    html
+      .replace(TESTIMONY, ' ')
+      .replace(/<ul class="labels"[^>]*>[\s\S]*?<\/ul>/g, ' ')
+      .replace(/<(\w+)[^>]*\blang="vi"[^>]*>[\s\S]*?<\/\1>/g, ' ')
+  );
+  for (const { found, standard } of nonStandardPlaceNames(placeText)) {
+    fail(rel, `spells a place "${found}" — the public spelling is "${standard}" (CLAUDE.md, "Place names")`);
   }
 
   // 4. Personal data.

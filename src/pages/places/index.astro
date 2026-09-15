@@ -48,8 +48,8 @@ const unmapped = places.filter((p) => !p.data.coordinates);
   <span class="eyebrow">Where he was</span>
   <h1>Places</h1>
   <p class="lede">
-    The places of Larry's year in Vietnam and after. Names are written the way Larry says them,
-    or spells them when he can. Each page keeps his own words about the place, the photographs
+    The places of Larry's year in Vietnam and after. Each page keeps his own words about the
+    place, the photographs
     taken there, and a box for anything more he remembers.
   </p>
 
@@ -79,7 +79,7 @@ const unmapped = places.filter((p) => !p.data.coordinates);
       <li class="card">
         <h3><a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a></h3>
         {place.data.vietnameseName && place.data.vietnameseName !== place.data.name && (
-          <p class="record">{place.data.vietnameseName}</p>
+          <p class="record" lang="vi">{place.data.vietnameseName}</p>
         )}
       </li>
     ))}

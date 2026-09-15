@@ -1,10 +1,12 @@
 {
   "name": "Major Schwartzkoff",
-  "aliases": ["Schwartzkoff (phonetic)", "Schwarzkopf", "Schartkoff"],
+  "aliases": [
+    "Schartkoff"
+  ],
   "role": "U.S. Army major on the mountain",
   "status": "unresolved",
   "summary": "The major Larry names at the center of VN-0006, setting up a rocket launcher on top of the mountain: \"Middle is Major Schwartzkoff Right: Australian Captain Left: I think is captain Kennedy from Boston.\" The camps' radio call signs were his: \"Body Jab 42, Right Cross, Upper Cut, Might have been a Body Jab 41, 43, Major Schartkoff was in charge of them.\" When Larry asked to go out on patrol, the major told him to get a weapon, and sent him back when he came with a pistol: \"If you go out there with that pistol you are unarmed…\" Larry took a BAR.",
-  "researchNotes": "The spelling is his son's rendering of the sound; \"Schartkoff\" is the 2026-09-01 telephone transcription. Identification work and candidate hypotheses are kept in research/people/major-schwartzkoff.md and are not summarized here while unconfirmed. Recollections: giscus-vn-0006-c18006884 and -c18260039, 2026-09-01-phone-boxing-call-signs, giscus-stories-c18119622.",
+  "researchNotes": "The spelling is his son's rendering of the sound; \"Schartkoff\" is the 2026-09-01 telephone transcription. Identification work and candidate hypotheses are kept in research/people/major-schwartzkoff.md and are not summarized here while unconfirmed. Recollections: giscus-vn-0006-c18006884 and -c18260039, 2026-09-01-phone-boxing-call-signs, giscus-stories-c18119622. 2026-09-15, on his son's decision (no spelling notes on public pages): the rendered aliases were trimmed; removed from display, kept here: \"Schwartzkoff (phonetic)\"; \"Schwarzkopf\". \"Schwarzkopf\" came off with them: it reads as an identification the archive has not made.",
   "confidence": "unverified-recollection",
   "relatedPlaces": ["nui-ba-den"],
   "sources": []
