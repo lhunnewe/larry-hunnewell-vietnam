@@ -10,7 +10,8 @@
  * Exempt, because they are someone's own words: recollection text, a drawing's
  * labels, and words inside quotation marks.
  *
- * Each `standard` is the family's choice. A place not listed here gets its public
+ * Each `standard` is the family's choice. Every entry below was confirmed by his son on
+ * 2026-09-15 (Tay Ninh, Pleiku and Kontum last, the rest with the rule itself). A place not listed here gets its public
  * name by asking his son, with a recommendation, before it is used anywhere public;
  * then add it here. Only known variants are listed: add one when a new spelling turns
  * up in a record, so it cannot drift onto a page.
