@@ -65,6 +65,12 @@ photographing the wreck the next day is the obvious next step, and cheap.
 
 ## Two things to keep apart
 
+- *Superseded in part, 2026-09-14:* the bullet below assigns VN-0120 to the Embassy bombing. That is
+  no longer settled. Since 2026-09-12 VN-0120's first-aid scene is weighed against the Market
+  explosion as well as the Embassy, and `saigon-market-bombing.md` ("The VN-0120 first-aid scene:
+  same event or a different one?") holds it open. The timeline record for the Mỹ Cảnh no longer
+  states which bombing VN-0120 belongs to. What stands from the bullet is only that the Mỹ Cảnh
+  account and VN-0120's account share no detail.
 - **This is not the VN-0120 explosion.** On 2026-09-02 he described a bar near "the Palace" with
   a throat wound he bandaged with his T-shirt, and on 2026-09-03 dated it to the **US Embassy
   bombing of 30 March 1965**, a block from the Papillon (ledger #23). Two bombings, three months

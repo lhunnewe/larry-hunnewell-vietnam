@@ -1,0 +1,12 @@
+{
+  "title": "Promoted to Private First Class",
+  "sortDate": "1964-06-29",
+  "displayDate": "June 29, 1964",
+  "datePrecision": "exact",
+  "category": "larry-movement",
+  "description": "Larry was promoted to Private First Class (E-3) on June 29, 1964, the date recorded on his DD-214.",
+  "researchNotes": "Added 2026-09-14 (the site audit listed the DD-214 promotions as missing from the timeline). DD-214 remarks: \"PFC (P) appointed June 29, 1964\" (research/records-request/dd214-findings.md, clear scan of 2026-08-15). Only the date is documented; where he was that day is not.",
+  "confidence": "confirmed",
+  "relatedPeople": ["larry-dennis-hunnewell"],
+  "sources": ["dd214-1965"]
+}

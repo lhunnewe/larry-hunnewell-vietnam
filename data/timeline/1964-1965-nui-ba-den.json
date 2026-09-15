@@ -1,14 +1,14 @@
 {
-  "title": "Association with Núi Bà Đen (Black Virgin Mountain)",
+  "title": "Stints on Núi Bà Đen (Black Virgin Mountain)",
   "sortDate": "1964-12-01",
   "displayDate": "Dates unknown, during 1964-1965 tour",
   "datePrecision": "unknown",
   "category": "larry-recollection",
-  "description": "Larry remembers being on or associated with Núi Bà Đen, the isolated mountain near Tây Ninh, and remembers a Special Forces Sergeant Lowry or Lowery stationed on top. His 2026-08-13 comments define his role there: his initial orders were to stay on for search and rescue at the Special Forces camp, call sign Body Jab 42; his own search-and-rescue call sign was Tay Ninh. He photographed a rocket launcher being mounted on the summit (VN-0006, his guess June 1965). Exactly when his mountain duty began and how often he rotated up remain open research questions.",
-  "researchNotes": "Upgraded to plausible 2026-08-13: the official Army history (Kelly, U.S. Army Special Forces 1961–1971) documents a CIDG camp at Núi Bà Đen itself in October 1964 with a half-size SF element (1 officer, 5 enlisted, ~175 strikers), and the SF radio-relay function for III Corps matches the duty Larry describes. His personal presence awaits documentary confirmation via NPRC.",
+  "description": "Larry served stints at the Special Forces camp on top of Núi Bà Đen, the lone mountain near Tây Ninh that he calls The Mountain. The camp's call sign was Body Jab 42; his initial orders were to stay on for search and rescue, and his own search-and-rescue call sign was Tay Ninh. He got there by helicopter, and the stints were a week or ten days, sometimes two back to back: \"I liked it there. It was safer there.\" He remembers a Special Forces Sergeant Lowry or Lowery on the mountain, and he photographed a rocket launcher being mounted on the summit, which he guesses was in June 1965. When his first stint began is not known.",
+  "researchNotes": "2026-09-14: the description's closing line (\"how often he rotated up remain open research questions\") was stale. How often and how long he answered himself on 2026-09-03 at VN-0044 (giscus-vn-0044-c18259616, transcribed): \"The stints were a week or 10 days. Sometimes I would take 2 of them back to back. I liked it there. It was safer there.\" \"The Mountain\" is his name for it (2026-09-01-phone-the-mountain-name); the founding brief's \"Sun Mountain\" (2026-brief-nui-ba-den, paraphrase) is his son's early rendering and is not used here. Call signs and orders: giscus-stories-c18006791 (2026-08-13). What he says of who ran the camp is on the recollections and the person records; it is left out of this description because an open drawing question asks him who slept in the fort without offering a name. Rated plausible, not higher: Kelly (cited) documents a CIDG camp at Núi Bà Đen in October 1964 with a half-size Special Forces element, and the RADIX order of battle (cited) gives the camp's mission as radio relay — which he described, asked cold, on 2026-09-01 before any document was mentioned (2026-09-01-phone-why-the-mountain). His photographs from the summit and his accounts are the evidence he was there; no document yet names him on the mountain (NPRC request pending). Dated points he gives: the CBC crew Nov or Dec 1964, Đồng Xoài (9–10 June 1965) heard from the radio, and his last day about late August 1965 (1965-08-450-civilians-accusation).",
   "confidence": "plausible",
   "relatedPlaces": ["nui-ba-den"],
   "relatedPeople": ["larry-dennis-hunnewell", "sgt-lowry"],
   "relatedPhotos": ["vn-0006"],
-  "sources": ["kelly-cidg-1973"]
+  "sources": ["kelly-cidg-1973", "radix-sf-order-of-battle"]
 }

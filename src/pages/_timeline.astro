@@ -1,12 +1,31 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import EvidenceBadge from '../components/EvidenceBadge.astro';
 import Recollection from '../components/Recollection.astro';
 import MemoryBox from '../components/MemoryBox.astro';
-import Citations from '../components/Citations.astro';
 import { withBase } from '../lib/paths';
-import { attributionFor, attributionForCopiedText } from '../lib/testimony';
+import {
+  attributionFor,
+  attributionForCopiedText,
+  recordedLine,
+  shownRecollections,
+} from '../lib/testimony';
+
+/*
+  Parked 2026-09-14 (research/site-audit-2026-09-14.md, "/timeline/"); rebuilt the same day to
+  the minimal-site rules so restoring it is a rename plus the steps in CLAUDE.md.
+
+  What renders: each event's title, display date and date precision; Larry's recollections
+  linked to it (holds respected, recorded date only, no provenance); and thumbnails of the
+  photographs the event names. What does not: researchNotes, evidence badges, citations,
+  places and people (their pages are parked), and photographs placed by their own sortDate —
+  photo dates are withheld on the minimal site, and some are answers still to be asked for.
+
+  Descriptions are written to be public but stay off while scripts/check-published.mjs lists
+  timeline `description` in PARKED_FIELDS. To show them, set SHOW_DESCRIPTIONS and remove that
+  entry in the same change.
+*/
+const SHOW_DESCRIPTIONS = false;
 
 const CATEGORY_META: Record<string, { label: string; color: string }> = {
   'larry-movement': { label: "Larry's movements", color: 'var(--olive)' },
@@ -17,47 +36,68 @@ const CATEGORY_META: Record<string, { label: string; color: string }> = {
   'research-discovery': { label: 'Research discoveries', color: 'var(--ev-plausible)' },
 };
 
-/** Every recollection, so copied testimony can be attributed by its true fidelity. */
-const allRecollections = await getCollection("recollections");
+const allRecollections = await getCollection('recollections');
+const shown = shownRecollections(allRecollections);
+const photosById = new Map((await getCollection('photos')).map((p) => [p.id, p]));
 
-const authored = (await getCollection('timeline')).map((event) => ({
-  kind: 'authored' as const,
-  sortDate: event.data.sortDate,
-  tiebreak: `0:${event.id}`,
-  event,
-}));
+const normalize = (text: string) => text.replace(/\s+/g, ' ').trim().toLowerCase();
 
-// Photographs join the timeline once cataloging gives them a sortable date.
-const photoEvents = (await getCollection('photos'))
-  .filter((p) => p.data.cataloged && p.data.sortDate)
-  .map((photo) => ({
-    kind: 'photo' as const,
-    sortDate: photo.data.sortDate!,
-    tiebreak: `1:${photo.data.photoId}`,
-    photo,
-  }));
-
-const entries = [...authored, ...photoEvents].sort(
-  (a, b) => a.sortDate.localeCompare(b.sortDate) || a.tiebreak.localeCompare(b.tiebreak)
+const events = (await getCollection('timeline')).sort(
+  (a, b) => a.data.sortDate.localeCompare(b.data.sortDate) || a.id.localeCompare(b.id)
 );
 
-const usedCategories = [
-  ...new Set(entries.map((e) => (e.kind === 'photo' ? 'photo' : e.event.data.category))),
-];
+/**
+ * Testimony for each event, rendered once per page: a recollection linked to two events
+ * shows under the first, and a block whose words are already on the page (a copied
+ * larrysRecollection, or the same text on two records) is not repeated.
+ */
+const seenIds = new Set<string>();
+const seenTexts: string[] = [];
+const alreadyShown = (text: string) => {
+  const n = normalize(text);
+  return seenTexts.some((s) => s === n || (n.length >= 40 && s.includes(n)));
+};
+
+const entries = events.map((event) => {
+  const recollections = shown.filter((r) => {
+    if (!(r.data.relatedTimeline ?? []).some((x) => x.id === event.id)) return false;
+    if (seenIds.has(r.id) || alreadyShown(r.data.text)) return false;
+    seenIds.add(r.id);
+    seenTexts.push(normalize(r.data.text));
+    return true;
+  });
+
+  // Copied testimony on the event itself, only if none of the shown records already carries it.
+  // A copy of a held recollection must not render either.
+  const own = event.data.larrysRecollection;
+  const copiesHeld =
+    own !== undefined &&
+    allRecollections.some((r) => r.data.hold && normalize(r.data.text).includes(normalize(own)));
+  const ownText = own && !copiesHeld && !alreadyShown(own) ? own : undefined;
+  if (ownText) seenTexts.push(normalize(ownText));
+
+  const photos = event.data.relatedPhotos
+    .map((ref) => photosById.get(ref.id))
+    .filter((p): p is NonNullable<typeof p> => p !== undefined);
+
+  return { event, recollections, ownText, photos };
+});
+
+const usedCategories = [...new Set(events.map((e) => e.data.category))];
 const categoryCounts = new Map<string, number>();
-for (const e of entries) {
-  const cat = e.kind === 'photo' ? 'photo' : e.event.data.category;
-  categoryCounts.set(cat, (categoryCounts.get(cat) ?? 0) + 1);
-}
+for (const e of events) categoryCounts.set(e.data.category, (categoryCounts.get(e.data.category) ?? 0) + 1);
 ---
 
 <BaseLayout title="Timeline">
-  <span class="eyebrow">September 1964 &ndash; September 1965</span>
+  <span class="eyebrow">1963 &ndash; 1965</span>
   <h1>Timeline</h1>
   <p class="lede">
-    One year, told in parallel tracks: where Larry went, what he remembers, and what the war was
-    doing around him. Dates from memory are marked approximate or unknown; nothing is sharpened
-    beyond what the evidence allows.
+    Larry's time in the Army in order: where he went, what he remembers, and what the war was
+    doing around him. Dates that come from memory are marked approximate or unknown.
+  </p>
+  <p>
+    His own words are with the <a href={withBase('/photos/')}>photographs</a>, the
+    <a href={withBase('/footage/')}>film</a> and the <a href={withBase('/drawings/')}>drawings</a>.
   </p>
 
   <ul class="legend record" aria-label="Timeline categories">
@@ -77,106 +117,57 @@ for (const e of entries) {
   </div>
 
   <ol class="timeline">
-    {entries.map((entry) =>
-      entry.kind === 'authored' ? (
-        <li
-          class="event"
-          data-category={entry.event.data.category}
-          style={`--cat-color:${CATEGORY_META[entry.event.data.category].color}`}
-        >
-          <p class="event-date record">
-            {entry.event.data.displayDate}
-            {entry.event.data.datePrecision !== 'exact' && (
-              <span class="precision">&middot; {entry.event.data.datePrecision}</span>
-            )}
-          </p>
-          <div class="event-body">
-            <h2>{entry.event.data.title}</h2>
-            <p class="event-meta record">
-              {CATEGORY_META[entry.event.data.category].label} &nbsp;
-              <EvidenceBadge level={entry.event.data.confidence} />
-            </p>
-            <p>{entry.event.data.description}</p>
-            {entry.event.data.larrysRecollection && (
-              <Recollection attribution={attributionForCopiedText(entry.event.data.larrysRecollection, allRecollections)}>
-                {entry.event.data.larrysRecollection}
-              </Recollection>
-            )}
-            {allRecollections
-              .filter((r) => (r.data.relatedTimeline ?? []).some((x) => x.id === entry.event.id))
-              .map((rec) => (
-                <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+    {entries.map(({ event, recollections, ownText, photos }) => (
+      <li
+        class="event"
+        data-category={event.data.category}
+        style={`--cat-color:${CATEGORY_META[event.data.category].color}`}
+      >
+        <p class="event-date record">
+          {event.data.displayDate}
+          {event.data.datePrecision !== 'exact' && (
+            <span class="precision">&middot; {event.data.datePrecision}</span>
+          )}
+        </p>
+        <div class="event-body">
+          <h2>{event.data.title}</h2>
+          <p class="event-meta record">{CATEGORY_META[event.data.category].label}</p>
+          {SHOW_DESCRIPTIONS && <p>{event.data.description}</p>}
+
+          {ownText && (
+            <Recollection attribution={attributionForCopiedText(ownText, allRecollections)}>
+              {ownText}
+            </Recollection>
+          )}
+
+          {recollections.map((rec) => (
+            <>
+              <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+              <p class="record provenance">{recordedLine(rec.data.recorded)}</p>
+            </>
+          ))}
+
+          {photos.length > 0 && (
+            <ul class="event-photos">
+              {photos.map((photo) => (
+                <li>
+                  <a href={withBase(`/photos/${photo.id}/`)}>
+                    <img
+                      src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
+                      alt={photo.data.cataloged ? photo.data.title : `Photograph ${photo.data.photoId}`}
+                      width="320"
+                      height="216"
+                      loading="lazy"
+                    />
+                    <span class="record">{photo.data.photoId}</span>
+                  </a>
+                </li>
               ))}
-            {entry.event.data.relatedPlaces.length > 0 && (
-              <p class="event-links record">
-                Places:{' '}
-                {entry.event.data.relatedPlaces.map((place, i) => (
-                  <>
-                    {i > 0 && ', '}
-                    <a href={withBase(`/places/${place.id}/`)}>{place.id}</a>
-                  </>
-                ))}
-              </p>
-            )}
-            <Citations sources={entry.event.data.sources} />
-          </div>
-        </li>
-      ) : (
-        <li
-          class="event"
-          data-category="photo"
-          style={`--cat-color:${CATEGORY_META.photo.color}`}
-        >
-          <p class="event-date record">
-            {entry.photo.data.approximateDate ?? entry.photo.data.sortDate}
-            {entry.photo.data.datePrecision !== 'exact' && (
-              <span class="precision">&middot; {entry.photo.data.datePrecision}</span>
-            )}
-          </p>
-          <div class="event-body">
-            <h2>{entry.photo.data.title}</h2>
-            <p class="event-meta record">
-              {CATEGORY_META.photo.label} &nbsp;
-              <EvidenceBadge level={entry.photo.data.confidence} />
-            </p>
-            <a class="photo-link" href={withBase(`/photos/${entry.photo.id}/`)}>
-              <img
-                src={withBase(`/images/photos/thumbs/${entry.photo.data.photoId}.jpg`)}
-                alt={entry.photo.data.title}
-                width="320"
-                height="216"
-                loading="lazy"
-              />
-            </a>
-            {entry.photo.data.description && <p>{entry.photo.data.description}</p>}
-            {allRecollections
-              .filter((r) => (r.data.relatedPhotos ?? []).some((x) => x.id === entry.photo.id))
-              .map((rec) => (
-                <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
-              ))}
-            {entry.photo.data.larrysRecollection && (
-              <Recollection attribution={attributionForCopiedText(entry.photo.data.larrysRecollection, allRecollections)}>
-                {entry.photo.data.larrysRecollection}
-              </Recollection>
-            )}
-            {entry.photo.data.location && (
-              <p class="event-links record">
-                Places:{' '}
-                <a href={withBase(`/places/${entry.photo.data.location.id}/`)}>
-                  {entry.photo.data.location.id}
-                </a>
-              </p>
-            )}
-            <Citations sources={entry.photo.data.sources} />
-            <p class="event-links record">
-              <a href={withBase(`/photos/${entry.photo.id}/`)}>
-                View photograph {entry.photo.data.photoId} &rarr;
-              </a>
-            </p>
-          </div>
-        </li>
-      )
-    )}
+            </ul>
+          )}
+        </div>
+      </li>
+    ))}
   </ol>
 
   <MemoryBox term="timeline" subject="timeline" />
@@ -326,20 +317,30 @@ for (const e of entries) {
     text-transform: none;
   }
 
-  .event-links {
-    margin: 0.6rem 0 0;
-    text-transform: none;
-  }
-
   .event p {
     margin-top: 0;
   }
 
-  .photo-link img {
+  .event-photos {
+    list-style: none;
+    padding: 0;
+    margin: 0.8rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .event-photos a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-decoration: none;
+  }
+
+  .event-photos img {
     display: block;
-    max-width: min(20rem, 100%);
+    width: min(12rem, 100%);
     height: auto;
     border: 1px solid var(--line);
-    margin: 0.3rem 0 0.7rem;
   }
 </style>

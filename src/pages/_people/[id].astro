@@ -1,12 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
-import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
-import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
+import {
+  attributionFor,
+  attributionForCopiedText,
+  recordedLine,
+  shownRecollections,
+} from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const people = await getCollection('people');
@@ -15,31 +18,48 @@ export async function getStaticPaths() {
 
 const { person } = Astro.props;
 const d = person.data;
-/** Every recollection, so copied testimony can be attributed by its true fidelity. */
-const allRecollections = await getCollection("recollections");
 
-/** Testimony recorded about this person, with its own fidelity and provenance. */
-const personRecollections = allRecollections.filter((r) =>
+/** Every recollection, so copied testimony can be attributed by its true fidelity. */
+const allRecollections = await getCollection('recollections');
+
+/** Testimony about this person, minus anything under a hold. */
+const personRecollections = shownRecollections(allRecollections).filter((r) =>
   (r.data.relatedPeople ?? []).some((x) => x.id === person.id)
 );
+
+/**
+ * Places for this person, from both directions: the person's own
+ * relatedPlaces and every place that lists this person. Names, not slugs.
+ */
+const places = await getCollection('places');
+const placeIds = new Set([
+  ...d.relatedPlaces.map((p) => p.id),
+  ...places.filter((pl) => pl.data.relatedPeople.some((x) => x.id === person.id)).map((pl) => pl.id),
+]);
+const personPlaces = places
+  .filter((pl) => placeIds.has(pl.id))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 /** Drawings this person made from memory. */
 const personDrawings = (await getCollection('drawings'))
   .filter((dr) => dr.data.drawnBy.id === person.id)
   .sort((a, b) => a.data.drawingId.localeCompare(b.data.drawingId));
+
+// Held to the name, role, his words and the comment box while the site is
+// minimal. The summary, research notes, evidence badge, citations and
+// provenance stay on the record in data/people/ and do not render.
+// scripts/check-published.mjs treats people `summary` and `researchNotes` as
+// parked fields. See CLAUDE.md, "The minimal site".
 ---
 
 <BaseLayout title={d.name}>
-  <span class="eyebrow">Person{d.status === 'unresolved' ? ' — identity unresolved' : ''}</span>
+  <span class="eyebrow">Person</span>
   <h1>{d.name}</h1>
   {d.role && <p class="record">{d.role}</p>}
-  <p><EvidenceBadge level={d.confidence} /></p>
 
   {d.aliases.length > 0 && (
-    <p class="record">Spellings under investigation: {d.aliases.join(' · ')}</p>
+    <p class="record">Also written: {d.aliases.join(' · ')}</p>
   )}
-
-  <p class="lede">{d.summary}</p>
 
   {d.larrysRecollection && (
     <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
@@ -47,32 +67,23 @@ const personDrawings = (await getCollection('drawings'))
     </Recollection>
   )}
 
-  {personRecollections.length > 0 && (
+  {personRecollections.map((rec) => (
     <>
-      {personRecollections.map((rec) => (
-        <>
-          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
-          <p class="record provenance">{rec.data.provenance}</p>
-        </>
-      ))}
+      <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+      <p class="record provenance">{recordedLine(rec.data.recorded)}</p>
     </>
+  ))}
+
+  {!d.larrysRecollection && personRecollections.length === 0 && (
+    <p class="empty-state">Nothing has been written about this person yet.</p>
   )}
 
-  {d.researchNotes && (
+  {personPlaces.length > 0 && (
     <>
-      <h2>Research notes</h2>
-      <p>{d.researchNotes}</p>
-    </>
-  )}
-
-  <Citations sources={d.sources} />
-
-  {d.relatedPlaces.length > 0 && (
-    <>
-      <h2>Related places</h2>
+      <h2>Places</h2>
       <ul>
-        {d.relatedPlaces.map((p) => (
-          <li><a href={withBase(`/places/${p.id}/`)}>{p.id}</a></li>
+        {personPlaces.map((pl) => (
+          <li><a href={withBase(`/places/${pl.id}/`)}>{pl.data.name}</a></li>
         ))}
       </ul>
     </>
@@ -100,7 +111,8 @@ const personDrawings = (await getCollection('drawings'))
 </BaseLayout>
 
 <style>
-  .lede {
-    font-size: 1.15rem;
+  .provenance {
+    color: var(--ink-soft);
+    margin: 0.3rem 0 1.4rem;
   }
 </style>

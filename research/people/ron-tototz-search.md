@@ -1,5 +1,14 @@
 # Ron Tototz — identity search record (2026-08-16)
 
+> **Redacted 2026-09-14** (people/places clean-up after `research/site-audit-2026-09-14.md`).
+> Removed from this public file: street addresses (1962, 1976, 1984, 1993, 2005), the survivors
+> named in his 2004 obituary and their towns, his wife's name, the Find a Grave niche
+> description, his mother's name, and the names of other Totosz family members found in the
+> surname sweep, one of them living. The unredacted file is kept in
+> `private/people/ron-tototz-search-unredacted-2026-09-14.md` (gitignored), with a note of what
+> came from where in `private/people/ron-tototz-private.md`. Citations (newspaper, date, page,
+> image numbers) are kept so every finding stays checkable.
+
 ## THIRD PASS (newspapers.com, same day): IDENTIFICATION CONFIRMED — ARMY, DES MOINES
 
 Both remaining questions answered from the Register's own pages (newspapers.com, 5-day
@@ -7,43 +16,32 @@ trial, images cited below):
 
 1. **Army service confirmed.** *Des Moines Register*, Fri **Nov 2, 1962**, p. 23, "In
    Armed Forces" — twenty-five enlistments reported by the Des Moines recruiting
-   stations, ARMY list: "**Ronald E. Totosz, 21, of 1211 Merle Hay Road**" (Des Moines).
-   A standard 3-year RA enlistment Nov 1962 → Nov 1965 brackets Larry's Sep 1964 – Sep
-   1965 Vietnam tour exactly — and matches Larry's own separation (30 Nov 65) almost to
-   the month, consistent with same-cohort bunk mates. Image:
+   stations, ARMY list: "**Ronald E. Totosz, 21**, of [street address, Des Moines —
+   redacted]". A standard 3-year RA enlistment Nov 1962 → Nov 1965 brackets Larry's Sep
+   1964 – Sep 1965 Vietnam tour exactly — and matches Larry's own separation (30 Nov 65)
+   almost to the month, consistent with same-cohort bunk mates. Image:
    newspapers.com/image/129134885 (match term "Ronald Totosz").
 2. **"From Des Moines" confirmed.** All 15 "Ronald Totosz" newspaper hits nationwide are
    Des Moines papers, 1959–2005 — he was in Des Moines by his teens (Register, Jun 4,
-   1959, p. 3, not yet read). The Chicago birth resolves via the family's move: a
-   Tribune death notice (Jul 19, 1964, p. 39, image 376257813) places the Totosz family
-   in Calumet City, Ill. ("William Swiatkowski... fond brother of Theodore, Fred, and
-   Irene Totosz"), and **Irene Totosz** then appears in the DMPL index dying in Des
-   Moines (Register obituary, Mar 30, 1983) — very likely Ron's mother.
+   1959, p. 3). The Chicago birth resolves via the family's move: a Tribune death notice
+   (Jul 19, 1964, p. 39, image 376257813) places the Totosz family in Calumet City, Ill., and
+   a family member named in it later appears in the DMPL index dying in Des Moines (Register
+   obituary, Mar 30, 1983). [Names redacted.]
 
 **Permanent clippings** saved on the family's newspapers.com account (2026-08-16;
 clippings stay publicly viewable after the trial ends): enlistment item clip 203981003;
 obituary p. 7 clip 203981098; obituary p. 25 clip 203981158.
 
-**Full obituary transcription** (*Des Moines Register*, Wed Aug 18, 2004 — runs
-identically on Metro p. 7 and obituaries p. 25; images 130714050 and 131380041; includes
-a portrait photo of Ron in later life, glasses and mustache):
+**Obituary** (*Des Moines Register*, Wed Aug 18, 2004 — runs identically on Metro p. 7 and
+obituaries p. 25; images 130714050 and 131380041; includes a portrait photo of Ron in later
+life, glasses and mustache). Summary of what it establishes: Ronald E. Totosz, 62, of Ankeny,
+died August 12, 2004; born October 10, 1941 in Chicago; worked as a bio tech at Iowa
+Methodist Hospital for 25 years; preceded in death by his parents. The full transcription,
+including the survivors list, is in the private file.
 
-> RONALD E. TOTOSZ, Ankeny — Ronald E. Totosz, 62, died August 12, 2004 of a brain tumor
-> at Taylor House Hospice. Memorial services will be 11 a.m. Friday, August 20 at Iowa
-> Methodist Hospital Chapel, with burial at Merle Hay Mausoleum. Ronald was born October
-> 10, 1941 in Chicago, IL. He worked as a bio tech at Iowa Methodist Hospital for 25
-> years. He is survived by his wife, Okhe Totosz; daughter, Nina (Tony) Xiong of Austin,
-> TX; grandson, Anthony Xiong; brother, Frank (Judith) Totosz Jr. of Frankfort, IL; and
-> sisters, Alice Totosz of Des Moines and Virginia (Bernard) Janssen of Eddyville. He was
-> preceded in death by his parents. Memorial contributions may be made to Blank
-> Children's Hospital. — Merle Hay at Chapel Hill
-
-Notes: the obituary itself does not mention military service (common). He enlisted from
-1211 **Merle Hay Road** in 1962 and was interred on the same road 42 years later. Wife
-Okhe's name and daughter's married surname (Xiong) suggest an Asian-American family
-thread — no inference recorded beyond the names as printed. Survivors (as printed in the
-2004 public obituary) are the outreach path for issue #23 — likely living; keep contact
-details out of the repo.
+Notes: the obituary itself does not mention military service (common). The survivors printed
+in the 2004 obituary are the outreach path for issue #23 — likely living; their names and
+any contact details stay in `private/`.
 
 ## FOURTH PASS (2026-08-17, second session): all remaining "Totosz" color items read
 
@@ -56,22 +54,17 @@ they trace his whole Des Moines life:
   Tursi..." — **Ron graduated from Dowling (Catholic) High School, Des Moines, June
   1959**, age 17.
 - *Des Moines Tribune*, **Mon Feb 9, 1976**, p. 9 (image 324582169) — city property
-  valuations list: "**Frank Totosz, 1211 Merle Hay Road, 23,650**" and "**Ronald
-  Totosz, 2425 Glenbrook Drive, 31,760**." A **Frank Totosz** held the family's Merle
-  Hay Road address in 1976 (father or brother — new family name for the outreach file);
-  Ron's own 1976 address was 2425 Glenbrook Drive.
+  valuations list: the family's 1962 address held by a relative, and Ron's own 1976
+  address. [Addresses and the relative's name redacted.]
 - *Des Moines Register*, **Wed Apr 11, 1984**, pp. 77/86/103/116 (zone editions) — real
-  estate transfers, East Side Des Moines: "**Ronald Edward Totosz** to John F. W[?],
-  E. Grand Ave., $25,000" — middle name **Edward** in print, matching Ronald E.
+  estate transfers, East Side Des Moines: "**Ronald Edward Totosz** to …" — middle name
+  **Edward** in print, matching Ronald E. [Buyer and address redacted.]
 - *Des Moines Register*, **Fri Apr 9, 1993**, p. 59 (image 130400133) — transfers,
-  **Crocker Township**: "Sheldahl Development Corp. to Ronald E. Totosz, **3351 N.W.
-  87th Lane, $28,000**" — the lot near Ankeny that matches his "of Ankeny" residence at
-  death.
+  **Crocker Township**: a lot sold to Ronald E. Totosz near Ankeny, matching his "of
+  Ankeny" residence at death. [Address redacted.]
 - *Des Moines Register*, **May 27 / Jun 3 / Dec 2, 2005** (pp. 50/50/45) — estate-era
-  transfers after his Aug 2004 death: "Ronald E Totosz to Michelle F. and William
-  Trickey, 3351 N.W. 87th [Lane], **$255,000**" (the home); "Country Classic Homes
-  [LLC] to [O.?] Totosz, 731 S.E. Ponds[view?], $167,000" (likely Okhe's downsizing
-  purchase); "Ronald E Totosz to Ana L Plese[?], Grand Ave., $45,000."
+  property transfers after his Aug 2004 death. [Parties and addresses redacted; one names a
+  surviving family member.]
 
 No newspapers.com item anywhere mentions his military service — the 1962 enlistment
 list remains the only service item in print, as expected.
@@ -80,59 +73,53 @@ list remains the only service item in print, as expected.
 corroboration comes from NPRC morning reports once the unit settles (#57/#10), or from
 family photographs/letters if outreach succeeds. For archive purposes the identification
 is otherwise complete: unique name nationwide, Des Moines, Polish family, Army enlistee
-on Larry's exact timeline, died Des Moines 2004.
+on Larry's exact timeline, died 2004.
 
 ## SECOND PASS (browser session, same day): HIGH-CONFIDENCE IDENTIFICATION
 
-**Ronald E. Totosz, born 10 Oct 1941, died 12 Aug 2004 (aged 62), interred Chapel Hill
-Gardens (mausoleum), Des Moines, Polk County, Iowa** — Find a Grave memorial
-**190642286** (findagrave.com/memorial/190642286/ronald-e-totosz, created 16 Jun 2018 by
-"Katie Lou"; niche photo added 11 Apr 2022). Shared niche with his wife **Okhe Totosz,
-1940–2020** (an unusual given name, possibly Korean). The niche holds a faded framed
-portrait (young man in suit — likely wedding photo) and a dog-themed frame (Sheltie).
+**Ronald E. Totosz, born 10 Oct 1941, died 12 Aug 2004 (aged 62), Des Moines, Polk County,
+Iowa** — Find a Grave memorial **190642286** (created 16 Jun 2018; niche photo added 11 Apr
+2022). [Resting place, the shared niche and the name on it redacted.]
 
 **Why high confidence:** "Totosz" was already one of the issue's predicted spellings for
 Larry's phonetic "Tototz"; the surname is vanishingly rare nationwide; this is the only
 Ronald of the name anywhere, he is **in Des Moines**, and born 1941 — a 23-year-old PFC
 in 1964–65, right beside Larry's age. **The one discrepancy:** he died in **2004**, not
-"about ten years ago" (~2016) as Larry said in 2026 — a 22-year gap, but time-since
-estimates are the least reliable part of recollection; every hard anchor (name, city,
-Polish, age) matches.
+"about ten years ago" (~2016) as Larry said in 2026 — a gap of about twelve years, but
+time-since estimates are the least reliable part of recollection; every hard anchor (name,
+city, Polish, age) matches. *(Arithmetic corrected 2026-09-14: this line said "a 22-year
+gap".)*
 
 **Documentary anchor found:** Des Moines Public Library newspaper index
 (engagedpatrons.org/database/DesMoinesNewspapers/) lists **"Totosz, Ronald E (Obituary),
-Des Moines Register, Aug 18, 2004, Metro section, p. 7, col. 5."** Also indexed: "Totosz,
-Irene (Obituary)," Register, Mar 30, 1983 (possibly his mother). **The obituary text is
-the confirmation step** — it should carry Army/Vietnam service and survivors. DMPL sends
-article copies for a fee (dmpl.org, "Newspaper, Magazine, and Other Indexes" page), or
-full text is in the Register digital archive/microfilm.
+Des Moines Register, Aug 18, 2004, Metro section, p. 7, col. 5."** A 1983 family obituary is
+also indexed. **The obituary text is the confirmation step** — it should carry Army/Vietnam
+service and survivors. DMPL sends article copies for a fee (dmpl.org, "Newspaper, Magazine,
+and Other Indexes" page), or full text is in the Register digital archive/microfilm.
 
-**Family constellation (rare-surname sweep):** Norbert Stanley Totosz, 1935–2023,
-**Omaha, Nebraska** (echovita obituary: predeceased by wife Naomi, father John (Bernice),
-siblings John (Linda), Patricia La Desma, Carol; survived by siblings Thomas (Helen),
-Leona Cowtrill (Mike), Alfred — Ronald not named, so Ron may be a cousin branch or an
-omission); John F. Totosz, d. 2019, Issaquah WA (flintofts.com, Cloudflare-gated);
-Lucille Totosz, d. 2024, Worth IL. A **living Michael Totosz** has a public X/Twitter
-account — outreach candidate per issue #23 (keep living-person details out of the repo;
-no addresses).
+**Family constellation (rare-surname sweep):** other Totosz families were found in Nebraska,
+Washington and Illinois, none naming Ronald, plus one living family member with a public
+social-media account as an outreach candidate per issue #23. [Names, places and dates
+redacted; see the private file.]
 
 **How to order the obituary from DMPL** (procedure confirmed 2026-08-16,
 dmpl.org/research/local-history-genealogy/premium-research-services): single obituary
-**$10** including research, printing, and postage; **call (515) 283-4152** and pay by
-credit card, or mail the Obituary Request Form (PDF on that page) with payment to DMPL,
-1000 Grand Ave, Des Moines, IA 50309, Attn: Reference Dept. Results within **10 business
-days**; payment in advance, non-refundable. Give them the exact citation we already
-have: *Ronald E. Totosz, obituary, Des Moines Register, August 18, 2004, Metro section,
-page 7, column 5* (died August 12, 2004). Free alternatives: in-person microfilm at the
-Central Library (printing cost only), the Register digital archive with a DMPL card, or
-newspapers.com.
+**$10** including research, printing, and postage; call the library's reference department
+and pay by credit card, or mail the Obituary Request Form (PDF on that page) with payment,
+Attn: Reference Dept. Results within **10 business days**; payment in advance,
+non-refundable. Give them the exact citation we already have: *Ronald E. Totosz, obituary,
+Des Moines Register, August 18, 2004, Metro section, page 7, column 5* (died August 12,
+2004). Free alternatives: in-person microfilm at the Central Library (printing cost only),
+the Register digital archive with a DMPL card, or newspapers.com. *(Done: the obituary was
+read on newspapers.com the same day; see the third pass.)*
 
-**Next steps:** (1) obtain the Aug 18, 2004 Register obituary text (DMPL copy service or
-newspapers.com); (2) if it confirms Vietnam service, update data/people/ron-tototz.json
+**Next steps (as written 2026-08-16):** (1) obtain the Aug 18, 2004 Register obituary text
+— done, third pass; (2) if it confirms Vietnam service, update data/people/ron-tototz.json
 and decide with the family how/whether to tell Larry (the 2004 date will be news to him —
-handle gently, don't correct his "ten years ago" memory); (3) family outreach per #23
-with the VN-0022 beach photo. Note for interviewers: do NOT mention the 2004 date or the
-name spelling to Larry until the obituary confirms service.
+handle gently, don't correct his "ten years ago" memory) — it does not mention service; the
+record was updated on the enlistment item and the identification; (3) family outreach per
+#23 with the VN-0022 beach photo. Note for interviewers: do NOT mention the 2004 date or the
+name spelling to Larry until the family decides how.
 
 ---
 

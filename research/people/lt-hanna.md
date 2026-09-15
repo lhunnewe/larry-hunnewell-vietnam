@@ -59,6 +59,24 @@ speculation and should not be put to Larry.
    question (#2) from a new direction — a named man whose 1964 assignment is documented would
    name Larry's unit.
 
+## Check 2 — the full U.S. casualty file (2026-09-12). NEGATIVE.
+
+*Added 2026-09-14 from `research/units/18th-aod-stars-and-stripes-1964.md` ("Tensions", 1) and
+commit `c1acaf0`, so the person record's stale "next step" could be replaced with the result.*
+
+The whole DCAS file (the PalmBeachPost `vnusreport.txt` copy, all ~58,000 U.S. dead) was read for
+the surname on 2026-09-12: **all 13 Hanna and Hannah entries**. As recorded there, the only 1968
+officer among them is a Marine infantry second lieutenant (the 1968 warrant-officer pilot of Check
+1 aside, already ruled out on age). Places of death for the other entries were not written down,
+so "none died at Kontum" is not established; "none fits a pilot of Larry's unit" is. The pass was
+run for a different reason (a first name printed in a held 1964 item, which stays in
+`research/units/` and out of every record), but it covers Check 1's "next check 1" for the two
+spellings Hanna and Hannah. **Not covered:** Hana, Hanner, and any non-U.S. or non-fatal record.
+
+What remains is in "What
+could still be true" above, plus the reading that the death belongs to another man whose name
+Larry later attached to the pilot he knew.
+
 ## For Larry
 
 Ask open, once the sweep is done, and never with a candidate name: *"Hanna — do you remember his

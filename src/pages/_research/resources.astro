@@ -1,6 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { withBase } from '../../lib/paths';
+
+// Parked 2026-09-14 (research/site-audit-2026-09-14.md) and rewritten the same day so that
+// restoring it is a rename. Where a resource has been used, say what it turned up and when,
+// negatives included, rather than how to search it. Name no candidate unit and no person
+// whose identity is an open question to Larry; link no parked section but research/sources.
 ---
 
 <BaseLayout title="Online resources">
@@ -8,10 +13,10 @@ import { withBase } from '../../lib/paths';
   <h1>Online resources</h1>
   <p class="lede">
     Public resources on the web that can move the <a href={withBase('/research/')}>open
-    questions</a> forward, grouped by cost. The two most decisive record sets — Larry's
-    personnel file and unit morning reports — are <em>not</em> online anywhere; those come only
-    by written request to the National Personnel Records Center, and are tracked in the
-    project's research issues.
+    questions</a> forward, grouped by cost, with what each has turned up so far. The two most
+    decisive record sets — Larry's personnel file and unit morning reports — are <em>not</em>
+    online anywhere; those come only by written request to the National Personnel Records
+    Center (see the end of this page).
   </p>
 
   <h2>Free</h2>
@@ -22,12 +27,11 @@ import { withBase } from '../../lib/paths';
       <p>
         Over 672,000 digitized items &mdash; some four million pages &mdash; free to search and
         download: unit records, after-action reports, period military maps, photographs, and
-        oral histories. The richest single place to look for candidate units in the
-        <a href={withBase('/units/')}>118th question</a>, for Nha Trang and
-        Núi Bà Đen in 1964&ndash;65, for period maps bearing on
-        <a href={withBase('/places/thom-son-nuht/')}>&ldquo;Thom Son Nuht,&rdquo;</a> and for
-        names like <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a> in
-        digitized paperwork.
+        oral histories. The richest single place to look for period material on T&acirc;y Ninh
+        and N&uacute;i B&agrave; &#272;en in 1964&ndash;65. Several of the documents cited on
+        <a href={withBase('/sources/')}>Sources</a> came from it in September 2026: the Special
+        Forces camp lists and order of battle, the provincial reports for July to September 1965,
+        and the index of positions below.
       </p>
       <p>
         Three things the archive's own reference staff told us in September 2026, which are not
@@ -47,14 +51,12 @@ import { withBase } from '../../lib/paths';
       <p>
         Behind the <em>Maps</em> tab of the archive above, a search form built for cartography
         &mdash; latitude and longitude, grid zone, scale, sheet number &mdash; over the U.S.
-        Army&rsquo;s wartime 1:50,000 topographic sheets of
-        Vietnam, downloadable as high-resolution PDFs, with a companion 1:25,000 pictorial
-        series that staff will email on request by sheet number. These are the maps the men on
-        the ground actually used, which makes them the right tool for a place remembered only
-        by its sound or its shape &mdash; the hamlets around
-        <a href={withBase('/places/nui-ba-den/')}>Núi Bà Đen</a>, the airfields behind
-        <a href={withBase('/places/thom-son-nuht/')}>&ldquo;Thom Son Nuht,&rdquo;</a> a fort on
-        the back side of a mountain. A veteran-compiled
+        Army&rsquo;s wartime 1:50,000 topographic sheets of Vietnam, downloadable as
+        high-resolution PDFs, with a companion 1:25,000 pictorial series that staff will email on
+        request by sheet number. These are the maps the men on the ground actually used. The
+        sheet covering N&uacute;i B&agrave; &#272;en and T&acirc;y Ninh was downloaded on 1
+        September 2026; the copy online is a 1970 revision, so it shows the ground five years
+        after Larry&rsquo;s tour, not during it. A veteran-compiled
         <a href="https://www.vietnam.ttu.edu/virtualarchive/items.php?item=25720206001">index of
         fire support bases and landing zones</a> converts many wartime place names into sheet
         numbers and coordinates.
@@ -65,12 +67,10 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://www.virtualwall.org/">The Virtual Wall</a></h3>
       <p>
         Memorial pages for every name on the Vietnam Veterans Memorial, browsable by unit of
-        assignment (unit data derived from the volunteer-researched Coffelt Database). Two uses here:
-        searching spelling variants of <a href={withBase('/people/sgt-lowry/')}>Sgt.
-        Lowry</a> and <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a>, and
-        browsing Special Forces losses in the Núi Bà Đen / Tây Ninh area. A miss is
-        information too — it suggests the man survived the war, pointing research toward
-        association rosters instead.
+        assignment (unit data derived from the volunteer-researched Coffelt Database). The names
+        behind it come from the national casualty file, which this project searched directly
+        (see the National Archives, below), so the Wall adds context and remembrance rather than
+        new names.
       </p>
     </li>
     <li>
@@ -78,33 +78,19 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://www.vvmf.org/Wall-of-Faces/">Wall of Faces</a></h3>
       <p>
         The Vietnam Veterans Memorial Fund's photo-and-remembrance page for each of the 58,000+
-        names. Complements the Virtual Wall for name searches, and posted remembrances
-        sometimes reach family members and unit-mates — a quiet outreach channel.
-      </p>
-    </li>
-    <li>
-      <p class="record">Veterans association &middot; unit history &middot; live</p>
-      <h3><a href="http://www.118ahc.us/">118th Assault Helicopter Company association</a></h3>
-      <p>
-        The &ldquo;Thunderbirds&rdquo; association site lives on at 118ahc.us (the old .org
-        domain was taken over by an unrelated spam operator — use the .us address). The site
-        preserves unit history — including a dedicated page for the 118th Aviation Company
-        (AML) period, 1963&ndash;65 — member stories, and photographs, and a
-        companion history page at the <a href="https://www.145thcab.com/unit-htms/118ahc.htm">145th
-        Combat Aviation Battalion site</a> is still live. Directly relevant to whether Larry's
-        remembered &ldquo;118th AOD&rdquo; connects to the 118th Aviation Company
-        (Bien Hoa, 1963&ndash;65); for reaching men who served, the 145th CAB site and the VHPA
-        below are the live channels.
+        names. Posted remembrances sometimes reach family members and unit-mates &mdash; a quiet
+        outreach channel.
       </p>
     </li>
     <li>
       <p class="record">Veterans association &middot; outreach</p>
       <h3><a href="https://tsna.org/">Tan Son Nhut Association</a></h3>
       <p>
-        Association of veterans who served at Tân Sơn Nhứt — predominantly Air Force, though
-        the base hosted Army personnel too — with guestbooks and bulletin boards. If &ldquo;<a href={withBase('/places/thom-son-nuht/')}>Thom Son Nuht</a>&rdquo;
-        is a phonetic memory of Tân Sơn Nhứt — the leading hypothesis — this is both a way to
-        test it and a channel for finding men who were there in 1964&ndash;65.
+        Association of veterans who served at T&acirc;n S&#417;n Nh&#7913;t &mdash; predominantly
+        Air Force, though the base hosted Army personnel too &mdash; with guestbooks and bulletin
+        boards. If &ldquo;Ton Son Nuht,&rdquo; as Larry spells it, is T&acirc;n S&#417;n
+        Nh&#7913;t &mdash; the leading hypothesis &mdash; this is a way to test it and a channel
+        for finding men who were there in 1964&ndash;65.
       </p>
     </li>
     <li>
@@ -112,21 +98,28 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://history.army.mil/">U.S. Army Center of Military History</a></h3>
       <p>
         Free official histories of the war, including the airmobility volumes that trace the
-        aviation build-up — the 14th Aviation Battalion's move to Nha Trang in October
-        1964 and the 1st Cavalry Division's advance party staging through Nha Trang in August
-        1965, both of which bear on <a href={withBase('/units/')}>the unit question</a>. The Air Force and
-        Marine Corps history offices likewise publish free PDFs of the volumes cited on the
+        Army aviation build-up in 1964&ndash;65 and, with the Army Medical Department, the
+        medical volumes that document the hospitals in Japan. The Air Force and Marine Corps
+        history offices likewise publish free PDFs of the volumes cited on the
         <a href={withBase('/sources/')}>Sources</a> page.
       </p>
     </li>
     <li>
-      <p class="record">Government archive catalog</p>
+      <p class="record">Government archive catalog &middot; casualty file</p>
       <h3><a href="https://catalog.archives.gov/">National Archives Catalog</a></h3>
       <p>
         Finding aids and a growing body of digitized series, including Record Group 472
-        (Records of the U.S. Forces in Southeast Asia, 1950&ndash;1975 — MACV and all
-        services). The place to scope what exists before requesting unit records — and
-        to learn box-level citations a researcher at College Park would pull.
+        (Records of the U.S. Forces in Southeast Asia, 1950&ndash;1975 — MACV and all services).
+        The place to scope what exists before requesting unit records; a request in that record
+        group has been drafted and not yet sent.
+      </p>
+      <p>
+        The National Archives also publishes the national file of American fatal casualties of
+        the war as a free download. Searched in September 2026: <strong>no Hunnewell, in any
+        spelling, anywhere among the American dead</strong>, and no Lowry, Lowery or Lowrey who
+        died in 1964&ndash;65 in a way that could be the sergeant Larry remembers. The same file
+        was used to check the <em>Stars and Stripes</em> casualty lists of autumn 1965 name by
+        name.
       </p>
     </li>
     <li>
@@ -143,13 +136,9 @@ import { withBase } from '../../lib/paths';
 
   <h2>Search by name</h2>
   <p>
-    Sites built to be queried by a person's name — for Larry himself, for named soldiers like
-    <a href={withBase('/people/captain-guegler/')}>Captain Guegler</a> and
-    <a href={withBase('/people/sgt-lowry/')}>Sgt. Lowry</a>, and for the families and unit-mates
-    who might still be reached. The casualty pages above (the
-    <a href="https://www.virtualwall.org/">Virtual Wall</a> and
-    <a href="https://www.vvmf.org/Wall-of-Faces/">Wall of Faces</a>) are name-searchable too;
-    these add the living, the buried, and the printed record.
+    Sites built to be queried by a person's name — for Larry himself, for the men he names, and
+    for the families and unit-mates who might still be reached. The casualty pages above are
+    name-searchable too; these add the living, the buried, and the printed record.
   </p>
   <ul class="resource-list">
     <li>
@@ -159,10 +148,8 @@ import { withBase } from '../../lib/paths';
         The largest free genealogy service, run by the LDS Church. Name-searchable across
         censuses, the Social Security Death Index, obituaries, and U.S. military collections —
         the free counterpart to <a href="https://www.ancestry.com/">Ancestry</a> below. Its
-        Korean/Vietnam Military Index lists the war dead by name with rank, service number, and
-        Vietnam Veterans Memorial plaque number; some record sets are viewable only from a
-        FamilySearch Center or affiliate library. First stop for tracing Larry's family line or
-        pinning down a surname like Guegler.
+        Korean/Vietnam Military Index lists the war dead by name; some record sets are viewable
+        only from a FamilySearch Center or affiliate library.
       </p>
     </li>
     <li>
@@ -170,10 +157,10 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://www.findagrave.com/memorial/search">Find a Grave</a></h3>
       <p>
         Over 230 million memorials, searchable by name with no login. A memorial typically
-        carries the birth and death dates, a headstone photo, the obituary text, and links to
-        the spouse, parents, and children buried nearby — often the fastest way from a name to a
-        living family. As with the Virtual Wall, a miss is information too: no grave for a man
-        Larry served with points away from a wartime death and toward the veteran registries below.
+        carries the birth and death dates, a headstone photo, and the obituary text. In August
+        2026 it was the first record to connect the name Larry remembers as &ldquo;Ron
+        Tototz&rdquo; to the spelling his family used, Totosz. A miss is information too: no
+        grave for a man Larry served with points away from a wartime death.
       </p>
     </li>
     <li>
@@ -182,9 +169,8 @@ import { withBase } from '../../lib/paths';
       <p>
         The National Cemetery Administration's search of veterans buried in VA national, state,
         and military cemeteries — plus private graves bearing a government marker. Search by name,
-        including alternate spellings, which suits the uncertain spellings of &ldquo;Guegler&rdquo;
-        and Lowry/Lowery. Returned data varies by source, but a hit confirms the death and points
-        to the cemetery to contact for more.
+        including alternate spellings. A hit confirms a death and points to the cemetery; a miss
+        says only that the man is not in a VA-marked grave.
       </p>
     </li>
     <li>
@@ -193,11 +179,9 @@ import { withBase } from '../../lib/paths';
       <p>
         A veteran-built directory of 2.5&nbsp;million-plus members across all branches, WWII to
         present, where veterans record their service history by unit and dates. Free to join;
-        free members can look up and contact five people a month. Search by unit keyword and
-        years to surface Army men who served in the same place and time — a live channel for
-        reaching anyone who served alongside Larry. (<a href="https://www.vetfriends.com/">VetFriends</a>
-        is a similar registry, but searching it requires a paid membership, so it belongs with
-        the paid tools below.)
+        free members can look up and contact five people a month. A live channel for reaching
+        anyone who served alongside Larry. (<a href="https://www.vetfriends.com/">VetFriends</a>
+        is a similar registry, but searching it requires a paid membership.)
       </p>
     </li>
     <li>
@@ -217,11 +201,10 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://chroniclingamerica.loc.gov/">Chronicling America</a></h3>
       <p>
         The Library of Congress's free, name-searchable archive of digitized American newspapers.
-        Coverage runs only <em>through 1963</em>, so it will not hold the 1965 killed-in-action
-        report — for that, the paid <em>Stars and Stripes</em> archive below is the tool. Its use
-        here is earlier and local: enlistment notices, hometown items, and family mentions. Its
-        companion Directory of U.S. Newspapers (1690&ndash;present) also helps identify which
-        hometown paper to chase down elsewhere for 1965.
+        Coverage runs only <em>through 1963</em>, so it cannot hold the 1965 killed-in-action
+        report. Its use here is earlier and local: hometown items and family mentions. Its
+        companion Directory of U.S. Newspapers (1690&ndash;present) helps identify which hometown
+        paper holds what, and where its microfilm is kept.
       </p>
     </li>
   </ul>
@@ -233,9 +216,23 @@ import { withBase } from '../../lib/paths';
       <h3><a href="https://www.stripes.com/help/archives-faq/">Stars and Stripes historic archives</a></h3>
       <p>
         Every Pacific edition 1948&ndash;1999, digitized and keyword-searchable via
-        NewspaperArchive. The direct route to the erroneous killed-in-action report: search the
-        surname and near-misspellings across Pacific editions of roughly July&ndash;September
-        1965. A single day pass may be enough for a first pass.
+        NewspaperArchive. Used from August to September 2026 for the killed-in-action report.
+        <strong>What it turned up: nothing naming Larry.</strong> The name Hunnewell and eleven
+        ways a scan can garble it return no hits in 1964&ndash;66, and every Vietnam casualty list
+        the Pacific edition printed from September to December 1965 was found and read by eye;
+        none names him. Keyword search alone could not have settled this: casualty lists are
+        columns of small type that text recognition garbles, which is why the lists were read
+        page by page.
+      </p>
+    </li>
+    <li>
+      <p class="record">Newspaper archive &middot; subscription</p>
+      <h3><a href="https://www.newspapers.com/">Newspapers.com</a></h3>
+      <p>
+        A large archive of American local papers. Searched on a trial in August 2026: no item
+        about Larry in any paper it holds for 1962&ndash;66. It does not carry Pacific <em>Stars
+        and Stripes</em>, and it does not carry the Inglewood hometown paper, whose 1965
+        issues have not been found in digitised form or yet searched on microfilm.
       </p>
     </li>
     <li>
@@ -260,12 +257,15 @@ import { withBase } from '../../lib/paths';
 
   <h2>What is not online</h2>
   <p>
-    Larry's Official Military Personnel File and DD-214 must be requested from the National
-    Personnel Records Center with his signature, and company morning reports — the top of this
-    project's <a href={withBase('/research/')}>source priorities</a> — exist only on microfilm
-    at the same records center. Both requests are tracked as research issues in the
-    repository. Everything on this page is a way to make progress while that mail is in
-    flight, and to know exactly what to ask for when it arrives.
+    Larry's service file and his hospital records from Japan exist only at the National
+    Personnel Records Center, and come only by a request the veteran signs. The family's own
+    copy of his DD-214 turned up in August 2026; it names his last assignment, in Japan, but not
+    his unit in Vietnam. His signed request (Standard Form 180) was mailed on 17 August 2026, and
+    the certified-mail receipt came back in September; no reply has arrived yet, and none is
+    expected soon. Company morning reports &mdash; the top of this project's
+    <a href={withBase('/research/')}>source priorities</a>, naming each man day by day &mdash;
+    are on microfilm at the same records center and can be asked for once his file names his
+    unit.
   </p>
 
   <p><a href={withBase('/research/')}>&larr; Research</a></p>

@@ -1,12 +1,13 @@
 {
-  "title": "Leaves Vietnam — medical evacuation",
-  "sortDate": "1965-09-05",
-  "displayDate": "About early September 1965",
+  "title": "Leaves Vietnam, sick — medical evacuation",
+  "sortDate": "1965-08-29",
+  "displayDate": "Late August or early September 1965",
   "datePrecision": "approximate",
   "category": "larry-movement",
-  "description": "Larry's Vietnam service ended around early September 1965, roughly a year after it began — and by his own account it ended with a medical evacuation. Seriously ill with what was likely hepatitis, plus malaria and infections, he was flown out of Vietnam to an Army medical command in Japan rather than straight home. The exact departure date and the evacuation route have not yet been established from records.",
-  "researchNotes": "The DD-214 shows he did not come straight home: his last duty assignment was an Army medical command in Japan (USARJ), and his foreign service ran until separation at Oakland on November 30, 1965. In the 2026-08-12 phone call he confirmed the Japan move was a medical evacuation and placed his arrival in Japan in early September. The exact Vietnam departure date and the medevac chain (in-country hospital? evacuation flight?) should be in the NPRC personnel file. 2026-09-03: he offered 3 September 1965 for Camp Zama, 'may have been'. 2026-09-05 (paraphrase, data/recollections/giscus-stories-c18306894.json): he was flown out 'after 2-3 days of seeing the hundreds of camp fires' — an elapsed-time answer from the mountain end that sits inside the same fortnight as the Zama date and the archive's derivation. The chain now runs: campfire nights ~23–26 Aug → flown off the mountain ~25–27 Aug → jaundice diagnosed at headquarters → Subic Bay → Camp Zama ~3 Sept. Every link but the DD-214 is his memory.",
-  "confidence": "unverified-recollection",
-  "relatedPeople": ["larry-dennis-hunnewell"],
+  "description": "Larry's year in Vietnam ended with a medical evacuation. By his account, Captain Geutler came for him on the mountain and dropped off Sgt. Weaver; back at the base a medic told him he had yellow jaundice; and he was moved by stages — to Cholon, then to Subic Bay in the Philippines, then to the Army hospital at Camp Zama, Japan. He was in and out of consciousness along the way. His DD-214 bears out that he left Vietnam as a patient: his last duty assignment was as a patient held on the rolls of the Army medical command in Japan. The day he left and the stops along the way are his memory; no travel or clinical record has been seen.",
+  "researchNotes": "2026-09-14: made distinct from the Camp Zama entry (1965-fall-japan-medical-command), which covers his time as a patient in Japan; this entry is leaving Vietnam. Confidence raised to strongly-supported to match it, for the part both rest on: the DD-214 (cited) shows he finished his service on a medical holding detachment in Japan, which only a patient is on, and box 27 reads NONE for wounds. The dates and route are his memory and are rated by datePrecision, not by the badge. His accounts: giscus-stories-c18259364 (2026-09-02, transcribed: Geutler, Weaver, the medic trailer, Cholon, Subic Bay, Camp Zama), giscus-stories-c18006833 (2026-08-13, jaundice, \"medivac out a couple days later\"), giscus-stories-c18118868 (2026-08-22, the Philippines), 2026-09-03-phone-camp-zama-date (paraphrase, Camp Zama \"may have been 9/3/1965\"). displayDate and sortDate come from working his chain back from that date; the derivation, and why no day counts render, are in research/events/medevac-chain-1965.md. The AMEDD history's general 1965 route via Clark AB is not cited here: he names Subic Bay. Record paths not yet searched: NPRC clinical records (Subic Bay and Camp Zama by name). Ledger #1, #7, #10.",
+  "confidence": "strongly-supported",
+  "relatedPlaces": ["nui-ba-den", "thom-son-nuht", "japan"],
+  "relatedPeople": ["larry-dennis-hunnewell", "captain-guegler", "sgt-weaver"],
   "sources": ["dd214-1965"]
 }

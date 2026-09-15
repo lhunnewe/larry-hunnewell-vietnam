@@ -3,10 +3,10 @@
   "aliases": [
     "Lewis"
   ],
-  "role": "Pilot Larry once named for Rosethorn 007; no longer tied to a photograph",
+  "role": "A pilot's name Larry remembers",
+  "summary": "A name Larry remembers from flying. On 2026-08-15, at VN-0016, he wrote: \"This is major Lewis. We are flying in Aircraft Rosethorn 007.\" On 2026-09-12, looking at the same photograph, he read another name on the man's helmet and said \"Lewis must be somebody else.\" Both statements are his. No photograph of Major Lewis has been identified.",
   "status": "unresolved",
-  "summary": "A pilot Larry named on 2026-08-15 as the man at the controls in VN-0016, aboard the helicopter with call sign Rosethorn 007, on which he flew marathon days, once 4 a.m. to 11 p.m., refueling at Qui Nhơn. On 2026-09-12, looking at that photograph again, Larry read the name on the helmet of the man looking back at the camera and withdrew it: \"oh his last name is Estes, I was thinking his name was Lewis… Lewis must be somebody else.\" Both statements are his. The frame now names Estes, and Major Lewis is a name Larry remembers without a face or a photograph.",
-  "researchNotes": "A field-grade aviation officer is comparatively findable once the unit is settled — majors appear in unit histories and flight-operations records. Identity notes and open questions: research/people/major-lewis.md. 2026-09-12: withdrawn from VN-0016 by Larry himself, on reading the helmet (data/recollections/giscus-vn-0016-c18415765.json; see data/people/estes.json for how the reading came about). \"Lewis must be somebody else\" is his inference, not a memory of a second man, so this record is kept rather than deleted: the name came from him, and whether a Lewis flew with the unit is still open. What was once \"the pilot of Rosethorn 007\" is now only a remembered surname.",
+  "researchNotes": "Hidden from the people index (a template constant) because nothing more is known than the name. Withdrawn from VN-0016 by Larry himself on 2026-09-12 (data/recollections/giscus-vn-0016-c18415765.json). \"Lewis must be somebody else\" is his inference, not a memory of a second man, so this record is kept: the name came from him, and whether a Lewis flew with his unit is still open (issue #63). Identity notes and the helmet reading: research/people/major-lewis.md. A field-grade aviation officer is comparatively findable once the unit is settled; majors appear in unit histories and flight-operations records. Unlinked 2026-09-14 from giscus-vn-0071-c18307905, which names Rosethorn 007 but not Lewis.",
   "confidence": "unverified-recollection",
   "relatedPlaces": [],
   "sources": []

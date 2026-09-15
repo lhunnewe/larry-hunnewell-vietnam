@@ -1,0 +1,12 @@
+{
+  "title": "Promoted to Specialist 4",
+  "sortDate": "1965-05-15",
+  "displayDate": "May 15, 1965",
+  "datePrecision": "exact",
+  "category": "larry-movement",
+  "description": "Larry was promoted to Specialist 4 (E-4) on May 15, 1965, during his year in Vietnam. It was the grade he held when he left the Army.",
+  "researchNotes": "Added 2026-09-14 (the site audit listed the DD-214 promotions as missing from the timeline). Date of rank from DD-214 item 3b as read on the clear scan of 2026-08-15; the 2026-08-10 photo transcription had read May 13 (research/records-request/dd214-findings.md, \"Clear-scan corrections\"). \"During his year in Vietnam\" rests on the DD-214 foreign-service total and his own account of leaving in late August or early September 1965, not on a document placing him in Vietnam that day.",
+  "confidence": "confirmed",
+  "relatedPeople": ["larry-dennis-hunnewell"],
+  "sources": ["dd214-1965"]
+}

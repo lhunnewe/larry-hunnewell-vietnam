@@ -708,7 +708,9 @@ Open questions:
    Transport"`, `"118th Aviation"`, `"145th Aviation"`, `"14th Aviation"` produce nothing
    new, leaving **Clyde S. Gudermuth** (127743, 1964–67, 1st Platoon, 118th AHC, 145th Avn
    Bn) still the only man in ~99,000 collections inside the 118th or the 145th during Larry's
-   window. And `"flight following"` — the phrase Larry uses for his own work — returns
+   window. And `"flight following"` — the trade's own term for his work (*correction
+   2026-09-14: not a phrase Larry uses; no recollection has it, and his own word is "flight
+   controller"*) — returns
    **zero hits** across the entire Veterans History Project, which is a small independent
    sign of how thinly this trade and period are recorded anywhere.
    research/units/callsigns-and-units.md; research/people/vhp-sweep-2026-09-01.md.*
@@ -1411,6 +1413,15 @@ Open questions:
     browser-gated** (AAD `dt=1806` and DMDC both re-confirmed 2026-09-09 to return only a shell
     page to `curl`) — but note the likely yield: if no unrecovered body and no drowning fits, an
     MOS filter will probably confirm the same absence rather than break it.*
+    *2026-09-14 — **a tension in his own words, recorded, not reconciled.** On 2026-09-02/03 he
+    called the drowned man "**our medic for my unit**"; on 2026-09-13, describing the outfit, he
+    said "**Our Unit was so small, I don't think we even had a medic.**" (both transcribed;
+    `giscus-vn-0021-c18259987.json`, `2026-09-13-phone-the-outfit.json`). Readings, none
+    preferred: the medic served the men he lived and worked with but belonged to the larger host
+    company; "medic" is a gloss for an aidman; or the two memories are of different periods (the
+    first weeks at Nha Trang against Tan Son Nhut). **Not to be put to him as a contradiction.**
+    The Kansas-or-Nebraska question in the guide stands as written. Found by the 2026-09-14
+    records cleanup; the photo-page write-up is in `research/photos/held-from-records-2026-09-14.md`.*
 15. **Ron Tototz's real identity** — now the archive's most promising person-search.
     Anchors from 2026-08-15: hometown **Des Moines, Iowa** (VN-0025 comment) and death
     **about ten years ago** (~2013–2019, stories comment). An Iowa obituary search for a

@@ -14,6 +14,20 @@ minimal site"). Nine sections were parked rather than fixed. **This file is the 
 bringing each one back.** Private details the audit found are described here by field, not
 repeated.
 
+**Cleanup, same day (later).** Four passes worked this list over the records and the parked
+templates (people and places; timeline, story and units; research, sources and glossary;
+photographs, drawings and film). Each pass's own change log is in
+`research/people/records-cleanup-2026-09-14.md`, `research/places/records-cleanup-2026-09-14.md`,
+`research/photos/held-from-records-2026-09-14.md`, `research/events/` and the commit body.
+**Restore test, 2026-09-14:** all nine parked sections renamed back, built to a scratch folder, and
+run through `check-published.mjs` with no parked sections: 212 pages, **no probe term, privacy
+pattern, held text or parked link on any page**. The only failures are the 27 source `notes`
+fields on `/sources/`, which the check still lists as parked. Taking `sources: ['notes']` out of
+`PARKED_FIELDS` is the decision to make before `/sources/` returns; likewise people/place
+`summary` and timeline `description`, which the restored templates do not render yet. **The
+entries below are kept as the audit found them**; the passes' logs say what was fixed, skipped,
+or found wrong.
+
 Rule-6 scope checked and clean at audit time on every page: the 24 Oct 1964 Stars and Stripes
 caption (names, roles, detachment), the 14 Aug 1964 Nui Ba Den helicopter loss, the Market
 research negatives. The leaks were elsewhere, below.

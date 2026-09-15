@@ -1,11 +1,11 @@
 {
   "name": "Rosie",
   "aliases": [],
-  "role": "Vietnamese woman who worked the door at the club",
+  "role": "Vietnamese woman who worked at the EM Club",
   "status": "unresolved",
-  "summary": "One of the Vietnamese girls at the club, who worked at the door. Larry remembers her by name — Rosie — and knows one more thing about her: she made it to America. There are no photographs of her in the collection.",
-  "researchNotes": "Which club is not yet established — ask Larry (a unit club at Tân Sơn Nhứt? somewhere in Saigon/Cholon?). 'She made it to America' suggests Larry learned of her later — worth asking how he knows, which could itself be a story. A refugee-era arrival under an anglicized name is a long-shot search without more detail.",
+  "summary": "One of the Vietnamese women at the club. On 2026-08-15 Larry said she \"worked at the door. She made it to America. Don't have pictures of her.\" On 2026-09-03 he called her the club's cashier: \"Cashier at the EM Club named Rosie made it back to the United States also.\" The same day, at VN-0154: \"This might be Rosie. I'm not sure who it is. Rosie were red a lot and was always dressed nice and clean.\"",
+  "researchNotes": "Corrected 2026-09-14 after research/site-audit-2026-09-14.md: this record said there were no photographs of her and that she worked the door, from the 2026-08-15 comment alone (giscus-stories-c18033934). On 2026-09-03 he placed her as the cashier at the EM Club (giscus-vn-0155-c18260090) and said VN-0154 might be her, unsure (giscus-vn-0154-c18260101). Both jobs are kept as given. The EM Club he places about 50 yards from his hooch at the base he calls Ton Suhn Nhut. How he knows she made it to America is open (interview guide, tier 4). A refugee-era arrival under an anglicized name is a long-shot search without more.",
   "confidence": "unverified-recollection",
-  "relatedPlaces": [],
+  "relatedPlaces": ["thom-son-nuht"],
   "sources": []
 }

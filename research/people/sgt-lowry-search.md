@@ -116,3 +116,47 @@ spend the same ten minutes.
       avenue: he is presumptively alive, and the whole national roll has now been checked.
 - [ ] Nothing here should be put to Larry. He has already given everything he has on the name,
       and the 2026-09-02 roster-rock question came back a clean negative.
+
+## Character remarks moved out of the person records (2026-09-14)
+
+**Research note, 2026-09-14.** During the people/places clean-up after
+`research/site-audit-2026-09-14.md`, a remark about Lowry's drinking was taken out of
+`data/people/sgt-lowry.json` and `data/people/gagne.json` (`researchNotes` in both, as they stood
+at commit `aeaf73d`) and kept here. Lowry and Gagne are unidentified men who may be alive; a
+personal remark about either does not belong in a record that will render on a page. Whether it
+goes back is the family's decision.
+
+Source, Larry's words as typed (transcribed, `data/recollections/giscus-stories-c18259589.json`,
+2026-09-02/03, answering a question about Gagne):
+
+> He did seem to care much for Lowry. Lowry was an alcoholic and Gagne didn't seem to drink much
+> that I noticed.
+
+Moved from `sgt-lowry.json` (verbatim):
+
+> Larry separately describes him as an alcoholic (data/recollections/giscus-stories-c18259589.json),
+> and describes Gagne as not getting on with him; that is character evidence from one man about
+> another and is held as such.
+
+Moved from `gagne.json` (verbatim):
+
+> Also recorded, and unresolved as written: "He did seem to care much for Lowry. Lowry was an
+> alcoholic and Gagne didn't seem to drink much that I noticed." The first sentence reads as
+> though a negation dropped out in typing, which would reverse its sense; it is quoted as given
+> and not repaired, and the relationship between these two men matters because Larry believes
+> Lowry is the likely source of the erroneous KIA report (see data/people/sgt-lowry.json).
+
+Note that the Lowry record's "describes Gagne as not getting on with him" reads the typed "did
+seem to care much" as a dropped negation; the words themselves say the opposite. Neither reading
+is established.
+
+That recollection is linked to no person record, so it renders on no person page. Linking it to
+`gagne` would put his "No - he did not die" correction on Gagne's page, and this remark with it.
+Also a family decision.
+
+## Stale line corrected in the person record (2026-09-14)
+
+`sgt-lowry.json` had "What remains: Special Forces rosters and unit records for Núi Bà Đen and
+Detachment B-32 in 1964-65". Replaced there with this file's 2026-09-09 result: the national
+casualty roll is closed for him, and the search is rosters and registries for the rotating
+groups, as above. Unit designations stay in this file, not the record.

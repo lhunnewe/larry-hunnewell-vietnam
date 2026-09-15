@@ -1,13 +1,15 @@
 {
   "title": "First two months at Nha Trang",
   "sortDate": "1964-09-02",
-  "displayDate": "About September - November 1964",
+  "displayDate": "About September–November 1964",
   "datePrecision": "approximate",
   "endDate": "1964-11-01",
   "category": "larry-recollection",
-  "description": "Larry remembers spending approximately his first two months in Vietnam at Nha Trang, on the south-central coast — a period when, in his words, \"they didn't know where to put us.\" Ron Tototz and Parr were there with him; VN-0025 is a snapshot from these weeks.",
+  "description": "Larry spent about his first two months in Vietnam at Nha Trang, on the south-central coast: \"we were there about 2 months, they didn't know where to put us.\" Ron Tototz and Parr were there with him. He calls it \"the most beautiful place you ever saw.\"",
+  "researchNotes": "His words: giscus-vn-0025-c18032317 (2026-08-15, \"Oct or Sept of 1964, we were there about 2 months, they didn't know where to put us\"), giscus-vn-0025-c18032311 (Parr \"was Nha Trang with me\" after they landed), giscus-vn-0022-c18032356 (Ron Tototz at the beach hut), giscus-vn-0018-c18415793 (2026-09-12). These recollections are linked to the photographs, not to this entry; the entry shows the photographs. 2026-09-14: relatedPhotos added and the photo number removed from the description. Which facility or unit he was attached to at Nha Trang is not known (data/places/nha-trang.json). The drowned medic is ledger #14 and is not stated here.",
   "confidence": "unverified-recollection",
   "relatedPlaces": ["nha-trang"],
   "relatedPeople": ["larry-dennis-hunnewell", "ron-tototz", "parr"],
+  "relatedPhotos": ["vn-0025", "vn-0022", "vn-0018"],
   "sources": []
 }

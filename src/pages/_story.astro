@@ -1,100 +1,64 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Recollection from '../components/Recollection.astro';
-import EvidenceBadge from '../components/EvidenceBadge.astro';
 import { withBase } from '../lib/paths';
+
+/*
+  Parked 2026-09-14 (research/site-audit-2026-09-14.md, "/story/"). Reduced the same day to a
+  short introduction built only from what his DD-214 documents and his own transcribed words
+  that answer no open interview question. No unit, no dates beyond the form's, no names of the
+  men he served with, nothing from the founding brief. Sources for each sentence:
+  - Drafted, inducted 28 Oct 1963; Signal school, 15 weeks, 1964, radio teletype operator;
+    PFC 29 Jun 1964; SP4 15 May 1965; Armed Forces Expeditionary Medal (Vietnam); last duty as a
+    patient under the Army medical command in Japan; released Oakland 30 Nov 1965, honorable:
+    data/sources/dd214-1965.json, research/records-request/dd214-findings.md.
+  - Fort Ord, Fort Gordon near Augusta: giscus-vn-0024-c18119890 (transcribed).
+  - Nha Trang quotations: giscus-vn-0025-c18032317, giscus-vn-0018-c18415793 (transcribed).
+  - The Mountain: 2026-09-01-phone-the-mountain-name; "I liked it there. It was safer there.":
+    giscus-vn-0044-c18259616 (transcribed).
+  - Camp Zama: giscus-stories-c18006833 (transcribed).
+  The timeline link needs /timeline/ restored first (or removed) — check-published fails on
+  links into parked sections.
+*/
 ---
 
 <BaseLayout title="Larry's Story">
-  <span class="eyebrow">The memoir</span>
+  <span class="eyebrow">An introduction</span>
   <h1>Larry's Story</h1>
 
   <p class="lede">
-    What follows is Larry's year in Vietnam as he remembers it. Almost everything on this page is
-    classified <EvidenceBadge level="unverified-recollection" /> — not because it is doubted, but
-    because the project's work of matching memory to military records has only begun. As documents
-    surface, the <a href={withBase('/research/')}>research pages</a> will record what they show.
+    Larry Dennis Hunnewell was drafted into the U.S. Army in October 1963 and spent about a year
+    of his service in Vietnam. This page is a short introduction. The story itself is in his
+    own words, with the pictures he brought home.
   </p>
 
-  <h2>Drafted, and a choice at Fort Benning</h2>
   <p>
-    Larry Dennis Hunnewell was drafted into the U.S. Army, inducted on October 28, 1963. At Fort Benning, Georgia, he
-    faced a fork in the road: an assignment to Turkey, or Vietnam. He volunteered for Vietnam.
+    He was inducted at Los Angeles on October 28, 1963. He did basic training at Fort Ord,
+    California, and went on to radio school at Fort Gordon, Georgia, outside Augusta: a
+    15-week Signal course that made him a radio teletype operator. He was promoted to Private
+    First Class in June 1964.
   </p>
 
-  <h2>First months: Nha Trang</h2>
   <p>
-    His tour began around September 1964. He remembers spending roughly his first two months at
-    <a href={withBase('/places/nha-trang/')}>Nha Trang</a>, the coastal city in south-central
-    Vietnam that hosted a growing complex of American military facilities.
+    He spent his first two months or so in Vietnam at Nha Trang, on the coast. In his words,
+    &ldquo;they didn't know where to put us&rdquo;. He calls it &ldquo;the most
+    beautiful place you ever saw&rdquo;. Later he served stints on a mountain he calls The
+    Mountain: &ldquo;I liked it there. It was safer there.&rdquo; He was promoted to
+    Specialist 4 in May 1965.
   </p>
 
-  <h2>Radio operator with the 118th AOD</h2>
-  <Recollection attribution="Larry's account, as related by his family">
-    He remembers his organization as the 118th AOD — Aviation Operations Detachment — a relatively
-    small organization of approximately 110 men, including radio operators and pathfinders. Some
-    personnel reportedly required special clearances.
-  </Recollection>
   <p>
-    Larry served as a radio operator, and he recalls an association with the 1st Cavalry. His
-    duties involved substantial helicopter travel; he remembers moving throughout Vietnam. He
-    remembers his Company Headquarters at a place whose name, written down as the family hears
-    him say it, comes out
-    <a href={withBase('/places/thom-son-nuht/')}>&ldquo;Thom Son Nuht&rdquo;</a> — possibly Tan
-    Son Nhut, the great air base beside Saigon, though that identification is still a hypothesis.
-    See <a href={withBase('/units/')}>Units</a> for what is being done to pin down the
-    organization itself.
+    He left Vietnam sick, and was a patient in Japan, at the Army hospital at Camp Zama, for the
+    rest of his service. He was honorably released from active duty at Oakland, California, on
+    November 30, 1965. His record lists the Armed Forces Expeditionary Medal for Vietnam.
   </p>
 
-  <h2>The Black Virgin Mountain</h2>
   <p>
-    Larry remembers being on or associated with
-    <a href={withBase('/places/nui-ba-den/')}>Núi Bà Đen</a>, the Black Virgin Mountain — the
-    lone peak rising near Tây Ninh. He may have called it something like &ldquo;Sun
-    Mountain.&rdquo; He remembers a Special Forces
-    <a href={withBase('/people/sgt-lowry/')}>Sergeant Lowry or Lowery</a> who operated from its
-    summit.
-  </p>
-
-  <h2>The war grows around him</h2>
-  <p>
-    Larry's tour spanned the year the American war changed character. In March 1965 Operation
-    Rolling Thunder began the sustained bombing of North Vietnam, and the first Marine combat
-    units waded ashore at Da Nang. Larry also remembers controversy or stories about aircraft
-    dumping bombs into the ocean rather than attacking their intended targets — a recollection the
-    project is researching carefully against documented procedures, rules of engagement, and
-    period rumor.
-  </p>
-
-  <h2>Japan, August 1965: reported killed in action</h2>
-  <Recollection attribution="Larry's account, as related by his family">
-    Around August 1965, Larry was in Japan. He personally remembers seeing a notice or article in
-    <em>Stars and Stripes</em> saying he had been killed.
-  </Recollection>
-  <p>
-    He was, of course, alive to read it. How his name came to appear in a casualty report — a
-    clerical error, a mix-up with a similarly named soldier, something else — is the single most
-    important unresolved question in this archive. A captain whose name Larry remembers as
-    sounding like <a href={withBase('/people/captain-guegler/')}>&ldquo;Guegler&rdquo;</a> may be
-    connected to this period.
-  </p>
-
-  <h2>Home</h2>
-  <p>
-    Larry's Vietnam service ended around September 1965, a year after it began — the same month
-    the 1st Cavalry Division (Airmobile) was arriving in the highlands and the American war was
-    becoming something far larger than the one he had joined.
-  </p>
-  <p>
-    Sixty years on, Larry is going back through that year — looking at the
-    <a href={withBase('/photos/')}>157 photographs</a> he brought home and filling in what he
-    remembers. This page is the story so far, not the story finished.
-  </p>
-
-  <hr />
-  <p class="record">
-    Every memory above is preserved as given. Research findings are recorded separately and never
-    overwrite Larry's words. <a href={withBase('/research/')}>How the archive works &rarr;</a>
+    The <a href={withBase('/timeline/')}>timeline</a> puts what he remembers in order. Sixty
+    years on, he is going back through that year with the
+    <a href={withBase('/photos/')}>photographs</a> he brought home, the
+    <a href={withBase('/footage/')}>film</a>, and the <a href={withBase('/drawings/')}>drawings</a>
+    he has made from memory. If something comes back to you, you can
+    <a href={withBase('/memories/')}>tell a story</a>.
   </p>
 </BaseLayout>
 

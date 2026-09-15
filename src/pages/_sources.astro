@@ -2,6 +2,12 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+// Parked 2026-09-14 (research/site-audit-2026-09-14.md). The source records were cleaned the
+// same day for this page: title, citation and notes render here, so they carry no file paths,
+// no research apparatus, no private or health details, and nothing an interview question to
+// Larry is meant to draw out. Restoring needs one change outside this file: `sources: ['notes']`
+// must come out of PARKED_FIELDS in scripts/check-published.mjs, or every entry fails the check.
+
 const sources = (await getCollection('sources')).sort((a, b) =>
   a.data.title.localeCompare(b.data.title)
 );

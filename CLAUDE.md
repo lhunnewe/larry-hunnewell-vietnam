@@ -164,7 +164,7 @@ and provenance — not an edit to the old one.
 | You have | It goes in |
 |---|---|
 | Larry's words | `larrysRecollection` on the record, or a `data/recollections/` record with `fidelity` and `provenance` |
-| A drawing he made | `data/drawings/` with the next `VD-####`, the capture file unrenamed in `originals/`, every legible word on the sheet in `labels`, in capitals, spelled as written, and `provenance` saying what was not recorded. An inscription with any letter you cannot read stays out of `labels` whole and is noted in `description`. A word found later, or one he confirms, is added by editing the JSON outside the Edit tool, in a commit that says so |
+| A drawing he made | `data/drawings/` with the next `VD-####`, the capture file unrenamed in `originals/`, every legible word on the sheet in `labels`, in capitals, spelled as written, and `provenance` saying what was not recorded. An inscription with any letter you cannot read stays out of `labels` whole; `description` may say it exists, but its legible words and readings go only in `research/drawings/README.md`, never in a title. A word found later, or one he confirms, is added by editing the JSON outside the Edit tool, in a commit that says so |
 | A paraphrase of what he said | a recollections record with `fidelity: "paraphrase"` — never in `larrysRecollection` |
 | A report that would answer a question he has not yet been asked | the recollection record as usual, plus `hold` saying which question — it will not render |
 | Analysis, a hypothesis, a contradiction | `researchNotes` — but see rule 6 before writing it to a rendered field |
@@ -216,10 +216,14 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-- **Nine sections are parked with their problems unfixed** (`research/site-audit-2026-09-14.md`).
-  The records behind them still carry what the audit found — stale next-steps, the brief's
-  118th wording in summaries, privacy details in `data/people/ron-tototz.json` and
-  `data/sources/` — which matters again the moment a page is restored.
+- **Nine sections are parked, cleaned but not restored** (`research/site-audit-2026-09-14.md`).
+  A restore test passes except for the source `notes`, and the restored templates do not yet
+  render person/place `summary` or timeline `description`. Family decisions still open before
+  restoring: whether those fields render; the 450-civilians event on a page he browses; medical
+  details (`2026-call-japan-medevac.json` is held pending this); the UTT/68th source titles
+  while the unit question is open; and two public research files holding private family and
+  records detail (`research/people/hunnewell-family-newspapers.md`,
+  `research/records-request/dd214-findings.md`), which may belong in `private/`.
 - **The research page (now parked) listed six questions; the ledger holds thirty-eight.**
   Closing that gap is authorship, not bookkeeping: several ledger questions cannot be published
   as written without breaking rule 6.

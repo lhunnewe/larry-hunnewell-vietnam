@@ -58,3 +58,18 @@ give him "Master Sergeant Nham" first, his agreement proves nothing.
 - [ ] Nothing searched. Any search should wait for the answer above, for the same reason the
       Gagne search waited: a search run against the wrong form of a name produces a false
       negative that can stand for years.
+
+## Update, 2026-09-14 (status above is stale)
+
+*Added during the people/places clean-up after `research/site-audit-2026-09-14.md`, from the
+interview guide ("Answered", telephone call of 2026-09-03) and
+`data/recollections/2026-09-03-phone-the-interpreter.json` (paraphrase).*
+
+- [x] **Asked cold, 2026-09-03.** His son reports: rank unknown, "He doesn't know Vietnamese
+      ranks. He seemed more of a buddhist than a soldier. Phonetically he says something like
+      Trang-Zee-Nee-Yot-Na-Yong." **He did not separate a rank from the name**, so this is not the
+      independent confirmation the question was built to produce, and must not be written up as
+      one. The second rendering maps onto the same reading of the sounds.
+- [ ] **Search.** The guide records that the search may now proceed on the hypothesis (issue
+      #90). As of 2026-09-14 no documentary search is recorded in this file, the person record,
+      or the commits since 2026-09-01.

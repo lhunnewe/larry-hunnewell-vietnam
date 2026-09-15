@@ -17,12 +17,11 @@
   ],
   "depicts": "nui-ba-den",
   "description": "A plan drawn in pencil on a sketchbook page, shown with the spiral binding at the top. The words NUI BA DEN sit near the centre. Near the top edge is a box labelled FORT, with two smaller boxes drawn against the binding above it. To the left, the word GENERATORS is written above a rectangle enclosing a row of small arches. A long curved line sweeps from the top-left of the page down the left side, around the bottom, and up the right, enclosing most of the drawing; short lines at the upper left branch from it. In the lower centre a rounded shape is labelled HELI PAD, with several straight lines fanning downward from it toward the bottom edge. Right of centre is a small unlabelled box with a small oval mark inside it near its left side, and in the bottom-left corner a scribbled mark. Nothing on the sheet indicates scale, compass direction, or the slope.",
-  "researchNotes": "Two of the four labels are things he has already put on the mountain in words: the French fort at his radio position (VN-0009, 'the stone is the french fort, my radio was outside') and the helicopter pad where the trees were being felled (VN-0157). Generators had not been mentioned before this sheet; they are new testimony. The unlabelled box and the mark in the bottom-left corner are not interpreted here. His son reports two things said at this sheet (paraphrase recollections of 2026-09-05): at the generators, that he would change them or add gas to them when he was up there; at the fort, that Captain Kennedy slept there and sometimes he did too.",
+  "researchNotes": "One of the four labels is a thing he has already put on the mountain in words: the French fort at his radio position (VN-0009, 'the stone is the french fort, my radio was outside'). Generators had not been mentioned before this sheet; they are new testimony. The unlabelled box and the mark in the bottom-left corner are not interpreted here. His son reports two things said at this sheet, at the generators and at the fort (paraphrase recollections of 2026-09-05, 2026-09-05-drawing-generators and 2026-09-05-drawing-fort-kennedy); both are held from the site because they answer questions still to be put to him, and are not summarised here (research/drawings/README.md). 2026-09-14: the link to VN-0157 was removed with that photograph's story (research/photos/vn-0157.md).",
   "confidence": "unverified-recollection",
   "relatedPhotos": [
     "vn-0006",
-    "vn-0009",
-    "vn-0157"
+    "vn-0009"
   ],
   "relatedDrawings": [
     "vd-0001",

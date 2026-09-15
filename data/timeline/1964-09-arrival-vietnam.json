@@ -1,11 +1,11 @@
 {
   "title": "Arrives in Vietnam",
   "sortDate": "1964-09-01",
-  "displayDate": "About September 1964",
+  "displayDate": "About September–October 1964",
   "datePrecision": "approximate",
   "category": "larry-movement",
-  "description": "Larry's Vietnam service began around September 1964. His port of entry and initial assignment have not yet been established from records.",
-  "researchNotes": "His DD-214 credits 1 year, 1 month, 18 days of foreign service ending with separation on November 30, 1965. If that overseas service was continuous (Vietnam, then the Japan assignment), it began about October 12, 1964 — a few weeks later than the remembered September. The recollection stands as given; the NPRC file or travel records should settle the exact arrival date.",
+  "description": "Larry's year in Vietnam began in about September or October 1964. His first weeks were at Nha Trang, on the coast. The day he arrived and where he landed have not been found in a record.",
+  "researchNotes": "2026-09-14: displayDate widened from \"About September 1964\" to take in both kinds of evidence. His own words give September or October: \"Oct or Sept of 1964\" for the Nha Trang weeks (giscus-vn-0025-c18032317, 2026-08-15), and a camera bought \"about 3-weeks into Vietnam which would have been Oct of 1964\" (giscus-vn-0017-c18415788, 2026-09-12). The DD-214 (cited) credits 1 year, 1 month, 18 days of foreign service ending at separation on November 30, 1965; if that service was continuous (Vietnam, the Philippines and Japan), it began about October 12, 1964. sortDate is an ordering key only. The NPRC file or travel records should settle the day (SF-180 mailed 2026-08-17).",
   "confidence": "unverified-recollection",
   "relatedPeople": ["larry-dennis-hunnewell"],
   "sources": ["dd214-1965"]

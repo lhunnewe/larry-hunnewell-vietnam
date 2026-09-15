@@ -1,13 +1,14 @@
 {
-  "name": "Sgt. \"Chapman\"",
+  "name": "Sgt. Chapman",
   "aliases": [
-    "Chapman"
+    "Chapman",
+    "Sgt. \"Chapman\""
   ],
-  "role": "Sergeant first class (E7)",
+  "role": "Sergeant (E7), in charge of the van, Larry thinks",
   "status": "unresolved",
-  "summary": "A sergeant first class — \"a rank E7,\" Larry says — photographed shirtless beside Larry at the camp shower point (VN-0024): an older, powerfully built man with a graying crew cut. Larry first mentioned the name in an August 2026 phone call in a basic-training context; the photograph now places Chapman with Larry in Vietnam, so the basic-training association is either mistaken or a second chapter of the same acquaintance.",
-  "researchNotes": "The VN-0024 identification supersedes the basic-training working hypothesis — Chapman was in-country with Larry, rank E7, face clearly photographed. Ask Larry to reconcile the phone-call context: did he know Chapman from training AND Vietnam, or was the training association a mis-link? An E7's name is a good NPRC/morning-report target once the unit is settled. Unresolved question #8 updated. Resolved 2026-08-23 (giscus-vn-0024-c18119894): the basic-training association was a mis-link — \"He did not know Chapman in basic training. No one from basic training was in Vietnam with him.\" Chapman is therefore an in-country man only, an E7 in Larry's company, and the search narrows to unit morning reports rather than a training roster. 2026-09-12 (giscus-vn-0015-c18415735): Larry thinks VN-0015, him in the van at night, was \"taken at nighttime by Weaver or Chapman\". A second, hedged placement of Chapman with Larry's section in Vietnam. 2026-09-13 (data/recollections/2026-09-13-phone-chapman.json and -van-officer.json, transcribed, by telephone): Chapman ran the van. \"He was kind of in charge of the van and kind of in charge of scheduling, who would work what.\" Asked about an officer in charge, Larry said there was none: \"I think Sargeant Chapman was in charge of it. I never seen officers in there.\" Chapman also asked for volunteers for the mountain, because \"most of the guys didn't like going to the mountain at all.\" That fits the E7 rank Larry gives him. His son, who typed the call, adds that Larry seemed unsure who ran the van, since officers were never there, and may have been giving his best guess.",
+  "summary": "Photographed shirtless beside Larry in VN-0024, an older, powerfully built man with a graying crew cut: \"Sargent Chapman, he was a rank E7 and Me on the right.\" Asked on 2026-09-13 what Chapman did, Larry said: \"He was kind of in charge of the van and kind of in charge of scheduling, who would work what. Most of the guys didn't like going to the mountain at all. Chapman would ask who wanted to go to the mountain.\" Asked about an officer in charge of the van: \"I don't think we had one. I think Sargeant Chapman was in charge of it. I never seen officers in there.\" His son, who typed the call, adds that Larry seemed unsure who ran the van and may have been giving his best guess. Larry thinks the night-time picture of him in the van (VN-0015) was \"taken at nighttime by Weaver or Chapman.\"",
+  "researchNotes": "Resolved 2026-08-23 (giscus-vn-0024-c18119894, paraphrase): Larry did not know Chapman in basic training, \"No one from basic training was in Vietnam with him\", repeated in his son's report of 2026-09-13 (2026-09-13-son-no-one-from-training.json). An earlier phone-call note had put the name in a basic-training context; that was a mis-link, and it was removed from the summary on 2026-09-14 after research/site-audit-2026-09-14.md. Chapman is an in-country man only, an E7 in Larry's telling. 2026-09-12 (giscus-vn-0015-c18415735): a hedged placement with Larry in the van. 2026-09-13 (2026-09-13-phone-chapman.json and -van-officer.json, transcribed, by telephone): the van and scheduling, and the mountain postings going to volunteers. An E7's name is a good morning-report target once the unit is settled.",
   "confidence": "unverified-recollection",
-  "relatedPlaces": [],
+  "relatedPlaces": ["thom-son-nuht"],
   "sources": []
 }

@@ -1,7 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import EvidenceBadge from '../components/EvidenceBadge.astro';
 import { withBase } from '../lib/paths';
+
+// Parked 2026-09-14 (research/site-audit-2026-09-14.md) and rewritten the same day so that
+// restoring it is a rename. Before adding or rewording an open question below, check it
+// against the unresolved ledger (is it still open?) and the interview guide (does the wording
+// hand Larry any detail a question to him is meant to draw out?). Larry reads this page.
+// No evidence badges here: scripts/check-published.mjs fails on them, so the scale is words.
 ---
 
 <BaseLayout title="Research">
@@ -14,88 +19,92 @@ import { withBase } from '../lib/paths';
   </p>
 
   <h2>The evidence scale</h2>
-  <p>Every important claim carries one of five classifications:</p>
+  <p>Every important claim in the archive's records carries one of five classifications:</p>
   <dl class="scale">
     <div>
-      <dt><EvidenceBadge level="confirmed" /></dt>
+      <dt>Confirmed</dt>
       <dd>Established by contemporary documents or unambiguous records.</dd>
     </div>
     <div>
-      <dt><EvidenceBadge level="strongly-supported" /></dt>
+      <dt>Strongly supported</dt>
       <dd>Multiple independent lines of evidence point the same way.</dd>
     </div>
     <div>
-      <dt><EvidenceBadge level="plausible" /></dt>
+      <dt>Plausible</dt>
       <dd>Consistent with known facts; a working hypothesis, not a finding.</dd>
     </div>
     <div>
-      <dt><EvidenceBadge level="unverified-recollection" /></dt>
+      <dt>Unverified recollection</dt>
       <dd>Larry's memory, preserved as given, not yet matched to records.</dd>
     </div>
     <div>
-      <dt><EvidenceBadge level="contradicted" /></dt>
+      <dt>Contradicted</dt>
       <dd>Research disagrees with the memory. The memory is still preserved.</dd>
     </div>
   </dl>
 
   <h2>Asking Larry</h2>
   <p>
-    The fastest research tool this project has is a conversation over breakfast. The family
-    keeps a prioritized interview guide, photo by photo; his answers land on these pages in
-    his own words.
+    The best research tool this project has is Larry himself. What he tells the family, at the
+    table, on the telephone, or in the comment box under a photograph, goes into the archive in
+    his own words, with the date he said it. Anything he remembers is welcome, whenever it comes
+    back to him; <a href={withBase('/memories/')}>Tell a Story</a> is the place for anything that
+    does not belong to one picture.
   </p>
 
   <h2>The open questions</h2>
   <p>
-    These six would open the most doors. The working ledger tracks thirty-eight; the rest are
-    narrower, or are waiting on records already requested. Last reviewed
-    <time datetime="2026-09-12">12 September 2026</time>.
+    Six questions that would open the most doors. Many narrower ones are tracked alongside them,
+    and several wait on the service records the family has requested. Last reviewed
+    <time datetime="2026-09-14">14 September 2026</time>.
   </p>
   <ol class="questions">
     <li>
-      <strong>The killed-in-action report.</strong> In the autumn of 1965, convalescing at the
-      Army hospital at Camp Zama, Larry was told that <em>Stars and Stripes</em> had reported
-      him killed &mdash; and went looking for the paper. Find the item. No Hunnewell died in the
-      entire Vietnam War, so any casualty listing under that name is itself the error. The
-      newspaper databases and much of the <em>Stars and Stripes</em> archive have come back
-      empty; what remains is casualty lists that have to be read by eye, and the Inglewood
-      hometown paper, which is not digitised anywhere.
+      <strong>The killed-in-action report.</strong> In the autumn of 1965, in the Army hospital at
+      Camp Zama in Japan, Larry learned that <em>Stars and Stripes</em> had listed him as killed
+      in action, and saw his name in the paper's list of the dead. Find the item. No Hunnewell,
+      in any spelling, is among the American dead of the whole war (the national casualty file,
+      checked name by name in September 2026), so a casualty listing under his name is itself
+      the error. What has been searched and found nothing: the Pacific <em>Stars and
+      Stripes</em> for 1964&ndash;66, under his name and eleven ways a scan can garble it; every
+      Vietnam casualty list that paper printed from September to December 1965, read one by
+      one; and the American newspapers digitised on newspapers.com for 1962&ndash;66. Not yet
+      searched: the Inglewood hometown paper, which has not been found in digitised form.
     </li>
     <li>
-      <strong>The unit.</strong> Larry remembers the 118th AOD &mdash; Aviation Operations
-      Detachment. &ldquo;AOD&rdquo; turns out to be genuine period vocabulary, so the
-      designation may be right and simply undocumented at his level. He places his radio van on
-      the property of an 18th Aviation organisation, before 1st Cavalry aviation arrived &mdash;
-      which would explain the remembered Cavalry association as succession rather than
-      assignment &mdash; and remembers a 125th air traffic control unit taking over as he left.
-      Identify the outfit he served with. See <a href={withBase('/units/')}>Units</a>.
+      <strong>His unit.</strong> Larry's discharge paper names only his last assignment, in
+      Japan, not the outfit he served with in Vietnam. Identify it. His service file is the
+      record most likely to name it: the request to the National Personnel Records Center was
+      mailed on 17 August 2026, its delivery was confirmed in September, and no reply has come
+      yet.
     </li>
     <li>
-      <strong>&ldquo;Ton Son Nuht.&rdquo;</strong> Larry spelled it that way himself. Identify
-      the headquarters base he remembers; T&acirc;n S&#417;n Nh&#7913;t is the leading hypothesis
-      and is not yet confirmed. His spelling is phonetic, as you would expect of a name he only
-      ever heard. See <a href={withBase('/places/thom-son-nuht/')}>the place entry</a>.
+      <strong>&ldquo;Ton Son Nuht.&rdquo;</strong> Larry spelled it that way himself. Identify the
+      headquarters base he remembers; T&acirc;n S&#417;n Nh&#7913;t, outside Saigon, is the
+      leading hypothesis and is not yet confirmed. His spelling is phonetic, as you would expect
+      of a name he only ever heard.
     </li>
     <li>
-      <strong>Sgt. Lowry / Lowery.</strong> Identify the Special Forces sergeant Larry remembers
-      on top of N&uacute;i B&agrave; &#272;en &mdash; the man he ran around the old French fort to
-      warn, on the day of the &ldquo;450 civilians&rdquo; accusation. The camp&rsquo;s call signs
-      were boxing terms, a local scheme that appears in no published source; finding any sibling
-      term may locate the detachment. See <a href={withBase('/people/sgt-lowry/')}>his entry</a>.
+      <strong>Sgt. Lowry / Lowery.</strong> Identify the Special Forces sergeant Larry served
+      beside on N&uacute;i B&agrave; &#272;en, who ran the camp when Captain Kennedy was away. No
+      Lowry, Lowery or Lowrey among the American war dead could be him (the national casualty
+      file, checked September 2026), so he most likely came home. The search has moved from
+      memorials to Special Forces team rosters and veterans&rsquo; associations.
     </li>
     <li>
-      <strong>Captain &ldquo;Guegler.&rdquo;</strong> Larry has identified him in a photograph
-      and fixed what he did: the officer he called to get Rosethorn 007, the helicopter that came
-      for him off the mountain, and, he thinks, the pilot at the controls in VN-0016. Asked to
-      spell the name, Larry gave &ldquo;Geutler&rdquo;; the other spellings on file are ways
-      of writing down how it sounds. Identify him. See <a href={withBase('/people/captain-guegler/')}>his entry</a>.
+      <strong>Captain Geutler.</strong> That is Larry&rsquo;s own spelling. The officer he called
+      when he needed the helicopter Rosethorn 007, and the pilot who flew him off the mountain.
+      Larry has picked him out in a photograph, <a href={withBase('/photos/vn-0020/')}>VN-0020</a>.
+      Identify him. Searches so far, made under spellings the archive had before Larry spelled
+      the name himself, have not found him.
     </li>
     <li>
-      <strong>Bombs in the ocean.</strong> Larry remembers aircraft jettisoning bombs at sea.
-      Establish whether that was routine procedure for a bombed-up aircraft that could not land
-      heavy, a rule for aborted missions, a consequence of the political restrictions on targets,
-      or period rumour &mdash; naval air operations manuals and Seventh Fleet records would
-      settle it. This is the one question on this list with no research behind it yet.
+      <strong>Bombs in the ocean.</strong> Among the first things the family wrote down from
+      Larry&rsquo;s memories: stories of aircraft dumping bombs into the sea rather than dropping
+      them on their targets. Establish what lay behind them &mdash; routine procedure for aircraft
+      that could not land loaded, a rule for aborted missions, a consequence of limits on targets,
+      or rumour of the time. Naval air operations manuals and Seventh Fleet records would settle
+      it. No research has been done on this one yet.
     </li>
   </ol>
 
@@ -105,10 +114,9 @@ import { withBase } from '../lib/paths';
     operational and after-action reports, personnel records, contemporary <em>Stars and
     Stripes</em> issues, period maps and photographs, official casualty databases, and oral
     histories. Secondary histories inform context but do not override stronger contemporary
-    evidence. Citations accumulate in <a href={withBase('/sources/')}>Sources</a>, and working
-    notes live in the repository's <span class="record">research/</span> directory. A companion
+    evidence. Citations accumulate in <a href={withBase('/sources/')}>Sources</a>. A companion
     page catalogs the <a href={withBase('/research/resources/')}>public online resources</a> —
-    free and paid — that can move each open question forward.
+    free and paid — used so far, and what each one turned up.
   </p>
 </BaseLayout>
 
@@ -129,6 +137,13 @@ import { withBase } from '../lib/paths';
     align-items: start;
     padding: 0.6rem 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .scale dt {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .scale dd {

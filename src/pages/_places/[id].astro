@@ -1,12 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
-import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
-import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
+import {
+  attributionFor,
+  attributionForCopiedText,
+  recordedLine,
+  shownRecollections,
+} from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const places = await getCollection('places');
@@ -15,31 +18,50 @@ export async function getStaticPaths() {
 
 const { place } = Astro.props;
 const d = place.data;
+
 /** Every recollection, so copied testimony can be attributed by its true fidelity. */
-const allRecollections = await getCollection("recollections");
+const allRecollections = await getCollection('recollections');
+
+/** Testimony about this place, minus anything under a hold. */
+const placeRecollections = shownRecollections(allRecollections).filter((r) =>
+  (r.data.relatedPlaces ?? []).some((p) => p.id === place.id)
+);
+
+/**
+ * People for this place, from both directions: the place's own relatedPeople
+ * and every person whose relatedPlaces lists it. Names, not slugs.
+ */
+const people = await getCollection('people');
+const personIds = new Set([
+  ...d.relatedPeople.map((p) => p.id),
+  ...people.filter((pe) => pe.data.relatedPlaces.some((x) => x.id === place.id)).map((pe) => pe.id),
+]);
+const placePeople = people
+  .filter((pe) => personIds.has(pe.id))
+  .sort((a, b) =>
+    a.id === 'larry-dennis-hunnewell' ? -1 : b.id === 'larry-dennis-hunnewell' ? 1 : a.data.name.localeCompare(b.data.name)
+  );
 
 const placePhotos = (await getCollection('photos'))
   .filter((p) => p.data.location?.id === place.id)
   .sort((a, b) => a.data.photoId.localeCompare(b.data.photoId));
 
-const placeEvents = (await getCollection('timeline'))
-  .filter((e) => e.data.relatedPlaces.some((r) => r.id === place.id))
-  .sort((a, b) => a.data.sortDate.localeCompare(b.data.sortDate));
-
-const placeRecollections = (await getCollection('recollections')).filter((r) =>
-  r.data.relatedPlaces.some((p) => p.id === place.id)
-);
-
-/** Drawings whose sheet names this place, in Larry's own hand. */
+/** Drawings whose sheet shows this place, in Larry's own hand. */
 const placeDrawings = (await getCollection('drawings'))
   .filter((dr) => dr.data.depicts?.id === place.id)
   .sort((a, b) => a.data.drawingId.localeCompare(b.data.drawingId));
+
+// Held to the name, his words, the people and pictures tied to the place, and
+// the comment box while the site is minimal. The summary, research notes,
+// evidence badge, citations, provenance and timeline stay on the record in
+// data/places/ and do not render; the timeline is a parked section and is not
+// linked. scripts/check-published.mjs treats places `summary` and
+// `researchNotes` as parked fields. See CLAUDE.md, "The minimal site".
 ---
 
 <BaseLayout title={d.name}>
   <span class="eyebrow">Place</span>
   <h1>{d.name}</h1>
-  <p><EvidenceBadge level={d.confidence} /></p>
 
   {d.alternateNames.length > 0 && (
     <p class="record">Also: {d.alternateNames.join(' · ')}</p>
@@ -51,29 +73,29 @@ const placeDrawings = (await getCollection('drawings'))
     </p>
   )}
 
-  <p class="lede">{d.summary}</p>
-
   {d.larrysRecollection && (
     <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
       {d.larrysRecollection}
     </Recollection>
   )}
 
-  {d.researchNotes && (
+  {placeRecollections.map((rec) => (
     <>
-      <h2>Research notes</h2>
-      <p>{d.researchNotes}</p>
+      <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+      <p class="record provenance">{recordedLine(rec.data.recorded)}</p>
     </>
+  ))}
+
+  {!d.larrysRecollection && placeRecollections.length === 0 && (
+    <p class="empty-state">Nothing has been written about this place yet.</p>
   )}
 
-  <Citations sources={d.sources} />
-
-  {d.relatedPeople.length > 0 && (
+  {placePeople.length > 0 && (
     <>
-      <h2>Related people</h2>
+      <h2>People</h2>
       <ul>
-        {d.relatedPeople.map((p) => (
-          <li><a href={withBase(`/people/${p.id}/`)}>{p.id}</a></li>
+        {placePeople.map((pe) => (
+          <li><a href={withBase(`/people/${pe.id}/`)}>{pe.data.name}</a></li>
         ))}
       </ul>
     </>
@@ -81,14 +103,14 @@ const placeDrawings = (await getCollection('drawings'))
 
   {placePhotos.length > 0 && (
     <>
-      <h2>Photographs at this place</h2>
+      <h2>Photographs</h2>
       <ul class="place-photos">
         {placePhotos.map((photo) => (
           <li>
             <a href={withBase(`/photos/${photo.id}/`)}>
               <img
                 src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
-                alt={photo.data.title}
+                alt={photo.data.cataloged ? photo.data.title : `Photograph ${photo.data.photoId}`}
                 width="320"
                 height="216"
                 loading="lazy"
@@ -104,10 +126,6 @@ const placeDrawings = (await getCollection('drawings'))
   {placeDrawings.length > 0 && (
     <>
       <h2>Drawn from memory</h2>
-      <p class="record">
-        Larry's own drawings of this place, made from memory decades later and shown beside
-        the photographs rather than instead of them.
-      </p>
       <ul class="place-drawings">
         {placeDrawings.map((dr) => (
           <li>
@@ -128,40 +146,15 @@ const placeDrawings = (await getCollection('drawings'))
     </>
   )}
 
-  {placeRecollections.length > 0 && (
-    <>
-      <h2>Recollections</h2>
-      {placeRecollections.map((rec) => (
-        <>
-          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
-          <p class="record provenance">{rec.data.provenance}</p>
-        </>
-      ))}
-    </>
-  )}
-
-  {placeEvents.length > 0 && (
-    <>
-      <h2>On the timeline</h2>
-      <ul>
-        {placeEvents.map((event) => (
-          <li>
-            <span class="record">{event.data.displayDate}</span> &mdash;{' '}
-            <a href={withBase('/timeline/')}>{event.data.title}</a>
-          </li>
-        ))}
-      </ul>
-    </>
-  )}
-
   <p><a href={withBase('/places/')}>&larr; All places</a></p>
 
   <MemoryBox term={`place:${place.id}`} subject="place" />
 </BaseLayout>
 
 <style>
-  .lede {
-    font-size: 1.15rem;
+  .provenance {
+    margin: 0.3rem 0 1.4rem;
+    color: var(--ink-soft);
   }
 
   .place-photos {
@@ -178,11 +171,6 @@ const placeDrawings = (await getCollection('drawings'))
     width: 100%;
     height: auto;
     border: 1px solid var(--line);
-  }
-
-  .provenance {
-    margin: 0.3rem 0 1.4rem;
-    color: var(--ink-soft);
   }
 
   .place-drawings {

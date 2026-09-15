@@ -193,6 +193,34 @@ explain; the guide has them.
 flight building, hangar and mess hall laid out from it. The first placement of that aircraft on
 the ground anywhere in the archive (ledger #28).
 
+### 2026-09-14 — what came off the drawing records
+
+The public site now renders a drawing's title, date, labels and his recollections only, and the
+five drawing paraphrases (fort, generators, shower layout, shower shooting, Rosethorn 007) are
+under `hold`. The record fields were brought into line so they are safe when descriptions and
+notes render again:
+
+- **Partial readings of withheld inscriptions are no longer named in any description.** VD-0003
+  had "a two-word inscription whose second word is RIVER"; VD-0004 had "the words TON SON NHUT
+  followed by a third word", "a word beginning BEAV", "whose first two words are US POST", and
+  "USAF above a line ending in HALL". Each now says only that an inscription is left out whole
+  because a letter cannot be read. The readings live in this file (above) and nowhere else. The
+  schema comment in `src/content.config.ts` still says a withheld inscription's "legible words may
+  be named there"; that sentence now disagrees with practice and is outside this pass.
+- **VD-0004's title still reads "Flight line, “Ton Son Nhut”"**, which names the legible words of
+  the withheld heading on a page that renders. Left unchanged and flagged: he wrote TON SON NHUT on
+  VD-0001 too (in `labels` there), so it may be judged safe, but the "read me what you wrote across
+  the top" question is the one it touches.
+- **VD-0001:** "two small figures" in the SHOWER box became "two small marks" — "figures" was a
+  reading, and the (validate) question asks what the marks are. Notes no longer repeat his son's
+  account of who came in from which side.
+- **VD-0002:** notes no longer repeat the held generators and fort reports; the link to VN-0157 and
+  the "helicopter pad where the trees were being felled" came off with that photograph's story
+  (`research/photos/vn-0157.md`).
+- **VD-0004:** notes and provenance no longer say what his son reported about where Rosethorn 007
+  stood or that the helicopter was drawn first (the held `2026-09-12-drawing-rosethorn-007`); that
+  record's `relatedPhotos` (vn-0016, vn-0071) was removed, since it is about the sheet.
+
 **For research only:** a USAF mess hall and a US post office in a hangar are specific enough
 to test against a period plan of Tân Sơn Nhứt, if one is found, but a sketch without scale or
 compass cannot confirm or rule out a base. Same caution as VD-0001: the heading strengthens the

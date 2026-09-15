@@ -3,13 +3,14 @@
   "aliases": [
     "Weaver"
   ],
-  "role": "Sergeant (E5), flight operations — ex-Marine",
+  "role": "Sergeant (E5); an ex-Marine",
   "status": "unresolved",
-  "summary": "A sergeant in Larry's operations section, an ex-Marine, photographed at the flight-scheduling boards inside the radio van (VN-0014). He was an E5 at the time of the bathroom shooting at the headquarters company and was the sergeant who showed up while the drunk gunman still had the pistol out — a central witness to that incident. On 2026-09-12, at the van: \"Weaver was a cool guy and hung out with me a lot.\" Larry thinks Weaver or Chapman took the night-time picture of him in the van (VN-0015).",
-  "researchNotes": "Unusually well-anchored for an unresolved person: the 2026-08-09 vision survey independently read the VN-0014 name tape as beginning 'WE...' before Larry supplied 'Weaver' — testimony and photograph converge. If the bathroom-shooting court-martial record is found (unresolved #11), Weaver should appear in it as a witness. The shield-shaped pocket patch in VN-0014 is a re-scan target that could carry the unit designation; its lettering sits below the current scan's resolution. 2026-09-12 (giscus-vn-0014-c18415711, -vn-0015-c18415735): the van crewing Larry gives, \"Day shift was probably 4 guys and night shift there was 1 guy\", puts Weaver in a section of about five, which is small enough that a morning report listing one man should list the others.",
+  "summary": "\"Sargent Weaver Ex-Marine,\" Larry wrote of the man in VN-0014, inside the radio van. On 2026-09-12: \"Weaver was a cool guy and hung out with me a lot.\" Larry thinks the night-time picture of him in the van (VN-0015) was \"taken at nighttime by Weaver or Chapman.\" On Larry's last day on the mountain, it was Weaver who took his place: \"captain Geutler (his spelling) came and got me and dropped off Sgt Weaver, he was a E5 specialist. He was an ex marine.\" His son's account of the bathroom shooting has Weaver arriving while the gunman was aiming at Larry.",
+  "researchNotes": "Larry named him from the photograph on 2026-08-15 (giscus-vn-0014-c18032226). The 2026-08-09 vision pass had read the VN-0014 name tape as beginning 'WE...'; that is machine output (rule 4) and is not corroboration of the name. Corrected 2026-09-14 after research/site-audit-2026-09-14.md, which found this record presenting it as testimony and photograph converging; the patch description that stood here was also removed (the interview guide asks Larry what Weaver's pocket patch said). The bathroom-shooting account is his son's paraphrase (giscus-stories-c18035411). If the court-martial record is found (ledger #11), Weaver should appear in it as a witness. 2026-09-12 (giscus-vn-0014-c18415711, -vn-0015-c18415735): Larry's van crewing, \"Day shift was probably 4 guys and night shift there was 1 guy\", makes the crew small enough that a morning report listing one man should list the others. 2026-09-03 (giscus-stories-c18259364): the drop-off on the mountain, now linked.",
   "confidence": "unverified-recollection",
   "relatedPlaces": [
-    "thom-son-nuht"
+    "thom-son-nuht",
+    "nui-ba-den"
   ],
   "sources": []
 }

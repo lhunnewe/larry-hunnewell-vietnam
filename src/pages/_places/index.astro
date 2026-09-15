@@ -1,30 +1,33 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import { withBase } from '../../lib/paths';
+import { shownRecollections } from '../../lib/testimony';
 
 const places = (await getCollection('places')).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
+const people = await getCollection('people');
 const photos = await getCollection('photos');
-const timeline = await getCollection('timeline');
-const recollections = await getCollection('recollections');
+const recollections = shownRecollections(await getCollection('recollections'));
 
-const EV_LABELS: Record<string, { label: string; color: string }> = {
-  confirmed: { label: 'Confirmed', color: 'var(--ev-confirmed)' },
-  'strongly-supported': { label: 'Strongly supported', color: 'var(--ev-strong)' },
-  plausible: { label: 'Plausible', color: 'var(--ev-plausible)' },
-  'unverified-recollection': { label: 'Unverified recollection', color: 'var(--ev-unverified)' },
-  contradicted: { label: 'Contradicted / unlikely', color: 'var(--ev-contradicted)' },
-};
+// Held to names and counts while the site is minimal: summaries, research
+// notes and evidence ratings stay on the records in data/places/ and do not
+// render, not even inside the map's data. The timeline is a parked section, so
+// its events are neither counted nor linked. See CLAUDE.md, "The minimal site".
+
+/** People tied to a place from either direction (see _places/[id].astro). */
+const peopleCount = (placeId: string) =>
+  new Set([
+    ...(places.find((p) => p.id === placeId)?.data.relatedPeople.map((r) => r.id) ?? []),
+    ...people.filter((pe) => pe.data.relatedPlaces.some((r) => r.id === placeId)).map((pe) => pe.id),
+  ]).size;
 
 const countsFor = (placeId: string) => ({
   photos: photos.filter((p) => p.data.location?.id === placeId).length,
-  events: timeline.filter((e) => e.data.relatedPlaces.some((r) => r.id === placeId)).length,
   recollections: recollections.filter((r) => r.data.relatedPlaces.some((p) => p.id === placeId))
     .length,
-  people: places.find((p) => p.id === placeId)?.data.relatedPeople.length ?? 0,
+  people: peopleCount(placeId),
 });
 
 const mapped = places
@@ -34,9 +37,6 @@ const mapped = places
     name: p.data.name,
     lat: p.data.coordinates!.lat,
     lng: p.data.coordinates!.lng,
-    confidenceLabel: EV_LABELS[p.data.confidence].label,
-    color: EV_LABELS[p.data.confidence].color,
-    summary: p.data.summary,
     counts: countsFor(p.id),
     url: withBase(`/places/${p.id}/`),
   }));
@@ -45,34 +45,29 @@ const unmapped = places.filter((p) => !p.data.coordinates);
 ---
 
 <BaseLayout title="Places">
-  <span class="eyebrow">Where he was — and where he may have been</span>
+  <span class="eyebrow">Where he was</span>
   <h1>Places</h1>
   <p class="lede">
-    The places of Larry's year in Vietnam, from the ones settled on any map to the ones that so
-    far exist only in memory. Names remembered by sound are written down the way the family hears
-    Larry say them; identifying them against real geography is research, and each entry says how
-    far that research has gotten.
+    The places of Larry's year in Vietnam and after. Names are written the way Larry says them,
+    or spells them when he can. Each page keeps his own words about the place, the photographs
+    taken there, and a box for anything more he remembers.
   </p>
 
   {mapped.length > 0 && (
     <>
-      <div id="places-map" hidden aria-label="Map of settled places"></div>
+      <div id="places-map" hidden aria-label="Map of places"></div>
       <script type="application/json" id="map-places" set:html={JSON.stringify(mapped)} />
     </>
   )}
 
   {unmapped.length > 0 && (
-    <aside class="offmap" aria-label="Places not yet on the map">
-      <h2 class="record">Not yet on the map</h2>
-      <p>
-        These places are part of the story but are deliberately unpinned: nothing gets
-        coordinates until its identification is settled by evidence.
-      </p>
+    <aside class="offmap" aria-label="Places not on the map">
+      <h2 class="record">Not on the map</h2>
+      <p>These places have no pin yet.</p>
       <ul>
         {unmapped.map((place) => (
           <li>
             <a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a>
-            &nbsp;<EvidenceBadge level={place.data.confidence} />
           </li>
         ))}
       </ul>
@@ -83,8 +78,9 @@ const unmapped = places.filter((p) => !p.data.coordinates);
     {places.map((place) => (
       <li class="card">
         <h3><a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a></h3>
-        <p>{place.data.summary}</p>
-        <p><EvidenceBadge level={place.data.confidence} /></p>
+        {place.data.vietnameseName && place.data.vietnameseName !== place.data.name && (
+          <p class="record">{place.data.vietnameseName}</p>
+        )}
       </li>
     ))}
   </ul>
@@ -102,10 +98,7 @@ const unmapped = places.filter((p) => !p.data.coordinates);
     name: string;
     lat: number;
     lng: number;
-    confidenceLabel: string;
-    color: string;
-    summary: string;
-    counts: { photos: number; events: number; recollections: number; people: number };
+    counts: { photos: number; recollections: number; people: number };
     url: string;
   };
 
@@ -126,7 +119,7 @@ const unmapped = places.filter((p) => !p.data.coordinates);
       for (const place of places) {
         const icon = L.divIcon({
           className: 'map-pin',
-          html: `<span style="--pin:${place.color}"></span>`,
+          html: '<span></span>',
           iconSize: [18, 18],
           iconAnchor: [9, 9],
           popupAnchor: [0, -12],
@@ -134,7 +127,6 @@ const unmapped = places.filter((p) => !p.data.coordinates);
         const counts = (
           [
             [place.counts.photos, 'photographs'],
-            [place.counts.events, 'timeline events'],
             [place.counts.recollections, 'recollections'],
             [place.counts.people, 'people'],
           ] as const
@@ -144,8 +136,6 @@ const unmapped = places.filter((p) => !p.data.coordinates);
           .join(' &middot; ');
         const popup = `
           <p class="pin-name"><a href="${esc(place.url)}">${esc(place.name)}</a></p>
-          <p class="pin-ev">${esc(place.confidenceLabel)}</p>
-          <p class="pin-summary">${esc(place.summary)}</p>
           ${counts ? `<p class="pin-counts">${counts}</p>` : ''}
           <p class="pin-link"><a href="${esc(place.url)}">View place &rarr;</a></p>`;
         L.marker([place.lat, place.lng], { icon, title: place.name, alt: place.name })
@@ -206,7 +196,7 @@ const unmapped = places.filter((p) => !p.data.coordinates);
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: var(--pin, var(--signal));
+    background: var(--signal);
     border: 2px solid var(--paper);
     box-shadow: 0 0 0 1px var(--ink-soft);
   }
@@ -226,7 +216,6 @@ const unmapped = places.filter((p) => !p.data.coordinates);
     font-size: 1.05rem;
   }
 
-  .pin-ev,
   .pin-counts {
     font-family: var(--font-mono);
     font-size: 0.78rem;

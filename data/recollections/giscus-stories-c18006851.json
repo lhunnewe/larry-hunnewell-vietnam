@@ -7,5 +7,8 @@
   "researchNotes": "His interpretation of the \"450 civilians\" day, recorded as given. Context: data/timeline/1965-08-450-civilians-accusation.json. No evaluation attempted.",
   "relatedPlaces": [
     "nui-ba-den"
+  ],
+  "relatedTimeline": [
+    "1965-08-450-civilians-accusation"
   ]
 }

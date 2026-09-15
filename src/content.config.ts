@@ -134,9 +134,11 @@ const drawings = defineCollection({
      * and lower case is not recorded: the captures do not support reading it
      * letter by letter. These are Larry's words in his own hand. Never
      * edited. An inscription with any letter that cannot be read with
-     * confidence is left out whole and noted in `description` (its legible
-     * words may be named there), so that no reading is frozen into this list
-     * before he has confirmed it.
+     * confidence is left out whole. Its existence may be noted in
+     * `description`, but its legible words and any candidate reading go only in
+     * research/drawings/README.md (since 2026-09-14: several drawing questions
+     * ask him to read them himself), so that no reading is frozen into this
+     * list or put in front of him before he has confirmed it.
      */
     labels: z.array(z.string()).default([]),
     /** The place the drawing shows, when the sheet itself says so. */

@@ -2,10 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { withBase } from '../lib/paths';
 
-// Military and period terms used across the archive — in Larry's questions,
-// the photo observations, and the research notes. Definitions are written
-// for family readers; the terms themselves are kept exactly as Larry and
-// the records use them.
+// Military and period terms used across the archive. Definitions are written for family
+// readers; the terms are kept exactly as Larry and the records use them.
+//
+// Parked 2026-09-14 (research/site-audit-2026-09-14.md) and rewritten the same day so that
+// restoring it is a rename. Rules for this page, because Larry reads it: define a term from
+// his own words or a document, never from the machine reading of a photograph; name no unit
+// designation (his unit is an open question put to him cold); describe no emblem or patch;
+// no health or benefits details; link no parked section except research and sources.
 
 interface Term {
   id: string;
@@ -18,38 +22,26 @@ interface Term {
 
 const sections: { title: string; terms: Term[] }[] = [
   {
-    title: 'His job and his unit',
+    title: 'His job',
     terms: [
-      {
-        id: 'aod',
-        term: '118th AOD',
-        expansion: 'Aviation Operations Detachment',
-        def: 'The unit Larry remembers serving with — a small outfit of about 110 men, radio operators and pathfinders, some requiring special clearances. Whether the remembered "118th AOD" was its own detachment, or a rendering of another unit\'s designation, is one of the archive\'s open research questions.',
-        link: { href: '/units/', label: 'Units' },
-      },
       {
         id: 'radio-teletype-operator',
         term: 'Radio teletype operator',
-        def: 'The military specialty on Larry\'s discharge paper: sending and receiving message traffic over radio circuits, by voice and by teletype — a typewriter that transmits over the air. He trained for it in a 17-week Army Signal school course in 1964. It is the skill behind the RADIO door on Núi Bà Đen and the operations van.',
+        def: 'The military specialty on Larry\'s discharge paper: sending and receiving messages over radio circuits by teletype, a typewriter that transmits over the air. The paper records the Army signal course he took for it in 1964 as 15 weeks long. On the mountain he had, in his words, "my radio area with 3 radios."',
         photos: ['vn-0059'],
+      },
+      {
+        id: 'flight-controller',
+        term: 'Flight controller',
+        def: 'Larry\'s own word for his job, and for the two men on the steps of the radio van in VN-0011: "these two guys are flight controllers. I was a flight controller also."',
+        photos: ['vn-0011'],
       },
       {
         id: 'van',
         term: 'Van',
-        expansion: 'ops van · commo van',
-        def: 'Not a road vehicle. In the Army signal world a "van" is a rigid box-body shelter — truck-hauled or set on the ground with entry steps and its own generator — fitted out inside as a radio room or operations center. The scheduling racks and grid board photos are the inside of such a van; VN-0011 shows the outside of one, and VN-0041 a likely commo van on the mountain summit.',
-        photos: ['vn-0011', 'vn-0014', 'vn-0015', 'vn-0041'],
-      },
-      {
-        id: 'pathfinder',
-        term: 'Pathfinder',
-        def: 'A soldier put in ahead of the helicopters to mark landing zones and guide the aircraft coming in. Larry remembers pathfinders among the men of his detachment.',
-      },
-      {
-        id: 'flight-following',
-        term: 'Flight following',
-        def: 'Keeping continuous radio track of aircraft from takeoff to landing, so someone on the ground always knows where every helicopter is. The grid board and scheduling racks in the operations van appear to be exactly this work.',
-        photos: ['vn-0014', 'vn-0015'],
+        expansion: 'radio van',
+        def: 'Not a road vehicle. In the Army signal world a "van" is a rigid box-body shelter, hauled by truck or set on the ground, fitted out inside as a radio room or operations center. VN-0011 shows the outside of the van Larry did his radio work in, and VN-0014 the inside; in VN-0015 he is starting a twelve-hour night shift there alone.',
+        photos: ['vn-0011', 'vn-0014', 'vn-0015'],
       },
     ],
   },
@@ -59,45 +51,32 @@ const sections: { title: string; terms: Term[] }[] = [
       {
         id: 'hooch',
         term: 'Hooch',
-        def: 'G.I. slang for the huts soldiers lived in — screened wooden barracks with tin or canvas roofs. The painted markings "T 122" and "T 123" in the photographs are building numbers on the hooches of Larry\'s camp.',
-        photos: ['vn-0017', 'vn-0117', 'vn-0155'],
-      },
-      {
-        id: 'c-123',
-        term: 'C-123 Provider',
-        def: 'A twin-engine military cargo plane, a workhorse for hauling troops and supplies between airfields — one passes low over the hooches in VN-0117.',
-        photos: ['vn-0117'],
+        def: 'G.I. slang for the huts and barracks soldiers lived in. Larry\'s was T 123: "T123 is my hooch."',
+        photos: ['vn-0017', 'vn-0019'],
       },
       {
         id: 'thompson',
         term: 'Thompson',
-        def: 'The Thompson submachine gun — the .45-caliber "Tommy gun" of Second World War fame, still in use in the early years of Vietnam. One lies on a bunk in the barracks photographs.',
+        def: 'The Thompson submachine gun — the .45-caliber "Tommy gun" of Second World War fame, still in use in the early years of Vietnam. Larry\'s own appears in VN-0082 and VN-0084.',
         photos: ['vn-0082', 'vn-0084'],
       },
       {
         id: 'name-tape',
         term: 'Name tape',
-        def: 'The cloth strip sewn above a uniform shirt pocket carrying the soldier\'s surname. The HUNNEWELL tape in VN-0028 is what anchors Larry\'s identity through the whole collection — and a partial "WE…" tape in the van photos may name a second man.',
+        def: 'The cloth strip sewn above a uniform shirt pocket carrying the soldier\'s surname. A tape can help put a name to a face, but the names in this archive come from Larry: he confirmed that VN-0028 is him on 17 August 2026, and named the man in VN-0014 as Sgt. Weaver on 15 August 2026.',
         photos: ['vn-0028', 'vn-0014'],
-      },
-      {
-        id: 'lldb',
-        term: 'LLDB',
-        expansion: 'Lực Lượng Đặc Biệt',
-        def: 'South Vietnam\'s own Special Forces. The painted shield on the roster rock at the mountain site carries the LLDB name and a parachute emblem, placing Vietnamese Special Forces alongside the Americans there.',
-        photos: ['vn-0035'],
       },
       {
         id: 'stars-and-stripes',
         term: 'Stars and Stripes',
-        def: 'The U.S. military\'s own daily newspaper, distributed to service members overseas. In Japan, Larry opened it and found himself reported killed in action — the story at the center of this archive.',
-        link: { href: '/story/', label: "Larry's Story" },
+        def: 'The U.S. military\'s own daily newspaper, printed for service members overseas. In the Army hospital in Japan in 1965, Larry saw himself listed in it as killed in action — the story at the center of this archive.',
+        link: { href: '/research/', label: 'Research' },
       },
       {
         id: 'apo',
         term: 'APO',
         expansion: 'Army Post Office',
-        def: 'The military\'s overseas mail system — units abroad are addressed by APO number rather than city and country. Larry\'s last assignment is recorded against a Camp Zama, Japan APO.',
+        def: 'The military\'s overseas mail system — units abroad are addressed by APO number rather than city and country. Larry\'s discharge paper records his last assignment under an APO number that served Camp Zama, Japan.',
       },
     ],
   },
@@ -107,14 +86,7 @@ const sections: { title: string; terms: Term[] }[] = [
       {
         id: 'tet',
         term: 'Tết',
-        def: 'The Vietnamese Lunar New Year — the country\'s biggest holiday, when the streets fill with flowers. Larry photographed a Tết flower market in Saigon, probably early 1965.',
-        photos: ['vn-0068'],
-      },
-      {
-        id: 'ao-dai',
-        term: 'Áo dài',
-        def: 'The traditional Vietnamese dress — a long, fitted tunic worn over trousers. The woman in the red áo dài is one of the archive\'s unanswered questions.',
-        photos: ['vn-0154'],
+        def: 'The Vietnamese Lunar New Year, the country\'s biggest holiday. Larry says that when Tết came during his tour, he was up on the mountain.',
       },
     ],
   },
@@ -122,37 +94,16 @@ const sections: { title: string; terms: Term[] }[] = [
     title: 'The paper trail',
     terms: [
       {
-        id: 'dd-214',
-        term: 'DD-214',
-        def: 'The one-page separation document every soldier receives on leaving the service — dates, specialty, decorations, last assignment. The family\'s copy of Larry\'s surfaced in August 2026; it names his final assignment in Japan but, frustratingly, not his Vietnam unit.',
+        id: 'service-records',
+        term: 'DD-214, SF-180, NPRC',
+        expansion: 'service records',
+        def: 'The DD-214 is the one-page paper every soldier receives on leaving the service: dates, specialty, decorations, last assignment. The family\'s copy of Larry\'s turned up in August 2026; it names his last assignment, in Japan, but not his unit in Vietnam. The SF-180 is the form a veteran signs to ask the National Personnel Records Center (NPRC), in St. Louis, for his full service file. Larry\'s was mailed on 17 August 2026 and its delivery was confirmed in September; no reply has come yet. A veteran\'s claim file at the VA, kept under a VA file number, can hold copies of some of the same records.',
         link: { href: '/research/', label: 'Research' },
       },
       {
         id: 'service-number',
         term: 'Service number',
-        def: 'Before Social Security numbers were used, every soldier had a service number — and its prefix told a story: "US" meant drafted, "RA" meant Regular Army volunteer. Larry\'s number is recorded in the private family archive, not on this site.',
-      },
-      {
-        id: 'sf-180',
-        term: 'SF-180',
-        expansion: 'Standard Form 180',
-        def: 'The request form used to ask the government for a veteran\'s military records — the family\'s next step toward documents that name Larry\'s Vietnam unit.',
-      },
-      {
-        id: 'nprc',
-        term: 'NPRC',
-        expansion: 'National Personnel Records Center',
-        def: 'The archive in St. Louis, Missouri that holds the service records of discharged veterans. It is where the SF-180 request goes.',
-      },
-      {
-        id: 'agent-orange',
-        term: 'Agent Orange',
-        def: 'The herbicide sprayed over Vietnam to strip jungle cover, later tied to illnesses in the veterans exposed to it. Larry\'s Agent Orange claim with the VA is one route to records of where he served.',
-      },
-      {
-        id: 'va-file',
-        term: 'VA file number',
-        def: 'The number on a veteran\'s claim file with the Department of Veterans Affairs. Larry\'s VA file from the Agent Orange claim may hold service details the family copies lack.',
+        def: 'Before Social Security numbers were used, every soldier had a service number — and its prefix told a story: "US" meant drafted, "RA" meant Regular Army volunteer. Larry\'s number is kept in the family\'s own papers, not on this site.',
       },
     ],
   },
@@ -166,9 +117,9 @@ const sections: { title: string; terms: Term[] }[] = [
   <span class="eyebrow">The words explained</span>
   <h1>Glossary</h1>
   <p class="lede">
-    The questions and records in this archive keep Larry's own vocabulary — the words he and the
-    Army used in 1964. This page explains those terms for everyone else. A "van" here is not
-    what it is on the highway.
+    The pages of this archive keep Larry's own vocabulary — the words he and the Army used in
+    1964. This page explains those terms for everyone else. A "van" here is not what it is on
+    the highway.
   </p>
 
   {sections.map((section) => (
@@ -201,8 +152,7 @@ const sections: { title: string; terms: Term[] }[] = [
   ))}
 
   <p class="record footer-note">
-    Terms are defined as Larry's era used them &middot; the heavier per-photo jargon lives in
-    data/photos/ai-observations/
+    Terms are defined as Larry's era used them
   </p>
 </BaseLayout>
 

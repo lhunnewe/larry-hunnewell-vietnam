@@ -1,31 +1,45 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import { withBase } from '../../lib/paths';
+
+/**
+ * People kept off this index. Their pages still build (their ids, slugs and
+ * comment threads are permanent), but a name with nothing behind it does not
+ * belong in the list Larry browses:
+ * - vc-charlie: a nickname for a taxi driver, not an identification.
+ * - major-lewis: a name Larry withdrew from the one photograph it was tied to.
+ * Decided in research/site-audit-2026-09-14.md. Remove an id here to list it again.
+ */
+const HIDDEN_FROM_INDEX = new Set(['vc-charlie', 'major-lewis']);
 
 const people = await getCollection('people');
 const larry = people.find((p) => p.id === 'larry-dennis-hunnewell');
 const others = people
-  .filter((p) => p.id !== 'larry-dennis-hunnewell')
+  .filter((p) => p.id !== 'larry-dennis-hunnewell' && !HIDDEN_FROM_INDEX.has(p.id))
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
+
+// Held to names and roles while the site is minimal: summaries, research notes
+// and evidence badges stay on the records in data/people/ and do not render.
+// scripts/check-published.mjs treats people `summary` as a parked field, so
+// rendering it here would need that list changed first. See CLAUDE.md,
+// "The minimal site".
 ---
 
 <BaseLayout title="People">
   <span class="eyebrow">Who he served with</span>
   <h1>People</h1>
   <p class="lede">
-    Larry, and the people who appear in his memories. Names remembered only by sound — Lowry or
-    Lowery, a captain called something like &ldquo;Guegler&rdquo; — are written down as the
-    family hears Larry say them, while research works to identify the real soldiers behind them.
+    Larry, and the people who appear in his memories. Names are written the way Larry says
+    them, or spells them when he can. Each page keeps his own words about that person, and a
+    box for anything more he remembers.
   </p>
 
   {larry && (
     <ul class="card-grid">
       <li class="card featured">
-        <p class="record">The subject of this archive</p>
         <h3><a href={withBase(`/people/${larry.id}/`)}>{larry.data.name}</a></h3>
-        <p>{larry.data.summary}</p>
+        {larry.data.role && <p class="record">{larry.data.role}</p>}
       </li>
     </ul>
   )}
@@ -36,11 +50,6 @@ const others = people
       <li class="card">
         <h3><a href={withBase(`/people/${person.id}/`)}>{person.data.name}</a></h3>
         {person.data.role && <p class="record">{person.data.role}</p>}
-        <p>{person.data.summary}</p>
-        <p>
-          <EvidenceBadge level={person.data.confidence} />
-          {person.data.status === 'unresolved' && <span class="record"> &middot; identity unresolved</span>}
-        </p>
       </li>
     ))}
   </ul>
