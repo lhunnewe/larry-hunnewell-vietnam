@@ -1,0 +1,36 @@
+name: Check before merge
+
+# Runs the same gate the deploy runs, on every pull request and every branch
+# other than main, so nothing is merged that would fail to publish:
+#   prebuild   scripts/validate-archive.mjs   the records (errors fail)
+#   build      astro build                    zod schemas and the real pages
+#   postbuild  scripts/check-published.mjs    the built pages Larry would see
+# See CLAUDE.md, "Before you push or merge".
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Validate, build, and check the published pages
+        run: npm run build

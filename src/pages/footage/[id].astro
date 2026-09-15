@@ -1,12 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
-import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
-import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
+import { attributionFor, attributionForCopiedText, recordedLine, shownRecollections } from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const videos = (await getCollection('videos')).sort((a, b) =>
@@ -28,17 +26,11 @@ const d = video.data;
 const allRecollections = await getCollection("recollections");
 
 /** Testimony recorded about this clip, with its own fidelity and provenance. */
-const videoRecollections = allRecollections.filter((r) =>
+const videoRecollections = shownRecollections(allRecollections).filter((r) =>
   (r.data.relatedVideos ?? []).some((x) => x.id === video.id)
 );
 const heading = d.cataloged ? d.title : `Film clip ${d.videoId}`;
 
-function mmss(seconds: number): string {
-  const m = Math.floor(seconds / 60);
-  const s = Math.round(seconds % 60);
-  return `${m}:${String(s).padStart(2, '0')}`;
-}
-const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
 ---
 
 <BaseLayout title={`${d.videoId} — ${heading}`}>
@@ -62,53 +54,12 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
     {next ? <a href={withBase(`/footage/${next.id}/`)}>{next.data.videoId} &rarr;</a> : <span></span>}
   </nav>
 
-  {!d.cataloged && (
-    <div class="empty-state">
-      <p><strong>Not yet cataloged.</strong></p>
-      <p>
-        This clip has its permanent archive number, but its date, place, and story haven't been
-        recorded yet. Nothing about it is guessed — the details will be filled in as Larry
-        watches the footage and shares what he remembers.
-      </p>
-    </div>
-  )}
-
-  <dl class="video-record">
-    <div><dt class="record">Archive ID</dt><dd>{d.videoId}</dd></div>
-    <div><dt class="record">Source capture</dt><dd>{d.sourceFile}</dd></div>
-    {d.segment && (
-      <div>
-        <dt class="record">Segment</dt>
-        <dd>
-          {mmss(d.segment.start)}&ndash;{mmss(d.segment.end)} of the capture &middot; {duration} long
-        </dd>
-      </div>
-    )}
-    <div><dt class="record">Date</dt><dd>{d.approximateDate ?? 'Unknown'}</dd></div>
-    <div>
-      <dt class="record">Location</dt>
-      <dd>
-        {d.location ? <a href={withBase(`/places/${d.location.id}/`)}>{d.location.id}</a> : 'Unknown'}
-      </dd>
-    </div>
-    {d.units.length > 0 && <div><dt class="record">Units</dt><dd>{d.units.join(', ')}</dd></div>}
-    {d.people.length > 0 && (
-      <div>
-        <dt class="record">People</dt>
-        <dd>
-          {d.people.map((p, i) => (
-            <>
-              {i > 0 && ', '}
-              <a href={withBase(`/people/${p.id}/`)}>{p.id}</a>
-            </>
-          ))}
-        </dd>
-      </div>
-    )}
-    <div><dt class="record">Evidence</dt><dd><EvidenceBadge level={d.confidence} /></dd></div>
-  </dl>
-
-  {d.description && <p>{d.description}</p>}
+  {/*
+    Held to the film and his words until his service file comes back: no
+    description, date, place, people, evidence badge or research notes render
+    here. They stay on the record in data/videos/. See CLAUDE.md, "The minimal
+    site".
+  */}
 
   {d.larrysRecollection && (
     <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
@@ -116,25 +67,16 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
     </Recollection>
   )}
 
-  {videoRecollections.length > 0 && (
+  {videoRecollections.map((rec) => (
     <>
-      {videoRecollections.map((rec) => (
-        <>
-          <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
-          <p class="record provenance">{rec.data.provenance}</p>
-        </>
-      ))}
+      <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
+      <p class="record provenance">{recordedLine(rec.data.recorded)}</p>
     </>
-  )}
+  ))}
 
-  {d.researchNotes && (
-    <>
-      <h2>Research notes</h2>
-      <p>{d.researchNotes}</p>
-    </>
+  {!d.larrysRecollection && videoRecollections.length === 0 && (
+    <p class="empty-state">Nothing has been written about this clip yet.</p>
   )}
-
-  <Citations sources={d.sources} />
 
   <MemoryBox
     term={d.videoId}
@@ -163,21 +105,4 @@ const duration = d.segment ? mmss(d.segment.end - d.segment.start) : null;
     max-width: 52rem;
   }
 
-  .video-record {
-    margin: 1.5rem 0;
-    border-top: 1px solid var(--line);
-    max-width: var(--measure);
-  }
-
-  .video-record > div {
-    display: grid;
-    grid-template-columns: 9rem 1fr;
-    gap: 1rem;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .video-record dd {
-    margin: 0;
-  }
 </style>

@@ -194,6 +194,9 @@ function buildRecord(comment, discussion, term, personId, existing) {
     // the same way researchNotes is.
     fidelity: existing?.fidelity ?? 'transcribed',
   };
+  // A hold keeps a record off the rendered pages until a question has been
+  // put to Larry (rule 6). It is a human decision, preserved like fidelity.
+  if (existing?.hold) record.hold = existing.hold;
   if (existing?.researchNotes) record.researchNotes = existing.researchNotes;
   for (const key of RELATION_KEYS) {
     const merged = union(refs[key], existing?.[key]);

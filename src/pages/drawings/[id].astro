@@ -1,12 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import Recollection from '../../components/Recollection.astro';
 import MemoryBox from '../../components/MemoryBox.astro';
-import Citations from '../../components/Citations.astro';
 import { withBase } from '../../lib/paths';
-import { attributionFor, attributionForCopiedText } from '../../lib/testimony';
+import {
+  attributionFor,
+  attributionForCopiedText,
+  recordedLine,
+  shownRecollections,
+} from '../../lib/testimony';
 
 export async function getStaticPaths() {
   const drawings = (await getCollection('drawings')).sort((a, b) =>
@@ -25,25 +28,19 @@ export async function getStaticPaths() {
 const { drawing, prev, next } = Astro.props;
 const d = drawing.data;
 
-const places = await getCollection('places');
-const people = await getCollection('people');
-const allDrawings = await getCollection('drawings');
 /** Every recollection, so copied testimony can be attributed by its true fidelity. */
 const allRecollections = await getCollection('recollections');
 
-const place = d.depicts ? places.find((p) => p.id === d.depicts!.id) : undefined;
-const artist = people.find((p) => p.id === d.drawnBy.id);
-const related = d.relatedDrawings
-  .map((r) => allDrawings.find((x) => x.id === r.id))
-  .filter((x): x is NonNullable<typeof x> => Boolean(x));
-const relatedPhotos = await getCollection('photos', (p) =>
-  d.relatedPhotos.some((r) => r.id === p.id)
-);
-
-/** Testimony recorded about this drawing, with its own fidelity and provenance. */
-const drawingRecollections = allRecollections.filter((r) =>
+/** Testimony recorded about this drawing, minus anything under a hold. */
+const drawingRecollections = shownRecollections(allRecollections).filter((r) =>
   (r.data.relatedDrawings ?? []).some((x) => x.id === drawing.id)
 );
+
+// Held to the sheet, the words on it and his words about it until his service
+// file comes back. The description (which names partial readings of
+// inscriptions he is still to read himself), provenance, research notes,
+// evidence badge, place and related photographs stay on the record in
+// data/drawings/ and do not render. See CLAUDE.md, "The minimal site".
 ---
 
 <BaseLayout title={`${d.drawingId} — ${d.title}`}>
@@ -63,23 +60,7 @@ const drawingRecollections = allRecollections.filter((r) =>
     {next ? <a href={withBase(`/drawings/${next.id}/`)}>{next.data.drawingId} &rarr;</a> : <span></span>}
   </nav>
 
-  <dl class="drawing-record">
-    <div><dt class="record">Archive ID</dt><dd>{d.drawingId}</dd></div>
-    <div>
-      <dt class="record">Drawn by</dt>
-      <dd><a href={withBase(`/people/${d.drawnBy.id}/`)}>{artist?.data.name ?? d.drawnBy.id}</a></dd>
-    </div>
-    <div><dt class="record">Drawn</dt><dd>{d.drawnDisplay}</dd></div>
-    {d.medium && <div><dt class="record">Medium</dt><dd>{d.medium}</dd></div>}
-    <div>
-      <dt class="record">Shows</dt>
-      <dd>
-        {place ? <a href={withBase(`/places/${place.id}/`)}>{place.data.name}</a> : 'Not stated on the sheet'}
-      </dd>
-    </div>
-    <div><dt class="record">Original file</dt><dd>{d.originalFilename}</dd></div>
-    <div><dt class="record">Evidence</dt><dd><EvidenceBadge level={d.confidence} /></dd></div>
-  </dl>
+  <p class="record drawn">Drawn from memory by Larry, {d.drawnDisplay}</p>
 
   {d.labels.length > 0 && (
     <>
@@ -91,10 +72,6 @@ const drawingRecollections = allRecollections.filter((r) =>
     </>
   )}
 
-  {d.description && <p>{d.description}</p>}
-
-  <p class="record provenance">{d.provenance}</p>
-
   {d.larrysRecollection && (
     <Recollection attribution={attributionForCopiedText(d.larrysRecollection, allRecollections)}>
       {d.larrysRecollection}
@@ -104,58 +81,9 @@ const drawingRecollections = allRecollections.filter((r) =>
   {drawingRecollections.map((rec) => (
     <>
       <Recollection attribution={attributionFor(rec.data.fidelity)}>{rec.data.text}</Recollection>
-      <p class="record provenance">{rec.data.provenance}</p>
+      <p class="record provenance">{recordedLine(rec.data.recorded)}</p>
     </>
   ))}
-
-  {d.researchNotes && (
-    <>
-      <h2>Research notes</h2>
-      <p>{d.researchNotes}</p>
-    </>
-  )}
-
-  <Citations sources={d.sources} />
-
-  {relatedPhotos.length > 0 && (
-    <>
-      <h2>Photographs he has placed here</h2>
-      <ul class="related-photos">
-        {relatedPhotos
-          .sort((a, b) => a.data.photoId.localeCompare(b.data.photoId))
-          .map((photo) => (
-            <li>
-              <a href={withBase(`/photos/${photo.id}/`)}>
-                <img
-                  src={withBase(`/images/photos/thumbs/${photo.data.photoId}.jpg`)}
-                  alt=""
-                  width="320"
-                  height="216"
-                  loading="lazy"
-                />
-                <span class="record">{photo.data.photoId}</span>
-                <span class="related-title">{photo.data.title}</span>
-              </a>
-            </li>
-          ))}
-      </ul>
-    </>
-  )}
-
-  {related.length > 0 && (
-    <>
-      <h2>Other drawings</h2>
-      <ul>
-        {related.map((r) => (
-          <li>
-            <a href={withBase(`/drawings/${r.id}/`)}>
-              <span class="record">{r.data.drawingId}</span> {r.data.title}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </>
-  )}
 
   <MemoryBox
     term={d.drawingId}
@@ -181,27 +109,8 @@ const drawingRecollections = allRecollections.filter((r) =>
     margin: 0 0 1.5rem;
   }
 
-  .drawing-record {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 0.8rem 1.5rem;
-    margin: 0 0 1.5rem;
-    padding: 1rem 1.2rem;
-    border: 1px solid var(--line);
-    background: var(--paper-deep);
-  }
-
-  .drawing-record div {
-    margin: 0;
-  }
-
-  .drawing-record dt {
+  .drawn {
     color: var(--ink-soft);
-    margin-bottom: 0.15rem;
-  }
-
-  .drawing-record dd {
-    margin: 0;
   }
 
   .labels-note {
@@ -229,28 +138,5 @@ const drawingRecollections = allRecollections.filter((r) =>
   .provenance {
     color: var(--ink-soft);
     margin: 0.3rem 0 1.4rem;
-  }
-
-  .related-photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-    gap: 1rem;
-  }
-
-  .related-photos a {
-    text-decoration: none;
-  }
-
-  .related-photos img {
-    margin: 0 0 0.3rem;
-  }
-
-  .related-title {
-    display: block;
-    font-size: 0.92rem;
-    color: var(--ink);
   }
 </style>

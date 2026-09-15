@@ -10,8 +10,10 @@
     "photos:import": "node scripts/import-photos.mjs",
     "photos:build": "node scripts/build-photo-images.mjs",
     "validate": "node scripts/validate-archive.mjs",
+    "check:published": "node scripts/check-published.mjs",
     "prebuild": "node scripts/validate-archive.mjs && node scripts/build-photo-images.mjs",
     "build": "astro build",
+    "postbuild": "node scripts/check-published.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

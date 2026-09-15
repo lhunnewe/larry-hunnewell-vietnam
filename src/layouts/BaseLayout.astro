@@ -18,20 +18,17 @@ interface Props {
 
 const { title, description = 'The Vietnam service of Larry Dennis Hunnewell, 1964-1965. A family memoir and historical research archive.', noindex = false } = Astro.props;
 
+// The public site is held to the pictures and his words until his service
+// file comes back (SF-180, mailed 2026-08-17). The story, timeline, people,
+// places, units, research, sources and glossary pages are parked as
+// src/pages/_*.astro, which Astro does not build; renaming one back restores
+// it. See CLAUDE.md, "The minimal site".
 const nav = [
   { href: '/', label: 'Home' },
-  { href: '/story/', label: "Larry's Story" },
-  { href: '/timeline/', label: 'Timeline' },
   { href: '/photos/', label: 'Photographs' },
   { href: '/footage/', label: 'Footage' },
   { href: '/drawings/', label: 'Drawings' },
   { href: '/memories/', label: 'Tell a Story' },
-  { href: '/places/', label: 'Places' },
-  { href: '/people/', label: 'People' },
-  { href: '/units/', label: 'Units' },
-  { href: '/research/', label: 'Research' },
-  { href: '/sources/', label: 'Sources' },
-  { href: '/glossary/', label: 'Glossary' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -55,7 +52,7 @@ function isCurrent(href: string): boolean {
       <div class="masthead">
         <a class="site-title" href={withBase('/')}>
           <span class="site-name">My Father in Vietnam</span>
-          <span class="site-sub record">Larry Dennis Hunnewell &middot; U.S. Army &middot; Sep 1964 &ndash; Sep 1965</span>
+          <span class="site-sub record">Larry Dennis Hunnewell &middot; U.S. Army &middot; Vietnam, 1964 &ndash; 1965</span>
         </a>
       </div>
       <nav aria-label="Main">
@@ -77,10 +74,7 @@ function isCurrent(href: string): boolean {
 
     <footer class="site-footer">
       <p class="record">
-        A family history project &middot; memories preserved as given &middot; claims classified by evidence
-      </p>
-      <p class="record">
-        <a href="https://github.com/lhunnewe/larry-hunnewell-vietnam">Research archive on GitHub</a>
+        A family history project &middot; memories preserved as given
       </p>
     </footer>
   </body>

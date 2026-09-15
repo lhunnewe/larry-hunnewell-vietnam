@@ -49,25 +49,82 @@ the archive working, not failing.
 6. **Do not prime him.** Several interview questions are probes that only work if the detail
    isn't supplied first. Hypotheses that would spoil a probe live in `research/` — never in a
    field that renders on a page he browses (`title`, `description`, `researchNotes`, `summary`
-   on photo, footage, person, and place pages). `/interview/` is deliberately unlinked and
+   on photo, footage, person, and place pages). Most of those fields are parked for now (see
+   "The minimal site"), but write them as if they render: they will again. `/interview/` is deliberately unlinked and
    `noindex`; don't link it from any public page.
 7. **Negative results are results.** "Searched X, not there" is a finding worth recording with
    its date and scope — it stops the next session repeating the search. The unresolved ledger
    is full of these; keep writing them.
 
-## Before you finish
+## Before you push or merge
+
+Nothing reaches `main` — by push, merge, or the nightly export — without passing all three:
 
 ```sh
-npm run validate    # relationships, files, and method rules
-npm run build       # zod schema validation + the real build
+npm run validate          # the records: relationships, files, method rules
+npm run build             # zod schemas + the real build, then (postbuild) the check below
+npm run check:published   # the BUILT pages in dist/: what GitHub Pages will serve
 ```
 
-`npm run validate` also runs before `build`. Errors are archive corruption — a dangling
-reference, a lost scan, an ID that moved. Warnings are method drift — an elevated claim with no
-citation, an interview probe in a rendered field, an unsurveyed photo. Neither is auto-fixable:
-every fix is a judgment about evidence, so read them, don't silence them.
+`npm run build` runs all three (`prebuild` validates, `postbuild` checks the output), so a clean
+build is the gate. Run it before every commit you intend to push, and read its output; do not
+push on a failure, and never skip or weaken a check to get past one.
+
+- **`validate`** errors are archive corruption — a dangling reference, a lost scan, an ID that
+  moved. Warnings are method drift — an elevated claim with no citation, an interview probe in a
+  rendered field, an unsurveyed photo.
+- **`check:published`** (`scripts/check-published.mjs`) reads every built page except
+  `/interview/` and fails on: a link into a parked section; an evidence badge or research-notes
+  section; an interview-probe term (`scripts/spoiler-terms.mjs`, shared with the validator) or a
+  publish-only term (unit designations, the held Stars and Stripes and crash names, file paths,
+  ledger and issue numbers, interview apparatus, health and benefits details); anything shaped
+  like an SSN, service number, phone, email, street address or date of birth; text from a parked
+  field; or the text of a held recollection. Larry's own transcribed words are exempt from the
+  term checks (a probe he answers himself is answered) — a paraphrase is not.
+- **CI enforces it.** The deploy workflow's build runs `postbuild`, so a failure stops the
+  publish, including after an export. `.github/workflows/check.yml` runs the same build on every
+  pull request and every non-`main` branch: merge only when it is green.
+
+None of it is auto-fixable: every fix is a judgment about evidence, so read the failures, don't
+silence them. If a term has become safe because Larry has said it himself, retire it in the list
+with a dated comment saying so.
 
 Known open drift is listed at the bottom of this file.
+
+## The minimal site
+
+Since 2026-09-14 the public site is held to **Home, Photographs, Footage, Drawings and Tell a
+Story**, until Larry's service file comes back from NPRC (SF-180 mailed 2026-08-17; the certified
+receipt came back about 2026-09-09; no reply expected soon). An audit that day found the other
+pages carrying stale claims (the "118th AOD" brief, a KIA date that contradicts his departure),
+answers to open cold questions, and private details (a living widow's name, an old street
+address, VA and medical specifics). Findings, page by page: `research/site-audit-2026-09-14.md`.
+
+What renders now, and nothing else:
+
+| Page | Shows |
+|---|---|
+| Photograph | the scan, `title` (hedged to his words), Larry's recollections, the comment box |
+| Film clip | the clip, Larry's recollections, the comment box |
+| Drawing | the sheet, `title`, `drawnDisplay`, `labels`, Larry's recollections, the comment box |
+| Home, indexes, Tell a Story | short fixed text written in the templates |
+
+Under each recollection only its date renders (`recordedLine`), not its provenance.
+`description`, `researchNotes`, `summary`, `provenance`, dates, places, people, evidence badges
+and citations all stay on the records and do not render. Keep writing them — they are the
+archive — but a field that does not render is still in the public repository, so rule 6 and the
+privacy rule still apply to it.
+
+- **Parked pages** are `src/pages/_*.astro` and `src/pages/_people/`, `_places/`, `_research/`
+  (Astro does not build `_`-prefixed files). They are not deleted; IDs, slugs and giscus
+  threads are untouched. **To bring one back:** work through its entries in the audit file, then
+  rename it without the underscore, add it back to the nav in `src/layouts/BaseLayout.astro`,
+  remove it from `PARKED_SECTIONS` in `scripts/check-published.mjs`, and get a clean build.
+  Restore a page because its content has been checked, not because a record arrived.
+- **Held recollections.** A recollection with a `hold` (a sentence saying why) never renders —
+  use it for a report that would hand Larry the answer to a question still to be put to him,
+  typically his son's account of what he said while drawing. The record's words are unchanged;
+  the exporter preserves `hold` like `fidelity`. Delete the field once the question is asked.
 
 ## What is enforced automatically
 
@@ -92,6 +149,7 @@ and provenance — not an edit to the old one.
 | Larry's words | `larrysRecollection` on the record, or a `data/recollections/` record with `fidelity` and `provenance` |
 | A drawing he made | `data/drawings/` with the next `VD-####`, the capture file unrenamed in `originals/`, every legible word on the sheet in `labels`, in capitals, spelled as written, and `provenance` saying what was not recorded. An inscription with any letter you cannot read stays out of `labels` whole and is noted in `description`. A word found later, or one he confirms, is added by editing the JSON outside the Edit tool, in a commit that says so |
 | A paraphrase of what he said | a recollections record with `fidelity: "paraphrase"` — never in `larrysRecollection` |
+| A report that would answer a question he has not yet been asked | the recollection record as usual, plus `hold` saying which question — it will not render |
 | Analysis, a hypothesis, a contradiction | `researchNotes` — but see rule 6 before writing it to a rendered field |
 | A working search, leads, transcriptions | `research/<area>/<slug>.md`, dated, with provenance |
 | An open question | `research/unresolved/README.md` **and** a GitHub issue |
@@ -141,9 +199,16 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-- **The public research page lists six questions; the ledger holds thirty-eight.** Closing that
-  gap is authorship, not bookkeeping: several ledger questions cannot be published as written
-  without breaking rule 6.
+  Current case: the stories comment `giscus-stories-c18442696.json` (recorded 2026-09-15 UTC,
+  "I'm not sure. he was a Lieutenant Colonel.") answers the first of the two cold van
+  follow-ups, and neither guide nor the ledger says so yet.
+- **Nine sections are parked with their problems unfixed** (`research/site-audit-2026-09-14.md`).
+  The records behind them still carry what the audit found — stale next-steps, the brief's
+  118th wording in summaries, privacy details in `data/people/ron-tototz.json` and
+  `data/sources/` — which matters again the moment a page is restored.
+- **The research page (now parked) listed six questions; the ledger holds thirty-eight.**
+  Closing that gap is authorship, not bookkeeping: several ledger questions cannot be published
+  as written without breaking rule 6.
 - **Not every ledger question has an issue, and not every issue has a ledger entry**, though
   the rule above says both are required.
 

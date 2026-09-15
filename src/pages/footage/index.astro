@@ -6,41 +6,21 @@ import { withBase } from '../../lib/paths';
 const videos = (await getCollection('videos')).sort((a, b) =>
   a.data.videoId.localeCompare(b.data.videoId)
 );
-const cataloged = videos.filter((v) => v.data.cataloged).length;
 ---
 
 <BaseLayout
   title="Film Footage"
-  description="Larry's 8mm movie film from Vietnam, 1964-1965, digitized and awaiting his memories."
+  description="Larry's 8mm movie film from Vietnam, 1964-1965."
 >
   <span class="eyebrow">Moving pictures</span>
   <h1>Film Footage</h1>
   <p class="lede">
     Besides his slides, Larry brought home 8mm movie film — about twenty-two minutes of it,
-    including scenes of Saigon. The reels were digitized at home in 2009 by projecting them on a
+    The reels were digitized at home in 2009 by projecting them on a
     wall and re-filming the projection, and that transfer is what plays below, cleaned up as far
     as software allows. Each clip has a permanent archive number and its own
     <strong>Memories</strong> box for what Larry remembers of it.
   </p>
-  <p class="record">
-    {videos.length} clip{videos.length === 1 ? '' : 's'} &middot; {cataloged} cataloged so far
-    &middot; nothing about an uncataloged clip is guessed
-  </p>
-
-  <aside class="family-note">
-    <p class="record note-heading">Note to the family — the film can look far better than this</p>
-    <p>
-      These web copies come from the 2009 wall transfer, and no software can put back what that
-      capture lost. If the original 8mm reels still exist, a professional
-      <strong>frame-by-frame scan</strong> would recover true colors, full sharpness, and steady
-      frames — far beyond anything recoverable from the wall capture. It costs roughly
-      <strong>$20&ndash;30 per 50-ft reel</strong> (this footage is about six reels) from mail-in
-      services like <a href="https://www.scancafe.com/">ScanCafe</a> or
-      <a href="https://legacybox.com/">LegacyBox</a>, or from a local camera shop. First step:
-      find out whether the reels survived.
-    </p>
-  </aside>
-
   <ul class="video-grid">
     {videos.map((video) => (
       <li>
@@ -56,7 +36,7 @@ const cataloged = videos.filter((v) => v.data.cataloged).length;
             <span class="play-mark" aria-hidden="true">&#9654;</span>
           </span>
           <span class="record video-id">{video.data.videoId}</span>
-          <span class="video-title">{video.data.title}</span>
+          {video.data.cataloged && <span class="video-title">{video.data.title}</span>}
         </a>
       </li>
     ))}
@@ -78,22 +58,6 @@ const cataloged = videos.filter((v) => v.data.cataloged).length;
     font-size: 1.15rem;
   }
 
-  .family-note {
-    border: 1px dashed var(--signal);
-    background: var(--paper-deep);
-    padding: 1.2rem 1.4rem;
-    max-width: var(--measure);
-    margin: 2rem 0;
-  }
-
-  .note-heading {
-    color: var(--signal);
-    margin: 0 0 0.6rem;
-  }
-
-  .family-note p {
-    margin: 0;
-  }
 
   .video-grid {
     list-style: none;

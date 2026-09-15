@@ -30,6 +30,35 @@ export function attributionFor(fidelity?: Fidelity): string {
   }
 }
 
+/**
+ * The recollections that may render on a page Larry browses: every record
+ * except those under a `hold`, in the order they were recorded (ties broken by
+ * id, so a rebuild never reshuffles the page).
+ */
+export function shownRecollections(
+  recollections: CollectionEntry<'recollections'>[]
+): CollectionEntry<'recollections'>[] {
+  return recollections
+    .filter((r) => !r.data.hold)
+    .sort((a, b) => a.data.recorded.localeCompare(b.data.recorded) || a.id.localeCompare(b.id));
+}
+
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+/**
+ * The one line of provenance shown under a recollection: when it was
+ * recorded. The full provenance (accounts, discussion links, how the call was
+ * captured) stays on the record for the archive and is not rendered.
+ */
+export function recordedLine(recorded: string): string {
+  const m = recorded.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return `Recorded ${recorded}`;
+  return `Recorded ${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}`;
+}
+
 const normalize = (text: string) => text.replace(/\s+/g, ' ').trim().toLowerCase();
 
 /** Below this, a containment match is coincidence rather than a copy. */
