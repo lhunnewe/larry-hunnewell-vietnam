@@ -115,6 +115,22 @@ and citations all stay on the records and do not render. Keep writing them — t
 archive — but a field that does not render is still in the public repository, so rule 6 and the
 privacy rule still apply to it.
 
+**`researchNotes` stays unrendered even when pages come back** (decided 2026-09-14). It is the
+archive's working field: cross-references, file paths and ledger numbers belong there and need
+not be stripped. The fields that will render again — `title`, `description`, `summary`, `name`,
+`role`, timeline `displayDate`, sources `notes` — must read cleanly to Larry: no file paths,
+ledger or issue numbers, or interview talk.
+
+**The comment boxes load GitHub Discussions live**, so the build cannot check them. A comment
+that must come off the site is hidden on GitHub (minimized as outdated, which giscus shows as
+"This comment was minimized"; reversible), as well as held in its record. Hidden so far: the
+2026-08-15 VN-0023 prisoner paraphrase, and the four comments telling the VN-0157 story.
+
+**VN-0157** (the family's decision, 2026-09-14): the photograph stays public; the story of the
+injury is held — its four recollections (on VN-0157, VN-0041 and the stories page) carry a
+`hold`, their comments are hidden, and the title is neutral. Lift all three together when the
+family decides to show it (#22).
+
 - **Parked pages** are `src/pages/_*.astro` and `src/pages/_people/`, `_places/`, `_research/`
   (Astro does not build `_`-prefixed files). They are not deleted; IDs, slugs and giscus
   threads are untouched. **To bring one back:** work through its entries in the audit file, then
@@ -123,8 +139,9 @@ privacy rule still apply to it.
   Restore a page because its content has been checked, not because a record arrived.
 - **Held recollections.** A recollection with a `hold` (a sentence saying why) never renders —
   use it for a report that would hand Larry the answer to a question still to be put to him,
-  typically his son's account of what he said while drawing. The record's words are unchanged;
-  the exporter preserves `hold` like `fidelity`. Delete the field once the question is asked.
+  typically his son's account of what he said while drawing — or for a story the family has
+  chosen not to show yet. The record's words are unchanged; the exporter preserves `hold` like
+  `fidelity`. Delete the field once the question is asked or the family decides.
 
 ## What is enforced automatically
 
@@ -199,9 +216,6 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-  Current case: the stories comment `giscus-stories-c18442696.json` (recorded 2026-09-15 UTC,
-  "I'm not sure. he was a Lieutenant Colonel.") answers the first of the two cold van
-  follow-ups, and neither guide nor the ledger says so yet.
 - **Nine sections are parked with their problems unfixed** (`research/site-audit-2026-09-14.md`).
   The records behind them still carry what the audit found — stale next-steps, the brief's
   118th wording in summaries, privacy details in `data/people/ron-tototz.json` and

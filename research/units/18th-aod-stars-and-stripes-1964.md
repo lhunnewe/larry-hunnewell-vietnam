@@ -206,6 +206,25 @@ the hold: who commanded his own small unit (the item prints a commanding major),
 small unit had a name or number of its own. **The hold stays**, by the family's decision the same
 day.
 
+**The first follow-up, answered 2026-09-15.** "Who was the commanding officer of your unit?",
+typed on the stories page as he answered (`transcribed`,
+`data/recollections/giscus-stories-c18442696.json`): **"I'm not sure. he was a Lieutenant
+Colonel."** Not recorded: the setting, whether anything was said first, or whether the "I don't
+know" line was used.
+
+| Probe | Larry | The caption, 24 Oct 1964 | Result |
+|---|---|---|---|
+| Commanding officer of his unit | "I'm not sure. he was a Lieutenant Colonel." | Maj. William D. Phillips, commanding the 18th AOD | **No match on rank; no name.** Hedged by him first. |
+
+**Not a contradiction.** Readings, none preferred: a lieutenant colonel over his unit at the next
+level up (the detachment sat under a command chain, and a battalion or group commander would be a
+lieutenant colonel); a different commander in his months than in October 1964 (tension 3); or a
+guessed rank, which "I'm not sure" allows. Like the 2026-09-13 answers, it adds no support to the
+identification and takes none away. **Research only:** who commanded the next echelons above the
+18th AOD in 1964–65, and whether Phillips was succeeded or promoted during Larry's tour. **Safe to
+ask, because the rank is his word:** whether the lieutenant colonel's name comes back — offer no
+name. The unit name-or-number follow-up is still unasked.
+
 ## Scoped negatives, 2026-09-12
 
 - Pacific S&S keyword searches, 1963–66: `aviation operating detachment` (8 hits, none relevant),

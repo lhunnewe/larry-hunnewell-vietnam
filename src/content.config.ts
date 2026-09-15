@@ -248,8 +248,9 @@ const recollections = defineCollection({
      * Why this record is kept off every rendered page, when it is. A hold is
      * for a report that would hand Larry the answer to a question still to be
      * put to him (rule 6) — typically his son's account of what he said while
-     * drawing, awaiting a (validate) question. The record itself is unchanged;
-     * lift the hold by deleting this field once the question has been asked.
+     * drawing, awaiting a (validate) question — or for a story the family has
+     * decided not to show yet. The record itself is unchanged; lift the hold by
+     * deleting this field once the question is asked or the family decides.
      */
     hold: z.string().optional(),
     researchNotes: z.string().optional(),

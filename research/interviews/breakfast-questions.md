@@ -74,10 +74,10 @@ The order is by *what the setting allows*, not by when the question was written.
 
 ## If you only get ten minutes
 
-1. **The van — two cold follow-ups** *(NEW 2026-09-13; say no names, ranks, numbers or units)*:
-   *"Who was the commanding officer of your unit?"* · *"Your own small unit — did it have a name
-   or a number of its own?"* · *"You mentioned C Street — what was that?"* *("I don't know" is a
-   good answer. See Tier 1.)*
+1. **The van — the cold follow-ups** *(NEW 2026-09-13; say no names, ranks, numbers or units)*:
+   *"Your own small unit — did it have a name or a number of its own?"* · *"You mentioned C
+   Street — what was that?"* · *"You said the commanding officer was a lieutenant colonel — does
+   his name come back?"* *("I don't know" is a good answer. See Tier 1.)*
 2. **The Russian at Subic Bay** — anything more about him. *(new, checkable, and it dates him)*
 3. **The chaplain's book** — what kind of book was it? *(the only paper trail we have)*
 4. **The pictures of the My Canh blown up** — you said you took some the next day; where might
@@ -119,14 +119,17 @@ What remains here is what he did not answer, plus **four new questions his answe
 > Aviation", a big host company, with his own unit "so small, I don't think we even had a
 > medic". Two follow-ups replace them, and **the article stays off every page he browses.**
 
-- [ ] **ASK BEFORE ANYTHING ELSE ABOUT THE UNIT — two cold follow-ups to the van questions.**
+- [ ] **ASK BEFORE ANYTHING ELSE ABOUT THE UNIT — the cold follow-ups to the van questions.**
   *(ledger #2, #8, #13 — NEW 2026-09-13)*
-  *"Who was the commanding officer of your unit — the man over all of you?"* ·
   *"You said your own unit was so small it didn't have a medic. Did it have a name or a number of
   its own?"*
+  **The first follow-up, "Who was the commanding officer of your unit?", was answered on
+  2026-09-15** ("I'm not sure. he was a Lieutenant Colonel." — see "Answered"). Safe next, because
+  the rank is his own word: *"You said he was a lieutenant colonel — does his name come back?"*
+  **Offer no name and no other rank**, and don't ask whether he was sure.
   **The 1964 item that named the men in the van also names the detachment and a commanding
   officer.** He said on 2026-09-13 that officers left the van crew alone, so **"I don't know" is a
-  good answer**; write it down and don't press. For the second question, he has already named
+  good answer**; write it down and don't press. For the unit question, he has already named
   the *host* ("18th Aviation"), and this asks about his *own* small unit. **Offer no number, no
   "AOD", no "detachment", and not the 118th.** If he gives 18th Aviation again, that is his
   answer; do not ask a third way. **Whatever number he gives is the first capture of his own
@@ -414,6 +417,24 @@ without the answer in them.
 
 Kept for provenance. Nothing here needs asking again; **open follow-ups have been promoted
 into the tiers above**, and are noted here so the trail is readable.
+
+### The stories comment of 2026-09-15 — who commanded his unit
+
+Posted to the stories page by his son, typed as Larry answered (transcribed,
+`data/recollections/giscus-stories-c18442696.json`; recorded 2026-09-15, a UTC date). The comment carries the question as the ten-minute list worded
+it. **Not recorded:** whether it was a telephone call or at the table, whether anything else was
+said or shown first, and whether the "I don't know" opening line was used.
+
+- [X] **Who was the commanding officer of your unit?**
+
+  > I'm not sure. he was a Lieutenant Colonel.
+
+  **A hedged rank and no name.** He opens with "I'm not sure", which is the answer the guide asked
+  for, and then offers a rank. The printed detachment's commander was a **major**, so this is a
+  **non-match on rank, recorded as a non-match and never as a contradiction**: a lieutenant
+  colonel may be a man over his unit at another level, or the rank may be a guess. Comparison:
+  `research/units/18th-aod-stars-and-stripes-1964.md`, "The cold probes". **Follow-up promoted to
+  tier 1:** does the lieutenant colonel's name come back — offer no name.
 
 ### The telephone call of 2026-09-13 — the four cold van questions
 

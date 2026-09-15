@@ -833,6 +833,13 @@ Open questions:
    same caveat covers the brief's "110 men", pathfinders and clearances. Rations: his son's
    summary that volunteering for the mountain is why Larry drew rations outside the mess hall
    (`2026-09-13-son-mountain-rations.json`, paraphrase).*
+   *2026-09-15 — **WHO COMMANDED: "I'm not sure. he was a Lieutenant Colonel."** The first cold
+   follow-up, typed on the stories page as he answered (transcribed,
+   `giscus-stories-c18442696.json`; setting and what was said first not recorded). A hedged rank,
+   no name. The printed 18th AOD commander was a major: **a non-match on rank, not a
+   contradiction** (a lieutenant colonel one echelon up, a later commander, or a guess all fit).
+   Assessment unchanged. Next, safe because the rank is his word: does the name come back (offer
+   none). The unit name-or-number follow-up is still unasked. Comparison: `research/units/18th-aod-stars-and-stripes-1964.md`.*
 3. **"Thom Son Nuht"** — identify the remembered Company Headquarters location. Hypothesis:
    Tân Sơn Nhứt. Consider other phonetic matches before settling. *2026-08-13: in his own
    comments Larry writes it "Ton Son Nuht" and names it as the headquarters he radioed from
