@@ -9,7 +9,9 @@ import { withBase } from '../lib/paths';
 // restoring it is a rename. Rules for this page, because Larry reads it: define a term from
 // his own words or a document, never from the machine reading of a photograph; name no unit
 // designation (his unit is an open question put to him cold); describe no emblem or patch;
-// no health or benefits details; link no parked section except research and sources.
+// no health or benefits details; link no parked section. Restored 2026-09-15 with its two
+// Research links, the VA claim-file sentence and "or operations center" (too close to a
+// withheld unit term) taken out.
 
 interface Term {
   id: string;
@@ -40,7 +42,7 @@ const sections: { title: string; terms: Term[] }[] = [
         id: 'van',
         term: 'Van',
         expansion: 'radio van',
-        def: 'Not a road vehicle. In the Army signal world a "van" is a rigid box-body shelter, hauled by truck or set on the ground, fitted out inside as a radio room or operations center. VN-0011 shows the outside of the van Larry did his radio work in, and VN-0014 the inside; in VN-0015 he is starting a twelve-hour night shift there alone.',
+        def: 'Not a road vehicle. In the Army signal world a "van" is a rigid box-body shelter, hauled by truck or set on the ground, fitted out inside as a radio room. VN-0011 shows the outside of the van Larry did his radio work in, and VN-0014 the inside; in VN-0015 he is starting a twelve-hour night shift there alone.',
         photos: ['vn-0011', 'vn-0014', 'vn-0015'],
       },
     ],
@@ -70,7 +72,6 @@ const sections: { title: string; terms: Term[] }[] = [
         id: 'stars-and-stripes',
         term: 'Stars and Stripes',
         def: 'The U.S. military\'s own daily newspaper, printed for service members overseas. In the Army hospital in Japan in 1965, Larry saw himself listed in it as killed in action — the story at the center of this archive.',
-        link: { href: '/research/', label: 'Research' },
       },
       {
         id: 'apo',
@@ -97,8 +98,7 @@ const sections: { title: string; terms: Term[] }[] = [
         id: 'service-records',
         term: 'DD-214, SF-180, NPRC',
         expansion: 'service records',
-        def: 'The DD-214 is the one-page paper every soldier receives on leaving the service: dates, specialty, decorations, last assignment. The family\'s copy of Larry\'s turned up in August 2026; it names his last assignment, in Japan, but not his unit in Vietnam. The SF-180 is the form a veteran signs to ask the National Personnel Records Center (NPRC), in St. Louis, for his full service file. Larry\'s was mailed on 17 August 2026 and its delivery was confirmed in September; no reply has come yet. A veteran\'s claim file at the VA, kept under a VA file number, can hold copies of some of the same records.',
-        link: { href: '/research/', label: 'Research' },
+        def: 'The DD-214 is the one-page paper every soldier receives on leaving the service: dates, specialty, decorations, last assignment. The family\'s copy of Larry\'s turned up in August 2026; it names his last assignment, in Japan, but not his unit in Vietnam. The SF-180 is the form a veteran signs to ask the National Personnel Records Center (NPRC), in St. Louis, for his full service file. Larry\'s was mailed on 17 August 2026 and its delivery was confirmed in September; no reply has come yet.',
       },
       {
         id: 'service-number',

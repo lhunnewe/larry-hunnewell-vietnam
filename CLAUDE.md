@@ -100,6 +100,17 @@ pages carrying stale claims (the "118th AOD" brief, a KIA date that contradicts 
 answers to open cold questions, and private details (a living widow's name, an old street
 address, VA and medical specifics). Findings, page by page: `research/site-audit-2026-09-14.md`.
 
+**On 2026-09-15 Larry's Story, People, Places and Glossary came back**, after the audit's cleanup
+and a page-by-page read of the restored build with his son. **Timeline, Units, Research and
+Sources stay parked**: the timeline's dates are research estimates, Units is a placeholder, and
+Research and Sources are research by nature. His son's decisions that day: hold the "450
+civilians" story (below); hold the founding-brief paraphrases and the "su-ners" call summary;
+show Ron under the documented spelling Totosz (his "Tototz" as an alias); keep "Ton Son Nuht" as
+his spelling, with the Tân Sơn Nhứt identification off the page until a document settles it;
+show his own words about his illness and the hospital. `2026-call-japan-medevac.json` stays held,
+because its specifics (stool, urine) go beyond what was shown to him and it touches the Ginza
+question.
+
 What renders now, and nothing else:
 
 | Page | Shows |
@@ -107,7 +118,9 @@ What renders now, and nothing else:
 | Photograph | the scan, `title` (hedged to his words), Larry's recollections, the comment box |
 | Film clip | the clip, Larry's recollections, the comment box |
 | Drawing | the sheet, `title`, `drawnDisplay`, `labels`, Larry's recollections, the comment box |
-| Home, indexes, Tell a Story | short fixed text written in the templates |
+| Person | `name`, `role`, `aliases`, the recollections that name them, their places and drawings, the comment box |
+| Place | `name`, `alternateNames`, coordinates, its people, photographs and drawings, the recollections that name it, the comment box |
+| Home, indexes, Tell a Story, Larry's Story, Glossary | short fixed text written in the templates |
 
 Under each recollection only its date renders (`recordedLine`), not its provenance.
 `description`, `researchNotes`, `summary`, `provenance`, dates, places, people, evidence badges
@@ -124,12 +137,20 @@ ledger or issue numbers, or interview talk.
 **The comment boxes load GitHub Discussions live**, so the build cannot check them. A comment
 that must come off the site is hidden on GitHub (minimized as outdated, which giscus shows as
 "This comment was minimized"; reversible), as well as held in its record. Hidden so far: the
-2026-08-15 VN-0023 prisoner paraphrase, and the four comments telling the VN-0157 story.
+2026-08-15 VN-0023 prisoner paraphrase, the four comments telling the VN-0157 story, and (on
+2026-09-15) the four stories-page comments telling the "450 civilians" story.
 
 **VN-0157** (the family's decision, 2026-09-14): the photograph stays public; the story of the
 injury is held — its four recollections (on VN-0157, VN-0041 and the stories page) carry a
 `hold`, their comments are hidden, and the title is neutral. Lift all three together when the
 family decides to show it (#22).
+
+**The "450 civilians" story** (the family's decision, 2026-09-15) is held: the curated paraphrase
+and his four stories-page comments (`giscus-stories-c18006791`, `-c18006833`, `-c18006851`,
+`-c18259364`). The last carries his whole 3 September account (the accusation, the medevac route,
+the KIA list, the chaplain), so those details leave the person and place pages with it. His
+campfire records do not mention the accusation and still render. The four comments are hidden on
+GitHub (discussion #32). Lift the holds and unhide the comments together.
 
 - **Parked pages** are `src/pages/_*.astro` and `src/pages/_people/`, `_places/`, `_research/`
   (Astro does not build `_`-prefixed files). They are not deleted; IDs, slugs and giscus
@@ -216,12 +237,13 @@ What the validator cannot see, and what is actually behind:
   *content*, so answers sit there while `research/unresolved/README.md`, the GitHub issues,
   `src/pages/research.astro` and the interview guide still list the question as open. After
   any export, read the new records for what they answer, not only for who said them.
-- **Nine sections are parked, cleaned but not restored** (`research/site-audit-2026-09-14.md`).
-  A restore test passes except for the source `notes`, and the restored templates do not yet
-  render person/place `summary` or timeline `description`. Family decisions still open before
-  restoring: whether those fields render; the 450-civilians event on a page he browses; medical
-  details (`2026-call-japan-medevac.json` is held pending this); the UTT/68th source titles
-  while the unit question is open; and two public research files holding private family and
+- **Four sections are still parked, cleaned but not restored** (timeline, units, research,
+  sources; `research/site-audit-2026-09-14.md`). Story, people, places and glossary came back
+  2026-09-15. A restore test of the rest passes except for the source `notes`, and the restored
+  templates do not yet render person/place `summary` or timeline `description`. Family decisions
+  still open before restoring: whether those fields render; the 450-civilians timeline event
+  (the story is held); the UTT/68th source titles while the unit question is open; and two
+  public research files holding private family and
   records detail (`research/people/hunnewell-family-newspapers.md`,
   `research/records-request/dd214-findings.md`), which may belong in `private/`.
 - **The research page (now parked) listed six questions; the ledger holds thirty-eight.**

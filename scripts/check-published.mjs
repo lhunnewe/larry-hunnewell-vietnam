@@ -35,8 +35,11 @@ if (!existsSync(DIST)) {
   process.exit(1);
 }
 
-/** Sections parked as src/pages/_*.astro while the site is held minimal. */
-const PARKED_SECTIONS = ['people', 'places', 'timeline', 'story', 'units', 'research', 'sources', 'glossary'];
+/**
+ * Sections parked as src/pages/_*.astro while the site is held minimal.
+ * story, people, places and glossary came back 2026-09-15.
+ */
+const PARKED_SECTIONS = ['timeline', 'units', 'research', 'sources'];
 
 /**
  * Terms withheld from the published site beyond the validator's probe list.

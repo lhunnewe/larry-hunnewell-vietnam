@@ -19,16 +19,20 @@ interface Props {
 const { title, description = 'The Vietnam service of Larry Dennis Hunnewell, 1964-1965. A family memoir and historical research archive.', noindex = false } = Astro.props;
 
 // The public site is held to the pictures and his words until his service
-// file comes back (SF-180, mailed 2026-08-17). The story, timeline, people,
-// places, units, research, sources and glossary pages are parked as
-// src/pages/_*.astro, which Astro does not build; renaming one back restores
-// it. See CLAUDE.md, "The minimal site".
+// file comes back (SF-180, mailed 2026-08-17). The timeline, units, research
+// and sources pages are parked as src/pages/_*.astro, which Astro does not
+// build; renaming one back restores it. Story, people, places and glossary
+// came back on 2026-09-15. See CLAUDE.md, "The minimal site".
 const nav = [
   { href: '/', label: 'Home' },
+  { href: '/story/', label: "Larry's Story" },
   { href: '/photos/', label: 'Photographs' },
   { href: '/footage/', label: 'Footage' },
   { href: '/drawings/', label: 'Drawings' },
   { href: '/memories/', label: 'Tell a Story' },
+  { href: '/places/', label: 'Places' },
+  { href: '/people/', label: 'People' },
+  { href: '/glossary/', label: 'Glossary' },
 ];
 
 const currentPath = Astro.url.pathname;
